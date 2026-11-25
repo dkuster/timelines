@@ -1,0 +1,624 @@
+{
+  "$schema": "../../schema/nodes.schema.json",
+  "collection": "nodes",
+  "version": 1,
+  "items": [
+    {
+      "id": "trotskyism",
+      "title": {"fr": "Trotskisme", "en": "Trotskyism", "de": "Trotzkismus", "draft": ["en", "de"]},
+      "type": "era",
+      "start": {"date": "1923-10-15"},
+      "ongoing": true,
+      "summary": {
+        "fr": "Le courant issu de l'Opposition de gauche : la lutte de Trotski et de ses partisans contre la bureaucratie stalinienne, la fondation de la IVe Internationale et ses prolongements après 1940.",
+        "en": "The current that grew out of the Left Opposition: the struggle of Trotsky and his supporters against the Stalinist bureaucracy, the founding of the Fourth International and its continuations after 1940.",
+        "de": "Die aus der Linken Opposition hervorgegangene Strömung: der Kampf Trotzkis und seiner Anhänger gegen die stalinistische Bürokratie, die Gründung der Vierten Internationale und ihre Fortsetzungen nach 1940.",
+        "draft": ["en", "de"]
+      },
+      "parents": [],
+      "persons": ["trotsky"],
+      "organizations": ["left-opposition", "fourth-international"],
+      "status": "draft",
+      "view": {
+        "color": "#d35400",
+        "label": {"fr": "Trotskisme", "en": "Trotskyism", "de": "Trotzkismus", "draft": ["en", "de"]},
+        "default_depth": 1,
+        "kind": "theme"
+      }
+    },
+    {
+      "id": "1923-left-opposition-in-the-ussr",
+      "title": {
+        "fr": "L'Opposition de gauche en URSS",
+        "en": "The Left Opposition in the USSR",
+        "de": "Die Linke Opposition in der UdSSR",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1923-10-15"},
+      "end": {"date": "1929-02-12"},
+      "summary": {
+        "fr": "De la Déclaration des 46 à l'expulsion de Trotski : la lutte pour la démocratie ouvrière, l'industrialisation planifiée et l'internationalisme contre la bureaucratie montante.",
+        "en": "From the Declaration of the 46 to Trotsky's expulsion: the struggle for workers' democracy, planned industrialisation and internationalism against the rising bureaucracy.",
+        "de": "Von der Erklärung der 46 bis zur Ausweisung Trotzkis: der Kampf für Arbeiterdemokratie, planmäßige Industrialisierung und Internationalismus gegen die aufsteigende Bürokratie.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "trotskyism", "order": 1},
+        {"id": "1919-communist-international-period", "deep": true}
+      ],
+      "organizations": ["left-opposition"],
+      "sources": [{"ref": "wp-en-left-opposition"}],
+      "status": "draft"
+    },
+    {
+      "id": "1929-international-left-opposition",
+      "title": {
+        "fr": "L'Opposition de gauche internationale",
+        "en": "The International Left Opposition",
+        "de": "Die Internationale Linke Opposition",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1929-02-12"},
+      "end": {"date": "1938-09-03"},
+      "summary": {
+        "fr": "Exilé, Trotski regroupe ses partisans à l'échelle mondiale, analyse le fascisme et la dégénérescence de l'URSS, puis appelle à construire une nouvelle Internationale après la victoire de Hitler.",
+        "en": "In exile, Trotsky regroups his supporters worldwide, analyses fascism and the degeneration of the USSR, then calls for a new International after Hitler's victory.",
+        "de": "Im Exil sammelt Trotzki seine Anhänger weltweit, analysiert den Faschismus und die Entartung der UdSSR und ruft nach Hitlers Sieg zum Aufbau einer neuen Internationale auf.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "trotskyism", "order": 2},
+        {"id": "1919-communist-international-period", "deep": true}
+      ],
+      "persons": ["trotsky"],
+      "organizations": ["left-opposition"],
+      "sources": [{"ref": "wp-en-international-left-opposition"}, {"ref": "yorkhistorian-trotsky-last-exile"}],
+      "status": "draft"
+    },
+    {
+      "id": "1929-trotsky-in-turkey",
+      "title": {
+        "fr": "Exil de Trotski en Turquie",
+        "en": "Trotsky's exile in Turkey",
+        "de": "Trotzkis Exil in der Türkei",
+        "draft": ["en", "de"]
+      },
+      "type": "exile",
+      "start": {"date": "1929-02-12"},
+      "end": {"date": "1933-07"},
+      "summary": {
+        "fr": "Expulsé d'URSS, Trotski s'installe sur l'île de Prinkipo, près d'Istanbul, où il écrit Ma vie et l'Histoire de la révolution russe.",
+        "en": "Expelled from the USSR, Trotsky settles on the island of Prinkipo near Istanbul, where he writes My Life and the History of the Russian Revolution.",
+        "de": "Aus der UdSSR ausgewiesen, lässt sich Trotzki auf der Insel Prinkipo bei Istanbul nieder, wo er Mein Leben und die Geschichte der Russischen Revolution schreibt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1929-international-left-opposition"}],
+      "persons": ["trotsky"],
+      "places": ["istanbul"],
+      "works": ["history-of-the-russian-revolution"],
+      "sources": [{"ref": "transcend-trotsky-prinkipo"}],
+      "status": "draft"
+    },
+    {
+      "id": "1930-permanent-revolution-publication",
+      "title": {
+        "fr": "Parution de La Révolution permanente",
+        "en": "Publication of The Permanent Revolution",
+        "de": "Erscheinen von Die permanente Revolution",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1930"},
+      "summary": {
+        "fr": "Contre la théorie des étapes, Trotski montre que dans les pays arriérés seule la dictature du prolétariat peut accomplir les tâches démocratiques, et seulement à l'échelle internationale.",
+        "en": "Against the theory of stages, Trotsky shows that in backward countries only the dictatorship of the proletariat can carry out the democratic tasks, and only on an international scale.",
+        "de": "Gegen die Etappentheorie zeigt Trotzki, dass in rückständigen Ländern nur die Diktatur des Proletariats die demokratischen Aufgaben lösen kann, und zwar nur international.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1929-international-left-opposition"}],
+      "persons": ["trotsky"],
+      "works": ["the-permanent-revolution"],
+      "sources": [{"ref": "wp-en-leon-trotsky"}],
+      "status": "draft"
+    },
+    {
+      "id": "1930-founding-of-the-international-left-opposition",
+      "title": {
+        "fr": "Fondation de l'Opposition de gauche internationale",
+        "en": "Founding of the International Left Opposition",
+        "de": "Gründung der Internationalen Linken Opposition",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1930"},
+      "summary": {
+        "fr": "Les partisans de Trotski exclus des partis communistes s'organisent en fraction internationale qui se donne pour but de redresser l'Internationale communiste.",
+        "en": "Trotsky's supporters expelled from the communist parties organise as an international faction aiming to reform the Communist International.",
+        "de": "Die aus den kommunistischen Parteien ausgeschlossenen Anhänger Trotzkis organisieren sich als internationale Fraktion mit dem Ziel, die Kommunistische Internationale wieder auf Kurs zu bringen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1929-international-left-opposition"}],
+      "persons": ["trotsky"],
+      "places": ["paris"],
+      "organizations": ["left-opposition"],
+      "sources": [{"ref": "wp-en-international-left-opposition"}],
+      "status": "draft"
+    },
+    {
+      "id": "1933-call-for-a-new-international",
+      "title": {
+        "fr": "Appel à une nouvelle Internationale",
+        "en": "Call for a new International",
+        "de": "Aufruf zu einer neuen Internationale",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1933-07"},
+      "summary": {
+        "fr": "Après la capitulation du KPD devant Hitler sans réaction de l'Internationale communiste, Trotski conclut qu'elle est perdue pour la révolution et qu'il faut construire une IVe Internationale.",
+        "en": "After the KPD capitulates to Hitler with no reaction from the Communist International, Trotsky concludes that it is lost to the revolution and a Fourth International must be built.",
+        "de": "Nachdem die KPD vor Hitler kapituliert hat, ohne dass die Kommunistische Internationale reagiert, folgert Trotzki, dass sie für die Revolution verloren ist und eine Vierte Internationale aufgebaut werden muss.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1929-international-left-opposition"}],
+      "persons": ["trotsky"],
+      "organizations": ["left-opposition"],
+      "sources": [{"ref": "transcend-trotsky-prinkipo"}, {"ref": "wp-en-international-left-opposition"}],
+      "status": "draft"
+    },
+    {
+      "id": "1933-trotsky-in-france",
+      "title": {
+        "fr": "Exil de Trotski en France",
+        "en": "Trotsky's exile in France",
+        "de": "Trotzkis Exil in Frankreich",
+        "draft": ["en", "de"]
+      },
+      "type": "exile",
+      "start": {"date": "1933-07"},
+      "end": {"date": "1935"},
+      "summary": {
+        "fr": "Trotski obtient un visa pour la France, où il vit sous surveillance et dans la semi-clandestinité.",
+        "en": "Trotsky obtains a visa for France, where he lives under surveillance and semi-clandestinely.",
+        "de": "Trotzki erhält ein Visum für Frankreich, wo er unter Überwachung und halb im Untergrund lebt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1929-international-left-opposition"}],
+      "persons": ["trotsky"],
+      "sources": [{"ref": "yorkhistorian-trotsky-last-exile"}, {"ref": "transcend-trotsky-prinkipo"}],
+      "status": "draft"
+    },
+    {
+      "id": "1935-trotsky-in-norway",
+      "title": {
+        "fr": "Exil de Trotski en Norvège",
+        "en": "Trotsky's exile in Norway",
+        "de": "Trotzkis Exil in Norwegen",
+        "draft": ["en", "de"]
+      },
+      "type": "exile",
+      "start": {"date": "1935"},
+      "end": {"date": "1936-12"},
+      "summary": {
+        "fr": "Réfugié en Norvège, Trotski y écrit La Révolution trahie ; sous la pression de Moscou, le gouvernement l'interne puis l'expulse à la fin de 1936.",
+        "en": "A refugee in Norway, Trotsky writes The Revolution Betrayed there; under pressure from Moscow, the government interns and then expels him at the end of 1936.",
+        "de": "Als Flüchtling in Norwegen schreibt Trotzki Verratene Revolution; auf Druck Moskaus interniert ihn die Regierung und weist ihn Ende 1936 aus.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1929-international-left-opposition"}],
+      "persons": ["trotsky"],
+      "works": ["the-revolution-betrayed"],
+      "sources": [{"ref": "yorkhistorian-trotsky-last-exile"}],
+      "status": "draft"
+    },
+    {
+      "id": "1936-revolution-betrayed-publication",
+      "title": {
+        "fr": "Parution de La Révolution trahie",
+        "en": "Publication of The Revolution Betrayed",
+        "de": "Erscheinen von Verratene Revolution",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1936"},
+      "summary": {
+        "fr": "Trotski analyse l'URSS comme un État ouvrier dégénéré dominé par une caste bureaucratique, que seule une révolution politique pourra renverser.",
+        "en": "Trotsky analyses the USSR as a degenerated workers' state dominated by a bureaucratic caste that only a political revolution can overthrow.",
+        "de": "Trotzki analysiert die UdSSR als entarteten Arbeiterstaat unter der Herrschaft einer bürokratischen Kaste, die nur eine politische Revolution stürzen kann.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1929-international-left-opposition"}],
+      "persons": ["trotsky"],
+      "works": ["the-revolution-betrayed"],
+      "sources": [{"ref": "wp-en-leon-trotsky"}],
+      "status": "draft"
+    },
+    {
+      "id": "1937-trotsky-in-mexico",
+      "title": {
+        "fr": "Exil de Trotski au Mexique",
+        "en": "Trotsky's exile in Mexico",
+        "de": "Trotzkis Exil in Mexiko",
+        "draft": ["en", "de"]
+      },
+      "type": "exile",
+      "start": {"date": "1937-01-09"},
+      "end": {"date": "1940-08-21"},
+      "summary": {
+        "fr": "Accueilli par le gouvernement Cárdenas, Trotski débarque à Tampico et s'installe à Coyoacán, près de Mexico.",
+        "en": "Welcomed by the Cárdenas government, Trotsky lands at Tampico and settles in Coyoacán, near Mexico City.",
+        "de": "Von der Regierung Cárdenas aufgenommen, landet Trotzki in Tampico und lässt sich in Coyoacán bei Mexiko-Stadt nieder.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "trotskyism"}, {"id": "latin-america-ideas-and-culture"}],
+      "persons": ["trotsky"],
+      "places": ["mexico-city"],
+      "sources": [{"ref": "eluniversal-trotsky-asylum-mexico"}],
+      "status": "draft"
+    },
+    {
+      "id": "1937-dewey-commission",
+      "title": {
+        "fr": "Commission Dewey",
+        "en": "Dewey Commission",
+        "de": "Dewey-Kommission",
+        "draft": ["en", "de"]
+      },
+      "type": "trial",
+      "start": {"date": "1937-04-10"},
+      "end": {"date": "1937-04-17"},
+      "summary": {
+        "fr": "Une commission présidée par le philosophe John Dewey entend Trotski à Coyoacán et conclut en septembre que les procès de Moscou sont des machinations : « non coupable ».",
+        "en": "A commission chaired by the philosopher John Dewey hears Trotsky in Coyoacán and concludes in September that the Moscow trials are frame-ups: \"not guilty\".",
+        "de": "Eine Kommission unter dem Philosophen John Dewey hört Trotzki in Coyoacán an und stellt im September fest, dass die Moskauer Prozesse Fälschungen sind: „nicht schuldig“.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1929-international-left-opposition"}, {"id": "latin-america-ideas-and-culture"}],
+      "persons": ["john-dewey", "trotsky"],
+      "places": ["mexico-city"],
+      "sources": [{"ref": "wp-en-dewey-commission"}],
+      "status": "draft"
+    },
+    {
+      "id": "1938-fourth-international-under-trotsky",
+      "title": {
+        "fr": "La IVe Internationale du vivant de Trotski",
+        "en": "The Fourth International in Trotsky's Lifetime",
+        "de": "Die Vierte Internationale zu Trotzkis Lebzeiten",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1938-09-03"},
+      "end": {"date": "1940-08-21"},
+      "summary": {
+        "fr": "Fondée sur le Programme de transition, la IVe Internationale affronte la guerre mondiale, la scission de la minorité du SWP et l'assassinat de Trotski par un agent de Staline.",
+        "en": "Founded on the Transitional Programme, the Fourth International faces the world war, the split of the SWP minority and Trotsky's murder by an agent of Stalin.",
+        "de": "Auf der Grundlage des Übergangsprogramms gegründet, sieht sich die Vierte Internationale mit dem Weltkrieg, der Abspaltung der SWP-Minderheit und der Ermordung Trotzkis durch einen Agenten Stalins konfrontiert.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "trotskyism", "order": 3},
+        {"id": "1919-communist-international-period", "deep": true}
+      ],
+      "persons": ["trotsky"],
+      "organizations": ["fourth-international"],
+      "sources": [{"ref": "wp-en-fourth-international"}],
+      "status": "draft"
+    },
+    {
+      "id": "1940-raid-on-trotskys-house",
+      "title": {
+        "fr": "Attentat contre la maison de Trotski",
+        "en": "Armed raid on Trotsky's house",
+        "de": "Überfall auf Trotzkis Haus",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1940-05"},
+      "summary": {
+        "fr": "Un commando stalinien mitraille de nuit la maison de Coyoacán ; Trotski et sa femme en réchappent.",
+        "en": "A Stalinist commando machine-guns the Coyoacán house at night; Trotsky and his wife survive.",
+        "de": "Ein stalinistisches Kommando beschießt nachts das Haus in Coyoacán mit Maschinengewehren; Trotzki und seine Frau überleben.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1938-fourth-international-under-trotsky"}, {"id": "latin-america-ideas-and-culture"}],
+      "persons": ["trotsky"],
+      "places": ["mexico-city"],
+      "sources": [{"ref": "yorkhistorian-trotsky-last-exile"}],
+      "status": "draft"
+    },
+    {
+      "id": "1940-emergency-conference-of-the-fourth-international",
+      "title": {
+        "fr": "Conférence d'alarme de la IVe Internationale",
+        "en": "Emergency Conference of the Fourth International",
+        "de": "Notkonferenz der Vierten Internationale",
+        "draft": ["en", "de"]
+      },
+      "type": "conference",
+      "start": {"date": "1940-05"},
+      "summary": {
+        "fr": "Réunie clandestinement sur le continent américain, la conférence adopte le manifeste de Trotski sur la guerre impérialiste et la révolution prolétarienne mondiale.",
+        "en": "Meeting clandestinely in the Americas, the conference adopts Trotsky's manifesto on the imperialist war and the proletarian world revolution.",
+        "de": "Die heimlich in Amerika tagende Konferenz verabschiedet Trotzkis Manifest über den imperialistischen Krieg und die proletarische Weltrevolution.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1938-fourth-international-under-trotsky"}],
+      "persons": ["trotsky"],
+      "organizations": ["fourth-international"],
+      "sources": [{"ref": "wp-en-fourth-international"}],
+      "status": "draft"
+    },
+    {
+      "id": "1940-fourth-international-after-trotsky",
+      "title": {
+        "fr": "Le trotskisme après Trotski",
+        "en": "Trotskyism after Trotsky",
+        "de": "Trotzkismus nach Trotzki",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1940-08-21"},
+      "ongoing": true,
+      "summary": {
+        "fr": "Désorientée par l'issue de la guerre, la IVe Internationale se divise ; la tendance animée par Ted Grant défend la méthode de Trotski et construit Militant, puis la TMI, devenue l'ICR.",
+        "en": "Disoriented by the outcome of the war, the Fourth International divides; the tendency led by Ted Grant defends Trotsky's method and builds Militant, then the IMT, which became the RCI.",
+        "de": "Vom Ausgang des Krieges desorientiert, spaltet sich die Vierte Internationale; die von Ted Grant geführte Tendenz verteidigt Trotzkis Methode und baut Militant auf, dann die IMT, heute RCI.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "trotskyism", "order": 4}, {"id": "marxism", "deep": true}],
+      "persons": ["ted-grant"],
+      "organizations": ["fourth-international"],
+      "sources": [{"ref": "wp-en-fourth-international"}, {"ref": "wp-en-ted-grant"}],
+      "status": "draft"
+    },
+    {
+      "id": "1944-founding-of-the-rcp-uk",
+      "title": {
+        "fr": "Fondation du Revolutionary Communist Party britannique",
+        "en": "Founding of the British Revolutionary Communist Party",
+        "de": "Gründung der britischen Revolutionary Communist Party",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1944-03"},
+      "summary": {
+        "fr": "La fusion de la Workers' International League et des autres trotskistes britanniques donne naissance au RCP, dont Ted Grant est le principal théoricien.",
+        "en": "The merger of the Workers' International League and the other British Trotskyists creates the RCP, whose main theoretician is Ted Grant.",
+        "de": "Aus dem Zusammenschluss der Workers' International League mit den übrigen britischen Trotzkisten entsteht die RCP, deren wichtigster Theoretiker Ted Grant ist.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1940-fourth-international-after-trotsky"}],
+      "persons": ["ted-grant"],
+      "places": ["london"],
+      "organizations": ["rcp-uk-1944"],
+      "sources": [{"ref": "wp-en-rcp-uk-1944"}],
+      "status": "draft"
+    },
+    {
+      "id": "1948-second-world-congress-of-the-fourth-international",
+      "title": {
+        "fr": "IIe congrès mondial de la IVe Internationale",
+        "en": "Second World Congress of the Fourth International",
+        "de": "II. Weltkongress der Vierten Internationale",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1948-04"},
+      "summary": {
+        "fr": "Le congrès réunit les délégués de 22 sections dans une période où la direction internationale refuse d'admettre la stabilisation d'après-guerre.",
+        "en": "The congress brings together delegates from 22 sections at a time when the international leadership refuses to acknowledge the post-war stabilisation.",
+        "de": "Der Kongress vereint Delegierte aus 22 Sektionen zu einer Zeit, in der die internationale Führung die Stabilisierung der Nachkriegszeit nicht anerkennen will.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1940-fourth-international-after-trotsky"}],
+      "organizations": ["fourth-international"],
+      "sources": [{"ref": "wp-en-fourth-international"}],
+      "status": "draft"
+    },
+    {
+      "id": "1951-third-world-congress-of-the-fourth-international",
+      "title": {
+        "fr": "IIIe congrès mondial de la IVe Internationale",
+        "en": "Third World Congress of the Fourth International",
+        "de": "III. Weltkongress der Vierten Internationale",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1951"},
+      "summary": {
+        "fr": "Sous l'impulsion de Pablo, le congrès reconnaît les États d'Europe de l'Est comme États ouvriers déformés et adopte l'entrisme de longue durée dans les partis staliniens.",
+        "en": "Led by Pablo, the congress recognises the Eastern European states as deformed workers' states and adopts long-term entryism into the Stalinist parties.",
+        "de": "Unter Pablos Führung erkennt der Kongress die osteuropäischen Staaten als deformierte Arbeiterstaaten an und beschließt den langfristigen Entrismus in die stalinistischen Parteien.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1940-fourth-international-after-trotsky"}],
+      "organizations": ["fourth-international"],
+      "sources": [{"ref": "wp-en-fourth-international"}],
+      "status": "draft"
+    },
+    {
+      "id": "1953-split-of-the-fourth-international",
+      "title": {
+        "fr": "Scission de la IVe Internationale",
+        "en": "Split of the Fourth International",
+        "de": "Spaltung der Vierten Internationale",
+        "draft": ["en", "de"]
+      },
+      "type": "split",
+      "start": {"date": "1953-11"},
+      "summary": {
+        "fr": "Par une lettre ouverte, le SWP américain rompt avec Pablo et fonde avec d'autres sections le Comité international, face au Secrétariat international.",
+        "en": "In an open letter, the American SWP breaks with Pablo and founds the International Committee with other sections, against the International Secretariat.",
+        "de": "Mit einem offenen Brief bricht die amerikanische SWP mit Pablo und gründet mit anderen Sektionen das Internationale Komitee gegen das Internationale Sekretariat.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1940-fourth-international-after-trotsky"}],
+      "persons": ["james-p-cannon"],
+      "organizations": ["fourth-international", "socialist-workers-party-us"],
+      "sources": [{"ref": "wp-en-fourth-international"}],
+      "status": "draft"
+    },
+    {
+      "id": "1963-reunification-of-the-fourth-international",
+      "title": {
+        "fr": "Réunification de la IVe Internationale",
+        "en": "Reunification of the Fourth International",
+        "de": "Wiedervereinigung der Vierten Internationale",
+        "draft": ["en", "de"]
+      },
+      "type": "merger",
+      "start": {"date": "1963-06"},
+      "summary": {
+        "fr": "La majorité des deux fractions se réunifie dans le Secrétariat unifié ; une partie du Comité international refuse.",
+        "en": "The majority of both factions reunites in the United Secretariat; part of the International Committee refuses.",
+        "de": "Die Mehrheit beider Fraktionen vereinigt sich im Vereinigten Sekretariat; ein Teil des Internationalen Komitees lehnt ab.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1940-fourth-international-after-trotsky"}],
+      "organizations": ["fourth-international"],
+      "sources": [{"ref": "wp-en-fourth-international"}],
+      "status": "draft"
+    },
+    {
+      "id": "1964-founding-of-militant",
+      "title": {
+        "fr": "Premier numéro de Militant",
+        "en": "First issue of Militant",
+        "de": "Erste Ausgabe von Militant",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1964-10"},
+      "summary": {
+        "fr": "Ted Grant et ses camarades lancent le journal Militant, qui devient la tendance marxiste la plus implantée du Parti travailliste.",
+        "en": "Ted Grant and his comrades launch the Militant newspaper, which becomes the most deeply rooted Marxist tendency in the Labour Party.",
+        "de": "Ted Grant und seine Genossen gründen die Zeitung Militant, die zur am stärksten verankerten marxistischen Tendenz in der Labour Party wird.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1940-fourth-international-after-trotsky"}],
+      "persons": ["ted-grant"],
+      "places": ["london"],
+      "organizations": ["militant-tendency"],
+      "sources": [{"ref": "wp-en-militant-tendency"}],
+      "status": "draft"
+    },
+    {
+      "id": "1974-founding-of-the-cwi",
+      "title": {
+        "fr": "Fondation du Comité pour une Internationale ouvrière",
+        "en": "Founding of the Committee for a Workers' International",
+        "de": "Gründung des Komitees für eine Arbeiterinternationale",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1974"},
+      "summary": {
+        "fr": "La tendance Militant se dote d'une organisation internationale regroupant ses partisans dans plusieurs pays.",
+        "en": "The Militant tendency creates an international organisation grouping its supporters in several countries.",
+        "de": "Die Militant-Tendenz gründet eine internationale Organisation, die ihre Anhänger in mehreren Ländern zusammenfasst.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1940-fourth-international-after-trotsky"}],
+      "persons": ["ted-grant"],
+      "organizations": ["cwi", "militant-tendency"],
+      "sources": [{"ref": "wp-en-militant-tendency"}],
+      "status": "draft"
+    },
+    {
+      "id": "1983-expulsion-of-the-militant-editorial-board",
+      "title": {
+        "fr": "Exclusion du comité de rédaction de Militant",
+        "en": "Expulsion of the Militant editorial board",
+        "de": "Ausschluss der Militant-Redaktion",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1983-02-22"},
+      "summary": {
+        "fr": "La direction du Parti travailliste exclut Ted Grant, Peter Taaffe et trois autres membres du comité de rédaction de Militant.",
+        "en": "The Labour Party leadership expels Ted Grant, Peter Taaffe and three other members of the Militant editorial board.",
+        "de": "Die Führung der Labour Party schließt Ted Grant, Peter Taaffe und drei weitere Mitglieder der Militant-Redaktion aus.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1940-fourth-international-after-trotsky"}],
+      "persons": ["ted-grant"],
+      "places": ["london"],
+      "organizations": ["militant-tendency"],
+      "sources": [{"ref": "wp-en-militant-tendency"}],
+      "status": "draft"
+    },
+    {
+      "id": "1992-founding-of-the-committee-for-a-marxist-international",
+      "title": {
+        "fr": "Fondation du Comité pour une Internationale marxiste",
+        "en": "Founding of the Committee for a Marxist International",
+        "de": "Gründung des Komitees für eine Marxistische Internationale",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1992"},
+      "summary": {
+        "fr": "Exclus de Militant pour avoir refusé l'abandon du travail dans les organisations de masse, Ted Grant et Alan Woods fondent le CMI, rebaptisé Tendance marxiste internationale en 2004.",
+        "en": "Expelled from Militant for opposing the abandonment of work in the mass organisations, Ted Grant and Alan Woods found the CMI, renamed the International Marxist Tendency in 2004.",
+        "de": "Weil sie die Aufgabe der Arbeit in den Massenorganisationen ablehnten, aus Militant ausgeschlossen, gründen Ted Grant und Alan Woods das KMI, 2004 in Internationale Marxistische Tendenz umbenannt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1940-fourth-international-after-trotsky"}],
+      "persons": ["ted-grant", "alan-woods"],
+      "organizations": ["imt", "militant-tendency"],
+      "sources": [
+        {"ref": "wp-en-ted-grant"},
+        {"ref": "wp-en-revolutionary-communist-international"},
+        {"ref": "wp-en-militant-tendency"}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "2006-death-of-ted-grant",
+      "title": {
+        "fr": "Mort de Ted Grant",
+        "en": "Death of Ted Grant",
+        "de": "Tod von Ted Grant",
+        "draft": ["en", "de"]
+      },
+      "type": "death",
+      "start": {"date": "2006-07-20"},
+      "summary": {
+        "fr": "Ted Grant meurt à Londres à 93 ans.",
+        "en": "Ted Grant dies in London aged 93.",
+        "de": "Ted Grant stirbt im Alter von 93 Jahren in London.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1940-fourth-international-after-trotsky"}],
+      "persons": ["ted-grant"],
+      "places": ["london"],
+      "sources": [{"ref": "wp-en-ted-grant"}],
+      "status": "draft"
+    },
+    {
+      "id": "2024-founding-of-the-rci",
+      "title": {
+        "fr": "La TMI devient l'Internationale communiste révolutionnaire",
+        "en": "The IMT becomes the Revolutionary Communist International",
+        "de": "Die IMT wird zur Revolutionären Kommunistischen Internationale",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "2024-06"},
+      "summary": {
+        "fr": "La Tendance marxiste internationale se transforme en Internationale communiste révolutionnaire et réorganise ses sections en partis communistes révolutionnaires.",
+        "en": "The International Marxist Tendency becomes the Revolutionary Communist International and reorganises its sections as revolutionary communist parties.",
+        "de": "Die Internationale Marxistische Tendenz wird zur Revolutionären Kommunistischen Internationale und organisiert ihre Sektionen als revolutionäre kommunistische Parteien.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1940-fourth-international-after-trotsky"}],
+      "persons": ["alan-woods"],
+      "organizations": ["imt"],
+      "sources": [{"ref": "wp-en-revolutionary-communist-international"}],
+      "status": "draft"
+    }
+  ]
+}

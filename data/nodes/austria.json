@@ -1,0 +1,1994 @@
+{
+  "$schema": "../../schema/nodes.schema.json",
+  "collection": "nodes",
+  "version": 1,
+  "items": [
+    {
+      "id": "austria",
+      "title": {"orig": "de", "de": "Österreich", "fr": "Autriche", "en": "Austria", "draft": ["en"]},
+      "type": "era",
+      "start": {"date": "1789"},
+      "ongoing": true,
+      "summary": {
+        "fr": "Histoire de l'Autriche depuis 1789 : monarchie des Habsbourg, révolution de 1848, naissance de la social-démocratie et de l'austromarxisme, Vienne la Rouge, guerre civile de 1934, annexion nazie, Seconde République.",
+        "en": "History of Austria since 1789: the Habsburg monarchy, the 1848 revolution, the rise of social democracy and Austro-Marxism, Red Vienna, the 1934 civil war, the Nazi annexation and the Second Republic.",
+        "de": "Geschichte Österreichs seit 1789: Habsburgermonarchie, Revolution von 1848, Aufstieg der Sozialdemokratie und des Austromarxismus, Rotes Wien, Bürgerkrieg von 1934, NS-Annexion und Zweite Republik.",
+        "draft": ["en", "de"]
+      },
+      "parents": [],
+      "status": "draft",
+      "view": {
+        "color": "#b3202a",
+        "label": {"orig": "de", "de": "Österreich", "fr": "Autriche", "en": "Austria", "draft": ["en"]},
+        "default_depth": 1
+      }
+    },
+    {
+      "id": "1789-habsburg-monarchy-and-napoleonic-wars",
+      "title": {
+        "fr": "La monarchie des Habsbourg contre la Révolution",
+        "en": "The Habsburg monarchy against the Revolution",
+        "de": "Die Habsburgermonarchie gegen die Revolution",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1789"},
+      "end": {"date": "1815-11-20"},
+      "summary": {
+        "fr": "Pilier des coalitions contre la France révolutionnaire puis napoléonienne, la monarchie écrase ses jacobins, perd ses guerres, renonce au Saint-Empire et sort victorieuse du congrès de Vienne.",
+        "en": "A pillar of the coalitions against revolutionary and then Napoleonic France, the monarchy crushes its Jacobins, loses its wars, gives up the Holy Roman Empire and emerges victorious from the Congress of Vienna.",
+        "de": "Als Stütze der Koalitionen gegen das revolutionäre und napoleonische Frankreich zerschlägt die Monarchie ihre Jakobiner, verliert ihre Kriege, gibt das Heilige Römische Reich auf und geht als Siegerin aus dem Wiener Kongress hervor.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "austria", "order": 0}],
+      "status": "draft"
+    },
+    {
+      "id": "1815-metternich-system",
+      "title": {
+        "fr": "Le système Metternich",
+        "en": "The Metternich system",
+        "de": "Das System Metternich",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1815-11-20"},
+      "end": {"date": "1848-03-13"},
+      "summary": {
+        "fr": "Censure, police et Sainte-Alliance tiennent l'Europe et les peuples de l'empire ; l'industrie naissante crée un prolétariat misérable, tandis que les nationalités et la bourgeoisie libérale s'éveillent.",
+        "en": "Censorship, police and the Holy Alliance hold down Europe and the peoples of the empire; nascent industry creates a destitute proletariat, while the nationalities and the liberal bourgeoisie awaken.",
+        "de": "Zensur, Polizei und Heilige Allianz halten Europa und die Völker des Reiches nieder; die junge Industrie schafft ein verelendetes Proletariat, während Nationalitäten und liberales Bürgertum erwachen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "austria", "order": 1}],
+      "status": "draft"
+    },
+    {
+      "id": "1848-revolution-in-austria",
+      "title": {
+        "fr": "Révolution de 1848-1849",
+        "en": "Revolution of 1848-1849",
+        "de": "Revolution von 1848/49",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1848-03-13"},
+      "end": {"date": "1849-08-13"},
+      "summary": {
+        "fr": "Étudiants et ouvriers de Vienne chassent Metternich ; la paysannerie obtient la fin des corvées puis se retire ; la contre-révolution écrase Prague, Vienne et enfin la Hongrie avec l'aide du tsar.",
+        "en": "Viennese students and workers drive out Metternich; the peasantry wins the end of labour dues and then withdraws; the counter-revolution crushes Prague, Vienna and finally Hungary with the Tsar's help.",
+        "de": "Wiener Studenten und Arbeiter vertreiben Metternich; die Bauern erreichen das Ende der Robot und ziehen sich zurück; die Gegenrevolution schlägt Prag, Wien und mit Hilfe des Zaren schließlich Ungarn nieder.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "austria", "order": 2}],
+      "sources": [{"ref": "wp-en-revolutions-of-1848-in-the-austrian-empire"}],
+      "status": "draft"
+    },
+    {
+      "id": "1849-neo-absolutism-and-defeats",
+      "title": {
+        "fr": "Néo-absolutisme, défaites et compromis",
+        "en": "Neo-absolutism, defeats and compromise",
+        "de": "Neoabsolutismus, Niederlagen und Ausgleich",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1849-08-13"},
+      "end": {"date": "1867-05-29"},
+      "summary": {
+        "fr": "Après la révolution, l'empereur gouverne sans constitution ; les défaites de 1859 en Italie et de 1866 face à la Prusse ruinent l'absolutisme et imposent le compromis avec la Hongrie.",
+        "en": "After the revolution the emperor rules without a constitution; the defeats of 1859 in Italy and 1866 against Prussia ruin absolutism and force the compromise with Hungary.",
+        "de": "Nach der Revolution regiert der Kaiser ohne Verfassung; die Niederlagen von 1859 in Italien und 1866 gegen Preußen ruinieren den Absolutismus und erzwingen den Ausgleich mit Ungarn.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "austria", "order": 3}],
+      "status": "draft"
+    },
+    {
+      "id": "1867-dual-monarchy-and-labour-movement",
+      "title": {
+        "fr": "Double monarchie et naissance du mouvement ouvrier",
+        "en": "Dual monarchy and the birth of the labour movement",
+        "de": "Doppelmonarchie und Entstehung der Arbeiterbewegung",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1867-05-29"},
+      "end": {"date": "1914-07-28"},
+      "summary": {
+        "fr": "Dans la moitié autrichienne de l'empire, l'industrialisation fait naître un mouvement ouvrier que la social-démocratie unifie à Hainfeld ; il arrache le suffrage universel masculin, mais se fracture sur la question nationale.",
+        "en": "In the Austrian half of the empire, industrialisation gives rise to a labour movement that social democracy unites at Hainfeld; it wins universal male suffrage but splits over the national question.",
+        "de": "In der österreichischen Reichshälfte bringt die Industrialisierung eine Arbeiterbewegung hervor, die die Sozialdemokratie in Hainfeld eint; sie erkämpft das allgemeine Männerwahlrecht, zerbricht aber an der nationalen Frage.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "austria", "order": 4}],
+      "status": "draft"
+    },
+    {
+      "id": "1914-world-war-and-collapse-of-the-empire",
+      "title": {
+        "fr": "Première Guerre mondiale et effondrement de l'empire",
+        "en": "First World War and collapse of the empire",
+        "de": "Erster Weltkrieg und Zusammenbruch des Reiches",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1914-07-28"},
+      "end": {"date": "1918-11-12"},
+      "summary": {
+        "fr": "La social-démocratie se rallie à la guerre ; la faim, les grèves de 1918 et les mutineries, sous l'influence d'Octobre, minent l'armée et l'État jusqu'à l'éclatement de l'empire en nations.",
+        "en": "Social democracy rallies to the war; hunger, the strikes of 1918 and the mutinies, under the influence of October, undermine army and state until the empire breaks up into nations.",
+        "de": "Die Sozialdemokratie stellt sich hinter den Krieg; Hunger, die Streiks von 1918 und die Meutereien untergraben unter dem Einfluss des Oktobers Armee und Staat, bis das Reich in Nationen zerfällt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "austria", "order": 5}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-austrian-revolution",
+      "title": {
+        "fr": "Révolution autrichienne (1918-1920)",
+        "en": "Austrian Revolution (1918-1920)",
+        "de": "Österreichische Revolution (1918-1920)",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1918-11-12"},
+      "end": {"date": "1920-10-17"},
+      "summary": {
+        "fr": "Conseils ouvriers et de soldats, Volkswehr et Garde rouge : le pouvoir est à portée des travailleurs, mais la social-démocratie le canalise vers une république parlementaire et des réformes sociales.",
+        "en": "Workers' and soldiers' councils, the Volkswehr and the Red Guard: power is within the workers' reach, but social democracy channels it into a parliamentary republic and social reforms.",
+        "de": "Arbeiter- und Soldatenräte, Volkswehr und Rote Garde: die Macht liegt in Reichweite der Arbeiter, doch die Sozialdemokratie lenkt sie in eine parlamentarische Republik und soziale Reformen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "austria", "order": 6}],
+      "sources": [{"ref": "wp-en-republic-of-german-austria"}, {"ref": "wp-en-communist-party-of-austria"}],
+      "status": "draft"
+    },
+    {
+      "id": "1920-first-republic-and-red-vienna",
+      "title": {
+        "fr": "Première République, Vienne la Rouge et montée du fascisme",
+        "en": "First Republic, Red Vienna and the rise of fascism",
+        "de": "Erste Republik, Rotes Wien und Aufstieg des Faschismus",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1920-10-17"},
+      "end": {"date": "1934-02-12"},
+      "summary": {
+        "fr": "Exclue du gouvernement fédéral, la social-démocratie bâtit Vienne la Rouge ; face aux Heimwehren et à la bourgeoisie, l'austromarxisme recule de 1927 à 1933, jusqu'à la suppression du Parlement.",
+        "en": "Excluded from federal government, social democracy builds Red Vienna; facing the Heimwehr and the bourgeoisie, Austro-Marxism retreats from 1927 to 1933, until parliament is shut down.",
+        "de": "Aus der Bundesregierung ausgeschieden, baut die Sozialdemokratie das Rote Wien auf; gegenüber Heimwehren und Bürgertum weicht der Austromarxismus von 1927 bis 1933 zurück, bis zur Ausschaltung des Parlaments.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "austria", "order": 7}],
+      "sources": [{"ref": "wp-en-history-of-the-spo"}],
+      "status": "draft"
+    },
+    {
+      "id": "1934-austrofascism",
+      "title": {
+        "fr": "Austrofascisme",
+        "en": "Austrofascism",
+        "de": "Austrofaschismus",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Ständestaat"],
+      "type": "period",
+      "start": {"date": "1934-02-12"},
+      "end": {"date": "1938-03-12"},
+      "summary": {
+        "fr": "Après l'écrasement de l'insurrection de février, l'« État corporatif » de Dollfuss puis de Schuschnigg interdit partis et syndicats ouvriers, tout en cédant pas à pas devant l'Allemagne nazie.",
+        "en": "After the February uprising is crushed, the 'corporate state' of Dollfuss and then Schuschnigg bans workers' parties and unions, while giving way step by step to Nazi Germany.",
+        "de": "Nach der Niederschlagung des Februaraufstands verbietet der „Ständestaat“ von Dollfuß und Schuschnigg Arbeiterparteien und Gewerkschaften und weicht zugleich Schritt für Schritt vor NS-Deutschland zurück.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "austria", "order": 8}],
+      "sources": [{"ref": "wp-en-austrian-civil-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "1938-nazi-annexation-and-war",
+      "title": {
+        "fr": "Annexion nazie et guerre",
+        "en": "Nazi annexation and war",
+        "de": "NS-Herrschaft und Krieg",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1938-03-12"},
+      "end": {"date": "1945-04-27"},
+      "summary": {
+        "fr": "Intégrée au Reich, l'Autriche fournit nombre de cadres nazis ; les Juifs sont spoliés, chassés puis exterminés, tandis que communistes et socialistes révolutionnaires mènent une résistance clandestine.",
+        "en": "Incorporated into the Reich, Austria supplies many Nazi cadres; Jews are plundered, driven out and then exterminated, while communists and revolutionary socialists wage an underground resistance.",
+        "de": "Ins Reich eingegliedert, stellt Österreich zahlreiche NS-Kader; Juden werden beraubt, vertrieben und ermordet, während Kommunisten und Revolutionäre Sozialisten einen illegalen Widerstand führen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "austria", "order": 9}],
+      "sources": [{"ref": "wp-en-anschluss"}],
+      "status": "draft"
+    },
+    {
+      "id": "1945-occupation-and-reconstruction",
+      "title": {
+        "fr": "Occupation alliée et reconstruction",
+        "en": "Allied occupation and reconstruction",
+        "de": "Alliierte Besatzung und Wiederaufbau",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1945-04-27"},
+      "end": {"date": "1955-10-26"},
+      "summary": {
+        "fr": "Sous quatre puissances occupantes, la Seconde République repose sur la grande coalition ÖVP-SPÖ et le partenariat social, qui brisent les grèves de 1950 et préparent le traité d'État.",
+        "en": "Under four occupying powers, the Second Republic rests on the ÖVP-SPÖ grand coalition and social partnership, which break the 1950 strikes and pave the way for the State Treaty.",
+        "de": "Unter vier Besatzungsmächten stützt sich die Zweite Republik auf die große Koalition aus ÖVP und SPÖ und die Sozialpartnerschaft, die die Streiks von 1950 brechen und den Staatsvertrag vorbereiten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "austria", "order": 10}],
+      "sources": [{"ref": "wp-en-history-of-the-spo"}, {"ref": "wp-en-communist-party-of-austria"}],
+      "status": "draft"
+    },
+    {
+      "id": "1955-neutrality-and-kreisky-era",
+      "title": {
+        "fr": "Neutralité, partenariat social et ère Kreisky",
+        "en": "Neutrality, social partnership and the Kreisky era",
+        "de": "Neutralität, Sozialpartnerschaft und Ära Kreisky",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1955-10-26"},
+      "end": {"date": "1986-06-08"},
+      "summary": {
+        "fr": "Neutre et prospère, l'Autriche vit sous le compromis de classe du partenariat social ; les gouvernements Kreisky élargissent l'État social, tandis que le mythe de la « première victime » couvre le passé nazi.",
+        "en": "Neutral and prosperous, Austria lives under the class compromise of social partnership; the Kreisky governments expand the welfare state, while the 'first victim' myth covers up the Nazi past.",
+        "de": "Neutral und wohlhabend lebt Österreich im Klassenkompromiss der Sozialpartnerschaft; die Regierungen Kreisky bauen den Sozialstaat aus, während der Opfermythos die NS-Vergangenheit verdeckt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "austria", "order": 11}],
+      "sources": [{"ref": "wp-en-history-of-the-spo"}],
+      "status": "draft"
+    },
+    {
+      "id": "1986-far-right-and-european-integration",
+      "title": {
+        "fr": "Montée de l'extrême droite et intégration européenne",
+        "en": "Rise of the far right and European integration",
+        "de": "Aufstieg der extremen Rechten und europäische Integration",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1986-06-08"},
+      "ongoing": true,
+      "summary": {
+        "fr": "L'affaire Waldheim et la conquête du FPÖ par Haider ouvrent une période où l'extrême droite gouverne à plusieurs reprises ; adhésion à l'UE, privatisations et attaques contre les retraites suscitent de nouvelles mobilisations.",
+        "en": "The Waldheim affair and Haider's takeover of the FPÖ open a period in which the far right repeatedly governs; EU accession, privatisation and attacks on pensions spark new mobilisations.",
+        "de": "Die Waldheim-Affäre und Haiders Übernahme der FPÖ eröffnen eine Zeit, in der die extreme Rechte mehrfach mitregiert; EU-Beitritt, Privatisierungen und Pensionsreformen lösen neue Mobilisierungen aus.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "austria", "order": 12}],
+      "status": "draft"
+    },
+    {
+      "id": "1794-viennese-jacobin-trials",
+      "title": {
+        "fr": "Procès des jacobins viennois",
+        "en": "Trials of the Viennese Jacobins",
+        "de": "Wiener Jakobinerprozesse",
+        "draft": ["en", "de"]
+      },
+      "type": "trial",
+      "start": {"date": "1794-07"},
+      "end": {"date": "1795-01-08"},
+      "summary": {
+        "fr": "La police démantèle les cercles démocrates de Vienne, liés aux jacobins hongrois ; le lieutenant Franz Hebenstreit, auteur d'un poème latin contre la propriété, est pendu.",
+        "en": "The police dismantle Vienna's democratic circles, linked to the Hungarian Jacobins; Lieutenant Franz Hebenstreit, author of a Latin poem against property, is hanged.",
+        "de": "Die Polizei zerschlägt die Wiener Demokratenzirkel, die mit den ungarischen Jakobinern verbunden sind; Leutnant Franz Hebenstreit, Verfasser eines lateinischen Gedichts gegen das Eigentum, wird gehängt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1789-habsburg-monarchy-and-napoleonic-wars"}],
+      "persons": ["franz-hebenstreit"],
+      "places": ["vienna"],
+      "status": "draft"
+    },
+    {
+      "id": "1804-proclamation-of-the-austrian-empire",
+      "title": {
+        "fr": "Proclamation de l'Empire d'Autriche",
+        "en": "Proclamation of the Austrian Empire",
+        "de": "Proklamation des Kaisertums Österreich",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1804-08-11"},
+      "summary": {
+        "fr": "Face au sacre de Napoléon, François II prend le titre d'empereur héréditaire d'Autriche, deux ans avant de renoncer à la couronne du Saint-Empire.",
+        "en": "In response to Napoleon's coronation, Francis II takes the title of hereditary Emperor of Austria, two years before giving up the crown of the Holy Roman Empire.",
+        "de": "Als Antwort auf Napoleons Krönung nimmt Franz II. den Titel eines erblichen Kaisers von Österreich an, zwei Jahre bevor er die Krone des Heiligen Römischen Reiches niederlegt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1789-habsburg-monarchy-and-napoleonic-wars"}],
+      "persons": ["francis-ii"],
+      "sources": [{"ref": "wp-en-timeline-of-austrian-history"}],
+      "status": "draft"
+    },
+    {
+      "id": "1805-battle-of-austerlitz",
+      "title": {
+        "fr": "Bataille d'Austerlitz",
+        "en": "Battle of Austerlitz",
+        "de": "Schlacht bei Austerlitz",
+        "draft": ["en", "de"]
+      },
+      "type": "battle",
+      "start": {"date": "1805-12-02"},
+      "summary": {
+        "fr": "Napoléon écrase les armées autrichienne et russe ; par la paix de Presbourg, l'Autriche perd la Vénétie, le Tyrol et ses positions en Allemagne.",
+        "en": "Napoleon crushes the Austrian and Russian armies; by the Peace of Pressburg, Austria loses Venetia, Tyrol and its positions in Germany.",
+        "de": "Napoleon schlägt die österreichische und die russische Armee vernichtend; im Frieden von Pressburg verliert Österreich Venetien, Tirol und seine Stellung in Deutschland.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1789-habsburg-monarchy-and-napoleonic-wars"}, {"id": "1803-napoleonic-wars"}],
+      "persons": ["napoleon", "francis-ii"],
+      "places": ["austerlitz"],
+      "status": "draft"
+    },
+    {
+      "id": "1809-tyrolean-rebellion",
+      "title": {
+        "fr": "Soulèvement du Tyrol",
+        "en": "Tyrolean Rebellion",
+        "de": "Tiroler Volksaufstand",
+        "draft": ["en", "de"]
+      },
+      "type": "insurrection",
+      "start": {"date": "1809-04"},
+      "end": {"date": "1809-11"},
+      "summary": {
+        "fr": "Sous Andreas Hofer, les paysans tyroliens se soulèvent contre la domination bavaroise et française au nom de l'empereur et de la religion ; abandonnés par Vienne après Wagram, ils sont écrasés et Hofer fusillé en 1810.",
+        "en": "Under Andreas Hofer, Tyrolean peasants rise against Bavarian and French rule in the name of emperor and religion; abandoned by Vienna after Wagram, they are crushed and Hofer is shot in 1810.",
+        "de": "Unter Andreas Hofer erheben sich die Tiroler Bauern im Namen von Kaiser und Religion gegen die bayerische und französische Herrschaft; von Wien nach Wagram im Stich gelassen, werden sie niedergeschlagen, Hofer 1810 erschossen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1789-habsburg-monarchy-and-napoleonic-wars"}, {"id": "1803-napoleonic-wars"}],
+      "persons": ["andreas-hofer"],
+      "places": ["innsbruck"],
+      "status": "draft"
+    },
+    {
+      "id": "1809-battle-of-wagram",
+      "title": {
+        "fr": "Bataille de Wagram",
+        "en": "Battle of Wagram",
+        "de": "Schlacht bei Deutsch-Wagram",
+        "draft": ["en", "de"]
+      },
+      "type": "battle",
+      "start": {"date": "1809-07-05"},
+      "end": {"date": "1809-07-06"},
+      "summary": {
+        "fr": "Nouvelle défaite autrichienne face à Napoléon ; la paix de Schönbrunn ampute l'empire et Metternich engage une politique d'alliance avec la France, scellée par le mariage de Marie-Louise.",
+        "en": "Another Austrian defeat by Napoleon; the Peace of Schönbrunn truncates the empire and Metternich turns to an alliance with France, sealed by Marie Louise's marriage.",
+        "de": "Erneute österreichische Niederlage gegen Napoleon; der Friede von Schönbrunn verkleinert das Reich, und Metternich leitet ein Bündnis mit Frankreich ein, besiegelt durch die Heirat Marie-Louises.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1789-habsburg-monarchy-and-napoleonic-wars"}, {"id": "1803-napoleonic-wars"}],
+      "persons": ["napoleon", "metternich"],
+      "status": "draft"
+    },
+    {
+      "id": "1844-prague-calico-printers-revolt",
+      "title": {
+        "fr": "Révolte des imprimeurs sur coton de Prague",
+        "en": "Prague calico printers' revolt",
+        "de": "Prager Kattundruckeraufstand",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "1844-06"},
+      "summary": {
+        "fr": "Contre la baisse des salaires et les machines, les ouvriers des manufactures textiles de Prague brisent les machines et affrontent la troupe : l'une des premières révoltes ouvrières de l'empire.",
+        "en": "Against wage cuts and machinery, workers in Prague's textile mills smash machines and clash with troops: one of the empire's first workers' revolts.",
+        "de": "Gegen Lohnkürzungen und Maschinen zerstören die Arbeiter der Prager Textilmanufakturen Maschinen und stoßen mit dem Militär zusammen: einer der ersten Arbeiteraufstände des Reiches.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1815-metternich-system"}],
+      "places": ["prague"],
+      "status": "draft"
+    },
+    {
+      "id": "1846-galician-slaughter",
+      "title": {
+        "fr": "Massacre de Galicie",
+        "en": "Galician slaughter",
+        "de": "Galizischer Bauernaufstand",
+        "draft": ["en", "de"]
+      },
+      "type": "massacre",
+      "start": {"date": "1846-02"},
+      "end": {"date": "1846-03"},
+      "summary": {
+        "fr": "Alors que la noblesse polonaise prépare une insurrection nationale, les paysans serfs de Galicie occidentale massacrent des centaines de nobles avec la complicité des autorités autrichiennes ; Cracovie est annexée.",
+        "en": "As the Polish nobility prepares a national uprising, the serf peasants of western Galicia massacre hundreds of nobles with the complicity of the Austrian authorities; Kraków is annexed.",
+        "de": "Während der polnische Adel einen Nationalaufstand vorbereitet, töten die leibeigenen Bauern Westgaliziens mit Duldung der österreichischen Behörden Hunderte Adlige; Krakau wird annektiert.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1815-metternich-system"}],
+      "places": ["krakow"],
+      "status": "draft"
+    },
+    {
+      "id": "1848-vienna-march-revolution",
+      "title": {
+        "orig": "de",
+        "de": "Wiener Märzrevolution",
+        "fr": "Révolution de mars à Vienne",
+        "en": "Vienna March Revolution",
+        "draft": ["en"]
+      },
+      "type": "revolution",
+      "start": {"date": "1848-03-13"},
+      "end": {"date": "1848-03-15"},
+      "summary": {
+        "fr": "Après la révolution de Février, étudiants et ouvriers des faubourgs affrontent la troupe ; Metternich démissionne et s'enfuit, la censure tombe, une garde nationale est créée et une constitution promise.",
+        "en": "After the February Revolution, students and suburban workers clash with troops; Metternich resigns and flees, censorship falls, a national guard is formed and a constitution is promised.",
+        "de": "Nach der Februarrevolution stoßen Studenten und Vorstadtarbeiter mit dem Militär zusammen; Metternich tritt zurück und flieht, die Zensur fällt, eine Nationalgarde wird gebildet und eine Verfassung versprochen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-revolution-in-austria"}],
+      "persons": ["metternich"],
+      "places": ["vienna"],
+      "sources": [{"ref": "wp-en-revolutions-of-1848-in-the-austrian-empire"}],
+      "status": "draft"
+    },
+    {
+      "id": "1848-may-days-in-vienna",
+      "title": {
+        "fr": "Journées de mai à Vienne",
+        "en": "May Days in Vienna",
+        "de": "Wiener Maiaufstand",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Sturmpetition"],
+      "type": "insurrection",
+      "start": {"date": "1848-05-15"},
+      "end": {"date": "1848-05-26"},
+      "summary": {
+        "fr": "La « pétition d'assaut » impose une assemblée élue au suffrage élargi ; la cour s'enfuit à Innsbruck et les barricades du 26 mai empêchent la dissolution de la Légion académique.",
+        "en": "The 'storm petition' forces an assembly elected on a broadened franchise; the court flees to Innsbruck, and the barricades of 26 May prevent the dissolution of the Academic Legion.",
+        "de": "Die „Sturmpetition“ erzwingt einen auf breiterem Wahlrecht gewählten Reichstag; der Hof flieht nach Innsbruck, und die Barrikaden vom 26. Mai verhindern die Auflösung der Akademischen Legion.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-revolution-in-austria"}],
+      "places": ["vienna", "innsbruck"],
+      "status": "draft"
+    },
+    {
+      "id": "1848-prague-uprising",
+      "title": {
+        "fr": "Insurrection de Prague",
+        "en": "Prague Uprising",
+        "de": "Prager Pfingstaufstand",
+        "draft": ["en", "de"]
+      },
+      "type": "insurrection",
+      "start": {"date": "1848-06-12"},
+      "end": {"date": "1848-06-17"},
+      "summary": {
+        "fr": "À la fin du congrès slave, étudiants et ouvriers tchèques dressent des barricades ; Windischgrätz bombarde la ville : première victoire de la contre-révolution dans l'empire.",
+        "en": "As the Slavic Congress ends, Czech students and workers raise barricades; Windischgrätz bombards the city: the counter-revolution's first victory in the empire.",
+        "de": "Zum Ende des Slawenkongresses errichten tschechische Studenten und Arbeiter Barrikaden; Windischgrätz beschießt die Stadt: der erste Sieg der Gegenrevolution im Reich.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-revolution-in-austria"}],
+      "persons": ["alfred-windischgratz"],
+      "places": ["prague"],
+      "sources": [{"ref": "wp-en-revolutions-of-1848-in-the-austrian-empire"}],
+      "status": "draft"
+    },
+    {
+      "id": "1848-emancipation-of-the-peasants",
+      "title": {
+        "fr": "Abolition des corvées et de la sujétion paysanne",
+        "en": "Emancipation of the peasants",
+        "de": "Bauernbefreiung",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Grundentlastung"],
+      "type": "law",
+      "start": {"date": "1848-09-07"},
+      "summary": {
+        "fr": "Sur proposition de Hans Kudlich, le Reichstag abolit la sujétion et la corvée (robot), avec indemnisation des seigneurs ; satisfaite, la paysannerie se détourne de la révolution.",
+        "en": "On Hans Kudlich's motion, the Reichstag abolishes subjection and labour dues (robot), with compensation for the lords; satisfied, the peasantry turns away from the revolution.",
+        "de": "Auf Antrag Hans Kudlichs hebt der Reichstag Untertänigkeit und Robot gegen Entschädigung der Grundherren auf; zufriedengestellt, wendet sich die Bauernschaft von der Revolution ab.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-revolution-in-austria"}],
+      "persons": ["hans-kudlich"],
+      "sources": [{"ref": "wp-en-revolutions-of-1848-in-the-austrian-empire"}],
+      "status": "draft"
+    },
+    {
+      "id": "1848-vienna-october-uprising",
+      "title": {
+        "fr": "Insurrection d'octobre à Vienne",
+        "en": "Vienna October Uprising",
+        "de": "Wiener Oktoberaufstand",
+        "draft": ["en", "de"]
+      },
+      "type": "insurrection",
+      "start": {"date": "1848-10-06"},
+      "end": {"date": "1848-10-31"},
+      "summary": {
+        "fr": "Pour empêcher le départ des troupes contre la Hongrie, ouvriers, étudiants et gardes nationaux prennent Vienne ; l'armée hongroise est battue à Schwechat et Windischgrätz reprend la ville au prix d'une répression sanglante.",
+        "en": "To stop troops leaving for Hungary, workers, students and national guards take Vienna; the Hungarian army is beaten at Schwechat and Windischgrätz retakes the city amid bloody repression.",
+        "de": "Um den Abmarsch von Truppen gegen Ungarn zu verhindern, nehmen Arbeiter, Studenten und Nationalgardisten Wien ein; das ungarische Heer wird bei Schwechat geschlagen, und Windischgrätz erobert die Stadt unter blutiger Repression zurück.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1848-revolution-in-austria"},
+        {"id": "1848-hungarian-revolution-and-war-of-independence"}
+      ],
+      "persons": ["alfred-windischgratz", "josip-jelacic"],
+      "places": ["vienna"],
+      "sources": [{"ref": "wp-en-hungarian-revolution-of-1848"}],
+      "status": "draft"
+    },
+    {
+      "id": "1848-execution-of-robert-blum",
+      "title": {
+        "fr": "Exécution de Robert Blum",
+        "en": "Execution of Robert Blum",
+        "de": "Hinrichtung Robert Blums",
+        "draft": ["en", "de"]
+      },
+      "type": "death",
+      "start": {"date": "1848-11-09"},
+      "summary": {
+        "fr": "Député de gauche du Parlement de Francfort venu soutenir Vienne insurgée, Robert Blum est fusillé malgré son immunité : la contre-révolution défie l'Allemagne révolutionnaire.",
+        "en": "A left-wing deputy of the Frankfurt Parliament who came to support insurgent Vienna, Robert Blum is shot despite his immunity: the counter-revolution defies revolutionary Germany.",
+        "de": "Robert Blum, linker Abgeordneter des Frankfurter Parlaments, der das aufständische Wien unterstützt hatte, wird trotz seiner Immunität erschossen: die Gegenrevolution fordert das revolutionäre Deutschland heraus.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-revolution-in-austria"}, {"id": "1848-revolution"}],
+      "persons": ["robert-blum"],
+      "places": ["vienna"],
+      "status": "draft"
+    },
+    {
+      "id": "1848-accession-of-franz-joseph",
+      "title": {
+        "fr": "Avènement de François-Joseph",
+        "en": "Accession of Franz Joseph",
+        "de": "Thronbesteigung Franz Josephs",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1848-12-02"},
+      "summary": {
+        "fr": "Ferdinand Ier abdique au profit de son neveu de dix-huit ans ; la Diète hongroise refuse de reconnaître ce souverain qui n'a pas juré les lois d'avril.",
+        "en": "Ferdinand I abdicates in favour of his eighteen-year-old nephew; the Hungarian Diet refuses to recognise a ruler who has not sworn to the April Laws.",
+        "de": "Ferdinand I. dankt zugunsten seines achtzehnjährigen Neffen ab; der ungarische Reichstag erkennt den Herrscher, der die Aprilgesetze nicht beschworen hat, nicht an.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1848-revolution-in-austria"},
+        {"id": "1848-hungarian-revolution-and-war-of-independence"}
+      ],
+      "persons": ["franz-joseph"],
+      "status": "draft"
+    },
+    {
+      "id": "1849-dissolution-of-the-kremsier-reichstag",
+      "title": {
+        "fr": "Constitution octroyée et dissolution de la Diète de Kremsier",
+        "en": "Imposed constitution and dissolution of the Kremsier Reichstag",
+        "de": "Oktroyierte Verfassung und Auflösung des Kremsierer Reichstags",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Märzverfassung", "Stadion-Verfassung"],
+      "type": "repression",
+      "start": {"date": "1849-03-04"},
+      "end": {"date": "1849-03-07"},
+      "summary": {
+        "fr": "Le gouvernement Schwarzenberg octroie une constitution centraliste et disperse le Reichstag réfugié à Kremsier, qui préparait un projet fédéral.",
+        "en": "The Schwarzenberg government imposes a centralist constitution and disperses the Reichstag that had taken refuge in Kremsier and was drafting a federal constitution.",
+        "de": "Die Regierung Schwarzenberg oktroyiert eine zentralistische Verfassung und löst den nach Kremsier ausgewichenen Reichstag auf, der an einem föderalen Entwurf arbeitete.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-revolution-in-austria"}],
+      "places": ["kromeriz"],
+      "sources": [{"ref": "wp-en-hungarian-revolution-of-1848"}],
+      "status": "draft"
+    },
+    {
+      "id": "1851-sylvester-patent",
+      "title": {
+        "fr": "Patentes de la Saint-Sylvestre",
+        "en": "Sylvester Patent",
+        "de": "Silvesterpatent",
+        "draft": ["en", "de"]
+      },
+      "type": "law",
+      "start": {"date": "1851-12-31"},
+      "summary": {
+        "fr": "L'empereur abroge la constitution de 1849 : commence le néo-absolutisme du ministre Bach, centralisateur et policier, appuyé sur l'armée, l'Église et la bureaucratie.",
+        "en": "The emperor revokes the 1849 constitution: the neo-absolutism of minister Bach begins, centralising and policed, resting on the army, the Church and the bureaucracy.",
+        "de": "Der Kaiser hebt die Verfassung von 1849 auf: es beginnt der zentralistische Polizeistaat des Neoabsolutismus unter Minister Bach, gestützt auf Armee, Kirche und Bürokratie.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1849-neo-absolutism-and-defeats"}],
+      "persons": ["franz-joseph"],
+      "status": "draft"
+    },
+    {
+      "id": "1867-austro-hungarian-compromise",
+      "title": {
+        "orig": "de",
+        "de": "Österreichisch-Ungarischer Ausgleich",
+        "hu": "kiegyezés",
+        "fr": "Compromis austro-hongrois",
+        "en": "Austro-Hungarian Compromise",
+        "draft": ["en"]
+      },
+      "aliases": ["Ausgleich", "Kiegyezés"],
+      "type": "treaty",
+      "start": {"date": "1867-05-29"},
+      "summary": {
+        "fr": "Après Sadowa, l'empereur s'entend avec la noblesse hongroise : deux États souverains partagent le monarque, l'armée, la diplomatie et les finances communes, au détriment des Slaves et des Roumains.",
+        "en": "After Königgrätz, the emperor comes to terms with the Hungarian nobility: two sovereign states share the monarch, the army, diplomacy and common finances, at the expense of the Slavs and Romanians.",
+        "de": "Nach Königgrätz einigt sich der Kaiser mit dem ungarischen Adel: zwei souveräne Staaten teilen Monarch, Armee, Diplomatie und gemeinsame Finanzen, auf Kosten der Slawen und Rumänen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1867-dual-monarchy-and-labour-movement"},
+        {"id": "1867-dual-monarchy-in-hungary"},
+        {"id": "world-states"}
+      ],
+      "persons": ["franz-joseph", "ferenc-deak"],
+      "sources": [{"ref": "wp-en-austro-hungarian-compromise-of-1867"}],
+      "status": "draft"
+    },
+    {
+      "id": "1867-december-constitution",
+      "title": {
+        "fr": "Constitution de décembre",
+        "en": "December Constitution",
+        "de": "Dezemberverfassung",
+        "draft": ["en", "de"]
+      },
+      "type": "law",
+      "start": {"date": "1867-12-21"},
+      "summary": {
+        "fr": "Les lois fondamentales de la Cisleithanie garantissent droits civiques, liberté d'association et égalité des nationalités, mais maintiennent un suffrage censitaire par curies.",
+        "en": "Cisleithania's fundamental laws guarantee civil rights, freedom of association and the equality of nationalities, but keep a property-based curial franchise.",
+        "de": "Die Staatsgrundgesetze Cisleithaniens garantieren Bürgerrechte, Vereinsfreiheit und Gleichberechtigung der Nationalitäten, behalten aber das Kurienwahlrecht nach Steuerleistung bei.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1867-dual-monarchy-and-labour-movement"}],
+      "status": "draft"
+    },
+    {
+      "id": "1869-vienna-workers-demonstration",
+      "title": {
+        "fr": "Manifestation ouvrière devant le Reichsrat",
+        "en": "Workers' demonstration before the Reichsrat",
+        "de": "Arbeiterdemonstration vor dem Reichsrat",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1869-12-13"},
+      "summary": {
+        "fr": "Des dizaines de milliers d'ouvriers viennois réclament le droit de coalition ; les meneurs sont jugés pour haute trahison, mais la loi de 1870 reconnaît le droit de grève.",
+        "en": "Tens of thousands of Viennese workers demand the right of combination; the leaders are tried for high treason, but the 1870 law recognises the right to strike.",
+        "de": "Zehntausende Wiener Arbeiter fordern das Koalitionsrecht; die Anführer werden wegen Hochverrats angeklagt, doch das Gesetz von 1870 erkennt das Streikrecht an.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1867-dual-monarchy-and-labour-movement"}],
+      "places": ["vienna"],
+      "status": "draft"
+    },
+    {
+      "id": "1874-neudorfl-congress",
+      "title": {
+        "fr": "Congrès de Neudörfl",
+        "en": "Neudörfl Congress",
+        "de": "Neudörfler Parteitag",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1874-04"},
+      "summary": {
+        "fr": "Réunis juste de l'autre côté de la frontière hongroise pour échapper à la police, les délégués ouvriers fondent un premier parti social-démocrate, bientôt déchiré entre modérés et radicaux.",
+        "en": "Meeting just across the Hungarian border to escape the police, workers' delegates found a first social-democratic party, soon torn between moderates and radicals.",
+        "de": "Knapp jenseits der ungarischen Grenze versammelt, um der Polizei zu entgehen, gründen Arbeiterdelegierte eine erste sozialdemokratische Partei, die bald zwischen Gemäßigten und Radikalen zerrissen wird.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1867-dual-monarchy-and-labour-movement"}],
+      "places": ["neudorfl"],
+      "sources": [{"ref": "wp-en-history-of-the-spo"}],
+      "status": "draft"
+    },
+    {
+      "id": "1888-hainfeld-congress",
+      "title": {
+        "orig": "de",
+        "de": "Hainfelder Parteitag",
+        "fr": "Congrès de Hainfeld",
+        "en": "Hainfeld Congress",
+        "draft": ["en"]
+      },
+      "type": "congress",
+      "start": {"date": "1888-12-30"},
+      "end": {"date": "1889-01-01"},
+      "summary": {
+        "fr": "Victor Adler réunit modérés et radicaux autour d'une déclaration de principes marxiste : naissance du Parti ouvrier social-démocrate d'Autriche (SDAPÖ).",
+        "en": "Victor Adler unites moderates and radicals around a Marxist declaration of principles: the Social Democratic Workers' Party of Austria (SDAPÖ) is born.",
+        "de": "Victor Adler vereint Gemäßigte und Radikale auf einer marxistischen Prinzipienerklärung: Gründung der Sozialdemokratischen Arbeiterpartei Österreichs (SDAPÖ).",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1867-dual-monarchy-and-labour-movement"}],
+      "persons": ["victor-adler"],
+      "places": ["hainfeld"],
+      "organizations": ["spo"],
+      "sources": [{"ref": "wp-en-history-of-the-spo"}],
+      "status": "draft"
+    },
+    {
+      "id": "1890-first-may-day-in-vienna",
+      "title": {
+        "fr": "Premier 1er Mai à Vienne",
+        "en": "First May Day in Vienna",
+        "de": "Erster Maiaufmarsch in Wien",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1890-05-01"},
+      "summary": {
+        "fr": "Malgré les menaces du gouvernement, des dizaines de milliers d'ouvriers chôment et défilent au Prater pour la journée de huit heures, à l'appel de la IIe Internationale.",
+        "en": "Despite government threats, tens of thousands of workers stop work and march in the Prater for the eight-hour day, answering the call of the Second International.",
+        "de": "Trotz Drohungen der Regierung legen Zehntausende Arbeiter die Arbeit nieder und ziehen auf Aufruf der Zweiten Internationale für den Achtstundentag in den Prater.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1867-dual-monarchy-and-labour-movement"}],
+      "places": ["vienna"],
+      "organizations": ["spo", "second-international"],
+      "status": "draft"
+    },
+    {
+      "id": "1897-badeni-crisis",
+      "title": {
+        "fr": "Crise des ordonnances Badeni",
+        "en": "Badeni language ordinances crisis",
+        "de": "Badeni-Krise",
+        "draft": ["en", "de"]
+      },
+      "type": "crisis",
+      "start": {"date": "1897-04-05"},
+      "end": {"date": "1897-11-28"},
+      "summary": {
+        "fr": "Les ordonnances imposant le bilinguisme tchèque-allemand aux fonctionnaires de Bohême provoquent l'obstruction des nationalistes allemands et des émeutes de rue ; Badeni tombe.",
+        "en": "Ordinances requiring Czech-German bilingualism of officials in Bohemia provoke obstruction by German nationalists and street riots; Badeni falls.",
+        "de": "Die Sprachenverordnungen, die von Beamten in Böhmen Tschechisch- und Deutschkenntnisse verlangen, lösen Obstruktion deutschnationaler Abgeordneter und Straßenunruhen aus; Badeni stürzt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1867-dual-monarchy-and-labour-movement"}],
+      "status": "draft"
+    },
+    {
+      "id": "1899-brunn-programme",
+      "title": {
+        "fr": "Programme de Brünn sur les nationalités",
+        "en": "Brünn nationalities programme",
+        "de": "Brünner Nationalitätenprogramm",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1899-09"},
+      "summary": {
+        "fr": "Le congrès social-démocrate de Brünn réclame la transformation de l'empire en État fédéral démocratique de nationalités autonomes : base de l'« autonomie culturelle » austromarxiste.",
+        "en": "The social-democratic congress in Brünn calls for turning the empire into a democratic federal state of autonomous nationalities: the basis of Austro-Marxist 'cultural autonomy'.",
+        "de": "Der sozialdemokratische Parteitag in Brünn fordert die Umwandlung des Reiches in einen demokratischen Nationalitätenbundesstaat: Grundlage der austromarxistischen „Kulturautonomie“.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1867-dual-monarchy-and-labour-movement"}],
+      "places": ["brno"],
+      "organizations": ["spo"],
+      "sources": [{"ref": "wp-en-history-of-the-spo"}],
+      "status": "draft"
+    },
+    {
+      "id": "1905-vienna-suffrage-demonstration",
+      "title": {
+        "fr": "Grève et manifestation pour le suffrage universel",
+        "en": "Strike and demonstration for universal suffrage",
+        "de": "Wahlrechtsdemonstration",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1905-11-28"},
+      "summary": {
+        "fr": "Galvanisés par la révolution russe, des centaines de milliers d'ouvriers cessent le travail et défilent sur le Ring ; l'empereur cède et accepte le suffrage universel masculin.",
+        "en": "Galvanised by the Russian Revolution, hundreds of thousands of workers stop work and march on the Ring; the emperor gives way and accepts universal male suffrage.",
+        "de": "Von der russischen Revolution angespornt, legen Hunderttausende Arbeiter die Arbeit nieder und ziehen über die Ringstraße; der Kaiser gibt nach und akzeptiert das allgemeine Männerwahlrecht.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1867-dual-monarchy-and-labour-movement"}],
+      "places": ["vienna"],
+      "organizations": ["spo"],
+      "status": "draft"
+    },
+    {
+      "id": "1907-first-universal-suffrage-election",
+      "title": {
+        "fr": "Premières élections au suffrage universel masculin",
+        "en": "First elections under universal male suffrage",
+        "de": "Erste Reichsratswahl nach allgemeinem Männerwahlrecht",
+        "draft": ["en", "de"]
+      },
+      "type": "election",
+      "start": {"date": "1907-05-14"},
+      "end": {"date": "1907-05-23"},
+      "summary": {
+        "fr": "Conquis par la grève générale, le suffrage universel masculin fait de la social-démocratie la deuxième force du Reichsrat avec 87 sièges.",
+        "en": "Won through the general strike, universal male suffrage makes social democracy the second force in the Reichsrat with 87 seats.",
+        "de": "Das durch den Generalstreik erkämpfte allgemeine Männerwahlrecht macht die Sozialdemokratie mit 87 Mandaten zur zweitstärksten Kraft im Reichsrat.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1867-dual-monarchy-and-labour-movement"}],
+      "organizations": ["spo"],
+      "sources": [{"ref": "wp-en-timeline-of-austrian-history"}, {"ref": "wp-en-history-of-the-spo"}],
+      "status": "draft"
+    },
+    {
+      "id": "1908-annexation-of-bosnia",
+      "title": {
+        "fr": "Annexion de la Bosnie-Herzégovine",
+        "en": "Annexation of Bosnia and Herzegovina",
+        "de": "Annexion Bosniens und der Herzegowina",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1908-10-06"},
+      "summary": {
+        "fr": "L'Autriche-Hongrie annexe la province occupée depuis 1878 ; la crise dresse la Serbie et la Russie contre elle et prépare la guerre de 1914.",
+        "en": "Austria-Hungary annexes the province it had occupied since 1878; the crisis sets Serbia and Russia against it and prepares the 1914 war.",
+        "de": "Österreich-Ungarn annektiert die seit 1878 besetzte Provinz; die Krise bringt Serbien und Russland gegen die Monarchie auf und bereitet den Krieg von 1914 vor.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1867-dual-monarchy-and-labour-movement"},
+        {"id": "1867-dual-monarchy-in-hungary"},
+        {"id": "world-states"}
+      ],
+      "persons": ["franz-joseph"],
+      "places": ["sarajevo"],
+      "status": "draft"
+    },
+    {
+      "id": "1911-vienna-cost-of-living-riot",
+      "title": {
+        "fr": "Émeute de la vie chère à Vienne",
+        "en": "Vienna cost-of-living riot",
+        "de": "Wiener Teuerungsrevolte",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1911-09-17"},
+      "summary": {
+        "fr": "Une manifestation social-démocrate contre la hausse des prix de la viande déborde en émeute dans le faubourg ouvrier d'Ottakring ; l'armée tire et tue plusieurs manifestants.",
+        "en": "A social-democratic demonstration against rising meat prices spills over into rioting in the working-class district of Ottakring; the army fires and kills several demonstrators.",
+        "de": "Eine sozialdemokratische Demonstration gegen die Fleischteuerung schlägt im Arbeiterbezirk Ottakring in einen Aufruhr um; das Militär schießt und tötet mehrere Demonstranten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1867-dual-monarchy-and-labour-movement"}],
+      "places": ["vienna"],
+      "status": "draft"
+    },
+    {
+      "id": "1914-assassination-of-franz-ferdinand",
+      "title": {
+        "fr": "Attentat de Sarajevo",
+        "en": "Assassination of Archduke Franz Ferdinand",
+        "de": "Attentat von Sarajevo",
+        "draft": ["en", "de"]
+      },
+      "type": "assassination",
+      "start": {"date": "1914-06-28"},
+      "summary": {
+        "fr": "Le nationaliste bosno-serbe Gavrilo Princip tue l'héritier du trône ; Vienne, poussée par Berlin, en tire prétexte pour écraser la Serbie : c'est l'étincelle de la guerre mondiale.",
+        "en": "Bosnian Serb nationalist Gavrilo Princip kills the heir to the throne; Vienna, urged on by Berlin, uses it as a pretext to crush Serbia: it is the spark of the world war.",
+        "de": "Der bosnisch-serbische Nationalist Gavrilo Princip tötet den Thronfolger; Wien nimmt dies, von Berlin gedrängt, zum Vorwand, Serbien niederzuwerfen: der Funke des Weltkriegs.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1867-dual-monarchy-and-labour-movement"},
+        {"id": "1867-dual-monarchy-in-hungary"},
+        {"id": "world-wars"}
+      ],
+      "persons": ["franz-ferdinand", "gavrilo-princip"],
+      "places": ["sarajevo"],
+      "status": "draft"
+    },
+    {
+      "id": "1916-assassination-of-sturgkh",
+      "title": {
+        "fr": "Friedrich Adler abat le Premier ministre Stürgkh",
+        "en": "Friedrich Adler shoots Prime Minister Stürgkh",
+        "de": "Friedrich Adler erschießt Ministerpräsident Stürgkh",
+        "draft": ["en", "de"]
+      },
+      "type": "assassination",
+      "start": {"date": "1916-10-21"},
+      "summary": {
+        "fr": "Pour briser l'union sacrée et la dictature de guerre, le fils de Victor Adler tue le chef du gouvernement ; condamné à mort puis gracié, il fait de son procès une tribune contre la guerre.",
+        "en": "To break the war truce and the wartime dictatorship, Victor Adler's son kills the head of government; sentenced to death and then pardoned, he turns his trial into a platform against the war.",
+        "de": "Um Burgfrieden und Kriegsdiktatur zu durchbrechen, erschießt Victor Adlers Sohn den Regierungschef; zum Tode verurteilt und begnadigt, macht er seinen Prozess zur Tribüne gegen den Krieg.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1914-world-war-and-collapse-of-the-empire"}],
+      "persons": ["friedrich-adler", "karl-sturgkh"],
+      "places": ["vienna"],
+      "status": "draft"
+    },
+    {
+      "id": "1916-death-of-franz-joseph",
+      "title": {
+        "fr": "Mort de François-Joseph",
+        "en": "Death of Franz Joseph",
+        "de": "Tod Franz Josephs",
+        "draft": ["en", "de"]
+      },
+      "type": "death",
+      "start": {"date": "1916-11-21"},
+      "summary": {
+        "fr": "Après 68 ans de règne, l'empereur meurt en pleine guerre ; son petit-neveu Charles Ier cherche en vain une paix séparée.",
+        "en": "After a 68-year reign, the emperor dies in the middle of the war; his great-nephew Charles I seeks a separate peace in vain.",
+        "de": "Nach 68 Regierungsjahren stirbt der Kaiser mitten im Krieg; sein Großneffe Karl I. sucht vergeblich einen Sonderfrieden.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1914-world-war-and-collapse-of-the-empire"},
+        {"id": "1914-hungary-in-the-first-world-war"}
+      ],
+      "persons": ["franz-joseph", "charles-i-of-austria"],
+      "status": "draft"
+    },
+    {
+      "id": "1918-founding-of-the-kpo",
+      "title": {
+        "fr": "Fondation du Parti communiste d'Autriche allemande",
+        "en": "Founding of the Communist Party of German-Austria",
+        "de": "Gründung der Kommunistischen Partei Deutschösterreichs",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1918-11-03"},
+      "summary": {
+        "fr": "L'aile gauche du mouvement ouvrier fonde le KPDÖ, l'un des premiers partis communistes hors de Russie ; il reste faible face à une social-démocratie qui garde la confiance des ouvriers.",
+        "en": "The left wing of the labour movement founds the KPDÖ, one of the first communist parties outside Russia; it remains weak against a social democracy that keeps the workers' confidence.",
+        "de": "Der linke Flügel der Arbeiterbewegung gründet die KPDÖ, eine der ersten kommunistischen Parteien außerhalb Russlands; sie bleibt schwach gegenüber einer Sozialdemokratie, die das Vertrauen der Arbeiter behält.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1914-world-war-and-collapse-of-the-empire"}],
+      "organizations": ["kpo"],
+      "sources": [{"ref": "wp-en-communist-party-of-austria"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-january-strike-in-austria-hungary",
+      "title": {
+        "orig": "de",
+        "de": "Jännerstreik",
+        "fr": "Grève de janvier 1918",
+        "en": "January 1918 strike",
+        "draft": ["en"]
+      },
+      "type": "strike",
+      "start": {"date": "1918-01-14"},
+      "end": {"date": "1918-01-21"},
+      "summary": {
+        "fr": "Partie de Wiener Neustadt après la réduction de la ration de farine, la grève gagne Vienne puis Budapest et des centaines de milliers d'ouvriers ; des conseils ouvriers naissent, mais la social-démocratie fait reprendre le travail.",
+        "en": "Starting in Wiener Neustadt after the flour ration is cut, the strike spreads to Vienna and then Budapest and to hundreds of thousands of workers; workers' councils emerge, but social democracy gets work resumed.",
+        "de": "Nach der Kürzung der Mehlration in Wiener Neustadt begonnen, erfasst der Streik Wien, dann Budapest und Hunderttausende Arbeiter; Arbeiterräte entstehen, doch die Sozialdemokratie setzt die Wiederaufnahme der Arbeit durch.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1914-world-war-and-collapse-of-the-empire"},
+        {"id": "1914-hungary-in-the-first-world-war"}
+      ],
+      "places": ["wiener-neustadt", "vienna", "budapest"],
+      "organizations": ["spo", "mszdp"],
+      "sources": [{"ref": "wp-en-austro-hungarian-strike-of-january-1918"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-cattaro-mutiny",
+      "title": {
+        "fr": "Mutinerie de Cattaro",
+        "en": "Cattaro mutiny",
+        "de": "Matrosenaufstand von Cattaro",
+        "draft": ["en", "de"]
+      },
+      "type": "mutiny",
+      "start": {"date": "1918-02-01"},
+      "end": {"date": "1918-02-03"},
+      "summary": {
+        "fr": "Des milliers de marins de toutes les nationalités de la flotte hissent le drapeau rouge dans les bouches de Kotor et réclament la paix ; la révolte est écrasée et quatre meneurs fusillés.",
+        "en": "Thousands of sailors of every nationality in the fleet hoist the red flag in the Bay of Kotor and demand peace; the revolt is crushed and four leaders are shot.",
+        "de": "Tausende Matrosen aller Nationalitäten der Flotte hissen in der Bucht von Kotor die rote Fahne und fordern Frieden; der Aufstand wird niedergeschlagen, vier Anführer werden erschossen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1914-world-war-and-collapse-of-the-empire"},
+        {"id": "1914-hungary-in-the-first-world-war"}
+      ],
+      "places": ["kotor"],
+      "status": "draft"
+    },
+    {
+      "id": "1918-provisional-national-assembly-of-german-austria",
+      "title": {
+        "fr": "Assemblée nationale provisoire d'Autriche allemande",
+        "en": "Provisional National Assembly of German-Austria",
+        "de": "Provisorische Nationalversammlung für Deutschösterreich",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1918-10-21"},
+      "summary": {
+        "fr": "Les députés germanophones du Reichsrat se constituent en assemblée de l'État d'Autriche allemande, dont ils forment l'exécutif le 30 octobre, tandis que l'empire se disloque.",
+        "en": "The German-speaking deputies of the Reichsrat constitute themselves as the assembly of the state of German-Austria and form its executive on 30 October, as the empire disintegrates.",
+        "de": "Die deutschsprachigen Abgeordneten des Reichsrats konstituieren sich als Versammlung des Staates Deutschösterreich und bilden am 30. Oktober dessen Exekutive, während das Reich zerfällt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1914-world-war-and-collapse-of-the-empire"}],
+      "places": ["vienna"],
+      "sources": [{"ref": "wp-en-republic-of-german-austria"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-proclamation-of-the-republic-of-german-austria",
+      "title": {
+        "fr": "Proclamation de la République d'Autriche allemande",
+        "en": "Proclamation of the Republic of German-Austria",
+        "de": "Ausrufung der Republik Deutschösterreich",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1918-11-12"},
+      "summary": {
+        "fr": "Au lendemain du retrait de Charles Ier, l'Assemblée proclame la république, « partie intégrante de la République allemande » ; Renner dirige le gouvernement et la journée de huit heures est instaurée.",
+        "en": "The day after Charles I withdraws, the Assembly proclaims the republic, 'an integral part of the German Republic'; Renner heads the government and the eight-hour day is introduced.",
+        "de": "Am Tag nach dem Verzicht Karls I. ruft die Nationalversammlung die Republik aus, „Bestandteil der Deutschen Republik“; Renner führt die Regierung, der Achtstundentag wird eingeführt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-austrian-revolution"}],
+      "persons": ["karl-renner", "charles-i-of-austria"],
+      "places": ["vienna"],
+      "organizations": ["spo"],
+      "sources": [{"ref": "wp-en-republic-of-german-austria"}, {"ref": "wp-en-history-of-the-spo"}],
+      "status": "draft"
+    },
+    {
+      "id": "1919-constituent-assembly-election",
+      "title": {
+        "fr": "Élection de l'Assemblée constituante",
+        "en": "Constituent Assembly election",
+        "de": "Wahl zur Konstituierenden Nationalversammlung",
+        "draft": ["en", "de"]
+      },
+      "type": "election",
+      "start": {"date": "1919-02-16"},
+      "summary": {
+        "fr": "Premier vote des femmes : la social-démocratie arrive en tête et gouverne en coalition avec les chrétiens-sociaux plutôt que de s'appuyer sur les conseils.",
+        "en": "Women vote for the first time: social democracy comes first and governs in coalition with the Christian Socials rather than relying on the councils.",
+        "de": "Erstmals wählen Frauen: die Sozialdemokratie wird stärkste Partei und regiert in Koalition mit den Christlichsozialen, statt sich auf die Räte zu stützen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-austrian-revolution"}],
+      "organizations": ["spo", "christian-social-party"],
+      "sources": [{"ref": "wp-en-republic-of-german-austria"}, {"ref": "wp-en-history-of-the-spo"}],
+      "status": "draft"
+    },
+    {
+      "id": "1919-habsburg-law",
+      "title": {
+        "fr": "Loi d'exil des Habsbourg",
+        "en": "Habsburg Law",
+        "de": "Habsburgergesetz",
+        "draft": ["en", "de"]
+      },
+      "type": "law",
+      "start": {"date": "1919-04-03"},
+      "summary": {
+        "fr": "La république détrône les Habsbourg, les bannit sauf renonciation et confisque leurs biens ; la noblesse est abolie.",
+        "en": "The republic dethrones the Habsburgs, banishes them unless they renounce their claims and confiscates their property; the nobility is abolished.",
+        "de": "Die Republik entthront die Habsburger, verbannt sie, sofern sie nicht verzichten, und beschlagnahmt ihr Vermögen; der Adel wird aufgehoben.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-austrian-revolution"}],
+      "sources": [{"ref": "wp-en-republic-of-german-austria"}],
+      "status": "draft"
+    },
+    {
+      "id": "1919-communist-putsch-attempts-in-vienna",
+      "title": {
+        "fr": "Tentatives insurrectionnelles communistes à Vienne",
+        "en": "Communist insurrection attempts in Vienna",
+        "de": "Kommunistische Putschversuche in Wien",
+        "draft": ["en", "de"]
+      },
+      "type": "insurrection",
+      "start": {"date": "1919-04-17"},
+      "end": {"date": "1919-06-15"},
+      "summary": {
+        "fr": "Encouragés par la République des conseils hongroise, les communistes tentent par deux fois de soulever Vienne ; la police tire sur les manifestants dans la Hörlgasse et la social-démocratie isole le mouvement.",
+        "en": "Encouraged by the Hungarian Soviet Republic, the communists twice try to raise Vienna in revolt; the police fire on demonstrators in the Hörlgasse and social democracy isolates the movement.",
+        "de": "Von der ungarischen Räterepublik ermutigt, versuchen die Kommunisten zweimal, Wien zum Aufstand zu bringen; die Polizei schießt in der Hörlgasse auf Demonstranten, und die Sozialdemokratie isoliert die Bewegung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-austrian-revolution"}],
+      "places": ["vienna"],
+      "organizations": ["kpo"],
+      "status": "draft"
+    },
+    {
+      "id": "red-vienna",
+      "title": {
+        "orig": "de",
+        "de": "Rotes Wien",
+        "fr": "Vienne la Rouge",
+        "en": "Red Vienna",
+        "draft": ["en"]
+      },
+      "type": "period",
+      "start": {"date": "1919-05-04"},
+      "end": {"date": "1934-02-12"},
+      "summary": {
+        "fr": "Majoritaire à Vienne, la social-démocratie finance par des impôts progressifs plus de 60 000 logements municipaux, des écoles et des services sociaux : vitrine de l'austromarxisme, sans rupture avec le capital.",
+        "en": "With a majority in Vienna, social democracy uses progressive taxes to fund more than 60,000 municipal flats, schools and social services: the showcase of Austro-Marxism, without breaking with capital.",
+        "de": "Mit ihrer Mehrheit in Wien finanziert die Sozialdemokratie über progressive Steuern mehr als 60.000 Gemeindewohnungen, Schulen und soziale Dienste: Schaufenster des Austromarxismus, ohne Bruch mit dem Kapital.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "austria", "order": 13}],
+      "persons": ["karl-seitz"],
+      "places": ["vienna"],
+      "organizations": ["spo"],
+      "sources": [{"ref": "wp-en-red-vienna"}],
+      "status": "draft"
+    },
+    {
+      "id": "1919-treaty-of-saint-germain",
+      "title": {
+        "fr": "Traité de Saint-Germain-en-Laye",
+        "en": "Treaty of Saint-Germain-en-Laye",
+        "de": "Vertrag von Saint-Germain",
+        "draft": ["en", "de"]
+      },
+      "type": "treaty",
+      "start": {"date": "1919-09-10"},
+      "summary": {
+        "fr": "Les vainqueurs réduisent l'Autriche à un petit État alpin, interdisent son union avec l'Allemagne et lui imposent le nom de République d'Autriche.",
+        "en": "The victors reduce Austria to a small Alpine state, forbid its union with Germany and impose the name Republic of Austria.",
+        "de": "Die Siegermächte machen Österreich zum Alpenkleinstaat, verbieten den Anschluss an Deutschland und erzwingen den Namen Republik Österreich.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-austrian-revolution"}, {"id": "world-states"}],
+      "persons": ["karl-renner"],
+      "sources": [{"ref": "wp-en-timeline-of-austrian-history"}, {"ref": "wp-en-republic-of-german-austria"}],
+      "status": "draft"
+    },
+    {
+      "id": "1920-federal-constitution",
+      "title": {
+        "fr": "Constitution fédérale",
+        "en": "Federal Constitution",
+        "de": "Bundes-Verfassungsgesetz",
+        "draft": ["en", "de"]
+      },
+      "type": "law",
+      "start": {"date": "1920-10-01"},
+      "summary": {
+        "fr": "Rédigée par Hans Kelsen, la constitution fait de l'Autriche une république fédérale parlementaire ; elle entre en vigueur le 10 novembre 1920.",
+        "en": "Drafted by Hans Kelsen, the constitution makes Austria a parliamentary federal republic; it comes into force on 10 November 1920.",
+        "de": "Die von Hans Kelsen entworfene Verfassung macht Österreich zu einer parlamentarischen Bundesrepublik; sie tritt am 10. November 1920 in Kraft.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-austrian-revolution"}],
+      "sources": [{"ref": "wp-en-history-of-the-spo"}],
+      "status": "draft"
+    },
+    {
+      "id": "1922-vienna-becomes-a-federal-state",
+      "title": {
+        "fr": "Vienne devient un Land",
+        "en": "Vienna becomes a federal state",
+        "de": "Wien wird Bundesland",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1922-01-01"},
+      "summary": {
+        "fr": "Séparée de la Basse-Autriche, Vienne obtient les pouvoirs fiscaux d'un Land, qui permettent la politique sociale de la municipalité rouge.",
+        "en": "Separated from Lower Austria, Vienna gains the tax powers of a federal state, which make the red municipality's social policy possible.",
+        "de": "Von Niederösterreich getrennt, erhält Wien die Steuerhoheit eines Bundeslandes, die die Sozialpolitik der roten Stadtverwaltung ermöglicht.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "red-vienna"}],
+      "places": ["vienna"],
+      "sources": [{"ref": "wp-en-red-vienna"}],
+      "status": "draft"
+    },
+    {
+      "id": "1922-geneva-protocols",
+      "title": {
+        "fr": "Protocoles de Genève",
+        "en": "Geneva Protocols",
+        "de": "Genfer Protokolle",
+        "draft": ["en", "de"]
+      },
+      "type": "treaty",
+      "start": {"date": "1922-10-04"},
+      "summary": {
+        "fr": "Contre un prêt de la Société des Nations, le gouvernement Seipel accepte un contrôle financier étranger et une politique d'austérité qui licencie des dizaines de milliers de fonctionnaires.",
+        "en": "In exchange for a League of Nations loan, the Seipel government accepts foreign financial control and an austerity policy that dismisses tens of thousands of civil servants.",
+        "de": "Für eine Anleihe des Völkerbunds akzeptiert die Regierung Seipel eine ausländische Finanzkontrolle und eine Sparpolitik, die Zehntausende Beamte entlässt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1920-first-republic-and-red-vienna"}],
+      "persons": ["ignaz-seipel"],
+      "status": "draft"
+    },
+    {
+      "id": "1923-founding-of-the-schutzbund",
+      "title": {
+        "orig": "de",
+        "de": "Gründung des Republikanischen Schutzbundes",
+        "fr": "Fondation du Schutzbund républicain",
+        "en": "Founding of the Republican Protection League",
+        "draft": ["en"]
+      },
+      "type": "founding",
+      "start": {"date": "1923"},
+      "summary": {
+        "fr": "Face aux Heimwehren armées, la social-démocratie organise sa propre milice ouvrière, puissante mais tenue à une stratégie strictement défensive.",
+        "en": "Facing the armed Heimwehr, social democracy organises its own workers' militia, powerful but bound to a strictly defensive strategy.",
+        "de": "Gegenüber den bewaffneten Heimwehren organisiert die Sozialdemokratie eine eigene Arbeitermiliz, stark, aber auf eine streng defensive Strategie festgelegt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1920-first-republic-and-red-vienna"}],
+      "organizations": ["schutzbund", "spo"],
+      "sources": [{"ref": "wp-en-history-of-the-spo"}],
+      "status": "draft"
+    },
+    {
+      "id": "1926-linz-programme",
+      "title": {
+        "orig": "de",
+        "de": "Linzer Programm",
+        "fr": "Programme de Linz",
+        "en": "Linz Programme",
+        "draft": ["en"]
+      },
+      "type": "congress",
+      "start": {"date": "1926-11-03"},
+      "summary": {
+        "fr": "Rédigé par Otto Bauer, le programme vise la conquête du pouvoir par les urnes et n'envisage la dictature du prolétariat qu'en défense contre une contre-révolution bourgeoise.",
+        "en": "Drafted by Otto Bauer, the programme aims to win power through the ballot box and contemplates the dictatorship of the proletariat only as a defence against bourgeois counter-revolution.",
+        "de": "Das von Otto Bauer verfasste Programm zielt auf die Eroberung der Macht durch Wahlen und sieht die Diktatur des Proletariats nur zur Abwehr einer bürgerlichen Gegenrevolution vor.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1920-first-republic-and-red-vienna"}],
+      "persons": ["otto-bauer"],
+      "places": ["linz"],
+      "organizations": ["spo"],
+      "sources": [{"ref": "wp-en-history-of-the-spo"}],
+      "status": "draft"
+    },
+    {
+      "id": "1927-schattendorf-shooting",
+      "title": {
+        "fr": "Fusillade de Schattendorf",
+        "en": "Schattendorf shooting",
+        "de": "Schattendorfer Schüsse",
+        "draft": ["en", "de"]
+      },
+      "type": "massacre",
+      "start": {"date": "1927-01-30"},
+      "summary": {
+        "fr": "Des membres d'une association d'anciens combattants d'extrême droite tirent sur un cortège du Schutzbund et tuent un invalide de guerre et un enfant de huit ans.",
+        "en": "Members of a far-right veterans' association fire on a Schutzbund march, killing a war invalid and an eight-year-old boy.",
+        "de": "Mitglieder der rechtsextremen Frontkämpfervereinigung schießen auf einen Zug des Schutzbundes und töten einen Kriegsinvaliden und einen achtjährigen Jungen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1920-first-republic-and-red-vienna"}],
+      "places": ["schattendorf"],
+      "organizations": ["schutzbund"],
+      "sources": [{"ref": "wp-en-july-revolt-of-1927"}],
+      "status": "draft"
+    },
+    {
+      "id": "1927-july-revolt",
+      "title": {
+        "orig": "de",
+        "de": "Justizpalastbrand",
+        "fr": "Révolte de juillet 1927",
+        "en": "July Revolt of 1927",
+        "draft": ["en"]
+      },
+      "aliases": ["Julirevolte"],
+      "type": "insurrection",
+      "start": {"date": "1927-07-15"},
+      "summary": {
+        "fr": "L'acquittement des tireurs de Schattendorf jette spontanément les ouvriers viennois dans la rue ; le palais de justice brûle et la police du préfet Schober tue 89 manifestants, sans riposte organisée du parti.",
+        "en": "The acquittal of the Schattendorf gunmen spontaneously brings Vienna's workers onto the streets; the Palace of Justice burns and police chief Schober's men kill 89 demonstrators, with no organised response from the party.",
+        "de": "Der Freispruch der Schattendorfer Schützen treibt die Wiener Arbeiter spontan auf die Straße; der Justizpalast brennt, und Polizeipräsident Schobers Polizei tötet 89 Demonstranten, ohne organisierte Antwort der Partei.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1920-first-republic-and-red-vienna"}],
+      "persons": ["johann-schober", "ignaz-seipel"],
+      "places": ["vienna"],
+      "organizations": ["spo"],
+      "sources": [{"ref": "wp-en-july-revolt-of-1927"}, {"ref": "wp-en-history-of-the-spo"}],
+      "status": "draft"
+    },
+    {
+      "id": "1930-korneuburg-oath",
+      "title": {
+        "orig": "de",
+        "de": "Korneuburger Eid",
+        "fr": "Serment de Korneuburg",
+        "en": "Korneuburg Oath",
+        "draft": ["en"]
+      },
+      "type": "other",
+      "start": {"date": "1930-05-18"},
+      "summary": {
+        "fr": "Les Heimwehren rejettent publiquement la démocratie parlementaire et se rallient au modèle fasciste d'un État corporatif.",
+        "en": "The Heimwehr publicly reject parliamentary democracy and adopt the fascist model of a corporate state.",
+        "de": "Die Heimwehren lehnen öffentlich die parlamentarische Demokratie ab und bekennen sich zum faschistischen Modell des Ständestaats.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1920-first-republic-and-red-vienna"}],
+      "organizations": ["heimwehr"],
+      "sources": [{"ref": "wp-en-history-of-the-spo"}],
+      "status": "draft"
+    },
+    {
+      "id": "1931-creditanstalt-collapse",
+      "title": {
+        "fr": "Faillite de la Creditanstalt",
+        "en": "Collapse of the Creditanstalt",
+        "de": "Zusammenbruch der Creditanstalt",
+        "draft": ["en", "de"]
+      },
+      "type": "crisis",
+      "start": {"date": "1931-05-11"},
+      "summary": {
+        "fr": "La faillite de la première banque d'Europe centrale déclenche une vague de crises bancaires en Allemagne et en Europe et aggrave le chômage de masse en Autriche.",
+        "en": "The collapse of Central Europe's largest bank triggers a wave of banking crises in Germany and across Europe and worsens mass unemployment in Austria.",
+        "de": "Der Zusammenbruch der größten Bank Mitteleuropas löst eine Welle von Bankenkrisen in Deutschland und Europa aus und verschärft die Massenarbeitslosigkeit in Österreich.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1920-first-republic-and-red-vienna"}, {"id": "1929-great-depression"}],
+      "places": ["vienna"],
+      "status": "draft"
+    },
+    {
+      "id": "1933-dollfuss-suspends-parliament",
+      "title": {
+        "fr": "Dollfuss suspend le Parlement",
+        "en": "Dollfuss suspends parliament",
+        "de": "Ausschaltung des Parlaments",
+        "draft": ["en", "de"]
+      },
+      "type": "coup",
+      "start": {"date": "1933-03-04"},
+      "summary": {
+        "fr": "Profitant d'une crise de procédure, le chancelier Dollfuss empêche le Parlement de se réunir et gouverne par décrets ; la social-démocratie ne mobilise pas.",
+        "en": "Taking advantage of a procedural crisis, Chancellor Dollfuss prevents parliament from meeting and rules by decree; social democracy does not mobilise.",
+        "de": "Eine Geschäftsordnungskrise nutzend, verhindert Kanzler Dollfuß den Wiederzusammentritt des Parlaments und regiert mit Notverordnungen; die Sozialdemokratie mobilisiert nicht.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1920-first-republic-and-red-vienna"}],
+      "persons": ["engelbert-dollfuss"],
+      "sources": [{"ref": "wp-en-austrian-civil-war"}, {"ref": "wp-en-history-of-the-spo"}],
+      "status": "draft"
+    },
+    {
+      "id": "1933-ban-of-the-kpo-and-the-schutzbund",
+      "title": {
+        "fr": "Interdiction du Parti communiste et du Schutzbund",
+        "en": "Ban of the Communist Party and the Schutzbund",
+        "de": "Verbot der KPÖ und des Schutzbundes",
+        "draft": ["en", "de"]
+      },
+      "type": "ban",
+      "start": {"date": "1933-05-26"},
+      "end": {"date": "1933-05-31"},
+      "summary": {
+        "fr": "Le gouvernement Dollfuss interdit le Parti communiste puis le Schutzbund républicain, qui passe dans la clandestinité.",
+        "en": "The Dollfuss government bans the Communist Party and then the Republican Protection League, which goes underground.",
+        "de": "Die Regierung Dollfuß verbietet die KPÖ und dann den Republikanischen Schutzbund, der in die Illegalität geht.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1920-first-republic-and-red-vienna"}],
+      "persons": ["engelbert-dollfuss"],
+      "organizations": ["kpo", "schutzbund"],
+      "sources": [{"ref": "wp-en-austrian-civil-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "1934-austrian-civil-war",
+      "title": {
+        "orig": "de",
+        "de": "Februarkämpfe",
+        "fr": "Guerre civile autrichienne",
+        "en": "Austrian Civil War",
+        "draft": ["en"]
+      },
+      "aliases": ["Februaraufstand", "Österreichischer Bürgerkrieg"],
+      "type": "insurrection",
+      "start": {"date": "1934-02-12"},
+      "end": {"date": "1934-02-15"},
+      "summary": {
+        "fr": "À Linz, le Schutzbund résiste à une perquisition ; les combats gagnent Vienne et les villes industrielles, l'armée bombarde le Karl-Marx-Hof ; trois cents à quatre cents morts, neuf exécutions, la social-démocratie est interdite.",
+        "en": "In Linz the Schutzbund resists a police search; fighting spreads to Vienna and the industrial towns, the army shells the Karl-Marx-Hof; three to four hundred dead, nine executions, social democracy is banned.",
+        "de": "In Linz widersetzt sich der Schutzbund einer Waffensuche; die Kämpfe greifen auf Wien und die Industriestädte über, das Bundesheer beschießt den Karl-Marx-Hof; drei- bis vierhundert Tote, neun Hinrichtungen, die Sozialdemokratie wird verboten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1934-austrofascism"}],
+      "persons": ["richard-bernaschek", "engelbert-dollfuss", "otto-bauer"],
+      "places": ["linz", "vienna", "steyr"],
+      "organizations": ["schutzbund", "spo"],
+      "sources": [{"ref": "wp-en-austrian-civil-war"}, {"ref": "wp-en-history-of-the-spo"}],
+      "status": "draft"
+    },
+    {
+      "id": "1934-may-constitution",
+      "title": {
+        "fr": "Constitution de mai",
+        "en": "May Constitution",
+        "de": "Maiverfassung",
+        "draft": ["en", "de"]
+      },
+      "type": "law",
+      "start": {"date": "1934-05-01"},
+      "summary": {
+        "fr": "Une constitution corporatiste remplace la constitution démocratique et fonde l'« État fédéral d'Autriche », avec le Front patriotique comme parti unique.",
+        "en": "A corporatist constitution replaces the democratic one and founds the 'Federal State of Austria', with the Fatherland Front as the single party.",
+        "de": "Eine ständestaatliche Verfassung ersetzt die demokratische und begründet den „Bundesstaat Österreich“ mit der Vaterländischen Front als Einheitspartei.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1934-austrofascism"}],
+      "persons": ["engelbert-dollfuss"],
+      "organizations": ["fatherland-front"],
+      "sources": [{"ref": "wp-en-austrian-civil-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "1934-july-putsch",
+      "title": {"fr": "Putsch de juillet", "en": "July Putsch", "de": "Juliputsch", "draft": ["en", "de"]},
+      "type": "coup",
+      "start": {"date": "1934-07-25"},
+      "summary": {
+        "fr": "Des nazis autrichiens assassinent le chancelier Dollfuss dans la chancellerie, mais le putsch échoue ; Schuschnigg lui succède.",
+        "en": "Austrian Nazis assassinate Chancellor Dollfuss in the Chancellery, but the putsch fails; Schuschnigg succeeds him.",
+        "de": "Österreichische Nationalsozialisten ermorden Kanzler Dollfuß im Kanzleramt, doch der Putsch scheitert; Schuschnigg wird sein Nachfolger.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1934-austrofascism"}],
+      "persons": ["engelbert-dollfuss", "kurt-schuschnigg"],
+      "places": ["vienna"],
+      "organizations": ["nsdap"],
+      "sources": [{"ref": "wp-en-anschluss"}],
+      "status": "draft"
+    },
+    {
+      "id": "1938-anschluss",
+      "title": {"orig": "de", "de": "Anschluss", "fr": "Anschluss", "en": "Anschluss", "draft": ["en"]},
+      "type": "other",
+      "start": {"date": "1938-03-12"},
+      "end": {"date": "1938-03-13"},
+      "summary": {
+        "fr": "Après la démission de Schuschnigg, la Wehrmacht entre en Autriche sans résistance et l'Autriche est rattachée au Reich ; persécutions antijuives immédiates, plébiscite truqué du 10 avril.",
+        "en": "After Schuschnigg resigns, the Wehrmacht enters Austria unopposed and Austria is joined to the Reich; immediate anti-Jewish persecution, rigged plebiscite on 10 April.",
+        "de": "Nach Schuschniggs Rücktritt marschiert die Wehrmacht widerstandslos ein, und Österreich wird dem Reich angeschlossen; sofortige Judenverfolgung, manipulierte Volksabstimmung am 10. April.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1938-nazi-annexation-and-war"}, {"id": "1933-third-reich"}, {"id": "world-states"}],
+      "persons": ["adolf-hitler", "kurt-schuschnigg"],
+      "places": ["vienna"],
+      "organizations": ["nsdap"],
+      "sources": [{"ref": "wp-en-anschluss"}],
+      "status": "draft"
+    },
+    {
+      "id": "1943-moscow-declaration",
+      "title": {
+        "fr": "Déclaration de Moscou sur l'Autriche",
+        "en": "Moscow Declaration on Austria",
+        "de": "Moskauer Deklaration",
+        "draft": ["en", "de"]
+      },
+      "type": "treaty",
+      "start": {"date": "1943-10-30"},
+      "summary": {
+        "fr": "Les Alliés déclarent l'Anschluss nul et non avenu et font de l'Autriche la « première victime » de Hitler, tout en rappelant sa responsabilité : base du futur mythe victimaire.",
+        "en": "The Allies declare the Anschluss null and void and call Austria Hitler's 'first victim', while recalling its responsibility: the basis of the later victim myth.",
+        "de": "Die Alliierten erklären den Anschluss für null und nichtig und nennen Österreich das „erste Opfer“ Hitlers, erinnern aber an seine Mitverantwortung: Grundlage des späteren Opfermythos.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1938-nazi-annexation-and-war"}],
+      "sources": [{"ref": "wp-en-communist-party-of-austria"}, {"ref": "wp-en-anschluss"}],
+      "status": "draft"
+    },
+    {
+      "id": "1945-battle-of-vienna",
+      "title": {
+        "fr": "Bataille de Vienne",
+        "en": "Battle of Vienna",
+        "de": "Schlacht um Wien",
+        "draft": ["en", "de"]
+      },
+      "type": "battle",
+      "start": {"date": "1945-04-02"},
+      "end": {"date": "1945-04-13"},
+      "summary": {
+        "fr": "L'Armée rouge prend Vienne après dix jours de combats ; la libération de l'Autriche s'achève avec la capitulation allemande en mai.",
+        "en": "The Red Army takes Vienna after ten days of fighting; the liberation of Austria is completed with the German surrender in May.",
+        "de": "Die Rote Armee nimmt Wien nach zehntägigen Kämpfen ein; die Befreiung Österreichs ist mit der deutschen Kapitulation im Mai abgeschlossen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1938-nazi-annexation-and-war"}, {"id": "1939-second-world-war"}],
+      "places": ["vienna"],
+      "organizations": ["red-army"],
+      "sources": [{"ref": "wp-en-history-of-the-spo"}],
+      "status": "draft"
+    },
+    {
+      "id": "1945-provisional-government-of-austria",
+      "title": {
+        "fr": "Gouvernement provisoire Renner",
+        "en": "Renner provisional government",
+        "de": "Provisorische Staatsregierung Renner",
+        "draft": ["en", "de"]
+      },
+      "type": "government",
+      "start": {"date": "1945-04-27"},
+      "summary": {
+        "fr": "Avec l'appui soviétique, Karl Renner forme un gouvernement de socialistes, de conservateurs et de communistes, qui proclame le rétablissement de l'Autriche indépendante.",
+        "en": "With Soviet support, Karl Renner forms a government of socialists, conservatives and communists that proclaims the restoration of an independent Austria.",
+        "de": "Mit sowjetischer Unterstützung bildet Karl Renner eine Regierung aus Sozialisten, Konservativen und Kommunisten, die die Wiederherstellung eines unabhängigen Österreichs proklamiert.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1945-occupation-and-reconstruction"}],
+      "persons": ["karl-renner"],
+      "organizations": ["spo", "ovp", "kpo"],
+      "sources": [{"ref": "wp-en-history-of-the-spo"}, {"ref": "wp-en-communist-party-of-austria"}],
+      "status": "draft"
+    },
+    {
+      "id": "1945-austrian-legislative-election",
+      "title": {
+        "fr": "Élections de novembre 1945",
+        "en": "November 1945 election",
+        "de": "Nationalratswahl 1945",
+        "draft": ["en", "de"]
+      },
+      "type": "election",
+      "start": {"date": "1945-11-25"},
+      "summary": {
+        "fr": "L'ÖVP obtient la majorité absolue et le Parti communiste seulement 5,4 % ; la grande coalition ÖVP-SPÖ gouvernera jusqu'en 1966.",
+        "en": "The ÖVP wins an absolute majority and the Communist Party only 5.4%; the ÖVP-SPÖ grand coalition will govern until 1966.",
+        "de": "Die ÖVP erringt die absolute Mehrheit, die KPÖ nur 5,4 %; die große Koalition aus ÖVP und SPÖ regiert bis 1966.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1945-occupation-and-reconstruction"}],
+      "organizations": ["ovp", "spo", "kpo"],
+      "sources": [{"ref": "wp-en-communist-party-of-austria"}, {"ref": "wp-en-history-of-the-spo"}],
+      "status": "draft"
+    },
+    {
+      "id": "1950-austrian-general-strikes",
+      "title": {
+        "fr": "Grèves d'octobre 1950",
+        "en": "1950 Austrian general strikes",
+        "de": "Oktoberstreik 1950",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "1950-09-26"},
+      "end": {"date": "1950-10-05"},
+      "summary": {
+        "fr": "Contre le quatrième accord salaires-prix, 120 000 ouvriers font grève à l'appel des communistes ; la direction syndicale et les commandos de Franz Olah brisent le mouvement, présenté comme un « putsch communiste ».",
+        "en": "Against the fourth wage-price agreement, 120,000 workers strike at the communists' call; the union leadership and Franz Olah's squads break the movement, presented as a 'communist putsch'.",
+        "de": "Gegen das vierte Lohn-Preis-Abkommen streiken auf Aufruf der Kommunisten 120.000 Arbeiter; die Gewerkschaftsführung und Franz Olahs Trupps brechen die Bewegung, die als „kommunistischer Putsch“ dargestellt wird.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1945-occupation-and-reconstruction"}],
+      "persons": ["franz-olah"],
+      "places": ["vienna", "linz", "steyr"],
+      "organizations": ["kpo", "ogb"],
+      "sources": [{"ref": "wp-en-1950-austrian-general-strikes"}, {"ref": "wp-en-communist-party-of-austria"}],
+      "status": "draft"
+    },
+    {
+      "id": "1955-austrian-state-treaty",
+      "title": {
+        "orig": "de",
+        "de": "Österreichischer Staatsvertrag",
+        "fr": "Traité d'État autrichien",
+        "en": "Austrian State Treaty",
+        "draft": ["en"]
+      },
+      "type": "treaty",
+      "start": {"date": "1955-05-15"},
+      "summary": {
+        "fr": "Signé au Belvédère par les quatre puissances, le traité rétablit la souveraineté de l'Autriche, interdit un nouvel Anschluss et entraîne le départ des troupes d'occupation en octobre.",
+        "en": "Signed at the Belvedere by the four powers, the treaty restores Austria's sovereignty, forbids a new Anschluss and leads to the departure of the occupation troops in October.",
+        "de": "Der im Belvedere von den vier Mächten unterzeichnete Vertrag stellt die Souveränität Österreichs wieder her, verbietet einen neuen Anschluss und führt im Oktober zum Abzug der Besatzungstruppen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1945-occupation-and-reconstruction"}, {"id": "world-states"}],
+      "places": ["vienna"],
+      "sources": [{"ref": "wp-en-austrian-state-treaty"}],
+      "status": "draft"
+    },
+    {
+      "id": "1955-declaration-of-neutrality",
+      "title": {
+        "fr": "Loi sur la neutralité",
+        "en": "Declaration of Neutrality",
+        "de": "Neutralitätsgesetz",
+        "draft": ["en", "de"]
+      },
+      "type": "law",
+      "start": {"date": "1955-10-26"},
+      "summary": {
+        "fr": "Le Parlement inscrit dans la Constitution la neutralité perpétuelle de l'Autriche, au lendemain du départ du dernier soldat étranger.",
+        "en": "Parliament enshrines Austria's permanent neutrality in the Constitution, the day after the last foreign soldier leaves.",
+        "de": "Das Parlament verankert die immerwährende Neutralität Österreichs in der Verfassung, am Tag nach dem Abzug des letzten fremden Soldaten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1955-neutrality-and-kreisky-era"}],
+      "sources": [{"ref": "wp-en-austrian-state-treaty"}],
+      "status": "draft"
+    },
+    {
+      "id": "1965-borodajkewycz-affair",
+      "title": {
+        "fr": "Affaire Borodajkewycz et mort d'Ernst Kirchweger",
+        "en": "Borodajkewycz affair and death of Ernst Kirchweger",
+        "de": "Borodajkewycz-Affäre und Tod Ernst Kirchwegers",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1965-03-31"},
+      "summary": {
+        "fr": "Lors d'une manifestation contre un professeur aux propos antisémites, un militant néonazi frappe à mort le résistant communiste Ernst Kirchweger : première victime politique de la Seconde République.",
+        "en": "During a demonstration against a professor who made antisemitic remarks, a neo-Nazi activist beats to death the communist resistance veteran Ernst Kirchweger: the Second Republic's first political victim.",
+        "de": "Bei einer Demonstration gegen einen antisemitisch auftretenden Professor schlägt ein Neonazi den kommunistischen Widerstandskämpfer Ernst Kirchweger tot: das erste politische Todesopfer der Zweiten Republik.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1955-neutrality-and-kreisky-era"}],
+      "persons": ["ernst-kirchweger"],
+      "places": ["vienna"],
+      "status": "draft"
+    },
+    {
+      "id": "1970-kreisky-governments",
+      "title": {
+        "fr": "Gouvernements Kreisky",
+        "en": "Kreisky governments",
+        "de": "Regierungen Kreisky",
+        "draft": ["en", "de"]
+      },
+      "type": "government",
+      "start": {"date": "1970-04-21"},
+      "end": {"date": "1983-05-24"},
+      "summary": {
+        "fr": "Seul au pouvoir à partir de 1971, le SPÖ de Bruno Kreisky étend l'État social, réforme le droit de la famille et dépénalise l'avortement, dans le cadre du partenariat social.",
+        "en": "Governing alone from 1971, Bruno Kreisky's SPÖ expands the welfare state, reforms family law and decriminalises abortion, within the framework of social partnership.",
+        "de": "Ab 1971 allein regierend, baut die SPÖ unter Bruno Kreisky den Sozialstaat aus, reformiert das Familienrecht und führt die Fristenlösung ein, im Rahmen der Sozialpartnerschaft.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1955-neutrality-and-kreisky-era"}],
+      "persons": ["bruno-kreisky"],
+      "organizations": ["spo"],
+      "sources": [{"ref": "wp-en-history-of-the-spo"}],
+      "status": "draft"
+    },
+    {
+      "id": "1978-zwentendorf-referendum",
+      "title": {
+        "fr": "Référendum de Zwentendorf",
+        "en": "Zwentendorf referendum",
+        "de": "Volksabstimmung über Zwentendorf",
+        "draft": ["en", "de"]
+      },
+      "type": "vote",
+      "start": {"date": "1978-11-05"},
+      "summary": {
+        "fr": "Contre le gouvernement et le patronat, une courte majorité refuse la mise en service de la centrale nucléaire déjà construite : victoire du mouvement antinucléaire.",
+        "en": "Against the government and employers, a narrow majority rejects the commissioning of the already built nuclear power plant: a victory for the anti-nuclear movement.",
+        "de": "Gegen Regierung und Industrie lehnt eine knappe Mehrheit die Inbetriebnahme des bereits gebauten Atomkraftwerks ab: ein Sieg der Anti-Atom-Bewegung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1955-neutrality-and-kreisky-era"}],
+      "places": ["zwentendorf"],
+      "status": "draft"
+    },
+    {
+      "id": "1984-occupation-of-the-hainburg-floodplain",
+      "title": {
+        "fr": "Occupation de la plaine alluviale de Hainburg",
+        "en": "Occupation of the Hainburg floodplain",
+        "de": "Besetzung der Hainburger Au",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1984-12-08"},
+      "end": {"date": "1984-12-21"},
+      "summary": {
+        "fr": "Des milliers de manifestants occupent la forêt alluviale du Danube contre un barrage ; malgré une charge policière, le gouvernement suspend les travaux : naissance du mouvement écologiste.",
+        "en": "Thousands of protesters occupy the Danube floodplain forest against a dam; despite a police charge, the government halts the works: birth of the green movement.",
+        "de": "Tausende Demonstranten besetzen die Donauauen gegen ein Kraftwerk; trotz eines Polizeieinsatzes stoppt die Regierung die Arbeiten: Geburt der Grünbewegung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1955-neutrality-and-kreisky-era"}],
+      "places": ["hainburg"],
+      "status": "draft"
+    },
+    {
+      "id": "1986-waldheim-affair",
+      "title": {
+        "fr": "Affaire Waldheim",
+        "en": "Waldheim affair",
+        "de": "Waldheim-Affäre",
+        "draft": ["en", "de"]
+      },
+      "type": "election",
+      "start": {"date": "1986-06-08"},
+      "summary": {
+        "fr": "Malgré les révélations sur son passé dans la Wehrmacht dans les Balkans, Kurt Waldheim est élu président : le mythe de la « première victime » commence à se fissurer.",
+        "en": "Despite revelations about his Wehrmacht past in the Balkans, Kurt Waldheim is elected president: the 'first victim' myth begins to crack.",
+        "de": "Trotz der Enthüllungen über seine Wehrmachtsvergangenheit auf dem Balkan wird Kurt Waldheim zum Bundespräsidenten gewählt: der Opfermythos beginnt zu bröckeln.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1986-far-right-and-european-integration"}],
+      "persons": ["kurt-waldheim"],
+      "status": "draft"
+    },
+    {
+      "id": "1986-haider-takes-over-the-fpo",
+      "title": {
+        "fr": "Haider prend la tête du FPÖ",
+        "en": "Haider takes over the FPÖ",
+        "de": "Haider übernimmt die FPÖ",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1986-09-13"},
+      "summary": {
+        "fr": "Au congrès d'Innsbruck, Jörg Haider renverse la direction libérale du FPÖ et en fait un parti nationaliste et xénophobe en pleine ascension ; la grande coalition se reforme.",
+        "en": "At the Innsbruck congress, Jörg Haider topples the FPÖ's liberal leadership and turns it into a rising nationalist and xenophobic party; the grand coalition is re-formed.",
+        "de": "Auf dem Innsbrucker Parteitag stürzt Jörg Haider die liberale FPÖ-Führung und macht die Partei zu einer aufstrebenden nationalistischen und fremdenfeindlichen Kraft; die große Koalition wird erneuert.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1986-far-right-and-european-integration"}],
+      "persons": ["jorg-haider"],
+      "places": ["innsbruck"],
+      "organizations": ["fpo"],
+      "status": "draft"
+    },
+    {
+      "id": "1993-sea-of-lights",
+      "title": {
+        "fr": "« Mer de lumières » contre le racisme",
+        "en": "'Sea of Lights' against racism",
+        "de": "Lichtermeer",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1993-01-23"},
+      "summary": {
+        "fr": "Quelque 300 000 personnes manifestent à Vienne contre la pétition xénophobe « L'Autriche d'abord » du FPÖ : la plus grande manifestation de la Seconde République.",
+        "en": "Some 300,000 people demonstrate in Vienna against the FPÖ's xenophobic 'Austria First' petition: the largest demonstration of the Second Republic.",
+        "de": "Rund 300.000 Menschen demonstrieren in Wien gegen das fremdenfeindliche Volksbegehren „Österreich zuerst“ der FPÖ: die größte Kundgebung der Zweiten Republik.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1986-far-right-and-european-integration"}],
+      "places": ["vienna"],
+      "organizations": ["fpo"],
+      "status": "draft"
+    },
+    {
+      "id": "1995-austria-joins-the-european-union",
+      "title": {
+        "fr": "Adhésion à l'Union européenne",
+        "en": "Austria joins the European Union",
+        "de": "EU-Beitritt Österreichs",
+        "draft": ["en", "de"]
+      },
+      "type": "treaty",
+      "start": {"date": "1995-01-01"},
+      "summary": {
+        "fr": "Après un référendum approuvé par les deux tiers des votants le 12 juin 1994, l'Autriche entre dans l'Union européenne ; s'ensuivent privatisations et politiques budgétaires restrictives.",
+        "en": "After a referendum approved by two thirds of voters on 12 June 1994, Austria joins the European Union; privatisation and restrictive budget policies follow.",
+        "de": "Nach einer Volksabstimmung mit Zweidrittelmehrheit am 12. Juni 1994 tritt Österreich der Europäischen Union bei; es folgen Privatisierungen und restriktive Budgetpolitik.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1986-far-right-and-european-integration"}],
+      "sources": [{"ref": "wp-en-timeline-of-austrian-history"}, {"ref": "wp-en-history-of-the-spo"}],
+      "status": "draft"
+    },
+    {
+      "id": "2000-ovp-fpo-government-and-protests",
+      "title": {
+        "fr": "Gouvernement ÖVP-FPÖ et mouvement de protestation",
+        "en": "ÖVP-FPÖ government and protest movement",
+        "de": "Schwarz-Blau und Widerstandsbewegung",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Donnerstagsdemonstrationen"],
+      "type": "demonstration",
+      "start": {"date": "2000-02-04"},
+      "end": {"date": "2000-02-19"},
+      "summary": {
+        "fr": "L'entrée de l'extrême droite au gouvernement Schüssel provoque des sanctions européennes et un mouvement de rue : manifestations hebdomadaires du jeudi et grand rassemblement à Vienne le 19 février.",
+        "en": "The far right's entry into the Schüssel government provokes EU sanctions and a street movement: weekly Thursday demonstrations and a mass rally in Vienna on 19 February.",
+        "de": "Der Regierungseintritt der extremen Rechten unter Schüssel löst EU-Sanktionen und eine Straßenbewegung aus: wöchentliche Donnerstagsdemonstrationen und eine Großkundgebung in Wien am 19. Februar.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1986-far-right-and-european-integration"}],
+      "places": ["vienna"],
+      "organizations": ["ovp", "fpo"],
+      "sources": [{"ref": "wp-en-history-of-the-spo"}],
+      "status": "draft"
+    },
+    {
+      "id": "2003-pension-reform-strikes",
+      "title": {
+        "fr": "Grèves contre la réforme des retraites",
+        "en": "Strikes against the pension reform",
+        "de": "Streiks gegen die Pensionsreform",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "2003-05-06"},
+      "end": {"date": "2003-06-03"},
+      "summary": {
+        "fr": "Contre la réforme des retraites du gouvernement ÖVP-FPÖ, l'ÖGB organise les plus grandes grèves depuis 1950, mais la réforme passe.",
+        "en": "Against the ÖVP-FPÖ government's pension reform, the ÖGB organises the largest strikes since 1950, but the reform goes through.",
+        "de": "Gegen die Pensionsreform der ÖVP-FPÖ-Regierung organisiert der ÖGB die größten Streiks seit 1950, doch die Reform wird beschlossen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1986-far-right-and-european-integration"}],
+      "organizations": ["ogb"],
+      "status": "draft"
+    },
+    {
+      "id": "2009-uni-brennt",
+      "title": {
+        "fr": "Mouvement « Uni brennt »",
+        "en": "'Uni brennt' movement",
+        "de": "Uni brennt",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "2009-10-22"},
+      "summary": {
+        "fr": "Les étudiants occupent l'Audimax de l'université de Vienne contre les conditions d'études et la marchandisation de l'université ; le mouvement s'étend à toute l'Autriche et à l'Allemagne.",
+        "en": "Students occupy the Audimax of the University of Vienna against study conditions and the commodification of the university; the movement spreads across Austria and to Germany.",
+        "de": "Studierende besetzen das Audimax der Universität Wien gegen Studienbedingungen und Ökonomisierung der Universität; die Bewegung breitet sich auf ganz Österreich und Deutschland aus.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1986-far-right-and-european-integration"}],
+      "places": ["vienna"],
+      "status": "draft"
+    },
+    {
+      "id": "2018-protest-against-the-12-hour-day",
+      "title": {
+        "fr": "Manifestation contre la journée de douze heures",
+        "en": "Demonstration against the 12-hour day",
+        "de": "Demonstration gegen den 12-Stunden-Tag",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "2018-06-30"},
+      "summary": {
+        "fr": "Environ 100 000 personnes manifestent à l'appel de l'ÖGB contre la loi du gouvernement Kurz-Strache autorisant la journée de travail de douze heures, adoptée quelques jours plus tard.",
+        "en": "Around 100,000 people demonstrate at the ÖGB's call against the Kurz-Strache government's law allowing the twelve-hour working day, passed a few days later.",
+        "de": "Rund 100.000 Menschen demonstrieren auf Aufruf des ÖGB gegen das Gesetz der Regierung Kurz-Strache zum Zwölfstundentag, das wenige Tage später beschlossen wird.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1986-far-right-and-european-integration"}],
+      "places": ["vienna"],
+      "organizations": ["ogb", "ovp", "fpo"],
+      "status": "draft"
+    },
+    {
+      "id": "2019-ibiza-affair",
+      "title": {"fr": "Affaire d'Ibiza", "en": "Ibiza affair", "de": "Ibiza-Affäre", "draft": ["en", "de"]},
+      "type": "crisis",
+      "start": {"date": "2019-05-17"},
+      "summary": {
+        "fr": "Une vidéo montre le vice-chancelier Strache proposer des marchés publics à une prétendue oligarque russe en échange de soutiens ; la coalition ÖVP-FPÖ s'effondre.",
+        "en": "A video shows Vice-Chancellor Strache offering public contracts to a supposed Russian oligarch in exchange for support; the ÖVP-FPÖ coalition collapses.",
+        "de": "Ein Video zeigt Vizekanzler Strache, wie er einer angeblichen russischen Oligarchin öffentliche Aufträge für Unterstützung anbietet; die ÖVP-FPÖ-Koalition zerbricht.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1986-far-right-and-european-integration"}],
+      "organizations": ["ovp", "fpo"],
+      "status": "draft"
+    },
+    {
+      "id": "2021-elke-kahr-mayor-of-graz",
+      "title": {
+        "fr": "Elke Kahr, maire communiste de Graz",
+        "en": "Elke Kahr becomes communist mayor of Graz",
+        "de": "Elke Kahr wird kommunistische Bürgermeisterin von Graz",
+        "draft": ["en", "de"]
+      },
+      "type": "election",
+      "start": {"date": "2021-11-17"},
+      "summary": {
+        "fr": "Arrivé en tête des municipales avec 29 % grâce à des années de travail sur le logement, le Parti communiste conquiert la mairie de la deuxième ville d'Autriche.",
+        "en": "Coming first in the municipal election with 29% after years of work on housing, the Communist Party wins the mayoralty of Austria's second city.",
+        "de": "Nach jahrelanger Arbeit zur Wohnungsfrage wird die KPÖ mit 29 % stärkste Partei und erobert das Bürgermeisteramt der zweitgrößten Stadt Österreichs.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1986-far-right-and-european-integration"}],
+      "persons": ["elke-kahr"],
+      "places": ["graz"],
+      "organizations": ["kpo"],
+      "sources": [{"ref": "wp-en-communist-party-of-austria"}],
+      "status": "draft"
+    },
+    {
+      "id": "2024-fpo-wins-legislative-election",
+      "title": {
+        "fr": "Le FPÖ en tête des législatives",
+        "en": "FPÖ comes first in the legislative election",
+        "de": "FPÖ gewinnt die Nationalratswahl",
+        "draft": ["en", "de"]
+      },
+      "type": "election",
+      "start": {"date": "2024-09-29"},
+      "summary": {
+        "fr": "Pour la première fois, l'extrême droite arrive en tête d'une élection nationale ; après l'échec des négociations entre FPÖ et ÖVP, une coalition ÖVP-SPÖ-NEOS est formée en 2025.",
+        "en": "For the first time the far right comes first in a national election; after FPÖ-ÖVP talks fail, an ÖVP-SPÖ-NEOS coalition is formed in 2025.",
+        "de": "Erstmals wird die extreme Rechte bei einer bundesweiten Wahl stärkste Partei; nach dem Scheitern der Verhandlungen zwischen FPÖ und ÖVP wird 2025 eine Koalition aus ÖVP, SPÖ und NEOS gebildet.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1986-far-right-and-european-integration"}],
+      "organizations": ["fpo", "ovp", "spo"],
+      "status": "draft"
+    }
+  ]
+}

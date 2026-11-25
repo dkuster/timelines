@@ -1,0 +1,3196 @@
+{
+  "$schema": "../schema/ideas.schema.json",
+  "collection": "ideas",
+  "version": 1,
+  "items": [
+    {
+      "id": "babouvism",
+      "name": {"fr": "Babouvisme", "en": "Babouvism", "de": "Babouvismus", "draft": ["en", "de"]},
+      "aliases": ["Communisme des Égaux", "Conjuration des Égaux"],
+      "type": "current",
+      "tradition": "socialist",
+      "summary": {
+        "fr": "Premier communisme révolutionnaire moderne : abolir la propriété privée par l'insurrection d'une minorité organisée.",
+        "en": "The first modern revolutionary communism: abolishing private property through the insurrection of an organised minority.",
+        "de": "Der erste moderne revolutionäre Kommunismus: Abschaffung des Privateigentums durch den Aufstand einer organisierten Minderheit.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Courant né de la Conjuration des Égaux menée par Gracchus Babeuf contre le Directoire en 1796. Il réclame l'égalité réelle, et non seulement juridique, par la mise en commun des biens et du travail. Il prévoit la prise du pouvoir par une organisation secrète, suivie d'une dictature révolutionnaire transitoire. Transmis par Buonarroti, il inspire Blanqui et les sociétés secrètes du XIXe siècle."
+      },
+      "appraisal": {
+        "fr": "Le Manifeste voit en Babeuf l'une des premières expressions indépendantes du prolétariat naissant, mais juge son communisme ascétique et grossier, faute de base matérielle. Sa conception conspirative, celle d'une minorité qui agit à la place des masses, est rejetée par Marx et Engels."
+      },
+      "milestones": [
+        {
+          "stage": "emergence",
+          "node": "1796-conspiracy-of-the-equals",
+          "persons": ["babeuf", "sylvain-marechal", "buonarroti"],
+          "note": {
+            "fr": "Sylvain Maréchal rédige le Manifeste des Égaux, qui annonce une révolution plus grande que celle de 1789."
+          }
+        },
+        {
+          "stage": "revival",
+          "work": "conspiracy-for-equality",
+          "note": {
+            "fr": "Le livre de Buonarroti transmet l'expérience des Égaux à la génération de Blanqui."
+          }
+        },
+        {
+          "stage": "critique",
+          "work": "communist-manifesto",
+          "note": {
+            "fr": "Le chapitre III range Babeuf parmi les premiers porte-parole du prolétariat, au communisme encore grossier."
+          }
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "utopian-socialism",
+      "name": {
+        "fr": "Socialisme utopique",
+        "en": "Utopian socialism",
+        "de": "Utopischer Sozialismus",
+        "draft": ["en", "de"]
+      },
+      "type": "current",
+      "tradition": "socialist",
+      "summary": {
+        "fr": "Projets de société harmonieuse conçus par Saint-Simon, Fourier et Owen, qui comptent sur l'exemple et la persuasion plutôt que sur la lutte des classes.",
+        "en": "Plans for a harmonious society devised by Saint-Simon, Fourier and Owen, relying on example and persuasion rather than class struggle.",
+        "de": "Entwürfe einer harmonischen Gesellschaft von Saint-Simon, Fourier und Owen, die auf Vorbild und Überzeugung statt auf Klassenkampf setzen.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Nom donné après coup, surtout par Engels, aux systèmes socialistes du début du XIXe siècle. Saint-Simon, Fourier et Owen critiquent la misère et l'anarchie de la société industrielle naissante et dessinent des sociétés idéales : phalanstères, communautés coopératives. Ils s'adressent à toutes les classes, souvent aux puissants, et misent sur des colonies modèles pour convaincre par l'exemple."
+      },
+      "appraisal": {
+        "fr": "Marx et Engels reconnaissent la pénétration de leur critique du capitalisme, mais leur reprochent d'ignorer le prolétariat comme force historique autonome : faute de comprendre les lois du développement social, ils inventent la société future au lieu de la dégager du mouvement réel."
+      },
+      "milestones": [
+        {"stage": "emergence", "work": "theory-of-the-four-movements", "persons": ["fourier"]},
+        {"stage": "development", "work": "a-new-view-of-society", "persons": ["robert-owen"]},
+        {
+          "stage": "critique",
+          "work": "communist-manifesto",
+          "note": {
+            "fr": "Le chapitre III fait la critique du « socialisme et communisme critico-utopiques »."
+          }
+        },
+        {
+          "stage": "critique",
+          "work": "socialism-utopian-and-scientific",
+          "note": {"fr": "Engels oppose le socialisme utopique au socialisme scientifique."}
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "blanquism",
+      "name": {"fr": "Blanquisme", "en": "Blanquism", "de": "Blanquismus", "draft": ["en", "de"]},
+      "type": "current",
+      "tradition": "socialist",
+      "summary": {
+        "fr": "Stratégie de prise du pouvoir par une minorité révolutionnaire disciplinée, agissant au nom du peuple.",
+        "en": "A strategy of seizing power through a disciplined revolutionary minority acting on behalf of the people.",
+        "de": "Strategie der Machtergreifung durch eine disziplinierte revolutionäre Minderheit, die im Namen des Volkes handelt.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Doctrine d'Auguste Blanqui, héritier de Babeuf par Buonarroti. Une organisation secrète et centralisée prépare l'insurrection, s'empare du pouvoir par un coup de main et exerce une dictature révolutionnaire le temps d'éduquer le peuple. Blanqui passe plus de trente ans en prison. Les blanquistes forment une composante importante de la Commune de Paris."
+      },
+      "appraisal": {
+        "fr": "Marx salue en Blanqui un révolutionnaire intransigeant, mais le marxisme rejette sa conception conspirative : la révolution est l'œuvre consciente de la majorité ouvrière, non d'un complot. Le reproche de « blanquisme » sera souvent adressé aux bolcheviks ; Lénine le récuse, car l'insurrection d'Octobre s'appuie sur la majorité des soviets."
+      },
+      "milestones": [
+        {"stage": "precursor", "work": "conspiracy-for-equality"},
+        {
+          "stage": "test",
+          "node": "1839-insurrection-of-the-seasons",
+          "persons": ["blanqui"],
+          "note": {"fr": "L'insurrection de la Société des Saisons échoue faute de soutien populaire."}
+        },
+        {
+          "stage": "test",
+          "node": "1871-paris-commune",
+          "note": {"fr": "Les blanquistes forment une part de la majorité du Conseil de la Commune."}
+        },
+        {"stage": "critique", "work": "programme-of-the-blanquist-refugees", "persons": ["engels"]}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "anarchism",
+      "name": {"fr": "Anarchisme", "en": "Anarchism", "de": "Anarchismus", "draft": ["en", "de"]},
+      "type": "current",
+      "tradition": "anarchist",
+      "summary": {
+        "fr": "Courant qui veut abolir immédiatement l'État et toute autorité, et refuse l'action politique et la conquête du pouvoir.",
+        "en": "A current that seeks the immediate abolition of the state and all authority, and rejects political action and the conquest of power.",
+        "de": "Strömung, die den Staat und jede Autorität sofort abschaffen will und politisches Handeln sowie die Eroberung der Macht ablehnt.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Proudhon se dit anarchiste dès 1840 et oppose à la propriété capitaliste un mutualisme de petits producteurs. Bakounine en fait un courant révolutionnaire collectiviste, hostile à toute participation à la vie politique et à tout État, y compris ouvrier. Kropotkine le prolonge en un communisme libertaire fondé sur l'entraide. Le courant pèse surtout dans les pays latins, notamment en Espagne, où il inspire la CNT."
+      },
+      "appraisal": {
+        "fr": "Le marxisme partage le but d'une société sans État mais juge qu'on ne l'abolit pas par décret : la classe ouvrière doit d'abord conquérir le pouvoir et briser l'appareil bourgeois, puis l'État dépérit. En 1936, des dirigeants anarchistes espagnols entrent au gouvernement républicain au lieu de prendre le pouvoir, ce qui illustre pour les marxistes l'impasse du refus de poser la question du pouvoir."
+      },
+      "milestones": [
+        {
+          "stage": "emergence",
+          "work": "what-is-property",
+          "persons": ["proudhon"],
+          "note": {"fr": "Proudhon : « la propriété, c'est le vol » ; il se déclare anarchiste."}
+        },
+        {"stage": "critique", "work": "the-poverty-of-philosophy", "persons": ["marx"]},
+        {
+          "stage": "critique",
+          "node": "1872-hague-congress",
+          "persons": ["bakunin"],
+          "note": {"fr": "Exclusion de Bakounine : l'Internationale se divise."}
+        },
+        {"stage": "development", "work": "the-conquest-of-bread", "persons": ["kropotkin"]},
+        {"stage": "test", "node": "1936-spanish-revolution"}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "marxism",
+      "name": {"fr": "Marxisme", "en": "Marxism", "de": "Marxismus", "draft": ["en", "de"]},
+      "aliases": ["Socialisme scientifique", "Wissenschaftlicher Sozialismus", "Scientific socialism"],
+      "type": "current",
+      "tradition": "marxist",
+      "timeline": "marxism",
+      "summary": {
+        "fr": "Conception du monde et programme révolutionnaire fondés par Marx et Engels : matérialisme historique, critique de l'économie politique, lutte de classe du prolétariat.",
+        "en": "The world outlook and revolutionary programme founded by Marx and Engels: historical materialism, critique of political economy, proletarian class struggle.",
+        "de": "Von Marx und Engels begründete Weltanschauung und revolutionäres Programm: historischer Materialismus, Kritik der politischen Ökonomie, Klassenkampf des Proletariats.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Élaboré par Marx et Engels à partir des années 1840, le marxisme réunit une méthode, le matérialisme dialectique et historique, une analyse du capitalisme (plus-value, crises, concentration du capital) et une stratégie : la classe ouvrière, en conquérant le pouvoir politique, peut abolir la propriété privée des moyens de production et ouvrir la voie à une société sans classes. Il devient la doctrine officielle de la social-démocratie allemande puis internationale à la fin du XIXe siècle."
+      },
+      "appraisal": {
+        "fr": "Pour le marxisme révolutionnaire, ce n'est pas un dogme mais un guide pour l'action, qui se vérifie et s'enrichit dans la lutte. Son histoire est aussi celle d'un combat permanent contre ses déformations : révisionnisme, réformisme, stalinisme."
+      },
+      "milestones": [
+        {
+          "stage": "emergence",
+          "date": {"date": "1845"},
+          "work": "the-german-ideology",
+          "persons": ["marx", "engels"]
+        },
+        {"stage": "formulation", "work": "communist-manifesto"},
+        {"stage": "development", "work": "das-kapital"},
+        {"stage": "adoption", "node": "1891-erfurt-programme", "organizations": ["spd"]}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "russian-populism",
+      "name": {
+        "orig": "ru",
+        "ru": "Народничество",
+        "fr": "Populisme russe",
+        "en": "Russian populism",
+        "de": "Narodnikitum",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Narodnisme", "Narodnichestvo", "Narodism"],
+      "type": "current",
+      "tradition": "socialist",
+      "summary": {
+        "fr": "Socialisme agraire russe qui voit dans la commune paysanne la base d'un passage direct au socialisme, sans étape capitaliste.",
+        "en": "Russian agrarian socialism that sees the peasant commune as the basis for a direct transition to socialism, without a capitalist stage.",
+        "de": "Russischer Agrarsozialismus, der in der Bauerngemeinde die Grundlage für einen direkten Übergang zum Sozialismus ohne kapitalistische Etappe sieht.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Né des idées de Herzen et de Tchernychevski, le populisme mise sur l'obchtchina, la commune rurale, et sur l'intelligentsia révolutionnaire. Après l'échec de l'« aller au peuple » de 1874, une partie se tourne vers le terrorisme individuel avec Narodnaïa Volia, qui assassine Alexandre II en 1881. Les marxistes russes se constituent en rompant avec lui."
+      },
+      "appraisal": {
+        "fr": "Plekhanov puis Lénine montrent que le capitalisme se développe déjà en Russie et que la force motrice de la révolution est la classe ouvrière, non la paysannerie ni une avant-garde de conspirateurs. L'héroïsme des populistes est salué, mais le terrorisme individuel est rejeté : il remplace l'action des masses et attire la répression."
+      },
+      "milestones": [
+        {
+          "stage": "emergence",
+          "work": "kolokol",
+          "persons": ["herzen"],
+          "note": {"fr": "Herzen défend un « socialisme russe » fondé sur la commune rurale."}
+        },
+        {"stage": "development", "work": "what-is-to-be-done-novel", "persons": ["chernyshevsky"]},
+        {"stage": "test", "node": "1874-going-to-the-people"},
+        {
+          "stage": "test",
+          "node": "1881-assassination-of-alexander-ii",
+          "organizations": ["narodnaya-volya"]
+        },
+        {"stage": "critique", "node": "1883-emancipation-of-labour-group", "persons": ["plekhanov"]},
+        {"stage": "critique", "work": "our-differences", "persons": ["plekhanov"]}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "revisionism",
+      "name": {"fr": "Révisionnisme", "en": "Revisionism", "de": "Revisionismus", "draft": ["en", "de"]},
+      "aliases": ["Réformisme", "Reformism", "Reformismus"],
+      "type": "current",
+      "tradition": "socialist",
+      "broader": ["marxism"],
+      "summary": {
+        "fr": "Remise en cause par Bernstein des fondements révolutionnaires du marxisme au profit de réformes graduelles.",
+        "en": "Bernstein's challenge to the revolutionary foundations of Marxism in favour of gradual reforms.",
+        "de": "Bernsteins Infragestellung der revolutionären Grundlagen des Marxismus zugunsten schrittweiser Reformen.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "À partir de 1896, Eduard Bernstein soutient que le capitalisme atténue ses contradictions, que les crises s'espacent et que les classes moyennes ne disparaissent pas. Il en conclut que le socialisme viendra par des réformes progressives et la démocratie parlementaire : « le but final n'est rien, le mouvement est tout ». Condamné officiellement par le SPD, il exprime pourtant la pratique réelle de son appareil parlementaire et syndical."
+      },
+      "appraisal": {
+        "fr": "Rosa Luxemburg répond que les réformes, nécessaires, ne peuvent abolir l'exploitation, et que renoncer à la conquête du pouvoir revient à renoncer au socialisme. L'épreuve vient en 1914, quand la direction du SPD vote les crédits de guerre."
+      },
+      "milestones": [
+        {
+          "stage": "formulation",
+          "work": "preconditions-of-socialism",
+          "persons": ["eduard-bernstein"]
+        },
+        {"stage": "critique", "work": "social-reform-or-revolution", "persons": ["rosa-luxemburg"]},
+        {"stage": "test", "node": "1914-spd-war-credits"},
+        {
+          "stage": "adoption",
+          "node": "1959-godesberg-programme",
+          "note": {"fr": "Le SPD abandonne officiellement toute référence au marxisme."}
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "revolutionary-syndicalism",
+      "name": {
+        "fr": "Syndicalisme révolutionnaire",
+        "en": "Revolutionary syndicalism",
+        "de": "Revolutionärer Syndikalismus",
+        "draft": ["en", "de"]
+      },
+      "type": "current",
+      "tradition": "anarchist",
+      "summary": {
+        "fr": "Courant qui fait du syndicat, indépendant des partis, l'outil de la lutte quotidienne et de la révolution par la grève générale.",
+        "en": "A current that makes the trade union, independent of parties, the tool of everyday struggle and of revolution through the general strike.",
+        "de": "Strömung, die die parteiunabhängige Gewerkschaft zum Werkzeug des Alltagskampfes und der Revolution durch den Generalstreik macht.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Développé en France autour de la CGT, il se méfie de la politique parlementaire et des partis. La Charte d'Amiens de 1906 affirme l'indépendance syndicale et fixe un double but : les améliorations immédiates et l'expropriation capitaliste par la grève générale. Il inspire les IWW aux États-Unis et une aile du mouvement ouvrier britannique."
+      },
+      "appraisal": {
+        "fr": "Le marxisme reconnaît la combativité de ce courant et sa méfiance saine envers le parlementarisme, mais juge qu'il esquive la question du pouvoir d'État et du parti révolutionnaire. Après 1917, nombre de syndicalistes révolutionnaires rejoignent l'Internationale communiste."
+      },
+      "milestones": [
+        {"stage": "emergence", "node": "1895-cgt-founding"},
+        {"stage": "adoption", "node": "1905-iww-founding"},
+        {"stage": "adoption", "node": "1906-charter-of-amiens"},
+        {"stage": "development", "work": "miners-next-step"},
+        {
+          "stage": "test",
+          "node": "1914-sacred-union",
+          "note": {"fr": "La direction de la CGT se rallie à l'Union sacrée."}
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "economism",
+      "name": {"fr": "Économisme", "en": "Economism", "de": "Ökonomismus", "draft": ["en", "de"]},
+      "type": "current",
+      "tradition": "marxist",
+      "broader": ["marxism"],
+      "summary": {
+        "fr": "Tendance de la social-démocratie russe qui limite l'action ouvrière aux luttes économiques et laisse la politique aux libéraux.",
+        "en": "A trend in Russian Social Democracy that confines workers' action to economic struggles and leaves politics to the liberals.",
+        "de": "Richtung in der russischen Sozialdemokratie, die das Handeln der Arbeiter auf ökonomische Kämpfe beschränkt und die Politik den Liberalen überlässt.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Vers 1897-1901, des sociaux-démocrates russes, autour du journal Rabotchaïa Mysl, estiment que les ouvriers doivent se concentrer sur leurs revendications économiques. Le « Credo » rédigé par Kouskova en 1899 propose de laisser la lutte politique contre l'autocratie à la bourgeoisie libérale."
+      },
+      "appraisal": {
+        "fr": "Lénine y voit un culte de la spontanéité : laissée à elle-même, la lutte économique ne dépasse pas la conscience syndicale. Que faire ? défend un parti qui porte la conscience socialiste dans la classe ouvrière et organise sa lutte politique contre l'autocratie."
+      },
+      "milestones": [
+        {"stage": "formulation", "work": "credo-1899", "persons": ["yekaterina-kuskova"]},
+        {
+          "stage": "critique",
+          "date": {"date": "1899"},
+          "persons": ["lenin"],
+          "note": {
+            "fr": "Protestation des sociaux-démocrates de Russie, adoptée par des exilés en Sibérie."
+          }
+        },
+        {"stage": "critique", "work": "what-is-to-be-done", "persons": ["lenin"]}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "menshevism",
+      "name": {
+        "orig": "ru",
+        "ru": "Меньшевизм",
+        "fr": "Menchevisme",
+        "en": "Menshevism",
+        "de": "Menschewismus",
+        "draft": ["en", "de"]
+      },
+      "type": "current",
+      "tradition": "marxist",
+      "broader": ["marxism"],
+      "summary": {
+        "fr": "Aile modérée du POSDR, pour qui la révolution russe devait être bourgeoise et dirigée par la bourgeoisie libérale.",
+        "en": "The moderate wing of the RSDLP, for which the Russian revolution had to be bourgeois and led by the liberal bourgeoisie.",
+        "de": "Gemäßigter Flügel der SDAPR, für den die russische Revolution bürgerlich sein und von der liberalen Bourgeoisie geführt werden musste.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Née de la scission du IIe congrès du POSDR en 1903 sur les statuts du parti, la fraction menchevique, autour de Martov, défend un parti plus large et moins centralisé. Après 1905, elle soutient que la Russie doit passer par une révolution bourgeoise et une longue phase capitaliste, pendant laquelle les ouvriers soutiennent les libéraux. En 1917, ses dirigeants entrent au gouvernement provisoire."
+      },
+      "appraisal": {
+        "fr": "Pour les bolcheviks, la théorie des étapes condamne la classe ouvrière à se subordonner à une bourgeoisie incapable de mener sa propre révolution. La participation des mencheviks au gouvernement de coalition, qui poursuit la guerre et ajourne la réforme agraire, confirme ce diagnostic."
+      },
+      "milestones": [
+        {
+          "stage": "emergence",
+          "node": "1903-rsdlp-second-congress",
+          "persons": ["martov"],
+          "organizations": ["mensheviks"]
+        },
+        {
+          "stage": "test",
+          "node": "1917-first-coalition-government",
+          "organizations": ["mensheviks"]
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "bolshevism",
+      "name": {
+        "orig": "ru",
+        "ru": "Большевизм",
+        "fr": "Bolchevisme",
+        "en": "Bolshevism",
+        "de": "Bolschewismus",
+        "draft": ["en", "de"]
+      },
+      "type": "current",
+      "tradition": "marxist",
+      "broader": ["marxism"],
+      "timeline": "bolshevism",
+      "summary": {
+        "fr": "Courant marxiste révolutionnaire formé par Lénine, qui conduit la classe ouvrière russe au pouvoir en 1917.",
+        "en": "The revolutionary Marxist current formed by Lenin, which led the Russian working class to power in 1917.",
+        "de": "Von Lenin geformte revolutionär-marxistische Strömung, die die russische Arbeiterklasse 1917 an die Macht führte.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Il naît de la scission de 1903 et se forge dans la révolution de 1905, la réaction et le renouveau du mouvement ouvrier. Ses traits : un parti de cadres centralisé et démocratique, l'indépendance de la classe ouvrière vis-à-vis de la bourgeoisie libérale, l'alliance avec la paysannerie, l'internationalisme contre la guerre de 1914. Les Thèses d'avril l'orientent vers la prise du pouvoir par les soviets. Après 1919, il devient le modèle de l'Internationale communiste."
+      },
+      "appraisal": {
+        "fr": "Le marxisme révolutionnaire y voit l'application la plus achevée du marxisme à la question du pouvoir. La dégénérescence stalinienne, produit de l'isolement de la révolution dans un pays arriéré, n'en est pas le prolongement mais la négation."
+      },
+      "milestones": [
+        {"stage": "formulation", "work": "what-is-to-be-done", "persons": ["lenin"]},
+        {
+          "stage": "emergence",
+          "node": "1903-rsdlp-second-congress",
+          "organizations": ["bolsheviks"]
+        },
+        {
+          "stage": "adoption",
+          "node": "1912-prague-conference",
+          "note": {"fr": "Les bolcheviks se constituent en parti distinct."}
+        },
+        {"stage": "development", "node": "1917-april-theses", "persons": ["lenin"]},
+        {"stage": "test", "node": "1917-second-congress-of-soviets"},
+        {
+          "stage": "adoption",
+          "node": "1919-founding-of-the-comintern",
+          "organizations": ["comintern"]
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "stalinism",
+      "name": {"fr": "Stalinisme", "en": "Stalinism", "de": "Stalinismus", "draft": ["en", "de"]},
+      "aliases": ["Marxisme-léninisme (doctrine officielle)"],
+      "type": "current",
+      "tradition": "marxist",
+      "broader": ["bolshevism"],
+      "timeline": "stalinism",
+      "summary": {
+        "fr": "Régime et idéologie de la bureaucratie soviétique, qui se réclame du marxisme-léninisme tout en en renversant le contenu.",
+        "en": "The regime and ideology of the Soviet bureaucracy, which claims Marxism-Leninism while overturning its content.",
+        "de": "Regime und Ideologie der sowjetischen Bürokratie, die sich auf den Marxismus-Leninismus beruft und dessen Inhalt zugleich umkehrt.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Le terme désigne à la fois le régime établi en URSS sous Staline et le courant qui en dérive dans les partis communistes. Il repose sur la théorie du socialisme dans un seul pays, le monopole d'une couche bureaucratique privilégiée sur l'État et le parti, la planification autoritaire, la répression des opposants (procès de Moscou, Grande Terreur) et la subordination des partis communistes à la politique extérieure de l'URSS. Le « marxisme-léninisme » codifié en est la doctrine officielle."
+      },
+      "appraisal": {
+        "fr": "Pour Trotski et le marxisme révolutionnaire, le stalinisme n'est pas le prolongement du bolchevisme mais sa négation : une contre-révolution politique bureaucratique, née de l'isolement de la révolution dans un pays arriéré, qui conserve l'économie planifiée tout en étouffant la démocratie ouvrière. Il a discrédité le communisme aux yeux de millions de travailleurs."
+      },
+      "milestones": [
+        {"stage": "emergence", "node": "1924-socialism-in-one-country", "persons": ["stalin"]},
+        {
+          "stage": "test",
+          "node": "1927-expulsion-of-trotsky-and-zinoviev",
+          "note": {"fr": "La bureaucratie écrase l'opposition."}
+        },
+        {"stage": "test", "node": "1936-great-purge"},
+        {
+          "stage": "critique",
+          "node": "1956-secret-speech",
+          "note": {
+            "fr": "Khrouchtchev dénonce le « culte de la personnalité » sans remettre en cause le pouvoir de la bureaucratie."
+          }
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "trotskyism",
+      "name": {"fr": "Trotskisme", "en": "Trotskyism", "de": "Trotzkismus", "draft": ["en", "de"]},
+      "type": "current",
+      "tradition": "marxist",
+      "broader": ["bolshevism"],
+      "timeline": "trotskyism",
+      "summary": {
+        "fr": "Courant issu de l'Opposition de gauche, qui défend contre le stalinisme la révolution permanente, la démocratie ouvrière et l'internationalisme.",
+        "en": "The current that grew out of the Left Opposition, defending permanent revolution, workers' democracy and internationalism against Stalinism.",
+        "de": "Aus der Linken Opposition hervorgegangene Strömung, die gegen den Stalinismus die permanente Revolution, die Arbeiterdemokratie und den Internationalismus verteidigt.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Le terme, d'abord employé par ses adversaires, désigne les partisans de Trotski. L'Opposition de gauche se forme en 1923 contre la bureaucratisation du parti et de l'État soviétiques. Exclue et persécutée, elle se réorganise à l'échelle internationale et fonde en 1938 la IVe Internationale, dotée du Programme de transition. Ses thèses : révolution permanente, analyse de l'URSS comme État ouvrier dégénéré, front unique contre le fascisme, rejet des fronts populaires."
+      },
+      "appraisal": {
+        "fr": "Ses partisans s'en réclament comme de la continuité du bolchevisme de Lénine. Après la mort de Trotski, le mouvement se divise en nombreuses tendances."
+      },
+      "milestones": [
+        {
+          "stage": "emergence",
+          "node": "1923-declaration-of-the-46",
+          "organizations": ["left-opposition"]
+        },
+        {"stage": "development", "work": "the-new-course", "persons": ["trotsky"]},
+        {
+          "stage": "adoption",
+          "node": "1938-founding-of-the-fourth-international",
+          "organizations": ["fourth-international"]
+        },
+        {
+          "stage": "development",
+          "work": "pulacayo-theses",
+          "organizations": ["fstmb"],
+          "note": {"fr": "Le trotskisme bolivien conquiert une influence de masse chez les mineurs."}
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "maoism",
+      "name": {"fr": "Maoïsme", "en": "Maoism", "de": "Maoismus", "draft": ["en", "de"]},
+      "type": "current",
+      "tradition": "marxist",
+      "broader": ["stalinism"],
+      "summary": {
+        "fr": "Courant issu de la révolution chinoise, qui fait de la paysannerie et de la guerre populaire prolongée le moteur de la révolution.",
+        "en": "The current born of the Chinese revolution, which makes the peasantry and protracted people's war the driving force of revolution.",
+        "de": "Aus der chinesischen Revolution hervorgegangene Strömung, die die Bauernschaft und den langwierigen Volkskrieg zur Triebkraft der Revolution macht.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Formé par Mao Zedong entre 1927 et 1945, après l'écrasement du mouvement ouvrier urbain, il repose sur l'armée paysanne et les bases rurales, la théorie de la démocratie nouvelle (bloc de classes sous direction du parti) et la guerre populaire prolongée. Inscrit dans les statuts du PCC en 1945 sous le nom de « pensée Mao Zedong », il devient après la rupture sino-soviétique un pôle concurrent de Moscou et inspire de nombreux mouvements du tiers-monde et de la jeunesse occidentale des années 1960."
+      },
+      "appraisal": {
+        "fr": "Le marxisme révolutionnaire y voit une variante du stalinisme : la révolution de 1949 renverse le capitalisme mais établit d'emblée un régime bureaucratique sur le modèle soviétique, sans démocratie ouvrière. Le déplacement du centre de gravité vers la paysannerie est jugé comme une rupture avec le rôle dirigeant de la classe ouvrière."
+      },
+      "milestones": [
+        {
+          "stage": "emergence",
+          "node": "1927-mao-report-on-hunan-peasant-movement",
+          "persons": ["mao-zedong"]
+        },
+        {"stage": "formulation", "work": "on-new-democracy"},
+        {
+          "stage": "adoption",
+          "node": "1945-seventh-ccp-congress",
+          "note": {"fr": "La « pensée Mao Zedong » entre dans les statuts du PCC."}
+        },
+        {"stage": "test", "node": "1966-cultural-revolution"},
+        {
+          "stage": "test",
+          "node": "1980-internal-conflict-in-peru",
+          "organizations": ["shining-path"]
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "historical-materialism",
+      "name": {
+        "fr": "Matérialisme historique",
+        "en": "Historical materialism",
+        "de": "Historischer Materialismus",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Conception matérialiste de l'histoire", "Materialistische Geschichtsauffassung"],
+      "type": "method",
+      "tradition": "marxist",
+      "broader": ["marxism"],
+      "summary": {
+        "fr": "Méthode d'analyse selon laquelle le développement des forces productives et les rapports de production conditionnent l'ensemble de la vie sociale.",
+        "en": "A method of analysis according to which the development of the productive forces and the relations of production condition the whole of social life.",
+        "de": "Analysemethode, nach der die Entwicklung der Produktivkräfte und die Produktionsverhältnisse das gesamte gesellschaftliche Leben bedingen.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Marx et Engels posent que ce n'est pas la conscience des hommes qui détermine leur être, mais leur être social qui détermine leur conscience. Chaque mode de production repose sur des rapports de production qui correspondent à un certain niveau des forces productives ; quand ils deviennent une entrave, s'ouvre une époque de révolution sociale. Engels précise plus tard que l'économie n'est déterminante qu'« en dernière instance » et que les superstructures politiques et idéologiques agissent en retour."
+      },
+      "milestones": [
+        {
+          "stage": "emergence",
+          "date": {"date": "1845"},
+          "work": "the-german-ideology",
+          "note": {"fr": "Rédigée en 1845-1846, publiée en 1932."}
+        },
+        {
+          "stage": "formulation",
+          "work": "contribution-to-the-critique-of-political-economy",
+          "note": {"fr": "La préface en donne l'exposé classique."}
+        },
+        {
+          "stage": "development",
+          "date": {"date": "1890-09"},
+          "persons": ["engels"],
+          "note": {"fr": "Lettre à Joseph Bloch contre la lecture mécaniste de la théorie."}
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "dialectical-materialism",
+      "name": {
+        "fr": "Matérialisme dialectique",
+        "en": "Dialectical materialism",
+        "de": "Dialektischer Materialismus",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Diamat"],
+      "type": "method",
+      "tradition": "marxist",
+      "broader": ["marxism"],
+      "summary": {
+        "fr": "Philosophie du marxisme, qui reprend la dialectique de Hegel sur une base matérialiste : le monde est matière en mouvement, traversé de contradictions.",
+        "en": "The philosophy of Marxism, which takes up Hegel's dialectics on a materialist basis: the world is matter in motion, shot through with contradictions.",
+        "de": "Philosophie des Marxismus, die Hegels Dialektik auf materialistischer Grundlage aufnimmt: Die Welt ist Materie in Bewegung, von Widersprüchen durchzogen.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Marx et Engels retiennent de Hegel l'idée que toute réalité est processus, développement par contradictions et sauts qualitatifs, mais rejettent son idéalisme : ce sont les idées qui reflètent le monde matériel, et non l'inverse. Engels systématise cette conception dans l'Anti-Dühring. Le terme lui-même apparaît chez les continuateurs de Marx à la fin des années 1880."
+      },
+      "appraisal": {
+        "fr": "Sous Staline, il devient un catéchisme officiel, le « diamat », qui sert à justifier chaque tournant de la bureaucratie. Le marxisme révolutionnaire défend au contraire la dialectique comme méthode vivante de pensée."
+      },
+      "milestones": [
+        {"stage": "precursor", "work": "science-of-logic", "persons": ["hegel"]},
+        {
+          "stage": "precursor",
+          "work": "the-essence-of-christianity",
+          "persons": ["feuerbach"],
+          "note": {"fr": "Feuerbach renverse l'idéalisme hégélien en un matérialisme encore contemplatif."}
+        },
+        {
+          "stage": "emergence",
+          "date": {"date": "1845"},
+          "work": "theses-on-feuerbach",
+          "note": {"fr": "Rédigées en 1845, publiées par Engels en 1888."}
+        },
+        {"stage": "formulation", "work": "anti-duhring"},
+        {
+          "stage": "revision",
+          "date": {"date": "1938"},
+          "persons": ["stalin"],
+          "note": {
+            "fr": "« Matérialisme dialectique et matérialisme historique », chapitre du Précis d'histoire du PC(b) de l'URSS, codifie la doctrine officielle."
+          }
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "class-struggle",
+      "name": {
+        "orig": "de",
+        "fr": "Lutte des classes",
+        "en": "Class struggle",
+        "de": "Klassenkampf",
+        "draft": ["en"]
+      },
+      "type": "theory",
+      "tradition": "marxist",
+      "broader": ["historical-materialism"],
+      "summary": {
+        "fr": "Conflit entre classes aux intérêts opposés, moteur de l'histoire des sociétés divisées en classes.",
+        "en": "Conflict between classes with opposing interests, the driving force of history in class-divided societies.",
+        "de": "Konflikt zwischen Klassen mit entgegengesetzten Interessen, Triebkraft der Geschichte klassengeteilter Gesellschaften.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Les historiens libéraux de la Restauration française avaient déjà décrit la lutte entre bourgeoisie et noblesse. Marx et Engels en font la clé de toute l'histoire écrite : l'histoire de toute société jusqu'à nos jours est l'histoire de luttes de classes. Sous le capitalisme, elle oppose essentiellement la bourgeoisie, propriétaire des moyens de production, au prolétariat, qui ne possède que sa force de travail."
+      },
+      "milestones": [
+        {
+          "stage": "precursor",
+          "date": {"date": "1820", "qualifier": "circa"},
+          "note": {
+            "fr": "Augustin Thierry, François Guizot et François Mignet décrivent l'histoire de France comme une lutte de classes."
+          }
+        },
+        {"stage": "formulation", "work": "communist-manifesto"},
+        {"stage": "development", "work": "class-struggles-in-france"},
+        {
+          "stage": "development",
+          "work": "letter-to-weydemeyer-1852",
+          "note": {
+            "fr": "Marx précise que son apport n'est pas la découverte des classes, mais le lien entre leur lutte et la dictature du prolétariat."
+          }
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "alienation",
+      "name": {"orig": "de", "fr": "Aliénation", "en": "Alienation", "de": "Entfremdung", "draft": ["en"]},
+      "type": "concept",
+      "tradition": "marxist",
+      "broader": ["marxism"],
+      "summary": {
+        "fr": "Dépossession du travailleur, à qui le produit et l'activité de son propre travail deviennent étrangers et hostiles.",
+        "en": "The dispossession of workers, to whom the product and activity of their own labour become alien and hostile.",
+        "de": "Enteignung des Arbeiters, dem das Produkt und die Tätigkeit seiner eigenen Arbeit fremd und feindlich werden.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Hegel et Feuerbach emploient la notion pour l'esprit et la religion : l'homme projette son essence dans un dieu qui le domine. Dans les Manuscrits de 1844, Marx la transpose au travail salarié : l'ouvrier est séparé du produit de son travail, de son activité, de ses semblables et de sa propre nature humaine. Restés inédits jusqu'en 1932, ces textes nourrissent après la guerre les lectures « humanistes » du marxisme."
+      },
+      "milestones": [
+        {"stage": "precursor", "work": "the-essence-of-christianity", "persons": ["feuerbach"]},
+        {
+          "stage": "formulation",
+          "date": {"date": "1844"},
+          "work": "economic-and-philosophic-manuscripts",
+          "persons": ["marx"]
+        },
+        {
+          "stage": "revival",
+          "work": "economic-and-philosophic-manuscripts",
+          "note": {"fr": "La publication des Manuscrits relance le débat sur le « jeune Marx »."}
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "labour-theory-of-value",
+      "name": {
+        "fr": "Théorie de la valeur-travail",
+        "en": "Labour theory of value",
+        "de": "Arbeitswerttheorie",
+        "draft": ["en", "de"]
+      },
+      "type": "theory",
+      "tradition": "liberal",
+      "summary": {
+        "fr": "La valeur des marchandises est déterminée par la quantité de travail nécessaire à leur production.",
+        "en": "The value of commodities is determined by the quantity of labour needed to produce them.",
+        "de": "Der Wert der Waren wird durch die zu ihrer Herstellung notwendige Arbeitsmenge bestimmt.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Esquissée par Adam Smith et systématisée par David Ricardo, elle est au cœur de l'économie politique classique. Marx la reprend et la transforme : la valeur est déterminée par le temps de travail socialement nécessaire, et la force de travail est elle-même une marchandise dont l'usage crée plus de valeur qu'elle n'en coûte. À partir des années 1870, l'économie dominante l'abandonne pour la théorie marginaliste de la valeur-utilité."
+      },
+      "appraisal": {
+        "fr": "Pour le marxisme, l'abandon de la valeur-travail par l'économie universitaire après Marx tient moins à des raisons scientifiques qu'au fait qu'elle conduisait à la théorie de l'exploitation."
+      },
+      "milestones": [
+        {"stage": "emergence", "work": "the-wealth-of-nations", "persons": ["adam-smith"]},
+        {
+          "stage": "formulation",
+          "work": "principles-of-political-economy-ricardo",
+          "persons": ["david-ricardo"]
+        },
+        {"stage": "revision", "work": "das-kapital", "persons": ["marx"]},
+        {
+          "stage": "critique",
+          "date": {"date": "1871"},
+          "note": {"fr": "Jevons, Menger puis Walras fondent l'économie marginaliste."}
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "surplus-value",
+      "name": {"orig": "de", "fr": "Plus-value", "en": "Surplus value", "de": "Mehrwert", "draft": ["en"]},
+      "type": "theory",
+      "tradition": "marxist",
+      "broader": ["marxism"],
+      "summary": {
+        "fr": "Valeur produite par l'ouvrier au-delà de la valeur de sa force de travail et appropriée par le capitaliste : la source du profit.",
+        "en": "The value produced by workers beyond the value of their labour power and appropriated by the capitalist: the source of profit.",
+        "de": "Der vom Arbeiter über den Wert seiner Arbeitskraft hinaus geschaffene und vom Kapitalisten angeeignete Wert: die Quelle des Profits.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Le capitaliste achète la force de travail à sa valeur, celle des biens nécessaires à sa reproduction. Mais en une journée, l'ouvrier produit davantage que cette valeur : la différence, non payée, est la plus-value, d'où proviennent profit, intérêt et rente. Marx distingue la plus-value absolue, obtenue en allongeant la journée de travail, et la plus-value relative, obtenue par la hausse de la productivité."
+      },
+      "milestones": [
+        {"stage": "precursor", "work": "principles-of-political-economy-ricardo"},
+        {
+          "stage": "emergence",
+          "date": {"date": "1857"},
+          "work": "grundrisse",
+          "note": {"fr": "Manuscrits de 1857-1858, publiés en 1939-1941."}
+        },
+        {
+          "stage": "development",
+          "date": {"date": "1865-06"},
+          "persons": ["marx"],
+          "note": {
+            "fr": "Exposé devant le Conseil général de l'AIT, publié en 1898 sous le titre Salaire, prix et profit."
+          }
+        },
+        {"stage": "formulation", "work": "das-kapital"}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "commodity-fetishism",
+      "name": {
+        "orig": "de",
+        "fr": "Fétichisme de la marchandise",
+        "en": "Commodity fetishism",
+        "de": "Warenfetischismus",
+        "draft": ["en"]
+      },
+      "type": "concept",
+      "tradition": "marxist",
+      "broader": ["marxism"],
+      "summary": {
+        "fr": "Dans la société marchande, les rapports sociaux entre producteurs prennent l'apparence de rapports entre choses.",
+        "en": "In commodity-producing society, the social relations between producers take on the appearance of relations between things.",
+        "de": "In der Warengesellschaft nehmen die gesellschaftlichen Beziehungen zwischen den Produzenten die Gestalt von Beziehungen zwischen Dingen an.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Dans le premier chapitre du Capital, Marx montre que la valeur d'une marchandise semble une propriété naturelle de l'objet, alors qu'elle exprime un rapport social : le travail de producteurs indépendants ne devient social que par l'échange. Les hommes sont alors dominés par le mouvement des choses qu'ils produisent, comme les croyants par leurs dieux. Lukács prolonge l'idée avec la notion de réification."
+      },
+      "milestones": [
+        {"stage": "formulation", "work": "das-kapital", "note": {"fr": "Livre I, chapitre 1."}},
+        {
+          "stage": "development",
+          "work": "history-and-class-consciousness",
+          "persons": ["georg-lukacs"],
+          "note": {"fr": "Notion de réification."}
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "imperialism",
+      "name": {"fr": "Impérialisme", "en": "Imperialism", "de": "Imperialismus", "draft": ["en", "de"]},
+      "type": "theory",
+      "tradition": "marxist",
+      "broader": ["marxism"],
+      "summary": {
+        "fr": "Stade du capitalisme dominé par les monopoles et le capital financier, qui pousse les grandes puissances à se partager le monde.",
+        "en": "The stage of capitalism dominated by monopolies and finance capital, which drives the great powers to divide up the world.",
+        "de": "Von Monopolen und Finanzkapital beherrschtes Stadium des Kapitalismus, das die Großmächte zur Aufteilung der Welt treibt.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Hobson décrit dès 1902 l'expansion coloniale comme un débouché pour les capitaux excédentaires. Hilferding analyse la fusion du capital bancaire et industriel en capital financier ; Rosa Luxemburg lie l'accumulation à la conquête de marchés non capitalistes. Lénine en fait la synthèse en 1916 : concentration en monopoles, exportation de capitaux, partage du monde entre trusts et entre puissances, d'où les guerres mondiales. Les surprofits permettent aussi d'acheter une couche supérieure de la classe ouvrière."
+      },
+      "appraisal": {
+        "fr": "Pour Lénine, l'impérialisme est le stade suprême du capitalisme, l'époque des guerres et des révolutions : la guerre de 1914 n'est pas un accident mais le produit de la lutte pour le repartage du monde."
+      },
+      "milestones": [
+        {
+          "stage": "test",
+          "node": "1884-berlin-conference",
+          "note": {"fr": "Les puissances européennes fixent les règles du partage de l'Afrique."}
+        },
+        {
+          "stage": "test",
+          "node": "1898-fashoda-incident",
+          "note": {
+            "fr": "La course au partage de l'Afrique met la France et le Royaume-Uni au bord de la guerre."
+          }
+        },
+        {"stage": "precursor", "work": "imperialism-a-study", "persons": ["john-hobson"]},
+        {"stage": "test", "node": "1904-roosevelt-corollary"},
+        {"stage": "development", "work": "finance-capital", "persons": ["rudolf-hilferding"]},
+        {
+          "stage": "development",
+          "work": "the-accumulation-of-capital",
+          "persons": ["rosa-luxemburg"]
+        },
+        {"stage": "test", "node": "1914-first-world-war"},
+        {
+          "stage": "formulation",
+          "date": {"date": "1916"},
+          "work": "imperialism-the-highest-stage-of-capitalism",
+          "persons": ["lenin"],
+          "note": {"fr": "Rédigé en 1916, publié en 1917."}
+        },
+        {
+          "stage": "test",
+          "node": "1954-guatemalan-coup",
+          "organizations": ["united-fruit-company", "cia"]
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "combined-and-uneven-development",
+      "name": {
+        "fr": "Développement inégal et combiné",
+        "en": "Uneven and combined development",
+        "de": "Ungleichmäßige und kombinierte Entwicklung",
+        "draft": ["en", "de"]
+      },
+      "type": "theory",
+      "tradition": "marxist",
+      "broader": ["permanent-revolution"],
+      "summary": {
+        "fr": "Les pays arriérés, entraînés par le marché mondial, combinent les formes les plus archaïques et les plus modernes de la production et de la société.",
+        "en": "Backward countries, drawn in by the world market, combine the most archaic and the most modern forms of production and society.",
+        "de": "Rückständige Länder kombinieren, vom Weltmarkt mitgerissen, die archaischsten und die modernsten Formen der Produktion und der Gesellschaft.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Trotski observe que la Russie tsariste ne refait pas le chemin de l'Angleterre : elle importe d'emblée les usines géantes et la technique la plus moderne, au milieu d'une paysannerie quasi médiévale. Cette combinaison produit une bourgeoisie faible, dépendante du capital étranger et de l'autocratie, et un prolétariat concentré et combatif. Elle fonde la théorie de la révolution permanente."
+      },
+      "milestones": [
+        {
+          "stage": "precursor",
+          "date": {"date": "1881-03"},
+          "persons": ["marx", "zasulich"],
+          "note": {
+            "fr": "Dans sa réponse à Vera Zassoulitch, Marx admet que la commune rurale russe pourrait servir de point d'appui à une régénération sociale sans passage obligé par le capitalisme."
+          }
+        },
+        {"stage": "emergence", "work": "results-and-prospects", "persons": ["trotsky"]},
+        {
+          "stage": "formulation",
+          "work": "history-of-the-russian-revolution",
+          "note": {"fr": "Le premier chapitre énonce la loi du développement inégal et combiné."}
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "labour-aristocracy",
+      "name": {
+        "fr": "Aristocratie ouvrière",
+        "en": "Labour aristocracy",
+        "de": "Arbeiteraristokratie",
+        "draft": ["en", "de"]
+      },
+      "type": "concept",
+      "tradition": "marxist",
+      "broader": ["imperialism"],
+      "summary": {
+        "fr": "Couche supérieure de la classe ouvrière, mieux payée grâce aux surprofits impérialistes, base sociale du réformisme.",
+        "en": "The upper layer of the working class, better paid thanks to imperialist superprofits, the social basis of reformism.",
+        "de": "Obere Schicht der Arbeiterklasse, dank imperialistischer Extraprofite besser bezahlt, soziale Basis des Reformismus.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Engels remarque dès 1858 que le prolétariat anglais s'embourgeoise grâce au monopole industriel et colonial de l'Angleterre. Lénine généralise l'idée en 1916 : les surprofits impérialistes permettent de corrompre une minorité d'ouvriers qualifiés et de bureaucrates syndicaux et politiques, sur laquelle s'appuie l'opportunisme qui a capitulé en 1914."
+      },
+      "milestones": [
+        {
+          "stage": "emergence",
+          "date": {"date": "1858-10-07"},
+          "persons": ["engels", "marx"],
+          "note": {"fr": "Lettre d'Engels à Marx sur un prolétariat anglais qui s'embourgeoise."}
+        },
+        {
+          "stage": "development",
+          "date": {"date": "1892"},
+          "work": "condition-of-the-working-class-in-england",
+          "persons": ["engels"],
+          "note": {"fr": "Préface d'Engels à l'édition anglaise de 1892."}
+        },
+        {
+          "stage": "formulation",
+          "work": "imperialism-and-the-split-in-socialism",
+          "persons": ["lenin"]
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "marxist-theory-of-the-state",
+      "name": {
+        "fr": "Théorie marxiste de l'État",
+        "en": "Marxist theory of the state",
+        "de": "Marxistische Staatstheorie",
+        "draft": ["en", "de"]
+      },
+      "type": "theory",
+      "tradition": "marxist",
+      "broader": ["marxism"],
+      "summary": {
+        "fr": "L'État est l'instrument de domination d'une classe sur une autre, né de l'inconciliabilité des antagonismes de classe.",
+        "en": "The state is the instrument of one class's rule over another, born of the irreconcilability of class antagonisms.",
+        "de": "Der Staat ist das Herrschaftsinstrument einer Klasse über eine andere, entstanden aus der Unversöhnlichkeit der Klassengegensätze.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Pour Marx et Engels, l'État n'est pas un arbitre au-dessus de la société mais un appareil de détachements d'hommes armés, de prisons et de fonctionnaires au service de la classe dominante ; le gouvernement moderne n'est qu'un comité qui gère les affaires communes de la bourgeoisie. Engels en retrace la genèse historique. Lénine, en 1917, en tire les conséquences pour la révolution : briser l'État bourgeois, instaurer la dictature du prolétariat, laisser dépérir l'État."
+      },
+      "milestones": [
+        {"stage": "emergence", "work": "communist-manifesto"},
+        {"stage": "formulation", "work": "origin-of-the-family", "persons": ["engels"]},
+        {
+          "stage": "development",
+          "date": {"date": "1917-08"},
+          "work": "the-state-and-revolution",
+          "persons": ["lenin"],
+          "note": {"fr": "Rédigé en août-septembre 1917, publié en 1918."}
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "smashing-the-state-machine",
+      "name": {
+        "fr": "Destruction de la machine d'État",
+        "en": "Smashing the state machine",
+        "de": "Zerbrechen der Staatsmaschine",
+        "draft": ["en", "de"]
+      },
+      "type": "concept",
+      "tradition": "marxist",
+      "broader": ["marxist-theory-of-the-state"],
+      "summary": {
+        "fr": "La classe ouvrière ne peut se contenter de prendre l'appareil d'État bourgeois tel quel : elle doit le briser et le remplacer.",
+        "en": "The working class cannot simply lay hold of the ready-made bourgeois state machinery: it must smash and replace it.",
+        "de": "Die Arbeiterklasse kann die fertige bürgerliche Staatsmaschinerie nicht einfach in Besitz nehmen: Sie muss sie zerbrechen und ersetzen.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Dans Le 18 Brumaire, Marx note que les révolutions passées ont perfectionné la machine d'État au lieu de la briser. La Commune de Paris lui montre ce qui la remplace : élus révocables, payés comme des ouvriers, armement du peuple au lieu de l'armée permanente. C'est la seule correction que Marx et Engels apportent au Manifeste, dans la préface de 1872."
+      },
+      "milestones": [
+        {"stage": "emergence", "work": "eighteenth-brumaire", "persons": ["marx"]},
+        {"stage": "test", "node": "1871-paris-commune"},
+        {"stage": "formulation", "work": "civil-war-in-france", "persons": ["marx"]},
+        {
+          "stage": "development",
+          "date": {"date": "1872-06"},
+          "persons": ["marx", "engels"],
+          "note": {
+            "fr": "Préface à l'édition allemande du Manifeste : la classe ouvrière ne peut se contenter de prendre telle quelle la machine de l'État."
+          }
+        },
+        {
+          "stage": "development",
+          "date": {"date": "1917-08"},
+          "work": "the-state-and-revolution",
+          "persons": ["lenin"]
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "dictatorship-of-the-proletariat",
+      "name": {
+        "orig": "de",
+        "fr": "Dictature du prolétariat",
+        "en": "Dictatorship of the proletariat",
+        "de": "Diktatur des Proletariats",
+        "draft": ["en"]
+      },
+      "type": "concept",
+      "tradition": "marxist",
+      "broader": ["marxist-theory-of-the-state"],
+      "summary": {
+        "fr": "Pouvoir politique de la classe ouvrière, qui succède à l'État bourgeois pendant la transition vers une société sans classes.",
+        "en": "The political power of the working class, which replaces the bourgeois state during the transition to a classless society.",
+        "de": "Politische Macht der Arbeiterklasse, die während des Übergangs zur klassenlosen Gesellschaft an die Stelle des bürgerlichen Staates tritt.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Pour Marx, « dictature » désigne la domination d'une classe, quelle que soit la forme du régime : la démocratie parlementaire est une dictature de la bourgeoisie. La dictature du prolétariat est le pouvoir de l'immense majorité contre la minorité des exploiteurs, sous une forme plus démocratique que tout régime bourgeois ; pour Engels, la Commune de Paris en est l'exemple. Souvent attribuée à Blanqui, l'expression ne se trouve pas chez lui."
+      },
+      "appraisal": {
+        "fr": "Le stalinisme a identifié la notion au pouvoir d'un parti unique et d'une bureaucratie, ce qui a permis aux réformistes de l'abandonner au nom de la démocratie. Pour le marxisme révolutionnaire, elle reste inséparable de la démocratie ouvrière : conseils élus et révocables, armement du peuple."
+      },
+      "milestones": [
+        {"stage": "emergence", "work": "class-struggles-in-france", "persons": ["marx"]},
+        {
+          "stage": "formulation",
+          "work": "letter-to-weydemeyer-1852",
+          "persons": ["marx", "joseph-weydemeyer"]
+        },
+        {
+          "stage": "development",
+          "work": "critique-of-the-gotha-programme",
+          "note": {
+            "fr": "Entre la société capitaliste et la société communiste se place une période de transformation révolutionnaire, dont l'État ne peut être que la dictature révolutionnaire du prolétariat."
+          }
+        },
+        {
+          "stage": "development",
+          "date": {"date": "1891-03-18"},
+          "persons": ["engels"],
+          "note": {
+            "fr": "Introduction à La Guerre civile en France : la Commune de Paris, c'était la dictature du prolétariat."
+          }
+        },
+        {
+          "stage": "development",
+          "date": {"date": "1917-08"},
+          "work": "the-state-and-revolution",
+          "persons": ["lenin"]
+        },
+        {
+          "stage": "critique",
+          "work": "the-dictatorship-of-the-proletariat-kautsky",
+          "persons": ["karl-kautsky"]
+        },
+        {
+          "stage": "development",
+          "work": "the-proletarian-revolution-and-the-renegade-kautsky",
+          "persons": ["lenin"]
+        },
+        {
+          "stage": "abandonment",
+          "node": "1976-pcf-twenty-second-congress",
+          "organizations": ["pcf"]
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "withering-away-of-the-state",
+      "name": {
+        "orig": "de",
+        "fr": "Dépérissement de l'État",
+        "en": "Withering away of the state",
+        "de": "Absterben des Staates",
+        "draft": ["en"]
+      },
+      "type": "concept",
+      "tradition": "marxist",
+      "broader": ["marxist-theory-of-the-state"],
+      "summary": {
+        "fr": "Une fois les classes abolies, l'État, devenu inutile, s'éteint de lui-même au lieu d'être aboli d'un coup.",
+        "en": "Once classes are abolished, the state, having become superfluous, dies out of itself instead of being abolished at a stroke.",
+        "de": "Sind die Klassen abgeschafft, stirbt der überflüssig gewordene Staat von selbst ab, statt auf einen Schlag abgeschafft zu werden.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Engels écrit dans l'Anti-Dühring que l'État n'est pas « aboli », il « s'éteint » : à mesure que la production est organisée en commun et que les classes disparaissent, les fonctions de coercition deviennent superflues et le gouvernement des personnes fait place à l'administration des choses. Lénine insiste : l'État ouvrier est déjà un « demi-État » qui doit commencer à dépérir dès le lendemain de la révolution."
+      },
+      "appraisal": {
+        "fr": "Sous Staline, l'État soviétique ne cesse au contraire de se renforcer, et la doctrine officielle justifie ce renforcement : pour Trotski, c'est le signe que la bureaucratie s'est élevée au-dessus de la société."
+      },
+      "milestones": [
+        {"stage": "formulation", "work": "anti-duhring", "persons": ["engels"]},
+        {
+          "stage": "development",
+          "date": {"date": "1917-08"},
+          "work": "the-state-and-revolution",
+          "persons": ["lenin"]
+        },
+        {
+          "stage": "revision",
+          "date": {"date": "1939-03"},
+          "persons": ["stalin"],
+          "note": {
+            "fr": "Au XVIIIe congrès, Staline rejette comme erronée l'idée d'un dépérissement prochain de l'État."
+          },
+          "sources": [{"ref": "wp-en-18th-congress-of-the-vkp-b"}]
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "two-phases-of-communism",
+      "name": {
+        "fr": "Deux phases du communisme",
+        "en": "Two phases of communist society",
+        "de": "Zwei Phasen der kommunistischen Gesellschaft",
+        "draft": ["en", "de"]
+      },
+      "type": "concept",
+      "tradition": "marxist",
+      "broader": ["marxism"],
+      "summary": {
+        "fr": "La société communiste naît d'abord marquée par le capitalisme, « à chacun selon son travail », avant d'atteindre sa phase supérieure, « à chacun selon ses besoins ».",
+        "en": "Communist society is first born marked by capitalism, 'to each according to their work', before reaching its higher phase, 'to each according to their needs'.",
+        "de": "Die kommunistische Gesellschaft entsteht zunächst noch vom Kapitalismus gezeichnet, „jedem nach seiner Leistung“, bevor sie ihre höhere Phase erreicht, „jedem nach seinen Bedürfnissen“.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Dans la Critique du programme de Gotha, Marx distingue une phase inférieure, où chacun reçoit selon le travail fourni et où subsiste le « droit bourgeois », et une phase supérieure, où l'abondance et la disparition de la division entre travail manuel et intellectuel permettent la règle « de chacun selon ses capacités, à chacun selon ses besoins ». Lénine nomme la première socialisme et la seconde communisme."
+      },
+      "appraisal": {
+        "fr": "En proclamant en 1936 le socialisme « réalisé » dans un pays pauvre où l'inégalité se creuse, Staline vide la notion de son contenu : pour Trotski, l'URSS est alors une société de transition, encore loin de la phase inférieure."
+      },
+      "milestones": [
+        {"stage": "formulation", "work": "critique-of-the-gotha-programme", "persons": ["marx"]},
+        {
+          "stage": "development",
+          "date": {"date": "1917-08"},
+          "work": "the-state-and-revolution",
+          "persons": ["lenin"]
+        },
+        {
+          "stage": "revision",
+          "node": "1936-stalin-constitution",
+          "note": {"fr": "Le socialisme est déclaré réalisé en URSS."}
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "permanent-revolution",
+      "name": {
+        "orig": "de",
+        "de": "Permanente Revolution",
+        "fr": "Révolution permanente",
+        "en": "Permanent revolution",
+        "draft": ["en"]
+      },
+      "aliases": ["Revolution in Permanenz"],
+      "type": "theory",
+      "tradition": "marxist",
+      "broader": ["marxism"],
+      "summary": {
+        "fr": "Dans les pays arriérés, seule la classe ouvrière peut accomplir les tâches de la révolution bourgeoise, et elle ne peut s'y arrêter.",
+        "en": "In backward countries only the working class can carry out the tasks of the bourgeois revolution, and it cannot stop there.",
+        "de": "In rückständigen Ländern kann nur die Arbeiterklasse die Aufgaben der bürgerlichen Revolution lösen, und sie kann dabei nicht stehen bleiben.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Marx et Engels emploient l'expression en 1850 : les ouvriers ne doivent pas s'arrêter aux conquêtes démocratiques mais pousser la révolution jusqu'à la prise du pouvoir. Trotski la reformule après 1905 : dans un pays arriéré, la bourgeoisie est trop faible et trop liée à la réaction pour mener sa propre révolution ; la classe ouvrière, à la tête de la paysannerie, doit prendre le pouvoir, et elle passera inévitablement des tâches démocratiques aux tâches socialistes. La révolution ne peut s'achever dans un seul pays : elle doit s'étendre à l'échelle internationale."
+      },
+      "appraisal": {
+        "fr": "La révolution d'Octobre la confirme : les Thèses d'avril de Lénine rejoignent en pratique la perspective de Trotski. Son abandon au profit de la théorie des étapes conduit à la défaite de la révolution chinoise de 1925-1927."
+      },
+      "milestones": [
+        {
+          "stage": "emergence",
+          "work": "address-of-the-central-committee-1850",
+          "persons": ["marx", "engels"],
+          "note": {
+            "fr": "Marx et Engels appellent les ouvriers à rendre la révolution permanente face à la démocratie petite-bourgeoise."
+          }
+        },
+        {"stage": "formulation", "work": "results-and-prospects", "persons": ["trotsky"]},
+        {
+          "stage": "test",
+          "node": "1917-revolution-year",
+          "note": {
+            "fr": "Octobre confirme le pronostic : le prolétariat prend le pouvoir à la tête de la paysannerie."
+          }
+        },
+        {"stage": "critique", "node": "1924-socialism-in-one-country", "persons": ["stalin"]},
+        {"stage": "test", "node": "1927-stalin-trotsky-debate-on-china"},
+        {"stage": "development", "work": "the-permanent-revolution", "persons": ["trotsky"]},
+        {
+          "stage": "adoption",
+          "work": "pulacayo-theses",
+          "organizations": ["fstmb"],
+          "note": {"fr": "Les mineurs boliviens adoptent un programme fondé sur la révolution permanente."}
+        },
+        {
+          "stage": "test",
+          "node": "1952-bolivian-national-revolution",
+          "organizations": ["mnr-bolivia", "cob"],
+          "note": {"fr": "Les mineurs armés battent l'armée, mais laissent le pouvoir au MNR nationaliste."}
+        },
+        {
+          "stage": "test",
+          "node": "1953-cuban-revolution-period",
+          "note": {
+            "fr": "Une révolution démocratique et anti-impérialiste passe en deux ans aux expropriations et se proclame socialiste."
+          }
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "stages-theory",
+      "name": {
+        "fr": "Théorie des étapes",
+        "en": "Stages theory",
+        "de": "Etappentheorie",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Révolution par étapes", "Two-stage theory", "Zwei-Etappen-Theorie"],
+      "type": "theory",
+      "tradition": "marxist",
+      "summary": {
+        "fr": "Dans un pays arriéré, la révolution doit d'abord être démocratique bourgeoise, la révolution socialiste étant renvoyée à une étape ultérieure.",
+        "en": "In a backward country the revolution must first be bourgeois-democratic, with the socialist revolution postponed to a later stage.",
+        "de": "In einem rückständigen Land muss die Revolution zunächst bürgerlich-demokratisch sein; die sozialistische Revolution wird auf eine spätere Etappe verschoben.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Issue des premiers marxistes russes autour de Plekhanov, elle devient la position des mencheviks : la classe ouvrière doit soutenir la bourgeoisie libérale dans la révolution bourgeoise. Reprise par l'Internationale stalinisée, elle justifie en Chine l'alliance avec le Kuomintang, le « bloc des quatre classes », puis les fronts populaires et la démocratie nouvelle maoïste."
+      },
+      "appraisal": {
+        "fr": "Pour les tenants de la révolution permanente, elle subordonne la classe ouvrière à une bourgeoisie qui la trahit au moment décisif : le massacre de Shanghai en 1927 en est l'exemple tragique."
+      },
+      "milestones": [
+        {
+          "stage": "emergence",
+          "node": "1883-emancipation-of-labour-group",
+          "persons": ["plekhanov"]
+        },
+        {
+          "stage": "formulation",
+          "date": {"date": "1905"},
+          "organizations": ["mensheviks"],
+          "note": {
+            "fr": "Les mencheviks réservent la direction de la révolution à la bourgeoisie libérale."
+          }
+        },
+        {"stage": "test", "node": "1917-february-to-october"},
+        {
+          "stage": "test",
+          "node": "1927-shanghai-massacre",
+          "note": {"fr": "Le Kuomintang, allié des communistes, écrase les ouvriers de Shanghai."}
+        },
+        {"stage": "development", "work": "on-new-democracy", "persons": ["mao-zedong"]},
+        {
+          "stage": "development",
+          "work": "road-to-south-african-freedom",
+          "organizations": ["communist-party-of-south-africa"],
+          "note": {
+            "fr": "Le programme du Parti communiste sud-africain définit l'Afrique du Sud comme un « colonialisme de type particulier » et fait de la révolution nationale démocratique une première étape avant le socialisme."
+          },
+          "sources": [{"ref": "wp-en-the-road-to-south-african-freedom"}]
+        },
+        {
+          "stage": "test",
+          "node": "1973-chilean-coup",
+          "organizations": ["communist-party-of-chile", "popular-unity"],
+          "note": {
+            "fr": "La voie légale et l'alliance avec la « bourgeoisie progressiste » prônées par le PC chilien s'achèvent dans le coup de Pinochet."
+          }
+        },
+        {
+          "stage": "test",
+          "node": "1994-south-african-elections",
+          "organizations": ["communist-party-of-south-africa", "anc"],
+          "note": {
+            "fr": "La fin de l'apartheid laisse intacte la propriété capitaliste ; le Parti communiste entre au gouvernement aux côtés de l'ANC."
+          }
+        },
+        {
+          "stage": "test",
+          "node": "2012-marikana-massacre",
+          "organizations": ["anc"],
+          "note": {
+            "fr": "La police d'un gouvernement de l'alliance ANC-Parti communiste tire sur des mineurs en grève."
+          }
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "all-power-to-the-soviets",
+      "name": {
+        "orig": "ru",
+        "ru": "Вся власть Советам!",
+        "fr": "Tout le pouvoir aux soviets !",
+        "en": "All power to the Soviets!",
+        "de": "Alle Macht den Räten!",
+        "draft": ["en", "de"]
+      },
+      "type": "slogan",
+      "tradition": "marxist",
+      "broader": ["bolshevism"],
+      "summary": {
+        "fr": "Mot d'ordre bolchevique de 1917 : transférer tout le pouvoir aux conseils d'ouvriers et de soldats.",
+        "en": "The Bolshevik slogan of 1917: transfer all power to the councils of workers and soldiers.",
+        "de": "Bolschewistische Losung von 1917: alle Macht den Arbeiter- und Soldatenräten.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Les soviets naissent en 1905 comme comités de grève élus. Rétablis en février 1917, ils partagent le pouvoir avec le gouvernement provisoire : c'est la dualité de pouvoir. Dans les Thèses d'avril, Lénine appelle à leur remettre tout le pouvoir. Il retire provisoirement le mot d'ordre après les journées de juillet, quand les directions conciliatrices des soviets couvrent la répression, puis le reprend quand les bolcheviks y deviennent majoritaires. Le IIe congrès des soviets l'accomplit en novembre 1917."
+      },
+      "milestones": [
+        {"stage": "emergence", "node": "1905-petersburg-soviet"},
+        {"stage": "formulation", "work": "april-theses", "persons": ["lenin"]},
+        {
+          "stage": "abandonment",
+          "node": "1917-july-days",
+          "note": {"fr": "Lénine retire provisoirement le mot d'ordre."}
+        },
+        {"stage": "revival", "node": "1917-bolsheviks-win-petrograd-soviet"},
+        {"stage": "adoption", "node": "1917-second-congress-of-soviets"}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "workers-control",
+      "name": {
+        "fr": "Contrôle ouvrier",
+        "en": "Workers' control",
+        "de": "Arbeiterkontrolle",
+        "draft": ["en", "de"]
+      },
+      "type": "concept",
+      "tradition": "marxist",
+      "summary": {
+        "fr": "Contrôle exercé par les travailleurs organisés sur la gestion des entreprises, étape vers la gestion ouvrière de l'économie.",
+        "en": "Control by organised workers over the management of enterprises, a step towards workers' management of the economy.",
+        "de": "Kontrolle der organisierten Arbeiter über die Betriebsführung, ein Schritt zur Arbeiterverwaltung der Wirtschaft.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "En 1917, les comités d'usine russes imposent leur contrôle sur l'embauche, la production et les comptes ; le décret du 27 novembre 1917 le généralise. À Turin, en 1919-1920, les conseils d'usine animés par Gramsci et L'Ordine Nuovo en font la cellule d'un futur pouvoir ouvrier ; l'occupation des usines de 1920 reste sans débouché politique. Le Programme de transition reprend la revendication comme école de la planification."
+      },
+      "appraisal": {
+        "fr": "Dans la Russie de la guerre civile et de la NEP, le contrôle ouvrier recule devant la direction unique et l'appareil bureaucratique ; pour l'Opposition de gauche, le rétablissement de la démocratie ouvrière était une condition de la planification."
+      },
+      "milestones": [
+        {"stage": "adoption", "node": "1917-decree-on-workers-control"},
+        {
+          "stage": "development",
+          "work": "l-ordine-nuovo",
+          "persons": ["antonio-gramsci"],
+          "note": {"fr": "Les conseils d'usine de Turin."}
+        },
+        {"stage": "test", "node": "1920-occupation-of-the-factories"},
+        {"stage": "revision", "node": "1921-nep-and-rise-of-the-bureaucracy"},
+        {"stage": "adoption", "work": "transitional-programme"},
+        {"stage": "test", "node": "1972-industrial-cordons"}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "degenerated-workers-state",
+      "name": {
+        "fr": "État ouvrier dégénéré",
+        "en": "Degenerated workers' state",
+        "de": "Degenerierter Arbeiterstaat",
+        "draft": ["en", "de"]
+      },
+      "type": "theory",
+      "tradition": "marxist",
+      "broader": ["trotskyism"],
+      "summary": {
+        "fr": "Analyse trotskiste de l'URSS : un État fondé sur la propriété collective, mais dominé par une bureaucratie qui a confisqué le pouvoir aux travailleurs.",
+        "en": "The Trotskyist analysis of the USSR: a state based on collective property but ruled by a bureaucracy that has usurped power from the workers.",
+        "de": "Trotzkistische Analyse der UdSSR: ein Staat auf der Grundlage des Gemeineigentums, beherrscht von einer Bürokratie, die den Arbeitern die Macht entrissen hat.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Pour Trotski, la révolution d'Octobre a créé un État ouvrier, mais son isolement dans un pays arriéré a permis à une caste bureaucratique de s'élever au-dessus de la société. L'économie nationalisée et planifiée subsiste, ce qui distingue l'URSS d'un État capitaliste, mais la classe ouvrière a perdu le pouvoir politique. Deux issues sont possibles : une révolution politique qui rétablit la démocratie soviétique, ou une restauration capitaliste menée par la bureaucratie elle-même."
+      },
+      "appraisal": {
+        "fr": "Le pronostic de La Révolution trahie se vérifie en 1989-1991 : faute de révolution politique, la bureaucratie restaure le capitalisme. D'autres courants contestent l'analyse et qualifient l'URSS de capitalisme d'État ou de collectivisme bureaucratique."
+      },
+      "milestones": [
+        {"stage": "emergence", "work": "the-new-course", "persons": ["trotsky"]},
+        {"stage": "formulation", "work": "the-revolution-betrayed", "persons": ["trotsky"]},
+        {
+          "stage": "critique",
+          "date": {"date": "1948"},
+          "note": {"fr": "Tony Cliff analyse l'URSS comme un capitalisme d'État."}
+        },
+        {"stage": "test", "node": "1991-dissolution-of-the-ussr"}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "self-emancipation-of-the-working-class",
+      "name": {
+        "fr": "Émancipation des travailleurs par eux-mêmes",
+        "en": "Self-emancipation of the working class",
+        "de": "Selbstbefreiung der Arbeiterklasse",
+        "draft": ["en", "de"]
+      },
+      "type": "concept",
+      "tradition": "marxist",
+      "summary": {
+        "fr": "L'émancipation des travailleurs doit être l'œuvre des travailleurs eux-mêmes : ni sauveurs, ni tuteurs.",
+        "en": "The emancipation of the working classes must be conquered by the working classes themselves: no saviours, no guardians.",
+        "de": "Die Befreiung der Arbeiterklasse muss das Werk der Arbeiterklasse selbst sein: keine Retter, keine Vormünder.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Le principe ouvre les considérants des statuts de l'Association internationale des travailleurs, rédigés par Marx en 1864. Il s'oppose aussi bien aux philanthropes et aux socialistes utopiques qu'aux conspirateurs qui veulent agir à la place des masses. Flora Tristan appelait déjà en 1843 les ouvriers à s'unir par eux-mêmes."
+      },
+      "milestones": [
+        {"stage": "precursor", "work": "the-workers-union", "persons": ["flora-tristan"]},
+        {
+          "stage": "formulation",
+          "node": "1864-founding-of-the-first-international",
+          "persons": ["marx"],
+          "note": {"fr": "Considérants des statuts de l'AIT."}
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "proletarian-internationalism",
+      "name": {
+        "fr": "Internationalisme prolétarien",
+        "en": "Proletarian internationalism",
+        "de": "Proletarischer Internationalismus",
+        "draft": ["en", "de"]
+      },
+      "type": "concept",
+      "tradition": "marxist",
+      "summary": {
+        "fr": "Les travailleurs n'ont pas de patrie : leur combat est international, comme le capital qu'ils affrontent.",
+        "en": "Workers have no country: their struggle is international, like the capital they confront.",
+        "de": "Die Arbeiter haben kein Vaterland: Ihr Kampf ist international wie das Kapital, dem sie gegenüberstehen.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Le Manifeste conclut par l'appel « Prolétaires de tous les pays, unissez-vous ! ». La Ire Internationale, puis la IIe et la IIIe, tentent de lui donner une forme organisée. En août 1914, la plupart des partis de la IIe Internationale votent les crédits de guerre ; la minorité internationaliste se regroupe à Zimmerwald et prépare la fondation de l'Internationale communiste."
+      },
+      "appraisal": {
+        "fr": "La théorie du socialisme dans un seul pays subordonne l'Internationale communiste aux intérêts diplomatiques de l'URSS, jusqu'à sa dissolution par Staline en 1943 en gage aux Alliés."
+      },
+      "milestones": [
+        {"stage": "formulation", "work": "communist-manifesto"},
+        {
+          "stage": "adoption",
+          "node": "1864-founding-of-the-first-international",
+          "organizations": ["first-international"]
+        },
+        {
+          "stage": "adoption",
+          "node": "1889-founding-of-the-second-international",
+          "organizations": ["second-international"]
+        },
+        {
+          "stage": "test",
+          "node": "1914-spd-war-credits",
+          "note": {"fr": "Faillite de la IIe Internationale."}
+        },
+        {"stage": "development", "node": "1915-zimmerwald-conference"},
+        {
+          "stage": "adoption",
+          "node": "1919-founding-of-the-comintern",
+          "organizations": ["comintern"]
+        },
+        {
+          "stage": "test",
+          "node": "1925-general-strike-against-rif-war",
+          "organizations": ["pcf"],
+          "note": {"fr": "Le PCF appelle à la grève générale contre la guerre coloniale au Maroc."}
+        },
+        {"stage": "abandonment", "node": "1943-dissolution-of-the-comintern"}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "vanguard-party",
+      "name": {
+        "fr": "Parti d'avant-garde",
+        "en": "Vanguard party",
+        "de": "Avantgardepartei",
+        "draft": ["en", "de"]
+      },
+      "type": "theory",
+      "tradition": "marxist",
+      "broader": ["bolshevism"],
+      "summary": {
+        "fr": "Parti qui regroupe les éléments les plus conscients de la classe ouvrière pour l'organiser et la diriger dans la lutte pour le pouvoir.",
+        "en": "A party that gathers the most conscious elements of the working class to organise and lead it in the struggle for power.",
+        "de": "Partei, die die bewusstesten Teile der Arbeiterklasse sammelt, um sie im Kampf um die Macht zu organisieren und zu führen.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Dans Que faire ?, Lénine soutient que la conscience socialiste ne naît pas spontanément de la lutte économique et doit être apportée dans la classe par un parti de révolutionnaires professionnels, centralisé pour résister à la police tsariste. La question des statuts du parti provoque en 1903 la scission entre bolcheviks et mencheviks. Les 21 conditions de 1920 en font la norme des partis communistes."
+      },
+      "appraisal": {
+        "fr": "Ses adversaires y voient la source de la dictature du parti ; ses défenseurs rappellent que le parti bolchevik de 1917 vit de débats ouverts et que l'avant-garde ne prend le pouvoir qu'en gagnant la majorité de la classe. La caricature bureaucratique du stalinisme en est la négation."
+      },
+      "milestones": [
+        {"stage": "precursor", "date": {"date": "1847"}, "organizations": ["communist-league"]},
+        {"stage": "formulation", "work": "what-is-to-be-done", "persons": ["lenin"]},
+        {"stage": "test", "node": "1903-rsdlp-second-congress"},
+        {"stage": "adoption", "work": "twenty-one-conditions", "organizations": ["comintern"]}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "democratic-centralism",
+      "name": {
+        "fr": "Centralisme démocratique",
+        "en": "Democratic centralism",
+        "de": "Demokratischer Zentralismus",
+        "draft": ["en", "de"]
+      },
+      "type": "concept",
+      "tradition": "marxist",
+      "broader": ["vanguard-party"],
+      "summary": {
+        "fr": "Liberté de discussion dans le parti, unité dans l'action une fois la décision prise à la majorité.",
+        "en": "Freedom of discussion within the party, unity in action once a decision has been taken by majority.",
+        "de": "Diskussionsfreiheit in der Partei, Einheit im Handeln, sobald die Mehrheit entschieden hat.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Le principe est inscrit dans les statuts du POSDR au congrès d'unification de 1906, avec l'accord des bolcheviks et des mencheviks. Il combine l'élection des instances, le débat libre et l'obligation pour la minorité d'appliquer les décisions de la majorité. L'Internationale communiste en fait une règle pour ses sections en 1920. En 1921, en pleine crise, le Xe congrès du parti russe interdit les fractions, mesure présentée comme temporaire."
+      },
+      "appraisal": {
+        "fr": "Sous Staline, le principe devient centralisme bureaucratique : la discussion disparaît, seule reste la discipline imposée d'en haut."
+      },
+      "milestones": [
+        {"stage": "adoption", "node": "1906-rsdlp-fourth-congress", "organizations": ["rsdlp"]},
+        {"stage": "adoption", "work": "twenty-one-conditions", "organizations": ["comintern"]},
+        {
+          "stage": "revision",
+          "node": "1921-tenth-party-congress",
+          "note": {"fr": "Interdiction des fractions."}
+        },
+        {
+          "stage": "critique",
+          "node": "1923-declaration-of-the-46",
+          "note": {"fr": "L'Opposition réclame le retour à la démocratie interne."}
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "mass-strike",
+      "name": {
+        "orig": "de",
+        "fr": "Grève de masse",
+        "en": "Mass strike",
+        "de": "Massenstreik",
+        "draft": ["en"]
+      },
+      "aliases": ["Grève générale", "General strike", "Generalstreik"],
+      "type": "strategy",
+      "tradition": "marxist",
+      "summary": {
+        "fr": "Mobilisation de toute la classe ouvrière par la grève, qui pose la question du pouvoir.",
+        "en": "The mobilisation of the whole working class through strike action, which poses the question of power.",
+        "de": "Mobilisierung der ganzen Arbeiterklasse durch den Streik, die die Machtfrage stellt.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Les chartistes anglais envisagent un « mois sacré » de grève générale ; en 1842, une vague de grèves gagne le nord de l'Angleterre. Anarchistes et syndicalistes révolutionnaires en font l'arme de la révolution sociale. Engels critique en 1873 la grève générale conçue comme recette. Après 1905, Rosa Luxemburg montre que la grève de masse n'est pas une technique qu'on déclenche à volonté, mais la forme même de la révolution prolétarienne, qui mêle revendications économiques et politiques."
+      },
+      "milestones": [
+        {"stage": "precursor", "node": "1842-general-strike"},
+        {
+          "stage": "critique",
+          "date": {"date": "1873"},
+          "persons": ["engels"],
+          "note": {"fr": "Les bakouninistes à l'œuvre, sur le soulèvement espagnol de 1873."}
+        },
+        {"stage": "test", "node": "1905-russian-revolution"},
+        {"stage": "formulation", "work": "the-mass-strike", "persons": ["rosa-luxemburg"]},
+        {"stage": "adoption", "node": "1906-charter-of-amiens"},
+        {"stage": "test", "node": "1945-nigerian-general-strike", "persons": ["michael-imoudu"]},
+        {"stage": "test", "node": "1969-cordobazo"},
+        {"stage": "test", "node": "1973-durban-strikes"}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "revolutionary-defeatism",
+      "name": {
+        "fr": "Défaitisme révolutionnaire",
+        "en": "Revolutionary defeatism",
+        "de": "Revolutionärer Defätismus",
+        "draft": ["en", "de"]
+      },
+      "type": "strategy",
+      "tradition": "marxist",
+      "broader": ["proletarian-internationalism"],
+      "summary": {
+        "fr": "Dans une guerre impérialiste, les révolutionnaires combattent leur propre gouvernement : l'ennemi principal est dans notre propre pays.",
+        "en": "In an imperialist war, revolutionaries fight their own government: the main enemy is at home.",
+        "de": "In einem imperialistischen Krieg bekämpfen Revolutionäre ihre eigene Regierung: Der Hauptfeind steht im eigenen Land.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Face à la guerre de 1914, Lénine refuse toute défense nationale : la défaite de son propre gouvernement facilite la révolution, et il faut transformer la guerre impérialiste en guerre civile contre la bourgeoisie. Karl Liebknecht, seul député à voter contre les crédits de guerre en décembre 1914, résume la même idée : l'ennemi principal est dans notre propre pays. La gauche de Zimmerwald regroupe les partisans de cette ligne."
+      },
+      "milestones": [
+        {
+          "stage": "emergence",
+          "node": "1914-liebknecht-votes-against-war-credits",
+          "persons": ["karl-liebknecht"]
+        },
+        {"stage": "formulation", "work": "socialism-and-war", "persons": ["lenin", "zinoviev"]},
+        {
+          "stage": "test",
+          "node": "1915-zimmerwald-conference",
+          "note": {"fr": "La gauche de Zimmerwald."}
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "national-self-determination",
+      "name": {
+        "fr": "Droit des nations à disposer d'elles-mêmes",
+        "en": "Right of nations to self-determination",
+        "de": "Selbstbestimmungsrecht der Nationen",
+        "draft": ["en", "de"]
+      },
+      "type": "concept",
+      "tradition": "marxist",
+      "summary": {
+        "fr": "Droit des peuples opprimés à se séparer et à former leur propre État, que la classe ouvrière de la nation dominante doit défendre.",
+        "en": "The right of oppressed peoples to secede and form their own state, which the working class of the ruling nation must defend.",
+        "de": "Das Recht unterdrückter Völker auf Lostrennung und eigenen Staat, das die Arbeiterklasse der herrschenden Nation verteidigen muss.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Inscrit dans le programme du POSDR en 1903, il est défendu par Lénine contre Rosa Luxemburg, qui y voit une concession au nationalisme. Pour Lénine, reconnaître ce droit sans réserve est la condition pour unir les travailleurs des nations dominantes et opprimées, ce qui n'implique pas de prôner la séparation dans chaque cas. En 1916, il défend l'insurrection irlandaise de Pâques contre ceux qui la traitent de putsch. Après Octobre, le pouvoir soviétique reconnaît l'indépendance de la Finlande."
+      },
+      "milestones": [
+        {
+          "stage": "adoption",
+          "date": {"date": "1903"},
+          "organizations": ["rsdlp"],
+          "note": {"fr": "Point 9 du programme adopté au IIe congrès."}
+        },
+        {
+          "stage": "critique",
+          "date": {"date": "1908"},
+          "persons": ["rosa-luxemburg"],
+          "note": {"fr": "« La question nationale et l'autonomie » (1908-1909)."}
+        },
+        {
+          "stage": "formulation",
+          "work": "the-right-of-nations-to-self-determination",
+          "persons": ["lenin"]
+        },
+        {
+          "stage": "test",
+          "work": "proclamation-of-the-irish-republic",
+          "note": {"fr": "Lénine défend l'insurrection de Pâques."}
+        },
+        {"stage": "test", "node": "1917-finnish-independence"},
+        {
+          "stage": "test",
+          "node": "1956-special-powers-vote",
+          "organizations": ["pcf"],
+          "note": {
+            "fr": "Le PCF vote les pouvoirs spéciaux demandés par le gouvernement Mollet pour la guerre d'Algérie."
+          }
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "united-front",
+      "name": {"fr": "Front unique", "en": "United front", "de": "Einheitsfront", "draft": ["en", "de"]},
+      "type": "strategy",
+      "tradition": "marxist",
+      "summary": {
+        "fr": "Unité d'action des organisations ouvrières pour des objectifs communs, sans renoncer à la critique ni à l'indépendance du parti révolutionnaire.",
+        "en": "Unity in action of workers' organisations for common aims, without giving up criticism or the independence of the revolutionary party.",
+        "de": "Aktionseinheit der Arbeiterorganisationen für gemeinsame Ziele, ohne Verzicht auf Kritik und auf die Unabhängigkeit der revolutionären Partei.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Adoptée par l'Internationale communiste fin 1921, quand le reflux révolutionnaire laisse la majorité des ouvriers aux partis sociaux-démocrates. Les communistes proposent aux réformistes des actions communes sur des revendications concrètes, pour gagner leur base par l'expérience. Abandonnée en 1928 pour la ligne « classe contre classe », qui qualifie la social-démocratie de « social-fascisme », elle est défendue par Trotski comme le seul moyen d'arrêter Hitler."
+      },
+      "appraisal": {
+        "fr": "Le refus du front unique par les directions du KPD et du SPD divise la classe ouvrière allemande face au nazisme : l'arrivée de Hitler au pouvoir en 1933, sans combat, en est la conséquence."
+      },
+      "milestones": [
+        {
+          "stage": "formulation",
+          "date": {"date": "1921-12"},
+          "organizations": ["comintern"],
+          "note": {"fr": "Thèses du comité exécutif de l'IC sur le front unique."}
+        },
+        {
+          "stage": "adoption",
+          "node": "1922-fourth-comintern-congress",
+          "organizations": ["comintern"]
+        },
+        {"stage": "abandonment", "node": "1927-class-against-class"},
+        {
+          "stage": "development",
+          "date": {"date": "1931-12"},
+          "persons": ["trotsky"],
+          "note": {"fr": "« Pour un front unique ouvrier contre le fascisme »."}
+        },
+        {"stage": "test", "node": "1933-hitler-appointed-chancellor"}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "popular-front",
+      "name": {"fr": "Front populaire", "en": "Popular front", "de": "Volksfront", "draft": ["en", "de"]},
+      "type": "strategy",
+      "tradition": "marxist",
+      "summary": {
+        "fr": "Alliance des partis ouvriers avec des partis bourgeois « démocratiques » sur un programme limité au cadre capitaliste.",
+        "en": "An alliance of workers' parties with 'democratic' bourgeois parties on a programme confined to the capitalist framework.",
+        "de": "Bündnis von Arbeiterparteien mit „demokratischen“ bürgerlichen Parteien auf einem auf den kapitalistischen Rahmen beschränkten Programm.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Après la victoire de Hitler, l'Internationale communiste passe de « classe contre classe » à l'alliance avec les partis bourgeois antifascistes. En France, le pacte d'unité d'action PCF-SFIO de 1934 s'élargit aux radicaux et mène à la victoire électorale de 1936 ; en Espagne, le Front populaire gagne les élections de février 1936. Le programme exclut toute mesure contre la propriété capitaliste."
+      },
+      "appraisal": {
+        "fr": "Pour Trotski, le front populaire n'est pas un front unique élargi mais une coalition de collaboration de classes, qui lie la classe ouvrière à la bourgeoisie au moment où la situation devient révolutionnaire : en France, le PCF freine la grève de juin 1936 ; en Espagne, la politique du Front populaire désarme la révolution."
+      },
+      "milestones": [
+        {"stage": "emergence", "node": "1934-unity-of-action-pact"},
+        {"stage": "critique", "work": "whither-france", "persons": ["trotsky"]},
+        {
+          "stage": "adoption",
+          "node": "1935-seventh-comintern-congress",
+          "organizations": ["comintern"]
+        },
+        {"stage": "test", "node": "1936-popular-front-election"},
+        {"stage": "test", "node": "1936-spanish-revolution"},
+        {
+          "stage": "test",
+          "node": "1970-popular-unity-government",
+          "organizations": ["popular-unity", "communist-party-of-chile"]
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "transitional-programme",
+      "name": {
+        "fr": "Programme de transition",
+        "en": "Transitional programme",
+        "de": "Übergangsprogramm",
+        "draft": ["en", "de"]
+      },
+      "type": "strategy",
+      "tradition": "marxist",
+      "broader": ["trotskyism"],
+      "summary": {
+        "fr": "Système de revendications qui partent des besoins immédiats des masses pour les conduire à la conclusion de la prise du pouvoir.",
+        "en": "A system of demands that start from the immediate needs of the masses and lead them to the conclusion of taking power.",
+        "de": "System von Forderungen, die von den unmittelbaren Bedürfnissen der Massen ausgehen und sie zur Schlussfolgerung der Machteroberung führen.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Contre la division social-démocrate entre programme minimum, fait de réformes, et programme maximum, le socialisme renvoyé à un avenir lointain, Trotski propose en 1938 des revendications de transition : échelle mobile des salaires et des heures de travail, contrôle ouvrier, ouverture des livres de comptes, expropriation des banques, milices ouvrières. L'idée remonte aux mesures du Manifeste et aux débats du IVe congrès de l'Internationale communiste."
+      },
+      "milestones": [
+        {
+          "stage": "precursor",
+          "work": "communist-manifesto",
+          "note": {"fr": "Mesures du chapitre II."}
+        },
+        {"stage": "emergence", "node": "1922-fourth-comintern-congress"},
+        {"stage": "formulation", "work": "transitional-programme", "persons": ["trotsky"]},
+        {
+          "stage": "adoption",
+          "node": "1938-founding-of-the-fourth-international",
+          "organizations": ["fourth-international"]
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "socialism-in-one-country",
+      "name": {
+        "orig": "ru",
+        "ru": "Социализм в одной стране",
+        "fr": "Socialisme dans un seul pays",
+        "en": "Socialism in one country",
+        "de": "Sozialismus in einem Land",
+        "draft": ["en", "de"]
+      },
+      "type": "theory",
+      "tradition": "marxist",
+      "broader": ["stalinism"],
+      "summary": {
+        "fr": "Thèse de Staline selon laquelle le socialisme peut être achevé en URSS seule, sans révolution internationale.",
+        "en": "Stalin's thesis that socialism can be completed in the USSR alone, without international revolution.",
+        "de": "Stalins These, dass der Sozialismus in der UdSSR allein, ohne internationale Revolution, vollendet werden kann.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Avancée par Staline fin 1924, contre la conception de Lénine et de Trotski qui faisaient dépendre l'issue de la révolution russe de son extension à l'Europe avancée. Adoptée par la XIVe conférence du parti en 1925, puis par le programme de l'Internationale communiste en 1928, elle subordonne les partis communistes à la défense de l'URSS."
+      },
+      "appraisal": {
+        "fr": "Pour Trotski, elle exprime le conservatisme d'une bureaucratie qui veut jouir en paix de ses privilèges : en faisant de la révolution mondiale un simple appoint, elle transforme l'Internationale en instrument de la diplomatie soviétique."
+      },
+      "milestones": [
+        {"stage": "formulation", "node": "1924-socialism-in-one-country", "persons": ["stalin"]},
+        {
+          "stage": "adoption",
+          "date": {"date": "1925-04"},
+          "organizations": ["cpsu"],
+          "note": {"fr": "XIVe conférence du parti."}
+        },
+        {
+          "stage": "critique",
+          "date": {"date": "1928"},
+          "work": "the-third-international-after-lenin",
+          "persons": ["trotsky"],
+          "note": {
+            "fr": "Critique du projet de programme de l'IC, rédigée pour le VIe congrès, publiée en 1929."
+          },
+          "sources": [{"ref": "marxists-third-international-after-lenin"}]
+        },
+        {
+          "stage": "adoption",
+          "date": {"date": "1928-09"},
+          "organizations": ["comintern"],
+          "note": {"fr": "Programme adopté au VIe congrès de l'IC."}
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "hegemony",
+      "name": {"fr": "Hégémonie", "en": "Hegemony", "de": "Hegemonie", "draft": ["en", "de"]},
+      "type": "concept",
+      "tradition": "marxist",
+      "summary": {
+        "fr": "Direction exercée par une classe sur les autres classes exploitées, par le consentement autant que par la force.",
+        "en": "Leadership exercised by one class over the other exploited classes, through consent as much as through force.",
+        "de": "Führung, die eine Klasse über die anderen ausgebeuteten Klassen ausübt, durch Zustimmung ebenso wie durch Zwang.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Dans la social-démocratie russe, l'« hégémonie du prolétariat » désigne la direction que la classe ouvrière doit exercer sur la paysannerie et les couches démocratiques dans la révolution contre le tsarisme. En prison, Gramsci élargit la notion : en Occident, la bourgeoisie domine aussi par un consentement organisé dans la société civile (école, presse, Église, syndicats), ce qui impose au parti révolutionnaire une longue « guerre de position »."
+      },
+      "appraisal": {
+        "fr": "Après la guerre, les dirigeants du PCI puis l'eurocommunisme invoquent Gramsci pour justifier une voie parlementaire et graduelle ; ses défenseurs révolutionnaires rappellent qu'il restait léniniste et partisan de la prise du pouvoir."
+      },
+      "milestones": [
+        {
+          "stage": "emergence",
+          "date": {"date": "1905", "qualifier": "before"},
+          "persons": ["plekhanov", "axelrod", "martov", "lenin"],
+          "note": {"fr": "Usage dans la social-démocratie russe ; date de première apparition à vérifier."},
+          "sources": [{"ref": "marxists-glossary-hegemony"}]
+        },
+        {
+          "stage": "development",
+          "date": {"date": "1911"},
+          "persons": ["lenin"],
+          "note": {"fr": "« Le marxisme et Nacha Zaria »."},
+          "sources": [{"ref": "marxists-glossary-hegemony"}]
+        },
+        {
+          "stage": "formulation",
+          "date": {"date": "1929"},
+          "work": "prison-notebooks",
+          "persons": ["antonio-gramsci"],
+          "note": {"fr": "Rédigés de 1929 à 1935, publiés de 1948 à 1951."}
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "new-democracy",
+      "name": {
+        "orig": "zh",
+        "zh": "新民主主义",
+        "fr": "Démocratie nouvelle",
+        "en": "New Democracy",
+        "de": "Neue Demokratie",
+        "draft": ["en", "de"]
+      },
+      "type": "theory",
+      "tradition": "marxist",
+      "broader": ["maoism", "stages-theory"],
+      "summary": {
+        "fr": "Théorie maoïste d'une révolution en deux temps : d'abord un État de bloc de classes sous direction du parti communiste, puis le socialisme.",
+        "en": "The Maoist theory of a two-step revolution: first a state of a bloc of classes under Communist Party leadership, then socialism.",
+        "de": "Maoistische Theorie einer Revolution in zwei Schritten: zuerst ein Staat des Klassenblocks unter Führung der Kommunistischen Partei, dann der Sozialismus.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Mao la formule en 1940 : la révolution chinoise, antiféodale et anti-impérialiste, doit unir ouvriers, paysans, petite bourgeoisie et bourgeoisie nationale sous la direction du PCC, et laisser subsister un temps le capitalisme. Le Programme commun de 1949 en fait la base de la République populaire. Dès 1953, la « ligne générale de la période de transition » engage la socialisation, achevée en 1956."
+      },
+      "appraisal": {
+        "fr": "Variante maoïste de la théorie des étapes. Les événements la démentent en partie : dès 1952-1956, le régime exproprie la bourgeoisie nationale, ce qui montre qu'aucune étape capitaliste stable n'était possible, mais il le fait d'en haut, sans pouvoir ouvrier."
+      },
+      "milestones": [
+        {"stage": "formulation", "work": "on-new-democracy", "persons": ["mao-zedong"]},
+        {"stage": "adoption", "node": "1949-cppcc-and-common-program"},
+        {"stage": "abandonment", "node": "1956-socialist-transformation-of-industry"}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "rights-of-man",
+      "name": {
+        "orig": "fr",
+        "fr": "Droits de l'homme",
+        "en": "Rights of man",
+        "de": "Menschenrechte",
+        "draft": ["en", "de"]
+      },
+      "type": "concept",
+      "tradition": "democratic",
+      "summary": {
+        "fr": "Droits naturels proclamés par la révolution bourgeoise : liberté, propriété, sûreté, résistance à l'oppression, égalité devant la loi.",
+        "en": "Natural rights proclaimed by the bourgeois revolution: liberty, property, security, resistance to oppression, equality before the law.",
+        "de": "Von der bürgerlichen Revolution verkündete natürliche Rechte: Freiheit, Eigentum, Sicherheit, Widerstand gegen Unterdrückung, Gleichheit vor dem Gesetz.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "La Déclaration des droits de l'homme et du citoyen de 1789 consacre l'égalité juridique, la souveraineté de la nation et la propriété comme droit inviolable et sacré. Thomas Paine les défend contre Burke en 1791. Elles deviennent le langage universel des révolutions démocratiques, mais aussi des esclaves de Saint-Domingue et des femmes qui en réclament l'application."
+      },
+      "appraisal": {
+        "fr": "Marx salue le progrès historique de l'émancipation politique, mais montre qu'elle laisse intacte l'inégalité sociale : la liberté et l'égalité proclamées restent formelles tant que subsiste la propriété privée des moyens de production."
+      },
+      "milestones": [
+        {"stage": "formulation", "node": "1789-declaration-of-the-rights-of-man"},
+        {"stage": "development", "work": "rights-of-man", "persons": ["thomas-paine"]}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "womens-emancipation",
+      "name": {
+        "fr": "Émancipation des femmes",
+        "en": "Women's emancipation",
+        "de": "Frauenemanzipation",
+        "draft": ["en", "de"]
+      },
+      "type": "concept",
+      "tradition": "marxist",
+      "summary": {
+        "fr": "Libération des femmes de l'oppression, que le marxisme lie à l'abolition de la propriété privée et à la socialisation du travail domestique.",
+        "en": "The liberation of women from oppression, which Marxism links to the abolition of private property and the socialisation of domestic labour.",
+        "de": "Befreiung der Frauen von Unterdrückung, die der Marxismus an die Abschaffung des Privateigentums und die Vergesellschaftung der Hausarbeit knüpft.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Olympe de Gouges réclame en 1791 l'égalité des droits pour les femmes ; en 1848, la convention de Seneca Falls l'exige aux États-Unis. Bebel puis Engels rattachent l'oppression des femmes à l'apparition de la propriété privée et de la famille patriarcale. Le mouvement socialiste crée une Journée internationale des femmes en 1910 ; le 8 mars 1917, la grève des ouvrières de Petrograd ouvre la révolution de Février. Le pouvoir soviétique légalise le divorce et l'avortement, avant que Staline ne revienne sur ces conquêtes."
+      },
+      "milestones": [
+        {
+          "stage": "precursor",
+          "date": {"date": "1791-09"},
+          "note": {"fr": "Olympe de Gouges, Déclaration des droits de la femme et de la citoyenne."}
+        },
+        {"stage": "precursor", "work": "declaration-of-sentiments"},
+        {"stage": "formulation", "work": "woman-and-socialism", "persons": ["august-bebel"]},
+        {"stage": "development", "work": "origin-of-the-family", "persons": ["engels"]},
+        {
+          "stage": "adoption",
+          "date": {"date": "1910-08"},
+          "persons": ["clara-zetkin"],
+          "note": {
+            "fr": "La conférence internationale des femmes socialistes de Copenhague décide une Journée internationale des femmes."
+          }
+        },
+        {"stage": "test", "node": "1917-international-womens-day-strike"},
+        {"stage": "revision", "node": "1936-soviet-abortion-ban"}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "economic-liberalism",
+      "name": {
+        "fr": "Libéralisme économique",
+        "en": "Economic liberalism",
+        "de": "Wirtschaftsliberalismus",
+        "draft": ["en", "de"]
+      },
+      "type": "theory",
+      "tradition": "liberal",
+      "summary": {
+        "fr": "Doctrine selon laquelle le libre jeu du marché et de la concurrence assure la prospérité générale, l'État se limitant à garantir la propriété et les contrats.",
+        "en": "The doctrine that the free play of the market and competition ensures general prosperity, with the state confined to guaranteeing property and contracts.",
+        "de": "Lehre, nach der das freie Spiel von Markt und Wettbewerb den allgemeinen Wohlstand sichert und der Staat sich auf die Garantie von Eigentum und Verträgen beschränkt.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Adam Smith montre que la division du travail et l'échange enrichissent les nations, et que la recherche de l'intérêt privé, guidée par une « main invisible », sert l'intérêt général. Ricardo y ajoute la théorie des avantages comparatifs, fondement du libre-échange. L'abolition des lois sur les blés en 1846 marque la victoire de la bourgeoisie industrielle britannique sur les propriétaires fonciers."
+      },
+      "appraisal": {
+        "fr": "Marx reconnaît la valeur scientifique de l'économie classique, mais lui reproche de présenter comme naturelles et éternelles les lois d'une société historique, fondée sur l'exploitation du travail salarié."
+      },
+      "milestones": [
+        {"stage": "formulation", "work": "the-wealth-of-nations", "persons": ["adam-smith"]},
+        {
+          "stage": "development",
+          "work": "principles-of-political-economy-ricardo",
+          "persons": ["david-ricardo"]
+        },
+        {"stage": "adoption", "node": "1846-corn-laws-repeal"}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "malthusianism",
+      "name": {
+        "fr": "Malthusianisme",
+        "en": "Malthusianism",
+        "de": "Malthusianismus",
+        "draft": ["en", "de"]
+      },
+      "type": "theory",
+      "tradition": "conservative",
+      "summary": {
+        "fr": "Thèse selon laquelle la population croît plus vite que les subsistances, si bien que la misère serait une loi naturelle et non un produit social.",
+        "en": "The thesis that population grows faster than the means of subsistence, so that poverty would be a natural law rather than a social product.",
+        "de": "These, nach der die Bevölkerung schneller wächst als die Nahrungsmittel, sodass Armut ein Naturgesetz und kein gesellschaftliches Produkt wäre.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Malthus soutient que la population tend à croître de façon géométrique et les subsistances de façon arithmétique ; l'assistance aux pauvres ne ferait qu'augmenter leur nombre et leur misère. Ces idées inspirent la nouvelle loi sur les pauvres de 1834, qui enferme les indigents dans les workhouses."
+      },
+      "appraisal": {
+        "fr": "Engels et Marx y voient une apologie de la bourgeoisie : la « surpopulation » n'est pas absolue mais relative aux besoins du capital, qui entretient une armée industrielle de réserve de chômeurs pour peser sur les salaires."
+      },
+      "milestones": [
+        {
+          "stage": "formulation",
+          "work": "essay-on-the-principle-of-population",
+          "persons": ["thomas-malthus"]
+        },
+        {"stage": "adoption", "node": "1834-new-poor-law"},
+        {
+          "stage": "critique",
+          "date": {"date": "1844"},
+          "persons": ["engels"],
+          "note": {"fr": "Esquisse d'une critique de l'économie politique."}
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "social-catholicism",
+      "name": {
+        "fr": "Catholicisme social",
+        "en": "Social Catholicism",
+        "de": "Sozialkatholizismus",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Doctrine sociale de l'Église"],
+      "type": "theory",
+      "tradition": "religious",
+      "summary": {
+        "fr": "Doctrine de l'Église catholique qui condamne à la fois le libéralisme sans frein et le socialisme, et prône la collaboration des classes.",
+        "en": "The Catholic Church's doctrine condemning both unbridled liberalism and socialism and advocating class collaboration.",
+        "de": "Lehre der katholischen Kirche, die sowohl den ungezügelten Liberalismus als auch den Sozialismus verurteilt und die Zusammenarbeit der Klassen predigt.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "L'encyclique Rerum novarum de Léon XIII, en 1891, reconnaît la misère ouvrière et le droit d'association, mais défend la propriété privée comme droit naturel et rejette la lutte des classes. Quadragesimo anno, en 1931, promeut une organisation corporatiste de la société, dont se réclament des régimes autoritaires d'Autriche et du Portugal."
+      },
+      "appraisal": {
+        "fr": "Pour le marxisme, c'est une réponse au développement du mouvement socialiste : détourner les travailleurs croyants de la lutte des classes vers des syndicats chrétiens et la collaboration avec le patronat."
+      },
+      "milestones": [
+        {"stage": "formulation", "work": "rerum-novarum"},
+        {
+          "stage": "development",
+          "date": {"date": "1931-05"},
+          "note": {"fr": "Encyclique Quadragesimo anno de Pie XI."}
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "fascism",
+      "name": {
+        "orig": "it",
+        "it": "Fascismo",
+        "fr": "Fascisme",
+        "en": "Fascism",
+        "de": "Faschismus",
+        "draft": ["en", "de"]
+      },
+      "type": "current",
+      "tradition": "fascist",
+      "summary": {
+        "fr": "Mouvement de masse contre-révolutionnaire, appuyé sur la petite bourgeoisie désespérée, qui écrase le mouvement ouvrier pour le compte du grand capital.",
+        "en": "A counter-revolutionary mass movement, based on a desperate petty bourgeoisie, which crushes the labour movement on behalf of big capital.",
+        "de": "Konterrevolutionäre Massenbewegung, gestützt auf ein verzweifeltes Kleinbürgertum, die die Arbeiterbewegung im Auftrag des Großkapitals zerschlägt.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Né en Italie en 1919 autour de Mussolini, il mobilise anciens combattants, petite bourgeoisie et déclassés contre la menace révolutionnaire du « biennio rosso », avec le soutien des industriels et des grands propriétaires. Arrivé au pouvoir en 1922, il détruit les organisations ouvrières et instaure un État totalitaire et corporatiste. Le nazisme en est la variante allemande, au pouvoir en 1933."
+      },
+      "appraisal": {
+        "fr": "Pour Trotski, le fascisme est le dernier recours de la bourgeoisie quand la démocratie parlementaire ne suffit plus à contenir le prolétariat ; seule l'action unie de la classe ouvrière pouvait l'arrêter."
+      },
+      "milestones": [
+        {
+          "stage": "emergence",
+          "date": {"date": "1919-03"},
+          "work": "il-popolo-d-italia",
+          "node": "1918-biennio-rosso-and-rise-of-fascism",
+          "persons": ["benito-mussolini"],
+          "note": {"fr": "Fondation des Faisceaux italiens de combat en mars 1919."}
+        },
+        {"stage": "test", "node": "1922-fascist-regime"},
+        {
+          "stage": "critique",
+          "date": {"date": "1932"},
+          "persons": ["trotsky"],
+          "note": {"fr": "Écrits de Trotski sur l'Allemagne."}
+        },
+        {
+          "stage": "formulation",
+          "date": {"date": "1932"},
+          "persons": ["benito-mussolini"],
+          "note": {"fr": "La dottrina del fascismo, rédigée avec Giovanni Gentile."}
+        },
+        {"stage": "test", "node": "1933-third-reich"},
+        {
+          "stage": "critique",
+          "node": "1935-seventh-comintern-congress",
+          "persons": ["georgi-dimitrov"],
+          "note": {
+            "fr": "Définition du fascisme comme dictature terroriste ouverte des éléments les plus réactionnaires du capital financier."
+          }
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "keynesianism",
+      "name": {"fr": "Keynésianisme", "en": "Keynesianism", "de": "Keynesianismus", "draft": ["en", "de"]},
+      "type": "theory",
+      "tradition": "liberal",
+      "summary": {
+        "fr": "Politique économique qui confie à l'État la relance de la demande pour assurer le plein emploi, sans toucher à la propriété capitaliste.",
+        "en": "An economic policy that gives the state the task of boosting demand to ensure full employment, without touching capitalist property.",
+        "de": "Wirtschaftspolitik, die dem Staat die Ankurbelung der Nachfrage zur Sicherung der Vollbeschäftigung überträgt, ohne das kapitalistische Eigentum anzutasten.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Après la crise de 1929, Keynes rejette l'idée que le marché revient spontanément au plein emploi : l'État doit soutenir la demande par la dépense publique et la politique monétaire. Après 1945, ces idées inspirent l'État-providence, le système de Bretton Woods et la croissance d'après-guerre. La stagflation des années 1970 provoque leur abandon."
+      },
+      "appraisal": {
+        "fr": "Le marxisme y voit une tentative de sauver le capitalisme de ses crises par le crédit et la dette publique, possible pendant l'exceptionnelle croissance d'après-guerre, mais qui ne supprime pas la contradiction entre production et marché : elle la reporte, au prix de l'inflation."
+      },
+      "milestones": [
+        {"stage": "formulation", "work": "the-general-theory", "persons": ["john-maynard-keynes"]},
+        {"stage": "adoption", "work": "beveridge-report"},
+        {"stage": "adoption", "node": "1944-bretton-woods-conference"},
+        {
+          "stage": "abandonment",
+          "node": "1976-imf-crisis",
+          "persons": ["james-callaghan"],
+          "note": {
+            "fr": "Callaghan déclare au congrès travailliste qu'on ne peut plus sortir d'une récession en dépensant."
+          }
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "neoliberalism",
+      "name": {
+        "fr": "Néolibéralisme",
+        "en": "Neoliberalism",
+        "de": "Neoliberalismus",
+        "draft": ["en", "de"]
+      },
+      "type": "theory",
+      "tradition": "liberal",
+      "summary": {
+        "fr": "Doctrine qui veut restaurer le marché contre l'intervention de l'État : privatisations, déréglementation, lutte contre l'inflation et contre les syndicats.",
+        "en": "A doctrine that seeks to restore the market against state intervention: privatisation, deregulation, the fight against inflation and against the unions.",
+        "de": "Lehre, die den Markt gegen staatliche Eingriffe wiederherstellen will: Privatisierung, Deregulierung, Kampf gegen Inflation und Gewerkschaften.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Le terme est adopté en 1938 par des libéraux réunis à Paris. Hayek dénonce toute planification comme la « route de la servitude » et fonde en 1947 la Société du Mont-Pèlerin. Marginal pendant l'après-guerre keynésien, le courant triomphe avec la crise des années 1970 : Chili de Pinochet et des « Chicago Boys », Thatcher, Reagan, puis « consensus de Washington » imposé aux pays endettés."
+      },
+      "appraisal": {
+        "fr": "Pour le marxisme, le néolibéralisme est l'offensive de la classe capitaliste pour restaurer le taux de profit après la fin de l'essor d'après-guerre, en démantelant les conquêtes ouvrières ; il a d'abord été imposé par une dictature militaire, au Chili."
+      },
+      "milestones": [
+        {"stage": "emergence", "node": "1938-walter-lippmann-colloquium"},
+        {"stage": "formulation", "work": "the-road-to-serfdom", "persons": ["friedrich-hayek"]},
+        {
+          "stage": "adoption",
+          "node": "1947-founding-of-the-mont-pelerin-society",
+          "organizations": ["mont-pelerin-society"]
+        },
+        {"stage": "test", "node": "1973-chilean-coup"},
+        {"stage": "adoption", "node": "1975-chicago-boys-shock-therapy"},
+        {"stage": "adoption", "node": "1979-thatcherism"},
+        {
+          "stage": "test",
+          "node": "1989-caracazo",
+          "note": {"fr": "La première grande révolte contre un plan d'ajustement du FMI."}
+        },
+        {
+          "stage": "test",
+          "node": "2019-chilean-social-outburst",
+          "note": {
+            "fr": "Le pays laboratoire du néolibéralisme se soulève contre trente ans de privatisations."
+          }
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "pan-africanism",
+      "name": {
+        "fr": "Panafricanisme",
+        "en": "Pan-Africanism",
+        "de": "Panafrikanismus",
+        "draft": ["en", "de"]
+      },
+      "type": "current",
+      "tradition": "other",
+      "summary": {
+        "fr": "Mouvement qui affirme l'unité et la solidarité des peuples d'Afrique et de la diaspora africaine contre l'esclavage, le racisme et la domination coloniale.",
+        "en": "Movement asserting the unity and solidarity of the peoples of Africa and the African diaspora against slavery, racism and colonial domination.",
+        "de": "Bewegung, die die Einheit und Solidarität der Völker Afrikas und der afrikanischen Diaspora gegen Sklaverei, Rassismus und Kolonialherrschaft bekräftigt.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Né dans la diaspora noire des Caraïbes et des États-Unis, le panafricanisme se structure autour de congrès : Londres en 1900, Paris en 1919, puis une série de congrès animés par W. E. B. Du Bois. Dans les années 1920, le mouvement de Marcus Garvey lui donne une base de masse autour du retour en Afrique et de l'entreprise noire. Le congrès de Manchester (1945), avec Nkrumah, Kenyatta et Padmore, en fait un programme d'indépendance immédiate appuyé sur les syndicats et les masses. Après les indépendances, il oppose les partisans d'un gouvernement continental, autour de Nkrumah, aux défenseurs d'une coopération entre États souverains, qui l'emportent avec l'OUA en 1963 puis l'Union africaine en 2002."
+      },
+      "appraisal": {
+        "fr": "Le marxisme révolutionnaire partage l'aspiration à l'unité de l'Afrique contre l'impérialisme, mais constate qu'elle est impossible entre des États bourgeois dépendants du marché mondial, chacun attaché aux frontières héritées de la colonisation : l'OUA en a fait une diplomatie entre gouvernements. Seule la classe ouvrière africaine, à la tête des paysans pauvres et liée aux travailleurs des pays impérialistes, pourrait réaliser cette unité dans une fédération socialiste d'Afrique."
+      },
+      "milestones": [
+        {
+          "stage": "emergence",
+          "node": "1900-first-pan-african-conference",
+          "persons": ["henry-sylvester-williams", "w-e-b-du-bois"],
+          "note": {"fr": "Le terme « panafricain » s'impose avec la conférence de Londres."}
+        },
+        {"stage": "development", "node": "1919-pan-african-congress", "persons": ["w-e-b-du-bois"]},
+        {
+          "stage": "development",
+          "date": {"date": "1920"},
+          "persons": ["marcus-garvey"],
+          "organizations": ["unia"],
+          "note": {
+            "fr": "La convention de l'UNIA à New York adopte la Déclaration des droits des peuples nègres du monde ; le garveyisme devient un mouvement de masse."
+          }
+        },
+        {
+          "stage": "formulation",
+          "node": "1945-manchester-pan-african-congress",
+          "persons": ["kwame-nkrumah", "w-e-b-du-bois"],
+          "note": {"fr": "Le congrès exige l'indépendance immédiate des colonies."}
+        },
+        {
+          "stage": "adoption",
+          "node": "1958-all-african-peoples-conference",
+          "persons": ["kwame-nkrumah"]
+        },
+        {
+          "stage": "revision",
+          "node": "1963-founding-of-the-oau",
+          "organizations": ["oau"],
+          "note": {
+            "fr": "L'OUA consacre une coopération entre États souverains et l'intangibilité des frontières coloniales, contre le gouvernement continental proposé par Nkrumah."
+          }
+        },
+        {"stage": "test", "node": "1966-overthrow-of-kwame-nkrumah", "persons": ["kwame-nkrumah"]},
+        {
+          "stage": "revival",
+          "node": "2002-founding-of-the-african-union",
+          "organizations": ["african-union"]
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "negritude",
+      "name": {"orig": "fr", "fr": "Négritude", "en": "Negritude", "de": "Négritude", "draft": ["en", "de"]},
+      "type": "current",
+      "tradition": "other",
+      "summary": {
+        "fr": "Mouvement littéraire et politique qui revendique la valeur des cultures noires contre l'assimilation et le mépris coloniaux.",
+        "en": "Literary and political movement asserting the value of Black cultures against colonial assimilation and contempt.",
+        "de": "Literarische und politische Bewegung, die den Wert der schwarzen Kulturen gegen koloniale Assimilation und Verachtung behauptet.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Le courant naît à Paris au milieu des années 1930 autour de la revue L'Étudiant noir, fondée par des étudiants antillais et africains, parmi lesquels Aimé Césaire, Léopold Sédar Senghor et Léon-Gontran Damas. La première occurrence imprimée du mot est discutée : L'Étudiant noir en 1935 ou le Cahier d'un retour au pays natal de Césaire, paru en 1939. L'Anthologie de la nouvelle poésie nègre et malgache de Senghor (1948), préfacée par Sartre, le fait connaître. Césaire lui donne une orientation anticolonialiste ; Senghor l'interprète comme une essence culturelle noire qu'il intègre à son « socialisme africain » une fois président du Sénégal. Frantz Fanon, puis des écrivains anglophones, lui reprochent d'opposer au racisme colonial une identité figée."
+      },
+      "appraisal": {
+        "fr": "La négritude a contribué à briser le complexe d'infériorité imposé par la colonisation et a nourri la conscience anticoloniale. Mais en plaçant une identité raciale au-dessus des classes, sa version senghorienne a servi d'idéologie à une bourgeoisie nationale alliée à l'ancienne métropole. Comme le soulignait Fanon, la libération passe par la lutte contre le système colonial, non par la célébration d'un passé."
+      },
+      "milestones": [
+        {
+          "stage": "emergence",
+          "date": {"date": "1935"},
+          "persons": ["aime-cesaire", "leopold-sedar-senghor"],
+          "note": {"fr": "Fondation de la revue L'Étudiant noir à Paris."}
+        },
+        {
+          "stage": "formulation",
+          "work": "notebook-of-a-return-to-the-native-land",
+          "persons": ["aime-cesaire"],
+          "note": {"fr": "Le poème paraît en août 1939 dans la revue Volontés."},
+          "sources": [{"ref": "universalis-cahier-retour-pays-natal"}]
+        },
+        {
+          "stage": "development",
+          "date": {"date": "1948"},
+          "persons": ["leopold-sedar-senghor"],
+          "note": {
+            "fr": "Anthologie de la nouvelle poésie nègre et malgache, préfacée par Sartre (« Orphée noir »)."
+          }
+        },
+        {"stage": "critique", "work": "black-skin-white-masks", "persons": ["frantz-fanon"]},
+        {
+          "stage": "development",
+          "node": "1956-congress-of-black-writers-and-artists",
+          "persons": ["aime-cesaire"]
+        },
+        {
+          "stage": "critique",
+          "work": "wretched-of-the-earth",
+          "persons": ["frantz-fanon"],
+          "note": {
+            "fr": "Le chapitre « Sur la culture nationale » met en garde contre une culture réduite à la célébration du passé."
+          }
+        }
+      ],
+      "sources": [{"ref": "universalis-cahier-retour-pays-natal"}],
+      "status": "draft"
+    },
+    {
+      "id": "african-socialism",
+      "name": {
+        "fr": "Socialisme africain",
+        "en": "African socialism",
+        "de": "Afrikanischer Sozialismus",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Ujamaa"],
+      "type": "current",
+      "tradition": "socialist",
+      "summary": {
+        "fr": "Doctrine des dirigeants des premiers États indépendants, qui prétend bâtir le socialisme sur les traditions communautaires africaines, sans lutte des classes.",
+        "en": "Doctrine of the leaders of the first independent states, claiming to build socialism on African communal traditions, without class struggle.",
+        "de": "Lehre der Führer der ersten unabhängigen Staaten, die den Sozialismus auf afrikanischen Gemeinschaftstraditionen aufbauen will, ohne Klassenkampf.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Formulé au moment des indépendances par Senghor, Nkrumah, Sékou Touré, Modibo Keïta ou Julius Nyerere, il affirme que la société africaine précoloniale ignorait les classes et qu'il suffit d'en retrouver la solidarité. En Tanzanie, la Déclaration d'Arusha (1967) en fait le programme de l'État : nationalisation des banques et des grandes entreprises, autosuffisance et villages collectifs ujamaa. Entre 1973 et 1975, la villagisation devient forcée et déplace des millions de paysans. La crise de la dette des années 1980 conduit ces régimes à accepter les plans d'ajustement du FMI."
+      },
+      "appraisal": {
+        "fr": "Le marxisme révolutionnaire y voit une variante du socialisme national : en niant l'existence des classes, il masque la formation d'une bureaucratie et d'une bourgeoisie d'État. Les nationalisations, réelles, restent prisonnières du marché mondial et d'une économie arriérée, faute de démocratie ouvrière et d'extension internationale de la révolution. Leur échec a ensuite servi d'argument aux plans d'ajustement libéraux."
+      },
+      "milestones": [
+        {
+          "stage": "emergence",
+          "date": {"date": "1962"},
+          "persons": ["julius-nyerere"],
+          "note": {"fr": "Nyerere publie « Ujamaa, base du socialisme africain »."}
+        },
+        {
+          "stage": "adoption",
+          "work": "arusha-declaration",
+          "node": "1967-arusha-declaration",
+          "persons": ["julius-nyerere"],
+          "note": {"fr": "La Déclaration devient le programme du parti au pouvoir et de l'État tanzanien."}
+        },
+        {
+          "stage": "test",
+          "date": {"date": "1973"},
+          "note": {
+            "fr": "La villagisation devient forcée : plus de sept millions de personnes sont déplacées entre septembre 1973 et juin 1975."
+          },
+          "sources": [{"ref": "wp-en-ujamaa"}]
+        },
+        {
+          "stage": "abandonment",
+          "date": {"date": "1986"},
+          "note": {"fr": "La Tanzanie conclut un accord avec le FMI et engage l'ajustement structurel."}
+        }
+      ],
+      "sources": [{"ref": "wp-en-ujamaa"}],
+      "status": "draft"
+    },
+    {
+      "id": "neo-colonialism",
+      "name": {
+        "fr": "Néocolonialisme",
+        "en": "Neo-colonialism",
+        "de": "Neokolonialismus",
+        "draft": ["en", "de"]
+      },
+      "type": "concept",
+      "tradition": "marxist",
+      "broader": ["imperialism"],
+      "summary": {
+        "fr": "Domination d'États formellement indépendants par l'ancienne métropole ou les puissances impérialistes, par la dette, la monnaie, le commerce et l'intervention militaire.",
+        "en": "Domination of formally independent states by the former colonial power or the imperialist powers, through debt, currency, trade and military intervention.",
+        "de": "Beherrschung formal unabhängiger Staaten durch die ehemalige Kolonialmacht oder die imperialistischen Mächte mittels Schulden, Währung, Handel und militärischer Intervention.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Le terme se diffuse dans les mouvements de libération africains à la fin des années 1950. Kwame Nkrumah le systématise en 1965 dans Le Néocolonialisme, dernier stade de l'impérialisme, en prolongeant l'analyse de Lénine : un État indépendant en droit voit son économie et sa politique dirigées de l'extérieur, par l'investissement étranger, l'aide conditionnelle, les accords monétaires et les bases militaires. L'exemple souvent cité est la zone franc, où les anciennes colonies françaises gardent une monnaie garantie par le Trésor français. Le concept sert ensuite à analyser la dette et les plans d'ajustement structurel."
+      },
+      "appraisal": {
+        "fr": "Le concept décrit la persistance de la domination impérialiste après les indépendances. Le marxisme révolutionnaire ajoute qu'elle s'appuie sur les bourgeoisies nationales elles-mêmes, intéressées à leur alliance avec le capital étranger : on ne s'en libère pas par la seule souveraineté politique, mais en rompant avec le capitalisme."
+      },
+      "milestones": [
+        {
+          "stage": "formulation",
+          "work": "neo-colonialism-the-last-stage-of-imperialism",
+          "persons": ["kwame-nkrumah"]
+        },
+        {
+          "stage": "test",
+          "node": "1966-overthrow-of-kwame-nkrumah",
+          "persons": ["kwame-nkrumah"],
+          "note": {"fr": "Nkrumah est renversé quelques mois après la parution du livre."}
+        },
+        {
+          "stage": "development",
+          "work": "how-europe-underdeveloped-africa",
+          "persons": ["walter-rodney"]
+        },
+        {"stage": "test", "node": "1987-sankara-speech-on-debt", "persons": ["thomas-sankara"]},
+        {"stage": "test", "node": "1994-cfa-franc-devaluation"}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "national-liberation",
+      "name": {
+        "fr": "Libération nationale",
+        "en": "National liberation",
+        "de": "Nationale Befreiung",
+        "draft": ["en", "de"]
+      },
+      "type": "strategy",
+      "tradition": "marxist",
+      "broader": ["national-self-determination"],
+      "summary": {
+        "fr": "Lutte des peuples colonisés pour l'indépendance, pensée comme une étape de la révolution contre l'impérialisme.",
+        "en": "Struggle of colonised peoples for independence, conceived as a stage of the revolution against imperialism.",
+        "de": "Kampf der kolonisierten Völker um Unabhängigkeit, verstanden als Etappe der Revolution gegen den Imperialismus.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Le IIe congrès de l'Internationale communiste (1920) adopte des thèses sur la question nationale et coloniale qui appellent à soutenir les mouvements de libération des colonies tout en préservant l'indépendance des communistes. Après 1945, les guerres d'Algérie, du Vietnam et des colonies portugaises en font une stratégie de lutte armée appuyée sur la paysannerie. Frantz Fanon y voit la naissance d'un homme nouveau et redoute la trahison de la bourgeoisie nationale ; Amílcar Cabral, dans L'arme de la théorie (1966), appelle la petite bourgeoisie dirigeante à se « suicider comme classe » pour s'identifier aux travailleurs. La plupart de ces luttes aboutissent à l'indépendance politique sous la direction de partis nationalistes."
+      },
+      "appraisal": {
+        "fr": "Le marxisme révolutionnaire soutient sans condition les peuples colonisés contre l'impérialisme, tout en refusant de subordonner les travailleurs à la bourgeoisie nationale. L'expérience confirme la théorie de la révolution permanente : là où la lutte reste enfermée dans le cadre national et capitaliste, l'indépendance politique laisse intacte la dépendance économique et donne naissance à de nouveaux régimes autoritaires."
+      },
+      "milestones": [
+        {
+          "stage": "adoption",
+          "node": "1920-second-comintern-congress",
+          "organizations": ["comintern"],
+          "note": {"fr": "Thèses sur la question nationale et coloniale."}
+        },
+        {"stage": "test", "node": "1954-algerian-war-of-independence", "organizations": ["fln"]},
+        {"stage": "development", "work": "wretched-of-the-earth", "persons": ["frantz-fanon"]},
+        {
+          "stage": "formulation",
+          "work": "weapon-of-theory",
+          "node": "1966-tricontinental-conference",
+          "persons": ["amilcar-cabral"]
+        },
+        {
+          "stage": "test",
+          "node": "1974-portuguese-decolonisation",
+          "note": {
+            "fr": "L'effondrement de l'empire portugais conclut la vague des indépendances obtenues par la lutte armée."
+          }
+        },
+        {"stage": "test", "node": "1979-sandinista-revolution", "organizations": ["fsln"]}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "black-consciousness",
+      "name": {
+        "fr": "Conscience noire",
+        "en": "Black Consciousness",
+        "de": "Black Consciousness",
+        "draft": ["en", "de"]
+      },
+      "type": "current",
+      "tradition": "other",
+      "summary": {
+        "fr": "Mouvement sud-africain qui appelle les Noirs à se libérer de la mentalité d'opprimés et à s'organiser eux-mêmes, sans tutelle des libéraux blancs.",
+        "en": "South African movement calling on Black people to free themselves from the mentality of the oppressed and to organise themselves, without white liberal tutelage.",
+        "de": "Südafrikanische Bewegung, die Schwarze aufruft, sich von der Mentalität der Unterdrückten zu befreien und sich ohne Bevormundung durch weiße Liberale selbst zu organisieren.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Il naît en 1968-1969 avec l'Organisation des étudiants sud-africains (SASO), fondée par Steve Biko et Barney Pityana après leur rupture avec les organisations étudiantes multiraciales dominées par les libéraux blancs. Il définit comme « noirs » tous les opprimés de l'apartheid, Africains, Métis et Indiens. Biko en expose les idées dans la chronique « I Write What I Like », signée Frank Talk. Le mouvement inspire la génération des lycéens de Soweto en 1976. Le régime interdit ses organisations le 19 octobre 1977, après la mort de Biko en détention."
+      },
+      "appraisal": {
+        "fr": "La Conscience noire a rendu à une génération la confiance nécessaire pour affronter l'apartheid. Mais en faisant de la race le clivage principal, elle laissait de côté la force décisive que révèlent les grèves de 1973 et la naissance des syndicats noirs : la classe ouvrière, seule capable de renverser à la fois l'apartheid et le capitalisme sur lequel il reposait."
+      },
+      "milestones": [
+        {
+          "stage": "emergence",
+          "date": {"date": "1968-07"},
+          "persons": ["steve-biko"],
+          "organizations": ["saso"],
+          "note": {"fr": "Rupture de Stutterheim avec les organisations étudiantes multiraciales."},
+          "sources": [{"ref": "wp-en-south-african-students-organisation"}]
+        },
+        {
+          "stage": "adoption",
+          "date": {"date": "1969-07"},
+          "persons": ["steve-biko"],
+          "organizations": ["saso"],
+          "note": {"fr": "Lancement officiel de la SASO à Turfloop, sous la présidence de Biko."},
+          "sources": [{"ref": "wp-en-south-african-students-organisation"}]
+        },
+        {
+          "stage": "formulation",
+          "date": {"date": "1970"},
+          "work": "i-write-what-i-like",
+          "persons": ["steve-biko"],
+          "note": {
+            "fr": "Chroniques signées Frank Talk dans le bulletin de la SASO, réunies en livre après sa mort."
+          }
+        },
+        {"stage": "test", "node": "1976-soweto-uprising"},
+        {
+          "stage": "test",
+          "node": "1977-death-of-steve-biko",
+          "organizations": ["saso"],
+          "note": {
+            "fr": "La SASO et les autres organisations de la Conscience noire sont interdites le 19 octobre 1977."
+          },
+          "sources": [{"ref": "wp-en-south-african-students-organisation"}]
+        }
+      ],
+      "sources": [{"ref": "wp-en-south-african-students-organisation"}],
+      "status": "draft"
+    },
+    {
+      "id": "apartheid",
+      "name": {
+        "orig": "af",
+        "af": "apartheid",
+        "fr": "Apartheid",
+        "en": "Apartheid",
+        "de": "Apartheid",
+        "draft": ["en", "de"]
+      },
+      "type": "concept",
+      "tradition": "other",
+      "summary": {
+        "fr": "Système de domination raciale institutionnalisé en Afrique du Sud de 1948 au début des années 1990, qui prive la majorité noire de droits politiques et organise son travail.",
+        "en": "System of racial domination institutionalised in South Africa from 1948 to the early 1990s, depriving the Black majority of political rights and regulating its labour.",
+        "de": "In Südafrika von 1948 bis Anfang der 1990er-Jahre institutionalisiertes System rassistischer Herrschaft, das der schwarzen Mehrheit politische Rechte vorenthält und ihre Arbeit reglementiert.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Héritier des lois de ségrégation de l'Union sud-africaine, comme le Natives Land Act de 1913, l'apartheid (« séparation » en afrikaans) est systématisé par le Parti national après sa victoire électorale de 1948 : classification raciale de toute la population, interdiction des mariages mixtes, zones de résidence séparées, laissez-passer contrôlant les déplacements des Africains, puis bantoustans présentés comme de futurs États « indépendants ». Il s'accompagne de l'interdiction du Parti communiste (1950), puis de l'ANC et du PAC (1960). Contesté par les soulèvements, les grèves et les sanctions internationales, il est démantelé à partir de 1990 et prend fin avec les élections de 1994."
+      },
+      "appraisal": {
+        "fr": "L'apartheid n'était pas une survivance irrationnelle, mais une forme de domination adaptée aux besoins du capitalisme minier et agricole sud-africain : une main-d'œuvre noire migrante, bon marché et privée de droits. Sa fin sans expropriation du capital explique que les inégalités de classe, qui recoupent largement les clivages raciaux, aient survécu à l'égalité juridique."
+      },
+      "milestones": [
+        {"stage": "precursor", "node": "1913-natives-land-act"},
+        {
+          "stage": "adoption",
+          "node": "1948-national-party-victory-and-apartheid",
+          "organizations": ["national-party-south-africa"]
+        },
+        {"stage": "test", "node": "1960-sharpeville-massacre"},
+        {
+          "stage": "test",
+          "node": "1973-durban-strikes",
+          "note": {
+            "fr": "La grève de 60 000 travailleurs noirs fait renaître les syndicats que l'apartheid interdisait de fait."
+          }
+        },
+        {"stage": "test", "node": "1976-soweto-uprising"},
+        {
+          "stage": "abandonment",
+          "node": "1990-release-of-nelson-mandela",
+          "note": {"fr": "Le régime légalise l'ANC et le Parti communiste et ouvre les négociations."}
+        },
+        {
+          "stage": "abandonment",
+          "node": "1994-south-african-elections",
+          "note": {"fr": "Les premières élections au suffrage universel mettent fin à l'apartheid."}
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "bolivarianism",
+      "name": {
+        "orig": "es",
+        "es": "Bolivarianismo",
+        "fr": "Bolivarisme",
+        "en": "Bolivarianism",
+        "de": "Bolivarismus",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Chavisme"],
+      "type": "current",
+      "tradition": "other",
+      "summary": {
+        "fr": "Projet d'unité et d'indépendance des nations hispano-américaines hérité de Bolívar, repris à la fin du XXe siècle par le chavisme.",
+        "en": "Project of unity and independence of the Spanish American nations inherited from Bolívar, revived at the end of the 20th century by Chavismo.",
+        "de": "Projekt der Einheit und Unabhängigkeit der hispanoamerikanischen Nationen in der Nachfolge Bolívars, Ende des 20. Jahrhunderts vom Chavismus wieder aufgegriffen.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Simón Bolívar, chef militaire des indépendances du nord de l'Amérique du Sud, défend l'union des républiques libérées en une vaste confédération capable de résister aux puissances européennes ; le congrès de Panama de 1826 en est la tentative, qui échoue. Pendant plus d'un siècle, la figure de Bolívar sert surtout de culte national officiel. En 1982, de jeunes officiers vénézuéliens autour de Hugo Chávez fondent le Mouvement bolivarien révolutionnaire 200, qui associe Bolívar, son maître Simón Rodríguez et le chef paysan Ezequiel Zamora. Arrivé au pouvoir en 1999, le chavisme rebaptise le pays « République bolivarienne », fait de l'intégration latino-américaine contre les États-Unis un axe de sa politique et crée l'ALBA en 2004."
+      },
+      "appraisal": {
+        "fr": "Le marxisme révolutionnaire reconnaît le contenu progressiste de l'unité latino-américaine contre l'impérialisme, mais rappelle que l'indépendance des créoles a laissé intactes la grande propriété et souvent l'esclavage. L'unité du continent ne peut être réalisée par des alliances entre gouvernements bourgeois liés au marché mondial : elle exige une fédération socialiste des Amériques, fondée sur le pouvoir des travailleurs et des paysans."
+      },
+      "milestones": [
+        {
+          "stage": "formulation",
+          "node": "1826-congress-of-panama",
+          "persons": ["simon-bolivar"],
+          "note": {"fr": "Bolívar tente d'unir les républiques hispano-américaines dans une confédération."}
+        },
+        {
+          "stage": "revival",
+          "date": {"date": "1982-12-17"},
+          "persons": ["hugo-chavez"],
+          "organizations": ["mbr-200"],
+          "note": {
+            "fr": "Des officiers fondent le MBR-200 en se réclamant de Bolívar, Simón Rodríguez et Ezequiel Zamora."
+          }
+        },
+        {"stage": "test", "node": "1992-chavez-coup-attempt", "persons": ["hugo-chavez"]},
+        {
+          "stage": "adoption",
+          "node": "1998-election-of-hugo-chavez",
+          "persons": ["hugo-chavez"],
+          "note": {
+            "fr": "Le bolivarisme devient doctrine d'État ; la Constitution de 1999 crée la République bolivarienne du Venezuela."
+          }
+        },
+        {
+          "stage": "test",
+          "node": "2002-venezuelan-coup-attempt",
+          "note": {
+            "fr": "Le patronat et une partie de l'armée renversent Chávez ; les quartiers populaires le rétablissent."
+          }
+        },
+        {
+          "stage": "development",
+          "node": "2004-founding-of-alba",
+          "persons": ["hugo-chavez", "fidel-castro"],
+          "organizations": ["alba"]
+        },
+        {
+          "stage": "test",
+          "node": "2026-capture-of-nicolas-maduro",
+          "persons": ["nicolas-maduro"],
+          "note": {"fr": "Le raid américain sur Caracas frappe le successeur de Chávez."}
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "latin-american-anti-imperialism",
+      "name": {
+        "orig": "es",
+        "es": "Antiimperialismo latinoamericano",
+        "fr": "Anti-impérialisme latino-américain",
+        "en": "Latin American anti-imperialism",
+        "de": "Lateinamerikanischer Antiimperialismus",
+        "draft": ["en", "de"]
+      },
+      "type": "current",
+      "tradition": "other",
+      "summary": {
+        "fr": "Courant qui dénonce la domination des États-Unis sur « Notre Amérique » et appelle à l'unité des peuples du continent pour s'en libérer.",
+        "en": "Current denouncing US domination of “Our America” and calling for the unity of the continent's peoples to free themselves from it.",
+        "de": "Strömung, die die Vorherrschaft der USA über „Unser Amerika“ anprangert und zur Einheit der Völker des Kontinents aufruft, um sich davon zu befreien.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "José Martí, exilé à New York, oppose dès 1891 « Notre Amérique » métisse aux ambitions du voisin du Nord. Après 1898, les interventions répétées des États-Unis dans les Caraïbes et en Amérique centrale donnent au courant une base de masse : la guerre de Sandino contre les marines au Nicaragua (1927-1933) en devient le symbole. Dans les années 1920, l'APRA péruvienne de Haya de la Torre en fait un programme continental, tandis que la réforme universitaire diffuse ces idées dans la jeunesse. Les nationalisations de Cárdenas, la révolution guatémaltèque et surtout la révolution cubaine lui donnent une traduction étatique ; la conférence tricontinentale de 1966 le relie aux luttes d'Afrique et d'Asie."
+      },
+      "appraisal": {
+        "fr": "Le marxisme révolutionnaire soutient tout combat réel contre l'impérialisme, mais montre que les bourgeoisies nationales, liées au capital étranger et effrayées par leurs propres ouvriers, s'arrêtent à mi-chemin ou se retournent contre les masses : l'APRA a fini alliée de l'oligarchie. L'anti-impérialisme conséquent passe par la prise du pouvoir par la classe ouvrière, comme l'enseigne la théorie de la révolution permanente."
+      },
+      "milestones": [
+        {"stage": "formulation", "work": "our-america", "persons": ["jose-marti"]},
+        {"stage": "development", "node": "1918-cordoba-university-reform"},
+        {
+          "stage": "test",
+          "node": "1927-sandino-rebellion",
+          "persons": ["augusto-sandino"],
+          "note": {"fr": "Une guérilla paysanne oblige les marines américains à quitter le Nicaragua."}
+        },
+        {"stage": "test", "node": "1938-mexican-oil-expropriation", "persons": ["lazaro-cardenas"]},
+        {
+          "stage": "test",
+          "node": "1954-guatemalan-coup",
+          "persons": ["jacobo-arbenz"],
+          "note": {
+            "fr": "La CIA renverse un gouvernement réformiste élu qui touchait aux terres de la United Fruit."
+          }
+        },
+        {"stage": "development", "node": "1966-tricontinental-conference"},
+        {"stage": "development", "node": "2005-mar-del-plata-summit", "persons": ["hugo-chavez"]}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "indo-american-socialism",
+      "name": {
+        "orig": "es",
+        "es": "Socialismo indoamericano",
+        "fr": "Socialisme indo-américain",
+        "en": "Indo-American socialism",
+        "de": "Indoamerikanischer Sozialismus",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Marxisme de Mariátegui"],
+      "type": "theory",
+      "tradition": "marxist",
+      "broader": ["marxism"],
+      "summary": {
+        "fr": "Analyse marxiste de Mariátegui qui fait de la question indienne et de la terre le cœur de la révolution socialiste au Pérou et dans les Andes.",
+        "en": "Mariátegui's Marxist analysis making the Indian question and land the core of socialist revolution in Peru and the Andes.",
+        "de": "Marxistische Analyse Mariáteguis, die die Indio-Frage und das Land ins Zentrum der sozialistischen Revolution in Peru und den Anden stellt.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "José Carlos Mariátegui, revenu d'Europe en 1923, fonde la revue Amauta (1926) puis le Parti socialiste du Pérou (1928). Dans les Sept essais (1928), il soutient que la question indienne est d'abord une question de la terre, liée au gamonalismo, la domination des grands propriétaires semi-féodaux. Il voit dans les traditions communautaires des ayllus un point d'appui pour le socialisme et refuse d'attendre une étape de développement capitaliste national. Il rompt avec l'APRA, qui veut un front anti-impérialiste dirigé par les classes moyennes. À la conférence communiste latino-américaine de Buenos Aires (1929), ses thèses sont critiquées par les représentants de l'Internationale. Après sa mort (1930), son parti devient le Parti communiste péruvien, et de nombreux courants se réclameront de lui."
+      },
+      "appraisal": {
+        "fr": "Mariátegui est l'un des premiers à appliquer le marxisme de façon créatrice à l'Amérique latine : sa critique de la bourgeoisie nationale et son refus de la révolution par étapes rejoignent la révolution permanente. Sa vision des communautés indiennes comme base du socialisme a été discutée, et son héritage a été détourné, par le stalinisme péruvien comme par le Sentier lumineux."
+      },
+      "milestones": [
+        {
+          "stage": "formulation",
+          "work": "seven-interpretive-essays",
+          "persons": ["jose-carlos-mariategui"]
+        },
+        {
+          "stage": "adoption",
+          "date": {"date": "1928-10-07"},
+          "persons": ["jose-carlos-mariategui"],
+          "organizations": ["socialist-party-of-peru"],
+          "note": {"fr": "Fondation du Parti socialiste du Pérou sur une orientation marxiste."}
+        },
+        {
+          "stage": "critique",
+          "date": {"date": "1929-06"},
+          "organizations": ["comintern"],
+          "note": {
+            "fr": "À la conférence de Buenos Aires, les dirigeants de l'Internationale critiquent les thèses péruviennes sur la question indienne et le nom du parti."
+          }
+        },
+        {
+          "stage": "revision",
+          "node": "1980-internal-conflict-in-peru",
+          "organizations": ["shining-path"],
+          "note": {
+            "fr": "Le Sentier lumineux tire son nom de la formule « le sentier lumineux de Mariátegui » et l'enrôle dans un maoïsme militariste."
+          }
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "foquism",
+      "name": {
+        "orig": "es",
+        "es": "Foquismo",
+        "fr": "Foquisme",
+        "en": "Foquismo",
+        "de": "Fokismus",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Théorie du foco", "Guévarisme"],
+      "type": "strategy",
+      "tradition": "marxist",
+      "broader": ["national-liberation"],
+      "summary": {
+        "fr": "Théorie selon laquelle un petit foyer de guérilla rurale peut créer lui-même les conditions de la révolution, sans attendre le parti ni l'insurrection des masses.",
+        "en": "Theory holding that a small rural guerrilla focus can itself create the conditions for revolution, without waiting for the party or a mass insurrection.",
+        "de": "Theorie, nach der ein kleiner ländlicher Guerillaherd selbst die Bedingungen der Revolution schaffen kann, ohne auf die Partei oder einen Massenaufstand zu warten.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Tirée de l'expérience cubaine, la théorie est exposée par Che Guevara dans La Guerre de guérilla (1960) : les forces populaires peuvent vaincre une armée régulière, il n'est pas nécessaire d'attendre que toutes les conditions soient réunies, et la campagne est le terrain principal de la lutte armée en Amérique latine. Régis Debray la systématise en 1967 dans Révolution dans la révolution ? : le foyer de guérilla tient lieu de parti et d'avant-garde politique. Des dizaines de guérillas inspirées de ce modèle se forment au Venezuela, au Guatemala, au Pérou, en Colombie et en Bolivie. La mort de Guevara en Bolivie (1967) et l'écrasement de la plupart de ces foyers conduisent à son reflux, tandis que la victoire sandiniste de 1979 combine guérilla et insurrection urbaine."
+      },
+      "appraisal": {
+        "fr": "Le marxisme révolutionnaire salue le courage de ces combattants, mais critique une stratégie qui substitue l'action d'une minorité armée à l'organisation et à l'action consciente de la classe ouvrière. Elle sous-estime le rôle du mouvement ouvrier urbain, présent même à Cuba avec la grève générale de 1959, et a conduit des milliers de jeunes militants à la mort, isolés des masses, comme en Bolivie en 1967."
+      },
+      "milestones": [
+        {
+          "stage": "emergence",
+          "node": "1956-landing-of-the-granma",
+          "persons": ["fidel-castro", "che-guevara"]
+        },
+        {"stage": "formulation", "work": "guerrilla-warfare", "persons": ["che-guevara"]},
+        {
+          "stage": "development",
+          "work": "revolution-in-the-revolution",
+          "persons": ["regis-debray"]
+        },
+        {
+          "stage": "development",
+          "work": "message-to-the-tricontinental",
+          "persons": ["che-guevara"],
+          "note": {"fr": "Guevara appelle à multiplier les foyers de lutte armée sur trois continents."}
+        },
+        {
+          "stage": "test",
+          "node": "1967-death-of-che-guevara",
+          "persons": ["che-guevara"],
+          "note": {
+            "fr": "La guérilla de Ñancahuazú, sans appui paysan ni lien avec les mineurs boliviens, est anéantie."
+          }
+        },
+        {
+          "stage": "revision",
+          "node": "1979-sandinista-revolution",
+          "organizations": ["fsln"],
+          "note": {
+            "fr": "Le FSLN l'emporte en combinant guérilla, grève générale et insurrection des villes."
+          }
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "developmentalism",
+      "name": {
+        "orig": "es",
+        "es": "Desarrollismo",
+        "fr": "Développementalisme",
+        "en": "Developmentalism",
+        "de": "Desarrollismo",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Cepalisme", "Structuralisme latino-américain"],
+      "type": "theory",
+      "tradition": "other",
+      "summary": {
+        "fr": "Doctrine de la CEPAL selon laquelle l'industrialisation par substitution des importations, guidée par l'État, permettrait de sortir du sous-développement.",
+        "en": "ECLAC doctrine holding that state-led import-substitution industrialisation would make it possible to escape underdevelopment.",
+        "de": "CEPAL-Doktrin, nach der eine staatlich gelenkte Industrialisierung durch Importsubstitution aus der Unterentwicklung herausführen sollte.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Raúl Prebisch et la CEPAL, créée en 1948, constatent que les prix des matières premières exportées par l'Amérique latine se dégradent à long terme par rapport à ceux des produits industriels importés du « centre ». Ils prônent la protection douanière, la planification et l'investissement public pour industrialiser la « périphérie ». Cette orientation inspire les politiques de Vargas, de Perón, de Kubitschek au Brésil ou du Mexique d'après-guerre, et de nombreuses entreprises publiques. Le modèle s'essouffle dans les années 1960-1970 : dépendance technologique, endettement extérieur, inflation. La crise de la dette de 1982 et les plans d'ajustement du FMI y mettent fin au profit du néolibéralisme."
+      },
+      "appraisal": {
+        "fr": "Le développementalisme a permis une industrialisation réelle mais limitée, dont la classe ouvrière a payé le prix. Il reposait sur l'illusion qu'une bourgeoisie nationale, protégée par l'État, pourrait rompre la dépendance sans rompre avec le capitalisme ; il a fini par l'endettement auprès des banques impérialistes."
+      },
+      "milestones": [
+        {
+          "stage": "formulation",
+          "node": "1948-founding-of-eclac",
+          "persons": ["raul-prebisch"],
+          "organizations": ["eclac"]
+        },
+        {
+          "stage": "critique",
+          "work": "capitalism-and-underdevelopment-in-latin-america",
+          "persons": ["andre-gunder-frank"],
+          "note": {
+            "fr": "Frank soutient que le sous-développement est produit par l'intégration au capitalisme mondial, et non par un retard à combler."
+          }
+        },
+        {
+          "stage": "abandonment",
+          "node": "1975-chicago-boys-shock-therapy",
+          "note": {
+            "fr": "Le Chili de Pinochet est le premier à démanteler la protection et l'industrie publique."
+          }
+        },
+        {
+          "stage": "test",
+          "node": "1982-latin-american-debt-crisis",
+          "note": {
+            "fr": "L'endettement contracté pour financer l'industrialisation débouche sur la crise et les plans du FMI."
+          }
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "dependency-theory",
+      "name": {
+        "orig": "es",
+        "es": "Teoría de la dependencia",
+        "fr": "Théorie de la dépendance",
+        "en": "Dependency theory",
+        "de": "Dependenztheorie",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Dependentismo"],
+      "type": "theory",
+      "tradition": "marxist",
+      "broader": ["imperialism"],
+      "summary": {
+        "fr": "Le sous-développement de l'Amérique latine n'est pas un retard mais le produit de sa place subordonnée dans le capitalisme mondial.",
+        "en": "Latin America's underdevelopment is not a lag but the product of its subordinate place in world capitalism.",
+        "de": "Die Unterentwicklung Lateinamerikas ist kein Rückstand, sondern Folge seiner untergeordneten Stellung im Weltkapitalismus.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Née dans les années 1960 en réaction aux échecs du développementalisme, la théorie de la dépendance soutient que le développement du « centre » et le sous-développement de la « périphérie » sont les deux faces d'un même processus. Andre Gunder Frank parle du « développement du sous-développement » (1967). Fernando Henrique Cardoso et Enzo Faletto (1969) décrivent un « développement dépendant et associé » compatible avec l'industrialisation. Ruy Mauro Marini (1973) explique la dépendance par la « surexploitation » de la force de travail. Galeano en donne une version populaire en 1971 et Walter Rodney l'applique à l'Afrique en 1972. Cardoso, devenu président du Brésil, mène ensuite une politique néolibérale."
+      },
+      "appraisal": {
+        "fr": "La théorie de la dépendance a eu le mérite de démolir l'illusion d'un développement capitaliste autonome et l'idée d'une bourgeoisie nationale progressiste. Mais certaines versions remplacent la lutte des classes par l'opposition entre nations du centre et de la périphérie ; le marxisme révolutionnaire y voit une expression de l'impérialisme et du développement inégal et combiné, que seule la révolution socialiste internationale peut dépasser."
+      },
+      "milestones": [
+        {"stage": "precursor", "node": "1948-founding-of-eclac", "persons": ["raul-prebisch"]},
+        {
+          "stage": "formulation",
+          "work": "capitalism-and-underdevelopment-in-latin-america",
+          "persons": ["andre-gunder-frank"]
+        },
+        {
+          "stage": "revision",
+          "work": "dependency-and-development-in-latin-america",
+          "persons": ["fernando-henrique-cardoso"],
+          "note": {
+            "fr": "Cardoso et Faletto admettent un « développement dépendant et associé » au capital étranger."
+          }
+        },
+        {
+          "stage": "development",
+          "work": "open-veins-of-latin-america",
+          "persons": ["eduardo-galeano"],
+          "note": {"fr": "Galeano en fait un récit historique accessible à un large public."}
+        },
+        {
+          "stage": "development",
+          "work": "how-europe-underdeveloped-africa",
+          "persons": ["walter-rodney"]
+        },
+        {
+          "stage": "development",
+          "work": "dialectics-of-dependency",
+          "persons": ["ruy-mauro-marini"],
+          "note": {
+            "fr": "Marini fonde la dépendance sur la surexploitation des travailleurs de la périphérie."
+          }
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "liberation-theology",
+      "name": {
+        "orig": "es",
+        "es": "Teología de la liberación",
+        "fr": "Théologie de la libération",
+        "en": "Liberation theology",
+        "de": "Befreiungstheologie",
+        "draft": ["en", "de"]
+      },
+      "type": "current",
+      "tradition": "religious",
+      "broader": ["social-catholicism"],
+      "summary": {
+        "fr": "Courant catholique latino-américain qui lit l'Évangile à partir des pauvres et engage l'Église dans la lutte contre l'oppression.",
+        "en": "Latin American Catholic current reading the Gospel from the standpoint of the poor and committing the Church to the struggle against oppression.",
+        "de": "Lateinamerikanische katholische Strömung, die das Evangelium von den Armen her liest und die Kirche im Kampf gegen Unterdrückung engagiert.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Après le concile Vatican II, des prêtres et des communautés de base d'Amérique latine se rapprochent des luttes paysannes et ouvrières ; le prêtre colombien Camilo Torres meurt en 1966 dans la guérilla. La conférence des évêques de Medellín (1968) dénonce la « violence institutionnalisée » et proclame l'option préférentielle pour les pauvres. Gustavo Gutiérrez en donne la formulation dans Théologie de la libération (1971), suivi par Leonardo Boff et d'autres, qui empruntent au marxisme des outils d'analyse sociale. Des chrétiens participent à la révolution sandiniste, et Mgr Romero est assassiné au Salvador en 1980. Le Vatican de Jean-Paul II condamne en 1984 l'usage de l'analyse marxiste et nomme des évêques conservateurs."
+      },
+      "appraisal": {
+        "fr": "Pour le marxisme révolutionnaire, ce courant a permis à des millions de croyants pauvres de rejoindre la lutte contre les dictatures et les propriétaires : il faut travailler avec eux dans un front commun. Mais il reste prisonnier d'une institution hiérarchique alliée des classes dominantes et ne fournit pas de programme pour la prise du pouvoir par les travailleurs."
+      },
+      "milestones": [
+        {"stage": "formulation", "node": "1968-medellin-conference"},
+        {
+          "stage": "development",
+          "work": "a-theology-of-liberation",
+          "persons": ["gustavo-gutierrez"]
+        },
+        {
+          "stage": "test",
+          "node": "1979-sandinista-revolution",
+          "note": {"fr": "Des prêtres, dont Ernesto Cardenal, entrent au gouvernement sandiniste."}
+        },
+        {"stage": "test", "node": "1980-assassination-of-oscar-romero", "persons": ["oscar-romero"]},
+        {
+          "stage": "critique",
+          "date": {"date": "1984-08-06"},
+          "note": {
+            "fr": "La Congrégation pour la doctrine de la foi, dirigée par le cardinal Ratzinger, condamne l'usage de l'analyse marxiste par la théologie de la libération."
+          }
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "peronism",
+      "name": {
+        "orig": "es",
+        "es": "Peronismo",
+        "fr": "Péronisme",
+        "en": "Peronism",
+        "de": "Peronismus",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Justicialisme", "Justicialismo"],
+      "type": "current",
+      "tradition": "other",
+      "summary": {
+        "fr": "Mouvement nationaliste et populaire fondé sur l'alliance de l'armée, de l'État et des syndicats autour de Perón, qui domine la classe ouvrière argentine depuis 1945.",
+        "en": "Nationalist popular movement based on an alliance of army, state and unions around Perón, which has dominated the Argentine working class since 1945.",
+        "de": "Nationalistische Volksbewegung auf Grundlage eines Bündnisses von Armee, Staat und Gewerkschaften um Perón, die seit 1945 die argentinische Arbeiterklasse dominiert.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Colonel au ministère du Travail après le coup d'État de 1943, Juan Perón accorde aux ouvriers des droits sociaux et favorise des syndicats liés à l'État. Sa libération par la mobilisation ouvrière du 17 octobre 1945 fonde le mouvement, qui gagne les élections de 1946. Sa doctrine, le justicialisme, se veut une « troisième position » entre capitalisme et communisme : nationalisations, industrialisation, justice sociale et conciliation des classes. Interdit après le coup de 1955, le péronisme reste la référence de la résistance ouvrière et se divise entre une aile syndicale bureaucratique, une jeunesse radicalisée et des groupes armés. Après le retour de Perón (1973), sa droite organise la répression contre la gauche. Le parti justicialiste gouverne ensuite aussi bien de façon néolibérale avec Menem que de façon redistributive avec les Kirchner."
+      },
+      "appraisal": {
+        "fr": "Trotski a décrit ce type de régime comme un bonapartisme sui generis, qui s'appuie sur les travailleurs pour marchander avec l'impérialisme. Le péronisme a apporté aux ouvriers argentins des conquêtes réelles mais les a enchaînés à un mouvement nationaliste bourgeois et à une bureaucratie syndicale, ce qui a empêché pendant des décennies la constitution d'un parti ouvrier indépendant."
+      },
+      "milestones": [
+        {"stage": "emergence", "node": "1945-october-17", "persons": ["juan-peron"]},
+        {"stage": "adoption", "node": "1946-first-peronist-government", "persons": ["juan-peron"]},
+        {
+          "stage": "test",
+          "node": "1955-liberating-revolution",
+          "note": {"fr": "Le coup militaire interdit le péronisme ; la résistance ouvrière commence."}
+        },
+        {
+          "stage": "test",
+          "node": "1969-cordobazo",
+          "note": {"fr": "La révolte ouvrière dépasse les directions syndicales péronistes."}
+        },
+        {
+          "stage": "revision",
+          "date": {"date": "1989-07-08"},
+          "note": {
+            "fr": "Carlos Menem, élu sous l'étiquette péroniste, applique un programme de privatisations néolibérales."
+          }
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "sui-generis-bonapartism",
+      "name": {
+        "fr": "Bonapartisme sui generis",
+        "en": "Sui generis Bonapartism",
+        "de": "Bonapartismus sui generis",
+        "draft": ["en", "de"]
+      },
+      "type": "concept",
+      "tradition": "marxist",
+      "broader": ["marxist-theory-of-the-state"],
+      "summary": {
+        "fr": "Notion de Trotski pour les régimes des pays dominés qui s'élèvent au-dessus des classes en s'appuyant tantôt sur les travailleurs, tantôt sur le capital étranger.",
+        "en": "Trotsky's notion for regimes in dominated countries that rise above the classes, leaning now on the workers, now on foreign capital.",
+        "de": "Trotzkis Begriff für Regime in beherrschten Ländern, die sich über die Klassen erheben und sich mal auf die Arbeiter, mal auf das Auslandskapital stützen.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Exilé au Mexique, Trotski analyse en 1938-1939 le gouvernement de Cárdenas. Dans les pays arriérés, où le capital étranger pèse plus lourd que la bourgeoisie nationale, l'État acquiert une grande indépendance : il peut louvoyer entre l'impérialisme et le prolétariat national. Il prend alors soit une forme ouvertement policière, soit une forme qui s'appuie sur les ouvriers et leur fait des concessions, comme la nationalisation du pétrole et la gestion des chemins de fer par les syndicats. Trotski appelle à soutenir ces mesures contre l'impérialisme sans accorder de confiance au gouvernement. La notion sert ensuite aux marxistes pour analyser Perón, le MNR bolivien, Velasco ou Chávez."
+      },
+      "appraisal": {
+        "fr": "La notion permet d'éviter deux erreurs symétriques : confondre ces régimes avec le fascisme ou les prendre pour des gouvernements ouvriers. Elle fonde une politique de soutien critique aux mesures anti-impérialistes, combinée à la défense de l'indépendance des syndicats et de la construction d'un parti révolutionnaire."
+      },
+      "milestones": [
+        {
+          "stage": "formulation",
+          "node": "1938-mexican-oil-expropriation",
+          "persons": ["trotsky", "lazaro-cardenas"],
+          "note": {
+            "fr": "Trotski analyse le régime de Cárdenas et appelle à défendre l'expropriation pétrolière contre l'impérialisme."
+          }
+        },
+        {"stage": "test", "node": "1946-first-peronist-government", "persons": ["juan-peron"]},
+        {
+          "stage": "test",
+          "node": "1952-bolivian-national-revolution",
+          "organizations": ["mnr-bolivia"]
+        },
+        {"stage": "test", "node": "1968-velasco-revolution", "persons": ["velasco-alvarado"]},
+        {"stage": "test", "node": "1998-election-of-hugo-chavez", "persons": ["hugo-chavez"]}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "socialism-of-the-21st-century",
+      "name": {
+        "orig": "es",
+        "es": "Socialismo del siglo XXI",
+        "fr": "Socialisme du XXIe siècle",
+        "en": "Socialism of the 21st century",
+        "de": "Sozialismus des 21. Jahrhunderts",
+        "draft": ["en", "de"]
+      },
+      "type": "theory",
+      "tradition": "socialist",
+      "broader": ["bolivarianism"],
+      "summary": {
+        "fr": "Projet proclamé par Chávez en 2005 : un socialisme démocratique et participatif, construit par les urnes et les missions sociales, sans rupture complète avec le capitalisme.",
+        "en": "Project proclaimed by Chávez in 2005: a democratic, participatory socialism built through elections and social missions, without a complete break with capitalism.",
+        "de": "Von Chávez 2005 verkündetes Projekt: ein demokratischer, partizipativer Sozialismus, aufgebaut über Wahlen und Sozialmissionen, ohne vollständigen Bruch mit dem Kapitalismus.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "L'expression, empruntée au sociologue Heinz Dieterich, est reprise par Hugo Chávez au Forum social mondial de Porto Alegre en janvier 2005. Elle désigne une voie distincte du modèle soviétique : démocratie participative, conseils communaux, coopératives, nationalisations sélectives (pétrole, électricité, télécommunications, sidérurgie) et redistribution de la rente pétrolière. Le Parti socialiste unifié du Venezuela (PSUV) est créé en 2007 pour la porter, et le terme est repris en Bolivie et en Équateur. La chute des prix du pétrole à partir de 2014, les sanctions américaines et la bureaucratisation de l'État conduisent à une crise économique profonde sous Maduro."
+      },
+      "appraisal": {
+        "fr": "Le marxisme révolutionnaire a défendu la révolution vénézuélienne contre l'impérialisme et l'oligarchie, et salué la mobilisation des masses. Mais il souligne qu'on ne peut construire le socialisme en laissant à la bourgeoisie les banques, la terre et l'essentiel de l'industrie, ni en conservant l'ancien appareil d'État : l'absence de rupture a laissé place au sabotage, à la bureaucratie et à la crise."
+      },
+      "milestones": [
+        {
+          "stage": "formulation",
+          "date": {"date": "2005-01-30"},
+          "persons": ["hugo-chavez"],
+          "note": {
+            "fr": "Au Forum social mondial de Porto Alegre, Chávez déclare que le socialisme est la voie pour dépasser le capitalisme."
+          }
+        },
+        {
+          "stage": "adoption",
+          "date": {"date": "2007-03-24"},
+          "persons": ["hugo-chavez"],
+          "organizations": ["psuv"],
+          "note": {"fr": "Chávez prend la présidence du nouveau parti unifié."}
+        },
+        {
+          "stage": "development",
+          "node": "2009-plurinational-constitution-of-bolivia",
+          "persons": ["evo-morales"]
+        },
+        {"stage": "test", "node": "2026-capture-of-nicolas-maduro", "persons": ["nicolas-maduro"]}
+      ],
+      "status": "draft"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Collection places",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "collection": {
+      "const": "places"
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/item"
+      }
+    }
+  },
+  "required": [
+    "collection",
+    "version",
+    "items"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "item": {
+      "type": "object",
+      "title": "Lieu",
+      "properties": {
+        "id": {
+          "$ref": "common.schema.json#/$defs/slug"
+        },
+        "name": {
+          "$ref": "common.schema.json#/$defs/localizedText"
+        },
+        "kind": {
+          "description": "Obligatoire. Nature du lieu, qui dit ce que représente coords : country (État ou colonie), region (région, province, État fédéré, comté, île, massif, territoire), city (ville, bourg, village), district (quartier, faubourg), site (lieu précis : bâtiment, place, mine, camp, champ de bataille, centrale, volcan), water (fleuve, lac, baie, détroit, canal).",
+          "enum": [
+            "country",
+            "region",
+            "city",
+            "district",
+            "site",
+            "water"
+          ]
+        },
+        "aliases": {
+          "$ref": "common.schema.json#/$defs/stringList"
+        },
+        "historical_names": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "minLength": 1
+              },
+              "from": {
+                "$ref": "common.schema.json#/$defs/dateValue"
+              },
+              "to": {
+                "$ref": "common.schema.json#/$defs/dateValue"
+              }
+            },
+            "required": [
+              "name"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "within": {
+          "$ref": "common.schema.json#/$defs/slug"
+        },
+        "country": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}$"
+        },
+        "coords": {
+          "type": "object",
+          "properties": {
+            "lat": {
+              "type": "number",
+              "minimum": -90,
+              "maximum": 90
+            },
+            "lon": {
+              "type": "number",
+              "minimum": -180,
+              "maximum": 180
+            }
+          },
+          "required": [
+            "lat",
+            "lon"
+          ],
+          "additionalProperties": false,
+          "description": "Obligatoire. Point en degrés décimaux (WGS 84), deux décimales en général (≈ 1 km). city / district : centre historique ; site : l'emplacement exact ; country / region : point représentatif à l'intérieur du territoire, pas forcément le centre géométrique ; water : le point où se passent les événements (milieu d'un détroit, passage d'un fleuve)."
+        },
+        "summary": {
+          "$ref": "common.schema.json#/$defs/localizedText"
+        },
+        "wikidata": {
+          "$ref": "common.schema.json#/$defs/wikidataId"
+        },
+        "status": {
+          "$ref": "common.schema.json#/$defs/status"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "kind",
+        "coords"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

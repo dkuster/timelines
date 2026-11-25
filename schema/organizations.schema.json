@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Collection organizations",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "collection": {
+      "const": "organizations"
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/item"
+      }
+    }
+  },
+  "required": [
+    "collection",
+    "version",
+    "items"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "item": {
+      "type": "object",
+      "title": "Organisation",
+      "properties": {
+        "id": {
+          "$ref": "common.schema.json#/$defs/slug"
+        },
+        "name": {
+          "$ref": "common.schema.json#/$defs/localizedText"
+        },
+        "aliases": {
+          "$ref": "common.schema.json#/$defs/stringList"
+        },
+        "type": {
+          "enum": [
+            "party",
+            "faction",
+            "union",
+            "international",
+            "state",
+            "government",
+            "army",
+            "other"
+          ]
+        },
+        "founded": {
+          "$ref": "common.schema.json#/$defs/dateValue"
+        },
+        "dissolved": {
+          "$ref": "common.schema.json#/$defs/dateValue"
+        },
+        "parent": {
+          "$ref": "common.schema.json#/$defs/slug"
+        },
+        "summary": {
+          "$ref": "common.schema.json#/$defs/localizedText"
+        },
+        "wikidata": {
+          "$ref": "common.schema.json#/$defs/wikidataId"
+        },
+        "sources": {
+          "$ref": "common.schema.json#/$defs/sourceList"
+        },
+        "status": {
+          "$ref": "common.schema.json#/$defs/status"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "type"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

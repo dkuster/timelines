@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Collection works",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "collection": {
+      "const": "works"
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/item"
+      }
+    }
+  },
+  "required": [
+    "collection",
+    "version",
+    "items"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "item": {
+      "type": "object",
+      "title": "Œuvre : texte, journal, discours, programme",
+      "properties": {
+        "id": {
+          "$ref": "common.schema.json#/$defs/slug"
+        },
+        "title": {
+          "$ref": "common.schema.json#/$defs/localizedText"
+        },
+        "aliases": {
+          "$ref": "common.schema.json#/$defs/stringList"
+        },
+        "type": {
+          "enum": [
+            "book",
+            "pamphlet",
+            "article",
+            "manifesto",
+            "speech",
+            "letter",
+            "newspaper",
+            "painting",
+            "sculpture",
+            "film",
+            "music",
+            "play",
+            "poem",
+            "programme",
+            "resolution",
+            "theses",
+            "other"
+          ]
+        },
+        "authors": {
+          "$ref": "common.schema.json#/$defs/slugList"
+        },
+        "organizations": {
+          "description": "Auteurs collectifs : organisation qui adopte ou publie le texte (programme, résolution de congrès).",
+          "$ref": "common.schema.json#/$defs/slugList"
+        },
+        "date": {
+          "description": "Date de première publication (ou de création, de première diffusion).",
+          "$ref": "common.schema.json#/$defs/dateValue"
+        },
+        "written_start": {
+          "description": "Début de la rédaction, quand elle précède nettement la publication (L'Idéologie allemande : 1845).",
+          "$ref": "common.schema.json#/$defs/dateValue"
+        },
+        "written_end": {
+          "description": "Fin de la rédaction.",
+          "$ref": "common.schema.json#/$defs/dateValue"
+        },
+        "language": {
+          "$ref": "common.schema.json#/$defs/langTag"
+        },
+        "published_in": {
+          "$ref": "common.schema.json#/$defs/slug"
+        },
+        "summary": {
+          "$ref": "common.schema.json#/$defs/localizedText"
+        },
+        "tags": {
+          "$ref": "common.schema.json#/$defs/stringList"
+        },
+        "wikidata": {
+          "$ref": "common.schema.json#/$defs/wikidataId"
+        },
+        "status": {
+          "$ref": "common.schema.json#/$defs/status"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "type"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

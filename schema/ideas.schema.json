@@ -1,0 +1,181 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Collection ideas",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "collection": {
+      "const": "ideas"
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/item"
+      }
+    }
+  },
+  "required": [
+    "collection",
+    "version",
+    "items"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "item": {
+      "type": "object",
+      "title": "Idée : courant, théorie, concept, stratégie, mot d'ordre ou méthode",
+      "properties": {
+        "id": {
+          "$ref": "common.schema.json#/$defs/slug"
+        },
+        "name": {
+          "$ref": "common.schema.json#/$defs/localizedText"
+        },
+        "aliases": {
+          "$ref": "common.schema.json#/$defs/stringList"
+        },
+        "type": {
+          "description": "current = courant ; theory = théorie, loi ; concept = notion ; strategy = stratégie ou tactique ; slogan = mot d'ordre ; method = méthode.",
+          "enum": [
+            "current",
+            "theory",
+            "concept",
+            "strategy",
+            "slogan",
+            "method"
+          ]
+        },
+        "tradition": {
+          "description": "Famille de pensée dont l'idée relève. democratic = révolutions bourgeoises, républicanisme ; socialist = socialisme non marxiste.",
+          "enum": [
+            "marxist",
+            "socialist",
+            "anarchist",
+            "democratic",
+            "liberal",
+            "conservative",
+            "fascist",
+            "religious",
+            "other"
+          ]
+        },
+        "broader": {
+          "description": "Idées plus générales (dictature du prolétariat → théorie marxiste de l'État). Forme l'arbre des courants.",
+          "$ref": "common.schema.json#/$defs/slugList"
+        },
+        "timeline": {
+          "description": "Pour un courant qui a sa propre timeline : l'identifiant de sa racine (bolshevism).",
+          "$ref": "common.schema.json#/$defs/slug"
+        },
+        "summary": {
+          "$ref": "common.schema.json#/$defs/localizedText"
+        },
+        "definition": {
+          "description": "Définition factuelle : 3 à 6 phrases, 1200 caractères au plus par langue.",
+          "$ref": "common.schema.json#/$defs/localizedText"
+        },
+        "appraisal": {
+          "description": "Appréciation du point de vue du marxisme révolutionnaire, séparée de la définition ; 1200 caractères au plus par langue.",
+          "$ref": "common.schema.json#/$defs/localizedText"
+        },
+        "milestones": {
+          "description": "Jalons de l'histoire de l'idée, dans l'ordre chronologique.",
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/milestone"
+          }
+        },
+        "wikidata": {
+          "$ref": "common.schema.json#/$defs/wikidataId"
+        },
+        "sources": {
+          "$ref": "common.schema.json#/$defs/sourceList"
+        },
+        "tags": {
+          "$ref": "common.schema.json#/$defs/stringList"
+        },
+        "status": {
+          "$ref": "common.schema.json#/$defs/status"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "type"
+      ],
+      "additionalProperties": false
+    },
+    "milestone": {
+      "type": "object",
+      "title": "Jalon : une étape datée de l'histoire d'une idée",
+      "properties": {
+        "stage": {
+          "description": "precursor = germe chez un prédécesseur ; emergence = première apparition ; formulation = énoncé explicite ; development = approfondissement ; adoption = adoptée par une organisation ; test = mise à l'épreuve par les évènements ; critique = critique par un adversaire ; revision = modification du contenu ; abandonment = abandon explicite ; revival = reprise après éclipse.",
+          "enum": [
+            "precursor",
+            "emergence",
+            "formulation",
+            "development",
+            "adoption",
+            "test",
+            "critique",
+            "revision",
+            "abandonment",
+            "revival"
+          ]
+        },
+        "date": {
+          "description": "Facultative si work ou node donne la date (publication de l'œuvre, début du nœud).",
+          "$ref": "common.schema.json#/$defs/dateValue"
+        },
+        "work": {
+          "description": "Œuvre où l'idée apparaît, est formulée, critiquée…",
+          "$ref": "common.schema.json#/$defs/slug"
+        },
+        "node": {
+          "description": "Évènement : congrès qui l'adopte, révolution qui la met à l'épreuve.",
+          "$ref": "common.schema.json#/$defs/slug"
+        },
+        "persons": {
+          "$ref": "common.schema.json#/$defs/slugList"
+        },
+        "organizations": {
+          "$ref": "common.schema.json#/$defs/slugList"
+        },
+        "note": {
+          "$ref": "common.schema.json#/$defs/localizedText"
+        },
+        "sources": {
+          "$ref": "common.schema.json#/$defs/sourceList"
+        }
+      },
+      "required": [
+        "stage"
+      ],
+      "anyOf": [
+        {
+          "required": [
+            "date"
+          ]
+        },
+        {
+          "required": [
+            "work"
+          ]
+        },
+        {
+          "required": [
+            "node"
+          ]
+        }
+      ],
+      "additionalProperties": false
+    }
+  }
+}

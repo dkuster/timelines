@@ -1,0 +1,3530 @@
+{
+  "$schema": "../schema/links.schema.json",
+  "collection": "links",
+  "version": 1,
+  "items": [
+    {
+      "id": "sonderbund-war-leads-to-1848-constitution",
+      "from": "node:1847-sonderbund-war",
+      "to": "node:1848-federal-constitution",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "La victoire des cantons radicaux sur le Sonderbund ouvre la voie à la Constitution fédérale de 1848.",
+      "sources": [{"ref": "wp-en-sonderbund-war"}]
+    },
+    {
+      "id": "1872-rejection-leads-to-1874-revision",
+      "from": "node:1872-constitution-revision-rejected",
+      "to": "node:1874-federal-constitution-revision",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Le projet rejeté en 1872 est remanié et accepté en 1874.",
+      "sources": [{"ref": "wp-de-democratic-movement-ch"}]
+    },
+    {
+      "id": "democratic-movement-influences-1874-revision",
+      "from": "node:1867-democratic-movement",
+      "to": "node:1874-federal-constitution-revision",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "La Constitution de 1874 reprend une partie des droits populaires conquis dans les cantons par le mouvement démocratique.",
+      "sources": [{"ref": "dhs-cantonal-constitutions"}, {"ref": "wp-de-democratic-movement-ch"}]
+    },
+    {
+      "id": "uss-continues-swiss-workers-federation",
+      "from": "node:1880-uss-founding",
+      "to": "node:1873-swiss-workers-federation-founding",
+      "type": "continues",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "L'USS naît de la dissolution de la Fédération ouvrière suisse décidée à son congrès d'Olten.",
+      "sources": [{"ref": "dhs-uss"}]
+    },
+    {
+      "id": "olten-committee-leads-to-general-strike",
+      "from": "node:1918-olten-action-committee-founding",
+      "to": "node:1918-swiss-general-strike",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "C'est le Comité d'Olten qui proclame la grève générale illimitée et en fixe les revendications.",
+      "sources": [{"ref": "dhs-general-strike"}]
+    },
+    {
+      "id": "protest-strike-leads-to-general-strike",
+      "from": "node:1918-protest-strike",
+      "to": "node:1918-swiss-general-strike",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Après l'envoi de troupes à Zurich et la grève de protestation, le Comité d'Olten passe à la grève générale illimitée.",
+      "sources": [{"ref": "dhs-general-strike"}]
+    },
+    {
+      "id": "general-strike-references-proportional-vote",
+      "from": "node:1918-swiss-general-strike",
+      "to": "node:1918-proportional-representation-vote",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Première des neuf revendications : le renouvellement immédiat du Conseil national à la proportionnelle, acceptée un mois plus tôt.",
+      "sources": [{"ref": "dhs-general-strike"}]
+    },
+    {
+      "id": "general-strike-leads-to-strike-trial",
+      "from": "node:1918-swiss-general-strike",
+      "to": "node:1919-general-strike-trial",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Les dirigeants du Comité d'Olten sont jugés par un tribunal militaire pour la grève générale.",
+      "sources": [{"ref": "dhs-general-strike"}]
+    },
+    {
+      "id": "proportional-vote-leads-to-1919-election",
+      "from": "node:1918-proportional-representation-vote",
+      "to": "node:1919-first-proportional-election",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Le système accepté en 1918 s'applique pour la première fois aux élections de 1919.",
+      "sources": [{"ref": "parlament-majorz-to-proporz"}]
+    },
+    {
+      "id": "cps-founding-reaction-to-october-revolution",
+      "from": "node:1921-communist-party-founding",
+      "to": "node:1917-seizure-of-power",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "La scission naît du débat sur l'adhésion à la IIIe Internationale, fondée après la révolution d'Octobre.",
+      "sources": [{"ref": "dhs-sp"}]
+    },
+    {
+      "id": "general-strike-influences-avs",
+      "from": "node:1918-swiss-general-strike",
+      "to": "node:1947-avs-vote",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "L'assurance vieillesse faisait partie des neuf revendications du Comité d'Olten ; elle est réalisée en 1947.",
+      "sources": [{"ref": "dhs-general-strike"}, {"ref": "swissinfo-general-strike-1918"}]
+    },
+    {
+      "id": "general-strike-influences-womens-suffrage",
+      "from": "node:1918-swiss-general-strike",
+      "to": "node:1971-womens-suffrage",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Le suffrage féminin figurait parmi les revendications de 1918 ; il n'est obtenu au niveau fédéral qu'en 1971.",
+      "sources": [{"ref": "dhs-general-strike"}, {"ref": "swissinfo-general-strike-1918"}]
+    },
+    {
+      "id": "feminist-strike-2019-continues-1991",
+      "from": "node:2019-feminist-strike",
+      "to": "node:1991-womens-strike",
+      "type": "continues",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "La grève de 2019 reprend la date et la forme de celle de 1991.",
+      "sources": [{"ref": "wp-en-womens-strike-1991"}]
+    },
+    {
+      "id": "russo-japanese-war-influences-1905-revolution",
+      "from": "node:1904-russo-japanese-war",
+      "to": "node:1905-russian-revolution",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "La défaite contre le Japon discrédite le tsarisme et alimente l'explosion révolutionnaire de 1905."
+    },
+    {
+      "id": "spd-war-credits-reaction-to-ww1",
+      "from": "node:1914-spd-war-credits",
+      "to": "node:1914-first-world-war",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Le vote des crédits de guerre par le SPD répond à l'entrée de l'Allemagne dans la guerre mondiale."
+    },
+    {
+      "id": "swiss-mobilisation-reaction-to-ww1",
+      "from": "node:1914-swiss-general-mobilisation",
+      "to": "node:1914-first-world-war",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "La Suisse mobilise son armée au déclenchement de la guerre mondiale."
+    },
+    {
+      "id": "ww1-causes-february-revolution",
+      "from": "node:1914-first-world-war",
+      "to": "node:1917-february-revolution",
+      "type": "causes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Les défaites, les pénuries et l'épuisement provoqués par la guerre sont au cœur de la crise qui renverse le tsarisme."
+    },
+    {
+      "id": "swiss-crisis-initiative-reaction-to-great-depression",
+      "from": "node:1935-crisis-initiative",
+      "to": "node:1929-great-depression",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "L'initiative de crise propose une réponse de gauche à la Grande Dépression en Suisse."
+    },
+    {
+      "id": "franc-devaluation-reaction-to-great-depression",
+      "from": "node:1936-franc-devaluation",
+      "to": "node:1929-great-depression",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "La dévaluation du franc suisse intervient avec l'effondrement du bloc-or sous l'effet de la crise mondiale."
+    },
+    {
+      "id": "franco-prussian-war-leads-to-german-empire",
+      "from": "node:1870-franco-prussian-war",
+      "to": "node:1871-german-empire-proclamation",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "La victoire sur la France permet à la Prusse de proclamer l'Empire allemand à Versailles."
+    },
+    {
+      "id": "berlin-conference-leads-to-congo-free-state",
+      "from": "node:1884-berlin-conference",
+      "to": "node:1885-congo-free-state-atrocities",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "La conférence de Berlin reconnaît à Léopold II l'État indépendant du Congo, cadre des crimes qui suivent."
+    },
+    {
+      "id": "ww1-leads-to-versailles",
+      "from": "node:1914-first-world-war",
+      "to": "node:1919-treaty-of-versailles",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Le traité de Versailles règle la paix avec l'Allemagne vaincue."
+    },
+    {
+      "id": "ww1-leads-to-austria-hungary-dissolution",
+      "from": "node:1914-first-world-war",
+      "to": "node:1918-dissolution-of-austria-hungary",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "La défaite militaire provoque l'éclatement de l'empire des Habsbourg."
+    },
+    {
+      "id": "ww1-influences-spanish-flu",
+      "from": "node:1914-first-world-war",
+      "to": "node:1918-spanish-flu",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Les concentrations et les mouvements de troupes de la fin de la guerre favorisent la diffusion mondiale de la grippe."
+    },
+    {
+      "id": "spanish-flu-influences-swiss-general-strike",
+      "from": "node:1918-spanish-flu",
+      "to": "node:1918-swiss-general-strike",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "L'épidémie de grippe aggrave la détresse sociale de l'automne 1918 qui forme le contexte de la grève générale.",
+      "sources": [{"ref": "swissinfo-general-strike-1918-images"}]
+    },
+    {
+      "id": "tambora-causes-year-without-summer",
+      "from": "node:1815-tambora-eruption",
+      "to": "node:1816-year-without-a-summer",
+      "type": "causes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Les cendres et aérosols projetés par le Tambora refroidissent le climat de l'hémisphère nord en 1816."
+    },
+    {
+      "id": "yom-kippur-war-causes-oil-crisis",
+      "from": "node:1973-yom-kippur-war",
+      "to": "node:1973-oil-crisis",
+      "type": "causes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "L'embargo pétrolier arabe est décrété en riposte au soutien occidental à Israël pendant la guerre."
+    },
+    {
+      "id": "volcker-shock-causes-debt-crisis",
+      "from": "node:1979-volcker-shock",
+      "to": "node:1982-latin-american-debt-crisis",
+      "type": "causes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "La flambée des taux d'intérêt américains rend insoutenable la dette des pays latino-américains, libellée en dollars."
+    },
+    {
+      "id": "panic-1907-leads-to-federal-reserve",
+      "from": "node:1907-panic",
+      "to": "node:1913-federal-reserve-founding",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "La panique de 1907 convainc le Congrès de doter les États-Unis d'une banque centrale."
+    },
+    {
+      "id": "comecon-reaction-to-marshall-plan",
+      "from": "node:1949-comecon-founding",
+      "to": "node:1948-marshall-plan",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Le CAEM est créé par l'URSS en réponse au plan Marshall, que les pays de l'Est ont dû refuser."
+    },
+    {
+      "id": "warsaw-pact-reaction-to-nato",
+      "from": "node:1955-warsaw-pact-founding",
+      "to": "node:1949-nato-founding",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Le pacte de Varsovie est signé peu après l'entrée de la RFA dans l'OTAN."
+    },
+    {
+      "id": "sputnik-influences-arpanet",
+      "from": "node:1957-sputnik",
+      "to": "node:1969-arpanet",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "L'agence ARPA, qui finance ARPANET, est créée en 1958 en réaction au lancement de Spoutnik."
+    },
+    {
+      "id": "fission-leads-to-trinity",
+      "from": "node:1938-nuclear-fission",
+      "to": "node:1945-trinity-test",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "La découverte de la fission rend possible la bombe atomique développée par le projet Manhattan."
+    },
+    {
+      "id": "trinity-leads-to-hiroshima",
+      "from": "node:1945-trinity-test",
+      "to": "node:1945-hiroshima-nagasaki",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Trois semaines après l'essai, les bombes sont employées contre le Japon."
+    },
+    {
+      "id": "indian-independence-leads-to-partition-violence",
+      "from": "node:1947-indian-independence",
+      "to": "node:1947-partition-violence",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "La partition qui accompagne l'indépendance déclenche les massacres et l'exode."
+    },
+    {
+      "id": "algerian-war-leads-to-independence",
+      "from": "node:1954-algerian-war",
+      "to": "node:1962-algerian-independence",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "La guerre de libération aboutit aux accords d'Évian puis à l'indépendance."
+    },
+    {
+      "id": "vietnamese-independence-leads-to-indochina-war",
+      "from": "node:1945-vietnamese-independence",
+      "to": "node:1946-first-indochina-war",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Le refus français de reconnaître l'indépendance proclamée par Hô Chi Minh débouche sur la guerre."
+    },
+    {
+      "id": "vietnam-war-continues-indochina-war",
+      "from": "node:1955-vietnam-war",
+      "to": "node:1946-first-indochina-war",
+      "type": "continues",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "La guerre du Vietnam prolonge la lutte de libération nationale contre la partition issue des accords de Genève."
+    },
+    {
+      "id": "financial-crisis-leads-to-eurozone-crisis",
+      "from": "node:2007-global-financial-crisis",
+      "to": "node:2009-eurozone-debt-crisis",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Le sauvetage des banques et la récession font exploser les dettes publiques des pays les plus fragiles de la zone euro."
+    },
+    {
+      "id": "berlin-wall-fall-leads-to-reunification",
+      "from": "node:1989-fall-of-the-berlin-wall",
+      "to": "node:1990-german-reunification",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "L'effondrement du régime est-allemand ouvre la voie à son absorption par la RFA."
+    },
+    {
+      "id": "congress-of-vienna-influences-federal-pact",
+      "from": "node:1814-congress-of-vienna",
+      "to": "node:1815-federal-pact",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Le Pacte fédéral est conclu sous l'égide des puissances réunies à Vienne, qui reconnaissent la neutralité suisse."
+    },
+    {
+      "id": "marseillaise-reaction-to-revolutionary-wars",
+      "from": "node:1792-la-marseillaise",
+      "to": "node:1792-french-revolutionary-wars",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Le chant est composé quelques jours après la déclaration de guerre à l'Autriche, pour l'armée du Rhin."
+    },
+    {
+      "id": "third-of-may-references-napoleonic-wars",
+      "from": "node:1814-third-of-may",
+      "to": "node:1803-napoleonic-wars",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Le tableau représente la répression du soulèvement madrilène de mai 1808 par l'armée napoléonienne."
+    },
+    {
+      "id": "uncle-toms-cabin-influences-civil-war",
+      "from": "node:1852-uncle-toms-cabin",
+      "to": "node:1861-american-civil-war",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Le roman radicalise l'opinion du Nord contre l'esclavage dans la décennie qui précède la guerre."
+    },
+    {
+      "id": "potemkin-references-1905-revolution",
+      "from": "node:1925-battleship-potemkin",
+      "to": "node:1905-russian-revolution",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Le film met en scène la mutinerie du cuirassé Potemkine pendant la révolution de 1905."
+    },
+    {
+      "id": "ten-days-references-october",
+      "from": "node:1919-ten-days-that-shook-the-world",
+      "to": "node:1917-seizure-of-power",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Le livre est le récit d'un témoin direct de l'insurrection d'Octobre."
+    },
+    {
+      "id": "all-quiet-references-ww1",
+      "from": "node:1929-all-quiet-on-the-western-front",
+      "to": "node:1914-first-world-war",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Le roman décrit l'expérience des soldats allemands sur le front occidental."
+    },
+    {
+      "id": "modern-times-references-assembly-line",
+      "from": "node:1936-modern-times",
+      "to": "node:1913-ford-assembly-line",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Le film fait la satire du travail à la chaîne et de la cadence imposée aux ouvriers."
+    },
+    {
+      "id": "modern-times-references-great-depression",
+      "from": "node:1936-modern-times",
+      "to": "node:1929-great-depression",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Chômage, misère et grèves du film sont ceux de la Grande Dépression."
+    },
+    {
+      "id": "guernica-references-spanish-civil-war",
+      "from": "node:1937-guernica",
+      "to": "node:1936-spanish-civil-war",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Le tableau répond au bombardement de Guernica par la légion Condor, au service de Franco."
+    },
+    {
+      "id": "independent-art-manifesto-opposes-socialist-realism",
+      "from": "node:1938-manifesto-independent-revolutionary-art",
+      "to": "node:1934-soviet-writers-congress",
+      "type": "opposes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Le manifeste rejette la soumission de l'art au réalisme socialiste imposé par la bureaucratie stalinienne."
+    },
+    {
+      "id": "grapes-of-wrath-references-dust-bowl",
+      "from": "node:1939-grapes-of-wrath",
+      "to": "node:1930-dust-bowl",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Le roman suit l'exode des fermiers ruinés par le Dust Bowl."
+    },
+    {
+      "id": "battle-of-algiers-references-algerian-war",
+      "from": "node:1966-the-battle-of-algiers",
+      "to": "node:1954-algerian-war",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Le film reconstitue la bataille d'Alger de 1957 entre le FLN et les parachutistes français."
+    },
+    {
+      "id": "woodstock-references-vietnam-war",
+      "from": "node:1969-woodstock",
+      "to": "node:1955-vietnam-war",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Le refus de la guerre du Vietnam est l'un des thèmes centraux du festival."
+    },
+    {
+      "id": "degenerate-art-comparable-to-book-burnings",
+      "from": "node:1937-degenerate-art-exhibition",
+      "to": "node:1933-nazi-book-burnings",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Deux mises en scène publiques de la censure nazie contre l'art et la pensée jugés « non allemands »."
+    },
+    {
+      "id": "land-and-freedom-references-spanish-civil-war",
+      "from": "node:1995-land-and-freedom",
+      "to": "node:1936-spanish-civil-war",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Le film se déroule sur le front d'Aragon et à Barcelone pendant la guerre civile."
+    },
+    {
+      "id": "kaepernick-comparable-to-black-power-salute",
+      "from": "node:2016-kaepernick-protest",
+      "to": "node:1968-black-power-salute",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "Deux athlètes noirs américains qui utilisent l'hymne national pour dénoncer le racisme et en paient le prix dans leur carrière."
+    },
+    {
+      "id": "chatgpt-influences-hollywood-strikes",
+      "from": "node:2022-chatgpt-launch",
+      "to": "node:2023-hollywood-strikes",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-23"},
+      "justification": "L'essor de l'IA générative fait de la protection contre son usage une revendication centrale des grévistes."
+    },
+    {
+      "id": "congress-of-vienna-leads-to-german-confederation",
+      "from": "node:1814-congress-of-vienna",
+      "to": "node:1815-german-confederation",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "L'acte du congrès de Vienne institue la Confédération germanique.",
+      "sources": [{"ref": "wp-en-german-confederation"}]
+    },
+    {
+      "id": "communist-league-leads-to-manifesto",
+      "from": "node:1847-communist-league-founding",
+      "to": "node:1848-communist-manifesto",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La Ligue des communistes commande à Marx et Engels la rédaction du Manifeste.",
+      "sources": [{"ref": "wp-en-communist-manifesto"}]
+    },
+    {
+      "id": "crown-rejection-causes-constitution-campaign",
+      "from": "node:1849-imperial-crown-rejected",
+      "to": "node:1849-imperial-constitution-campaign",
+      "type": "causes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le refus du roi de Prusse pousse les démocrates à imposer la constitution par l'insurrection.",
+      "sources": [{"ref": "wp-en-frankfurt-parliament"}]
+    },
+    {
+      "id": "baden-uprising-leads-to-swiss-asylum",
+      "from": "node:1849-baden-palatinate-uprising",
+      "to": "node:1849-baden-refugees",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La défaite de l'armée révolutionnaire badoise pousse des milliers de combattants à se réfugier en Suisse.",
+      "sources": [{"ref": "wp-en-baden-revolution"}]
+    },
+    {
+      "id": "1870-abstention-comparable-to-1914-war-credits",
+      "from": "node:1870-war-credits-abstention",
+      "to": "node:1914-spd-war-credits",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "En 1870, Bebel et Liebknecht refusent les crédits de guerre ; en 1914, le SPD les vote à l'unanimité.",
+      "sources": [{"ref": "wp-en-august-bebel"}, {"ref": "lemo-chronicle-1914"}]
+    },
+    {
+      "id": "austro-prussian-war-leads-to-north-german-confederation",
+      "from": "node:1866-austro-prussian-war",
+      "to": "node:1867-north-german-confederation",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La victoire de 1866 dissout la Confédération germanique et permet à la Prusse de fonder la Confédération de l'Allemagne du Nord.",
+      "sources": [{"ref": "wp-en-austro-prussian-war"}]
+    },
+    {
+      "id": "liebknecht-vote-opposes-spd-war-credits",
+      "from": "node:1914-liebknecht-votes-against-war-credits",
+      "to": "node:1914-spd-war-credits",
+      "type": "opposes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Liebknecht rompt avec le ralliement du groupe social-démocrate à la guerre.",
+      "sources": [{"ref": "wp-en-karl-liebknecht"}]
+    },
+    {
+      "id": "liebknecht-arrest-leads-to-protest-strike",
+      "from": "node:1916-liebknecht-arrest",
+      "to": "node:1916-berlin-protest-strike",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La grève est déclenchée pour protester contre le procès de Liebknecht.",
+      "sources": [{"ref": "wp-en-1916-berlin-strike"}]
+    },
+    {
+      "id": "october-revolution-influences-january-strike",
+      "from": "node:1917-seizure-of-power",
+      "to": "node:1918-january-strike",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La révolution d'Octobre ravive en Allemagne l'espoir révolutionnaire des militants qui organisent la grève.",
+      "sources": [{"ref": "wp-de-january-strike"}]
+    },
+    {
+      "id": "october-revolution-leads-to-brest-litovsk",
+      "from": "node:1917-seizure-of-power",
+      "to": "node:1918-treaty-of-brest-litovsk",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le gouvernement soviétique issu d'Octobre signe la paix séparée avec l'Allemagne.",
+      "sources": [{"ref": "wp-en-treaty-of-brest-litovsk"}]
+    },
+    {
+      "id": "fleet-unrest-1917-influences-1918-mutiny",
+      "from": "node:1917-fleet-unrest",
+      "to": "node:1918-wilhelmshaven-fleet-mutiny",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "L'exécution de Köbis et Reichpietsch contribue à préparer les mutineries de 1918.",
+      "sources": [{"ref": "wp-en-albin-kobis"}]
+    },
+    {
+      "id": "wilhelmshaven-mutiny-leads-to-kiel-uprising",
+      "from": "node:1918-wilhelmshaven-fleet-mutiny",
+      "to": "node:1918-kiel-uprising",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "L'escadre mutinée est renvoyée à Kiel, où l'arrestation des marins déclenche le soulèvement.",
+      "sources": [{"ref": "wp-en-kiel-mutiny"}]
+    },
+    {
+      "id": "november-revolution-influences-swiss-general-strike",
+      "from": "node:1918-november-revolution",
+      "to": "node:1918-swiss-general-strike",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La chute de la monarchie et la poussée ouvrière en Allemagne nourrissent en Suisse la crainte d'une révolution, qui conduit à l'envoi de troupes à Zurich et à la grève.",
+      "sources": [{"ref": "dhs-general-strike"}]
+    },
+    {
+      "id": "ebert-groener-pact-leads-to-repression-of-january-uprising",
+      "from": "node:1918-ebert-groener-pact",
+      "to": "node:1919-spartacist-uprising",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "L'alliance avec l'armée permet au gouvernement d'écraser l'insurrection de janvier.",
+      "sources": [{"ref": "wp-en-ebert-groener-pact"}]
+    },
+    {
+      "id": "january-uprising-leads-to-murder-of-luxemburg-liebknecht",
+      "from": "node:1919-spartacist-uprising",
+      "to": "node:1919-murder-of-luxemburg-and-liebknecht",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les deux dirigeants sont arrêtés et assassinés dans la répression qui suit l'insurrection.",
+      "sources": [{"ref": "wp-en-german-revolution-1918-1919"}]
+    },
+    {
+      "id": "general-strike-reaction-to-kapp-putsch",
+      "from": "node:1920-general-strike-against-kapp",
+      "to": "node:1920-kapp-putsch",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La grève générale est appelée le jour même du putsch et le fait échouer.",
+      "sources": [{"ref": "wp-en-kapp-putsch"}]
+    },
+    {
+      "id": "ruhr-uprising-continues-general-strike",
+      "from": "node:1920-ruhr-uprising",
+      "to": "node:1920-general-strike-against-kapp",
+      "type": "continues",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Dans la Ruhr, la résistance ouvrière au putsch se poursuit en insurrection armée après l'effondrement de Kapp.",
+      "sources": [{"ref": "wp-en-kapp-putsch"}]
+    },
+    {
+      "id": "ruhr-occupation-influences-hyperinflation",
+      "from": "node:1923-occupation-of-the-ruhr",
+      "to": "node:1921-german-hyperinflation",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le financement de la résistance passive par la planche à billets précipite l'hyperinflation de 1923.",
+      "sources": [{"ref": "wp-en-occupation-of-the-ruhr"}]
+    },
+    {
+      "id": "altona-bloody-sunday-leads-to-prussian-coup",
+      "from": "node:1932-altona-bloody-sunday",
+      "to": "node:1932-prussian-coup",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Papen invoque les violences d'Altona pour destituer le gouvernement prussien trois jours plus tard.",
+      "sources": [{"ref": "wp-en-altona-bloody-sunday"}]
+    },
+    {
+      "id": "kapp-general-strike-comparable-to-prussian-coup",
+      "from": "node:1920-general-strike-against-kapp",
+      "to": "node:1932-prussian-coup",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "En 1920, la grève générale fait échouer un coup de force ; en 1932, le SPD renonce à toute grève face au coup de Papen.",
+      "sources": [{"ref": "wp-en-kapp-putsch"}, {"ref": "wp-en-1932-prussian-coup"}]
+    },
+    {
+      "id": "reichstag-fire-leads-to-enabling-act",
+      "from": "node:1933-reichstag-fire",
+      "to": "node:1933-enabling-act",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "L'arrestation des communistes et l'annulation de leurs sièges après l'incendie ouvrent la voie à la loi des pleins pouvoirs.",
+      "sources": [{"ref": "lemo-chronicle-1933"}]
+    },
+    {
+      "id": "molotov-ribbentrop-pact-leads-to-second-world-war",
+      "from": "node:1939-molotov-ribbentrop-pact",
+      "to": "node:1939-second-world-war",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Assurée de la neutralité soviétique, l'Allemagne envahit la Pologne une semaine après la signature.",
+      "sources": [{"ref": "wp-en-molotov-ribbentrop-pact"}]
+    },
+    {
+      "id": "monday-demos-2004-reference-1989",
+      "from": "node:2004-monday-demonstrations-against-hartz-iv",
+      "to": "node:1989-monday-demonstrations",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les manifestants de 2004 reprennent explicitement la forme et le nom des manifestations de 1989.",
+      "sources": [{"ref": "ghdi-hartz-iv-monday-demo-2004"}]
+    },
+    {
+      "id": "monday-demos-2004-reaction-to-agenda-2010",
+      "from": "node:2004-monday-demonstrations-against-hartz-iv",
+      "to": "node:2003-agenda-2010",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les manifestations du lundi s'opposent à la loi Hartz IV issue de l'Agenda 2010.",
+      "sources": [{"ref": "ghdi-hartz-iv-monday-demo-2004"}]
+    },
+    {
+      "id": "die-linke-reaction-to-agenda-2010",
+      "from": "node:2007-die-linke-founding",
+      "to": "node:2003-agenda-2010",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La WASG, composante de Die Linke, est fondée en opposition à l'Agenda 2010.",
+      "sources": [{"ref": "wp-en-the-left-germany"}]
+    },
+    {
+      "id": "monetary-union-leads-to-treuhand-privatisation",
+      "from": "node:1990-monetary-union",
+      "to": "node:1990-treuhand-privatisation",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "L'union monétaire expose brutalement l'industrie est-allemande et accélère les ventes et fermetures de la Treuhand.",
+      "sources": [{"ref": "fes-rau-protest-after-1989"}, {"ref": "dhm-monetary-union-1990"}]
+    },
+    {
+      "id": "treuhand-leads-to-bischofferode",
+      "from": "node:1990-treuhand-privatisation",
+      "to": "node:1993-bischofferode-hunger-strike",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La grève de la faim s'oppose à la fermeture de la mine décidée dans le cadre de la Treuhand.",
+      "sources": [{"ref": "fes-rau-protest-after-1989"}]
+    },
+    {
+      "id": "east-german-uprising-1953-comparable-to-monday-demos-1989",
+      "from": "node:1953-east-german-uprising",
+      "to": "node:1989-monday-demonstrations",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "En 1953 les chars soviétiques écrasent le soulèvement ; en 1989 le pouvoir n'ose plus tirer et le régime s'effondre.",
+      "sources": [{"ref": "wp-en-east-german-uprising-1953"}, {"ref": "wp-en-monday-demonstrations-gdr"}]
+    },
+    {
+      "id": "flight-to-varennes-leads-to-champ-de-mars",
+      "from": "node:1791-flight-to-varennes",
+      "to": "node:1791-champ-de-mars-massacre",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La fuite du roi provoque la pétition pour sa déchéance, que la garde nationale disperse dans le sang.",
+      "sources": [{"ref": "wp-en-timeline-french-revolution"}]
+    },
+    {
+      "id": "revolutionary-wars-influence-10-august",
+      "from": "node:1792-french-revolutionary-wars",
+      "to": "node:1792-insurrection-of-10-august",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La guerre et la menace d'invasion radicalisent les sections parisiennes contre un roi soupçonné de trahison.",
+      "sources": [{"ref": "wp-en-insurrection-10-august-1792"}]
+    },
+    {
+      "id": "saint-domingue-uprising-influences-abolition",
+      "from": "node:1791-saint-domingue-slave-uprising",
+      "to": "node:1794-abolition-of-slavery",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "L'insurrection des esclaves contraint la République à abolir l'esclavage.",
+      "sources": [{"ref": "wp-en-haitian-revolution"}]
+    },
+    {
+      "id": "saint-domingue-uprising-leads-to-haitian-independence",
+      "from": "node:1791-saint-domingue-slave-uprising",
+      "to": "node:1804-haitian-independence",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le soulèvement de 1791 ouvre la révolution haïtienne, qui aboutit à l'indépendance.",
+      "sources": [{"ref": "wp-en-haitian-revolution"}]
+    },
+    {
+      "id": "death-of-marat-references-assassination",
+      "from": "node:1793-death-of-marat",
+      "to": "node:1793-assassination-of-marat",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le tableau de David représente Marat assassiné dans son bain.",
+      "sources": [{"ref": "wp-en-timeline-french-revolution"}]
+    },
+    {
+      "id": "french-revolution-influences-german-prelude",
+      "from": "node:1789-french-revolution",
+      "to": "node:1789-french-revolution-to-march-revolution",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La Révolution et les guerres qui suivent bouleversent l'Allemagne : occupation française, fin du Saint-Empire, réformes.",
+      "sources": [{"ref": "lemo-revolution-1848"}]
+    },
+    {
+      "id": "directory-leads-to-swiss-invasion",
+      "from": "node:1795-directory",
+      "to": "node:1798-french-invasion",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "C'est le Directoire qui envahit la Suisse en 1798 et y impose la République helvétique.",
+      "sources": [{"ref": "dhs-helvetic-republic"}]
+    },
+    {
+      "id": "restoration-of-slavery-opposes-1794-abolition",
+      "from": "node:1802-restoration-of-slavery",
+      "to": "node:1794-abolition-of-slavery",
+      "type": "opposes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La loi de 1802 revient sur l'abolition votée par la Convention.",
+      "sources": [{"ref": "wp-en-law-of-20-may-1802"}]
+    },
+    {
+      "id": "july-ordinances-lead-to-july-revolution",
+      "from": "node:1830-july-ordinances",
+      "to": "node:1830-july-revolution",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La publication des ordonnances déclenche le soulèvement parisien.",
+      "sources": [{"ref": "wp-en-july-revolution"}]
+    },
+    {
+      "id": "liberty-leading-the-people-references-july-revolution",
+      "from": "node:1830-liberty-leading-the-people",
+      "to": "node:1830-july-revolution",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le tableau de Delacroix célèbre les Trois Glorieuses.",
+      "sources": [{"ref": "wp-en-july-revolution"}]
+    },
+    {
+      "id": "les-miserables-references-june-rebellion",
+      "from": "node:1862-les-miserables",
+      "to": "node:1832-june-rebellion",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le roman de Hugo met en scène les barricades de juin 1832.",
+      "sources": [{"ref": "wp-en-june-rebellion"}]
+    },
+    {
+      "id": "first-canut-revolt-comparable-to-second",
+      "from": "node:1831-first-canut-revolt",
+      "to": "node:1834-second-canut-revolt",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Deux soulèvements des mêmes ouvriers de la soie, le premier pour le tarif, le second à coloration républicaine.",
+      "sources": [{"ref": "wp-en-canut-revolts"}]
+    },
+    {
+      "id": "campaign-of-banquets-leads-to-february-revolution",
+      "from": "node:1847-campaign-of-banquets",
+      "to": "node:1848-february-revolution",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "L'interdiction du banquet parisien du 22 février 1848 déclenche les journées révolutionnaires.",
+      "sources": [{"ref": "wp-fr-campagne-des-banquets"}]
+    },
+    {
+      "id": "february-revolution-influences-german-revolution",
+      "from": "node:1848-february-revolution",
+      "to": "node:1848-revolution",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La nouvelle de la révolution parisienne déclenche le mouvement de mars dans les États allemands.",
+      "sources": [{"ref": "lemo-revolution-1848"}]
+    },
+    {
+      "id": "national-workshops-closure-leads-to-june-days",
+      "from": "node:1848-national-workshops",
+      "to": "node:1848-june-days",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le décret de fermeture des Ateliers nationaux provoque l'insurrection.",
+      "sources": [{"ref": "wp-en-june-days-uprising"}]
+    },
+    {
+      "id": "class-struggles-references-june-days",
+      "from": "node:1850-class-struggles-in-france-publication",
+      "to": "node:1848-june-days",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Marx y analyse l'insurrection de Juin comme la première grande bataille de classe.",
+      "sources": [{"ref": "wp-en-class-struggles-in-france"}]
+    },
+    {
+      "id": "electoral-law-1850-opposes-universal-suffrage",
+      "from": "node:1850-electoral-law-of-31-may",
+      "to": "node:1848-universal-male-suffrage",
+      "type": "opposes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La condition de domicile retire le droit de vote à une partie des ouvriers.",
+      "sources": [{"ref": "wp-en-french-second-republic"}]
+    },
+    {
+      "id": "abolition-1848-opposes-restoration-of-slavery",
+      "from": "node:1848-abolition-of-slavery",
+      "to": "node:1802-restoration-of-slavery",
+      "type": "opposes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le décret de 1848 met fin à l'esclavage rétabli en 1802.",
+      "sources": [{"ref": "wp-en-french-second-republic"}]
+    },
+    {
+      "id": "eighteenth-brumaire-references-coup-of-1851",
+      "from": "node:1852-eighteenth-brumaire-publication",
+      "to": "node:1851-coup-of-2-december",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le livre de Marx est consacré au coup d'État de Louis Bonaparte.",
+      "sources": [{"ref": "wp-en-eighteenth-brumaire"}]
+    },
+    {
+      "id": "ollivier-law-opposes-le-chapelier-law",
+      "from": "node:1864-right-of-combination-law",
+      "to": "node:1791-le-chapelier-law",
+      "type": "opposes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La loi de 1864 lève l'interdiction des coalitions posée en 1791.",
+      "sources": [{"ref": "wp-fr-loi-ollivier"}]
+    },
+    {
+      "id": "manifesto-of-sixty-influences-first-international",
+      "from": "node:1864-manifesto-of-the-sixty",
+      "to": "node:1864-founding-of-the-first-international",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le groupe de Tolain, auteur du Manifeste, co-organise la réunion fondatrice de Londres.",
+      "sources": [{"ref": "wp-en-international-workingmens-association"}]
+    },
+    {
+      "id": "la-ricamarie-comparable-to-aubin",
+      "from": "node:1869-la-ricamarie-shooting",
+      "to": "node:1869-aubin-shooting",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Deux fusillades de mineurs en grève par la troupe à quelques mois d'intervalle.",
+      "sources": [{"ref": "marxists-chronology-french-labour-1851-1939"}]
+    },
+    {
+      "id": "first-international-founding-leads-to-geneva-congress",
+      "from": "node:1864-founding-of-the-first-international",
+      "to": "node:1866-iwa-geneva-congress",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le congrès de Genève est le premier congrès de l'AIT fondée à Londres.",
+      "sources": [{"ref": "wp-en-international-workingmens-association"}]
+    },
+    {
+      "id": "sedan-leads-to-september-4",
+      "from": "node:1870-battle-of-sedan",
+      "to": "node:1870-september-4-revolution",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La capitulation de l'empereur à Sedan provoque la chute de l'Empire et la proclamation de la République.",
+      "sources": [{"ref": "marxists-chronology-french-labour-1851-1939"}]
+    },
+    {
+      "id": "siege-influences-march-18",
+      "from": "node:1870-siege-of-paris",
+      "to": "node:1871-march-18-uprising",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le siège arme la garde nationale ouvrière et la capitulation dresse Paris contre le gouvernement et l'Assemblée.",
+      "sources": [{"ref": "wp-en-paris-commune"}]
+    },
+    {
+      "id": "march-18-influences-provincial-communes",
+      "from": "node:1871-march-18-uprising",
+      "to": "node:1871-provincial-communes",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "L'exemple parisien suscite dans les jours suivants des Communes à Lyon et à Marseille.",
+      "sources": [{"ref": "wp-en-marseille-commune"}, {"ref": "wp-en-chronology-paris-commune"}]
+    },
+    {
+      "id": "execution-of-hostages-reaction-to-bloody-week",
+      "from": "node:1871-execution-of-the-hostages",
+      "to": "node:1871-bloody-week",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les otages sont exécutés pendant l'écrasement de la Commune, en représailles aux exécutions sommaires.",
+      "sources": [{"ref": "wp-en-chronology-paris-commune"}, {"ref": "wp-en-paris-commune"}]
+    },
+    {
+      "id": "repression-continues-bloody-week",
+      "from": "node:1871-repression-of-the-communards",
+      "to": "node:1871-bloody-week",
+      "type": "continues",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les conseils de guerre et les déportations prolongent l'écrasement militaire de la Commune.",
+      "sources": [{"ref": "wp-en-paris-commune"}]
+    },
+    {
+      "id": "civil-war-in-france-references-commune",
+      "from": "node:1871-civil-war-in-france-publication",
+      "to": "node:1871-paris-commune",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "L'adresse de Marx tire les leçons de la Commune.",
+      "sources": [{"ref": "wp-en-civil-war-in-france"}]
+    },
+    {
+      "id": "lissagaray-history-references-commune",
+      "from": "node:1876-history-of-the-commune-publication",
+      "to": "node:1871-paris-commune",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Histoire de la Commune écrite par l'un de ses combattants.",
+      "sources": [{"ref": "wp-en-lissagaray"}]
+    },
+    {
+      "id": "internationale-references-commune",
+      "from": "node:1888-the-internationale",
+      "to": "node:1871-paris-commune",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le poème de Pottier mis en musique a été écrit après la Commune.",
+      "sources": [{"ref": "wp-en-pierre-de-geyter"}]
+    },
+    {
+      "id": "commune-influences-october-revolution",
+      "from": "node:1871-paris-commune",
+      "to": "node:1917-seizure-of-power",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Dans L'État et la révolution, écrit à l'été 1917, Lénine fait de la Commune le modèle de l'État ouvrier.",
+      "sources": [{"ref": "wp-en-state-and-revolution"}]
+    },
+    {
+      "id": "germinal-references-anzin-strike",
+      "from": "node:1885-germinal",
+      "to": "node:1884-anzin-miners-strike",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Zola s'inspire de la grève d'Anzin pour son roman de la mine."
+    },
+    {
+      "id": "waldeck-rousseau-law-opposes-le-chapelier",
+      "from": "node:1884-waldeck-rousseau-law",
+      "to": "node:1791-le-chapelier-law",
+      "type": "opposes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La loi de 1884 légalise les syndicats interdits depuis 1791.",
+      "sources": [{"ref": "marxists-chronology-french-labour-1851-1939"}]
+    },
+    {
+      "id": "passbook-abolition-opposes-1803-law",
+      "from": "node:1890-abolition-of-workers-passbook",
+      "to": "node:1803-workers-passbook-law",
+      "type": "opposes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La loi de 1890 supprime le livret rétabli en 1803.",
+      "sources": [{"ref": "marxists-chronology-french-labour-1851-1939"}, {"ref": "wp-fr-livret-ouvrier"}]
+    },
+    {
+      "id": "jaccuse-references-dreyfus-affair",
+      "from": "node:1898-jaccuse-publication",
+      "to": "node:1894-dreyfus-affair",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La lettre de Zola relance l'Affaire.",
+      "sources": [{"ref": "wp-en-dreyfus-affair"}]
+    },
+    {
+      "id": "sacred-union-comparable-to-spd-war-credits",
+      "from": "node:1914-sacred-union",
+      "to": "node:1914-spd-war-credits",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le même 4 août 1914, socialistes français et allemands votent les crédits de guerre de leur pays.",
+      "sources": [{"ref": "marxists-chronology-french-labour-1851-1939"}]
+    },
+    {
+      "id": "chemin-des-dames-leads-to-mutinies",
+      "from": "node:1917-chemin-des-dames-offensive",
+      "to": "node:1917-french-army-mutinies",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "L'échec sanglant de l'offensive Nivelle déclenche les refus d'obéissance.",
+      "sources": [{"ref": "wp-en-1917-french-army-mutinies"}]
+    },
+    {
+      "id": "fourmies-comparable-to-la-ricamarie",
+      "from": "node:1891-fourmies-shooting",
+      "to": "node:1869-la-ricamarie-shooting",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La troupe tire sur des ouvriers en lutte, sous l'Empire comme sous la République.",
+      "sources": [{"ref": "marxists-chronology-french-labour-1851-1939"}]
+    },
+    {
+      "id": "october-revolution-influences-congress-of-tours",
+      "from": "node:1917-seizure-of-power",
+      "to": "node:1920-congress-of-tours",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La majorité de Tours adhère à l'Internationale communiste fondée par les bolcheviks.",
+      "sources": [{"ref": "marxists-chronology-french-labour-1851-1939"}]
+    },
+    {
+      "id": "general-strike-1925-reaction-to-rif-war",
+      "from": "node:1925-general-strike-against-rif-war",
+      "to": "node:1925-french-intervention-in-the-rif",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La grève est lancée contre la guerre coloniale du Maroc.",
+      "sources": [{"ref": "marxists-chronology-french-labour-1851-1939"}]
+    },
+    {
+      "id": "february-12-reaction-to-february-6",
+      "from": "node:1934-february-12-general-strike",
+      "to": "node:1934-february-6-riot",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le mouvement ouvrier riposte à l'émeute des ligues.",
+      "sources": [{"ref": "marxists-chronology-french-labour-1851-1939"}]
+    },
+    {
+      "id": "june-strikes-lead-to-matignon",
+      "from": "node:1936-june-strikes",
+      "to": "node:1936-matignon-agreements",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les occupations d'usines contraignent le patronat à signer.",
+      "sources": [{"ref": "marxists-chronology-french-labour-1851-1939"}]
+    },
+    {
+      "id": "non-intervention-reaction-to-spanish-civil-war",
+      "from": "node:1936-non-intervention-in-spain",
+      "to": "node:1936-spanish-civil-war",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Politique adoptée par le gouvernement Blum face au soulèvement de Franco.",
+      "sources": [{"ref": "marxists-chronology-french-labour-1851-1939"}]
+    },
+    {
+      "id": "cnr-programme-leads-to-social-security",
+      "from": "node:1944-cnr-programme",
+      "to": "node:1945-social-security-ordinance",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La création de la Sécurité sociale applique une mesure du programme du CNR.",
+      "sources": [{"ref": "wp-en-cnr"}]
+    },
+    {
+      "id": "cnr-programme-leads-to-nationalisations",
+      "from": "node:1944-cnr-programme",
+      "to": "node:1945-liberation-nationalisations",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les nationalisations appliquent le programme du CNR.",
+      "sources": [{"ref": "wp-en-cnr"}]
+    },
+    {
+      "id": "renault-strike-leads-to-ministers-dismissal",
+      "from": "node:1947-renault-strike",
+      "to": "node:1947-communist-ministers-dismissed",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le soutien du PCF aux grévistes de Renault précipite le renvoi de ses ministres.",
+      "sources": [{"ref": "wp-en-1947-strikes-in-france"}]
+    },
+    {
+      "id": "cgt-split-1947-comparable-to-1921",
+      "from": "node:1947-cgt-split-and-force-ouvriere",
+      "to": "node:1921-cgt-split",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Deux scissions de la CGT entre réformistes et révolutionnaires, en sens inverse.",
+      "sources": [
+        {"ref": "wp-en-1947-strikes-in-france"},
+        {"ref": "marxists-chronology-french-labour-1851-1939"}
+      ]
+    },
+    {
+      "id": "dien-bien-phu-leads-to-geneva",
+      "from": "node:1954-battle-of-dien-bien-phu",
+      "to": "node:1954-geneva-accords",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La défaite de Diên Biên Phu contraint la France à négocier la paix.",
+      "sources": [{"ref": "wp-en-battle-of-dien-bien-phu"}]
+    },
+    {
+      "id": "may-13-putsch-leads-to-de-gaulle-return",
+      "from": "node:1958-may-13-algiers-putsch",
+      "to": "node:1958-de-gaulle-returns-to-power",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La menace militaire venue d'Alger impose l'investiture de De Gaulle.",
+      "sources": [{"ref": "wp-en-may-1958-crisis"}]
+    },
+    {
+      "id": "charonne-reaction-to-oas",
+      "from": "node:1962-charonne-massacre",
+      "to": "node:1961-oas-founding",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La manifestation est appelée contre les attentats de l'OAS.",
+      "sources": [{"ref": "herodote-charonne-1962"}]
+    },
+    {
+      "id": "october-17-comparable-to-charonne",
+      "from": "node:1961-paris-massacre",
+      "to": "node:1962-charonne-massacre",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Deux manifestations réprimées dans le sang par la police du même préfet Papon.",
+      "sources": [{"ref": "wp-en-paris-massacre-1961"}, {"ref": "herodote-charonne-1962"}]
+    },
+    {
+      "id": "evian-leads-to-independence",
+      "from": "node:1962-evian-accords",
+      "to": "node:1962-algerian-independence",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les accords d'Évian ouvrent la voie à l'indépendance algérienne.",
+      "sources": [{"ref": "wp-en-evian-accords"}]
+    },
+    {
+      "id": "battle-of-algiers-film-references-battle",
+      "from": "node:1966-the-battle-of-algiers",
+      "to": "node:1956-battle-of-algiers",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le film de Pontecorvo reconstitue la bataille d'Alger.",
+      "sources": [{"ref": "wp-en-battle-of-algiers-1956"}]
+    },
+    {
+      "id": "night-of-barricades-leads-to-may-13",
+      "from": "node:1968-night-of-the-barricades",
+      "to": "node:1968-may-13-general-strike",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les syndicats appellent à la grève du 13 mai pour protester contre la répression de la nuit des barricades.",
+      "sources": [{"ref": "libcom-1968-chronology"}, {"ref": "universalis-gaullist-period"}]
+    },
+    {
+      "id": "sud-aviation-influences-general-strike",
+      "from": "node:1968-sud-aviation-occupation",
+      "to": "node:1968-general-strike",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La première occupation d'usine donne l'exemple qui se propage à tout le pays.",
+      "sources": [{"ref": "libcom-1968-chronology"}]
+    },
+    {
+      "id": "general-strike-leads-to-grenelle",
+      "from": "node:1968-general-strike",
+      "to": "node:1968-grenelle-agreements",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La grève générale force gouvernement et patronat à négocier.",
+      "sources": [{"ref": "universalis-gaullist-period"}]
+    },
+    {
+      "id": "dissolution-leads-to-june-elections",
+      "from": "node:1968-baden-baden-and-dissolution",
+      "to": "node:1968-june-legislative-elections",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La dissolution du 30 mai convoque les élections de juin.",
+      "sources": [{"ref": "universalis-gaullist-period"}, {"ref": "wp-en-may-68"}]
+    },
+    {
+      "id": "general-strike-1968-comparable-to-june-1936",
+      "from": "node:1968-general-strike",
+      "to": "node:1936-june-strikes",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Deux grèves générales avec occupations d'usines, la seconde plus vaste encore.",
+      "sources": [{"ref": "libcom-1968-chronology"}, {"ref": "marxists-chronology-french-labour-1851-1939"}]
+    },
+    {
+      "id": "may-68-comparable-to-globus-riot",
+      "from": "node:1968-may-68",
+      "to": "node:1968-globus-riot",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La même vague de révolte de la jeunesse de 1968 gagne la Suisse avec l'émeute du Globus.",
+      "sources": [{"ref": "swissinfo-youth-centres"}, {"ref": "wp-en-may-68"}]
+    },
+    {
+      "id": "lip-comparable-to-commune-workshops",
+      "from": "node:1973-lip-strike",
+      "to": "node:1871-abandoned-workshops-decree",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Dans les deux cas, les ouvriers reprennent eux-mêmes la production.",
+      "sources": [{"ref": "wp-en-lip-affair"}, {"ref": "wp-en-chronology-paris-commune"}]
+    },
+    {
+      "id": "manifesto-343-influences-veil-law",
+      "from": "node:1971-manifesto-of-the-343",
+      "to": "node:1975-veil-law",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La campagne ouverte par le manifeste aboutit à la légalisation de l'avortement.",
+      "sources": [{"ref": "wp-en-manifesto-of-the-343"}, {"ref": "wp-en-veil-act"}]
+    },
+    {
+      "id": "common-programme-influences-1981-victory",
+      "from": "node:1972-common-programme",
+      "to": "node:1981-mitterrand-elected",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "L'Union de la gauche fondée sur le Programme commun prépare la victoire de 1981.",
+      "sources": [{"ref": "wp-en-programme-commun"}]
+    },
+    {
+      "id": "austerity-turn-opposes-left-reforms",
+      "from": "node:1983-austerity-turn",
+      "to": "node:1981-left-reforms",
+      "type": "opposes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La rigueur rompt avec la politique de relance et de réformes de 1981-1982.",
+      "sources": [{"ref": "herodote-fifth-republic-shocks"}]
+    },
+    {
+      "id": "ouvea-leads-to-matignon-accords",
+      "from": "node:1988-ouvea-cave-hostage-taking",
+      "to": "node:1988-matignon-accords",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le drame d'Ouvéa aboutit cinquante jours plus tard aux accords de Matignon.",
+      "sources": [{"ref": "herodote-ouvea-matignon-1988"}]
+    },
+    {
+      "id": "fn-breakthrough-influences-2002",
+      "from": "node:1984-national-front-breakthrough",
+      "to": "node:2002-le-pen-in-second-round",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "L'implantation du FN depuis 1984 prépare la qualification de Le Pen en 2002.",
+      "sources": [
+        {"ref": "wp-en-1984-european-election-france"},
+        {"ref": "wp-en-2002-french-presidential-election"}
+      ]
+    },
+    {
+      "id": "cpe-comparable-to-devaquet",
+      "from": "node:2006-cpe-movement",
+      "to": "node:1986-devaquet-movement",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Deux mouvements de la jeunesse scolarisée qui obtiennent le retrait d'une réforme.",
+      "sources": [{"ref": "wp-en-first-employment-contract"}, {"ref": "wp-en-death-of-malik-oussekine"}]
+    },
+    {
+      "id": "1995-strikes-comparable-to-2019",
+      "from": "node:1995-strikes",
+      "to": "node:2019-pension-reform-strike",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Deux grandes grèves des transports contre une réforme des retraites, gagnantes en 1995, ajournant la réforme en 2020.",
+      "sources": [{"ref": "wp-en-1995-strikes-in-france"}, {"ref": "wp-en-2019-pension-strike"}]
+    },
+    {
+      "id": "2005-riots-comparable-to-nahel",
+      "from": "node:2005-riots",
+      "to": "node:2023-nahel-riots",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Deux révoltes des quartiers populaires déclenchées par la mort de jeunes face à la police.",
+      "sources": [{"ref": "wp-en-2005-french-riots"}, {"ref": "wp-en-killing-of-nahel"}]
+    },
+    {
+      "id": "ouvea-comparable-to-2024-new-caledonia",
+      "from": "node:2024-new-caledonia-unrest",
+      "to": "node:1988-ouvea-cave-hostage-taking",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Deux crises violentes de la question kanake, à 36 ans d'intervalle.",
+      "sources": [{"ref": "wp-en-2024-new-caledonia-unrest"}, {"ref": "wp-en-ouvea-cave-hostage-taking"}]
+    },
+    {
+      "id": "yellow-vests-influence-2026-movement",
+      "from": "node:2018-yellow-vests",
+      "to": "node:2026-autumn-social-movement",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Des gilets jaunes rejoignent le mouvement de 2026 sur la vie chère et l'énergie.",
+      "sources": [{"ref": "lalibre-social-anger-2026-10-24"}]
+    },
+    {
+      "id": "six-acts-reaction-to-peterloo",
+      "from": "node:1819-six-acts",
+      "to": "node:1819-peterloo-massacre",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les Six Actes sont la réponse répressive du gouvernement Liverpool à Peterloo.",
+      "sources": [{"ref": "wp-en-peterloo-massacre"}]
+    },
+    {
+      "id": "newport-rising-reaction-to-first-chartist-petition",
+      "from": "node:1839-newport-rising",
+      "to": "node:1839-first-chartist-petition",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le soulèvement de Newport suit le refus des Communes d'entendre la première pétition chartiste.",
+      "sources": [{"ref": "wp-en-chartism"}]
+    },
+    {
+      "id": "1842-general-strike-reaction-to-second-petition",
+      "from": "node:1842-general-strike",
+      "to": "node:1842-second-chartist-petition",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La grève de 1842 éclate après le rejet de la deuxième pétition par 287 voix contre 49.",
+      "sources": [{"ref": "wp-en-1842-general-strike"}]
+    },
+    {
+      "id": "february-revolution-influences-kennington",
+      "from": "node:1848-february-revolution",
+      "to": "node:1848-kennington-common-rally",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La révolution de Février à Paris relance l'agitation chartiste qui culmine à Kennington Common.",
+      "sources": [{"ref": "wp-en-chartism"}]
+    },
+    {
+      "id": "baptist-war-influences-abolition",
+      "from": "node:1831-baptist-war",
+      "to": "node:1833-slavery-abolition-act",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La révolte des esclaves de Jamaïque pèse dans la décision d'abolir l'esclavage.",
+      "sources": [{"ref": "wp-en-baptist-war"}]
+    },
+    {
+      "id": "indian-rebellion-leads-to-raj",
+      "from": "node:1857-indian-rebellion",
+      "to": "node:1858-government-of-india-act",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Après la révolte, la Couronne retire l'Inde à la Compagnie des Indes.",
+      "sources": [{"ref": "wp-en-indian-rebellion-of-1857"}]
+    },
+    {
+      "id": "free-trade-hall-reaction-to-american-civil-war",
+      "from": "node:1862-free-trade-hall-meeting",
+      "to": "node:1861-american-civil-war",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les ouvriers du coton prennent parti pour le Nord contre l'esclavage pendant la guerre de Sécession.",
+      "sources": [{"ref": "wp-en-lancashire-cotton-famine"}]
+    },
+    {
+      "id": "trade-disputes-act-reaction-to-taff-vale",
+      "from": "node:1906-trade-disputes-act",
+      "to": "node:1901-taff-vale-judgment",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La loi de 1906 annule les effets de l'arrêt Taff Vale.",
+      "sources": [{"ref": "wp-en-trade-disputes-act-1906"}]
+    },
+    {
+      "id": "taff-vale-leads-to-labour-growth",
+      "from": "node:1901-taff-vale-judgment",
+      "to": "node:1906-labour-party-named",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Menacés par l'arrêt Taff Vale, les syndicats rallient le LRC, qui obtient 29 sièges en 1906.",
+      "sources": [{"ref": "wp-en-taff-vale-case"}]
+    },
+    {
+      "id": "trade-disputes-act-1927-reaction-to-general-strike",
+      "from": "node:1927-trade-disputes-act",
+      "to": "node:1926-general-strike",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La loi de 1927 interdit les grèves générales et de solidarité après celle de 1926.",
+      "sources": [{"ref": "wp-en-trade-disputes-act-1927"}]
+    },
+    {
+      "id": "black-friday-comparable-to-red-friday",
+      "from": "node:1921-black-friday",
+      "to": "node:1925-red-friday",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le Daily Herald baptise « Vendredi rouge » le recul du gouvernement de 1925, par opposition au Vendredi noir de 1921.",
+      "sources": [{"ref": "wp-en-red-friday"}]
+    },
+    {
+      "id": "red-friday-leads-to-general-strike",
+      "from": "node:1925-red-friday",
+      "to": "node:1926-general-strike",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La subvention de neuf mois sert au gouvernement à se préparer à l'affrontement de mai 1926.",
+      "sources": [{"ref": "wp-en-red-friday"}]
+    },
+    {
+      "id": "invergordon-causes-gold-standard-exit",
+      "from": "node:1931-invergordon-mutiny",
+      "to": "node:1931-uk-leaves-gold-standard",
+      "type": "causes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La panique financière consécutive à la mutinerie force la sortie de l'étalon-or le 21 septembre 1931.",
+      "sources": [{"ref": "wp-en-invergordon-mutiny"}]
+    },
+    {
+      "id": "derry-march-leads-to-bogside",
+      "from": "node:1968-derry-civil-rights-march",
+      "to": "node:1969-battle-of-the-bogside",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La répression du mouvement pour les droits civiques débouche sur l'affrontement du Bogside et l'envoi de l'armée.",
+      "sources": [{"ref": "wp-en-ni-civil-rights-movement"}]
+    },
+    {
+      "id": "industrial-relations-act-leads-to-pentonville",
+      "from": "node:1971-industrial-relations-act",
+      "to": "node:1972-pentonville-five",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les dockers sont emprisonnés pour avoir défié le tribunal créé par la loi de 1971.",
+      "sources": [{"ref": "wp-en-industrial-relations-act-1971"}]
+    },
+    {
+      "id": "winter-of-discontent-leads-to-thatcher",
+      "from": "node:1978-winter-of-discontent",
+      "to": "node:1979-thatcher-elected",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La défaite du gouvernement Callaghan après l'hiver du mécontentement ouvre la voie à Thatcher.",
+      "sources": [{"ref": "wp-en-winter-of-discontent"}]
+    },
+    {
+      "id": "saltley-gate-comparable-to-orgreave",
+      "from": "node:1972-battle-of-saltley-gate",
+      "to": "node:1984-battle-of-orgreave",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Deux piquets de masse devant une cokerie : victoire en 1972, défaite face à une police préparée en 1984.",
+      "sources": [{"ref": "wp-en-battle-of-saltley-gate"}, {"ref": "archiveshub-miners-strike-1984"}]
+    },
+    {
+      "id": "poll-tax-riot-leads-to-thatcher-resignation",
+      "from": "node:1990-poll-tax-riot",
+      "to": "node:1990-thatcher-resigns",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La révolte contre la poll tax contribue à la chute de Thatcher en novembre 1990.",
+      "sources": [{"ref": "wp-en-poll-tax-riots"}]
+    },
+    {
+      "id": "anti-war-march-opposes-iraq-war",
+      "from": "node:2003-stop-the-war-march",
+      "to": "node:2003-iraq-war",
+      "type": "opposes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La plus grande manifestation de l'histoire britannique contre l'invasion de l'Irak.",
+      "sources": [{"ref": "wp-en-15-february-2003-anti-war-protests"}]
+    },
+    {
+      "id": "may-2026-elections-leads-to-burnham",
+      "from": "node:2026-may-elections",
+      "to": "node:2026-burnham-becomes-prime-minister",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le revers de mai 2026 déclenche la crise qui pousse Starmer à la démission.",
+      "sources": [{"ref": "wp-en-2026-labour-leadership-crisis"}]
+    },
+    {
+      "id": "february-revolution-influences-leeds-convention",
+      "from": "node:1917-february-revolution",
+      "to": "node:1917-leeds-convention",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La convention de Leeds est convoquée pour saluer la révolution de Février et propose d'en imiter les soviets.",
+      "sources": [{"ref": "wp-en-leeds-convention"}]
+    },
+    {
+      "id": "1798-rebellion-leads-to-act-of-union",
+      "from": "node:1798-irish-rebellion",
+      "to": "node:1801-act-of-union",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "L'écrasement de la rébellion de 1798 motive la suppression du Parlement de Dublin par l'Union.",
+      "sources": [{"ref": "wp-en-acts-of-union-1800"}]
+    },
+    {
+      "id": "belfast-dock-strike-leads-to-itgwu",
+      "from": "node:1907-belfast-dock-strike",
+      "to": "node:1909-itgwu-founding",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La grève de Belfast, lâchée par le syndicat britannique, pousse Larkin à fonder un syndicat irlandais.",
+      "sources": [{"ref": "wp-en-1907-belfast-dock-strike"}]
+    },
+    {
+      "id": "dublin-lockout-leads-to-citizen-army",
+      "from": "node:1913-dublin-lockout",
+      "to": "node:1913-irish-citizen-army-founding",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "L'Armée citoyenne naît pendant le lock-out pour protéger les piquets contre la police.",
+      "sources": [{"ref": "wp-en-irish-citizen-army"}]
+    },
+    {
+      "id": "irish-volunteers-reaction-to-ulster-covenant",
+      "from": "node:1913-irish-volunteers-founding",
+      "to": "node:1912-ulster-covenant",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les nationalistes s'arment en réponse à la mobilisation armée des unionistes contre le Home Rule.",
+      "sources": [{"ref": "wp-en-irish-volunteers"}, {"ref": "wp-en-ulster-covenant"}]
+    },
+    {
+      "id": "executions-lead-to-1918-sinn-fein-victory",
+      "from": "node:1916-easter-rising-executions",
+      "to": "node:1918-irish-general-election",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les exécutions et l'internement retournent l'opinion, et le Sinn Féin balaie les élections de 1918.",
+      "sources": [{"ref": "wp-en-easter-rising"}]
+    },
+    {
+      "id": "conscription-strike-influences-1918-election",
+      "from": "node:1918-anti-conscription-general-strike",
+      "to": "node:1918-irish-general-election",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La crise de la conscription et l'arrestation des dirigeants renforcent le Sinn Féin.",
+      "sources": [{"ref": "wp-en-conscription-crisis-1918"}]
+    },
+    {
+      "id": "treaty-leads-to-civil-war",
+      "from": "node:1921-anglo-irish-treaty",
+      "to": "node:1922-irish-civil-war",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La ratification du traité par 64 voix contre 57 divise le mouvement et débouche sur la guerre civile.",
+      "sources": [{"ref": "wp-en-anglo-irish-treaty"}]
+    },
+    {
+      "id": "outdoor-relief-comparable-to-1907-dock-strike",
+      "from": "node:1932-belfast-outdoor-relief-strike",
+      "to": "node:1907-belfast-dock-strike",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Deux moments où ouvriers protestants et catholiques de Belfast luttent ensemble par-delà la division confessionnelle.",
+      "sources": [
+        {"ref": "libcom-belfast-outdoor-relief-strike-1932"},
+        {"ref": "wp-en-1907-belfast-dock-strike"}
+      ]
+    },
+    {
+      "id": "ira-ceasefire-leads-to-good-friday",
+      "from": "node:1994-ira-ceasefire",
+      "to": "node:1998-good-friday-agreement",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le cessez-le-feu ouvre au Sinn Féin les négociations qui aboutissent à l'accord de 1998.",
+      "sources": [{"ref": "wp-en-provisional-ira"}]
+    },
+    {
+      "id": "irish-bank-guarantee-reaction-to-global-crisis",
+      "from": "node:2008-irish-bank-guarantee",
+      "to": "node:2007-global-financial-crisis",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La garantie est décidée en pleine crise financière mondiale, au lendemain de la faillite de Lehman Brothers.",
+      "sources": [{"ref": "wp-en-post-2008-irish-banking-crisis"}]
+    },
+    {
+      "id": "bank-guarantee-leads-to-bailout",
+      "from": "node:2008-irish-bank-guarantee",
+      "to": "node:2010-eu-imf-bailout",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le coût du sauvetage des banques conduit l'État à demander l'aide de l'UE et du FMI.",
+      "sources": [{"ref": "wp-en-post-2008-irish-banking-crisis"}]
+    },
+    {
+      "id": "crimean-defeat-causes-emancipation",
+      "from": "node:1856-treaty-of-paris",
+      "to": "node:1861-emancipation-of-the-serfs",
+      "type": "causes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "L'humiliation de la guerre de Crimée convainc Alexandre II de réformer le pays, à commencer par le servage.",
+      "sources": [{"ref": "wp-en-alexander-ii-of-russia"}]
+    },
+    {
+      "id": "bezdna-reaction-to-emancipation",
+      "from": "node:1861-bezdna-massacre",
+      "to": "node:1861-emancipation-of-the-serfs",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les paysans de Bezdna se soulèvent parce qu'ils refusent les conditions de l'abolition du servage.",
+      "sources": [{"ref": "wp-en-emancipation-reform-of-1861"}]
+    },
+    {
+      "id": "chernyshevsky-influences-lenin-what-is-to-be-done",
+      "from": "node:1863-what-is-to-be-done-publication",
+      "to": "node:1902-what-is-to-be-done",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Lénine reprend le titre du roman de Tchernychevski, qui a formé sa génération de révolutionnaires."
+    },
+    {
+      "id": "zemlya-split-leads-to-assassination-of-alexander-ii",
+      "from": "node:1879-split-of-zemlya-i-volya",
+      "to": "node:1881-assassination-of-alexander-ii",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La Volonté du peuple, née de la scission, organise l'assassinat du tsar.",
+      "sources": [{"ref": "wp-en-narodnaya-volya"}]
+    },
+    {
+      "id": "zemlya-split-leads-to-emancipation-of-labour",
+      "from": "node:1879-split-of-zemlya-i-volya",
+      "to": "node:1883-emancipation-of-labour-group",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Plekhanov et ses camarades du Partage noir rompent avec le populisme et fondent le premier groupe marxiste russe."
+    },
+    {
+      "id": "assassination-of-alexander-ii-causes-pogroms",
+      "from": "node:1881-assassination-of-alexander-ii",
+      "to": "node:1881-pogrom-wave",
+      "type": "causes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La vague de pogroms éclate au lendemain de l'assassinat d'Alexandre II.",
+      "sources": [{"ref": "wp-en-pogroms-in-the-russian-empire"}]
+    },
+    {
+      "id": "russo-japanese-war-causes-1905-revolution",
+      "from": "node:1904-russo-japanese-war",
+      "to": "node:1905-russian-revolution",
+      "type": "causes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les défaites face au Japon discréditent l'autocratie et précipitent la révolution de 1905."
+    },
+    {
+      "id": "potemkin-film-references-mutiny",
+      "from": "node:1925-battleship-potemkin",
+      "to": "node:1905-potemkin-mutiny",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le film d'Eisenstein met en scène la mutinerie de 1905."
+    },
+    {
+      "id": "october-pogroms-reaction-to-manifesto",
+      "from": "node:1905-october-pogroms",
+      "to": "node:1905-october-manifesto",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les Cent-Noirs lancent les pogroms au lendemain du Manifeste d'octobre.",
+      "sources": [{"ref": "wp-en-pogroms-in-the-russian-empire"}]
+    },
+    {
+      "id": "petersburg-soviet-comparable-to-petrograd-soviet",
+      "from": "node:1905-petersburg-soviet",
+      "to": "node:1917-founding-of-the-petrograd-soviet",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le soviet de 1917 reprend la forme d'organisation inventée en 1905."
+    },
+    {
+      "id": "october-revolution-influences-german-revolution",
+      "from": "node:1917-seizure-of-power",
+      "to": "node:1918-german-revolution",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La prise du pouvoir par les soviets sert d'exemple aux conseils d'ouvriers et de soldats allemands."
+    },
+    {
+      "id": "comintern-leads-to-congress-of-tours",
+      "from": "node:1919-founding-of-the-comintern",
+      "to": "node:1920-congress-of-tours",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le vote sur l'adhésion à l'Internationale communiste et ses 21 conditions provoque la scission de Tours."
+    },
+    {
+      "id": "black-sea-mutinies-reaction-to-intervention",
+      "from": "node:1919-black-sea-mutinies",
+      "to": "node:1918-allied-intervention",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les marins français se mutinent contre l'intervention en Russie soviétique.",
+      "sources": [{"ref": "wp-en-allied-intervention-in-the-russian-civil-war"}]
+    },
+    {
+      "id": "councils-of-action-reaction-to-polish-soviet-war",
+      "from": "node:1920-councils-of-action",
+      "to": "node:1919-polish-soviet-war",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les syndicats britanniques menacent de grève générale pour empêcher une guerre contre la Russie soviétique aux côtés de la Pologne.",
+      "sources": [{"ref": "wp-en-hands-off-russia"}]
+    },
+    {
+      "id": "war-communism-causes-tambov",
+      "from": "node:1920-tambov-rebellion",
+      "to": "node:1918-war-communism",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les paysans de Tambov se soulèvent contre les réquisitions de grain.",
+      "sources": [{"ref": "wp-en-tambov-rebellion"}]
+    },
+    {
+      "id": "war-communism-causes-1921-famine",
+      "from": "node:1918-war-communism",
+      "to": "node:1921-russian-famine",
+      "type": "causes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les réquisitions du communisme de guerre contribuent à la famine de 1921-1922.",
+      "sources": [{"ref": "wp-en-war-communism"}]
+    },
+    {
+      "id": "kronstadt-influences-nep",
+      "from": "node:1921-kronstadt-rebellion",
+      "to": "node:1921-tax-in-kind-decree",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La révolte accélère l'abandon des réquisitions déjà en préparation.",
+      "sources": [{"ref": "wp-en-kronstadt-rebellion"}]
+    },
+    {
+      "id": "lenins-testament-references-georgia",
+      "from": "node:1922-lenins-testament",
+      "to": "node:1921-red-army-invasion-of-georgia",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Lénine y dénonce le comportement de Staline et d'Ordjonikidze dans l'affaire géorgienne.",
+      "sources": [{"ref": "wp-en-lenins-testament"}]
+    },
+    {
+      "id": "grain-crisis-leads-to-collectivisation",
+      "from": "node:1927-grain-procurement-crisis",
+      "to": "node:1929-forced-collectivisation",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La crise des collectes conduit à l'abandon de la NEP et à la collectivisation forcée.",
+      "sources": [{"ref": "wp-en-soviet-grain-procurement-crisis-of-1928"}]
+    },
+    {
+      "id": "collectivisation-causes-1932-famine",
+      "from": "node:1929-forced-collectivisation",
+      "to": "node:1932-soviet-famine",
+      "type": "causes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La collectivisation et les collectes forcées provoquent la famine de 1932-1933.",
+      "sources": [{"ref": "wp-en-collectivization-in-the-soviet-union"}]
+    },
+    {
+      "id": "kirov-assassination-leads-to-great-terror",
+      "from": "node:1934-assassination-of-kirov",
+      "to": "node:1936-great-purge",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Staline se sert de l'assassinat de Kirov pour justifier les procès de Moscou et la Grande Terreur.",
+      "sources": [{"ref": "wp-en-assassination-of-sergei-kirov"}]
+    },
+    {
+      "id": "pact-leads-to-invasion-of-poland",
+      "from": "node:1939-molotov-ribbentrop-pact",
+      "to": "node:1939-soviet-invasion-of-poland",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "L'invasion applique le partage prévu par le protocole secret du pacte.",
+      "sources": [{"ref": "wp-en-soviet-invasion-of-poland"}]
+    },
+    {
+      "id": "pact-leads-to-baltic-occupation",
+      "from": "node:1939-molotov-ribbentrop-pact",
+      "to": "node:1940-occupation-of-the-baltic-states",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le protocole secret place les États baltes dans la sphère soviétique."
+    },
+    {
+      "id": "secret-speech-influences-hungarian-revolution",
+      "from": "node:1956-secret-speech",
+      "to": "node:1956-hungarian-revolution",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La dénonciation de Staline ébranle les régimes d'Europe de l'Est et encourage l'insurrection hongroise.",
+      "sources": [{"ref": "wp-en-on-the-cult-of-personality"}]
+    },
+    {
+      "id": "hungary-comparable-to-east-german-uprising",
+      "from": "node:1956-hungarian-revolution",
+      "to": "node:1953-east-german-uprising",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Deux soulèvements ouvriers dans le bloc de l'Est écrasés par les chars soviétiques."
+    },
+    {
+      "id": "red-square-demonstration-reaction-to-invasion",
+      "from": "node:1968-red-square-demonstration",
+      "to": "node:1968-invasion-of-czechoslovakia",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Huit dissidents protestent sur la place Rouge contre l'invasion.",
+      "sources": [{"ref": "wp-en-warsaw-pact-invasion-of-czechoslovakia"}]
+    },
+    {
+      "id": "baltic-way-references-pact",
+      "from": "node:1989-baltic-way",
+      "to": "node:1939-molotov-ribbentrop-pact",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La chaîne humaine est formée pour le cinquantenaire du pacte qui a livré les pays baltes à l'URSS."
+    },
+    {
+      "id": "august-coup-causes-ban-of-cpsu",
+      "from": "node:1991-august-coup",
+      "to": "node:1991-ban-of-the-cpsu",
+      "type": "causes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "L'échec du putsch entraîne la suspension puis l'interdiction du parti.",
+      "sources": [{"ref": "wp-en-1991-soviet-coup-attempt"}]
+    },
+    {
+      "id": "august-coup-leads-to-belovezha",
+      "from": "node:1991-august-coup",
+      "to": "node:1991-belovezha-accords",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Après l'échec du putsch, le pouvoir central s'effondre et les républiques constatent la fin de l'URSS.",
+      "sources": [{"ref": "wp-en-1991-soviet-coup-attempt"}]
+    },
+    {
+      "id": "apartment-bombings-lead-to-second-chechen-war",
+      "from": "node:1999-russian-apartment-bombings",
+      "to": "node:1999-second-chechen-war",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les attentats, imputés aux Tchétchènes, servent de justification à l'entrée des troupes russes en Tchétchénie.",
+      "sources": [{"ref": "wp-en-history-of-the-russian-federation"}]
+    },
+    {
+      "id": "asian-crisis-influences-russian-default",
+      "from": "node:1997-asian-financial-crisis",
+      "to": "node:1998-russian-financial-crisis",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La crise asiatique fait chuter les prix des matières premières et fuir les capitaux, ce qui précipite le défaut russe."
+    },
+    {
+      "id": "constitutional-crisis-leads-to-referendum",
+      "from": "node:1993-constitutional-crisis",
+      "to": "node:1993-constitutional-referendum",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Après l'écrasement du Parlement, Eltsine fait adopter une Constitution taillée pour la présidence.",
+      "sources": [{"ref": "wp-en-history-of-the-russian-federation"}]
+    },
+    {
+      "id": "fair-elections-protests-lead-to-bolotnaya-case",
+      "from": "node:2011-for-fair-elections-protests",
+      "to": "node:2012-bolotnaya-square-case",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La répression de la manifestation du 6 mai 2012 clôt le mouvement né de la fraude électorale de décembre 2011.",
+      "sources": [{"ref": "wp-en-history-of-the-russian-federation"}]
+    },
+    {
+      "id": "crimea-annexation-leads-to-donbas-war",
+      "from": "node:2014-annexation-of-crimea",
+      "to": "node:2014-war-in-donbas",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "L'annexion de la Crimée est suivie quelques semaines plus tard du soulèvement armé soutenu par Moscou dans le Donbass."
+    },
+    {
+      "id": "donbas-war-leads-to-full-scale-invasion",
+      "from": "node:2014-war-in-donbas",
+      "to": "node:2022-russian-invasion-of-ukraine",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le conflit gelé du Donbass débouche sur l'invasion à grande échelle de février 2022."
+    },
+    {
+      "id": "anti-war-repression-reaction-to-invasion",
+      "from": "node:2022-anti-war-protests-and-military-censorship",
+      "to": "node:2022-russian-invasion-of-ukraine",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les manifestations et leur répression répondent directement au déclenchement de l'invasion.",
+      "sources": [{"ref": "wp-en-anti-war-protests-in-russia"}]
+    },
+    {
+      "id": "udaltsov-sentence-references-ufa-marxists",
+      "from": "node:2025-sentencing-of-udaltsov",
+      "to": "node:2025-ufa-marxist-circle-verdict",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Oudaltsov est condamné pour son soutien public aux accusés du cercle marxiste d'Oufa.",
+      "sources": [{"ref": "wp-en-sergei-udaltsov"}]
+    },
+    {
+      "id": "kadets-vyborg-manifesto-reaction-to-duma-dissolution",
+      "from": "node:1906-vyborg-manifesto",
+      "to": "node:1906-first-duma-dissolution",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les députés répondent à la dissolution de la Douma par un appel à la désobéissance civile.",
+      "sources": [{"ref": "wp-en-vyborg-manifesto"}]
+    },
+    {
+      "id": "baku-strike-influences-petersburg-july-strikes",
+      "from": "node:1914-baku-oil-strike",
+      "to": "node:1914-petersburg-july-strikes",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les grèves de solidarité avec Bakou, fin juin 1914, préparent la grève générale de juillet à Pétersbourg.",
+      "sources": [{"ref": "badayev-bolsheviks-in-the-duma-ch18"}]
+    },
+    {
+      "id": "attempt-on-lenin-causes-red-terror",
+      "from": "node:1918-attempt-on-lenin",
+      "to": "node:1918-red-terror",
+      "type": "causes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "L'attentat contre Lénine sert de déclencheur au décret sur la Terreur rouge de septembre 1918.",
+      "sources": [{"ref": "wp-en-timeline-of-russian-history"}]
+    },
+    {
+      "id": "miners-strike-1989-comparable-to-1998",
+      "from": "node:1989-soviet-miners-strike",
+      "to": "node:1998-miners-rail-war",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les mineurs du Kouzbass et de Vorkouta reprennent en 1998 les méthodes de blocage et d'auto-organisation de 1989.",
+      "sources": [{"ref": "wp-en-1998-russian-miners-strike"}]
+    },
+    {
+      "id": "karabakh-conflict-leads-to-sumgait",
+      "from": "node:1988-first-nagorno-karabakh-war",
+      "to": "node:1988-sumgait-pogrom",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le vote du soviet du Haut-Karabagh, le 20 février 1988, précède d'une semaine le pogrom de Soumgaït."
+    },
+    {
+      "id": "lenin-return-leads-to-april-theses",
+      "from": "node:1917-lenin-returns-to-petrograd",
+      "to": "node:1917-april-theses",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Dès le lendemain de son arrivée, Lénine présente ses thèses qui réorientent le parti vers la conquête du pouvoir par les soviets.",
+      "sources": [{"ref": "wp-en-timeline-of-russian-history"}]
+    },
+    {
+      "id": "vorkuta-hunger-strike-leads-to-kashketin-executions",
+      "from": "node:1936-vorkuta-hunger-strike",
+      "to": "node:1938-kashketin-executions",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les grévistes de la faim de 1936-1937 sont regroupés à la briqueterie puis fusillés au printemps 1938.",
+      "sources": [{"ref": "marxists-fr-vorkouta"}]
+    },
+    {
+      "id": "pavlov-price-reform-causes-minsk-protest",
+      "from": "node:1991-pavlov-price-reform",
+      "to": "node:1991-minsk-workers-protest",
+      "type": "causes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La manifestation de Minsk est une réponse directe à la hausse des prix du 2 avril.",
+      "sources": [{"ref": "csm-minsk-workers-1991"}]
+    },
+    {
+      "id": "novo-ogaryovo-leads-to-august-coup",
+      "from": "node:1991-novo-ogaryovo-agreement",
+      "to": "node:1991-august-coup",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les putschistes agissent la veille de la signature du nouveau traité d'Union issu de l'accord de Novo-Ogarevo."
+    },
+    {
+      "id": "third-of-may-references-dos-de-mayo",
+      "from": "node:1814-third-of-may",
+      "to": "node:1808-dos-de-mayo-uprising",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le tableau de Goya représente les fusillades du 3 mai 1808 qui répriment le soulèvement madrilène de la veille.",
+      "sources": [{"ref": "wp-en-peninsular-war"}]
+    },
+    {
+      "id": "riego-pronunciamiento-influences-decembrists",
+      "from": "node:1820-riego-pronunciamiento",
+      "to": "node:1825-decembrist-revolt",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le pronunciamiento de Riego et la Constitution de Cadix servent de modèle aux officiers libéraux européens, dont les décembristes russes.",
+      "sources": [{"ref": "wp-en-trienio-liberal"}]
+    },
+    {
+      "id": "fanelli-mission-leads-to-barcelona-congress",
+      "from": "node:1868-fanelli-mission",
+      "to": "node:1870-barcelona-workers-congress",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les noyaux internationalistes fondés après la mission de Fanelli forment la Fédération régionale espagnole au congrès de 1870.",
+      "sources": [{"ref": "wp-es-giuseppe-fanelli"}, {"ref": "wp-en-spanish-regional-federation-iwa"}]
+    },
+    {
+      "id": "cortes-ban-reaction-to-paris-commune",
+      "from": "node:1871-cortes-outlaw-the-international",
+      "to": "node:1871-paris-commune",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "L'interdiction de l'AIT par les Cortes s'inscrit dans la répression européenne de l'Internationale après la Commune de Paris.",
+      "sources": [{"ref": "wp-en-spanish-regional-federation-iwa"}]
+    },
+    {
+      "id": "cantonal-rebellion-comparable-to-paris-commune",
+      "from": "node:1873-cantonal-rebellion",
+      "to": "node:1871-paris-commune",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Deux ans après la Commune, les cantons proclament des pouvoirs municipaux révolutionnaires ; Engels en tire la critique des bakouninistes dans « Les bakouninistes à l'œuvre ».",
+      "sources": [{"ref": "wp-en-cantonal-rebellion"}]
+    },
+    {
+      "id": "melillan-campaign-causes-tragic-week",
+      "from": "node:1909-second-melillan-campaign",
+      "to": "node:1909-tragic-week",
+      "type": "causes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le rappel de réservistes ouvriers pour la guerre de Melilla déclenche la grève générale de Barcelone.",
+      "sources": [{"ref": "wp-en-tragic-week"}]
+    },
+    {
+      "id": "ferrer-execution-reaction-to-tragic-week",
+      "from": "node:1909-execution-of-ferrer",
+      "to": "node:1909-tragic-week",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Ferrer est exécuté comme prétendu instigateur de la Semaine tragique.",
+      "sources": [{"ref": "wp-en-tragic-week"}]
+    },
+    {
+      "id": "canadiense-strike-causes-eight-hour-decree",
+      "from": "node:1919-la-canadiense-strike",
+      "to": "node:1919-eight-hour-day-decree",
+      "type": "causes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le décret des huit heures est une concession directe arrachée par la grève de La Canadiense.",
+      "sources": [{"ref": "wp-en-la-canadiense-strike"}]
+    },
+    {
+      "id": "october-1917-influences-bolshevik-triennium",
+      "from": "node:1917-seizure-of-power",
+      "to": "node:1918-bolshevik-triennium",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les nouvelles de la révolution russe nourrissent l'espoir et la radicalisation des journaliers andalous en 1918-1920.",
+      "sources": [{"ref": "wp-es-trienio-bolchevique"}]
+    },
+    {
+      "id": "annual-leads-to-primo-de-rivera-coup",
+      "from": "node:1921-battle-of-annual",
+      "to": "node:1923-primo-de-rivera-coup",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le scandale des responsabilités d'Anoual, qui menaçait l'armée et le roi, est l'un des moteurs du coup d'État de 1923.",
+      "sources": [{"ref": "wp-en-battle-of-annual"}]
+    },
+    {
+      "id": "asturian-commune-comparable-to-paris-commune",
+      "from": "node:1934-asturian-commune",
+      "to": "node:1871-paris-commune",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Comme la Commune de Paris, l'insurrection asturienne établit pendant deux semaines un pouvoir ouvrier armé, noyé dans le sang par l'armée.",
+      "sources": [{"ref": "wp-en-revolution-of-1934"}]
+    },
+    {
+      "id": "spanish-popular-front-comparable-to-french",
+      "from": "node:1936-popular-front-pact",
+      "to": "node:1934-popular-front",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les deux fronts populaires appliquent la ligne d'alliance avec les partis républicains bourgeois adoptée par l'Internationale communiste.",
+      "sources": [{"ref": "wp-en-popular-front-spain"}]
+    },
+    {
+      "id": "moscow-gold-reaction-to-non-intervention",
+      "from": "node:1936-moscow-gold",
+      "to": "node:1936-non-intervention-in-spain",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Privée d'armes par la non-intervention des démocraties, la République achète des armes soviétiques avec l'or de la Banque d'Espagne.",
+      "sources": [{"ref": "wp-en-moscow-gold"}]
+    },
+    {
+      "id": "may-days-leads-to-suppression-of-poum",
+      "from": "node:1937-may-days",
+      "to": "node:1937-suppression-of-the-poum",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Accusé d'avoir fomenté les Journées de Mai, le POUM est interdit six semaines plus tard.",
+      "sources": [{"ref": "wp-en-may-days"}]
+    },
+    {
+      "id": "poum-suppression-comparable-to-moscow-trials",
+      "from": "node:1937-suppression-of-the-poum",
+      "to": "node:1937-second-moscow-trial",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La campagne contre le POUM « trotskyste » et l'assassinat de Nin transposent en Espagne les méthodes des procès de Moscou et du NKVD.",
+      "sources": [{"ref": "wp-en-andreu-nin"}]
+    },
+    {
+      "id": "asturian-strike-leads-to-workers-commissions",
+      "from": "node:1962-asturian-miners-strike",
+      "to": "node:1964-rise-of-the-workers-commissions",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La « Huelgona » est la première action de masse des commissions ouvrières, qui s'étendent ensuite à tout le pays.",
+      "sources": [{"ref": "wp-en-workers-commissions"}]
+    },
+    {
+      "id": "strike-wave-1976-leads-to-suarez",
+      "from": "node:1976-strike-wave",
+      "to": "node:1976-suarez-appointed",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La vague de grèves rend impossible le continuisme d'Arias Navarro, que le roi remplace par Suárez pour réformer le régime de l'intérieur.",
+      "sources": [{"ref": "wp-en-spanish-transition-to-democracy"}]
+    },
+    {
+      "id": "atocha-massacre-leads-to-pce-legalisation",
+      "from": "node:1977-atocha-massacre",
+      "to": "node:1977-legalisation-of-the-pce",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La réponse disciplinée du PCE aux assassinats d'Atocha donne au gouvernement la marge politique pour le légaliser.",
+      "sources": [{"ref": "wp-en-1977-atocha-massacre"}]
+    },
+    {
+      "id": "iraq-protests-reaction-to-iraq-war",
+      "from": "node:2003-protests-against-the-iraq-war",
+      "to": "node:2003-iraq-war",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Les manifestations et la grève visent l'engagement du gouvernement Aznar aux côtés des États-Unis dans l'invasion de l'Irak.",
+      "sources": [{"ref": "wp-en-list-of-strikes-in-spain"}]
+    },
+    {
+      "id": "madrid-bombings-leads-to-zapatero",
+      "from": "node:2004-madrid-train-bombings",
+      "to": "node:2004-zapatero-government",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La gestion mensongère des attentats par Aznar provoque sa défaite électorale trois jours plus tard.",
+      "sources": [{"ref": "wp-en-2004-madrid-train-bombings"}]
+    },
+    {
+      "id": "global-crisis-causes-spanish-bubble-burst",
+      "from": "node:2007-global-financial-crisis",
+      "to": "node:2008-bursting-of-the-housing-bubble",
+      "type": "causes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "La crise financière mondiale tarit le crédit et fait éclater la bulle immobilière espagnole.",
+      "sources": [{"ref": "wp-en-2008-2014-spanish-financial-crisis"}]
+    },
+    {
+      "id": "crisis-causes-15-m",
+      "from": "node:2008-bursting-of-the-housing-bubble",
+      "to": "node:2011-15-m-movement",
+      "type": "causes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le chômage de masse, les expulsions et l'austérité imposée par les deux grands partis nourrissent le mouvement des Indignés.",
+      "sources": [{"ref": "wp-en-15-m-movement"}]
+    },
+    {
+      "id": "15-m-leads-to-podemos",
+      "from": "node:2011-15-m-movement",
+      "to": "node:2014-founding-of-podemos",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Podemos se présente comme la traduction électorale du mouvement des Indignés.",
+      "sources": [{"ref": "wp-en-podemos"}]
+    },
+    {
+      "id": "catalan-referendum-leads-to-article-155",
+      "from": "node:2017-catalan-independence-referendum",
+      "to": "node:2017-declaration-of-independence-and-article-155",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-24"},
+      "justification": "Le résultat du référendum sert de base à la déclaration d'indépendance, à laquelle l'État répond par l'article 155.",
+      "sources": [{"ref": "wp-en-2017-catalan-independence-referendum"}]
+    },
+    {
+      "id": "1820-riego-pronunciamiento-influences-1820-neapolitan-revolution",
+      "from": "node:1820-riego-pronunciamiento",
+      "to": "node:1820-neapolitan-revolution",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Les officiers napolitains se soulèvent sur le modèle de Cadix et réclament la constitution espagnole de 1812.",
+      "sources": [{"ref": "wp-en-carbonari"}]
+    },
+    {
+      "id": "1830-july-revolution-influences-1831-revolts-in-central-italy",
+      "from": "node:1830-july-revolution",
+      "to": "node:1831-revolts-in-central-italy",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "La révolution de Juillet encourage les conjurés de Modène et des Légations, qui espèrent un soutien français.",
+      "sources": [{"ref": "wp-en-carbonari"}]
+    },
+    {
+      "id": "1848-sicilian-revolution-comparable-to-1848-february-revolution",
+      "from": "node:1848-sicilian-revolution",
+      "to": "node:1848-february-revolution",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Palerme ouvre en janvier la vague révolutionnaire de 1848 que Paris généralise en février.",
+      "sources": [{"ref": "wp-en-revolutions-of-1848-in-the-italian-states"}]
+    },
+    {
+      "id": "1858-orsini-attempt-leads-to-1858-plombieres-agreement",
+      "from": "node:1858-orsini-attempt",
+      "to": "node:1858-plombieres-agreement",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "L'attentat et l'appel d'Orsini poussent Napoléon III à conclure l'alliance secrète avec Cavour.",
+      "sources": [{"ref": "wp-en-cavour"}]
+    },
+    {
+      "id": "1866-austro-prussian-war-leads-to-1866-third-war-of-independence",
+      "from": "node:1866-austro-prussian-war",
+      "to": "node:1866-third-war-of-independence",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "La victoire prussienne vaut à l'Italie, pourtant battue à Custoza et Lissa, l'annexion de la Vénétie.",
+      "sources": [{"ref": "wp-en-risorgimento"}]
+    },
+    {
+      "id": "1870-franco-prussian-war-causes-1870-capture-of-rome",
+      "from": "node:1870-franco-prussian-war",
+      "to": "node:1870-capture-of-rome",
+      "type": "causes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Le retrait de la garnison française et la chute de Napoléon III laissent Rome sans protecteur.",
+      "sources": [{"ref": "wp-en-risorgimento"}]
+    },
+    {
+      "id": "1872-rimini-conference-leads-to-1872-saint-imier-congress",
+      "from": "node:1872-rimini-conference",
+      "to": "node:1872-saint-imier-congress",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "La fédération italienne, en rupture avec le Conseil général, est l'une des forces du congrès antiautoritaire de Saint-Imier.",
+      "sources": [{"ref": "wp-en-anarchism-in-italy"}]
+    },
+    {
+      "id": "1898-bava-beccaris-massacre-causes-1900-assassination-of-umberto-i",
+      "from": "node:1898-bava-beccaris-massacre",
+      "to": "node:1900-assassination-of-umberto-i",
+      "type": "causes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Bresci déclare avoir voulu venger les morts de Milan et la décoration accordée par le roi à Bava Beccaris.",
+      "sources": [{"ref": "wp-en-bava-beccaris-massacre"}]
+    },
+    {
+      "id": "1891-rerum-novarum-influences-1919-founding-of-the-ppi",
+      "from": "node:1891-rerum-novarum",
+      "to": "node:1919-founding-of-the-ppi",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "La doctrine sociale de l'encyclique fonde le mouvement catholique organisé dont naît le Parti populaire.",
+      "sources": [{"ref": "wp-en-rerum-novarum"}, {"ref": "wp-en-1919-in-italy"}]
+    },
+    {
+      "id": "1917-seizure-of-power-influences-1918-biennio-rosso-and-rise-of-fascism",
+      "from": "node:1917-seizure-of-power",
+      "to": "node:1918-biennio-rosso-and-rise-of-fascism",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "La révolution d'Octobre sert de modèle aux conseils d'usine et au mot d'ordre « faire comme en Russie » du biennio rosso.",
+      "sources": [{"ref": "wp-en-biennio-rosso"}, {"ref": "wp-en-1919-in-italy"}]
+    },
+    {
+      "id": "1919-founding-of-l-ordine-nuovo-influences-1920-turin-factory-council-strike",
+      "from": "node:1919-founding-of-l-ordine-nuovo",
+      "to": "node:1920-turin-factory-council-strike",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "La revue de Gramsci théorise les conseils d'usine pour lesquels les métallos turinois font grève en avril 1920.",
+      "sources": [{"ref": "wp-en-antonio-gramsci"}]
+    },
+    {
+      "id": "1920-occupation-of-the-factories-leads-to-1921-livorno-congress",
+      "from": "node:1920-occupation-of-the-factories",
+      "to": "node:1921-livorno-congress",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Le refus du PSI et de la CGdL de transformer l'occupation en révolution précipite la scission communiste de Livourne.",
+      "sources": [{"ref": "wp-en-biennio-rosso"}, {"ref": "wp-en-i-congress-of-the-communist-party-of-italy"}]
+    },
+    {
+      "id": "1920-palazzo-d-accursio-massacre-reaction-to-occupation-of-the-factories",
+      "from": "node:1920-palazzo-d-accursio-massacre",
+      "to": "node:1920-occupation-of-the-factories",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Après la peur de 1920, agrariens et industriels financent l'offensive squadriste contre les municipalités et les ligues rouges.",
+      "sources": [{"ref": "wp-en-1920-in-italy"}, {"ref": "wp-en-biennio-rosso"}]
+    },
+    {
+      "id": "1922-march-on-rome-influences-1923-beer-hall-putsch",
+      "from": "node:1922-march-on-rome",
+      "to": "node:1923-beer-hall-putsch",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Hitler prend la marche sur Rome pour modèle de sa tentative de marche sur Berlin depuis Munich."
+    },
+    {
+      "id": "1924-murder-of-matteotti-leads-to-1925-mussolini-speech-of-3-january",
+      "from": "node:1924-murder-of-matteotti",
+      "to": "node:1925-mussolini-speech-of-3-january",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Sorti de la crise Matteotti, Mussolini revendique la violence et passe à la dictature ouverte.",
+      "sources": [{"ref": "wp-en-matteotti-crisis"}]
+    },
+    {
+      "id": "1935-second-italo-ethiopian-war-references-1896-battle-of-adwa",
+      "from": "node:1935-second-italo-ethiopian-war",
+      "to": "node:1896-battle-of-adwa",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "La propagande fasciste présente la conquête de l'Éthiopie comme la revanche d'Adoua.",
+      "sources": [{"ref": "wp-en-second-italo-ethiopian-war"}]
+    },
+    {
+      "id": "1943-march-strikes-leads-to-1943-fall-of-mussolini",
+      "from": "node:1943-march-strikes",
+      "to": "node:1943-fall-of-mussolini",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Les grèves de mars montrent la fin du consentement ouvrier et poussent les élites à préparer l'éviction de Mussolini.",
+      "sources": [{"ref": "jacobin-strike-against-fear-1943"}]
+    },
+    {
+      "id": "1960-tambroni-crisis-leads-to-1963-first-centre-left-government",
+      "from": "node:1960-tambroni-crisis",
+      "to": "node:1963-first-centre-left-government",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "L'échec de l'ouverture à l'extrême droite oblige la DC à se tourner vers les socialistes.",
+      "sources": [{"ref": "wp-en-tambroni-government"}, {"ref": "wp-en-italian-socialist-party"}]
+    },
+    {
+      "id": "1969-piazza-fontana-bombing-reaction-to-1969-hot-autumn",
+      "from": "node:1969-piazza-fontana-bombing",
+      "to": "node:1969-hot-autumn",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "L'attentat ouvre la « stratégie de la tension » au moment où culmine la vague de grèves de l'Automne chaud.",
+      "sources": [{"ref": "wp-en-years-of-lead-italy"}, {"ref": "wp-en-hot-autumn"}]
+    },
+    {
+      "id": "2014-jobs-act-opposes-1970-workers-statute",
+      "from": "node:2014-jobs-act",
+      "to": "node:1970-workers-statute",
+      "type": "opposes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Le Jobs Act supprime pour les nouveaux contrats la réintégration prévue par l'article 18 du Statut.",
+      "sources": [{"ref": "wp-en-jobs-act-italy"}]
+    },
+    {
+      "id": "2002-article-18-mobilisation-comparable-to-2014-jobs-act",
+      "from": "node:2002-article-18-mobilisation",
+      "to": "node:2014-jobs-act",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Même enjeu, l'article 18 : la mobilisation de 2002 fait reculer Berlusconi, celle de 2014 n'arrête pas Renzi.",
+      "sources": [{"ref": "eurofound-cgil-demonstration-2002"}, {"ref": "wp-en-jobs-act-italy"}]
+    },
+    {
+      "id": "1986-maxi-trial-leads-to-1992-capaci-bombing",
+      "from": "node:1986-maxi-trial",
+      "to": "node:1992-capaci-bombing",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "La confirmation définitive des condamnations en janvier 1992 précède la vengeance de Cosa nostra contre Falcone.",
+      "sources": [{"ref": "wp-en-maxi-trial"}]
+    },
+    {
+      "id": "1989-fall-of-the-berlin-wall-causes-1989-bolognina-turn",
+      "from": "node:1989-fall-of-the-berlin-wall",
+      "to": "node:1989-bolognina-turn",
+      "type": "causes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Trois jours après la chute du mur, Occhetto annonce la transformation du PCI.",
+      "sources": [{"ref": "wp-en-democratic-party-of-the-left"}, {"ref": "wp-en-italian-communist-party"}]
+    },
+    {
+      "id": "1992-mani-pulite-leads-to-1994-founding-of-forza-italia",
+      "from": "node:1992-mani-pulite",
+      "to": "node:1994-founding-of-forza-italia",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "L'effondrement de la DC et du PSI laisse un vide que Berlusconi occupe à droite.",
+      "sources": [{"ref": "wp-en-mani-pulite"}, {"ref": "wp-en-1994-italian-general-election"}]
+    },
+    {
+      "id": "1778-treaty-of-alliance-with-france-causes-1789-french-revolution",
+      "from": "node:1778-treaty-of-alliance-with-france",
+      "to": "node:1789-french-revolution",
+      "type": "causes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "L'aide militaire aux insurgés américains creuse la dette de la monarchie française, dont la faillite conduit à la convocation des États généraux."
+    },
+    {
+      "id": "1775-american-revolutionary-war-influences-1789-french-revolution",
+      "from": "node:1775-american-revolutionary-war",
+      "to": "node:1789-french-revolution",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "La guerre d'indépendance et la Déclaration de 1776, auxquelles prennent part La Fayette et d'autres officiers français, nourrissent les idées des révolutionnaires de 1789."
+    },
+    {
+      "id": "1804-haitian-independence-causes-1803-louisiana-purchase",
+      "from": "node:1804-haitian-independence",
+      "to": "node:1803-louisiana-purchase",
+      "type": "causes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "L'échec de l'armée française à Saint-Domingue décide Napoléon à renoncer à la Louisiane et à la vendre."
+    },
+    {
+      "id": "1854-kansas-nebraska-act-leads-to-1854-republican-party-founding",
+      "from": "node:1854-kansas-nebraska-act",
+      "to": "node:1854-republican-party-founding",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "L'agitation contre le projet de loi Kansas-Nebraska provoque la réunion de Ripon qui fonde le Parti républicain.",
+      "sources": [{"ref": "constitutingamerica-republican-party-founded"}]
+    },
+    {
+      "id": "1857-dred-scott-decision-opposes-1820-missouri-compromise",
+      "from": "node:1857-dred-scott-decision",
+      "to": "node:1820-missouri-compromise",
+      "type": "opposes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "L'arrêt Dred Scott déclare inconstitutionnelle l'interdiction de l'esclavage au nord de 36°30' posée par le compromis du Missouri.",
+      "sources": [{"ref": "cwwb-dred-scott"}]
+    },
+    {
+      "id": "1886-haymarket-affair-influences-1889-founding-of-the-second-international",
+      "from": "node:1886-haymarket-affair",
+      "to": "node:1889-founding-of-the-second-international",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Le congrès fondateur de la IIe Internationale choisit le 1er mai comme journée internationale de lutte en souvenir des grèves de 1886 et des martyrs de Chicago."
+    },
+    {
+      "id": "1886-may-day-eight-hour-strikes-leads-to-1890-first-may-day",
+      "from": "node:1886-may-day-eight-hour-strikes",
+      "to": "node:1890-first-may-day",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Le premier 1er Mai international de 1890 reprend la date de la grève américaine pour les huit heures de 1886."
+    },
+    {
+      "id": "1864-iwma-address-to-lincoln-references-1861-american-civil-war",
+      "from": "node:1864-iwma-address-to-lincoln",
+      "to": "node:1861-american-civil-war",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Marx présente la guerre de Sécession comme un combat de la classe ouvrière contre l'esclavage.",
+      "sources": [{"ref": "wp-en-address-iwma-lincoln"}]
+    },
+    {
+      "id": "1877-great-railroad-strike-comparable-to-1871-paris-commune",
+      "from": "node:1877-great-railroad-strike",
+      "to": "node:1871-paris-commune",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Six ans après la Commune, la presse américaine compare la prise de Saint-Louis et de Pittsburgh par les grévistes à une « Commune » ouvrière."
+    },
+    {
+      "id": "1898-spanish-american-war-leads-to-1899-philippine-american-war",
+      "from": "node:1898-spanish-american-war",
+      "to": "node:1899-philippine-american-war",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Le traité de Paris de décembre 1898 cède les Philippines aux États-Unis, ce qui provoque le soulèvement philippin contre l'annexion.",
+      "sources": [{"ref": "zinn-peoples-history", "chapter": "12. The Empire and the People"}]
+    },
+    {
+      "id": "1896-philippine-revolution-leads-to-1899-philippine-american-war",
+      "from": "node:1896-philippine-revolution",
+      "to": "node:1899-philippine-american-war",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Les révolutionnaires philippins qui avaient combattu l'Espagne retournent leurs armes contre l'occupant américain.",
+      "sources": [{"ref": "zinn-peoples-history", "chapter": "12. The Empire and the People"}]
+    },
+    {
+      "id": "1915-the-birth-of-a-nation-influences-1915-revival-of-the-ku-klux-klan",
+      "from": "node:1915-the-birth-of-a-nation",
+      "to": "node:1915-revival-of-the-ku-klux-klan",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Le film de Griffith, qui glorifie le premier Klan, inspire sa refondation et lui fournit robes blanches et croix enflammées.",
+      "sources": [{"ref": "wp-en-ku-klux-klan"}]
+    },
+    {
+      "id": "1919-founding-of-the-communist-party-reaction-to-1919-founding-of-the-comintern",
+      "from": "node:1919-founding-of-the-communist-party",
+      "to": "node:1919-founding-of-the-comintern",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Les communistes américains se constituent en partis pour adhérer à l'Internationale communiste fondée en mars 1919."
+    },
+    {
+      "id": "1934-west-coast-waterfront-strike-comparable-to-1934-minneapolis-teamsters-strike",
+      "from": "node:1934-west-coast-waterfront-strike",
+      "to": "node:1934-minneapolis-teamsters-strike",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Avec Toledo, les trois grandes grèves de 1934, dirigées par des militants révolutionnaires, ouvrent la voie au syndicalisme d'industrie du CIO.",
+      "sources": [{"ref": "wp-en-auto-lite-strike-1934"}]
+    },
+    {
+      "id": "1936-flint-sit-down-strike-comparable-to-1936-june-strikes",
+      "from": "node:1936-flint-sit-down-strike",
+      "to": "node:1936-june-strikes",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Les occupations d'usines de Flint suivent de quelques mois les grèves avec occupation de juin 1936 en France."
+    },
+    {
+      "id": "1928-expulsion-of-cannon-and-founding-of-the-cla-reaction-to-1927-expulsion-of-trotsky-and-zinoviev",
+      "from": "node:1928-expulsion-of-cannon-and-founding-of-the-cla",
+      "to": "node:1927-expulsion-of-trotsky-and-zinoviev",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Cannon et ses camarades sont exclus pour avoir pris le parti de l'Opposition de gauche de Trotski, exclue du parti soviétique un an plus tôt.",
+      "sources": [{"ref": "wp-en-james-p-cannon"}]
+    },
+    {
+      "id": "1959-cuban-revolution-leads-to-1961-bay-of-pigs-invasion",
+      "from": "node:1959-cuban-revolution",
+      "to": "node:1961-bay-of-pigs-invasion",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Washington organise l'invasion pour renverser le gouvernement révolutionnaire après les nationalisations de biens américains.",
+      "sources": [{"ref": "zinn-peoples-history", "chapter": "16. A People's War?"}]
+    },
+    {
+      "id": "1961-bay-of-pigs-invasion-leads-to-1962-cuban-missile-crisis",
+      "from": "node:1961-bay-of-pigs-invasion",
+      "to": "node:1962-cuban-missile-crisis",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Pour se protéger d'une nouvelle invasion américaine, Cuba accepte l'installation de missiles soviétiques."
+    },
+    {
+      "id": "1955-montgomery-bus-boycott-influences-1960-greensboro-sit-ins",
+      "from": "node:1955-montgomery-bus-boycott",
+      "to": "node:1960-greensboro-sit-ins",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "L'action directe de masse de Montgomery inspire les sit-in des étudiants noirs qui lancent le SNCC.",
+      "sources": [{"ref": "zinn-peoples-history", "chapter": "17. \"Or Does It Explode?\""}]
+    },
+    {
+      "id": "1965-watts-uprising-continues-1967-urban-rebellions",
+      "from": "node:1965-watts-uprising",
+      "to": "node:1967-urban-rebellions",
+      "type": "continues",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Watts ouvre une série de révoltes des ghettos du Nord qui culmine à Newark et Detroit en 1967.",
+      "sources": [{"ref": "zinn-peoples-history", "chapter": "17. \"Or Does It Explode?\""}]
+    },
+    {
+      "id": "1968-chicago-democratic-convention-protests-comparable-to-1968-may-68",
+      "from": "node:1968-chicago-democratic-convention-protests",
+      "to": "node:1968-may-68",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Le même été, les mouvements étudiants et antiguerre affrontent la police à Chicago comme à Paris."
+    },
+    {
+      "id": "1969-occupation-of-alcatraz-leads-to-1973-wounded-knee-occupation",
+      "from": "node:1969-occupation-of-alcatraz",
+      "to": "node:1973-wounded-knee-occupation",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "L'occupation d'Alcatraz lance le mouvement Red Power qui mène à celle de Wounded Knee.",
+      "sources": [{"ref": "zinn-peoples-history", "chapter": "19. Surprises"}]
+    },
+    {
+      "id": "1973-wounded-knee-occupation-references-1890-wounded-knee-massacre",
+      "from": "node:1973-wounded-knee-occupation",
+      "to": "node:1890-wounded-knee-massacre",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Les occupants choisissent le lieu du massacre de 1890 pour rappeler les traités violés.",
+      "sources": [{"ref": "zinn-peoples-history", "chapter": "19. Surprises"}]
+    },
+    {
+      "id": "2013-founding-of-black-lives-matter-leads-to-2020-george-floyd-uprising",
+      "from": "node:2013-founding-of-black-lives-matter",
+      "to": "node:2020-george-floyd-uprising",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Le réseau Black Lives Matter, né en 2013, donne son mot d'ordre au soulèvement de 2020.",
+      "sources": [{"ref": "wp-en-george-floyd-protests"}]
+    },
+    {
+      "id": "2026-minneapolis-ice-killings-and-general-strike-leads-to-2026-dhs-funding-shutdown",
+      "from": "node:2026-minneapolis-ice-killings-and-general-strike",
+      "to": "node:2026-dhs-funding-shutdown",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Les meurtres de Minneapolis poussent les démocrates à refuser le financement de la police de l'immigration.",
+      "sources": [{"ref": "wp-en-timeline-trump-2026-q1"}]
+    },
+    {
+      "id": "2026-iran-war-causes-2026-war-energy-crisis",
+      "from": "node:2026-iran-war",
+      "to": "node:2026-war-energy-crisis",
+      "type": "causes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "La fermeture du détroit d'Ormuz pendant la guerre fait flamber le pétrole et l'inflation.",
+      "sources": [{"ref": "wp-en-timeline-trump-2026-q1"}]
+    },
+    {
+      "id": "2006-great-american-boycott-references-1886-may-day-eight-hour-strikes",
+      "from": "node:2006-great-american-boycott",
+      "to": "node:1886-may-day-eight-hour-strikes",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Les immigrés renouent avec le 1er Mai, journée née de la grève américaine de 1886."
+    },
+    {
+      "id": "1919-may-fourth-movement-reaction-to-1919-treaty-of-versailles",
+      "from": "node:1919-may-fourth-movement",
+      "to": "node:1919-treaty-of-versailles",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Le mouvement naît du transfert au Japon des droits allemands au Shandong décidé à Versailles."
+    },
+    {
+      "id": "1905-anti-american-boycott-reaction-to-1882-chinese-exclusion-act",
+      "from": "node:1905-anti-american-boycott",
+      "to": "node:1882-chinese-exclusion-act",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Le boycott proteste contre l'exclusion des immigrés chinois aux États-Unis."
+    },
+    {
+      "id": "1925-may-thirtieth-incident-leads-to-1925-canton-hong-kong-strike",
+      "from": "node:1925-may-thirtieth-incident",
+      "to": "node:1925-canton-hong-kong-strike",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "La grève de Canton-Hong Kong est lancée en solidarité avec les victimes du 30 Mai."
+    },
+    {
+      "id": "1911-railway-protection-movement-leads-to-1911-wuchang-uprising",
+      "from": "node:1911-railway-protection-movement",
+      "to": "node:1911-wuchang-uprising",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "L'envoi de troupes du Hubei contre l'agitation du Sichuan affaiblit la garnison de Wuchang."
+    },
+    {
+      "id": "1931-mukden-incident-leads-to-1932-founding-of-manchukuo",
+      "from": "node:1931-mukden-incident",
+      "to": "node:1932-founding-of-manchukuo",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "L'occupation de la Mandchourie après l'incident débouche sur l'État fantoche."
+    },
+    {
+      "id": "1936-xian-incident-leads-to-1937-second-united-front",
+      "from": "node:1936-xian-incident",
+      "to": "node:1937-second-united-front",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "La séquestration de Tchang Kaï-chek le contraint à négocier le front uni contre le Japon."
+    },
+    {
+      "id": "1958-great-leap-forward-causes-1959-great-chinese-famine",
+      "from": "node:1958-great-leap-forward",
+      "to": "node:1959-great-chinese-famine",
+      "type": "causes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Les réquisitions fondées sur des récoltes surestimées et la désorganisation du Grand Bond provoquent la famine."
+    },
+    {
+      "id": "2020-hong-kong-national-security-law-reaction-to-2019-hong-kong-protests",
+      "from": "node:2020-hong-kong-national-security-law",
+      "to": "node:2019-hong-kong-protests",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Pékin impose la loi pour mettre fin au mouvement de 2019."
+    },
+    {
+      "id": "1938-tragedy-of-the-chinese-revolution-references-1927-shanghai-massacre",
+      "from": "node:1938-tragedy-of-the-chinese-revolution",
+      "to": "node:1927-shanghai-massacre",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Le livre d'Isaacs analyse le coup du 12 avril 1927 comme le tournant de la défaite."
+    },
+    {
+      "id": "1967-shanghai-peoples-commune-references-1871-paris-commune",
+      "from": "node:1967-shanghai-peoples-commune",
+      "to": "node:1871-paris-commune",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Les rebelles de Shanghai prennent explicitement la Commune de Paris pour modèle."
+    },
+    {
+      "id": "1968-whither-china-references-1871-paris-commune",
+      "from": "node:1968-whither-china",
+      "to": "node:1871-paris-commune",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-25"},
+      "justification": "Le texte du Shengwulian réclame une commune de Chine sur le modèle de la Commune de Paris."
+    },
+    {
+      "id": "1848-february-revolution-influences-1848-vienna-march-revolution",
+      "from": "node:1848-february-revolution",
+      "to": "node:1848-vienna-march-revolution",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-27"},
+      "justification": "La nouvelle de la révolution parisienne déclenche l'agitation des étudiants et ouvriers viennois."
+    },
+    {
+      "id": "1905-russian-revolution-influences-1905-vienna-suffrage-demonstration",
+      "from": "node:1905-russian-revolution",
+      "to": "node:1905-vienna-suffrage-demonstration",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-27"},
+      "justification": "La grève générale russe sert d'exemple à la social-démocratie autrichienne pour arracher le suffrage universel."
+    },
+    {
+      "id": "1905-russian-revolution-influences-1905-red-friday",
+      "from": "node:1905-russian-revolution",
+      "to": "node:1905-red-friday",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-27"},
+      "justification": "La révolution russe stimule les manifestations pour le suffrage universel à Budapest."
+    },
+    {
+      "id": "1914-assassination-of-franz-ferdinand-leads-to-1914-first-world-war",
+      "from": "node:1914-assassination-of-franz-ferdinand",
+      "to": "node:1914-first-world-war",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-27"},
+      "justification": "L'attentat sert de prétexte à l'ultimatum autrichien à la Serbie, point de départ de la guerre."
+    },
+    {
+      "id": "1917-seizure-of-power-influences-1918-january-strike-in-austria-hungary",
+      "from": "node:1917-seizure-of-power",
+      "to": "node:1918-january-strike-in-austria-hungary",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-27"},
+      "justification": "La prise du pouvoir bolchevique et les pourparlers de Brest-Litovsk poussent les ouvriers à exiger la paix."
+    },
+    {
+      "id": "1918-january-strike-in-austria-hungary-influences-1918-january-strike",
+      "from": "node:1918-january-strike-in-austria-hungary",
+      "to": "node:1918-january-strike",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-27"},
+      "justification": "La grève austro-hongroise précède d'une semaine la grève de janvier allemande et lui sert d'exemple."
+    },
+    {
+      "id": "1917-seizure-of-power-influences-1919-hungarian-soviet-republic",
+      "from": "node:1917-seizure-of-power",
+      "to": "node:1919-hungarian-soviet-republic",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-27"},
+      "justification": "Les fondateurs du parti communiste hongrois se sont formés en Russie soviétique et prennent Octobre pour modèle."
+    },
+    {
+      "id": "1919-hungarian-soviet-republic-comparable-to-1919-bavarian-soviet-republic",
+      "from": "node:1919-hungarian-soviet-republic",
+      "to": "node:1919-bavarian-soviet-republic",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-27"},
+      "justification": "Deux républiques des conseils proclamées au printemps 1919 et écrasées en quelques semaines ou mois."
+    },
+    {
+      "id": "1919-hungarian-soviet-republic-influences-1919-communist-putsch-attempts-in-vienna",
+      "from": "node:1919-hungarian-soviet-republic",
+      "to": "node:1919-communist-putsch-attempts-in-vienna",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-27"},
+      "justification": "Les communistes viennois, soutenus par Budapest, tentent d'étendre la révolution des conseils à l'Autriche."
+    },
+    {
+      "id": "1927-schattendorf-shooting-leads-to-1927-july-revolt",
+      "from": "node:1927-schattendorf-shooting",
+      "to": "node:1927-july-revolt",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-27"},
+      "justification": "L'acquittement des tireurs de Schattendorf provoque le soulèvement spontané du 15 juillet."
+    },
+    {
+      "id": "1933-dollfuss-suspends-parliament-leads-to-1934-austrian-civil-war",
+      "from": "node:1933-dollfuss-suspends-parliament",
+      "to": "node:1934-austrian-civil-war",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-27"},
+      "justification": "La dictature par décrets et l'interdiction du Schutzbund acculent les ouvriers à l'insurrection défensive de février."
+    },
+    {
+      "id": "1934-austrian-civil-war-comparable-to-1934-october-revolution",
+      "from": "node:1934-austrian-civil-war",
+      "to": "node:1934-october-revolution",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-27"},
+      "justification": "Deux insurrections ouvrières armées de 1934 contre la menace fasciste, écrasées par l'armée."
+    },
+    {
+      "id": "1989-opening-of-the-austro-hungarian-border-leads-to-1989-fall-of-the-berlin-wall",
+      "from": "node:1989-opening-of-the-austro-hungarian-border",
+      "to": "node:1989-fall-of-the-berlin-wall",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-27"},
+      "justification": "La brèche hongroise permet l'exode massif des Allemands de l'Est et précipite la chute du Mur."
+    },
+    {
+      "id": "1848-vienna-october-uprising-reaction-to-1848-jelacic-invasion-and-battle-of-pakozd",
+      "from": "node:1848-vienna-october-uprising",
+      "to": "node:1848-jelacic-invasion-and-battle-of-pakozd",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-27"},
+      "justification": "Les insurgés viennois veulent empêcher l'envoi de renforts contre la Hongrie après l'échec de Jelačić."
+    },
+    {
+      "id": "1893-the-weavers-premiere-references-1844-silesian-weavers-uprising",
+      "from": "node:1893-the-weavers-premiere",
+      "to": "node:1844-silesian-weavers-uprising",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-27"},
+      "justification": "La pièce de Hauptmann met en scène la révolte des tisserands silésiens de 1844."
+    },
+    {
+      "id": "1920-storming-of-the-winter-palace-mass-spectacle-references-1917-capture-of-the-winter-palace",
+      "from": "node:1920-storming-of-the-winter-palace-mass-spectacle",
+      "to": "node:1917-capture-of-the-winter-palace",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-27"},
+      "justification": "Le spectacle rejoue sur les lieux mêmes la prise du palais d'Hiver d'octobre 1917."
+    },
+    {
+      "id": "2003-good-bye-lenin-references-1989-fall-of-the-berlin-wall",
+      "from": "node:2003-good-bye-lenin",
+      "to": "node:1989-fall-of-the-berlin-wall",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-27"},
+      "justification": "Le récit du film commence avec la chute du Mur et la fin de la RDA."
+    },
+    {
+      "id": "2006-the-wind-that-shakes-the-barley-references-1919-irish-war-of-independence",
+      "from": "node:2006-the-wind-that-shakes-the-barley",
+      "to": "node:1919-irish-war-of-independence",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-27"},
+      "justification": "Le film met en scène la guerre d'indépendance irlandaise et la guerre civile qui la suit."
+    },
+    {
+      "id": "2020-toppling-of-the-colston-statue-reaction-to-2020-george-floyd-uprising",
+      "from": "node:2020-toppling-of-the-colston-statue",
+      "to": "node:2020-george-floyd-uprising",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-27"},
+      "justification": "La statue est abattue lors des manifestations qui suivent le meurtre de George Floyd."
+    },
+    {
+      "id": "1960-gods-bits-of-wood-references-1947-dakar-niger-railway-strike",
+      "from": "node:1960-gods-bits-of-wood",
+      "to": "node:1947-dakar-niger-railway-strike",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-28"},
+      "justification": "Le roman de Sembène raconte la grève des cheminots du Dakar–Niger."
+    },
+    {
+      "id": "1960-sharpeville-massacre-leads-to-1961-founding-of-umkhonto-we-sizwe",
+      "from": "node:1960-sharpeville-massacre",
+      "to": "node:1961-founding-of-umkhonto-we-sizwe",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-28"},
+      "justification": "Après Sharpeville et l'interdiction de l'ANC, la direction de l'ANC choisit la lutte armée."
+    },
+    {
+      "id": "1973-durban-strikes-leads-to-1985-founding-of-cosatu",
+      "from": "node:1973-durban-strikes",
+      "to": "node:1985-founding-of-cosatu",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-28"},
+      "justification": "Les syndicats noirs indépendants nés des grèves de 1973 fondent le COSATU."
+    },
+    {
+      "id": "2008-gafsa-mining-basin-revolt-leads-to-2010-tunisian-revolution",
+      "from": "node:2008-gafsa-mining-basin-revolt",
+      "to": "node:2010-tunisian-revolution",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-28"},
+      "justification": "La révolte du bassin minier prépare les réseaux syndicaux et militants mobilisés en 2010."
+    },
+    {
+      "id": "2010-tunisian-revolution-influences-2011-egyptian-revolution",
+      "from": "node:2010-tunisian-revolution",
+      "to": "node:2011-egyptian-revolution",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-28"},
+      "justification": "La chute de Ben Ali le 14 janvier encourage l'appel à manifester du 25 janvier en Égypte."
+    },
+    {
+      "id": "1961-portuguese-colonial-war-leads-to-1974-portuguese-decolonisation",
+      "from": "node:1961-portuguese-colonial-war",
+      "to": "node:1974-portuguese-decolonisation",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-28"},
+      "justification": "L'enlisement de la guerre coloniale provoque la révolution des Œillets puis les indépendances."
+    },
+    {
+      "id": "1968-may-68-in-senegal-comparable-to-1968-may-68",
+      "from": "node:1968-may-68-in-senegal",
+      "to": "node:1968-may-68",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-28"},
+      "justification": "Grève étudiante devenue grève générale, contemporaine du Mai français."
+    },
+    {
+      "id": "2018-sudanese-revolution-leads-to-2023-sudanese-civil-war",
+      "from": "node:2018-sudanese-revolution",
+      "to": "node:2023-sudanese-civil-war",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-28"},
+      "justification": "L'armée et les RSF, qui ont confisqué la transition issue de la révolution, finissent par s'affronter."
+    },
+    {
+      "id": "1804-haitian-independence-influences-1808-spanish-american-wars-of-independence",
+      "from": "node:1804-haitian-independence",
+      "to": "node:1808-spanish-american-wars-of-independence",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-30"},
+      "justification": "Haïti accueille et arme Bolívar en 1816 en échange de la promesse d'abolir l'esclavage."
+    },
+    {
+      "id": "1954-guatemalan-coup-reaction-to-1952-decree-900",
+      "from": "node:1954-guatemalan-coup",
+      "to": "node:1952-decree-900",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-30"},
+      "justification": "Le coup organisé par la CIA suit l'expropriation des terres en friche de la United Fruit."
+    },
+    {
+      "id": "1928-banana-massacre-references-1899-founding-of-the-united-fruit-company",
+      "from": "node:1928-banana-massacre",
+      "to": "node:1899-founding-of-the-united-fruit-company",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-30"},
+      "justification": "Les grévistes massacrés travaillaient pour la United Fruit, qui avait réclamé l'intervention de l'armée."
+    },
+    {
+      "id": "1973-chilean-coup-leads-to-1975-chicago-boys-shock-therapy",
+      "from": "node:1973-chilean-coup",
+      "to": "node:1975-chicago-boys-shock-therapy",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-30"},
+      "justification": "La dictature issue du coup applique le programme néolibéral des économistes formés à Chicago."
+    },
+    {
+      "id": "1982-latin-american-debt-crisis-leads-to-1989-caracazo",
+      "from": "node:1982-latin-american-debt-crisis",
+      "to": "node:1989-caracazo",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-30"},
+      "justification": "Le plan d'ajustement imposé au Venezuela pour honorer sa dette déclenche la révolte."
+    },
+    {
+      "id": "1989-caracazo-leads-to-1992-chavez-coup-attempt",
+      "from": "node:1989-caracazo",
+      "to": "node:1992-chavez-coup-attempt",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-30"},
+      "justification": "Les militaires de Chávez invoquent le massacre du Caracazo pour justifier leur soulèvement."
+    },
+    {
+      "id": "1994-zapatista-uprising-reaction-to-1994-nafta",
+      "from": "node:1994-zapatista-uprising",
+      "to": "node:1994-nafta",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-30"},
+      "justification": "L'EZLN choisit le jour d'entrée en vigueur de l'ALENA, qu'elle dénonce comme un arrêt de mort pour les paysans indiens."
+    },
+    {
+      "id": "1979-salvadoran-civil-war-references-1932-salvadoran-peasant-uprising",
+      "from": "node:1979-salvadoran-civil-war",
+      "to": "node:1932-salvadoran-peasant-uprising",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-30"},
+      "justification": "La guérilla prend le nom de Farabundo Martí, fusillé lors de la répression de 1932."
+    },
+    {
+      "id": "1979-sandinista-revolution-references-1927-sandino-rebellion",
+      "from": "node:1979-sandinista-revolution",
+      "to": "node:1927-sandino-rebellion",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-30"},
+      "justification": "Le FSLN prend le nom de Sandino et se réclame de sa guerre contre l'occupation américaine."
+    },
+    {
+      "id": "1971-bolivian-popular-assembly-continues-1946-pulacayo-theses",
+      "from": "node:1971-bolivian-popular-assembly",
+      "to": "node:1946-pulacayo-theses",
+      "type": "continues",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-30"},
+      "justification": "L'Assemblée populaire reprend la perspective d'un pouvoir ouvrier formulée par les mineurs à Pulacayo."
+    },
+    {
+      "id": "2003-bolivian-gas-war-leads-to-2005-election-of-evo-morales",
+      "from": "node:2003-bolivian-gas-war",
+      "to": "node:2005-election-of-evo-morales",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-30"},
+      "justification": "Les soulèvements de 2000 à 2005 renversent deux présidents et portent Morales au pouvoir."
+    },
+    {
+      "id": "1945-october-17-leads-to-1946-first-peronist-government",
+      "from": "node:1945-october-17",
+      "to": "node:1946-first-peronist-government",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-30"},
+      "justification": "La mobilisation ouvrière qui libère Perón lui ouvre la victoire électorale de février 1946."
+    },
+    {
+      "id": "1917-mexican-constitution-leads-to-1938-mexican-oil-expropriation",
+      "from": "node:1917-mexican-constitution",
+      "to": "node:1938-mexican-oil-expropriation",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-30"},
+      "justification": "Cárdenas applique l'article 27 de la Constitution de 1917 sur la propriété nationale du sous-sol."
+    },
+    {
+      "id": "dependency-theory-comparable-to-neo-colonialism",
+      "from": "idea:dependency-theory",
+      "to": "idea:neo-colonialism",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-30"},
+      "justification": "Deux analyses de la domination d'États indépendants par le capital impérialiste, nées en Amérique latine et en Afrique."
+    },
+    {
+      "id": "dependency-theory-opposes-developmentalism",
+      "from": "idea:dependency-theory",
+      "to": "idea:developmentalism",
+      "type": "opposes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-30"},
+      "justification": "La théorie de la dépendance naît de la critique de l'industrialisation nationale prônée par la CEPAL."
+    },
+    {
+      "id": "foquism-opposes-vanguard-party",
+      "from": "idea:foquism",
+      "to": "idea:vanguard-party",
+      "type": "opposes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-10-30"},
+      "justification": "Debray fait du foyer de guérilla le substitut du parti d'avant-garde."
+    }
+  ]
+}

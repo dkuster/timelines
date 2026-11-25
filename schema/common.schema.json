@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Types communs de la base de timelines",
+  "$defs": {
+    "slug": {
+      "description": "Identifiant en anglais (dénomination anglaise consacrée) : minuscules, chiffres et tirets, sans accents.",
+      "examples": ["lenin", "rsdlp", "saint-petersburg", "1905-bloody-sunday", "russia"],
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "ref": {
+      "description": "Référence préfixée vers une entité de n'importe quelle collection.",
+      "examples": ["node:1915-zimmerwald", "person:lenin", "place:bern", "idea:permanent-revolution"],
+      "type": "string",
+      "pattern": "^(node|person|place|org|work|idea|source|media):[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "status": {
+      "description": "draft = à relire ; final = relu et vérifié ; disabled = écarté mais conservé. Absent = draft.",
+      "enum": ["draft", "final", "disabled"]
+    },
+    "langTag": {
+      "description": "Étiquette de langue BCP 47 simplifiée : fr, de, ru, ru-Latn, pt-BR.",
+      "type": "string",
+      "pattern": "^[a-z]{2,3}(-[A-Z][a-z]{3})?(-[A-Z]{2})?$"
+    },
+    "localizedText": {
+      "description": "Un texte par langue. orig = langue originale ; draft = langues dont le texte n'est pas encore relu.",
+      "type": "object",
+      "properties": {
+        "orig": { "$ref": "#/$defs/langTag" },
+        "draft": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/langTag" },
+          "uniqueItems": true
+        }
+      },
+      "patternProperties": {
+        "^[a-z]{2,3}(-[A-Z][a-z]{3})?(-[A-Z]{2})?$": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false,
+      "minProperties": 1
+    },
+    "dateValue": {
+      "description": "Date grégorienne ; la précision se lit dans la forme (YYYY, YYYY-MM, YYYY-MM-DD).",
+      "type": "object",
+      "properties": {
+        "date": { "type": "string", "pattern": "^-?[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$" },
+        "qualifier": { "enum": ["circa", "before", "after"] },
+        "original": { "type": "string", "minLength": 1 },
+        "calendar": { "enum": ["julian", "french_republican"] },
+        "display": { "type": "string", "minLength": 1 }
+      },
+      "required": ["date"],
+      "dependentRequired": {
+        "original": ["calendar"],
+        "calendar": ["original"]
+      },
+      "additionalProperties": false
+    },
+    "sourceRef": {
+      "type": "object",
+      "properties": {
+        "ref": { "$ref": "#/$defs/slug" },
+        "chapter": { "type": "string" },
+        "page": { "type": ["string", "integer"] },
+        "note": { "type": "string" }
+      },
+      "required": ["ref"],
+      "additionalProperties": false
+    },
+    "wikidataId": {
+      "description": "Identifiant Wikidata (QID) de l'entité : sert à retrouver dates, portraits et équivalents dans d'autres bases.",
+      "examples": ["Q1394", "Q182905"],
+      "type": "string",
+      "pattern": "^Q[1-9][0-9]*$"
+    },
+    "slugList": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/slug" },
+      "uniqueItems": true
+    },
+    "stringList": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "sourceList": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/sourceRef" }
+    }
+  }
+}

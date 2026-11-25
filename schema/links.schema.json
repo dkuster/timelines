@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Collection links",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "collection": {
+      "const": "links"
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/item"
+      }
+    }
+  },
+  "required": [
+    "collection",
+    "version",
+    "items"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "item": {
+      "type": "object",
+      "title": "Connexion typée entre deux entités",
+      "properties": {
+        "id": {
+          "$ref": "common.schema.json#/$defs/slug"
+        },
+        "from": {
+          "$ref": "common.schema.json#/$defs/ref"
+        },
+        "to": {
+          "$ref": "common.schema.json#/$defs/ref"
+        },
+        "type": {
+          "enum": [
+            "leads_to",
+            "causes",
+            "reaction_to",
+            "influences",
+            "continues",
+            "develops",
+            "revises",
+            "opposes",
+            "references",
+            "comparable_to"
+          ]
+        },
+        "status": {
+          "$ref": "common.schema.json#/$defs/status"
+        },
+        "provenance": {
+          "type": "object",
+          "properties": {
+            "by": {
+              "enum": [
+                "dom",
+                "claude",
+                "similarity"
+              ]
+            },
+            "date": {
+              "type": "string",
+              "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+            }
+          },
+          "required": [
+            "by",
+            "date"
+          ],
+          "additionalProperties": false
+        },
+        "justification": {
+          "type": "string"
+        },
+        "sources": {
+          "$ref": "common.schema.json#/$defs/sourceList"
+        }
+      },
+      "required": [
+        "id",
+        "from",
+        "to",
+        "type",
+        "provenance"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

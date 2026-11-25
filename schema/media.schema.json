@@ -1,0 +1,147 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Collection media",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "collection": {
+      "const": "media"
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/item"
+      }
+    }
+  },
+  "required": [
+    "collection",
+    "version",
+    "items"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "item": {
+      "type": "object",
+      "title": "Média : fichier local ou lien externe",
+      "properties": {
+        "id": {
+          "$ref": "common.schema.json#/$defs/slug"
+        },
+        "kind": {
+          "enum": [
+            "image",
+            "video",
+            "audio",
+            "document"
+          ]
+        },
+        "file": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*\\.\\.)[^\\\\]+$"
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https?://"
+        },
+        "segment": {
+          "type": "object",
+          "properties": {
+            "start": {
+              "type": "string",
+              "pattern": "^[0-9]{2}:[0-5][0-9]:[0-5][0-9]$"
+            },
+            "end": {
+              "type": "string",
+              "pattern": "^[0-9]{2}:[0-5][0-9]:[0-5][0-9]$"
+            }
+          },
+          "required": [
+            "start"
+          ],
+          "additionalProperties": false
+        },
+        "title": {
+          "$ref": "common.schema.json#/$defs/localizedText"
+        },
+        "caption": {
+          "$ref": "common.schema.json#/$defs/localizedText"
+        },
+        "date": {
+          "$ref": "common.schema.json#/$defs/dateValue"
+        },
+        "credit": {
+          "type": "string"
+        },
+        "license": {
+          "type": "string"
+        },
+        "origin": {
+          "type": "string",
+          "pattern": "^https?://"
+        },
+        "about": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "properties": {
+              "ref": {
+                "$ref": "common.schema.json#/$defs/ref"
+              },
+              "role": {
+                "enum": [
+                  "portrait",
+                  "cover",
+                  "map",
+                  "photo",
+                  "poster",
+                  "facsimile",
+                  "footage",
+                  "documentary",
+                  "illustration",
+                  "other"
+                ]
+              },
+              "primary": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "ref",
+              "role"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "status": {
+          "$ref": "common.schema.json#/$defs/status"
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "about"
+      ],
+      "additionalProperties": false,
+      "oneOf": [
+        {
+          "required": [
+            "file"
+          ]
+        },
+        {
+          "required": [
+            "url"
+          ]
+        }
+      ]
+    }
+  }
+}

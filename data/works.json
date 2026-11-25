@@ -1,0 +1,3174 @@
+{
+  "$schema": "../schema/works.schema.json",
+  "collection": "works",
+  "version": 1,
+  "items": [
+    {
+      "id": "iskra",
+      "title": {
+        "orig": "ru",
+        "ru": "Искра",
+        "fr": "Iskra",
+        "en": "Iskra",
+        "de": "Iskra",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["L'Étincelle"],
+      "type": "newspaper",
+      "date": {"date": "1900-12-24", "original": "1900-12-11", "calendar": "julian"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "what-is-to-be-done",
+      "title": {
+        "orig": "ru",
+        "ru": "Что делать?",
+        "fr": "Que faire ?",
+        "en": "What Is to Be Done?",
+        "de": "Was tun?",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["lenin"],
+      "date": {"date": "1902-03"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "pravda",
+      "title": {
+        "orig": "ru",
+        "ru": "Правда",
+        "fr": "Pravda",
+        "en": "Pravda",
+        "de": "Prawda",
+        "draft": ["en", "de"]
+      },
+      "type": "newspaper",
+      "date": {"date": "1912-05-05", "original": "1912-04-22", "calendar": "julian"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "april-theses",
+      "title": {
+        "orig": "ru",
+        "ru": "Апрельские тезисы",
+        "fr": "Thèses d'avril",
+        "en": "April Theses",
+        "de": "Aprilthesen",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Les tâches du prolétariat dans la présente révolution"],
+      "type": "article",
+      "authors": ["lenin"],
+      "date": {"date": "1917-04-20", "original": "1917-04-07", "calendar": "julian"},
+      "language": "ru",
+      "published_in": "pravda",
+      "status": "draft"
+    },
+    {
+      "id": "origin-of-species",
+      "title": {
+        "orig": "en",
+        "en": "On the Origin of Species",
+        "fr": "De l'origine des espèces",
+        "de": "Über die Entstehung der Arten",
+        "draft": ["de"]
+      },
+      "type": "book",
+      "authors": ["charles-darwin"],
+      "date": {"date": "1859-11-24"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "la-marseillaise",
+      "title": {
+        "orig": "fr",
+        "fr": "La Marseillaise",
+        "en": "La Marseillaise",
+        "de": "Die Marseillaise",
+        "draft": ["en", "de"]
+      },
+      "type": "music",
+      "authors": ["rouget-de-lisle"],
+      "date": {"date": "1792-04"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "beethoven-ninth-symphony",
+      "title": {
+        "orig": "de",
+        "de": "9. Sinfonie",
+        "fr": "Neuvième Symphonie",
+        "en": "Ninth Symphony",
+        "draft": ["en"]
+      },
+      "type": "music",
+      "authors": ["ludwig-van-beethoven"],
+      "date": {"date": "1824"},
+      "status": "draft"
+    },
+    {
+      "id": "the-internationale",
+      "title": {
+        "orig": "fr",
+        "fr": "L'Internationale",
+        "en": "The Internationale",
+        "de": "Die Internationale",
+        "draft": ["en", "de"]
+      },
+      "type": "music",
+      "authors": ["eugene-pottier", "pierre-de-geyter"],
+      "date": {"date": "1888"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "rite-of-spring",
+      "title": {
+        "orig": "fr",
+        "fr": "Le Sacre du printemps",
+        "en": "The Rite of Spring",
+        "de": "Le Sacre du printemps",
+        "draft": ["en", "de"]
+      },
+      "type": "music",
+      "authors": ["igor-stravinsky"],
+      "date": {"date": "1913"},
+      "status": "draft"
+    },
+    {
+      "id": "strange-fruit",
+      "title": {
+        "orig": "en",
+        "en": "Strange Fruit",
+        "fr": "Strange Fruit",
+        "de": "Strange Fruit",
+        "draft": ["de"]
+      },
+      "type": "music",
+      "authors": ["billie-holiday"],
+      "date": {"date": "1939"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "death-of-marat",
+      "title": {
+        "orig": "fr",
+        "fr": "La Mort de Marat",
+        "en": "The Death of Marat",
+        "de": "Der Tod des Marat",
+        "draft": ["en", "de"]
+      },
+      "type": "painting",
+      "authors": ["jacques-louis-david"],
+      "date": {"date": "1793"},
+      "status": "draft"
+    },
+    {
+      "id": "third-of-may-1808",
+      "title": {
+        "orig": "es",
+        "es": "El tres de mayo de 1808 en Madrid",
+        "fr": "Tres de Mayo",
+        "en": "The Third of May 1808",
+        "de": "Die Erschießung der Aufständischen",
+        "draft": ["en", "de"]
+      },
+      "type": "painting",
+      "authors": ["francisco-goya"],
+      "date": {"date": "1814"},
+      "status": "draft"
+    },
+    {
+      "id": "liberty-leading-the-people",
+      "title": {
+        "orig": "fr",
+        "fr": "La Liberté guidant le peuple",
+        "en": "Liberty Leading the People",
+        "de": "Die Freiheit führt das Volk",
+        "draft": ["en", "de"]
+      },
+      "type": "painting",
+      "authors": ["eugene-delacroix"],
+      "date": {"date": "1830"},
+      "status": "draft"
+    },
+    {
+      "id": "impression-sunrise",
+      "title": {
+        "orig": "fr",
+        "fr": "Impression, soleil levant",
+        "en": "Impression, Sunrise",
+        "de": "Impression, Sonnenaufgang",
+        "draft": ["en", "de"]
+      },
+      "type": "painting",
+      "authors": ["claude-monet"],
+      "date": {"date": "1872"},
+      "status": "draft"
+    },
+    {
+      "id": "the-fourth-estate",
+      "title": {
+        "orig": "it",
+        "it": "Il Quarto Stato",
+        "fr": "Le Quatrième État",
+        "en": "The Fourth Estate",
+        "de": "Der vierte Stand",
+        "draft": ["en", "de"]
+      },
+      "type": "painting",
+      "authors": ["giuseppe-pellizza-da-volpedo"],
+      "date": {"date": "1901"},
+      "status": "draft"
+    },
+    {
+      "id": "les-demoiselles-d-avignon",
+      "title": {
+        "orig": "fr",
+        "fr": "Les Demoiselles d'Avignon",
+        "en": "Les Demoiselles d'Avignon",
+        "de": "Les Demoiselles d'Avignon",
+        "draft": ["en", "de"]
+      },
+      "type": "painting",
+      "authors": ["pablo-picasso"],
+      "date": {"date": "1907"},
+      "status": "draft"
+    },
+    {
+      "id": "man-at-the-crossroads",
+      "title": {
+        "orig": "en",
+        "en": "Man at the Crossroads",
+        "fr": "L'Homme à la croisée des chemins",
+        "de": "Der Mensch am Scheideweg",
+        "draft": ["de"]
+      },
+      "type": "painting",
+      "authors": ["diego-rivera"],
+      "date": {"date": "1933"},
+      "status": "draft"
+    },
+    {
+      "id": "guernica",
+      "title": {
+        "orig": "es",
+        "es": "Guernica",
+        "fr": "Guernica",
+        "en": "Guernica",
+        "de": "Guernica",
+        "draft": ["en", "de"]
+      },
+      "type": "painting",
+      "authors": ["pablo-picasso"],
+      "date": {"date": "1937"},
+      "status": "draft"
+    },
+    {
+      "id": "campbells-soup-cans",
+      "title": {
+        "orig": "en",
+        "en": "Campbell's Soup Cans",
+        "fr": "Campbell's Soup Cans",
+        "de": "Campbell's Soup Cans",
+        "draft": ["de"]
+      },
+      "type": "painting",
+      "authors": ["andy-warhol"],
+      "date": {"date": "1962"},
+      "status": "draft"
+    },
+    {
+      "id": "uncle-toms-cabin",
+      "title": {
+        "orig": "en",
+        "en": "Uncle Tom's Cabin",
+        "fr": "La Case de l'oncle Tom",
+        "de": "Onkel Toms Hütte",
+        "draft": ["de"]
+      },
+      "type": "book",
+      "authors": ["harriet-beecher-stowe"],
+      "date": {"date": "1852-03-20"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "les-miserables",
+      "title": {
+        "orig": "fr",
+        "fr": "Les Misérables",
+        "en": "Les Misérables",
+        "de": "Die Elenden",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["victor-hugo"],
+      "date": {"date": "1862"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "germinal",
+      "title": {"orig": "fr", "fr": "Germinal", "en": "Germinal", "de": "Germinal", "draft": ["en", "de"]},
+      "type": "book",
+      "authors": ["emile-zola"],
+      "date": {"date": "1885"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "gorky-mother",
+      "title": {
+        "orig": "ru",
+        "ru": "Мать",
+        "fr": "La Mère",
+        "en": "Mother",
+        "de": "Die Mutter",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["maxim-gorky"],
+      "date": {"date": "1906"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "ten-days-that-shook-the-world",
+      "title": {
+        "orig": "en",
+        "en": "Ten Days That Shook the World",
+        "fr": "Dix jours qui ébranlèrent le monde",
+        "de": "Zehn Tage, die die Welt erschütterten",
+        "draft": ["de"]
+      },
+      "type": "book",
+      "authors": ["john-reed"],
+      "date": {"date": "1919"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "diary-of-a-madman",
+      "title": {
+        "orig": "zh",
+        "zh": "狂人日记",
+        "fr": "Le Journal d'un fou",
+        "en": "A Madman's Diary",
+        "de": "Tagebuch eines Verrückten",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["lu-xun"],
+      "date": {"date": "1918-05"},
+      "language": "zh",
+      "status": "draft"
+    },
+    {
+      "id": "all-quiet-on-the-western-front",
+      "title": {
+        "orig": "de",
+        "de": "Im Westen nichts Neues",
+        "fr": "À l'Ouest, rien de nouveau",
+        "en": "All Quiet on the Western Front",
+        "draft": ["en"]
+      },
+      "type": "book",
+      "authors": ["erich-maria-remarque"],
+      "date": {"date": "1929-01-29"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "manifesto-for-independent-revolutionary-art",
+      "title": {
+        "orig": "fr",
+        "fr": "Pour un art révolutionnaire indépendant",
+        "en": "Manifesto for an Independent Revolutionary Art",
+        "de": "Für eine unabhängige revolutionäre Kunst",
+        "draft": ["en", "de"]
+      },
+      "type": "manifesto",
+      "authors": ["andre-breton", "trotsky"],
+      "date": {"date": "1938-07-25"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "notebook-of-a-return-to-the-native-land",
+      "title": {
+        "orig": "fr",
+        "fr": "Cahier d'un retour au pays natal",
+        "en": "Notebook of a Return to the Native Land",
+        "de": "Zurück ins Land der Geburt",
+        "draft": ["en", "de"]
+      },
+      "type": "poem",
+      "authors": ["aime-cesaire"],
+      "date": {"date": "1939"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "the-grapes-of-wrath",
+      "title": {
+        "orig": "en",
+        "en": "The Grapes of Wrath",
+        "fr": "Les Raisins de la colère",
+        "de": "Früchte des Zorns",
+        "draft": ["de"]
+      },
+      "type": "book",
+      "authors": ["john-steinbeck"],
+      "date": {"date": "1939-04-14"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "nineteen-eighty-four",
+      "title": {"orig": "en", "en": "Nineteen Eighty-Four", "fr": "1984", "de": "1984", "draft": ["de"]},
+      "type": "book",
+      "authors": ["george-orwell"],
+      "date": {"date": "1949-06-08"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "things-fall-apart",
+      "title": {
+        "orig": "en",
+        "en": "Things Fall Apart",
+        "fr": "Le monde s'effondre",
+        "de": "Okonkwo oder Das Alte stürzt",
+        "draft": ["de"]
+      },
+      "type": "book",
+      "authors": ["chinua-achebe"],
+      "date": {"date": "1958"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "one-day-in-the-life-of-ivan-denisovich",
+      "title": {
+        "orig": "ru",
+        "ru": "Один день Ивана Денисовича",
+        "fr": "Une journée d'Ivan Denissovitch",
+        "en": "One Day in the Life of Ivan Denisovich",
+        "de": "Ein Tag im Leben des Iwan Denissowitsch",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["aleksandr-solzhenitsyn"],
+      "date": {"date": "1962-11"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "one-hundred-years-of-solitude",
+      "title": {
+        "orig": "es",
+        "es": "Cien años de soledad",
+        "fr": "Cent ans de solitude",
+        "en": "One Hundred Years of Solitude",
+        "de": "Hundert Jahre Einsamkeit",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["gabriel-garcia-marquez"],
+      "date": {"date": "1967"},
+      "language": "es",
+      "status": "draft"
+    },
+    {
+      "id": "the-birth-of-a-nation",
+      "title": {
+        "orig": "en",
+        "en": "The Birth of a Nation",
+        "fr": "Naissance d'une nation",
+        "de": "Die Geburt einer Nation",
+        "draft": ["de"]
+      },
+      "type": "film",
+      "authors": ["d-w-griffith"],
+      "date": {"date": "1915"},
+      "status": "draft"
+    },
+    {
+      "id": "battleship-potemkin",
+      "title": {
+        "orig": "ru",
+        "ru": "Броненосец «Потёмкин»",
+        "fr": "Le Cuirassé Potemkine",
+        "en": "Battleship Potemkin",
+        "de": "Panzerkreuzer Potemkin",
+        "draft": ["en", "de"]
+      },
+      "type": "film",
+      "authors": ["sergei-eisenstein"],
+      "date": {"date": "1925"},
+      "status": "draft"
+    },
+    {
+      "id": "metropolis",
+      "title": {"orig": "de", "de": "Metropolis", "fr": "Metropolis", "en": "Metropolis", "draft": ["en"]},
+      "type": "film",
+      "authors": ["fritz-lang"],
+      "date": {"date": "1927"},
+      "status": "draft"
+    },
+    {
+      "id": "the-jazz-singer",
+      "title": {
+        "orig": "en",
+        "en": "The Jazz Singer",
+        "fr": "Le Chanteur de jazz",
+        "de": "Der Jazzsänger",
+        "draft": ["de"]
+      },
+      "type": "film",
+      "date": {"date": "1927"},
+      "status": "draft"
+    },
+    {
+      "id": "triumph-of-the-will",
+      "title": {
+        "orig": "de",
+        "de": "Triumph des Willens",
+        "fr": "Le Triomphe de la volonté",
+        "en": "Triumph of the Will",
+        "draft": ["en"]
+      },
+      "type": "film",
+      "authors": ["leni-riefenstahl"],
+      "date": {"date": "1935"},
+      "status": "draft"
+    },
+    {
+      "id": "modern-times",
+      "title": {
+        "orig": "en",
+        "en": "Modern Times",
+        "fr": "Les Temps modernes",
+        "de": "Moderne Zeiten",
+        "draft": ["de"]
+      },
+      "type": "film",
+      "authors": ["charlie-chaplin"],
+      "date": {"date": "1936"},
+      "status": "draft"
+    },
+    {
+      "id": "rome-open-city",
+      "title": {
+        "orig": "it",
+        "it": "Roma città aperta",
+        "fr": "Rome, ville ouverte",
+        "en": "Rome, Open City",
+        "de": "Rom, offene Stadt",
+        "draft": ["en", "de"]
+      },
+      "type": "film",
+      "authors": ["roberto-rossellini"],
+      "date": {"date": "1945"},
+      "status": "draft"
+    },
+    {
+      "id": "the-battle-of-algiers",
+      "title": {
+        "orig": "it",
+        "it": "La battaglia di Algeri",
+        "fr": "La Bataille d'Alger",
+        "en": "The Battle of Algiers",
+        "de": "Schlacht um Algier",
+        "draft": ["en", "de"]
+      },
+      "type": "film",
+      "authors": ["gillo-pontecorvo"],
+      "date": {"date": "1966"},
+      "status": "draft"
+    },
+    {
+      "id": "star-wars",
+      "title": {
+        "orig": "en",
+        "en": "Star Wars",
+        "fr": "La Guerre des étoiles",
+        "de": "Krieg der Sterne",
+        "draft": ["de"]
+      },
+      "type": "film",
+      "authors": ["george-lucas"],
+      "date": {"date": "1977"},
+      "status": "draft"
+    },
+    {
+      "id": "god-save-the-queen-sex-pistols",
+      "title": {
+        "orig": "en",
+        "en": "God Save the Queen (Sex Pistols)",
+        "fr": "God Save the Queen (Sex Pistols)",
+        "de": "God Save the Queen (Sex Pistols)",
+        "draft": ["de"]
+      },
+      "type": "music",
+      "date": {"date": "1977-05-27"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "the-message",
+      "title": {"orig": "en", "en": "The Message", "fr": "The Message", "de": "The Message", "draft": ["de"]},
+      "type": "music",
+      "date": {"date": "1982-07"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "tetris",
+      "title": {
+        "orig": "ru",
+        "ru": "Тетрис",
+        "fr": "Tetris",
+        "en": "Tetris",
+        "de": "Tetris",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "authors": ["alexey-pajitnov"],
+      "date": {"date": "1984-06-06"},
+      "status": "draft"
+    },
+    {
+      "id": "beloved",
+      "title": {"orig": "en", "en": "Beloved", "fr": "Beloved", "de": "Menschenkind", "draft": ["de"]},
+      "type": "book",
+      "authors": ["toni-morrison"],
+      "date": {"date": "1987"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "the-satanic-verses",
+      "title": {
+        "orig": "en",
+        "en": "The Satanic Verses",
+        "fr": "Les Versets sataniques",
+        "de": "Die satanischen Verse",
+        "draft": ["de"]
+      },
+      "type": "book",
+      "authors": ["salman-rushdie"],
+      "date": {"date": "1988"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "do-the-right-thing",
+      "title": {
+        "orig": "en",
+        "en": "Do the Right Thing",
+        "fr": "Do the Right Thing",
+        "de": "Do the Right Thing",
+        "draft": ["de"]
+      },
+      "type": "film",
+      "authors": ["spike-lee"],
+      "date": {"date": "1989"},
+      "status": "draft"
+    },
+    {
+      "id": "land-and-freedom",
+      "title": {
+        "orig": "en",
+        "en": "Land and Freedom",
+        "fr": "Land and Freedom",
+        "de": "Land and Freedom",
+        "draft": ["de"]
+      },
+      "type": "film",
+      "authors": ["ken-loach"],
+      "date": {"date": "1995"},
+      "status": "draft"
+    },
+    {
+      "id": "la-haine",
+      "title": {"orig": "fr", "fr": "La Haine", "en": "La Haine", "de": "Hass", "draft": ["en", "de"]},
+      "type": "film",
+      "authors": ["mathieu-kassovitz"],
+      "date": {"date": "1995"},
+      "status": "draft"
+    },
+    {
+      "id": "charlie-hebdo",
+      "title": {
+        "orig": "fr",
+        "fr": "Charlie Hebdo",
+        "en": "Charlie Hebdo",
+        "de": "Charlie Hebdo",
+        "draft": ["en", "de"]
+      },
+      "type": "newspaper",
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "parasite",
+      "title": {
+        "orig": "ko",
+        "ko": "기생충",
+        "fr": "Parasite",
+        "en": "Parasite",
+        "de": "Parasite",
+        "draft": ["en", "de"]
+      },
+      "type": "film",
+      "authors": ["bong-joon-ho"],
+      "date": {"date": "2019"},
+      "status": "draft"
+    },
+    {
+      "id": "communist-manifesto",
+      "title": {
+        "orig": "de",
+        "fr": "Manifeste du Parti communiste",
+        "en": "Manifesto of the Communist Party",
+        "de": "Manifest der Kommunistischen Partei",
+        "draft": ["en"]
+      },
+      "aliases": ["Manifeste communiste", "Communist Manifesto", "Kommunistisches Manifest"],
+      "type": "manifesto",
+      "authors": ["marx", "engels"],
+      "date": {"date": "1848-02"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "neue-rheinische-zeitung",
+      "title": {
+        "orig": "de",
+        "de": "Neue Rheinische Zeitung",
+        "fr": "Neue Rheinische Zeitung",
+        "en": "Neue Rheinische Zeitung"
+      },
+      "aliases": ["NRZ", "Nouvelle Gazette rhénane"],
+      "type": "newspaper",
+      "date": {"date": "1848-06-01"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "das-kapital",
+      "title": {
+        "orig": "de",
+        "fr": "Le Capital",
+        "en": "Capital",
+        "de": "Das Kapital. Kritik der politischen Ökonomie",
+        "draft": ["en"]
+      },
+      "aliases": ["Das Kapital", "Le Capital"],
+      "type": "book",
+      "authors": ["marx"],
+      "date": {"date": "1867"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "critique-of-the-gotha-programme",
+      "title": {
+        "orig": "de",
+        "fr": "Critique du programme de Gotha",
+        "en": "Critique of the Gotha Programme",
+        "de": "Kritik des Gothaer Programms",
+        "draft": ["en"]
+      },
+      "type": "other",
+      "authors": ["marx"],
+      "date": {"date": "1875"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "preconditions-of-socialism",
+      "title": {
+        "orig": "de",
+        "fr": "Les Présupposés du socialisme",
+        "en": "The Preconditions of Socialism",
+        "de": "Die Voraussetzungen des Sozialismus und die Aufgaben der Sozialdemokratie",
+        "draft": ["en"]
+      },
+      "aliases": ["Evolutionary Socialism", "Socialisme théorique et social-démocratie pratique"],
+      "type": "book",
+      "authors": ["eduard-bernstein"],
+      "date": {"date": "1899"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "social-reform-or-revolution",
+      "title": {
+        "orig": "de",
+        "fr": "Réforme sociale ou révolution ?",
+        "en": "Social Reform or Revolution?",
+        "de": "Sozialreform oder Revolution?",
+        "draft": ["en"]
+      },
+      "type": "pamphlet",
+      "authors": ["rosa-luxemburg"],
+      "date": {"date": "1899"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "what-is-property",
+      "title": {
+        "orig": "fr",
+        "fr": "Qu'est-ce que la propriété ?",
+        "en": "What Is Property?",
+        "de": "Was ist das Eigentum?",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["proudhon"],
+      "date": {"date": "1840"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "the-workers-union",
+      "title": {
+        "orig": "fr",
+        "fr": "L'Union ouvrière",
+        "en": "The Workers' Union",
+        "de": "Die Arbeiterunion",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["flora-tristan"],
+      "date": {"date": "1843"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "theory-of-the-four-movements",
+      "title": {
+        "orig": "fr",
+        "fr": "Théorie des quatre mouvements et des destinées générales",
+        "en": "Theory of the Four Movements",
+        "de": "Theorie der vier Bewegungen",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["fourier"],
+      "date": {"date": "1808"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "class-struggles-in-france",
+      "title": {
+        "orig": "de",
+        "de": "Die Klassenkämpfe in Frankreich 1848 bis 1850",
+        "fr": "Les Luttes de classes en France",
+        "en": "The Class Struggles in France, 1848–1850",
+        "draft": ["fr", "en"]
+      },
+      "type": "book",
+      "authors": ["marx"],
+      "date": {"date": "1850"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "eighteenth-brumaire",
+      "title": {
+        "orig": "de",
+        "de": "Der achtzehnte Brumaire des Louis Bonaparte",
+        "fr": "Le 18 Brumaire de Louis Bonaparte",
+        "en": "The Eighteenth Brumaire of Louis Bonaparte",
+        "draft": ["fr", "en"]
+      },
+      "type": "book",
+      "authors": ["marx"],
+      "date": {"date": "1852"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "civil-war-in-france",
+      "title": {
+        "orig": "en",
+        "en": "The Civil War in France",
+        "fr": "La Guerre civile en France",
+        "de": "Der Bürgerkrieg in Frankreich",
+        "draft": ["de"]
+      },
+      "type": "pamphlet",
+      "authors": ["marx"],
+      "date": {"date": "1871-06"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "history-of-the-paris-commune",
+      "title": {
+        "orig": "fr",
+        "fr": "Histoire de la Commune de 1871",
+        "en": "History of the Paris Commune of 1871",
+        "de": "Geschichte der Kommune von 1871",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["lissagaray"],
+      "date": {"date": "1876"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "jaccuse",
+      "title": {
+        "orig": "fr",
+        "fr": "J'accuse…!",
+        "en": "J'Accuse…!",
+        "de": "J'accuse…!",
+        "draft": ["en", "de"]
+      },
+      "type": "article",
+      "authors": ["emile-zola"],
+      "date": {"date": "1898-01-13"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "l-humanite",
+      "title": {
+        "orig": "fr",
+        "fr": "L'Humanité",
+        "en": "L'Humanité",
+        "de": "L'Humanité",
+        "draft": ["en", "de"]
+      },
+      "type": "newspaper",
+      "authors": ["jaures"],
+      "date": {"date": "1904-04-18"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "rights-of-man",
+      "title": {
+        "orig": "en",
+        "en": "Rights of Man",
+        "fr": "Les Droits de l'homme",
+        "de": "Die Rechte des Menschen",
+        "draft": ["de"]
+      },
+      "type": "book",
+      "authors": ["thomas-paine"],
+      "date": {"date": "1791-03"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "peoples-charter",
+      "title": {
+        "orig": "en",
+        "en": "People's Charter",
+        "fr": "Charte du peuple",
+        "de": "Volkscharta",
+        "draft": ["de"]
+      },
+      "type": "manifesto",
+      "authors": ["william-lovett"],
+      "date": {"date": "1838"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "northern-star",
+      "title": {
+        "orig": "en",
+        "en": "The Northern Star",
+        "fr": "The Northern Star",
+        "de": "The Northern Star",
+        "draft": ["de"]
+      },
+      "type": "newspaper",
+      "authors": ["feargus-oconnor"],
+      "date": {"date": "1837"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "condition-of-the-working-class-in-england",
+      "title": {
+        "orig": "de",
+        "de": "Die Lage der arbeitenden Klasse in England",
+        "fr": "La Situation de la classe laborieuse en Angleterre",
+        "en": "The Condition of the Working Class in England",
+        "draft": ["en"]
+      },
+      "type": "book",
+      "authors": ["engels"],
+      "date": {"date": "1845"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "miners-next-step",
+      "title": {
+        "orig": "en",
+        "en": "The Miners' Next Step",
+        "fr": "The Miners' Next Step",
+        "de": "The Miners' Next Step",
+        "draft": ["de"]
+      },
+      "type": "pamphlet",
+      "authors": ["noah-ablett"],
+      "date": {"date": "1912"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "daily-worker-uk",
+      "title": {
+        "orig": "en",
+        "en": "Daily Worker",
+        "fr": "Daily Worker",
+        "de": "Daily Worker",
+        "draft": ["de"]
+      },
+      "aliases": ["Morning Star"],
+      "type": "newspaper",
+      "date": {"date": "1930-01-01"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "beveridge-report",
+      "title": {
+        "orig": "en",
+        "en": "Beveridge Report",
+        "fr": "Rapport Beveridge",
+        "de": "Beveridge-Bericht",
+        "draft": ["de"]
+      },
+      "aliases": ["Social Insurance and Allied Services"],
+      "type": "other",
+      "authors": ["william-beveridge"],
+      "date": {"date": "1942"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "proclamation-of-the-irish-republic",
+      "title": {
+        "orig": "en",
+        "en": "Proclamation of the Irish Republic",
+        "fr": "Proclamation de la République irlandaise",
+        "de": "Proklamation der Irischen Republik",
+        "draft": ["de"]
+      },
+      "aliases": ["Poblacht na hÉireann"],
+      "type": "manifesto",
+      "authors": ["patrick-pearse", "james-connolly", "thomas-clarke"],
+      "date": {"date": "1916-04-24"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "kolokol",
+      "title": {
+        "orig": "ru",
+        "ru": "Колокол",
+        "fr": "La Cloche",
+        "en": "The Bell",
+        "de": "Die Glocke",
+        "draft": ["en", "de"]
+      },
+      "type": "newspaper",
+      "authors": ["herzen", "ogarev"],
+      "date": {"date": "1857"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "what-is-to-be-done-novel",
+      "title": {
+        "orig": "ru",
+        "ru": "Что делать?",
+        "fr": "Que faire ?",
+        "en": "What Is to Be Done?",
+        "de": "Was tun?",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Que faire ? (Tchernychevski)"],
+      "type": "book",
+      "authors": ["chernyshevsky"],
+      "date": {"date": "1863"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "homage-to-catalonia",
+      "title": {
+        "orig": "en",
+        "en": "Homage to Catalonia",
+        "es": "Homenaje a Cataluña",
+        "fr": "Hommage à la Catalogne",
+        "de": "Mein Katalonien",
+        "draft": ["de", "es"]
+      },
+      "type": "book",
+      "authors": ["george-orwell"],
+      "date": {"date": "1938-04-25"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "rerum-novarum",
+      "title": {
+        "orig": "la",
+        "la": "Rerum novarum",
+        "fr": "Rerum novarum",
+        "en": "Rerum novarum",
+        "de": "Rerum novarum"
+      },
+      "type": "other",
+      "authors": ["leo-xiii"],
+      "date": {"date": "1891-05-15"},
+      "language": "la",
+      "status": "draft"
+    },
+    {
+      "id": "l-ordine-nuovo",
+      "title": {
+        "orig": "it",
+        "it": "L'Ordine Nuovo",
+        "fr": "L'Ordine Nuovo",
+        "en": "L'Ordine Nuovo",
+        "de": "L'Ordine Nuovo"
+      },
+      "type": "newspaper",
+      "authors": ["antonio-gramsci", "palmiro-togliatti", "angelo-tasca", "umberto-terracini"],
+      "date": {"date": "1919-05-01"},
+      "language": "it",
+      "status": "draft"
+    },
+    {
+      "id": "il-popolo-d-italia",
+      "title": {
+        "orig": "it",
+        "it": "Il Popolo d'Italia",
+        "fr": "Il Popolo d'Italia",
+        "en": "Il Popolo d'Italia",
+        "de": "Il Popolo d'Italia"
+      },
+      "type": "newspaper",
+      "authors": ["benito-mussolini"],
+      "date": {"date": "1914-11-15"},
+      "language": "it",
+      "status": "draft"
+    },
+    {
+      "id": "declaration-of-independence",
+      "title": {
+        "orig": "en",
+        "fr": "Déclaration d'indépendance",
+        "en": "Declaration of Independence",
+        "de": "Unabhängigkeitserklärung",
+        "draft": ["de"]
+      },
+      "type": "manifesto",
+      "authors": ["thomas-jefferson"],
+      "date": {"date": "1776-07-04"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "the-liberator",
+      "title": {"orig": "en", "en": "The Liberator", "fr": "The Liberator", "de": "The Liberator"},
+      "type": "newspaper",
+      "authors": ["william-lloyd-garrison"],
+      "date": {"date": "1831"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "the-north-star",
+      "title": {"orig": "en", "en": "The North Star", "fr": "The North Star", "de": "The North Star"},
+      "type": "newspaper",
+      "authors": ["frederick-douglass"],
+      "date": {"date": "1847"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "walkers-appeal",
+      "title": {
+        "orig": "en",
+        "fr": "Appel de Walker",
+        "en": "Walker's Appeal",
+        "de": "Walkers Appell",
+        "draft": ["de"]
+      },
+      "type": "pamphlet",
+      "authors": ["david-walker"],
+      "date": {"date": "1829"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "new-york-daily-tribune",
+      "title": {
+        "orig": "en",
+        "en": "New-York Daily Tribune",
+        "fr": "New-York Daily Tribune",
+        "de": "New-York Daily Tribune"
+      },
+      "type": "newspaper",
+      "date": {"date": "1841"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "declaration-of-sentiments",
+      "title": {
+        "orig": "en",
+        "fr": "Déclaration des sentiments",
+        "en": "Declaration of Sentiments",
+        "de": "Declaration of Sentiments",
+        "draft": ["de"]
+      },
+      "type": "manifesto",
+      "authors": ["elizabeth-cady-stanton"],
+      "date": {"date": "1848-07-19"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "the-jungle",
+      "title": {"orig": "en", "fr": "La Jungle", "en": "The Jungle", "de": "Der Sumpf", "draft": ["de"]},
+      "type": "book",
+      "authors": ["upton-sinclair"],
+      "date": {"date": "1906"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "address-of-the-iwma-to-lincoln",
+      "title": {
+        "orig": "en",
+        "fr": "Adresse de l'AIT à Abraham Lincoln",
+        "en": "Address of the International Working Men's Association to Abraham Lincoln",
+        "de": "Adresse der IAA an Abraham Lincoln",
+        "draft": ["de"]
+      },
+      "type": "letter",
+      "authors": ["marx"],
+      "date": {"date": "1864-11"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "revolution-in-china-and-in-europe",
+      "title": {
+        "orig": "en",
+        "en": "Revolution in China and in Europe",
+        "fr": "La Révolution en Chine et en Europe",
+        "de": "Die Revolution in China und in Europa",
+        "draft": ["de"]
+      },
+      "type": "article",
+      "authors": ["marx"],
+      "date": {"date": "1853-06-14"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "new-youth",
+      "title": {
+        "orig": "zh",
+        "zh": "新青年",
+        "zh-Latn": "Xīn qīngnián",
+        "fr": "La Jeunesse",
+        "en": "New Youth",
+        "de": "Neue Jugend",
+        "draft": ["en", "de"]
+      },
+      "type": "newspaper",
+      "date": {"date": "1915-09-15"},
+      "language": "zh",
+      "status": "draft"
+    },
+    {
+      "id": "tragedy-of-the-chinese-revolution",
+      "title": {
+        "orig": "en",
+        "en": "The Tragedy of the Chinese Revolution",
+        "fr": "La Tragédie de la révolution chinoise",
+        "de": "Die Tragödie der chinesischen Revolution",
+        "draft": ["de"]
+      },
+      "type": "book",
+      "authors": ["harold-isaacs"],
+      "date": {"date": "1938"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "on-new-democracy",
+      "title": {
+        "orig": "zh",
+        "zh": "新民主主义论",
+        "zh-Latn": "Xīn mínzhǔ zhǔyì lùn",
+        "fr": "La Démocratie nouvelle",
+        "en": "On New Democracy",
+        "de": "Über die Neue Demokratie",
+        "draft": ["en", "de"]
+      },
+      "type": "pamphlet",
+      "authors": ["mao-zedong"],
+      "date": {"date": "1940-01"},
+      "language": "zh",
+      "status": "draft"
+    },
+    {
+      "id": "on-the-peoples-democratic-dictatorship",
+      "title": {
+        "orig": "zh",
+        "zh": "论人民民主专政",
+        "zh-Latn": "Lùn rénmín mínzhǔ zhuānzhèng",
+        "fr": "De la dictature démocratique populaire",
+        "en": "On the People's Democratic Dictatorship",
+        "de": "Über die demokratische Diktatur des Volkes",
+        "draft": ["en", "de"]
+      },
+      "type": "article",
+      "authors": ["mao-zedong"],
+      "date": {"date": "1949-06-30"},
+      "language": "zh",
+      "status": "draft"
+    },
+    {
+      "id": "a-new-view-of-society",
+      "title": {
+        "orig": "en",
+        "fr": "Une nouvelle vision de la société",
+        "en": "A New View of Society",
+        "de": "Eine neue Auffassung von der Gesellschaft",
+        "draft": ["de"]
+      },
+      "type": "book",
+      "authors": ["robert-owen"],
+      "date": {"date": "1813"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "address-of-the-central-committee-1850",
+      "title": {
+        "orig": "de",
+        "fr": "Adresse du Comité central à la Ligue des communistes",
+        "en": "Address of the Central Committee to the Communist League",
+        "de": "Ansprache der Zentralbehörde an den Bund vom März 1850",
+        "draft": ["en"]
+      },
+      "aliases": ["Adresse de mars 1850"],
+      "type": "other",
+      "authors": ["marx", "engels"],
+      "organizations": ["communist-league"],
+      "date": {"date": "1850-03"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "anti-duhring",
+      "title": {
+        "orig": "de",
+        "fr": "Anti-Dühring",
+        "en": "Anti-Dühring",
+        "de": "Herrn Eugen Dührings Umwälzung der Wissenschaft",
+        "draft": ["en"]
+      },
+      "aliases": ["Anti-Dühring"],
+      "type": "book",
+      "authors": ["engels"],
+      "date": {"date": "1878"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "conspiracy-for-equality",
+      "title": {
+        "orig": "fr",
+        "fr": "Conspiration pour l'égalité dite de Babeuf",
+        "en": "Babeuf's Conspiracy for Equality",
+        "de": "Babeufs Verschwörung für die Gleichheit",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["buonarroti"],
+      "date": {"date": "1828"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "contribution-to-the-critique-of-political-economy",
+      "title": {
+        "orig": "de",
+        "fr": "Contribution à la critique de l'économie politique",
+        "en": "A Contribution to the Critique of Political Economy",
+        "de": "Zur Kritik der politischen Ökonomie",
+        "draft": ["en"]
+      },
+      "type": "book",
+      "authors": ["marx"],
+      "date": {"date": "1859"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "credo-1899",
+      "title": {
+        "orig": "ru",
+        "ru": "Credo",
+        "fr": "Credo",
+        "en": "Credo",
+        "de": "Credo",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "authors": ["yekaterina-kuskova"],
+      "date": {"date": "1899"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "economic-and-philosophic-manuscripts",
+      "title": {
+        "orig": "de",
+        "fr": "Manuscrits économico-philosophiques de 1844",
+        "en": "Economic and Philosophic Manuscripts of 1844",
+        "de": "Ökonomisch-philosophische Manuskripte aus dem Jahre 1844",
+        "draft": ["en"]
+      },
+      "aliases": ["Manuscrits de 1844", "Manuscrits parisiens"],
+      "type": "book",
+      "authors": ["marx"],
+      "date": {"date": "1932"},
+      "written_start": {"date": "1844"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "essay-on-the-principle-of-population",
+      "title": {
+        "orig": "en",
+        "fr": "Essai sur le principe de population",
+        "en": "An Essay on the Principle of Population",
+        "de": "Das Bevölkerungsgesetz",
+        "draft": ["de"]
+      },
+      "type": "book",
+      "authors": ["thomas-malthus"],
+      "date": {"date": "1798"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "finance-capital",
+      "title": {
+        "orig": "de",
+        "fr": "Le Capital financier",
+        "en": "Finance Capital",
+        "de": "Das Finanzkapital",
+        "draft": ["en"]
+      },
+      "type": "book",
+      "authors": ["rudolf-hilferding"],
+      "date": {"date": "1910"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "grundrisse",
+      "title": {
+        "orig": "de",
+        "fr": "Grundrisse",
+        "en": "Grundrisse",
+        "de": "Grundrisse der Kritik der politischen Ökonomie",
+        "draft": ["en"]
+      },
+      "aliases": ["Manuscrits de 1857-1858"],
+      "type": "book",
+      "authors": ["marx"],
+      "date": {"date": "1939"},
+      "written_start": {"date": "1857"},
+      "written_end": {"date": "1858"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "history-and-class-consciousness",
+      "title": {
+        "orig": "de",
+        "fr": "Histoire et conscience de classe",
+        "en": "History and Class Consciousness",
+        "de": "Geschichte und Klassenbewußtsein",
+        "draft": ["en"]
+      },
+      "type": "book",
+      "authors": ["georg-lukacs"],
+      "date": {"date": "1923"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "history-of-the-russian-revolution",
+      "title": {
+        "orig": "ru",
+        "ru": "История русской революции",
+        "fr": "Histoire de la révolution russe",
+        "en": "The History of the Russian Revolution",
+        "de": "Geschichte der russischen Revolution",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["trotsky"],
+      "date": {"date": "1930"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "imperialism-a-study",
+      "title": {
+        "orig": "en",
+        "fr": "L'Impérialisme. Une étude",
+        "en": "Imperialism: A Study",
+        "de": "Der Imperialismus",
+        "draft": ["de"]
+      },
+      "type": "book",
+      "authors": ["john-hobson"],
+      "date": {"date": "1902"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "imperialism-and-the-split-in-socialism",
+      "title": {
+        "orig": "ru",
+        "ru": "Империализм и раскол социализма",
+        "fr": "L'Impérialisme et la scission du socialisme",
+        "en": "Imperialism and the Split in Socialism",
+        "de": "Der Imperialismus und die Spaltung des Sozialismus",
+        "draft": ["en", "de"]
+      },
+      "type": "article",
+      "authors": ["lenin"],
+      "date": {"date": "1916-12"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "imperialism-the-highest-stage-of-capitalism",
+      "title": {
+        "orig": "ru",
+        "ru": "Империализм как высшая стадия капитализма",
+        "fr": "L'Impérialisme, stade suprême du capitalisme",
+        "en": "Imperialism, the Highest Stage of Capitalism",
+        "de": "Der Imperialismus als höchstes Stadium des Kapitalismus",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["lenin"],
+      "date": {"date": "1917"},
+      "written_start": {"date": "1916-01"},
+      "written_end": {"date": "1916-06"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "letter-to-weydemeyer-1852",
+      "title": {
+        "orig": "de",
+        "fr": "Lettre à Joseph Weydemeyer du 5 mars 1852",
+        "en": "Letter to Joseph Weydemeyer, 5 March 1852",
+        "de": "Brief an Joseph Weydemeyer vom 5. März 1852",
+        "draft": ["en"]
+      },
+      "type": "letter",
+      "authors": ["marx"],
+      "date": {"date": "1852-03-05"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "origin-of-the-family",
+      "title": {
+        "orig": "de",
+        "fr": "L'Origine de la famille, de la propriété privée et de l'État",
+        "en": "The Origin of the Family, Private Property and the State",
+        "de": "Der Ursprung der Familie, des Privateigenthums und des Staats",
+        "draft": ["en"]
+      },
+      "type": "book",
+      "authors": ["engels"],
+      "date": {"date": "1884"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "our-differences",
+      "title": {
+        "orig": "ru",
+        "ru": "Наши разногласия",
+        "fr": "Nos divergences",
+        "en": "Our Differences",
+        "de": "Unsere Meinungsverschiedenheiten",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["plekhanov"],
+      "date": {"date": "1885"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "principles-of-political-economy-ricardo",
+      "title": {
+        "orig": "en",
+        "fr": "Des principes de l'économie politique et de l'impôt",
+        "en": "On the Principles of Political Economy and Taxation",
+        "de": "Über die Grundsätze der politischen Ökonomie und der Besteuerung",
+        "draft": ["de"]
+      },
+      "type": "book",
+      "authors": ["david-ricardo"],
+      "date": {"date": "1817"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "prison-notebooks",
+      "title": {
+        "orig": "it",
+        "it": "Quaderni del carcere",
+        "fr": "Cahiers de prison",
+        "en": "Prison Notebooks",
+        "de": "Gefängnishefte",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["antonio-gramsci"],
+      "date": {"date": "1948"},
+      "written_start": {"date": "1929"},
+      "written_end": {"date": "1935"},
+      "language": "it",
+      "status": "draft"
+    },
+    {
+      "id": "programme-of-the-blanquist-refugees",
+      "title": {
+        "orig": "de",
+        "fr": "Le programme des émigrés blanquistes de la Commune",
+        "en": "Programme of the Blanquist Commune Refugees",
+        "de": "Programm der blanquistischen Kommuneflüchtlinge",
+        "draft": ["en"]
+      },
+      "type": "article",
+      "authors": ["engels"],
+      "date": {"date": "1874-06"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "results-and-prospects",
+      "title": {
+        "orig": "ru",
+        "ru": "Итоги и перспективы",
+        "fr": "Bilan et perspectives",
+        "en": "Results and Prospects",
+        "de": "Ergebnisse und Perspektiven",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["trotsky"],
+      "date": {"date": "1906"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "science-of-logic",
+      "title": {
+        "orig": "de",
+        "fr": "Science de la logique",
+        "en": "Science of Logic",
+        "de": "Wissenschaft der Logik",
+        "draft": ["en"]
+      },
+      "type": "book",
+      "authors": ["hegel"],
+      "date": {"date": "1812"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "socialism-and-war",
+      "title": {
+        "orig": "ru",
+        "ru": "Социализм и война",
+        "fr": "Le Socialisme et la guerre",
+        "en": "Socialism and War",
+        "de": "Sozialismus und Krieg",
+        "draft": ["en", "de"]
+      },
+      "type": "pamphlet",
+      "authors": ["lenin", "zinoviev"],
+      "date": {"date": "1915-08"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "socialism-utopian-and-scientific",
+      "title": {
+        "orig": "fr",
+        "fr": "Socialisme utopique et socialisme scientifique",
+        "en": "Socialism: Utopian and Scientific",
+        "de": "Die Entwicklung des Sozialismus von der Utopie zur Wissenschaft",
+        "draft": ["en", "de"]
+      },
+      "type": "pamphlet",
+      "authors": ["engels"],
+      "date": {"date": "1880"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "the-accumulation-of-capital",
+      "title": {
+        "orig": "de",
+        "fr": "L'Accumulation du capital",
+        "en": "The Accumulation of Capital",
+        "de": "Die Akkumulation des Kapitals",
+        "draft": ["en"]
+      },
+      "type": "book",
+      "authors": ["rosa-luxemburg"],
+      "date": {"date": "1913"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "the-conquest-of-bread",
+      "title": {
+        "orig": "fr",
+        "fr": "La Conquête du pain",
+        "en": "The Conquest of Bread",
+        "de": "Die Eroberung des Brotes",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["kropotkin"],
+      "date": {"date": "1892"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "the-dictatorship-of-the-proletariat-kautsky",
+      "title": {
+        "orig": "de",
+        "fr": "La Dictature du prolétariat",
+        "en": "The Dictatorship of the Proletariat",
+        "de": "Die Diktatur des Proletariats",
+        "draft": ["en"]
+      },
+      "type": "pamphlet",
+      "authors": ["karl-kautsky"],
+      "date": {"date": "1918"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "the-essence-of-christianity",
+      "title": {
+        "orig": "de",
+        "fr": "L'Essence du christianisme",
+        "en": "The Essence of Christianity",
+        "de": "Das Wesen des Christentums",
+        "draft": ["en"]
+      },
+      "type": "book",
+      "authors": ["feuerbach"],
+      "date": {"date": "1841"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "the-general-theory",
+      "title": {
+        "orig": "en",
+        "fr": "Théorie générale de l'emploi, de l'intérêt et de la monnaie",
+        "en": "The General Theory of Employment, Interest and Money",
+        "de": "Allgemeine Theorie der Beschäftigung, des Zinses und des Geldes",
+        "draft": ["de"]
+      },
+      "type": "book",
+      "authors": ["john-maynard-keynes"],
+      "date": {"date": "1936-02"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "the-german-ideology",
+      "title": {
+        "orig": "de",
+        "fr": "L'Idéologie allemande",
+        "en": "The German Ideology",
+        "de": "Die deutsche Ideologie",
+        "draft": ["en"]
+      },
+      "type": "book",
+      "authors": ["marx", "engels"],
+      "date": {"date": "1932"},
+      "written_start": {"date": "1845"},
+      "written_end": {"date": "1846"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "the-mass-strike",
+      "title": {
+        "orig": "de",
+        "fr": "Grève de masse, parti et syndicats",
+        "en": "The Mass Strike, the Political Party and the Trade Unions",
+        "de": "Massenstreik, Partei und Gewerkschaften",
+        "draft": ["en"]
+      },
+      "type": "pamphlet",
+      "authors": ["rosa-luxemburg"],
+      "date": {"date": "1906"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "the-new-course",
+      "title": {
+        "orig": "ru",
+        "ru": "Новый курс",
+        "fr": "Cours nouveau",
+        "en": "The New Course",
+        "de": "Der neue Kurs",
+        "draft": ["en", "de"]
+      },
+      "type": "article",
+      "authors": ["trotsky"],
+      "date": {"date": "1923-12"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "the-permanent-revolution",
+      "title": {
+        "orig": "ru",
+        "ru": "Перманентная революция",
+        "fr": "La Révolution permanente",
+        "en": "The Permanent Revolution",
+        "de": "Die permanente Revolution",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["trotsky"],
+      "date": {"date": "1930"},
+      "written_start": {"date": "1929"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "the-poverty-of-philosophy",
+      "title": {
+        "orig": "fr",
+        "fr": "Misère de la philosophie",
+        "en": "The Poverty of Philosophy",
+        "de": "Das Elend der Philosophie",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["marx"],
+      "date": {"date": "1847"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "the-proletarian-revolution-and-the-renegade-kautsky",
+      "title": {
+        "orig": "ru",
+        "ru": "Пролетарская революция и ренегат Каутский",
+        "fr": "La Révolution prolétarienne et le renégat Kautsky",
+        "en": "The Proletarian Revolution and the Renegade Kautsky",
+        "de": "Die proletarische Revolution und der Renegat Kautsky",
+        "draft": ["en", "de"]
+      },
+      "type": "pamphlet",
+      "authors": ["lenin"],
+      "date": {"date": "1918"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "the-revolution-betrayed",
+      "title": {
+        "orig": "ru",
+        "ru": "Преданная революция",
+        "fr": "La Révolution trahie",
+        "en": "The Revolution Betrayed",
+        "de": "Verratene Revolution",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["trotsky"],
+      "date": {"date": "1936"},
+      "written_start": {"date": "1936"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "the-right-of-nations-to-self-determination",
+      "title": {
+        "orig": "ru",
+        "ru": "О праве наций на самоопределение",
+        "fr": "Du droit des nations à disposer d'elles-mêmes",
+        "en": "The Right of Nations to Self-Determination",
+        "de": "Über das Selbstbestimmungsrecht der Nationen",
+        "draft": ["en", "de"]
+      },
+      "type": "article",
+      "authors": ["lenin"],
+      "date": {"date": "1914"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "the-road-to-serfdom",
+      "title": {
+        "orig": "en",
+        "fr": "La Route de la servitude",
+        "en": "The Road to Serfdom",
+        "de": "Der Weg zur Knechtschaft",
+        "draft": ["de"]
+      },
+      "type": "book",
+      "authors": ["friedrich-hayek"],
+      "date": {"date": "1944-03"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "the-state-and-revolution",
+      "title": {
+        "orig": "ru",
+        "ru": "Государство и революция",
+        "fr": "L'État et la Révolution",
+        "en": "The State and Revolution",
+        "de": "Staat und Revolution",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["lenin"],
+      "date": {"date": "1918"},
+      "written_start": {"date": "1917-08"},
+      "written_end": {"date": "1917-09"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "the-third-international-after-lenin",
+      "title": {
+        "orig": "ru",
+        "ru": "Третий Интернационал после Ленина",
+        "fr": "L'Internationale communiste après Lénine",
+        "en": "The Third International After Lenin",
+        "de": "Die Dritte Internationale nach Lenin",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["trotsky"],
+      "date": {"date": "1929"},
+      "written_start": {"date": "1928"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "the-wealth-of-nations",
+      "title": {
+        "orig": "en",
+        "fr": "Recherches sur la nature et les causes de la richesse des nations",
+        "en": "An Inquiry into the Nature and Causes of the Wealth of Nations",
+        "de": "Untersuchung über Wesen und Ursachen des Reichtums der Völker",
+        "draft": ["de"]
+      },
+      "aliases": ["La Richesse des nations", "The Wealth of Nations"],
+      "type": "book",
+      "authors": ["adam-smith"],
+      "date": {"date": "1776-03-09"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "theses-on-feuerbach",
+      "title": {
+        "orig": "de",
+        "fr": "Thèses sur Feuerbach",
+        "en": "Theses on Feuerbach",
+        "de": "Thesen über Feuerbach",
+        "draft": ["en"]
+      },
+      "type": "other",
+      "authors": ["marx"],
+      "date": {"date": "1888"},
+      "written_start": {"date": "1845"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "transitional-programme",
+      "title": {
+        "orig": "ru",
+        "ru": "Агония капитализма и задачи Четвертого Интернационала",
+        "fr": "L'Agonie du capitalisme et les tâches de la IVe Internationale",
+        "en": "The Death Agony of Capitalism and the Tasks of the Fourth International",
+        "de": "Der Todeskampf des Kapitalismus und die Aufgaben der Vierten Internationale",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Programme de transition", "Transitional Program", "Übergangsprogramm"],
+      "type": "programme",
+      "authors": ["trotsky"],
+      "organizations": ["fourth-international"],
+      "date": {"date": "1938"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "twenty-one-conditions",
+      "title": {
+        "orig": "ru",
+        "ru": "Условия приёма в Коммунистический Интернационал",
+        "fr": "Les 21 conditions d'admission à l'Internationale communiste",
+        "en": "Twenty-one Conditions",
+        "de": "Einundzwanzig Bedingungen",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["21 conditions"],
+      "type": "resolution",
+      "authors": ["lenin"],
+      "organizations": ["comintern"],
+      "date": {"date": "1920-08"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "whither-france",
+      "title": {
+        "orig": "ru",
+        "ru": "Куда идёт Франция?",
+        "fr": "Où va la France ?",
+        "en": "Whither France?",
+        "de": "Wohin geht Frankreich?",
+        "draft": ["en", "de"]
+      },
+      "type": "pamphlet",
+      "authors": ["trotsky"],
+      "date": {"date": "1934-11"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "woman-and-socialism",
+      "title": {
+        "orig": "de",
+        "fr": "La Femme et le socialisme",
+        "en": "Woman and Socialism",
+        "de": "Die Frau und der Sozialismus",
+        "draft": ["en"]
+      },
+      "type": "book",
+      "authors": ["august-bebel"],
+      "date": {"date": "1879"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "la-traviata",
+      "title": {
+        "orig": "it",
+        "it": "La traviata",
+        "fr": "La traviata",
+        "en": "La traviata",
+        "de": "La traviata",
+        "draft": ["en", "de"]
+      },
+      "type": "music",
+      "authors": ["giuseppe-verdi"],
+      "date": {"date": "1853-03-06"},
+      "language": "it",
+      "status": "draft"
+    },
+    {
+      "id": "the-painters-studio",
+      "title": {
+        "orig": "fr",
+        "fr": "L'Atelier du peintre",
+        "en": "The Painter's Studio",
+        "de": "Das Atelier des Malers",
+        "draft": ["en", "de"]
+      },
+      "type": "painting",
+      "authors": ["gustave-courbet"],
+      "date": {"date": "1855"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "leaves-of-grass",
+      "title": {
+        "orig": "en",
+        "en": "Leaves of Grass",
+        "fr": "Feuilles d'herbe",
+        "de": "Grashalme",
+        "draft": ["de"]
+      },
+      "type": "poem",
+      "authors": ["walt-whitman"],
+      "date": {"date": "1855-07"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "madame-bovary",
+      "title": {
+        "orig": "fr",
+        "fr": "Madame Bovary",
+        "en": "Madame Bovary",
+        "de": "Madame Bovary",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["gustave-flaubert"],
+      "date": {"date": "1856"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "les-fleurs-du-mal",
+      "title": {
+        "orig": "fr",
+        "fr": "Les Fleurs du mal",
+        "en": "The Flowers of Evil",
+        "de": "Die Blumen des Bösen",
+        "draft": ["en", "de"]
+      },
+      "type": "poem",
+      "authors": ["charles-baudelaire"],
+      "date": {"date": "1857-06"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "the-gleaners",
+      "title": {
+        "orig": "fr",
+        "fr": "Des glaneuses",
+        "en": "The Gleaners",
+        "de": "Die Ährenleserinnen",
+        "draft": ["en", "de"]
+      },
+      "type": "painting",
+      "authors": ["jean-francois-millet"],
+      "date": {"date": "1857"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "le-dejeuner-sur-lherbe",
+      "title": {
+        "orig": "fr",
+        "fr": "Le Déjeuner sur l'herbe",
+        "en": "Le Déjeuner sur l'herbe",
+        "de": "Das Frühstück im Grünen",
+        "draft": ["en", "de"]
+      },
+      "type": "painting",
+      "authors": ["edouard-manet"],
+      "date": {"date": "1863"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "alices-adventures-in-wonderland",
+      "title": {
+        "orig": "en",
+        "en": "Alice's Adventures in Wonderland",
+        "fr": "Les Aventures d'Alice au pays des merveilles",
+        "de": "Alice im Wunderland",
+        "draft": ["de"]
+      },
+      "type": "book",
+      "authors": ["lewis-carroll"],
+      "date": {"date": "1865-11"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "crime-and-punishment",
+      "title": {
+        "orig": "ru",
+        "ru": "Преступление и наказание",
+        "fr": "Crime et Châtiment",
+        "en": "Crime and Punishment",
+        "de": "Schuld und Sühne",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["dostoevsky"],
+      "date": {"date": "1866"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "war-and-peace",
+      "title": {
+        "orig": "ru",
+        "ru": "Война и мир",
+        "fr": "Guerre et Paix",
+        "en": "War and Peace",
+        "de": "Krieg und Frieden",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["leo-tolstoy"],
+      "date": {"date": "1865"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "barge-haulers-on-the-volga",
+      "title": {
+        "orig": "ru",
+        "ru": "Бурлаки на Волге",
+        "fr": "Les Bateliers de la Volga",
+        "en": "Barge Haulers on the Volga",
+        "de": "Die Wolgatreidler",
+        "draft": ["en", "de"]
+      },
+      "type": "painting",
+      "authors": ["ilya-repin"],
+      "date": {"date": "1873"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "carmen",
+      "title": {"orig": "fr", "fr": "Carmen", "en": "Carmen", "de": "Carmen", "draft": ["en", "de"]},
+      "type": "music",
+      "authors": ["georges-bizet"],
+      "date": {"date": "1875-03-03"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "der-ring-des-nibelungen",
+      "title": {
+        "orig": "de",
+        "de": "Der Ring des Nibelungen",
+        "fr": "L'Anneau du Nibelung",
+        "en": "The Ring of the Nibelung",
+        "draft": ["en"]
+      },
+      "type": "music",
+      "authors": ["richard-wagner"],
+      "date": {"date": "1876-08-13"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "lassommoir",
+      "title": {
+        "orig": "fr",
+        "fr": "L'Assommoir",
+        "en": "L'Assommoir",
+        "de": "Der Totschläger",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["emile-zola"],
+      "date": {"date": "1876"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "a-dolls-house",
+      "title": {
+        "orig": "nb",
+        "nb": "Et dukkehjem",
+        "fr": "Une maison de poupée",
+        "en": "A Doll's House",
+        "de": "Nora oder Ein Puppenheim",
+        "draft": ["en", "de"]
+      },
+      "type": "play",
+      "authors": ["henrik-ibsen"],
+      "date": {"date": "1879-12"},
+      "language": "nb",
+      "status": "draft"
+    },
+    {
+      "id": "adventures-of-huckleberry-finn",
+      "title": {
+        "orig": "en",
+        "en": "Adventures of Huckleberry Finn",
+        "fr": "Les Aventures de Huckleberry Finn",
+        "de": "Die Abenteuer des Huckleberry Finn",
+        "draft": ["de"]
+      },
+      "type": "book",
+      "authors": ["mark-twain"],
+      "date": {"date": "1884-12"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "the-potato-eaters",
+      "title": {
+        "orig": "nl",
+        "nl": "De Aardappeleters",
+        "fr": "Les Mangeurs de pommes de terre",
+        "en": "The Potato Eaters",
+        "de": "Die Kartoffelesser",
+        "draft": ["en", "de"]
+      },
+      "type": "painting",
+      "authors": ["vincent-van-gogh"],
+      "date": {"date": "1885"},
+      "language": "nl",
+      "status": "draft"
+    },
+    {
+      "id": "statue-of-liberty",
+      "title": {
+        "orig": "fr",
+        "fr": "La Liberté éclairant le monde",
+        "en": "Liberty Enlightening the World",
+        "de": "Die Freiheit erleuchtet die Welt",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Statue of Liberty", "statue de la Liberté", "Freiheitsstatue"],
+      "type": "sculpture",
+      "authors": ["frederic-auguste-bartholdi"],
+      "date": {"date": "1886-10-28"},
+      "status": "draft"
+    },
+    {
+      "id": "the-weavers",
+      "title": {
+        "orig": "de",
+        "de": "Die Weber",
+        "fr": "Les Tisserands",
+        "en": "The Weavers",
+        "draft": ["en"]
+      },
+      "type": "play",
+      "authors": ["gerhart-hauptmann"],
+      "date": {"date": "1892"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "the-scream",
+      "title": {
+        "orig": "no",
+        "no": "Skrik",
+        "fr": "Le Cri",
+        "en": "The Scream",
+        "de": "Der Schrei",
+        "draft": ["en", "de"]
+      },
+      "type": "painting",
+      "authors": ["edvard-munch"],
+      "date": {"date": "1893"},
+      "language": "no",
+      "status": "draft"
+    },
+    {
+      "id": "workers-leaving-the-lumiere-factory",
+      "title": {
+        "orig": "fr",
+        "fr": "La Sortie de l'usine Lumière à Lyon",
+        "en": "Workers Leaving the Lumière Factory",
+        "de": "Arbeiter verlassen die Lumière-Werke",
+        "draft": ["en", "de"]
+      },
+      "type": "film",
+      "authors": ["louis-lumiere", "auguste-lumiere"],
+      "date": {"date": "1895-03"},
+      "status": "draft"
+    },
+    {
+      "id": "maple-leaf-rag",
+      "title": {
+        "orig": "en",
+        "en": "Maple Leaf Rag",
+        "fr": "Maple Leaf Rag",
+        "de": "Maple Leaf Rag",
+        "draft": ["de"]
+      },
+      "type": "music",
+      "authors": ["scott-joplin"],
+      "date": {"date": "1899"},
+      "status": "draft"
+    },
+    {
+      "id": "a-trip-to-the-moon",
+      "title": {
+        "orig": "fr",
+        "fr": "Le Voyage dans la Lune",
+        "en": "A Trip to the Moon",
+        "de": "Die Reise zum Mond",
+        "draft": ["en", "de"]
+      },
+      "type": "film",
+      "authors": ["georges-melies"],
+      "date": {"date": "1902-09"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "manifesto-of-futurism",
+      "title": {
+        "orig": "fr",
+        "fr": "Manifeste du futurisme",
+        "en": "Manifesto of Futurism",
+        "de": "Manifest des Futurismus",
+        "draft": ["en", "de"]
+      },
+      "type": "manifesto",
+      "authors": ["filippo-tommaso-marinetti"],
+      "date": {"date": "1909-02-20"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "the-storming-of-the-winter-palace",
+      "title": {
+        "orig": "ru",
+        "ru": "Взятие Зимнего дворца",
+        "fr": "La Prise du palais d'Hiver",
+        "en": "The Storming of the Winter Palace",
+        "de": "Die Erstürmung des Winterpalais",
+        "draft": ["en", "de"]
+      },
+      "type": "play",
+      "authors": ["nikolai-evreinov"],
+      "date": {"date": "1920-11-07"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "the-threepenny-opera",
+      "title": {
+        "orig": "de",
+        "de": "Die Dreigroschenoper",
+        "fr": "L'Opéra de quat'sous",
+        "en": "The Threepenny Opera",
+        "draft": ["en"]
+      },
+      "type": "play",
+      "authors": ["bertolt-brecht", "kurt-weill"],
+      "date": {"date": "1928-08-31"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "the-great-dictator",
+      "title": {
+        "orig": "en",
+        "en": "The Great Dictator",
+        "fr": "Le Dictateur",
+        "de": "Der große Diktator",
+        "draft": ["de"]
+      },
+      "type": "film",
+      "authors": ["charlie-chaplin"],
+      "date": {"date": "1940-10-15"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "leningrad-symphony",
+      "title": {
+        "fr": "Symphonie nº 7 « Leningrad »",
+        "en": "Symphony No. 7 \"Leningrad\"",
+        "de": "Sinfonie Nr. 7 „Leningrader“",
+        "draft": ["en", "de"]
+      },
+      "type": "music",
+      "authors": ["dmitri-shostakovich"],
+      "date": {"date": "1942-03-05"},
+      "status": "draft"
+    },
+    {
+      "id": "bicycle-thieves",
+      "title": {
+        "orig": "it",
+        "it": "Ladri di biciclette",
+        "fr": "Le Voleur de bicyclette",
+        "en": "Bicycle Thieves",
+        "de": "Fahrraddiebe",
+        "draft": ["en", "de"]
+      },
+      "type": "film",
+      "authors": ["vittorio-de-sica"],
+      "date": {"date": "1948-11"},
+      "language": "it",
+      "status": "draft"
+    },
+    {
+      "id": "waiting-for-godot",
+      "title": {
+        "orig": "fr",
+        "fr": "En attendant Godot",
+        "en": "Waiting for Godot",
+        "de": "Warten auf Godot",
+        "draft": ["en", "de"]
+      },
+      "type": "play",
+      "authors": ["samuel-beckett"],
+      "date": {"date": "1952"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "thats-all-right",
+      "title": {
+        "orig": "en",
+        "en": "That's All Right",
+        "fr": "That's All Right",
+        "de": "That's All Right",
+        "draft": ["de"]
+      },
+      "aliases": ["That's All Right, Mama"],
+      "type": "music",
+      "date": {"date": "1954-07"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "howl",
+      "title": {"orig": "en", "en": "Howl", "fr": "Howl", "de": "Das Geheul", "draft": ["de"]},
+      "type": "poem",
+      "authors": ["allen-ginsberg"],
+      "date": {"date": "1956"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "the-400-blows",
+      "title": {
+        "orig": "fr",
+        "fr": "Les Quatre Cents Coups",
+        "en": "The 400 Blows",
+        "de": "Sie küßten und sie schlugen ihn",
+        "draft": ["en", "de"]
+      },
+      "type": "film",
+      "authors": ["francois-truffaut"],
+      "date": {"date": "1959-05"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "whats-going-on",
+      "title": {
+        "orig": "en",
+        "en": "What's Going On",
+        "fr": "What's Going On",
+        "de": "What's Going On",
+        "draft": ["de"]
+      },
+      "type": "music",
+      "authors": ["marvin-gaye"],
+      "date": {"date": "1971-05-21"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "nevermind",
+      "title": {"orig": "en", "en": "Nevermind", "fr": "Nevermind", "de": "Nevermind", "draft": ["de"]},
+      "type": "music",
+      "date": {"date": "1991-09-24"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "harry-potter-and-the-philosophers-stone",
+      "title": {
+        "orig": "en",
+        "en": "Harry Potter and the Philosopher's Stone",
+        "fr": "Harry Potter à l'école des sorciers",
+        "de": "Harry Potter und der Stein der Weisen",
+        "draft": ["de"]
+      },
+      "type": "book",
+      "authors": ["j-k-rowling"],
+      "date": {"date": "1997-06-26"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "rosetta",
+      "title": {"orig": "fr", "fr": "Rosetta", "en": "Rosetta", "de": "Rosetta", "draft": ["en", "de"]},
+      "type": "film",
+      "authors": ["jean-pierre-dardenne", "luc-dardenne"],
+      "date": {"date": "1999-05"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "persepolis",
+      "title": {
+        "orig": "fr",
+        "fr": "Persepolis",
+        "en": "Persepolis",
+        "de": "Persepolis",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["marjane-satrapi"],
+      "date": {"date": "2000"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "good-bye-lenin",
+      "title": {
+        "orig": "de",
+        "de": "Good Bye, Lenin!",
+        "fr": "Good Bye, Lenin!",
+        "en": "Good Bye, Lenin!",
+        "draft": ["en"]
+      },
+      "type": "film",
+      "authors": ["wolfgang-becker"],
+      "date": {"date": "2003-02"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "the-wind-that-shakes-the-barley",
+      "title": {
+        "orig": "en",
+        "en": "The Wind That Shakes the Barley",
+        "fr": "Le vent se lève",
+        "de": "The Wind That Shakes the Barley",
+        "draft": ["de"]
+      },
+      "type": "film",
+      "authors": ["ken-loach"],
+      "date": {"date": "2006-05"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "avatar",
+      "title": {"orig": "en", "en": "Avatar", "fr": "Avatar", "de": "Avatar", "draft": ["de"]},
+      "type": "film",
+      "authors": ["james-cameron"],
+      "date": {"date": "2009-12"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "squid-game",
+      "title": {
+        "orig": "ko",
+        "ko": "오징어 게임",
+        "fr": "Squid Game",
+        "en": "Squid Game",
+        "de": "Squid Game",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "authors": ["hwang-dong-hyuk"],
+      "date": {"date": "2021-09-17"},
+      "language": "ko",
+      "status": "draft"
+    },
+    {
+      "id": "the-development-of-capitalism-in-russia",
+      "title": {
+        "orig": "ru",
+        "ru": "Развитие капитализма в России",
+        "fr": "Le Développement du capitalisme en Russie",
+        "en": "The Development of Capitalism in Russia",
+        "de": "Die Entwicklung des Kapitalismus in Russland",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["lenin"],
+      "date": {"date": "1899-04"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "one-step-forward-two-steps-back",
+      "title": {
+        "orig": "ru",
+        "ru": "Шаг вперёд, два шага назад",
+        "fr": "Un pas en avant, deux pas en arrière",
+        "en": "One Step Forward, Two Steps Back",
+        "de": "Ein Schritt vorwärts, zwei Schritte zurück",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["lenin"],
+      "date": {"date": "1904-05"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "two-tactics-of-social-democracy",
+      "title": {
+        "orig": "ru",
+        "ru": "Две тактики социал-демократии в демократической революции",
+        "fr": "Deux tactiques de la social-démocratie dans la révolution démocratique",
+        "en": "Two Tactics of Social-Democracy in the Democratic Revolution",
+        "de": "Zwei Taktiken der Sozialdemokratie in der demokratischen Revolution",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["lenin"],
+      "date": {"date": "1905"},
+      "written_start": {"date": "1905-06"},
+      "written_end": {"date": "1905-07"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "platform-of-the-joint-opposition",
+      "title": {
+        "orig": "ru",
+        "ru": "Платформа большевиков-ленинцев (оппозиции)",
+        "fr": "Plate-forme de l'Opposition unifiée",
+        "en": "Platform of the Joint Opposition",
+        "de": "Plattform der Vereinigten Opposition",
+        "draft": ["en", "de"]
+      },
+      "type": "programme",
+      "authors": ["trotsky"],
+      "organizations": ["united-opposition"],
+      "date": {"date": "1927-09"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "freedom-charter",
+      "title": {
+        "orig": "en",
+        "en": "Freedom Charter",
+        "fr": "Charte de la liberté",
+        "de": "Freiheitscharta",
+        "draft": ["en", "de"]
+      },
+      "type": "programme",
+      "organizations": ["anc"],
+      "date": {"date": "1955-06-26"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "gods-bits-of-wood",
+      "title": {
+        "orig": "fr",
+        "fr": "Les Bouts de bois de Dieu",
+        "en": "God's Bits of Wood",
+        "de": "Gottes Holzstücke",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["ousmane-sembene"],
+      "date": {"date": "1960"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "wretched-of-the-earth",
+      "title": {
+        "orig": "fr",
+        "fr": "Les Damnés de la Terre",
+        "en": "The Wretched of the Earth",
+        "de": "Die Verdammten dieser Erde",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["frantz-fanon"],
+      "date": {"date": "1961"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "weapon-of-theory",
+      "title": {
+        "orig": "pt",
+        "pt": "A arma da teoria",
+        "fr": "L'arme de la théorie",
+        "en": "The Weapon of Theory",
+        "de": "Die Waffe der Theorie",
+        "draft": ["en", "de"]
+      },
+      "type": "speech",
+      "authors": ["amilcar-cabral"],
+      "date": {"date": "1966-01"},
+      "language": "pt",
+      "status": "draft"
+    },
+    {
+      "id": "arusha-declaration",
+      "title": {
+        "orig": "sw",
+        "sw": "Azimio la Arusha",
+        "fr": "Déclaration d'Arusha",
+        "en": "Arusha Declaration",
+        "de": "Arusha-Erklärung",
+        "draft": ["en", "de"]
+      },
+      "type": "programme",
+      "authors": ["julius-nyerere"],
+      "date": {"date": "1967-02-05"},
+      "language": "sw",
+      "status": "draft"
+    },
+    {
+      "id": "how-europe-underdeveloped-africa",
+      "title": {
+        "orig": "en",
+        "en": "How Europe Underdeveloped Africa",
+        "fr": "Et l'Europe sous-développa l'Afrique",
+        "de": "Wie Europa Afrika unterentwickelte",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["walter-rodney"],
+      "date": {"date": "1972"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "black-skin-white-masks",
+      "title": {
+        "orig": "fr",
+        "fr": "Peau noire, masques blancs",
+        "en": "Black Skin, White Masks",
+        "de": "Schwarze Haut, weiße Masken",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["frantz-fanon"],
+      "date": {"date": "1952"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "neo-colonialism-the-last-stage-of-imperialism",
+      "title": {
+        "orig": "en",
+        "en": "Neo-Colonialism, the Last Stage of Imperialism",
+        "fr": "Le Néocolonialisme, dernier stade de l'impérialisme",
+        "de": "Neokolonialismus, das letzte Stadium des Imperialismus",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["kwame-nkrumah"],
+      "date": {"date": "1965"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "i-write-what-i-like",
+      "title": {
+        "orig": "en",
+        "en": "I Write What I Like",
+        "fr": "I Write What I Like",
+        "de": "I Write What I Like",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["steve-biko"],
+      "date": {"date": "1978"},
+      "written_start": {"date": "1970"},
+      "written_end": {"date": "1972"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "road-to-south-african-freedom",
+      "title": {
+        "orig": "en",
+        "en": "The Road to South African Freedom",
+        "fr": "La Voie de la liberté sud-africaine",
+        "de": "Der Weg zur südafrikanischen Freiheit",
+        "draft": ["en", "de"]
+      },
+      "type": "programme",
+      "organizations": ["communist-party-of-south-africa"],
+      "date": {"date": "1962"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "our-america",
+      "title": {
+        "orig": "es",
+        "es": "Nuestra América",
+        "fr": "Notre Amérique",
+        "en": "Our America",
+        "de": "Unser Amerika",
+        "draft": ["en", "de"]
+      },
+      "type": "article",
+      "authors": ["jose-marti"],
+      "date": {"date": "1891"},
+      "language": "es",
+      "status": "draft"
+    },
+    {
+      "id": "plan-of-ayala",
+      "title": {
+        "orig": "es",
+        "es": "Plan de Ayala",
+        "fr": "Plan d'Ayala",
+        "en": "Plan of Ayala",
+        "de": "Plan von Ayala",
+        "draft": ["en", "de"]
+      },
+      "type": "programme",
+      "authors": ["emiliano-zapata"],
+      "date": {"date": "1911-11-28"},
+      "language": "es",
+      "status": "draft"
+    },
+    {
+      "id": "seven-interpretive-essays",
+      "title": {
+        "orig": "es",
+        "es": "7 ensayos de interpretación de la realidad peruana",
+        "fr": "Sept essais d'interprétation de la réalité péruvienne",
+        "en": "Seven Interpretive Essays on Peruvian Reality",
+        "de": "Sieben Versuche, die peruanische Wirklichkeit zu verstehen",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["jose-carlos-mariategui"],
+      "date": {"date": "1928"},
+      "language": "es",
+      "status": "draft"
+    },
+    {
+      "id": "pulacayo-theses",
+      "title": {
+        "orig": "es",
+        "es": "Tesis de Pulacayo",
+        "fr": "Thèses de Pulacayo",
+        "en": "Pulacayo Theses",
+        "de": "Thesen von Pulacayo",
+        "draft": ["en", "de"]
+      },
+      "type": "theses",
+      "organizations": ["fstmb"],
+      "date": {"date": "1946-11"},
+      "language": "es",
+      "status": "draft"
+    },
+    {
+      "id": "canto-general",
+      "title": {
+        "orig": "es",
+        "es": "Canto general",
+        "fr": "Chant général",
+        "en": "Canto General",
+        "de": "Der große Gesang",
+        "draft": ["en", "de"]
+      },
+      "type": "poem",
+      "authors": ["pablo-neruda"],
+      "date": {"date": "1950"},
+      "language": "es",
+      "status": "draft"
+    },
+    {
+      "id": "history-will-absolve-me",
+      "title": {
+        "orig": "es",
+        "es": "La historia me absolverá",
+        "fr": "L'histoire m'acquittera",
+        "en": "History Will Absolve Me",
+        "de": "Die Geschichte wird mich freisprechen",
+        "draft": ["en", "de"]
+      },
+      "type": "speech",
+      "authors": ["fidel-castro"],
+      "date": {"date": "1953-10-16"},
+      "language": "es",
+      "status": "draft"
+    },
+    {
+      "id": "message-to-the-tricontinental",
+      "title": {
+        "orig": "es",
+        "es": "Mensaje a los pueblos del mundo a través de la Tricontinental",
+        "fr": "Message à la Tricontinentale",
+        "en": "Message to the Tricontinental",
+        "de": "Botschaft an die Trikontinentale",
+        "draft": ["en", "de"]
+      },
+      "type": "article",
+      "authors": ["che-guevara"],
+      "date": {"date": "1967-04-16"},
+      "language": "es",
+      "status": "draft"
+    },
+    {
+      "id": "pedagogy-of-the-oppressed",
+      "title": {
+        "orig": "pt",
+        "pt": "Pedagogia do Oprimido",
+        "fr": "Pédagogie des opprimés",
+        "en": "Pedagogy of the Oppressed",
+        "de": "Pädagogik der Unterdrückten",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["paulo-freire"],
+      "date": {"date": "1970"},
+      "written_start": {"date": "1968"},
+      "language": "pt",
+      "status": "draft"
+    },
+    {
+      "id": "a-theology-of-liberation",
+      "title": {
+        "orig": "es",
+        "es": "Teología de la liberación",
+        "fr": "Théologie de la libération",
+        "en": "A Theology of Liberation",
+        "de": "Theologie der Befreiung",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["gustavo-gutierrez"],
+      "date": {"date": "1971"},
+      "language": "es",
+      "status": "draft"
+    },
+    {
+      "id": "open-veins-of-latin-america",
+      "title": {
+        "orig": "es",
+        "es": "Las venas abiertas de América Latina",
+        "fr": "Les Veines ouvertes de l'Amérique latine",
+        "en": "Open Veins of Latin America",
+        "de": "Die offenen Adern Lateinamerikas",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["eduardo-galeano"],
+      "date": {"date": "1971"},
+      "language": "es",
+      "status": "draft"
+    },
+    {
+      "id": "guerrilla-warfare",
+      "title": {
+        "orig": "es",
+        "es": "La guerra de guerrillas",
+        "fr": "La Guerre de guérilla",
+        "en": "Guerrilla Warfare",
+        "de": "Der Guerillakrieg",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["che-guevara"],
+      "date": {"date": "1960"},
+      "language": "es",
+      "status": "draft"
+    },
+    {
+      "id": "revolution-in-the-revolution",
+      "title": {
+        "orig": "fr",
+        "fr": "Révolution dans la révolution ?",
+        "en": "Revolution in the Revolution?",
+        "de": "Revolution in der Revolution?",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["regis-debray"],
+      "date": {"date": "1967"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "capitalism-and-underdevelopment-in-latin-america",
+      "title": {
+        "orig": "en",
+        "en": "Capitalism and Underdevelopment in Latin America",
+        "fr": "Capitalisme et sous-développement en Amérique latine",
+        "de": "Kapitalismus und Unterentwicklung in Lateinamerika",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["andre-gunder-frank"],
+      "date": {"date": "1967"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "dependency-and-development-in-latin-america",
+      "title": {
+        "orig": "es",
+        "es": "Dependencia y desarrollo en América Latina",
+        "fr": "Dépendance et développement en Amérique latine",
+        "en": "Dependency and Development in Latin America",
+        "de": "Abhängigkeit und Entwicklung in Lateinamerika",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["fernando-henrique-cardoso", "enzo-faletto"],
+      "date": {"date": "1969"},
+      "language": "es",
+      "status": "draft"
+    },
+    {
+      "id": "dialectics-of-dependency",
+      "title": {
+        "orig": "es",
+        "es": "Dialéctica de la dependencia",
+        "fr": "Dialectique de la dépendance",
+        "en": "Dialectics of Dependency",
+        "de": "Dialektik der Abhängigkeit",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["ruy-mauro-marini"],
+      "date": {"date": "1973"},
+      "language": "es",
+      "status": "draft"
+    }
+  ]
+}

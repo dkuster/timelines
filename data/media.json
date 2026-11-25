@@ -1,0 +1,749 @@
+{
+  "$schema": "../schema/media.schema.json",
+  "collection": "media",
+  "version": 1,
+  "items": [
+    {
+      "id": "lenin-1887-simbirsk",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Lenin-1887.jpg",
+      "title": {
+        "fr": "Vladimir Oulianov à 17 ans",
+        "en": "Vladimir Ulyanov aged 17",
+        "de": "Wladimir Uljanow mit 17 Jahren",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Simbirsk, vers 1887, l'année de l'exécution de son frère Alexandre.",
+        "en": "Simbirsk, circa 1887, the year his brother Alexander was executed.",
+        "de": "Simbirsk, um 1887, im Jahr der Hinrichtung seines Bruders Alexander.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1887", "qualifier": "circa"},
+      "credit": "B. R. Bik",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Lenin-1887.jpg",
+      "about": [{"ref": "person:lenin", "role": "portrait"}],
+      "status": "draft"
+    },
+    {
+      "id": "lenin-1895-police-photo",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Mug_shot_of_Lenin%2C_1895.jpg",
+      "title": {
+        "fr": "Photo d'identité judiciaire de Lénine",
+        "en": "Lenin's police mugshot",
+        "de": "Polizeifoto Lenins",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Fiche de l'Okhrana après son arrestation à Saint-Pétersbourg en décembre 1895.",
+        "en": "Okhrana record after his arrest in Saint Petersburg in December 1895.",
+        "de": "Karteikarte der Ochrana nach seiner Verhaftung in Sankt Petersburg im Dezember 1895.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1895-12", "qualifier": "circa"},
+      "credit": "Okhrana",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Mug_shot_of_Lenin,_1895.jpg",
+      "about": [{"ref": "person:lenin", "role": "portrait"}],
+      "status": "draft"
+    },
+    {
+      "id": "union-of-struggle-1897",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/St_Petersburg_Union_of_Struggle_for_the_Liberation_of_the_Working_Class_-_Feb_1897.jpg",
+      "title": {
+        "fr": "L'Union de lutte pour l'émancipation de la classe ouvrière",
+        "en": "The Union of Struggle for the Emancipation of the Working Class",
+        "de": "Der Kampfbund zur Befreiung der Arbeiterklasse",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Saint-Pétersbourg, février 1897, avant le départ en exil : Lénine et Martov assis parmi les membres du groupe.",
+        "en": "Saint Petersburg, February 1897, before exile: Lenin and Martov seated among the group's members.",
+        "de": "Sankt Petersburg, Februar 1897, vor der Verbannung: Lenin und Martow sitzend inmitten der Gruppe.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1897-02", "qualifier": "circa"},
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:St_Petersburg_Union_of_Struggle_for_the_Liberation_of_the_Working_Class_-_Feb_1897.jpg",
+      "about": [{"ref": "person:lenin", "role": "photo"}, {"ref": "person:martov", "role": "photo"}],
+      "status": "draft"
+    },
+    {
+      "id": "lenin-1900-moscow",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Lenin%2C_1900_%28Photo_by_Y.Mebius%29.jpg",
+      "title": {
+        "fr": "Lénine au retour de Sibérie",
+        "en": "Lenin back from Siberia",
+        "de": "Lenin nach der Rückkehr aus Sibirien",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Moscou, février 1900, à la fin de l'exil sibérien, peu avant la fondation de l'Iskra.",
+        "en": "Moscow, February 1900, at the end of his Siberian exile, shortly before Iskra was founded.",
+        "de": "Moskau, Februar 1900, am Ende der sibirischen Verbannung, kurz vor der Gründung der Iskra.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1900-02", "qualifier": "circa"},
+      "credit": "Y. Mebius",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Lenin,_1900_(Photo_by_Y.Mebius).jpg",
+      "about": [{"ref": "person:lenin", "role": "portrait"}],
+      "status": "draft"
+    },
+    {
+      "id": "lenin-1910-paris",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Vladimir_Ilyich_Ulyanov-Lenin.jpg",
+      "title": {
+        "fr": "Lénine à Paris",
+        "en": "Lenin in Paris",
+        "de": "Lenin in Paris",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Paris, 1910, pendant les années d'émigration qui suivent la défaite de 1905.",
+        "en": "Paris, 1910, during the years of emigration after the defeat of 1905.",
+        "de": "Paris, 1910, in den Emigrationsjahren nach der Niederlage von 1905.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1910"},
+      "credit": "E. Vallois",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Vladimir_Ilyich_Ulyanov-Lenin.jpg",
+      "about": [{"ref": "person:lenin", "role": "portrait"}],
+      "status": "draft"
+    },
+    {
+      "id": "lenin-1916-zurich",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Lenin_in_Z%C3%BCrich_on_March_1916.jpg",
+      "title": {
+        "fr": "Lénine à Zurich",
+        "en": "Lenin in Zurich",
+        "de": "Lenin in Zürich",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Zurich, début 1916, pendant l'exil suisse.",
+        "en": "Zurich, early 1916, during his Swiss exile.",
+        "de": "Zürich, Anfang 1916, während des Schweizer Exils.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1916-03", "qualifier": "circa"},
+      "credit": "W. Pleyer",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Lenin_in_Z%C3%BCrich_on_March_1916.jpg",
+      "about": [
+        {"ref": "person:lenin", "role": "portrait"},
+        {"ref": "node:1914-lenin-swiss-exile", "role": "photo"}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "lenin-1917-disguise",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Lenin-last-underground%2C_1917.jpg",
+      "title": {
+        "fr": "Lénine déguisé, été 1917",
+        "en": "Lenin in disguise, summer 1917",
+        "de": "Lenin in Verkleidung, Sommer 1917",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Rasé et coiffé d'une perruque pour un faux papier d'identité, pendant la clandestinité qui suit les journées de Juillet.",
+        "en": "Clean-shaven and wearing a wig for a forged identity card, while in hiding after the July Days.",
+        "de": "Glattrasiert und mit Perücke für einen gefälschten Ausweis, im Untergrund nach den Julitagen.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1917-08", "qualifier": "circa"},
+      "credit": "D. I. Leshchenko",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Lenin-last-underground,_1917.jpg",
+      "about": [{"ref": "person:lenin", "role": "portrait"}, {"ref": "node:1917-july-days", "role": "photo"}],
+      "status": "draft"
+    },
+    {
+      "id": "lenin-1920-speech-sverdlov-square",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Vladimir_Lenin_Speech_in_May_1920.jpg",
+      "title": {
+        "fr": "Lénine harangue les troupes",
+        "en": "Lenin addresses the troops",
+        "de": "Lenin spricht zu den Truppen",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Moscou, place Sverdlov, 5 mai 1920 : discours aux soldats partant pour le front polonais.",
+        "en": "Moscow, Sverdlov Square, 5 May 1920: speech to soldiers leaving for the Polish front.",
+        "de": "Moskau, Swerdlow-Platz, 5. Mai 1920: Rede an die Soldaten vor dem Abmarsch an die polnische Front.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1920-05-05"},
+      "credit": "G. P. Goldstein",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Vladimir_Lenin_Speech_in_May_1920.jpg",
+      "about": [{"ref": "person:lenin", "role": "photo"}],
+      "status": "draft"
+    },
+    {
+      "id": "lenin-1920-portrait",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Vladimir_Lenin_in_July_1920_by_Pavel_Zhukov.jpg",
+      "title": {
+        "fr": "Portrait de Lénine, 1920",
+        "en": "Portrait of Lenin, 1920",
+        "de": "Porträt Lenins, 1920",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Juillet 1920, à l'époque du IIe congrès de l'Internationale communiste.",
+        "en": "July 1920, at the time of the Second Congress of the Communist International.",
+        "de": "Juli 1920, zur Zeit des II. Weltkongresses der Kommunistischen Internationale.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1920-07"},
+      "credit": "Pavel Zhukov",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Vladimir_Lenin_in_July_1920_by_Pavel_Zhukov.jpg",
+      "about": [{"ref": "person:lenin", "role": "portrait", "primary": true}],
+      "status": "draft"
+    },
+    {
+      "id": "lenin-1923-gorki",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Lenin-last-photo.jpg",
+      "title": {
+        "fr": "L'une des dernières photos de Lénine",
+        "en": "One of the last photographs of Lenin",
+        "de": "Eines der letzten Fotos Lenins",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Gorki, 1923, après sa troisième attaque cérébrale, avec sa sœur Anna et l'un de ses médecins.",
+        "en": "Gorki, 1923, after his third stroke, with his sister Anna and one of his doctors.",
+        "de": "Gorki, 1923, nach seinem dritten Schlaganfall, mit seiner Schwester Anna und einem seiner Ärzte.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1923-05-15", "qualifier": "after"},
+      "credit": "Maria Ulyanova",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Lenin-last-photo.jpg",
+      "about": [{"ref": "person:lenin", "role": "photo"}],
+      "status": "draft"
+    },
+    {
+      "id": "plekhanov-1877-narodnik",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Georgi_Plekhanov_1870%27s-1.1A.jpg",
+      "title": {
+        "fr": "Plekhanov jeune populiste",
+        "en": "Plekhanov as a young populist",
+        "de": "Plechanow als junger Volkstümler",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Vers 1877, à l'époque de Terre et Liberté.",
+        "en": "Circa 1877, at the time of Land and Liberty.",
+        "de": "Um 1877, zur Zeit von Land und Freiheit.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1877", "qualifier": "circa"},
+      "credit": "Auteur inconnu (RGASPI)",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Georgi_Plekhanov_1870%27s-1.1A.jpg",
+      "about": [{"ref": "person:plekhanov", "role": "portrait"}],
+      "status": "draft"
+    },
+    {
+      "id": "plekhanov-1890s-portrait",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Georgiy_Valentinovich_Plekhanov.jpg",
+      "title": {
+        "fr": "Portrait de Plekhanov",
+        "en": "Portrait of Plekhanov",
+        "de": "Porträt Plechanows",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Années 1890-1900, pendant l'exil genevois.",
+        "en": "1890s–1900s, during his exile in Geneva.",
+        "de": "1890er–1900er Jahre, während des Genfer Exils.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1895", "qualifier": "circa", "display": "1890-1900"},
+      "credit": "Auteur inconnu",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Georgiy_Valentinovich_Plekhanov.jpg",
+      "about": [{"ref": "person:plekhanov", "role": "portrait", "primary": true}],
+      "status": "draft"
+    },
+    {
+      "id": "plekhanov-1904-amsterdam-congress",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/%D0%A0%D0%BE%D0%B7%D0%B0_%D0%9B%D1%8E%D0%BA%D1%81%D0%B5%D0%BC%D0%B1%D1%83%D1%80%D0%B3_%D0%B2_%D0%BF%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B8%D1%83%D0%BC%D0%B5_II_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%B0.jpg",
+      "title": {
+        "fr": "Dirigeants de la IIe Internationale à Amsterdam",
+        "en": "Leaders of the Second International in Amsterdam",
+        "de": "Führer der II. Internationale in Amsterdam",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Congrès socialiste international d'Amsterdam, août 1904 ; Plekhanov y figure parmi les dirigeants, avec notamment Rosa Luxemburg.",
+        "en": "International Socialist Congress in Amsterdam, August 1904; Plekhanov appears among the leaders, alongside Rosa Luxemburg.",
+        "de": "Internationaler Sozialistenkongress in Amsterdam, August 1904; Plechanow unter den Führern, neben Rosa Luxemburg.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1904-08"},
+      "credit": "Cornelis Gerardus Leenheer",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%BE%D0%B7%D0%B0_%D0%9B%D1%8E%D0%BA%D1%81%D0%B5%D0%BC%D0%B1%D1%83%D1%80%D0%B3_%D0%B2_%D0%BF%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B8%D1%83%D0%BC%D0%B5_II_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%B0.jpg",
+      "about": [{"ref": "person:plekhanov", "role": "photo"}],
+      "status": "draft"
+    },
+    {
+      "id": "plekhanov-1907-geneva-family",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/LidiaPlej%C3%A1novRosal%C3%ADaEugeniaLevDeichEnGinebraEn1907.png",
+      "title": {
+        "fr": "En famille à Genève",
+        "en": "With his family in Geneva",
+        "de": "Mit der Familie in Genf",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Genève, 1907 : sa fille Lidia, Plekhanov, sa femme Rosalia, sa fille Eugenia et Lev Deitch.",
+        "en": "Geneva, 1907: his daughter Lidia, Plekhanov, his wife Rosalia, his daughter Eugenia and Lev Deich.",
+        "de": "Genf, 1907: seine Tochter Lidia, Plechanow, seine Frau Rosalia, seine Tochter Eugenia und Lew Deutsch.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1907"},
+      "credit": "Auteur inconnu",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:LidiaPlej%C3%A1novRosal%C3%ADaEugeniaLevDeichEnGinebraEn1907.png",
+      "about": [{"ref": "person:plekhanov", "role": "photo"}, {"ref": "place:geneva", "role": "photo"}],
+      "status": "draft"
+    },
+    {
+      "id": "plekhanov-1917-bulla",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Georgi_Valentinovich_Plekhanov%2C_ca._1917.jpg",
+      "title": {
+        "fr": "Plekhanov en 1917",
+        "en": "Plekhanov in 1917",
+        "de": "Plechanow 1917",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Vers 1917, après son retour en Russie.",
+        "en": "Circa 1917, after his return to Russia.",
+        "de": "Um 1917, nach seiner Rückkehr nach Russland.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1917", "qualifier": "circa"},
+      "credit": "Karl Bulla (Library of Congress)",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Georgi_Valentinovich_Plekhanov,_ca._1917.jpg",
+      "about": [{"ref": "person:plekhanov", "role": "portrait"}],
+      "status": "draft"
+    },
+    {
+      "id": "pastek-flag",
+      "kind": "image",
+      "file": "images/pastek-flag.jpg",
+      "title": {
+        "orig": "fr",
+        "fr": "Drapeau de Capt'ain Pastek, inspiré de One Piece. Le vert pour l'écologie, le rouge pour la communisme et le noir pour l'anarchie."
+      },
+      "caption": {"orig": "fr", "fr": "Drapeau de Capt'ain Pastek, 2026."},
+      "about": [{"ref": "node:1966-birth-dominique-kuster", "role": "other"}]
+    },
+    {
+      "id":"1897-scramble-for-concessions-cartoon",
+      "kind":"image",
+      "file":"images/1897-scramble-for-concessions-cartoon.jpg",
+      "title": {
+        "orig":"fr",
+        "fr":"Cette caricature politique de Henri Meyer montre les dirigeants britanniques, allemands et russes entourant un gâteau représentant la Chine, chacun tenant une coute pour le partager. Publié dans Le Petit Journal le 16 janvier 1898, elle satirise l’imperialisme et la rivalité des grandes puissances pour le contrôle de la Chine."
+      },
+      "caption": {
+        "orig":"fr",
+        "fr":"Caricature de Henri Meyer, Le Petit Journal, 16 janvier 1898."
+      },
+      "about" :[{"ref": "node:1897-scramble-for-concessions", "role": "illustration"}]
+    },
+    {
+      "id": "trotsky-1918-portrait",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Leon_Trotsky_1918_%283x4_rotated_cropped_b%29.jpg",
+      "title": {
+        "fr": "Trotski en 1918",
+        "en": "Trotsky in 1918",
+        "de": "Trotzki 1918",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Portrait de l'année où il devient commissaire du peuple à la Guerre.",
+        "en": "Portrait from the year he became People's Commissar for War.",
+        "de": "Porträt aus dem Jahr, in dem er Volkskommissar für das Kriegswesen wurde.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1918"},
+      "credit": "Rijksmuseum",
+      "license": "CC0",
+      "origin": "https://commons.wikimedia.org/wiki/File:Leon_Trotsky_1918_(3x4_rotated_cropped_b).jpg",
+      "about": [{"ref": "person:trotsky", "role": "portrait", "primary": true}],
+      "status": "draft"
+    },
+    {
+      "id": "trotsky-1897-nikolaev-circle",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Leo_Trotzki_1897.jpg",
+      "title": {
+        "fr": "Le jeune Bronstein et ses camarades, 1897",
+        "en": "Young Bronstein and his comrades, 1897",
+        "de": "Der junge Bronstein mit Genossen, 1897",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Trotski (à droite) avec Ilia Sokolovski, le docteur Ziv et Alexandra Sokolovskaïa, à l'époque de l'Union ouvrière du Sud de la Russie.",
+        "en": "Trotsky (right) with Ilya Sokolovsky, Dr Ziv and Alexandra Sokolovskaya, at the time of the South Russian Workers' Union.",
+        "de": "Trotzki (rechts) mit Ilja Sokolowski, Dr. Ziv und Alexandra Sokolowskaja zur Zeit des Südrussischen Arbeiterbundes.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1897"},
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Leo_Trotzki_1897.jpg",
+      "about": [{"ref": "person:trotsky", "role": "photo"}],
+      "status": "draft"
+    },
+    {
+      "id": "trotsky-1938-mexico",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Leon_Trotsky._Mexico_-_NARA_-_283643.jpg",
+      "title": {
+        "fr": "Trotski en exil au Mexique",
+        "en": "Trotsky in exile in Mexico",
+        "de": "Trotzki im mexikanischen Exil",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Sur un balcon dominant une rivière à Hot Springs, vers mai 1938.",
+        "en": "On a balcony overlooking a river at Hot Springs, circa May 1938.",
+        "de": "Auf einem Balkon über einem Fluss in Hot Springs, um Mai 1938.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1938-05", "qualifier": "circa"},
+      "credit": "National Archives and Records Administration (NARA)",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Leon_Trotsky._Mexico_-_NARA_-_283643.jpg",
+      "about": [{"ref": "person:trotsky", "role": "photo"}],
+      "status": "draft"
+    },
+    {
+      "id": "stalin-1902-batumi-police-photo",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Stalin_1902-1.jpg",
+      "title": {
+        "fr": "Djougachvili en 1902",
+        "en": "Dzhugashvili in 1902",
+        "de": "Dschugaschwili 1902",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Photographie de la gendarmerie de Batoumi après son arrestation.",
+        "en": "Photograph taken by the Batumi gendarmerie after his arrest.",
+        "de": "Aufnahme der Gendarmerie von Batumi nach seiner Verhaftung.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1902"},
+      "credit": "Gendarmerie de Batoumi",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Stalin_1902.jpg",
+      "about": [{"ref": "person:stalin", "role": "portrait"}],
+      "status": "draft"
+    },
+    {
+      "id": "stalin-1943-tehran",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/StalinCropped1943.jpg",
+      "title": {
+        "fr": "Staline à la conférence de Téhéran",
+        "en": "Stalin at the Tehran Conference",
+        "de": "Stalin auf der Konferenz von Teheran",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Détail d'une photo prise sous le portique de l'ambassade soviétique, aux côtés de Roosevelt et Churchill.",
+        "en": "Detail of a photo taken on the portico of the Soviet embassy, beside Roosevelt and Churchill.",
+        "de": "Ausschnitt eines Fotos unter dem Portikus der sowjetischen Botschaft, neben Roosevelt und Churchill.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1943-11-28"},
+      "credit": "Franklin D. Roosevelt Library",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:StalinCropped1943.jpg",
+      "about": [{"ref": "person:stalin", "role": "portrait", "primary": true}],
+      "status": "draft"
+    },
+    {
+      "id": "marx-1875-mayall",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png",
+      "title": {
+        "fr": "Karl Marx en 1875",
+        "en": "Karl Marx in 1875",
+        "de": "Karl Marx 1875",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Portrait par le photographe londonien John Mayall (version restaurée).",
+        "en": "Portrait by the London photographer John Mayall (restored version).",
+        "de": "Porträt des Londoner Fotografen John Mayall (restaurierte Fassung).",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1875"},
+      "credit": "John Jabez Edwin Mayall",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png",
+      "about": [{"ref": "person:marx", "role": "portrait", "primary": true}],
+      "status": "draft"
+    },
+    {
+      "id": "engels-1877-portrait",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Friedrich_Engels_portrait_%28cropped%29.jpg",
+      "title": {
+        "fr": "Friedrich Engels en 1877",
+        "en": "Friedrich Engels in 1877",
+        "de": "Friedrich Engels 1877",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Portrait de l'époque de l'Anti-Dühring.",
+        "en": "Portrait from the time of Anti-Dühring.",
+        "de": "Porträt aus der Zeit des Anti-Dühring.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1877-05"},
+      "credit": "William Hall",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Friedrich_Engels_portrait_(cropped).jpg",
+      "about": [{"ref": "person:engels", "role": "portrait", "primary": true}],
+      "status": "draft"
+    },
+    {
+      "id": "luxemburg-1911-portrait",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Rosa_Luxemburg_%28cropped%29.jpg",
+      "title": {
+        "fr": "Rosa Luxemburg vers 1911",
+        "en": "Rosa Luxemburg circa 1911",
+        "de": "Rosa Luxemburg um 1911",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1911", "qualifier": "circa"},
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Rosa_Luxemburg_(cropped).jpg",
+      "about": [{"ref": "person:rosa-luxemburg", "role": "portrait", "primary": true}],
+      "status": "draft"
+    },
+    {
+      "id": "louise-michel-1871-appert",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Louise_Michel_par_Appert.jpg",
+      "title": {
+        "fr": "Louise Michel photographiée par Appert, 1871",
+        "en": "Louise Michel photographed by Appert, 1871",
+        "de": "Louise Michel, fotografiert von Appert, 1871",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Ernest Appert photographie les communards détenus après la Semaine sanglante.",
+        "en": "Ernest Appert photographed the Communards held after Bloody Week.",
+        "de": "Ernest Appert fotografierte die nach der Blutigen Woche inhaftierten Kommunarden.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1871"},
+      "credit": "Ernest Appert",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Louise_Michel_par_Appert.jpg",
+      "about": [{"ref": "person:louise-michel", "role": "portrait"}],
+      "status": "draft"
+    },
+    {
+      "id": "louise-michel-1880-portrait",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Louise_Michel2.jpg",
+      "title": {
+        "fr": "Louise Michel vers 1880",
+        "en": "Louise Michel circa 1880",
+        "de": "Louise Michel um 1880",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Portrait de l'époque de son retour de Nouvelle-Calédonie.",
+        "en": "Portrait from around her return from New Caledonia.",
+        "de": "Porträt aus der Zeit ihrer Rückkehr aus Neukaledonien.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1880", "qualifier": "circa"},
+      "credit": "J. M. Lopez",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Louise_Michel2.jpg",
+      "about": [{"ref": "person:louise-michel", "role": "portrait", "primary": true}],
+      "status": "draft"
+    },
+    {
+      "id": "kropotkin-1900-nadar",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Peter_Kropotkin_circa_1900.jpg",
+      "title": {
+        "fr": "Kropotkine vers 1900",
+        "en": "Kropotkin circa 1900",
+        "de": "Kropotkin um 1900",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Portrait de l'atelier Nadar.",
+        "en": "Portrait from the Nadar studio.",
+        "de": "Porträt aus dem Atelier Nadar.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1900", "qualifier": "circa"},
+      "credit": "Nadar",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Peter_Kropotkin_circa_1900.jpg",
+      "about": [{"ref": "person:kropotkin", "role": "portrait", "primary": true}],
+      "status": "draft"
+    },
+    {
+      "id": "bakunin-1862-nadar",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Mikhail_Bakunin_Nader_%283x4_cropped%29.jpg",
+      "title": {
+        "fr": "Bakounine photographié par Nadar, 1862",
+        "en": "Bakunin photographed by Nadar, 1862",
+        "de": "Bakunin, fotografiert von Nadar, 1862",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Portrait pris à Paris peu après son évasion de Sibérie.",
+        "en": "Portrait taken in Paris shortly after his escape from Siberia.",
+        "de": "In Paris kurz nach seiner Flucht aus Sibirien aufgenommen.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1862"},
+      "credit": "Nadar",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Mikhail_Bakunin_Nader_(3x4_cropped).jpg",
+      "about": [{"ref": "person:bakunin", "role": "portrait", "primary": true}],
+      "status": "draft"
+    },
+    {
+      "id": "hayek-portrait-mises-institute",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Friedrich_Hayek_portrait.jpg",
+      "title": {
+        "fr": "Friedrich Hayek",
+        "en": "Friedrich Hayek",
+        "de": "Friedrich Hayek",
+        "draft": ["en", "de"]
+      },
+      "credit": "Ludwig von Mises Institute",
+      "license": "CC BY-SA 3.0",
+      "origin": "https://commons.wikimedia.org/wiki/File:Friedrich_Hayek_portrait.jpg",
+      "about": [{"ref": "person:friedrich-hayek", "role": "portrait", "primary": true}],
+      "status": "draft"
+    },
+    {
+      "id": "hayek-1981-lse",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Friedrich_August_von_Hayek%2C_27th_January_1981%2C_the_50th_Anniversary_of_his_first_lecture_at_LSE%2C_1981.jpg",
+      "title": {
+        "fr": "Hayek à la London School of Economics, 1981",
+        "en": "Hayek at the London School of Economics, 1981",
+        "de": "Hayek an der London School of Economics, 1981",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Photographié pour le cinquantenaire de sa première leçon à la LSE.",
+        "en": "Photographed on the fiftieth anniversary of his first lecture at the LSE.",
+        "de": "Aufgenommen zum 50. Jahrestag seiner ersten Vorlesung an der LSE.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1981-01-27"},
+      "credit": "LSE Library (Flickr Commons)",
+      "license": "No known copyright restrictions",
+      "origin": "https://commons.wikimedia.org/wiki/File:Friedrich_August_von_Hayek,_27th_January_1981,_the_50th_Anniversary_of_his_first_lecture_at_LSE,_1981.jpg",
+      "about": [{"ref": "person:friedrich-hayek", "role": "portrait"}],
+      "status": "draft"
+    },
+    {
+      "id": "alan-woods-2025-rcp-congress",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Alan_Woods_RCP_2nd_Congress_May_2025_DSCF2406_%2854532185577%29_%28cropped%29.jpg",
+      "title": {
+        "fr": "Alan Woods en 2025",
+        "en": "Alan Woods in 2025",
+        "de": "Alan Woods 2025",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Au deuxième congrès du Parti communiste révolutionnaire britannique, Londres, mai 2025.",
+        "en": "At the second congress of the British Revolutionary Communist Party, London, May 2025.",
+        "de": "Auf dem zweiten Kongress der britischen Revolutionary Communist Party, London, Mai 2025.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "2025-05-02"},
+      "credit": "Revolutionary Communist Party",
+      "license": "CC BY 2.0",
+      "origin": "https://commons.wikimedia.org/wiki/File:Alan_Woods_RCP_2nd_Congress_May_2025_DSCF2406_(54532185577)_(cropped).jpg",
+      "about": [{"ref": "person:alan-woods", "role": "portrait", "primary": true}],
+      "status": "draft"
+    },
+    {
+      "id": "alan-woods-2024-rcp-founding-congress",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Alan_woods_rcp_congress_2024.jpg",
+      "title": {
+        "fr": "Alan Woods au congrès fondateur du RCP, 2024",
+        "en": "Alan Woods at the RCP founding congress, 2024",
+        "de": "Alan Woods auf dem Gründungskongress der RCP, 2024",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Discours au congrès fondateur du Parti communiste révolutionnaire britannique.",
+        "en": "Speech at the founding congress of the British Revolutionary Communist Party.",
+        "de": "Rede auf dem Gründungskongress der britischen Revolutionary Communist Party.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "2024-05-03"},
+      "credit": "Socialist Appeal",
+      "license": "CC BY-SA 4.0",
+      "origin": "https://commons.wikimedia.org/wiki/File:Alan_woods_rcp_congress_2024.jpg",
+      "about": [{"ref": "person:alan-woods", "role": "photo"}],
+      "status": "draft"
+    },
+    {
+      "id": "alan-woods-2006-with-chavez",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Alanwoodsconhugochavez.jpg",
+      "title": {
+        "fr": "Alan Woods avec Hugo Chávez, 2006",
+        "en": "Alan Woods with Hugo Chávez, 2006",
+        "de": "Alan Woods mit Hugo Chávez, 2006",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "2006"},
+      "credit": "Alan Woods",
+      "license": "CC BY-SA 4.0",
+      "origin": "https://commons.wikimedia.org/wiki/File:Alanwoodsconhugochavez.jpg",
+      "about": [{"ref": "person:alan-woods", "role": "photo"}],
+      "status": "draft"
+    }
+  ]
+}

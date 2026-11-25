@@ -1,0 +1,705 @@
+{
+  "$schema": "../../schema/nodes.schema.json",
+  "collection": "nodes",
+  "version": 1,
+  "items": [
+    {
+      "id": "marxism",
+      "title": {"fr": "Marxisme", "en": "Marxism", "de": "Marxismus", "draft": ["en", "de"]},
+      "type": "era",
+      "start": {"date": "1844", "qualifier": "circa", "display": "années 1840"},
+      "ongoing": true,
+      "summary": {
+        "fr": "Histoire du mouvement marxiste depuis Marx et Engels : les Internationales successives, leurs congrès et leurs ruptures, et les grands courants qui s'en réclament, à commencer par le bolchevisme.",
+        "en": "History of the Marxist movement since Marx and Engels: the successive Internationals, their congresses and splits, and the main currents that claim its legacy, starting with Bolshevism.",
+        "de": "Geschichte der marxistischen Bewegung seit Marx und Engels: die aufeinanderfolgenden Internationalen, ihre Kongresse und Spaltungen sowie die großen Strömungen, die sich auf sie berufen, allen voran der Bolschewismus.",
+        "draft": ["en", "de"]
+      },
+      "parents": [],
+      "persons": ["marx", "engels"],
+      "status": "draft",
+      "view": {
+        "color": "#7a0019",
+        "label": {"fr": "Marxisme", "en": "Marxism", "de": "Marxismus", "draft": ["en", "de"]},
+        "default_depth": 1,
+        "kind": "theme"
+      }
+    },
+    {
+      "id": "1844-birth-of-marxism",
+      "title": {
+        "fr": "Naissance du marxisme",
+        "en": "The Birth of Marxism",
+        "de": "Die Entstehung des Marxismus",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1844-08-28"},
+      "end": {"date": "1847-06"},
+      "summary": {
+        "fr": "De la rencontre de Marx et Engels à Paris à la critique de Proudhon : élaboration de la conception matérialiste de l'histoire.",
+        "en": "From the meeting of Marx and Engels in Paris to the critique of Proudhon: the working out of the materialist conception of history.",
+        "de": "Vom Treffen von Marx und Engels in Paris bis zur Kritik an Proudhon: Ausarbeitung der materialistischen Geschichtsauffassung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "marxism", "order": 1}],
+      "persons": ["marx", "engels"],
+      "sources": [{"ref": "wp-en-karl-marx"}, {"ref": "wp-en-friedrich-engels"}],
+      "status": "draft"
+    },
+    {
+      "id": "1844-marx-meets-engels",
+      "title": {
+        "fr": "Rencontre de Marx et Engels à Paris",
+        "en": "Marx and Engels meet in Paris",
+        "de": "Begegnung von Marx und Engels in Paris",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1844-08-28"},
+      "summary": {
+        "fr": "Marx et Engels se retrouvent au café de la Régence et commencent une collaboration qui durera jusqu'à la mort de Marx.",
+        "en": "Marx and Engels meet at the Café de la Régence and begin a collaboration that lasts until Marx's death.",
+        "de": "Marx und Engels treffen sich im Café de la Régence und beginnen eine Zusammenarbeit, die bis zu Marx' Tod andauert.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1844-birth-of-marxism"}],
+      "persons": ["marx", "engels"],
+      "places": ["paris"],
+      "sources": [{"ref": "wp-en-cafe-de-la-regence"}],
+      "status": "draft"
+    },
+    {
+      "id": "1847-poverty-of-philosophy-publication",
+      "title": {
+        "fr": "Parution de Misère de la philosophie",
+        "en": "Publication of The Poverty of Philosophy",
+        "de": "Erscheinen von Das Elend der Philosophie",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1847"},
+      "summary": {
+        "fr": "Marx répond à Proudhon et expose pour la première fois publiquement les principes de sa conception de l'économie et de l'histoire.",
+        "en": "Marx answers Proudhon and sets out publicly for the first time the principles of his view of economics and history.",
+        "de": "Marx antwortet Proudhon und legt erstmals öffentlich die Grundzüge seiner Auffassung von Ökonomie und Geschichte dar.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1844-birth-of-marxism"}],
+      "persons": ["marx"],
+      "works": ["the-poverty-of-philosophy"],
+      "sources": [{"ref": "wp-en-karl-marx"}],
+      "status": "draft"
+    },
+    {
+      "id": "1847-communist-league-period",
+      "title": {
+        "fr": "La Ligue des communistes",
+        "en": "The Communist League",
+        "de": "Der Bund der Kommunisten",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1847-06"},
+      "end": {"date": "1852-11"},
+      "summary": {
+        "fr": "Première organisation marxiste : de la transformation de la Ligue des justes au Manifeste, à la révolution de 1848 et au procès de Cologne.",
+        "en": "The first Marxist organisation: from the transformation of the League of the Just to the Manifesto, the 1848 revolution and the Cologne trial.",
+        "de": "Die erste marxistische Organisation: von der Umwandlung des Bundes der Gerechten über das Manifest und die Revolution von 1848 bis zum Kölner Prozess.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "marxism", "order": 2}],
+      "persons": ["marx", "engels"],
+      "organizations": ["communist-league"],
+      "sources": [{"ref": "wp-en-communist-league"}],
+      "status": "draft"
+    },
+    {
+      "id": "1847-second-congress-of-the-communist-league",
+      "title": {
+        "fr": "IIe congrès de la Ligue des communistes",
+        "en": "Second Congress of the Communist League",
+        "de": "Zweiter Kongress des Bundes der Kommunisten",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1847-11-29"},
+      "end": {"date": "1847-12-08"},
+      "summary": {
+        "fr": "Réuni à Londres, le congrès charge Marx et Engels de rédiger le programme de la Ligue, qui deviendra le Manifeste du Parti communiste.",
+        "en": "Meeting in London, the congress commissions Marx and Engels to write the League's programme, which becomes the Communist Manifesto.",
+        "de": "Der Kongress in London beauftragt Marx und Engels mit dem Programm des Bundes, aus dem das Manifest der Kommunistischen Partei wird.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1847-communist-league-period"}],
+      "persons": ["marx", "engels"],
+      "places": ["london"],
+      "organizations": ["communist-league"],
+      "sources": [
+        {"ref": "londonremembers-second-congress-communist-league"},
+        {"ref": "wp-en-communist-league"}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "1850-march-address",
+      "title": {
+        "fr": "Adresse de mars 1850",
+        "en": "March 1850 Address",
+        "de": "Märzansprache 1850",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1850-03"},
+      "summary": {
+        "fr": "Bilan de 1848 : Marx et Engels appellent les ouvriers à s'organiser indépendamment de la démocratie petite-bourgeoise et à rendre la révolution permanente.",
+        "en": "Drawing up the balance of 1848, Marx and Engels call on the workers to organise independently of petty-bourgeois democracy and make the revolution permanent.",
+        "de": "Bilanz von 1848: Marx und Engels rufen die Arbeiter auf, sich unabhängig von der kleinbürgerlichen Demokratie zu organisieren und die Revolution permanent zu machen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1847-communist-league-period"}],
+      "persons": ["marx", "engels"],
+      "organizations": ["communist-league"],
+      "works": ["address-of-the-central-committee-1850"],
+      "sources": [{"ref": "wp-en-communist-league"}],
+      "status": "draft"
+    },
+    {
+      "id": "1852-dissolution-of-the-communist-league",
+      "title": {
+        "fr": "Dissolution de la Ligue des communistes",
+        "en": "Dissolution of the Communist League",
+        "de": "Auflösung des Bundes der Kommunisten",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1852-11"},
+      "summary": {
+        "fr": "Après la condamnation de ses membres au procès de Cologne, la Ligue se dissout.",
+        "en": "After its members are convicted at the Cologne trial, the League disbands.",
+        "de": "Nach der Verurteilung seiner Mitglieder im Kölner Prozess löst sich der Bund auf.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1847-communist-league-period"}],
+      "persons": ["marx"],
+      "places": ["london"],
+      "organizations": ["communist-league"],
+      "sources": [{"ref": "wp-en-communist-league"}],
+      "status": "draft"
+    },
+    {
+      "id": "1864-first-international-period",
+      "title": {
+        "fr": "La Ire Internationale",
+        "en": "The First International",
+        "de": "Die Erste Internationale",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["AIT"],
+      "type": "period",
+      "start": {"date": "1864-09-28"},
+      "end": {"date": "1876-07-15"},
+      "summary": {
+        "fr": "L'Association internationale des travailleurs, de sa fondation à Londres à sa dissolution à Philadelphie : congrès, Commune de Paris et lutte contre les bakouninistes.",
+        "en": "The International Workingmen's Association, from its founding in London to its dissolution in Philadelphia: congresses, the Paris Commune and the struggle against the Bakuninists.",
+        "de": "Die Internationale Arbeiterassoziation von ihrer Gründung in London bis zur Auflösung in Philadelphia: Kongresse, Pariser Kommune und Kampf gegen die Bakunisten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "marxism", "order": 3}],
+      "persons": ["marx", "engels"],
+      "organizations": ["first-international"],
+      "sources": [{"ref": "wp-en-international-workingmens-association"}],
+      "status": "draft"
+    },
+    {
+      "id": "1867-iwa-lausanne-congress",
+      "title": {
+        "fr": "Congrès de Lausanne de l'AIT",
+        "en": "Lausanne Congress of the IWA",
+        "de": "Lausanner Kongress der IAA",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1867-09-02"},
+      "end": {"date": "1867-09-08"},
+      "summary": {
+        "fr": "Deuxième congrès de l'Internationale, encore dominé par les proudhoniens.",
+        "en": "Second congress of the International, still dominated by the Proudhonists.",
+        "de": "Zweiter Kongress der Internationale, noch von den Proudhonisten geprägt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1864-first-international-period"}],
+      "places": ["lausanne"],
+      "organizations": ["first-international"],
+      "sources": [{"ref": "wp-en-list-of-anarchist-congresses"}],
+      "status": "draft"
+    },
+    {
+      "id": "1868-iwa-brussels-congress",
+      "title": {
+        "fr": "Congrès de Bruxelles de l'AIT",
+        "en": "Brussels Congress of the IWA",
+        "de": "Brüsseler Kongress der IAA",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1868-09-06"},
+      "end": {"date": "1868-09-15"},
+      "summary": {
+        "fr": "Troisième congrès de l'Internationale : les partisans de la propriété collective l'emportent sur les proudhoniens.",
+        "en": "Third congress of the International: the supporters of collective ownership prevail over the Proudhonists.",
+        "de": "Dritter Kongress der Internationale: Die Befürworter des Gemeineigentums setzen sich gegen die Proudhonisten durch.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1864-first-international-period"}],
+      "places": ["brussels"],
+      "organizations": ["first-international"],
+      "sources": [
+        {
+          "ref": "stekloff-first-international",
+          "chapter": "Chapter Nine: Further Successes. The Brussels Congress"
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "1869-iwa-basel-congress",
+      "title": {
+        "fr": "Congrès de Bâle de l'AIT",
+        "en": "Basel Congress of the IWA",
+        "de": "Basler Kongress der IAA",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1869-09-06"},
+      "end": {"date": "1869-09-12"},
+      "summary": {
+        "fr": "Quatrième congrès de l'Internationale : les collectivistes, soutenus par le Conseil général et par Bakounine, isolent les proudhoniens français.",
+        "en": "Fourth congress of the International: the collectivists, backed by the General Council and by Bakunin, isolate the French Proudhonists.",
+        "de": "Vierter Kongress der Internationale: Die Kollektivisten, unterstützt vom Generalrat und von Bakunin, isolieren die französischen Proudhonisten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1864-first-international-period"}],
+      "persons": ["bakunin"],
+      "places": ["basel"],
+      "organizations": ["first-international"],
+      "sources": [{"ref": "wp-en-basel-congress-1869"}],
+      "status": "draft"
+    },
+    {
+      "id": "1871-iwa-london-conference",
+      "title": {
+        "fr": "Conférence de Londres de l'AIT",
+        "en": "London Conference of the IWA",
+        "de": "Londoner Konferenz der IAA",
+        "draft": ["en", "de"]
+      },
+      "type": "conference",
+      "start": {"date": "1871-09-17"},
+      "end": {"date": "1871-09-23"},
+      "summary": {
+        "fr": "Après la Commune, la conférence affirme la nécessité de l'action politique de la classe ouvrière et de son organisation en parti.",
+        "en": "After the Commune, the conference affirms the need for political action by the working class and for its organisation as a party.",
+        "de": "Nach der Kommune bekräftigt die Konferenz die Notwendigkeit politischer Aktion der Arbeiterklasse und ihrer Organisation als Partei.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1864-first-international-period"}],
+      "persons": ["marx", "engels"],
+      "places": ["london"],
+      "organizations": ["first-international"],
+      "sources": [{"ref": "mecw-22-london-conference-1871"}],
+      "status": "draft"
+    },
+    {
+      "id": "1876-dissolution-of-the-first-international",
+      "title": {
+        "fr": "Dissolution de l'AIT à Philadelphie",
+        "en": "Dissolution of the IWA in Philadelphia",
+        "de": "Auflösung der IAA in Philadelphia",
+        "draft": ["en", "de"]
+      },
+      "type": "conference",
+      "start": {"date": "1876-07-15"},
+      "summary": {
+        "fr": "Une conférence réunie à Philadelphie supprime le Conseil général et met fin à l'Association internationale des travailleurs.",
+        "en": "A conference held in Philadelphia abolishes the General Council and brings the International Workingmen's Association to an end.",
+        "de": "Eine Konferenz in Philadelphia schafft den Generalrat ab und beendet die Internationale Arbeiterassoziation.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1864-first-international-period"}],
+      "places": ["philadelphia"],
+      "organizations": ["first-international"],
+      "sources": [{"ref": "marxists-iwma-dissolution-1876"}],
+      "status": "draft"
+    },
+    {
+      "id": "1883-death-of-marx",
+      "title": {
+        "fr": "Mort de Marx",
+        "en": "Death of Marx",
+        "de": "Tod von Karl Marx",
+        "draft": ["en", "de"]
+      },
+      "type": "death",
+      "start": {"date": "1883-03-14"},
+      "summary": {
+        "fr": "Marx meurt à Londres ; Engels se consacre à l'édition des livres II et III du Capital.",
+        "en": "Marx dies in London; Engels devotes himself to editing volumes II and III of Capital.",
+        "de": "Marx stirbt in London; Engels widmet sich der Herausgabe des zweiten und dritten Bandes des Kapitals.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "marxism", "order": 3.5}],
+      "persons": ["marx", "engels"],
+      "places": ["london"],
+      "sources": [{"ref": "wp-en-karl-marx"}],
+      "status": "draft"
+    },
+    {
+      "id": "1889-second-international-period",
+      "title": {
+        "fr": "La IIe Internationale",
+        "en": "The Second International",
+        "de": "Die Zweite Internationale",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1889-07-14"},
+      "end": {"date": "1914-08-04"},
+      "summary": {
+        "fr": "L'Internationale socialiste, de sa fondation à Paris au vote des crédits de guerre : essor des partis de masse, débats sur le réformisme, la guerre et les colonies.",
+        "en": "The Socialist International, from its founding in Paris to the vote for war credits: growth of mass parties, debates on reformism, war and the colonies.",
+        "de": "Die Sozialistische Internationale von ihrer Gründung in Paris bis zur Bewilligung der Kriegskredite: Aufstieg der Massenparteien, Debatten über Reformismus, Krieg und Kolonien.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "marxism", "order": 4}],
+      "organizations": ["second-international"],
+      "sources": [{"ref": "marxists-glossary-second-international-congresses"}],
+      "status": "draft"
+    },
+    {
+      "id": "1891-brussels-congress-of-the-second-international",
+      "title": {
+        "fr": "Congrès de Bruxelles de la IIe Internationale",
+        "en": "Brussels Congress of the Second International",
+        "de": "Brüsseler Kongress der Zweiten Internationale",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1891-08-16"},
+      "end": {"date": "1891-08-22"},
+      "summary": {
+        "fr": "Le congrès confirme le 1er Mai comme journée internationale des travailleurs et la revendication de la journée de huit heures.",
+        "en": "The congress confirms May Day as the international workers' day and the demand for the eight-hour day.",
+        "de": "Der Kongress bestätigt den 1. Mai als internationalen Arbeitertag und die Forderung nach dem Achtstundentag.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1889-second-international-period"}],
+      "places": ["brussels"],
+      "organizations": ["second-international"],
+      "sources": [{"ref": "marxists-glossary-second-international-congresses"}],
+      "status": "draft"
+    },
+    {
+      "id": "1893-zurich-congress-of-the-second-international",
+      "title": {
+        "fr": "Congrès de Zurich de la IIe Internationale",
+        "en": "Zurich Congress of the Second International",
+        "de": "Zürcher Kongress der Zweiten Internationale",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1893-08-06"},
+      "end": {"date": "1893-08-13"},
+      "summary": {
+        "fr": "Le congrès exclut les anarchistes qui refusent l'action politique et nomme Engels président d'honneur.",
+        "en": "The congress excludes the anarchists who reject political action and names Engels honorary president.",
+        "de": "Der Kongress schließt die Anarchisten aus, die politische Aktion ablehnen, und ernennt Engels zum Ehrenpräsidenten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1889-second-international-period"}],
+      "persons": ["engels"],
+      "places": ["zurich"],
+      "organizations": ["second-international"],
+      "sources": [{"ref": "marxists-glossary-second-international-congresses"}],
+      "status": "draft"
+    },
+    {
+      "id": "1895-death-of-engels",
+      "title": {
+        "fr": "Mort d'Engels",
+        "en": "Death of Engels",
+        "de": "Tod von Friedrich Engels",
+        "draft": ["en", "de"]
+      },
+      "type": "death",
+      "start": {"date": "1895-08-05"},
+      "summary": {
+        "fr": "Engels meurt à Londres ; la direction théorique de l'Internationale passe à Kautsky et à la social-démocratie allemande.",
+        "en": "Engels dies in London; theoretical leadership of the International passes to Kautsky and German Social Democracy.",
+        "de": "Engels stirbt in London; die theoretische Führung der Internationale geht an Kautsky und die deutsche Sozialdemokratie über.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1889-second-international-period"}],
+      "persons": ["engels", "karl-kautsky"],
+      "places": ["london"],
+      "sources": [{"ref": "wp-en-friedrich-engels"}],
+      "status": "draft"
+    },
+    {
+      "id": "1896-london-congress-of-the-second-international",
+      "title": {
+        "fr": "Congrès de Londres de la IIe Internationale",
+        "en": "London Congress of the Second International",
+        "de": "Londoner Kongress der Zweiten Internationale",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1896-07"},
+      "end": {"date": "1896-08-01"},
+      "summary": {
+        "fr": "Le congrès débat du colonialisme et adopte le droit des nations à disposer d'elles-mêmes.",
+        "en": "The congress debates colonialism and adopts the right of nations to self-determination.",
+        "de": "Der Kongress debattiert über den Kolonialismus und bekennt sich zum Selbstbestimmungsrecht der Nationen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1889-second-international-period"}],
+      "places": ["london"],
+      "organizations": ["second-international"],
+      "sources": [{"ref": "marxists-glossary-second-international-congresses"}],
+      "status": "draft"
+    },
+    {
+      "id": "1900-paris-congress-of-the-second-international",
+      "title": {
+        "fr": "Congrès de Paris de la IIe Internationale",
+        "en": "Paris Congress of the Second International",
+        "de": "Pariser Kongress der Zweiten Internationale",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1900-09-23"},
+      "end": {"date": "1900-09-27"},
+      "summary": {
+        "fr": "Le congrès crée le Bureau socialiste international, installé à Bruxelles.",
+        "en": "The congress sets up the International Socialist Bureau, based in Brussels.",
+        "de": "Der Kongress gründet das Internationale Sozialistische Büro mit Sitz in Brüssel.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1889-second-international-period"}],
+      "places": ["paris"],
+      "organizations": ["second-international"],
+      "sources": [{"ref": "marxists-glossary-second-international-congresses"}],
+      "status": "draft"
+    },
+    {
+      "id": "1904-amsterdam-congress-of-the-second-international",
+      "title": {
+        "fr": "Congrès d'Amsterdam de la IIe Internationale",
+        "en": "Amsterdam Congress of the Second International",
+        "de": "Amsterdamer Kongress der Zweiten Internationale",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1904-08-14"},
+      "end": {"date": "1904-08-20"},
+      "summary": {
+        "fr": "Le congrès condamne la participation socialiste aux gouvernements bourgeois contre les positions de Jaurès.",
+        "en": "The congress condemns socialist participation in bourgeois governments, against Jaurès's position.",
+        "de": "Der Kongress verurteilt gegen Jaurès die Beteiligung von Sozialisten an bürgerlichen Regierungen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1889-second-international-period"}],
+      "persons": ["jaures"],
+      "places": ["amsterdam"],
+      "organizations": ["second-international"],
+      "sources": [{"ref": "marxists-glossary-second-international-congresses"}],
+      "status": "draft"
+    },
+    {
+      "id": "1910-copenhagen-congress-of-the-second-international",
+      "title": {
+        "fr": "Congrès de Copenhague de la IIe Internationale",
+        "en": "Copenhagen Congress of the Second International",
+        "de": "Kopenhagener Kongress der Zweiten Internationale",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1910-08-28"},
+      "end": {"date": "1910-09-03"},
+      "summary": {
+        "fr": "Le congrès appelle à l'action contre la guerre ; la conférence des femmes socialistes qui le précède adopte une journée internationale des femmes.",
+        "en": "The congress calls for action against war; the socialist women's conference held alongside it adopts an international women's day.",
+        "de": "Der Kongress ruft zum Kampf gegen den Krieg auf; die begleitende sozialistische Frauenkonferenz beschließt einen internationalen Frauentag.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1889-second-international-period"}],
+      "places": ["copenhagen"],
+      "organizations": ["second-international"],
+      "sources": [{"ref": "marxists-glossary-second-international-congresses"}],
+      "status": "draft"
+    },
+    {
+      "id": "1912-basel-congress-of-the-second-international",
+      "title": {
+        "fr": "Congrès extraordinaire de Bâle",
+        "en": "Extraordinary Basel Congress",
+        "de": "Außerordentlicher Basler Kongress",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1912-11-24"},
+      "end": {"date": "1912-11-25"},
+      "summary": {
+        "fr": "Réuni pendant la première guerre balkanique, le congrès proclame « guerre à la guerre » et menace les gouvernements d'une révolution en cas de conflit.",
+        "en": "Meeting during the First Balkan War, the congress proclaims \"war on war\" and warns governments of revolution if war breaks out.",
+        "de": "Während des Ersten Balkankriegs ruft der Kongress zum „Krieg dem Kriege“ auf und droht den Regierungen im Kriegsfall mit Revolution.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1889-second-international-period"}],
+      "places": ["basel"],
+      "organizations": ["second-international"],
+      "sources": [{"ref": "marxists-glossary-second-international-congresses"}],
+      "status": "draft"
+    },
+    {
+      "id": "1914-collapse-of-the-second-international",
+      "title": {
+        "fr": "Guerre mondiale et faillite de la IIe Internationale",
+        "en": "World War and the Collapse of the Second International",
+        "de": "Weltkrieg und Zusammenbruch der Zweiten Internationale",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1914-08"},
+      "end": {"date": "1919-03-02"},
+      "summary": {
+        "fr": "Les partis socialistes se rallient à leurs gouvernements ; la gauche internationaliste se regroupe à Zimmerwald et la révolution russe ouvre la voie à une nouvelle Internationale.",
+        "en": "The socialist parties rally behind their governments; the internationalist left regroups at Zimmerwald and the Russian Revolution opens the way to a new International.",
+        "de": "Die sozialistischen Parteien stellen sich hinter ihre Regierungen; die internationalistische Linke sammelt sich in Zimmerwald, und die Russische Revolution ebnet den Weg zu einer neuen Internationale.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "marxism", "order": 5}],
+      "sources": [{"ref": "marxists-glossary-second-international-congresses"}],
+      "status": "draft"
+    },
+    {
+      "id": "1919-communist-international-period",
+      "title": {
+        "fr": "La IIIe Internationale",
+        "en": "The Third International",
+        "de": "Die Dritte Internationale",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Komintern"],
+      "type": "period",
+      "start": {"date": "1919-03-02"},
+      "end": {"date": "1943-05-15"},
+      "summary": {
+        "fr": "L'Internationale communiste, des quatre premiers congrès du vivant de Lénine à sa transformation en instrument de la bureaucratie stalinienne et à sa dissolution.",
+        "en": "The Communist International, from the first four congresses in Lenin's lifetime to its transformation into a tool of the Stalinist bureaucracy and its dissolution.",
+        "de": "Die Kommunistische Internationale von den ersten vier Kongressen zu Lebzeiten Lenins bis zu ihrer Verwandlung in ein Werkzeug der stalinistischen Bürokratie und ihrer Auflösung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "marxism", "order": 6}],
+      "organizations": ["comintern"],
+      "sources": [{"ref": "wp-en-communist-international"}],
+      "status": "draft"
+    },
+    {
+      "id": "1920-second-comintern-congress",
+      "title": {
+        "fr": "IIe congrès de l'Internationale communiste",
+        "en": "Second Congress of the Communist International",
+        "de": "II. Weltkongress der Kommunistischen Internationale",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1920-07-19"},
+      "end": {"date": "1920-08-07"},
+      "summary": {
+        "fr": "Ouvert à Petrograd puis poursuivi à Moscou, le congrès adopte les 21 conditions d'admission et les thèses sur les questions nationale et coloniale.",
+        "en": "Opening in Petrograd and continuing in Moscow, the congress adopts the 21 conditions of admission and the theses on the national and colonial questions.",
+        "de": "Der in Petrograd eröffnete und in Moskau fortgesetzte Kongress verabschiedet die 21 Aufnahmebedingungen und die Thesen zur nationalen und kolonialen Frage.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-communist-international-period"}],
+      "persons": ["lenin"],
+      "places": ["saint-petersburg", "moscow"],
+      "organizations": ["comintern"],
+      "sources": [{"ref": "marxists-eam-comintern-congresses"}],
+      "status": "draft"
+    },
+    {
+      "id": "1921-third-comintern-congress",
+      "title": {
+        "fr": "IIIe congrès de l'Internationale communiste",
+        "en": "Third Congress of the Communist International",
+        "de": "III. Weltkongress der Kommunistischen Internationale",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1921-06-22"},
+      "end": {"date": "1921-07-12"},
+      "summary": {
+        "fr": "Après l'échec de l'action de mars en Allemagne, le congrès oriente les partis communistes vers la conquête de la majorité de la classe ouvrière.",
+        "en": "After the failure of the March Action in Germany, the congress directs the communist parties towards winning the majority of the working class.",
+        "de": "Nach dem Scheitern der Märzaktion in Deutschland orientiert der Kongress die kommunistischen Parteien auf die Gewinnung der Mehrheit der Arbeiterklasse.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-communist-international-period"}],
+      "persons": ["lenin", "trotsky"],
+      "places": ["moscow"],
+      "organizations": ["comintern"],
+      "sources": [{"ref": "wp-en-3rd-world-congress-comintern"}],
+      "status": "draft"
+    },
+    {
+      "id": "1924-fifth-comintern-congress",
+      "title": {
+        "fr": "Ve congrès de l'Internationale communiste",
+        "en": "Fifth Congress of the Communist International",
+        "de": "V. Weltkongress der Kommunistischen Internationale",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1924-06-17"},
+      "end": {"date": "1924-07-08"},
+      "summary": {
+        "fr": "Premier congrès après la mort de Lénine, sous la direction de Zinoviev : il lance la « bolchevisation » des partis communistes.",
+        "en": "The first congress after Lenin's death, led by Zinoviev, launches the \"Bolshevisation\" of the communist parties.",
+        "de": "Der erste Kongress nach Lenins Tod unter Leitung Sinowjews leitet die „Bolschewisierung“ der kommunistischen Parteien ein.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-communist-international-period"}, {"id": "1924-bolshevisation-period"}],
+      "persons": ["zinoviev"],
+      "places": ["moscow"],
+      "organizations": ["comintern"],
+      "sources": [{"ref": "marxists-eam-comintern-congresses"}],
+      "status": "draft"
+    },
+    {
+      "id": "1928-sixth-comintern-congress",
+      "title": {
+        "fr": "VIe congrès de l'Internationale communiste",
+        "en": "Sixth Congress of the Communist International",
+        "de": "VI. Weltkongress der Kommunistischen Internationale",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1928-07-17"},
+      "end": {"date": "1928-09-01"},
+      "summary": {
+        "fr": "Le congrès adopte le programme de Boukharine et ouvre la « troisième période », qui assimile la social-démocratie au fascisme.",
+        "en": "The congress adopts Bukharin's programme and opens the \"Third Period\", which equates Social Democracy with fascism.",
+        "de": "Der Kongress nimmt Bucharins Programm an und eröffnet die „dritte Periode“, die die Sozialdemokratie mit dem Faschismus gleichsetzt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-communist-international-period"}, {"id": "1928-third-period"}],
+      "persons": ["bukharin"],
+      "places": ["moscow"],
+      "organizations": ["comintern"],
+      "sources": [{"ref": "marxists-eam-comintern-congresses"}],
+      "status": "draft"
+    }
+  ]
+}

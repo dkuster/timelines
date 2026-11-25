@@ -1,0 +1,2046 @@
+{
+  "$schema": "../../schema/nodes.schema.json",
+  "collection": "nodes",
+  "version": 1,
+  "items": [
+    {
+      "id": "hungary",
+      "title": {
+        "orig": "hu",
+        "hu": "Magyarország",
+        "fr": "Hongrie",
+        "en": "Hungary",
+        "de": "Ungarn",
+        "draft": ["en", "de"]
+      },
+      "type": "era",
+      "start": {"date": "1789"},
+      "ongoing": true,
+      "summary": {
+        "fr": "Histoire de la Hongrie depuis 1789 : jacobins, révolution et guerre d'indépendance de 1848-1849, compromis avec Vienne, République des conseils de 1919, régime Horthy et Shoah, stalinisme, révolution de 1956, restauration capitaliste et régime Orbán.",
+        "en": "History of Hungary since 1789: Jacobins, the 1848-1849 revolution and war of independence, the compromise with Vienna, the 1919 Soviet Republic, the Horthy regime and the Holocaust, Stalinism, the 1956 revolution, capitalist restoration and the Orbán regime.",
+        "de": "Geschichte Ungarns seit 1789: Jakobiner, Revolution und Freiheitskampf 1848/49, Ausgleich mit Wien, Räterepublik 1919, Horthy-Regime und Holocaust, Stalinismus, Revolution von 1956, kapitalistische Restauration und Orbán-Regime.",
+        "draft": ["en", "de"]
+      },
+      "parents": [],
+      "status": "draft",
+      "view": {
+        "color": "#3c7a3e",
+        "label": {
+          "orig": "hu",
+          "hu": "Magyarország",
+          "fr": "Hongrie",
+          "en": "Hungary",
+          "de": "Ungarn",
+          "draft": ["en", "de"]
+        },
+        "default_depth": 1
+      }
+    },
+    {
+      "id": "1789-hungarian-jacobins-and-napoleonic-wars",
+      "title": {
+        "fr": "Jacobins hongrois et guerres napoléoniennes",
+        "en": "Hungarian Jacobins and the Napoleonic Wars",
+        "de": "Ungarische Jakobiner und napoleonische Kriege",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1789"},
+      "end": {"date": "1825"},
+      "summary": {
+        "fr": "La noblesse hongroise arrache à Vienne l'abandon des réformes de Joseph II ; la conspiration jacobine est noyée dans le sang, et le royaume fournit hommes et blé aux guerres contre la France.",
+        "en": "The Hungarian nobility forces Vienna to abandon Joseph II's reforms; the Jacobin conspiracy is drowned in blood, and the kingdom supplies men and grain for the wars against France.",
+        "de": "Der ungarische Adel zwingt Wien, die Reformen Josephs II. aufzugeben; die Jakobinerverschwörung wird im Blut erstickt, und das Königreich liefert Soldaten und Getreide für die Kriege gegen Frankreich.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "hungary", "order": 0}],
+      "status": "draft"
+    },
+    {
+      "id": "1825-reform-era",
+      "title": {
+        "orig": "hu",
+        "hu": "reformkor",
+        "fr": "Ère des réformes",
+        "en": "Reform Era",
+        "de": "Reformzeitalter",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1825"},
+      "end": {"date": "1848-03-15"},
+      "summary": {
+        "fr": "Une partie de la noblesse, avec Széchenyi puis Kossuth, réclame l'abolition du servage, l'égalité devant l'impôt et le hongrois comme langue officielle, contre la féodalité et la tutelle viennoise.",
+        "en": "Part of the nobility, with Széchenyi and then Kossuth, demands the abolition of serfdom, equality before taxation and Hungarian as the official language, against feudalism and Viennese tutelage.",
+        "de": "Ein Teil des Adels fordert mit Széchenyi und dann Kossuth die Aufhebung der Leibeigenschaft, Steuergleichheit und Ungarisch als Amtssprache, gegen Feudalismus und Wiener Bevormundung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "hungary", "order": 1}],
+      "status": "draft"
+    },
+    {
+      "id": "1848-hungarian-revolution-and-war-of-independence",
+      "title": {
+        "orig": "hu",
+        "hu": "1848–49-es forradalom és szabadságharc",
+        "fr": "Révolution et guerre d'indépendance de 1848-1849",
+        "en": "Revolution and War of Independence of 1848-1849",
+        "de": "Revolution und Freiheitskampf 1848/49",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1848-03-15"},
+      "end": {"date": "1849-10-04"},
+      "summary": {
+        "fr": "La révolution de Pest impose un gouvernement responsable et abolit le servage ; attaquée par Vienne et les nationalités qu'elle opprime, la Hongrie proclame son indépendance avant d'être écrasée par les armées autrichienne et russe.",
+        "en": "The Pest revolution forces a responsible government and abolishes serfdom; attacked by Vienna and by the nationalities it oppresses, Hungary declares independence before being crushed by the Austrian and Russian armies.",
+        "de": "Die Pester Revolution erzwingt eine verantwortliche Regierung und hebt die Leibeigenschaft auf; von Wien und den unterdrückten Nationalitäten angegriffen, erklärt Ungarn seine Unabhängigkeit, bevor es von österreichischen und russischen Armeen niedergeworfen wird.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "hungary", "order": 2}],
+      "sources": [{"ref": "wp-en-hungarian-revolution-of-1848"}],
+      "status": "draft"
+    },
+    {
+      "id": "1849-repression-and-passive-resistance",
+      "title": {
+        "fr": "Répression, néo-absolutisme et résistance passive",
+        "en": "Repression, neo-absolutism and passive resistance",
+        "de": "Repression, Neoabsolutismus und passiver Widerstand",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1849-10-04"},
+      "end": {"date": "1867-05-29"},
+      "summary": {
+        "fr": "Exécutions, exil de Kossuth et administration directe par Vienne ; la noblesse oppose une résistance passive jusqu'à ce que les défaites autrichiennes ouvrent la voie au compromis de Deák.",
+        "en": "Executions, Kossuth's exile and direct rule from Vienna; the nobility puts up passive resistance until Austria's defeats open the way to Deák's compromise.",
+        "de": "Hinrichtungen, Kossuths Exil und direkte Verwaltung durch Wien; der Adel leistet passiven Widerstand, bis die österreichischen Niederlagen den Weg zu Deáks Ausgleich öffnen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "hungary", "order": 3}],
+      "status": "draft"
+    },
+    {
+      "id": "1867-dual-monarchy-in-hungary",
+      "title": {
+        "fr": "Double monarchie, essor capitaliste et question nationale",
+        "en": "Dual monarchy, capitalist growth and the national question",
+        "de": "Doppelmonarchie, kapitalistischer Aufschwung und nationale Frage",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1867-05-29"},
+      "end": {"date": "1914-07-28"},
+      "summary": {
+        "fr": "Les grands propriétaires dominent un royaume en pleine industrialisation, au suffrage très restreint et pratiquant la magyarisation ; ouvriers et paysans pauvres s'organisent face à la répression.",
+        "en": "Great landowners dominate a rapidly industrialising kingdom with a very narrow franchise and a policy of Magyarisation; workers and poor peasants organise in the face of repression.",
+        "de": "Großgrundbesitzer beherrschen ein sich rasch industrialisierendes Königreich mit sehr engem Wahlrecht und Magyarisierungspolitik; Arbeiter und arme Bauern organisieren sich gegen die Repression.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "hungary", "order": 4}],
+      "status": "draft"
+    },
+    {
+      "id": "1914-hungary-in-the-first-world-war",
+      "title": {
+        "fr": "Première Guerre mondiale",
+        "en": "First World War",
+        "de": "Erster Weltkrieg",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1914-07-28"},
+      "end": {"date": "1918-10-28"},
+      "summary": {
+        "fr": "Le gouvernement Tisza mène la guerre aux côtés de l'Allemagne ; hécatombes, pénuries et grèves de 1918 préparent l'effondrement de l'État.",
+        "en": "The Tisza government wages war alongside Germany; mass slaughter, shortages and the strikes of 1918 prepare the state's collapse.",
+        "de": "Die Regierung Tisza führt den Krieg an der Seite Deutschlands; Massensterben, Mangel und die Streiks von 1918 bereiten den Zusammenbruch des Staates vor.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "hungary", "order": 5}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-aster-revolution-and-soviet-republic",
+      "title": {
+        "fr": "Révolution des Asters et République des conseils",
+        "en": "Aster Revolution and Soviet Republic",
+        "de": "Asternrevolution und Räterepublik",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1918-10-28"},
+      "end": {"date": "1919-08-01"},
+      "summary": {
+        "fr": "La révolution d'octobre 1918 renverse l'ancien régime ; incapable de résister aux exigences de l'Entente, la république bourgeoise cède la place à la République des conseils, écrasée au bout de 133 jours.",
+        "en": "The October 1918 revolution overthrows the old regime; unable to resist the Entente's demands, the bourgeois republic gives way to the Soviet Republic, crushed after 133 days.",
+        "de": "Die Oktoberrevolution 1918 stürzt das alte Regime; unfähig, den Forderungen der Entente zu widerstehen, macht die bürgerliche Republik der Räterepublik Platz, die nach 133 Tagen niedergeschlagen wird.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "hungary", "order": 6}],
+      "sources": [
+        {"ref": "wp-en-revolutions-and-interventions-in-hungary-1918-1920"},
+        {"ref": "wp-en-hungarian-soviet-republic"}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "1919-white-terror-and-horthy-regime",
+      "title": {
+        "fr": "Terreur blanche et régime Horthy",
+        "en": "White Terror and the Horthy regime",
+        "de": "Weißer Terror und Horthy-Regime",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1919-08-01"},
+      "end": {"date": "1941-06-27"},
+      "summary": {
+        "fr": "La terreur blanche décime ouvriers, communistes et Juifs ; le régent Horthy fonde un régime autoritaire, révisionniste et antisémite, qui tolère une social-démocratie domestiquée et persécute les communistes.",
+        "en": "The White Terror decimates workers, communists and Jews; Regent Horthy founds an authoritarian, revisionist and antisemitic regime that tolerates a tamed social democracy and persecutes communists.",
+        "de": "Der Weiße Terror dezimiert Arbeiter, Kommunisten und Juden; Reichsverweser Horthy errichtet ein autoritäres, revisionistisches und antisemitisches Regime, das eine gezähmte Sozialdemokratie duldet und Kommunisten verfolgt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "hungary", "order": 7}],
+      "sources": [{"ref": "wp-en-interwar-hungary"}],
+      "status": "draft"
+    },
+    {
+      "id": "1941-war-occupation-and-holocaust-in-hungary",
+      "title": {
+        "fr": "Guerre, occupation et Shoah",
+        "en": "War, occupation and the Holocaust",
+        "de": "Krieg, Besetzung und Holocaust",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1941-06-27"},
+      "end": {"date": "1945-04-04"},
+      "summary": {
+        "fr": "Alliée de l'Allemagne, la Hongrie envoie ses armées en URSS ; occupée par la Wehrmacht en 1944, elle livre près d'un demi-million de Juifs à Auschwitz, puis les Croix fléchées prennent le pouvoir.",
+        "en": "Allied with Germany, Hungary sends its armies into the USSR; occupied by the Wehrmacht in 1944, it hands nearly half a million Jews over to Auschwitz, and then the Arrow Cross seize power.",
+        "de": "Als Verbündeter Deutschlands schickt Ungarn seine Armeen in die UdSSR; 1944 von der Wehrmacht besetzt, liefert es fast eine halbe Million Juden nach Auschwitz aus, dann übernehmen die Pfeilkreuzler die Macht.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "hungary", "order": 8}],
+      "sources": [{"ref": "wp-en-hungary-in-world-war-ii"}],
+      "status": "draft"
+    },
+    {
+      "id": "1945-peoples-democracy-and-stalinism",
+      "title": {
+        "fr": "Démocratie populaire et stalinisme",
+        "en": "People's democracy and Stalinism",
+        "de": "Volksdemokratie und Stalinismus",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1945-04-04"},
+      "end": {"date": "1956-10-23"},
+      "summary": {
+        "fr": "Réforme agraire et nationalisations sous occupation soviétique ; par la « tactique du salami », le parti de Rákosi absorbe la social-démocratie et instaure une dictature bureaucratique avec procès truqués.",
+        "en": "Land reform and nationalisations under Soviet occupation; through 'salami tactics', Rákosi's party absorbs social democracy and sets up a bureaucratic dictatorship with show trials.",
+        "de": "Bodenreform und Verstaatlichungen unter sowjetischer Besatzung; mit der „Salamitaktik“ schluckt Rákosis Partei die Sozialdemokratie und errichtet eine bürokratische Diktatur mit Schauprozessen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "hungary", "order": 9}, {"id": "stalinism-international"}],
+      "status": "draft"
+    },
+    {
+      "id": "1956-kadar-era",
+      "title": {"fr": "Ère Kádár", "en": "Kádár era", "de": "Ära Kádár", "draft": ["en", "de"]},
+      "type": "period",
+      "start": {"date": "1956-11-04"},
+      "end": {"date": "1989-10-23"},
+      "summary": {
+        "fr": "Installé par les chars soviétiques, Kádár écrase les conseils ouvriers puis achète la paix sociale par le « socialisme du goulash » et des réformes de marché qui endettent le pays.",
+        "en": "Installed by Soviet tanks, Kádár crushes the workers' councils and then buys social peace through 'goulash socialism' and market reforms that put the country in debt.",
+        "de": "Von sowjetischen Panzern eingesetzt, zerschlägt Kádár die Arbeiterräte und erkauft dann den sozialen Frieden mit „Gulaschkommunismus“ und Marktreformen, die das Land verschulden.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "hungary", "order": 11}],
+      "status": "draft"
+    },
+    {
+      "id": "1989-third-republic-and-capitalist-restoration",
+      "title": {
+        "fr": "Troisième République et restauration capitaliste",
+        "en": "Third Republic and capitalist restoration",
+        "de": "Dritte Republik und kapitalistische Restauration",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1989-10-23"},
+      "end": {"date": "2010-05-29"},
+      "summary": {
+        "fr": "Négociée par la bureaucratie elle-même, la transition livre l'économie aux privatisations et au capital étranger ; chômage de masse et austérité, menées aussi par les ex-communistes du MSZP, nourrissent la droite nationaliste.",
+        "en": "Negotiated by the bureaucracy itself, the transition hands the economy over to privatisation and foreign capital; mass unemployment and austerity, carried out also by the ex-communist MSZP, feed the nationalist right.",
+        "de": "Von der Bürokratie selbst ausgehandelt, liefert der Übergang die Wirtschaft Privatisierungen und ausländischem Kapital aus; Massenarbeitslosigkeit und Austerität, auch von der ex-kommunistischen MSZP betrieben, stärken die nationalistische Rechte.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "hungary", "order": 12}],
+      "sources": [{"ref": "wp-en-end-of-communism-in-hungary"}],
+      "status": "draft"
+    },
+    {
+      "id": "2010-orban-regime",
+      "title": {"fr": "Régime Orbán", "en": "Orbán regime", "de": "Orbán-Regime", "draft": ["en", "de"]},
+      "type": "period",
+      "start": {"date": "2010-05-29"},
+      "end": {"date": "2026-05-09"},
+      "summary": {
+        "fr": "Avec sa majorité des deux tiers, le Fidesz réécrit la Constitution, contrôle médias et institutions et mène une politique nationaliste et antisociale, jusqu'à sa défaite électorale de 2026.",
+        "en": "With its two-thirds majority, Fidesz rewrites the Constitution, controls media and institutions and pursues a nationalist and anti-social policy, until its electoral defeat in 2026.",
+        "de": "Mit ihrer Zweidrittelmehrheit schreibt die Fidesz die Verfassung neu, kontrolliert Medien und Institutionen und betreibt eine nationalistische und unsoziale Politik, bis zu ihrer Wahlniederlage 2026.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "hungary", "order": 13}],
+      "status": "draft"
+    },
+    {
+      "id": "2026-magyar-government",
+      "title": {
+        "fr": "Gouvernement Magyar",
+        "en": "Magyar government",
+        "de": "Regierung Magyar",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "2026-05-09"},
+      "ongoing": true,
+      "summary": {
+        "fr": "Le parti Tisza de Péter Magyar, issu de la droite, gouverne avec une majorité des deux tiers après seize ans de pouvoir du Fidesz.",
+        "en": "Péter Magyar's Tisza party, which emerged from the right, governs with a two-thirds majority after sixteen years of Fidesz rule.",
+        "de": "Die aus dem rechten Lager hervorgegangene Tisza-Partei von Péter Magyar regiert nach sechzehn Jahren Fidesz-Herrschaft mit einer Zweidrittelmehrheit.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "hungary", "order": 14}],
+      "persons": ["peter-magyar"],
+      "organizations": ["tisza-party"],
+      "sources": [{"ref": "wp-en-2026-hungarian-parliamentary-election"}],
+      "status": "draft"
+    },
+    {
+      "id": "1956-hungarian-revolution",
+      "title": {
+        "fr": "Révolution hongroise de 1956",
+        "en": "Hungarian Revolution of 1956",
+        "de": "Ungarischer Volksaufstand 1956",
+        "draft": ["en", "de"]
+      },
+      "type": "revolution",
+      "start": {"date": "1956-10-23"},
+      "end": {"date": "1956-11-11"},
+      "summary": {
+        "fr": "Une manifestation à Budapest devient une insurrection ; plus de 2 000 conseils ouvriers se forment, mais la seconde intervention soviétique du 4 novembre écrase la révolution, et Imre Nagy sera exécuté.",
+        "en": "A demonstration in Budapest becomes an insurrection; more than 2,000 workers' councils form, but the second Soviet intervention on 4 November crushes the revolution, and Imre Nagy will be executed.",
+        "de": "Eine Demonstration in Budapest wird zum Aufstand; über 2000 Arbeiterräte entstehen, doch die zweite sowjetische Intervention am 4. November schlägt die Revolution nieder, und Imre Nagy wird hingerichtet.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "hungary", "order": 10},
+        {"id": "russia-empire-and-national-question"},
+        {"id": "1956-hundred-flowers-campaign"},
+        {"id": "1956-crisis-of-stalinism"}
+      ],
+      "persons": ["imre-nagy", "khrushchev"],
+      "places": ["budapest"],
+      "organizations": ["red-army"],
+      "sources": [{"ref": "wp-en-hungarian-revolution-of-1956"}],
+      "status": "draft"
+    },
+    {
+      "id": "1794-hungarian-jacobin-movement",
+      "title": {
+        "fr": "Conspiration des jacobins hongrois",
+        "en": "Hungarian Jacobin conspiracy",
+        "de": "Ungarische Jakobinerverschwörung",
+        "draft": ["en", "de"]
+      },
+      "type": "repression",
+      "start": {"date": "1794"},
+      "end": {"date": "1795-05-20"},
+      "summary": {
+        "fr": "Ignác Martinovics fonde deux sociétés secrètes républicaines, l'une pour les nobles réformateurs, l'autre pour la liberté et l'égalité ; découverts, il est décapité à Buda avec six compagnons.",
+        "en": "Ignác Martinovics founds two republican secret societies, one for reforming nobles and one for liberty and equality; discovered, he is beheaded in Buda with six companions.",
+        "de": "Ignác Martinovics gründet zwei republikanische Geheimgesellschaften, eine für reformwillige Adlige, eine für Freiheit und Gleichheit; entdeckt, wird er mit sechs Gefährten in Buda enthauptet.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1789-hungarian-jacobins-and-napoleonic-wars"}],
+      "persons": ["ignac-martinovics", "jozsef-hajnoczy"],
+      "places": ["budapest"],
+      "sources": [{"ref": "wp-en-ignac-martinovics"}],
+      "status": "draft"
+    },
+    {
+      "id": "1825-founding-of-the-hungarian-academy-of-sciences",
+      "title": {
+        "fr": "Fondation de l'Académie hongroise des sciences",
+        "en": "Founding of the Hungarian Academy of Sciences",
+        "de": "Gründung der Ungarischen Akademie der Wissenschaften",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1825-11-03"},
+      "summary": {
+        "fr": "À la Diète de 1825, le comte István Széchenyi offre une année de revenus pour fonder une académie de la langue hongroise : symbole de l'ouverture de l'ère des réformes.",
+        "en": "At the 1825 Diet, Count István Széchenyi offers a year's income to found an academy of the Hungarian language: a symbol of the opening of the Reform Era.",
+        "de": "Auf dem Reichstag von 1825 stiftet Graf István Széchenyi ein Jahreseinkommen zur Gründung einer Akademie der ungarischen Sprache: Sinnbild für den Beginn des Reformzeitalters.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1825-reform-era"}],
+      "persons": ["istvan-szechenyi"],
+      "places": ["budapest"],
+      "status": "draft"
+    },
+    {
+      "id": "1841-kossuth-and-the-pesti-hirlap",
+      "title": {
+        "fr": "Kossuth à la tête du Pesti Hírlap",
+        "en": "Kossuth edits the Pesti Hírlap",
+        "de": "Kossuth als Redakteur des Pesti Hírlap",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1841-01"},
+      "summary": {
+        "fr": "Le quotidien dirigé par Lajos Kossuth popularise le programme libéral et national de la noblesse moyenne : abolition du servage contre indemnité, impôt pour tous, protection de l'industrie.",
+        "en": "The daily edited by Lajos Kossuth popularises the liberal and national programme of the middle nobility: abolition of serfdom with compensation, taxation for all, protection of industry.",
+        "de": "Die von Lajos Kossuth geleitete Tageszeitung verbreitet das liberale und nationale Programm des Mitteladels: Ablösung der Leibeigenschaft, Besteuerung aller, Schutz der Industrie.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1825-reform-era"}],
+      "persons": ["lajos-kossuth"],
+      "places": ["budapest"],
+      "status": "draft"
+    },
+    {
+      "id": "1848-pest-revolution",
+      "title": {
+        "fr": "Révolution du 15 mars à Pest",
+        "en": "15 March revolution in Pest",
+        "de": "Revolution vom 15. März in Pest",
+        "draft": ["en", "de"]
+      },
+      "type": "revolution",
+      "start": {"date": "1848-03-15"},
+      "summary": {
+        "fr": "Partis du café Pilvax, Petőfi et la jeunesse radicale lisent les Douze Points et le Chant national, impriment sans censure et imposent leurs revendications au conseil municipal.",
+        "en": "Setting out from the Pilvax café, Petőfi and the radical youth read out the Twelve Points and the National Song, print without censorship and force their demands on the city council.",
+        "de": "Vom Café Pilvax aus verlesen Petőfi und die radikale Jugend die Zwölf Punkte und das Nationallied, drucken ohne Zensur und zwingen dem Stadtrat ihre Forderungen auf.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-hungarian-revolution-and-war-of-independence"}],
+      "persons": ["sandor-petofi"],
+      "places": ["budapest"],
+      "sources": [{"ref": "wp-en-hungarian-revolution-of-1848"}],
+      "status": "draft"
+    },
+    {
+      "id": "1848-batthyany-government",
+      "title": {
+        "fr": "Premier gouvernement responsable de Batthyány",
+        "en": "Batthyány's first responsible government",
+        "de": "Erste verantwortliche Regierung Batthyány",
+        "draft": ["en", "de"]
+      },
+      "type": "government",
+      "start": {"date": "1848-03-17"},
+      "summary": {
+        "fr": "L'empereur accepte un ministère hongrois responsable devant la Diète, présidé par Lajos Batthyány, avec Kossuth aux Finances.",
+        "en": "The emperor accepts a Hungarian ministry answerable to the Diet, headed by Lajos Batthyány, with Kossuth at Finance.",
+        "de": "Der Kaiser akzeptiert ein dem Reichstag verantwortliches ungarisches Ministerium unter Lajos Batthyány, mit Kossuth als Finanzminister.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-hungarian-revolution-and-war-of-independence"}],
+      "persons": ["lajos-batthyany", "lajos-kossuth"],
+      "sources": [{"ref": "wp-en-hungarian-revolution-of-1848"}],
+      "status": "draft"
+    },
+    {
+      "id": "1848-april-laws",
+      "title": {
+        "orig": "hu",
+        "hu": "áprilisi törvények",
+        "fr": "Lois d'avril",
+        "en": "April Laws",
+        "de": "Aprilgesetze",
+        "draft": ["en", "de"]
+      },
+      "type": "law",
+      "start": {"date": "1848-04-11"},
+      "summary": {
+        "fr": "Sanctionnées par le roi, les lois d'avril abolissent servage et privilèges fiscaux, établissent un parlement élu et une garde nationale ; les nobles gardent leurs terres et les nationalités ne sont pas reconnues.",
+        "en": "Sanctioned by the king, the April Laws abolish serfdom and tax privileges and establish an elected parliament and a national guard; the nobles keep their land and the nationalities are not recognised.",
+        "de": "Vom König sanktioniert, heben die Aprilgesetze Leibeigenschaft und Steuerprivilegien auf und schaffen ein gewähltes Parlament und eine Nationalgarde; der Adel behält sein Land, die Nationalitäten werden nicht anerkannt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-hungarian-revolution-and-war-of-independence"}],
+      "sources": [
+        {"ref": "wp-en-hungarian-revolution-of-1848"},
+        {"ref": "wp-en-revolutions-of-1848-in-the-austrian-empire"}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "1848-jelacic-invasion-and-battle-of-pakozd",
+      "title": {
+        "fr": "Invasion de Jelačić et bataille de Pákozd",
+        "en": "Jelačić's invasion and the Battle of Pákozd",
+        "de": "Jelačićs Einmarsch und Schlacht bei Pákozd",
+        "draft": ["en", "de"]
+      },
+      "type": "battle",
+      "start": {"date": "1848-09-11"},
+      "end": {"date": "1848-09-29"},
+      "summary": {
+        "fr": "Soutenu par la cour, le ban de Croatie envahit la Hongrie avec 50 000 hommes ; l'armée hongroise naissante l'arrête à Pákozd et la guerre ouverte avec Vienne commence.",
+        "en": "Backed by the court, the Ban of Croatia invades Hungary with 50,000 men; the newly formed Hungarian army stops him at Pákozd and open war with Vienna begins.",
+        "de": "Vom Hof unterstützt, fällt der Banus von Kroatien mit 50.000 Mann in Ungarn ein; das junge ungarische Heer stoppt ihn bei Pákozd, und der offene Krieg mit Wien beginnt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-hungarian-revolution-and-war-of-independence"}],
+      "persons": ["josip-jelacic"],
+      "places": ["pakozd"],
+      "sources": [{"ref": "wp-en-hungarian-revolution-of-1848"}],
+      "status": "draft"
+    },
+    {
+      "id": "1848-committee-of-national-defence",
+      "title": {
+        "orig": "hu",
+        "hu": "Országos Honvédelmi Bizottmány",
+        "fr": "Comité de défense nationale",
+        "en": "Committee of National Defence",
+        "de": "Landesverteidigungsausschuss",
+        "draft": ["en", "de"]
+      },
+      "type": "government",
+      "start": {"date": "1848-09"},
+      "summary": {
+        "fr": "Après la démission de Batthyány, Kossuth prend la tête du comité qui exerce le pouvoir, lève une armée de volontaires (honvéd) et organise la guerre révolutionnaire.",
+        "en": "After Batthyány resigns, Kossuth heads the committee that wields power, raises a volunteer army (honvéd) and organises the revolutionary war.",
+        "de": "Nach Batthyánys Rücktritt übernimmt Kossuth den Ausschuss, der die Macht ausübt, eine Freiwilligenarmee (Honvéd) aufstellt und den revolutionären Krieg organisiert.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-hungarian-revolution-and-war-of-independence"}],
+      "persons": ["lajos-kossuth"],
+      "sources": [{"ref": "wp-en-hungarian-revolution-of-1848"}],
+      "status": "draft"
+    },
+    {
+      "id": "1849-hungarian-declaration-of-independence",
+      "title": {
+        "fr": "Déclaration d'indépendance hongroise",
+        "en": "Hungarian Declaration of Independence",
+        "de": "Ungarische Unabhängigkeitserklärung",
+        "draft": ["en", "de"]
+      },
+      "type": "independence",
+      "start": {"date": "1849-04-14"},
+      "summary": {
+        "fr": "Après les victoires de la campagne de printemps, la Diète réunie à Debrecen détrône les Habsbourg et élit Kossuth gouverneur-président.",
+        "en": "After the victories of the spring campaign, the Diet meeting in Debrecen dethrones the Habsburgs and elects Kossuth governor-president.",
+        "de": "Nach den Siegen des Frühjahrsfeldzugs setzt der in Debrecen tagende Reichstag die Habsburger ab und wählt Kossuth zum Reichsverweser.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-hungarian-revolution-and-war-of-independence"}],
+      "persons": ["lajos-kossuth"],
+      "places": ["debrecen"],
+      "sources": [{"ref": "wp-en-hungarian-revolution-of-1848"}],
+      "status": "draft"
+    },
+    {
+      "id": "1849-siege-of-buda",
+      "title": {
+        "fr": "Siège de Buda",
+        "en": "Siege of Buda",
+        "de": "Belagerung von Buda",
+        "draft": ["en", "de"]
+      },
+      "type": "battle",
+      "start": {"date": "1849-05-04"},
+      "end": {"date": "1849-05-21"},
+      "summary": {
+        "fr": "L'armée hongroise reprend la forteresse de Buda à la garnison autrichienne ; le même mois, François-Joseph obtient l'intervention du tsar.",
+        "en": "The Hungarian army retakes Buda castle from the Austrian garrison; the same month, Franz Joseph secures the Tsar's intervention.",
+        "de": "Das ungarische Heer erobert die Burg von Buda von der österreichischen Besatzung zurück; im selben Monat erwirkt Franz Joseph das Eingreifen des Zaren.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-hungarian-revolution-and-war-of-independence"}],
+      "persons": ["artur-gorgei", "franz-joseph"],
+      "places": ["budapest"],
+      "sources": [{"ref": "wp-en-hungarian-revolution-of-1848"}],
+      "status": "draft"
+    },
+    {
+      "id": "1849-battle-of-segesvar",
+      "title": {
+        "fr": "Bataille de Segesvár",
+        "en": "Battle of Segesvár",
+        "de": "Schlacht bei Schäßburg",
+        "draft": ["en", "de"]
+      },
+      "type": "battle",
+      "start": {"date": "1849-07-31"},
+      "summary": {
+        "fr": "L'armée de Bem est battue par les Russes en Transylvanie ; le poète Sándor Petőfi disparaît dans la bataille.",
+        "en": "Bem's army is defeated by the Russians in Transylvania; the poet Sándor Petőfi disappears in the battle.",
+        "de": "Bems Armee wird in Siebenbürgen von den Russen geschlagen; der Dichter Sándor Petőfi verschwindet in der Schlacht.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-hungarian-revolution-and-war-of-independence"}],
+      "persons": ["sandor-petofi"],
+      "places": ["sighisoara"],
+      "status": "draft"
+    },
+    {
+      "id": "1849-surrender-at-vilagos",
+      "title": {
+        "fr": "Capitulation de Világos",
+        "en": "Surrender at Világos",
+        "de": "Kapitulation von Világos",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1849-08-13"},
+      "summary": {
+        "fr": "Après l'abdication de Kossuth, le général Görgei dépose les armes devant l'armée russe : la guerre d'indépendance est perdue.",
+        "en": "After Kossuth abdicates, General Görgei lays down arms before the Russian army: the war of independence is lost.",
+        "de": "Nach Kossuths Rücktritt streckt General Görgei vor der russischen Armee die Waffen: der Freiheitskampf ist verloren.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-hungarian-revolution-and-war-of-independence"}],
+      "persons": ["artur-gorgei", "lajos-kossuth"],
+      "places": ["vilagos"],
+      "sources": [
+        {"ref": "wp-en-revolutions-of-1848-in-the-austrian-empire"},
+        {"ref": "wp-en-hungarian-revolution-of-1848"}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "1849-martyrs-of-arad",
+      "title": {
+        "orig": "hu",
+        "hu": "aradi vértanúk",
+        "fr": "Martyrs d'Arad",
+        "en": "Martyrs of Arad",
+        "de": "Märtyrer von Arad",
+        "draft": ["en", "de"]
+      },
+      "type": "repression",
+      "start": {"date": "1849-10-06"},
+      "summary": {
+        "fr": "Sur ordre du général Haynau, treize généraux de l'armée révolutionnaire sont exécutés à Arad et Batthyány est fusillé à Pest le même jour ; la répression fait des centaines de victimes.",
+        "en": "On General Haynau's orders, thirteen generals of the revolutionary army are executed at Arad and Batthyány is shot in Pest the same day; the repression claims hundreds of victims.",
+        "de": "Auf Befehl General Haynaus werden dreizehn Generäle der Revolutionsarmee in Arad hingerichtet und Batthyány am selben Tag in Pest erschossen; die Repression fordert Hunderte Opfer.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1849-repression-and-passive-resistance"}],
+      "persons": ["julius-haynau", "lajos-batthyany"],
+      "places": ["arad", "budapest"],
+      "status": "draft"
+    },
+    {
+      "id": "1865-deak-easter-article",
+      "title": {
+        "fr": "Article de Pâques de Deák",
+        "en": "Deák's Easter Article",
+        "de": "Deáks Osterartikel",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1865-04-16"},
+      "summary": {
+        "fr": "Ferenc Deák propose de reconnaître des affaires communes avec l'Autriche en échange du rétablissement des lois de 1848 : la base du futur compromis.",
+        "en": "Ferenc Deák proposes recognising common affairs with Austria in exchange for restoring the 1848 laws: the basis of the future compromise.",
+        "de": "Ferenc Deák schlägt vor, gemeinsame Angelegenheiten mit Österreich anzuerkennen, wenn die Gesetze von 1848 wiederhergestellt werden: Grundlage des späteren Ausgleichs.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1849-repression-and-passive-resistance"}],
+      "persons": ["ferenc-deak"],
+      "status": "draft"
+    },
+    {
+      "id": "1868-nationalities-law",
+      "title": {
+        "fr": "Loi sur les nationalités",
+        "en": "Nationalities Law",
+        "de": "Nationalitätengesetz",
+        "draft": ["en", "de"]
+      },
+      "type": "law",
+      "start": {"date": "1868"},
+      "summary": {
+        "fr": "La loi reconnaît des droits linguistiques individuels mais proclame une « nation politique hongroise » unique : les nationalités, plus de la moitié de la population, n'obtiennent pas d'autonomie.",
+        "en": "The law grants individual language rights but proclaims a single 'Hungarian political nation': the nationalities, more than half the population, receive no autonomy.",
+        "de": "Das Gesetz gewährt individuelle Sprachrechte, proklamiert aber eine einzige „ungarische politische Nation“: die Nationalitäten, mehr als die Hälfte der Bevölkerung, erhalten keine Autonomie.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1867-dual-monarchy-in-hungary"}],
+      "sources": [{"ref": "wp-en-austro-hungarian-compromise-of-1867"}],
+      "status": "draft"
+    },
+    {
+      "id": "1873-unification-of-budapest",
+      "title": {
+        "fr": "Création de Budapest",
+        "en": "Unification of Budapest",
+        "de": "Vereinigung von Budapest",
+        "draft": ["en", "de"]
+      },
+      "type": "unification",
+      "start": {"date": "1873-11-17"},
+      "summary": {
+        "fr": "Buda, Óbuda et Pest fusionnent en une capitale qui devient l'un des grands centres industriels et ouvriers d'Europe centrale.",
+        "en": "Buda, Óbuda and Pest merge into a capital that becomes one of Central Europe's great industrial and working-class centres.",
+        "de": "Buda, Óbuda und Pest vereinigen sich zu einer Hauptstadt, die zu einem der großen Industrie- und Arbeiterzentren Mitteleuropas wird.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1867-dual-monarchy-in-hungary"}],
+      "places": ["budapest"],
+      "status": "draft"
+    },
+    {
+      "id": "1880-founding-of-the-general-workers-party",
+      "title": {
+        "orig": "hu",
+        "hu": "Magyarországi Általános Munkáspárt",
+        "fr": "Fondation du Parti ouvrier général de Hongrie",
+        "en": "Founding of the General Workers' Party of Hungary",
+        "de": "Gründung der Allgemeinen Arbeiterpartei Ungarns",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1880"},
+      "summary": {
+        "fr": "Léo Frankel, ancien membre de la Commune de Paris, unifie les groupes ouvriers en un premier parti socialiste, matrice de la social-démocratie hongroise.",
+        "en": "Leó Frankel, a former member of the Paris Commune, unites the workers' groups into a first socialist party, the seedbed of Hungarian social democracy.",
+        "de": "Leó Frankel, ehemaliges Mitglied der Pariser Kommune, vereint die Arbeitergruppen zu einer ersten sozialistischen Partei, Keimzelle der ungarischen Sozialdemokratie.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1867-dual-monarchy-in-hungary"}],
+      "persons": ["leo-frankel"],
+      "places": ["budapest"],
+      "organizations": ["mamp"],
+      "sources": [{"ref": "wp-en-general-workers-party-of-hungary"}],
+      "status": "draft"
+    },
+    {
+      "id": "1890-founding-of-the-mszdp",
+      "title": {
+        "orig": "hu",
+        "hu": "Magyarországi Szociáldemokrata Párt",
+        "fr": "Fondation du Parti social-démocrate de Hongrie",
+        "en": "Founding of the Social Democratic Party of Hungary",
+        "de": "Gründung der Sozialdemokratischen Partei Ungarns",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1890-12"},
+      "summary": {
+        "fr": "Le MSZDP succède au Parti ouvrier général ; avec son journal Népszava, il organise ouvriers d'industrie et syndicats, mais reste longtemps à l'écart des campagnes.",
+        "en": "The MSZDP succeeds the General Workers' Party; with its newspaper Népszava, it organises industrial workers and trade unions but long remains aloof from the countryside.",
+        "de": "Die MSZDP folgt der Allgemeinen Arbeiterpartei; mit ihrer Zeitung Népszava organisiert sie Industriearbeiter und Gewerkschaften, bleibt aber lange dem Land fern.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1867-dual-monarchy-in-hungary"}],
+      "organizations": ["mszdp"],
+      "sources": [
+        {"ref": "wp-en-social-democratic-party-of-hungary"},
+        {"ref": "wp-en-general-workers-party-of-hungary"}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "1891-agrarian-socialist-movement",
+      "title": {
+        "fr": "Mouvement des socialistes agraires",
+        "en": "Agrarian socialist movement",
+        "de": "Agrarsozialistische Bewegung",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "1891"},
+      "end": {"date": "1898"},
+      "summary": {
+        "fr": "Dans la grande plaine, journaliers et ouvriers agricoles s'organisent, revendiquent la terre et lancent des grèves des moissons ; gendarmerie, fusillades et « loi des esclaves » de 1898 brisent le mouvement.",
+        "en": "On the Great Plain, day labourers and farmhands organise, demand land and launch harvest strikes; the gendarmerie, shootings and the 1898 'slave law' break the movement.",
+        "de": "In der Tiefebene organisieren sich Tagelöhner und Landarbeiter, fordern Land und führen Erntestreiks; Gendarmerie, Schüsse und das „Sklavengesetz“ von 1898 brechen die Bewegung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1867-dual-monarchy-in-hungary"}],
+      "places": ["hodmezovasarhely"],
+      "status": "draft"
+    },
+    {
+      "id": "1905-red-friday",
+      "title": {
+        "orig": "hu",
+        "hu": "vörös péntek",
+        "fr": "Vendredi rouge",
+        "en": "Red Friday",
+        "de": "Roter Freitag",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1905-09-15"},
+      "summary": {
+        "fr": "En pleine crise constitutionnelle et sous l'influence de la révolution russe, des dizaines de milliers d'ouvriers manifestent à Budapest pour le suffrage universel à l'appel des sociaux-démocrates.",
+        "en": "In the midst of a constitutional crisis and under the influence of the Russian Revolution, tens of thousands of workers demonstrate in Budapest for universal suffrage at the social democrats' call.",
+        "de": "Mitten in der Verfassungskrise und unter dem Einfluss der russischen Revolution demonstrieren Zehntausende Arbeiter in Budapest auf Aufruf der Sozialdemokraten für das allgemeine Wahlrecht.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1867-dual-monarchy-in-hungary"}],
+      "places": ["budapest"],
+      "organizations": ["mszdp"],
+      "status": "draft"
+    },
+    {
+      "id": "1912-bloody-thursday",
+      "title": {
+        "orig": "hu",
+        "hu": "vérvörös csütörtök",
+        "fr": "Jeudi sanglant",
+        "en": "Bloody Thursday",
+        "de": "Blutiger Donnerstag",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1912-05-23"},
+      "summary": {
+        "fr": "Contre l'élection de Tisza à la présidence de la Chambre et pour le suffrage universel, une grève générale tourne à l'insurrection à Budapest ; la police et l'armée tuent plusieurs manifestants.",
+        "en": "Against Tisza's election as Speaker and for universal suffrage, a general strike turns into an uprising in Budapest; police and army kill several demonstrators.",
+        "de": "Gegen Tiszas Wahl zum Parlamentspräsidenten und für das allgemeine Wahlrecht schlägt ein Generalstreik in Budapest in einen Aufstand um; Polizei und Armee töten mehrere Demonstranten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1867-dual-monarchy-in-hungary"}],
+      "persons": ["istvan-tisza"],
+      "places": ["budapest"],
+      "organizations": ["mszdp"],
+      "status": "draft"
+    },
+    {
+      "id": "1918-aster-revolution",
+      "title": {
+        "orig": "hu",
+        "hu": "őszirózsás forradalom",
+        "fr": "Révolution des Asters",
+        "en": "Aster Revolution",
+        "de": "Asternrevolution",
+        "draft": ["en", "de"]
+      },
+      "type": "revolution",
+      "start": {"date": "1918-10-28"},
+      "end": {"date": "1918-10-31"},
+      "summary": {
+        "fr": "Soldats et ouvriers de Budapest, l'aster à la boutonnière, prennent les points stratégiques ; Mihály Károlyi forme un gouvernement de libéraux et de sociaux-démocrates et István Tisza est abattu.",
+        "en": "Budapest soldiers and workers, asters in their buttonholes, seize strategic points; Mihály Károlyi forms a government of liberals and social democrats and István Tisza is shot dead.",
+        "de": "Budapester Soldaten und Arbeiter mit Astern im Knopfloch besetzen strategische Punkte; Mihály Károlyi bildet eine Regierung aus Liberalen und Sozialdemokraten, István Tisza wird erschossen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-aster-revolution-and-soviet-republic"}],
+      "persons": ["mihaly-karolyi", "istvan-tisza"],
+      "places": ["budapest"],
+      "organizations": ["mszdp"],
+      "sources": [{"ref": "wp-en-revolutions-and-interventions-in-hungary-1918-1920"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-proclamation-of-the-hungarian-peoples-republic",
+      "title": {
+        "fr": "Proclamation de la République populaire hongroise",
+        "en": "Proclamation of the Hungarian People's Republic",
+        "de": "Ausrufung der Ungarischen Volksrepublik",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1918-11-16"},
+      "summary": {
+        "fr": "La république est proclamée ; le gouvernement Károlyi désarme l'armée, promet une réforme agraire et se heurte aux exigences territoriales de l'Entente et des États voisins.",
+        "en": "The republic is proclaimed; the Károlyi government disarms the army, promises land reform and runs up against the territorial demands of the Entente and the neighbouring states.",
+        "de": "Die Republik wird ausgerufen; die Regierung Károlyi entwaffnet das Heer, verspricht eine Bodenreform und stößt auf die Gebietsforderungen der Entente und der Nachbarstaaten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-aster-revolution-and-soviet-republic"}],
+      "persons": ["mihaly-karolyi"],
+      "places": ["budapest"],
+      "sources": [{"ref": "wp-en-hungarian-soviet-republic"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-founding-of-the-kmp",
+      "title": {
+        "orig": "hu",
+        "hu": "Kommunisták Magyarországi Pártja",
+        "fr": "Fondation du Parti des communistes de Hongrie",
+        "en": "Founding of the Party of Communists in Hungary",
+        "de": "Gründung der Kommunistischen Partei Ungarns",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1918-11-24"},
+      "summary": {
+        "fr": "Revenus de Russie, Béla Kun et d'anciens prisonniers de guerre fondent le parti communiste, qui gagne vite les chômeurs, les soldats démobilisés et la gauche ouvrière.",
+        "en": "Back from Russia, Béla Kun and former prisoners of war found the Communist Party, which quickly wins over the unemployed, demobilised soldiers and the workers' left.",
+        "de": "Aus Russland zurückgekehrt, gründen Béla Kun und ehemalige Kriegsgefangene die Kommunistische Partei, die rasch Arbeitslose, demobilisierte Soldaten und die Arbeiterlinke gewinnt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-aster-revolution-and-soviet-republic"}],
+      "persons": ["bela-kun"],
+      "places": ["budapest"],
+      "organizations": ["kmp"],
+      "sources": [{"ref": "wp-en-hungarian-soviet-republic"}],
+      "status": "draft"
+    },
+    {
+      "id": "1919-arrest-of-bela-kun",
+      "title": {
+        "fr": "Arrestation de Béla Kun",
+        "en": "Arrest of Béla Kun",
+        "de": "Verhaftung Béla Kuns",
+        "draft": ["en", "de"]
+      },
+      "type": "arrest",
+      "start": {"date": "1919-02-20"},
+      "summary": {
+        "fr": "Après une manifestation violente devant le siège de Népszava, le gouvernement fait arrêter les dirigeants communistes ; battus en prison, ils voient leur popularité grandir.",
+        "en": "After a violent demonstration outside the Népszava offices, the government has the communist leaders arrested; beaten in prison, they see their popularity grow.",
+        "de": "Nach einer gewaltsamen Demonstration vor der Népszava-Redaktion lässt die Regierung die kommunistischen Führer verhaften; im Gefängnis misshandelt, gewinnen sie an Ansehen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-aster-revolution-and-soviet-republic"}],
+      "persons": ["bela-kun"],
+      "places": ["budapest"],
+      "organizations": ["kmp"],
+      "sources": [{"ref": "wp-en-hungarian-soviet-republic"}],
+      "status": "draft"
+    },
+    {
+      "id": "1919-hungarian-soviet-republic",
+      "title": {
+        "orig": "hu",
+        "hu": "Magyarországi Tanácsköztársaság",
+        "fr": "République des conseils de Hongrie",
+        "en": "Hungarian Soviet Republic",
+        "de": "Ungarische Räterepublik",
+        "draft": ["en", "de"]
+      },
+      "type": "revolution",
+      "start": {"date": "1919-03-21"},
+      "end": {"date": "1919-08-01"},
+      "summary": {
+        "fr": "Face à l'ultimatum de l'Entente, Károlyi se retire ; sociaux-démocrates et communistes fusionnent et proclament la République des conseils, qui nationalise l'industrie mais garde les grands domaines, puis succombe à l'invasion roumaine.",
+        "en": "Faced with the Entente's ultimatum, Károlyi steps down; social democrats and communists merge and proclaim the Soviet Republic, which nationalises industry but keeps the large estates, then succumbs to the Romanian invasion.",
+        "de": "Vor dem Ultimatum der Entente tritt Károlyi zurück; Sozialdemokraten und Kommunisten vereinigen sich und rufen die Räterepublik aus, die die Industrie verstaatlicht, die Großgüter aber beibehält, und der rumänischen Invasion erliegt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-aster-revolution-and-soviet-republic"}],
+      "persons": ["bela-kun", "sandor-garbai", "tibor-szamuely", "jeno-landler", "georg-lukacs"],
+      "places": ["budapest"],
+      "organizations": ["kmp", "mszdp"],
+      "sources": [{"ref": "wp-en-hungarian-soviet-republic"}, {"ref": "marxists-glossary-hungary"}],
+      "status": "draft"
+    },
+    {
+      "id": "1919-hungarian-soviet-elections",
+      "title": {
+        "fr": "Élections aux conseils",
+        "en": "Soviet elections",
+        "de": "Rätewahlen",
+        "draft": ["en", "de"]
+      },
+      "type": "election",
+      "start": {"date": "1919-04-07"},
+      "end": {"date": "1919-04-14"},
+      "summary": {
+        "fr": "Ouvriers, soldats et paysans élisent les conseils locaux, dont les délégués forment en juin l'Assemblée nationale des conseils ; les anciens exploiteurs sont privés du droit de vote.",
+        "en": "Workers, soldiers and peasants elect the local councils, whose delegates form the National Assembly of Councils in June; former exploiters are deprived of the vote.",
+        "de": "Arbeiter, Soldaten und Bauern wählen die örtlichen Räte, deren Delegierte im Juni die Landesversammlung der Räte bilden; ehemalige Ausbeuter verlieren das Wahlrecht.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-hungarian-soviet-republic"}],
+      "sources": [{"ref": "wp-en-hungarian-soviet-republic"}],
+      "status": "draft"
+    },
+    {
+      "id": "1919-slovak-soviet-republic",
+      "title": {
+        "fr": "République slovaque des conseils",
+        "en": "Slovak Soviet Republic",
+        "de": "Slowakische Räterepublik",
+        "draft": ["en", "de"]
+      },
+      "type": "revolution",
+      "start": {"date": "1919-06-16"},
+      "end": {"date": "1919-07-07"},
+      "summary": {
+        "fr": "Après l'offensive victorieuse de l'Armée rouge hongroise vers le nord, une république des conseils est proclamée à Prešov ; elle disparaît quand les troupes hongroises se retirent sous la pression de l'Entente.",
+        "en": "After the Hungarian Red Army's victorious northern offensive, a soviet republic is proclaimed in Prešov; it disappears when Hungarian troops withdraw under Entente pressure.",
+        "de": "Nach der siegreichen Nordoffensive der ungarischen Roten Armee wird in Prešov eine Räterepublik ausgerufen; sie verschwindet, als sich die ungarischen Truppen auf Druck der Entente zurückziehen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-hungarian-soviet-republic"}],
+      "places": ["presov"],
+      "sources": [{"ref": "wp-en-hungarian-soviet-republic"}],
+      "status": "draft"
+    },
+    {
+      "id": "1919-june-counter-revolutionary-uprising",
+      "title": {
+        "fr": "Soulèvement contre-révolutionnaire du 24 juin",
+        "en": "24 June counter-revolutionary uprising",
+        "de": "Gegenrevolutionärer Putsch vom 24. Juni",
+        "draft": ["en", "de"]
+      },
+      "type": "coup",
+      "start": {"date": "1919-06-24"},
+      "summary": {
+        "fr": "Une tentative de coup d'État appuyée par des officiers et des sociaux-démocrates de droite échoue à Budapest ; les « gars de Lénine » de Szamuely répondent par la terreur rouge.",
+        "en": "An attempted coup backed by officers and right-wing social democrats fails in Budapest; Szamuely's 'Lenin Boys' respond with Red Terror.",
+        "de": "Ein von Offizieren und rechten Sozialdemokraten getragener Putschversuch scheitert in Budapest; Szamuelys „Leninjungen“ antworten mit rotem Terror.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-hungarian-soviet-republic"}],
+      "persons": ["tibor-szamuely"],
+      "places": ["budapest"],
+      "sources": [{"ref": "wp-en-hungarian-soviet-republic"}],
+      "status": "draft"
+    },
+    {
+      "id": "1919-fall-of-the-soviet-republic",
+      "title": {
+        "fr": "Offensive sur la Tisza et chute de la République des conseils",
+        "en": "Tisza offensive and fall of the Soviet Republic",
+        "de": "Theiß-Offensive und Sturz der Räterepublik",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1919-07-20"},
+      "end": {"date": "1919-08-01"},
+      "summary": {
+        "fr": "L'offensive hongroise contre les Roumains échoue, le front cède ; Kun démissionne et s'enfuit à Vienne, un gouvernement social-démocrate lui succède.",
+        "en": "The Hungarian offensive against the Romanians fails and the front gives way; Kun resigns and flees to Vienna, and a social-democratic government takes over.",
+        "de": "Die ungarische Offensive gegen die Rumänen scheitert, die Front bricht zusammen; Kun tritt zurück und flieht nach Wien, eine sozialdemokratische Regierung übernimmt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-hungarian-soviet-republic"}],
+      "persons": ["bela-kun"],
+      "sources": [{"ref": "wp-en-hungarian-soviet-republic"}],
+      "status": "draft"
+    },
+    {
+      "id": "1919-romanian-occupation-of-budapest",
+      "title": {
+        "fr": "Occupation de Budapest par l'armée roumaine",
+        "en": "Romanian occupation of Budapest",
+        "de": "Rumänische Besetzung Budapests",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1919-08-04"},
+      "summary": {
+        "fr": "L'armée roumaine entre dans Budapest et pille le pays jusqu'en mars 1920, pendant que les officiers blancs s'organisent sous l'aile de l'Entente.",
+        "en": "The Romanian army enters Budapest and plunders the country until March 1920, while the White officers organise under the Entente's wing.",
+        "de": "Die rumänische Armee zieht in Budapest ein und plündert das Land bis März 1920, während sich die weißen Offiziere unter dem Schutz der Entente organisieren.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-white-terror-and-horthy-regime"}],
+      "places": ["budapest"],
+      "sources": [
+        {"ref": "wp-en-revolutions-and-interventions-in-hungary-1918-1920"},
+        {"ref": "wp-en-hungarian-soviet-republic"}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "1919-white-terror-in-hungary",
+      "title": {"fr": "Terreur blanche", "en": "White Terror", "de": "Weißer Terror", "draft": ["en", "de"]},
+      "type": "repression",
+      "start": {"date": "1919-08"},
+      "end": {"date": "1921"},
+      "summary": {
+        "fr": "Les détachements d'officiers de Horthy torturent et massacrent communistes, ouvriers, paysans et Juifs ; des milliers de morts, des dizaines de milliers d'emprisonnés et d'exilés.",
+        "en": "Horthy's officer detachments torture and massacre communists, workers, peasants and Jews; thousands dead, tens of thousands imprisoned or exiled.",
+        "de": "Horthys Offizierskommandos foltern und ermorden Kommunisten, Arbeiter, Bauern und Juden; Tausende Tote, Zehntausende Inhaftierte und Exilierte.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-white-terror-and-horthy-regime"}],
+      "persons": ["miklos-horthy"],
+      "sources": [{"ref": "wp-en-revolutions-and-interventions-in-hungary-1918-1920"}],
+      "status": "draft"
+    },
+    {
+      "id": "1920-horthy-elected-regent",
+      "title": {
+        "fr": "Horthy élu régent",
+        "en": "Horthy elected regent",
+        "de": "Horthy wird Reichsverweser",
+        "draft": ["en", "de"]
+      },
+      "type": "government",
+      "start": {"date": "1920-03-01"},
+      "summary": {
+        "fr": "Le Parlement issu d'élections sous la terreur rétablit la monarchie sans roi et élit l'amiral Horthy régent ; il gouvernera jusqu'en 1944.",
+        "en": "The parliament elected under the terror restores a kingless monarchy and elects Admiral Horthy regent; he will rule until 1944.",
+        "de": "Das unter dem Terror gewählte Parlament stellt eine Monarchie ohne König wieder her und wählt Admiral Horthy zum Reichsverweser; er regiert bis 1944.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-white-terror-and-horthy-regime"}],
+      "persons": ["miklos-horthy"],
+      "sources": [
+        {"ref": "wp-en-interwar-hungary"},
+        {"ref": "wp-en-revolutions-and-interventions-in-hungary-1918-1920"}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "1920-treaty-of-trianon",
+      "title": {
+        "orig": "hu",
+        "hu": "trianoni békeszerződés",
+        "fr": "Traité de Trianon",
+        "en": "Treaty of Trianon",
+        "de": "Vertrag von Trianon",
+        "draft": ["en", "de"]
+      },
+      "type": "treaty",
+      "start": {"date": "1920-06-04"},
+      "summary": {
+        "fr": "La Hongrie perd plus des deux tiers de son territoire et des millions de Hongrois se retrouvent hors des frontières : le révisionnisme devient le ciment idéologique du régime.",
+        "en": "Hungary loses over two thirds of its territory and millions of Hungarians end up outside its borders: revisionism becomes the regime's ideological cement.",
+        "de": "Ungarn verliert über zwei Drittel seines Gebiets, Millionen Ungarn leben fortan jenseits der Grenzen: der Revisionismus wird zum ideologischen Kitt des Regimes.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-white-terror-and-horthy-regime"}, {"id": "world-states"}],
+      "sources": [{"ref": "wp-en-interwar-hungary"}],
+      "status": "draft"
+    },
+    {
+      "id": "1920-numerus-clausus",
+      "title": {
+        "fr": "Loi du numerus clausus",
+        "en": "Numerus clausus law",
+        "de": "Numerus-clausus-Gesetz",
+        "draft": ["en", "de"]
+      },
+      "type": "law",
+      "start": {"date": "1920-09-26"},
+      "summary": {
+        "fr": "Le gouvernement Teleki limite l'accès des Juifs à l'université : première loi antisémite de l'Europe de l'après-guerre.",
+        "en": "The Teleki government restricts Jewish access to university: the first antisemitic law in post-war Europe.",
+        "de": "Die Regierung Teleki beschränkt den Hochschulzugang für Juden: das erste antisemitische Gesetz im Nachkriegseuropa.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-white-terror-and-horthy-regime"}],
+      "sources": [{"ref": "wp-en-interwar-hungary"}],
+      "status": "draft"
+    },
+    {
+      "id": "1921-bethlen-peyer-pact",
+      "title": {
+        "fr": "Pacte Bethlen-Peyer",
+        "en": "Bethlen-Peyer pact",
+        "de": "Bethlen-Peyer-Pakt",
+        "draft": ["en", "de"]
+      },
+      "type": "treaty",
+      "start": {"date": "1921-12-22"},
+      "summary": {
+        "fr": "En échange de sa légalité, la social-démocratie s'engage auprès du gouvernement Bethlen à ne pas organiser les ouvriers agricoles ni les fonctionnaires et à s'abstenir de grèves politiques.",
+        "en": "In exchange for legality, social democracy pledges to the Bethlen government not to organise farmworkers or civil servants and to refrain from political strikes.",
+        "de": "Im Gegenzug für ihre Legalität verpflichtet sich die Sozialdemokratie gegenüber der Regierung Bethlen, weder Landarbeiter noch Beamte zu organisieren und auf politische Streiks zu verzichten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-white-terror-and-horthy-regime"}],
+      "persons": ["istvan-bethlen", "karoly-peyer"],
+      "organizations": ["mszdp"],
+      "sources": [{"ref": "wp-en-social-democratic-party-of-hungary"}],
+      "status": "draft"
+    },
+    {
+      "id": "1930-september-demonstration-in-budapest",
+      "title": {
+        "fr": "Manifestation du 1er septembre 1930",
+        "en": "1 September 1930 demonstration",
+        "de": "Demonstration vom 1. September 1930",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1930-09-01"},
+      "summary": {
+        "fr": "Frappés par la crise, des dizaines de milliers d'ouvriers et de chômeurs manifestent à Budapest au cri de « pain et travail » : la plus grande manifestation de l'entre-deux-guerres est brutalement chargée par la police.",
+        "en": "Hit by the slump, tens of thousands of workers and unemployed demonstrate in Budapest shouting 'bread and work'; the police charge brutally at the largest demonstration of the interwar years.",
+        "de": "Von der Krise getroffen, demonstrieren Zehntausende Arbeiter und Arbeitslose in Budapest mit dem Ruf „Brot und Arbeit“; die Polizei geht brutal gegen die größte Kundgebung der Zwischenkriegszeit vor.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-white-terror-and-horthy-regime"}],
+      "places": ["budapest"],
+      "organizations": ["mszdp"],
+      "status": "draft"
+    },
+    {
+      "id": "1932-execution-of-sallai-and-furst",
+      "title": {
+        "fr": "Exécution de Sallai et Fürst",
+        "en": "Execution of Sallai and Fürst",
+        "de": "Hinrichtung von Sallai und Fürst",
+        "draft": ["en", "de"]
+      },
+      "type": "death",
+      "start": {"date": "1932-07-29"},
+      "summary": {
+        "fr": "Dirigeants du parti communiste clandestin, Imre Sallai et Sándor Fürst sont pendus après un procès expéditif, malgré une campagne internationale de protestation.",
+        "en": "Leaders of the underground Communist Party, Imre Sallai and Sándor Fürst are hanged after a summary trial, despite an international protest campaign.",
+        "de": "Imre Sallai und Sándor Fürst, Führer der illegalen Kommunistischen Partei, werden nach einem Schnellverfahren trotz internationaler Proteste gehängt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-white-terror-and-horthy-regime"}],
+      "persons": ["imre-sallai", "sandor-furst"],
+      "places": ["budapest"],
+      "organizations": ["kmp"],
+      "status": "draft"
+    },
+    {
+      "id": "1938-first-jewish-law",
+      "title": {
+        "fr": "Première loi juive",
+        "en": "First Jewish Law",
+        "de": "Erstes Judengesetz",
+        "draft": ["en", "de"]
+      },
+      "type": "law",
+      "start": {"date": "1938-05-29"},
+      "summary": {
+        "fr": "Le gouvernement limite à 20 % la part des Juifs dans les professions libérales et le commerce ; la loi de 1939 les définit selon des critères raciaux.",
+        "en": "The government limits the share of Jews in the professions and commerce to 20%; the 1939 law defines them by racial criteria.",
+        "de": "Die Regierung begrenzt den Anteil der Juden in freien Berufen und Handel auf 20 %; das Gesetz von 1939 definiert sie nach rassischen Kriterien.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-white-terror-and-horthy-regime"}],
+      "sources": [{"ref": "wp-en-hungary-in-world-war-ii"}, {"ref": "wp-en-interwar-hungary"}],
+      "status": "draft"
+    },
+    {
+      "id": "1938-first-vienna-award",
+      "title": {
+        "fr": "Premier arbitrage de Vienne",
+        "en": "First Vienna Award",
+        "de": "Erster Wiener Schiedsspruch",
+        "draft": ["en", "de"]
+      },
+      "type": "treaty",
+      "start": {"date": "1938-11-02"},
+      "summary": {
+        "fr": "L'Allemagne et l'Italie attribuent à la Hongrie le sud de la Slovaquie : le révisionnisme lie le régime Horthy à l'Axe.",
+        "en": "Germany and Italy award southern Slovakia to Hungary: revisionism binds the Horthy regime to the Axis.",
+        "de": "Deutschland und Italien sprechen Ungarn die Südslowakei zu: der Revisionismus bindet das Horthy-Regime an die Achse.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-white-terror-and-horthy-regime"}, {"id": "world-states"}],
+      "sources": [{"ref": "wp-en-interwar-hungary"}],
+      "status": "draft"
+    },
+    {
+      "id": "1941-hungary-declares-war-on-the-soviet-union",
+      "title": {
+        "fr": "La Hongrie entre en guerre contre l'URSS",
+        "en": "Hungary declares war on the Soviet Union",
+        "de": "Ungarn erklärt der Sowjetunion den Krieg",
+        "draft": ["en", "de"]
+      },
+      "type": "war",
+      "start": {"date": "1941-06-27"},
+      "summary": {
+        "fr": "Prenant prétexte du bombardement de Kassa par des avions non identifiés, la Hongrie déclare la guerre à l'URSS, deux mois après avoir participé à l'invasion de la Yougoslavie.",
+        "en": "Using the bombing of Kassa by unidentified aircraft as a pretext, Hungary declares war on the USSR, two months after taking part in the invasion of Yugoslavia.",
+        "de": "Unter dem Vorwand der Bombardierung von Kaschau durch nicht identifizierte Flugzeuge erklärt Ungarn der UdSSR den Krieg, zwei Monate nach seiner Teilnahme am Überfall auf Jugoslawien.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1941-war-occupation-and-holocaust-in-hungary"}, {"id": "1939-second-world-war"}],
+      "places": ["kosice"],
+      "sources": [{"ref": "wp-en-hungary-in-world-war-ii"}],
+      "status": "draft"
+    },
+    {
+      "id": "1942-novi-sad-raid",
+      "title": {
+        "fr": "Massacres de Novi Sad",
+        "en": "Novi Sad raid",
+        "de": "Massaker von Novi Sad",
+        "draft": ["en", "de"]
+      },
+      "type": "massacre",
+      "start": {"date": "1942-01"},
+      "summary": {
+        "fr": "Sous couvert de lutte contre les partisans, des troupes et gendarmes hongrois massacrent quelque 3 000 Serbes et Juifs en Bačka occupée.",
+        "en": "Under cover of anti-partisan operations, Hungarian troops and gendarmes massacre some 3,000 Serbs and Jews in occupied Bačka.",
+        "de": "Unter dem Vorwand der Partisanenbekämpfung ermorden ungarische Truppen und Gendarmen in der besetzten Batschka rund 3000 Serben und Juden.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1941-war-occupation-and-holocaust-in-hungary"}],
+      "places": ["novi-sad"],
+      "sources": [{"ref": "wp-en-hungary-in-world-war-ii"}],
+      "status": "draft"
+    },
+    {
+      "id": "1943-destruction-of-the-hungarian-second-army",
+      "title": {
+        "fr": "Anéantissement de la IIe armée hongroise sur le Don",
+        "en": "Destruction of the Hungarian Second Army on the Don",
+        "de": "Untergang der 2. ungarischen Armee am Don",
+        "draft": ["en", "de"]
+      },
+      "type": "battle",
+      "start": {"date": "1943-01"},
+      "end": {"date": "1943-02-17"},
+      "summary": {
+        "fr": "L'offensive soviétique près de Voronej détruit la IIe armée hongroise, mal équipée ; des dizaines de milliers de soldats et de travailleurs forcés juifs périssent.",
+        "en": "The Soviet offensive near Voronezh destroys the poorly equipped Hungarian Second Army; tens of thousands of soldiers and Jewish forced labourers perish.",
+        "de": "Die sowjetische Offensive bei Woronesch vernichtet die schlecht ausgerüstete 2. ungarische Armee; Zehntausende Soldaten und jüdische Zwangsarbeiter kommen um.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1941-war-occupation-and-holocaust-in-hungary"}, {"id": "1939-second-world-war"}],
+      "places": ["voronezh"],
+      "sources": [{"ref": "wp-en-hungary-in-world-war-ii"}],
+      "status": "draft"
+    },
+    {
+      "id": "1944-german-occupation-of-hungary",
+      "title": {
+        "fr": "Occupation allemande de la Hongrie",
+        "en": "German occupation of Hungary",
+        "de": "Deutsche Besetzung Ungarns",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1944-03-19"},
+      "summary": {
+        "fr": "Pour empêcher une paix séparée, la Wehrmacht occupe le pays ; Horthy reste en place et nomme un gouvernement collaborateur qui livre les Juifs aux nazis.",
+        "en": "To prevent a separate peace, the Wehrmacht occupies the country; Horthy stays in place and appoints a collaborationist government that hands the Jews over to the Nazis.",
+        "de": "Um einen Separatfrieden zu verhindern, besetzt die Wehrmacht das Land; Horthy bleibt im Amt und ernennt eine Kollaborationsregierung, die die Juden den Nationalsozialisten ausliefert.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1941-war-occupation-and-holocaust-in-hungary"}],
+      "persons": ["miklos-horthy"],
+      "sources": [{"ref": "wp-en-hungary-in-world-war-ii"}],
+      "status": "draft"
+    },
+    {
+      "id": "1944-deportation-of-hungarian-jews",
+      "title": {
+        "fr": "Déportation des Juifs de Hongrie",
+        "en": "Deportation of the Hungarian Jews",
+        "de": "Deportation der ungarischen Juden",
+        "draft": ["en", "de"]
+      },
+      "type": "genocide",
+      "start": {"date": "1944-05-15"},
+      "end": {"date": "1944-07-09"},
+      "summary": {
+        "fr": "En moins de deux mois, la gendarmerie hongroise et le commando d'Eichmann déportent 437 000 Juifs, presque tous vers Auschwitz-Birkenau où la plupart sont aussitôt assassinés.",
+        "en": "In less than two months, the Hungarian gendarmerie and Eichmann's unit deport 437,000 Jews, almost all to Auschwitz-Birkenau, where most are murdered on arrival.",
+        "de": "In weniger als zwei Monaten deportieren die ungarische Gendarmerie und Eichmanns Kommando 437.000 Juden, fast alle nach Auschwitz-Birkenau, wo die meisten sofort ermordet werden.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1941-war-occupation-and-holocaust-in-hungary"}, {"id": "1941-holocaust"}],
+      "persons": ["adolf-eichmann"],
+      "places": ["auschwitz"],
+      "sources": [{"ref": "wp-en-hungary-in-world-war-ii"}],
+      "status": "draft"
+    },
+    {
+      "id": "1944-arrow-cross-coup",
+      "title": {
+        "fr": "Coup d'État des Croix fléchées",
+        "en": "Arrow Cross coup",
+        "de": "Pfeilkreuzler-Putsch",
+        "draft": ["en", "de"]
+      },
+      "type": "coup",
+      "start": {"date": "1944-10-15"},
+      "summary": {
+        "fr": "Horthy annonce une demande d'armistice ; les Allemands le forcent à se rétracter et installent Ferenc Szálasi, dont les milices massacrent des milliers de Juifs à Budapest.",
+        "en": "Horthy announces an armistice request; the Germans force him to retract and install Ferenc Szálasi, whose militias massacre thousands of Jews in Budapest.",
+        "de": "Horthy verkündet ein Waffenstillstandsgesuch; die Deutschen zwingen ihn zum Widerruf und setzen Ferenc Szálasi ein, dessen Milizen in Budapest Tausende Juden ermorden.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1941-war-occupation-and-holocaust-in-hungary"}],
+      "persons": ["ferenc-szalasi", "miklos-horthy"],
+      "places": ["budapest"],
+      "organizations": ["arrow-cross-party"],
+      "sources": [{"ref": "wp-en-hungary-in-world-war-ii"}],
+      "status": "draft"
+    },
+    {
+      "id": "1944-siege-of-budapest",
+      "title": {
+        "fr": "Siège de Budapest",
+        "en": "Siege of Budapest",
+        "de": "Belagerung von Budapest",
+        "draft": ["en", "de"]
+      },
+      "type": "battle",
+      "start": {"date": "1944-12-29"},
+      "end": {"date": "1945-02-13"},
+      "summary": {
+        "fr": "Encerclée par les armées soviétique et roumaine, Budapest est prise après sept semaines de combats qui dévastent la ville.",
+        "en": "Encircled by the Soviet and Romanian armies, Budapest is taken after seven weeks of fighting that devastate the city.",
+        "de": "Von sowjetischen und rumänischen Truppen eingeschlossen, wird Budapest nach siebenwöchigen Kämpfen eingenommen, die die Stadt verwüsten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1941-war-occupation-and-holocaust-in-hungary"}, {"id": "1939-second-world-war"}],
+      "places": ["budapest"],
+      "organizations": ["red-army"],
+      "sources": [{"ref": "wp-en-hungary-in-world-war-ii"}],
+      "status": "draft"
+    },
+    {
+      "id": "1945-hungarian-land-reform",
+      "title": {"fr": "Réforme agraire", "en": "Land reform", "de": "Bodenreform", "draft": ["en", "de"]},
+      "type": "law",
+      "start": {"date": "1945-03-17"},
+      "summary": {
+        "fr": "Le décret du gouvernement provisoire exproprie les grands domaines et distribue la terre à des centaines de milliers de paysans pauvres et d'ouvriers agricoles.",
+        "en": "The provisional government's decree expropriates the large estates and distributes the land to hundreds of thousands of poor peasants and farmworkers.",
+        "de": "Das Dekret der Provisorischen Regierung enteignet die Großgüter und verteilt das Land an Hunderttausende arme Bauern und Landarbeiter.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1941-war-occupation-and-holocaust-in-hungary"}],
+      "status": "draft"
+    },
+    {
+      "id": "1945-hungarian-parliamentary-election",
+      "title": {
+        "fr": "Élections de novembre 1945",
+        "en": "November 1945 election",
+        "de": "Parlamentswahl 1945",
+        "draft": ["en", "de"]
+      },
+      "type": "election",
+      "start": {"date": "1945-11-04"},
+      "summary": {
+        "fr": "Le Parti des petits propriétaires obtient la majorité absolue ; sociaux-démocrates et communistes recueillent chacun environ 17 % mais occupent des postes clés grâce à l'occupation soviétique.",
+        "en": "The Smallholders' Party wins an absolute majority; social democrats and communists each gain about 17% but hold key posts thanks to the Soviet occupation.",
+        "de": "Die Partei der Kleinlandwirte gewinnt die absolute Mehrheit; Sozialdemokraten und Kommunisten erhalten je etwa 17 %, besetzen dank der sowjetischen Besatzung aber Schlüsselposten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1945-peoples-democracy-and-stalinism"}],
+      "organizations": ["mszdp", "kmp"],
+      "sources": [{"ref": "wp-en-social-democratic-party-of-hungary"}],
+      "status": "draft"
+    },
+    {
+      "id": "1946-introduction-of-the-forint",
+      "title": {
+        "fr": "Introduction du forint",
+        "en": "Introduction of the forint",
+        "de": "Einführung des Forint",
+        "draft": ["en", "de"]
+      },
+      "type": "monetary",
+      "start": {"date": "1946-08-01"},
+      "summary": {
+        "fr": "Le forint met fin à la plus forte hyperinflation jamais enregistrée, qui avait réduit le pengő à rien et ruiné salariés et petits épargnants.",
+        "en": "The forint ends the worst hyperinflation ever recorded, which had reduced the pengő to nothing and ruined wage earners and small savers.",
+        "de": "Der Forint beendet die schwerste je verzeichnete Hyperinflation, die den Pengő entwertet und Lohnabhängige und Kleinsparer ruiniert hatte.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1945-peoples-democracy-and-stalinism"}, {"id": "world-economy"}],
+      "status": "draft"
+    },
+    {
+      "id": "1948-founding-of-the-mdp",
+      "title": {
+        "orig": "hu",
+        "hu": "Magyar Dolgozók Pártja",
+        "fr": "Fusion forcée et naissance du Parti des travailleurs hongrois",
+        "en": "Forced merger and founding of the Hungarian Working People's Party",
+        "de": "Zwangsvereinigung und Gründung der Partei der Ungarischen Werktätigen",
+        "draft": ["en", "de"]
+      },
+      "type": "merger",
+      "start": {"date": "1948-06-12"},
+      "summary": {
+        "fr": "Après l'épuration de son aile droite, la social-démocratie est absorbée par le parti communiste : le MDP de Rákosi détient seul le pouvoir.",
+        "en": "After its right wing is purged, social democracy is absorbed by the Communist Party: Rákosi's MDP holds power alone.",
+        "de": "Nach der Säuberung ihres rechten Flügels wird die Sozialdemokratie von der Kommunistischen Partei geschluckt: Rákosis MDP hält allein die Macht.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1945-peoples-democracy-and-stalinism"}],
+      "persons": ["matyas-rakosi"],
+      "organizations": ["mdp", "mszdp"],
+      "sources": [{"ref": "wp-en-social-democratic-party-of-hungary"}],
+      "status": "draft"
+    },
+    {
+      "id": "1949-rajk-trial",
+      "title": {"fr": "Procès Rajk", "en": "Rajk trial", "de": "Rajk-Prozess", "draft": ["en", "de"]},
+      "type": "trial",
+      "start": {"date": "1949-09-16"},
+      "end": {"date": "1949-10-15"},
+      "summary": {
+        "fr": "Ancien des Brigades internationales et ministre de l'Intérieur, László Rajk est accusé d'être un agent titiste et impérialiste ; il avoue sous la torture et est pendu.",
+        "en": "A veteran of the International Brigades and Minister of the Interior, László Rajk is accused of being a Titoist and imperialist agent; he confesses under torture and is hanged.",
+        "de": "László Rajk, Spanienkämpfer und Innenminister, wird als titoistischer und imperialistischer Agent angeklagt; er gesteht unter Folter und wird gehängt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1945-peoples-democracy-and-stalinism"}],
+      "persons": ["laszlo-rajk", "matyas-rakosi"],
+      "places": ["budapest"],
+      "organizations": ["mdp"],
+      "status": "draft"
+    },
+    {
+      "id": "1953-imre-nagy-new-course",
+      "title": {
+        "fr": "« Nouveau cours » d'Imre Nagy",
+        "en": "Imre Nagy's 'New Course'",
+        "de": "„Neuer Kurs“ von Imre Nagy",
+        "draft": ["en", "de"]
+      },
+      "type": "government",
+      "start": {"date": "1953-07-04"},
+      "summary": {
+        "fr": "Après la mort de Staline, Moscou impose Nagy à la tête du gouvernement : amnistie, ralentissement de l'industrie lourde et de la collectivisation ; Rákosi l'évince en 1955.",
+        "en": "After Stalin's death, Moscow puts Nagy at the head of government: amnesty, slower heavy industry and collectivisation; Rákosi ousts him in 1955.",
+        "de": "Nach Stalins Tod setzt Moskau Nagy als Regierungschef ein: Amnestie, Bremsung der Schwerindustrie und der Kollektivierung; Rákosi verdrängt ihn 1955.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1945-peoples-democracy-and-stalinism"}],
+      "persons": ["imre-nagy", "matyas-rakosi"],
+      "organizations": ["mdp"],
+      "status": "draft"
+    },
+    {
+      "id": "1956-reburial-of-laszlo-rajk",
+      "title": {
+        "fr": "Réinhumation de László Rajk",
+        "en": "Reburial of László Rajk",
+        "de": "Umbettung László Rajks",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1956-10-06"},
+      "summary": {
+        "fr": "Réhabilité, Rajk est réinhumé devant quelque 100 000 personnes : les funérailles deviennent une manifestation silencieuse contre le régime, deux semaines avant la révolution.",
+        "en": "Rehabilitated, Rajk is reburied before some 100,000 people: the funeral becomes a silent demonstration against the regime, two weeks before the revolution.",
+        "de": "Rehabilitiert, wird Rajk vor rund 100.000 Menschen neu bestattet: die Beisetzung wird zwei Wochen vor der Revolution zur stillen Demonstration gegen das Regime.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1945-peoples-democracy-and-stalinism"}],
+      "persons": ["laszlo-rajk"],
+      "places": ["budapest"],
+      "status": "draft"
+    },
+    {
+      "id": "1956-october-23-demonstration",
+      "title": {
+        "fr": "Manifestation du 23 octobre",
+        "en": "23 October demonstration",
+        "de": "Demonstration vom 23. Oktober",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1956-10-23"},
+      "summary": {
+        "fr": "Une manifestation étudiante de solidarité avec la Pologne devient une marée humaine ; la statue de Staline est abattue et la police politique tire devant la radio : l'insurrection commence.",
+        "en": "A student demonstration in solidarity with Poland becomes a human tide; Stalin's statue is toppled and the political police open fire outside the radio building: the insurrection begins.",
+        "de": "Eine studentische Solidaritätsdemonstration mit Polen wird zur Menschenflut; das Stalin-Denkmal wird gestürzt, und die Geheimpolizei schießt vor dem Rundfunkgebäude: der Aufstand beginnt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1956-hungarian-revolution"}],
+      "places": ["budapest"],
+      "sources": [{"ref": "wp-en-hungarian-revolution-of-1956"}, {"ref": "marxists-glossary-hungary"}],
+      "status": "draft"
+    },
+    {
+      "id": "1956-kossuth-square-massacre",
+      "title": {
+        "fr": "Massacre de la place Kossuth",
+        "en": "Kossuth Square massacre",
+        "de": "Massaker auf dem Kossuth-Platz",
+        "draft": ["en", "de"]
+      },
+      "type": "massacre",
+      "start": {"date": "1956-10-25"},
+      "summary": {
+        "fr": "Devant le Parlement, des tirs des forces de sécurité et des chars soviétiques tuent des dizaines de manifestants désarmés ; Gerő est remplacé par Kádár à la tête du parti.",
+        "en": "Outside Parliament, fire from security forces and Soviet tanks kills dozens of unarmed demonstrators; Gerő is replaced by Kádár as party leader.",
+        "de": "Vor dem Parlament töten Schüsse von Sicherheitskräften und sowjetischen Panzern Dutzende unbewaffnete Demonstranten; Gerő wird an der Parteispitze durch Kádár ersetzt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1956-hungarian-revolution"}],
+      "places": ["budapest"],
+      "sources": [{"ref": "wp-en-hungarian-revolution-of-1956"}],
+      "status": "draft"
+    },
+    {
+      "id": "1956-hungarian-workers-councils",
+      "title": {
+        "fr": "Conseils ouvriers de 1956",
+        "en": "Workers' councils of 1956",
+        "de": "Arbeiterräte von 1956",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1956-10"},
+      "end": {"date": "1957-01"},
+      "summary": {
+        "fr": "Dans les usines et les quartiers, les ouvriers élisent des conseils qui prennent en main la production et réclament la gestion ouvrière et le départ des troupes soviétiques ; les derniers se dissolvent en janvier 1957.",
+        "en": "In factories and districts, workers elect councils that take over production and demand workers' management and the withdrawal of Soviet troops; the last ones dissolve in January 1957.",
+        "de": "In Betrieben und Bezirken wählen die Arbeiter Räte, die die Produktion übernehmen und Arbeiterselbstverwaltung sowie den Abzug der sowjetischen Truppen fordern; die letzten lösen sich im Januar 1957 auf.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1956-hungarian-revolution"}],
+      "places": ["budapest"],
+      "sources": [{"ref": "marxists-glossary-hungary"}, {"ref": "wp-en-hungarian-revolution-of-1956"}],
+      "status": "draft"
+    },
+    {
+      "id": "1956-second-soviet-intervention",
+      "title": {
+        "fr": "Seconde intervention soviétique",
+        "en": "Second Soviet intervention",
+        "de": "Zweite sowjetische Intervention",
+        "draft": ["en", "de"]
+      },
+      "type": "war",
+      "start": {"date": "1956-11-04"},
+      "summary": {
+        "fr": "Les chars soviétiques écrasent l'insurrection ; Nagy se réfugie à l'ambassade yougoslave et Kádár forme un gouvernement à la solde de Moscou. Les quartiers ouvriers résistent les derniers.",
+        "en": "Soviet tanks crush the insurrection; Nagy takes refuge in the Yugoslav embassy and Kádár forms a government beholden to Moscow. The working-class districts are the last to hold out.",
+        "de": "Sowjetische Panzer schlagen den Aufstand nieder; Nagy flüchtet in die jugoslawische Botschaft, Kádár bildet eine von Moskau abhängige Regierung. Die Arbeiterbezirke leisten am längsten Widerstand.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1956-hungarian-revolution"}, {"id": "1956-kadar-era"}],
+      "persons": ["imre-nagy", "janos-kadar", "khrushchev"],
+      "places": ["budapest"],
+      "organizations": ["red-army"],
+      "sources": [{"ref": "marxists-glossary-hungary"}, {"ref": "wp-en-hungarian-revolution-of-1956"}],
+      "status": "draft"
+    },
+    {
+      "id": "1956-central-workers-council-of-greater-budapest",
+      "title": {
+        "fr": "Conseil ouvrier central du Grand Budapest",
+        "en": "Central Workers' Council of Greater Budapest",
+        "de": "Zentraler Arbeiterrat von Groß-Budapest",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1956-11-14"},
+      "end": {"date": "1956-12-09"},
+      "summary": {
+        "fr": "Après l'écrasement militaire, les délégués des conseils d'usine forment un conseil central qui négocie avec Kádár et mène une grève générale ; ses dirigeants sont arrêtés début décembre et le conseil dissous.",
+        "en": "After the military defeat, factory council delegates form a central council that negotiates with Kádár and leads a general strike; its leaders are arrested in early December and the council is dissolved.",
+        "de": "Nach der militärischen Niederlage bilden Delegierte der Betriebsräte einen Zentralrat, der mit Kádár verhandelt und einen Generalstreik führt; seine Führer werden Anfang Dezember verhaftet, der Rat aufgelöst.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1956-kadar-era"}],
+      "persons": ["sandor-racz", "janos-kadar"],
+      "places": ["budapest"],
+      "organizations": ["central-workers-council-of-greater-budapest"],
+      "sources": [{"ref": "marxists-glossary-hungary"}],
+      "status": "draft"
+    },
+    {
+      "id": "1958-execution-of-imre-nagy",
+      "title": {
+        "fr": "Exécution d'Imre Nagy",
+        "en": "Execution of Imre Nagy",
+        "de": "Hinrichtung von Imre Nagy",
+        "draft": ["en", "de"]
+      },
+      "type": "death",
+      "start": {"date": "1958-06-16"},
+      "summary": {
+        "fr": "Enlevé à la sortie de l'ambassade yougoslave puis jugé à huis clos, Imre Nagy est pendu avec plusieurs compagnons ; la répression de 1956 fait des centaines d'exécutions.",
+        "en": "Abducted on leaving the Yugoslav embassy and tried behind closed doors, Imre Nagy is hanged with several companions; the repression of 1956 leads to hundreds of executions.",
+        "de": "Beim Verlassen der jugoslawischen Botschaft entführt und hinter verschlossenen Türen abgeurteilt, wird Imre Nagy mit mehreren Gefährten gehängt; die Repression nach 1956 führt zu Hunderten Hinrichtungen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1956-kadar-era"}],
+      "persons": ["imre-nagy", "janos-kadar"],
+      "places": ["budapest"],
+      "status": "draft"
+    },
+    {
+      "id": "1968-new-economic-mechanism",
+      "title": {
+        "orig": "hu",
+        "hu": "új gazdasági mechanizmus",
+        "fr": "Nouveau mécanisme économique",
+        "en": "New Economic Mechanism",
+        "de": "Neuer Ökonomischer Mechanismus",
+        "draft": ["en", "de"]
+      },
+      "type": "law",
+      "start": {"date": "1968-01-01"},
+      "summary": {
+        "fr": "La réforme introduit des mécanismes de marché et l'autonomie des entreprises dans l'économie planifiée ; freinée à partir de 1972, elle prépare l'endettement occidental.",
+        "en": "The reform introduces market mechanisms and enterprise autonomy into the planned economy; curbed from 1972, it paves the way for Western debt.",
+        "de": "Die Reform führt Marktmechanismen und Betriebsautonomie in die Planwirtschaft ein; ab 1972 gebremst, bereitet sie die Westverschuldung vor.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1956-kadar-era"}],
+      "persons": ["janos-kadar"],
+      "organizations": ["mszmp"],
+      "sources": [{"ref": "wp-en-end-of-communism-in-hungary"}],
+      "status": "draft"
+    },
+    {
+      "id": "1982-hungary-joins-the-imf",
+      "title": {
+        "fr": "Adhésion au FMI",
+        "en": "Hungary joins the IMF",
+        "de": "Beitritt zum IWF",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1982-05"},
+      "summary": {
+        "fr": "Étranglée par sa dette en devises, la Hongrie adhère au FMI et à la Banque mondiale : le premier pays du bloc soviétique à se soumettre à leurs programmes d'ajustement.",
+        "en": "Strangled by its foreign-currency debt, Hungary joins the IMF and the World Bank: the first Soviet-bloc country to submit to their adjustment programmes.",
+        "de": "Von seiner Devisenschuld erdrückt, tritt Ungarn IWF und Weltbank bei: als erstes Land des Sowjetblocks unterwirft es sich deren Anpassungsprogrammen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1956-kadar-era"}, {"id": "world-economy"}],
+      "status": "draft"
+    },
+    {
+      "id": "1987-lakitelek-meeting",
+      "title": {
+        "fr": "Rencontre de Lakitelek",
+        "en": "Lakitelek meeting",
+        "de": "Treffen von Lakitelek",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1987-09-27"},
+      "summary": {
+        "fr": "Des intellectuels populistes et nationalistes, avec la bienveillance de réformateurs du parti, fondent le Forum démocratique hongrois (MDF), future force de la droite.",
+        "en": "Populist and nationalist intellectuals, with the goodwill of party reformers, found the Hungarian Democratic Forum (MDF), the future force of the right.",
+        "de": "Populistische und nationalistische Intellektuelle gründen mit Wohlwollen der Parteireformer das Ungarische Demokratische Forum (MDF), die spätere Kraft der Rechten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1956-kadar-era"}],
+      "organizations": ["mdf"],
+      "status": "draft"
+    },
+    {
+      "id": "1988-fall-of-kadar",
+      "title": {
+        "fr": "Éviction de Kádár",
+        "en": "Ousting of Kádár",
+        "de": "Sturz Kádárs",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1988-05-22"},
+      "summary": {
+        "fr": "La conférence du parti remplace Kádár par Károly Grósz ; les réformateurs engagent la transition vers l'économie de marché et le multipartisme.",
+        "en": "The party conference replaces Kádár with Károly Grósz; the reformers set course for the market economy and multiparty politics.",
+        "de": "Die Parteikonferenz ersetzt Kádár durch Károly Grósz; die Reformer steuern auf Marktwirtschaft und Mehrparteiensystem zu.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1956-kadar-era"}],
+      "persons": ["janos-kadar"],
+      "organizations": ["mszmp"],
+      "sources": [{"ref": "wp-en-end-of-communism-in-hungary"}],
+      "status": "draft"
+    },
+    {
+      "id": "1989-reburial-of-imre-nagy",
+      "title": {
+        "fr": "Réinhumation d'Imre Nagy",
+        "en": "Reburial of Imre Nagy",
+        "de": "Neubestattung von Imre Nagy",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1989-06-16"},
+      "summary": {
+        "fr": "Plus de 100 000 personnes assistent sur la place des Héros aux funérailles solennelles de Nagy et des martyrs de 1956 ; le jeune Viktor Orbán y réclame le départ des troupes soviétiques.",
+        "en": "More than 100,000 people attend the solemn funeral of Nagy and the martyrs of 1956 in Heroes' Square; the young Viktor Orbán demands the withdrawal of Soviet troops.",
+        "de": "Über 100.000 Menschen nehmen auf dem Heldenplatz an der feierlichen Beisetzung Nagys und der Märtyrer von 1956 teil; der junge Viktor Orbán fordert den Abzug der sowjetischen Truppen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1956-kadar-era"}],
+      "persons": ["imre-nagy", "viktor-orban"],
+      "places": ["budapest"],
+      "sources": [{"ref": "wp-en-end-of-communism-in-hungary"}],
+      "status": "draft"
+    },
+    {
+      "id": "1989-opening-of-the-austro-hungarian-border",
+      "title": {
+        "fr": "Ouverture de la frontière austro-hongroise",
+        "en": "Opening of the Austro-Hungarian border",
+        "de": "Öffnung der österreichisch-ungarischen Grenze",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Paneuropäisches Picknick"],
+      "type": "other",
+      "start": {"date": "1989-05-02"},
+      "end": {"date": "1989-09-11"},
+      "summary": {
+        "fr": "La Hongrie démantèle le rideau de fer ; après le pique-nique paneuropéen du 19 août près de Sopron, elle laisse partir les Allemands de l'Est vers l'Autriche, ouvrant une brèche fatale au mur de Berlin.",
+        "en": "Hungary dismantles the Iron Curtain; after the Pan-European Picnic near Sopron on 19 August, it lets East Germans leave for Austria, opening a fatal breach for the Berlin Wall.",
+        "de": "Ungarn baut den Eisernen Vorhang ab; nach dem Paneuropäischen Picknick bei Sopron am 19. August lässt es DDR-Bürger nach Österreich ausreisen und reißt eine für die Berliner Mauer tödliche Bresche.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1956-kadar-era"},
+        {"id": "1986-far-right-and-european-integration"},
+        {"id": "world-states"}
+      ],
+      "places": ["sopron"],
+      "sources": [{"ref": "wp-en-end-of-communism-in-hungary"}],
+      "status": "draft"
+    },
+    {
+      "id": "1989-dissolution-of-the-mszmp",
+      "title": {
+        "fr": "Dissolution du MSZMP",
+        "en": "Dissolution of the MSZMP",
+        "de": "Auflösung der MSZMP",
+        "draft": ["en", "de"]
+      },
+      "type": "split",
+      "start": {"date": "1989-10-07"},
+      "summary": {
+        "fr": "À son dernier congrès, le parti au pouvoir se transforme en Parti socialiste hongrois (MSZP), social-démocrate et favorable au marché.",
+        "en": "At its last congress, the ruling party turns itself into the Hungarian Socialist Party (MSZP), social-democratic and pro-market.",
+        "de": "Auf ihrem letzten Parteitag verwandelt sich die Staatspartei in die Ungarische Sozialistische Partei (MSZP), sozialdemokratisch und marktfreundlich.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1956-kadar-era"}],
+      "organizations": ["mszmp"],
+      "sources": [{"ref": "wp-en-end-of-communism-in-hungary"}],
+      "status": "draft"
+    },
+    {
+      "id": "1989-proclamation-of-the-republic-of-hungary",
+      "title": {
+        "fr": "Proclamation de la République de Hongrie",
+        "en": "Proclamation of the Republic of Hungary",
+        "de": "Ausrufung der Republik Ungarn",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1989-10-23"},
+      "summary": {
+        "fr": "Le jour anniversaire de 1956, la République de Hongrie est proclamée du balcon du Parlement après une révision constitutionnelle négociée à la Table ronde.",
+        "en": "On the anniversary of 1956, the Republic of Hungary is proclaimed from the balcony of Parliament after a constitutional revision negotiated at the Round Table.",
+        "de": "Am Jahrestag von 1956 wird vom Balkon des Parlaments die Republik Ungarn ausgerufen, nach einer am Runden Tisch ausgehandelten Verfassungsrevision.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1989-third-republic-and-capitalist-restoration"}],
+      "places": ["budapest"],
+      "sources": [{"ref": "wp-en-end-of-communism-in-hungary"}],
+      "status": "draft"
+    },
+    {
+      "id": "1990-hungarian-parliamentary-election",
+      "title": {
+        "fr": "Premières élections libres",
+        "en": "First free elections",
+        "de": "Erste freie Wahlen",
+        "draft": ["en", "de"]
+      },
+      "type": "election",
+      "start": {"date": "1990-03-25"},
+      "end": {"date": "1990-04-08"},
+      "summary": {
+        "fr": "Le Forum démocratique remporte les élections ; József Antall forme une coalition de droite qui lance privatisations et thérapie de choc.",
+        "en": "The Democratic Forum wins the elections; József Antall forms a right-wing coalition that launches privatisation and shock therapy.",
+        "de": "Das Demokratische Forum gewinnt die Wahlen; József Antall bildet eine Rechtskoalition, die Privatisierung und Schocktherapie einleitet.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1989-third-republic-and-capitalist-restoration"}],
+      "organizations": ["mdf"],
+      "sources": [{"ref": "wp-en-end-of-communism-in-hungary"}],
+      "status": "draft"
+    },
+    {
+      "id": "1990-taxi-blockade",
+      "title": {"fr": "Blocus des taxis", "en": "Taxi blockade", "de": "Taxiblockade", "draft": ["en", "de"]},
+      "type": "strike",
+      "start": {"date": "1990-10-26"},
+      "end": {"date": "1990-10-28"},
+      "summary": {
+        "fr": "Contre une hausse de 65 % du prix de l'essence, chauffeurs de taxi et routiers bloquent Budapest et le pays pendant trois jours et obtiennent une réduction de la hausse.",
+        "en": "Against a 65% rise in petrol prices, taxi and lorry drivers blockade Budapest and the country for three days and win a reduction of the increase.",
+        "de": "Gegen eine Benzinpreiserhöhung um 65 % blockieren Taxi- und Lkw-Fahrer drei Tage lang Budapest und das Land und erreichen eine Abmilderung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1989-third-republic-and-capitalist-restoration"}],
+      "places": ["budapest"],
+      "status": "draft"
+    },
+    {
+      "id": "1995-bokros-package",
+      "title": {"fr": "Plan Bokros", "en": "Bokros package", "de": "Bokros-Paket", "draft": ["en", "de"]},
+      "type": "law",
+      "start": {"date": "1995-03-12"},
+      "summary": {
+        "fr": "Le gouvernement socialiste-libéral de Gyula Horn impose un plan d'austérité : dévaluation, baisse des salaires réels, coupes dans les prestations sociales et frais universitaires.",
+        "en": "Gyula Horn's socialist-liberal government imposes an austerity plan: devaluation, falling real wages, cuts in social benefits and university fees.",
+        "de": "Die sozialistisch-liberale Regierung von Gyula Horn verordnet ein Sparpaket: Abwertung, sinkende Reallöhne, Sozialkürzungen und Studiengebühren.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1989-third-republic-and-capitalist-restoration"}],
+      "status": "draft"
+    },
+    {
+      "id": "1999-hungary-joins-nato",
+      "title": {
+        "fr": "Adhésion à l'OTAN",
+        "en": "Hungary joins NATO",
+        "de": "NATO-Beitritt Ungarns",
+        "draft": ["en", "de"]
+      },
+      "type": "treaty",
+      "start": {"date": "1999-03-12"},
+      "summary": {
+        "fr": "La Hongrie entre dans l'OTAN avec la Pologne et la République tchèque, douze jours avant les bombardements de la Yougoslavie.",
+        "en": "Hungary joins NATO together with Poland and the Czech Republic, twelve days before the bombing of Yugoslavia.",
+        "de": "Ungarn tritt zusammen mit Polen und Tschechien der NATO bei, zwölf Tage vor der Bombardierung Jugoslawiens.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1989-third-republic-and-capitalist-restoration"}],
+      "status": "draft"
+    },
+    {
+      "id": "2004-hungary-joins-the-european-union",
+      "title": {
+        "fr": "Adhésion à l'Union européenne",
+        "en": "Hungary joins the European Union",
+        "de": "EU-Beitritt Ungarns",
+        "draft": ["en", "de"]
+      },
+      "type": "treaty",
+      "start": {"date": "2004-05-01"},
+      "summary": {
+        "fr": "La Hongrie entre dans l'Union européenne avec neuf autres pays ; les salaires restent bas et des centaines de milliers de Hongrois émigreront vers l'ouest.",
+        "en": "Hungary joins the European Union with nine other countries; wages remain low and hundreds of thousands of Hungarians will emigrate westwards.",
+        "de": "Ungarn tritt mit neun weiteren Ländern der Europäischen Union bei; die Löhne bleiben niedrig, Hunderttausende Ungarn werden nach Westen auswandern.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1989-third-republic-and-capitalist-restoration"}],
+      "status": "draft"
+    },
+    {
+      "id": "2006-oszod-speech-protests",
+      "title": {
+        "fr": "Discours d'Őszöd et émeutes",
+        "en": "Őszöd speech and riots",
+        "de": "Rede von Őszöd und Unruhen",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "2006-09-17"},
+      "end": {"date": "2006-10-23"},
+      "summary": {
+        "fr": "La fuite d'un discours où le Premier ministre Gyurcsány avoue avoir menti pour gagner les élections déclenche des semaines d'émeutes, dont l'extrême droite prend la tête.",
+        "en": "The leak of a speech in which Prime Minister Gyurcsány admits lying to win the election triggers weeks of riots, led by the far right.",
+        "de": "Das Bekanntwerden einer Rede, in der Ministerpräsident Gyurcsány zugibt, für den Wahlsieg gelogen zu haben, löst wochenlange Unruhen aus, an deren Spitze sich die extreme Rechte setzt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1989-third-republic-and-capitalist-restoration"}],
+      "persons": ["ferenc-gyurcsany"],
+      "places": ["budapest"],
+      "status": "draft"
+    },
+    {
+      "id": "2010-fidesz-two-thirds-majority",
+      "title": {
+        "fr": "Majorité des deux tiers pour le Fidesz",
+        "en": "Fidesz wins a two-thirds majority",
+        "de": "Zweidrittelmehrheit für die Fidesz",
+        "draft": ["en", "de"]
+      },
+      "type": "election",
+      "start": {"date": "2010-04-11"},
+      "end": {"date": "2010-04-25"},
+      "summary": {
+        "fr": "Sur fond de crise de 2008 et d'effondrement du MSZP, le Fidesz d'Orbán obtient deux tiers des sièges et l'extrême droite du Jobbik entre au Parlement.",
+        "en": "Against the background of the 2008 crisis and the collapse of the MSZP, Orbán's Fidesz wins two thirds of the seats and the far-right Jobbik enters Parliament.",
+        "de": "Vor dem Hintergrund der Krise von 2008 und des Zusammenbruchs der MSZP erringt Orbáns Fidesz zwei Drittel der Sitze, die rechtsextreme Jobbik zieht ins Parlament ein.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1989-third-republic-and-capitalist-restoration"}],
+      "persons": ["viktor-orban"],
+      "organizations": ["fidesz"],
+      "status": "draft"
+    },
+    {
+      "id": "2011-fundamental-law-of-hungary",
+      "title": {
+        "fr": "Loi fondamentale",
+        "en": "Fundamental Law",
+        "de": "Grundgesetz Ungarns",
+        "draft": ["en", "de"]
+      },
+      "type": "law",
+      "start": {"date": "2011-04-25"},
+      "summary": {
+        "fr": "Adoptée par la seule majorité Fidesz, la nouvelle Constitution affaiblit les contre-pouvoirs et inscrit dans le marbre références chrétiennes, nationalisme et conception conservatrice de la famille.",
+        "en": "Adopted by the Fidesz majority alone, the new Constitution weakens checks and balances and enshrines Christian references, nationalism and a conservative conception of the family.",
+        "de": "Von der Fidesz-Mehrheit allein beschlossen, schwächt die neue Verfassung die Gewaltenkontrolle und verankert christliche Bezüge, Nationalismus und ein konservatives Familienbild.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "2010-orban-regime"}],
+      "persons": ["viktor-orban"],
+      "organizations": ["fidesz"],
+      "status": "draft"
+    },
+    {
+      "id": "2018-slave-law-protests",
+      "title": {
+        "fr": "Manifestations contre la « loi esclavagiste »",
+        "en": "Protests against the 'slave law'",
+        "de": "Proteste gegen das „Sklavengesetz“",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "2018-12-12"},
+      "summary": {
+        "fr": "La loi autorisant jusqu'à 400 heures supplémentaires par an, payables trois ans plus tard, provoque des semaines de manifestations réunissant syndicats et opposition.",
+        "en": "The law allowing up to 400 hours of overtime a year, payable three years later, provokes weeks of demonstrations uniting unions and opposition.",
+        "de": "Das Gesetz, das bis zu 400 Überstunden im Jahr mit Bezahlung nach drei Jahren erlaubt, löst wochenlange Proteste von Gewerkschaften und Opposition aus.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "2010-orban-regime"}],
+      "places": ["budapest"],
+      "organizations": ["fidesz"],
+      "status": "draft"
+    },
+    {
+      "id": "2026-hungarian-parliamentary-election",
+      "title": {
+        "fr": "Défaite d'Orbán aux législatives de 2026",
+        "en": "Orbán's defeat in the 2026 election",
+        "de": "Orbáns Niederlage bei der Parlamentswahl 2026",
+        "draft": ["en", "de"]
+      },
+      "type": "election",
+      "start": {"date": "2026-04-12"},
+      "summary": {
+        "fr": "Le parti Tisza de Péter Magyar obtient 53 % des voix et 141 sièges sur 199, une majorité des deux tiers ; le Fidesz tombe à 39 %. Magyar est élu Premier ministre le 9 mai.",
+        "en": "Péter Magyar's Tisza party wins 53% of the vote and 141 of 199 seats, a two-thirds majority; Fidesz falls to 39%. Magyar is elected prime minister on 9 May.",
+        "de": "Péter Magyars Tisza-Partei erhält 53 % der Stimmen und 141 von 199 Sitzen, eine Zweidrittelmehrheit; die Fidesz fällt auf 39 %. Magyar wird am 9. Mai zum Ministerpräsidenten gewählt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "2010-orban-regime"}],
+      "persons": ["peter-magyar", "viktor-orban"],
+      "organizations": ["tisza-party", "fidesz"],
+      "sources": [{"ref": "wp-en-2026-hungarian-parliamentary-election"}],
+      "status": "draft"
+    }
+  ]
+}

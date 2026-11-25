@@ -1,0 +1,2282 @@
+{
+  "$schema": "../../schema/nodes.schema.json",
+  "collection": "nodes",
+  "version": 1,
+  "items": [
+    {
+      "id": "ireland",
+      "title": {
+        "orig": "ga",
+        "ga": "Éire",
+        "fr": "Irlande",
+        "en": "Ireland",
+        "de": "Irland",
+        "draft": ["en", "de"]
+      },
+      "type": "era",
+      "start": {"date": "1789"},
+      "ongoing": true,
+      "summary": {
+        "fr": "Histoire de l'Irlande depuis 1789, centrée sur la question nationale et la lutte des classes : insurrections républicaines, mouvements paysans et ouvriers, révolution de 1916-1923, partition et conflit au Nord.",
+        "en": "History of Ireland since 1789, focused on the national question and the class struggle: republican risings, peasant and labour movements, the revolution of 1916–1923, partition and the conflict in the North.",
+        "de": "Geschichte Irlands seit 1789 mit Schwerpunkt auf der nationalen Frage und dem Klassenkampf: republikanische Aufstände, Bauern- und Arbeiterbewegungen, die Revolution von 1916–1923, Teilung und Konflikt im Norden.",
+        "draft": ["en", "de"]
+      },
+      "parents": [],
+      "status": "draft",
+      "view": {
+        "color": "#2f9e6a",
+        "label": {"fr": "Irlande", "en": "Ireland", "de": "Irland", "draft": ["en", "de"]},
+        "default_depth": 1
+      }
+    },
+    {
+      "id": "1789-united-irishmen-and-1798",
+      "title": {
+        "fr": "Irlandais unis et rébellion de 1798",
+        "en": "United Irishmen and the 1798 rebellion",
+        "de": "Vereinigte Iren und Aufstand von 1798",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1789"},
+      "end": {"date": "1801-01-01"},
+      "summary": {
+        "fr": "Inspirés par la Révolution française, les Irlandais unis veulent rassembler catholiques, protestants et dissidents dans une république ; leur insurrection de 1798, appuyée par la France, est noyée dans le sang.",
+        "en": "Inspired by the French Revolution, the United Irishmen seek to unite Catholics, Protestants and Dissenters in a republic; their 1798 insurrection, backed by France, is drowned in blood.",
+        "de": "Von der Französischen Revolution inspiriert, wollen die Vereinigten Iren Katholiken, Protestanten und Dissenter in einer Republik vereinen; ihr von Frankreich unterstützter Aufstand von 1798 wird im Blut erstickt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "ireland", "order": 0}],
+      "sources": [{"ref": "wp-en-society-of-united-irishmen"}, {"ref": "wp-en-irish-rebellion-of-1798"}],
+      "status": "draft"
+    },
+    {
+      "id": "1801-union-emancipation-and-repeal",
+      "title": {
+        "fr": "Union, émancipation et campagne pour l'abrogation",
+        "en": "Union, emancipation and Repeal",
+        "de": "Union, Emanzipation und Repeal",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1801-01-01"},
+      "end": {"date": "1845-09"},
+      "summary": {
+        "fr": "L'Irlande est gouvernée depuis Londres ; O'Connell mobilise les masses catholiques pour l'émancipation puis pour l'abrogation de l'Union, tandis que les paysans résistent à la dîme.",
+        "en": "Ireland is governed from London; O'Connell mobilises the Catholic masses for emancipation and then for repeal of the Union, while peasants resist the tithe.",
+        "de": "Irland wird von London aus regiert; O'Connell mobilisiert die katholischen Massen für die Emanzipation und dann für die Aufhebung der Union, während Bauern sich dem Zehnten widersetzen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "ireland", "order": 1}],
+      "sources": [{"ref": "wp-en-repeal-association"}],
+      "status": "draft"
+    },
+    {
+      "id": "1845-famine-and-emigration",
+      "title": {
+        "fr": "Grande Famine et émigration",
+        "en": "The Great Famine and emigration",
+        "de": "Große Hungersnot und Auswanderung",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1845-09"},
+      "end": {"date": "1858-03-17"},
+      "summary": {
+        "fr": "Environ un million de morts et plus de deux millions de départs en dix ans, alors que l'île continue d'exporter des céréales ; l'échec de la Jeune Irlande en 1848 clôt la période.",
+        "en": "About a million dead and more than two million departures in ten years, while the island keeps exporting grain; the failure of Young Ireland in 1848 closes the period.",
+        "de": "Rund eine Million Tote und über zwei Millionen Auswanderer in zehn Jahren, während die Insel weiter Getreide exportiert; das Scheitern von Young Ireland 1848 schließt die Periode ab.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "ireland", "order": 2}],
+      "sources": [{"ref": "wp-en-great-famine-ireland"}, {"ref": "wp-en-irish-republican-brotherhood"}],
+      "status": "draft"
+    },
+    {
+      "id": "1858-fenians-land-war-and-home-rule",
+      "title": {
+        "fr": "Fenians, guerre agraire et Home Rule",
+        "en": "Fenians, the Land War and Home Rule",
+        "de": "Fenier, Landkrieg und Home Rule",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1858-03-17"},
+      "end": {"date": "1896-05"},
+      "summary": {
+        "fr": "Le républicanisme clandestin de la Fraternité républicaine irlandaise, la grande mobilisation paysanne de la Ligue agraire et le combat parlementaire de Parnell pour l'autonomie.",
+        "en": "The clandestine republicanism of the Irish Republican Brotherhood, the great peasant mobilisation of the Land League and Parnell's parliamentary fight for self-government.",
+        "de": "Der Untergrundrepublikanismus der Irish Republican Brotherhood, die große Bauernmobilisierung der Land League und Parnells parlamentarischer Kampf um Selbstverwaltung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "ireland", "order": 3}],
+      "sources": [{"ref": "wp-en-irish-republican-brotherhood"}, {"ref": "wp-en-land-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "1896-socialism-labour-and-national-revival",
+      "title": {
+        "fr": "Socialisme, syndicalisme et renouveau national",
+        "en": "Socialism, labour and national revival",
+        "de": "Sozialismus, Gewerkschaften und nationale Erneuerung",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1896-05"},
+      "end": {"date": "1916-04-24"},
+      "summary": {
+        "fr": "Connolly fonde le premier parti socialiste républicain, Larkin organise les ouvriers non qualifiés, le lock-out de Dublin oppose patronat et syndicat, tandis que la crise du Home Rule arme unionistes et nationalistes.",
+        "en": "Connolly founds the first socialist republican party, Larkin organises the unskilled, the Dublin lockout pits employers against the union, while the Home Rule crisis arms unionists and nationalists.",
+        "de": "Connolly gründet die erste sozialistisch-republikanische Partei, Larkin organisiert die Ungelernten, die Dubliner Aussperrung stellt Unternehmer gegen die Gewerkschaft, während die Home-Rule-Krise Unionisten und Nationalisten bewaffnet.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "ireland", "order": 4}],
+      "sources": [{"ref": "wp-en-isrp"}],
+      "status": "draft"
+    },
+    {
+      "id": "1916-irish-revolution",
+      "title": {
+        "fr": "Révolution irlandaise (1916-1923)",
+        "en": "Irish Revolution (1916–1923)",
+        "de": "Irische Revolution (1916–1923)",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1916-04-24"},
+      "end": {"date": "1923-05-24"},
+      "summary": {
+        "fr": "De l'insurrection de Pâques à la guerre civile : victoire électorale du Sinn Féin, guerre d'indépendance, grèves générales et soviets, partition de l'île, traité et défaite des républicains.",
+        "en": "From the Easter Rising to the civil war: Sinn Féin's electoral victory, the War of Independence, general strikes and soviets, the partition of the island, the treaty and the defeat of the republicans.",
+        "de": "Vom Osteraufstand bis zum Bürgerkrieg: Wahlsieg von Sinn Féin, Unabhängigkeitskrieg, Generalstreiks und Sowjets, Teilung der Insel, Vertrag und Niederlage der Republikaner.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "ireland", "order": 5}],
+      "status": "draft"
+    },
+    {
+      "id": "1923-free-state-and-de-valera",
+      "title": {
+        "fr": "État libre et ère de Valera",
+        "en": "The Free State and the de Valera era",
+        "de": "Freistaat und Ära de Valera",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1923-05-24"},
+      "end": {"date": "1949-04-18"},
+      "summary": {
+        "fr": "Un État conservateur sous forte influence de l'Église ; de Valera rompt avec Londres sur le plan économique, fait adopter la Constitution de 1937 et maintient la neutralité pendant la guerre.",
+        "en": "A conservative state under strong Church influence; de Valera breaks with London economically, has the 1937 Constitution adopted and keeps the country neutral during the war.",
+        "de": "Ein konservativer Staat unter starkem Einfluss der Kirche; de Valera bricht wirtschaftlich mit London, lässt die Verfassung von 1937 annehmen und hält das Land im Krieg neutral.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "ireland", "order": 6}],
+      "status": "draft"
+    },
+    {
+      "id": "1949-republic-emigration-and-opening",
+      "title": {
+        "fr": "République, émigration et ouverture",
+        "en": "Republic, emigration and opening up",
+        "de": "Republik, Auswanderung und Öffnung",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1949-04-18"},
+      "end": {"date": "1973-01-01"},
+      "summary": {
+        "fr": "La République quitte le Commonwealth ; la stagnation et l'émigration des années 1950 cèdent la place à l'ouverture aux capitaux étrangers, tandis que le Nord s'embrase à partir de 1968.",
+        "en": "The Republic leaves the Commonwealth; the stagnation and emigration of the 1950s give way to opening up to foreign capital, while the North erupts from 1968.",
+        "de": "Die Republik verlässt das Commonwealth; Stagnation und Auswanderung der 1950er-Jahre weichen der Öffnung für ausländisches Kapital, während der Norden ab 1968 in Flammen aufgeht.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "ireland", "order": 7}],
+      "sources": [{"ref": "wp-en-taoiseach"}],
+      "status": "draft"
+    },
+    {
+      "id": "1973-eec-crisis-and-troubles",
+      "title": {
+        "fr": "CEE, crise et conflit au Nord",
+        "en": "EEC, crisis and conflict in the North",
+        "de": "EWG, Krise und Konflikt im Norden",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1973-01-01"},
+      "end": {"date": "1998-04-10"},
+      "summary": {
+        "fr": "Entrée dans la CEE, crise économique et émigration massive des années 1980, conflit armé au Nord, puis premières brèches dans l'ordre catholique et processus de paix.",
+        "en": "Entry into the EEC, the economic crisis and mass emigration of the 1980s, armed conflict in the North, then the first cracks in the Catholic order and the peace process.",
+        "de": "Beitritt zur EWG, Wirtschaftskrise und Massenauswanderung der 1980er-Jahre, bewaffneter Konflikt im Norden, dann erste Risse in der katholischen Ordnung und der Friedensprozess.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "ireland", "order": 8}],
+      "status": "draft"
+    },
+    {
+      "id": "1998-celtic-tiger-and-crash",
+      "title": {
+        "fr": "Tigre celtique et krach",
+        "en": "Celtic Tiger and crash",
+        "de": "Keltischer Tiger und Crash",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1998-04-10"},
+      "end": {"date": "2011-03-09"},
+      "summary": {
+        "fr": "Croissance fondée sur les multinationales attirées par une fiscalité basse et sur une bulle immobilière ; son éclatement en 2008 conduit à la garantie des banques et au plan de la troïka.",
+        "en": "Growth based on multinationals attracted by low taxes and on a property bubble; its bursting in 2008 leads to the bank guarantee and the troika bailout.",
+        "de": "Wachstum auf Grundlage von durch niedrige Steuern angelockten Konzernen und einer Immobilienblase; ihr Platzen 2008 führt zur Bankengarantie und zum Troika-Programm.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "ireland", "order": 9}],
+      "sources": [{"ref": "wp-en-taoiseach"}],
+      "status": "draft"
+    },
+    {
+      "id": "2011-austerity-and-social-movements",
+      "title": {
+        "fr": "Austérité et nouveaux mouvements sociaux",
+        "en": "Austerity and new social movements",
+        "de": "Sparpolitik und neue soziale Bewegungen",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "2011-03-09"},
+      "ongoing": true,
+      "summary": {
+        "fr": "Effondrement de Fianna Fáil, révolte contre la taxe sur l'eau, victoires référendaires sur le mariage et l'avortement, montée du Sinn Féin et crise du logement.",
+        "en": "The collapse of Fianna Fáil, the revolt against water charges, referendum victories on marriage and abortion, the rise of Sinn Féin and the housing crisis.",
+        "de": "Zusammenbruch von Fianna Fáil, Aufstand gegen die Wassergebühren, Referendumssiege bei Ehe und Abtreibung, Aufstieg von Sinn Féin und Wohnungskrise.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "ireland", "order": 10}],
+      "sources": [{"ref": "wp-en-taoiseach"}],
+      "status": "draft"
+    },
+    {
+      "id": "1791-united-irishmen-founding",
+      "title": {
+        "fr": "Fondation de la Société des Irlandais unis",
+        "en": "Founding of the Society of United Irishmen",
+        "de": "Gründung der Gesellschaft der Vereinigten Iren",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1791-10"},
+      "summary": {
+        "fr": "Dans une taverne de Belfast, Wolfe Tone, Thomas Russell et des presbytériens radicaux fondent une société pour unir catholiques, protestants et dissidents ; interdite en 1794, elle devient républicaine et clandestine.",
+        "en": "In a Belfast tavern, Wolfe Tone, Thomas Russell and radical Presbyterians found a society to unite Catholics, Protestants and Dissenters; banned in 1794, it turns republican and clandestine.",
+        "de": "In einer Belfaster Taverne gründen Wolfe Tone, Thomas Russell und radikale Presbyterianer eine Gesellschaft zur Einigung von Katholiken, Protestanten und Dissentern; 1794 verboten, wird sie republikanisch und geheim.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1789-united-irishmen-and-1798"}],
+      "persons": ["wolfe-tone", "thomas-russell"],
+      "places": ["belfast"],
+      "organizations": ["united-irishmen"],
+      "sources": [{"ref": "wp-en-society-of-united-irishmen"}],
+      "status": "draft"
+    },
+    {
+      "id": "1795-orange-order-founding",
+      "title": {
+        "fr": "Fondation de l'Ordre d'Orange",
+        "en": "Founding of the Orange Order",
+        "de": "Gründung des Oranier-Ordens",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1795"},
+      "summary": {
+        "fr": "Une société protestante loyaliste se constitue en Armagh au milieu des affrontements confessionnels : elle deviendra l'instrument de la division des travailleurs et de la domination unioniste.",
+        "en": "A loyalist Protestant society is formed in Armagh amid sectarian clashes: it will become the instrument for dividing workers and of unionist domination.",
+        "de": "In Armagh bildet sich inmitten konfessioneller Zusammenstöße eine loyalistische protestantische Gesellschaft: Sie wird zum Instrument der Spaltung der Arbeiter und der unionistischen Vorherrschaft.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1789-united-irishmen-and-1798"}],
+      "organizations": ["orange-order"],
+      "sources": [{"ref": "wp-en-society-of-united-irishmen"}],
+      "status": "draft"
+    },
+    {
+      "id": "1796-bantry-bay-expedition",
+      "title": {
+        "orig": "en",
+        "en": "French expedition to Bantry Bay",
+        "fr": "Expédition française de la baie de Bantry",
+        "de": "Französische Expedition in die Bantry Bay",
+        "draft": ["de"]
+      },
+      "type": "other",
+      "start": {"date": "1796-12-15"},
+      "summary": {
+        "fr": "Obtenue par Wolfe Tone, une flotte française de 15 000 hommes arrive en vue de l'Irlande, mais les tempêtes empêchent le débarquement.",
+        "en": "Secured by Wolfe Tone, a French fleet carrying 15,000 men reaches Ireland, but storms prevent a landing.",
+        "de": "Eine von Wolfe Tone erwirkte französische Flotte mit 15.000 Mann erreicht Irland, doch Stürme verhindern die Landung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1789-united-irishmen-and-1798"}],
+      "persons": ["wolfe-tone"],
+      "places": ["bantry-bay"],
+      "organizations": ["united-irishmen"],
+      "sources": [{"ref": "wp-en-society-of-united-irishmen"}],
+      "status": "draft"
+    },
+    {
+      "id": "1798-irish-rebellion",
+      "title": {
+        "orig": "en",
+        "en": "Irish Rebellion of 1798",
+        "fr": "Rébellion irlandaise de 1798",
+        "de": "Irischer Aufstand von 1798",
+        "draft": ["de"]
+      },
+      "type": "insurrection",
+      "start": {"date": "1798-05-24"},
+      "end": {"date": "1798-10-12"},
+      "summary": {
+        "fr": "Soulèvement des Irlandais unis dans le Leinster, l'Ulster presbytérien puis le Connacht avec l'aide française ; massacres des deux côtés et répression féroce : de 10 000 à 50 000 morts selon les estimations.",
+        "en": "Rising of the United Irishmen in Leinster, Presbyterian Ulster and then Connacht with French help; massacres on both sides and fierce repression: between 10,000 and 50,000 dead according to estimates.",
+        "de": "Aufstand der Vereinigten Iren in Leinster, im presbyterianischen Ulster und dann mit französischer Hilfe in Connacht; Massaker auf beiden Seiten und brutale Repression: Schätzungen zufolge 10.000 bis 50.000 Tote.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1789-united-irishmen-and-1798"}],
+      "persons": ["wolfe-tone", "henry-joy-mccracken"],
+      "organizations": ["united-irishmen"],
+      "sources": [{"ref": "wp-en-irish-rebellion-of-1798"}],
+      "status": "draft"
+    },
+    {
+      "id": "1798-battle-of-vinegar-hill",
+      "title": {
+        "orig": "en",
+        "en": "Battle of Vinegar Hill",
+        "fr": "Bataille de Vinegar Hill",
+        "de": "Schlacht am Vinegar Hill",
+        "draft": ["de"]
+      },
+      "type": "battle",
+      "start": {"date": "1798-06-21"},
+      "summary": {
+        "fr": "Environ 13 000 soldats du général Lake écrasent le camp des insurgés du Wexford près d'Enniscorthy.",
+        "en": "Some 13,000 troops under General Lake crush the Wexford rebels' camp near Enniscorthy.",
+        "de": "Rund 13.000 Soldaten unter General Lake zerschlagen das Lager der Aufständischen aus Wexford bei Enniscorthy.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1798-irish-rebellion"}],
+      "places": ["enniscorthy"],
+      "sources": [{"ref": "wp-en-irish-rebellion-of-1798"}],
+      "status": "draft"
+    },
+    {
+      "id": "1798-french-landing-in-mayo",
+      "title": {
+        "fr": "Débarquement du général Humbert en Mayo",
+        "en": "French landing in Mayo",
+        "de": "Landung General Humberts in Mayo",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1798-08-22"},
+      "summary": {
+        "fr": "Un petit corps français débarque près de Killala et soulève le Connacht ; il capitule à Ballinamuck début septembre, et environ 200 insurgés irlandais sont exécutés.",
+        "en": "A small French force lands near Killala and raises Connacht; it surrenders at Ballinamuck in early September, and about 200 Irish rebels are executed.",
+        "de": "Ein kleines französisches Korps landet bei Killala und bringt Connacht zum Aufstand; Anfang September kapituliert es bei Ballinamuck, rund 200 irische Aufständische werden hingerichtet.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1798-irish-rebellion"}],
+      "persons": ["jean-humbert"],
+      "places": ["killala"],
+      "sources": [{"ref": "wp-en-irish-rebellion-of-1798"}],
+      "status": "draft"
+    },
+    {
+      "id": "1798-wolfe-tone-captured",
+      "title": {
+        "fr": "Capture de Wolfe Tone",
+        "en": "Capture of Wolfe Tone",
+        "de": "Gefangennahme Wolfe Tones",
+        "draft": ["en", "de"]
+      },
+      "type": "arrest",
+      "start": {"date": "1798-10-12"},
+      "summary": {
+        "fr": "Arrêté à bord d'un navire français après la bataille de l'île de Tory, Tone est condamné à mort et se tranche la gorge à la veille de son exécution.",
+        "en": "Arrested aboard a French ship after the Battle of Tory Island, Tone is sentenced to death and cuts his own throat on the eve of his execution.",
+        "de": "Nach der Seeschlacht bei Tory Island an Bord eines französischen Schiffs festgenommen, wird Tone zum Tode verurteilt und schneidet sich am Vorabend seiner Hinrichtung die Kehle durch.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1798-irish-rebellion"}],
+      "persons": ["wolfe-tone"],
+      "organizations": ["united-irishmen"],
+      "sources": [{"ref": "wp-en-irish-rebellion-of-1798"}],
+      "status": "draft"
+    },
+    {
+      "id": "1803-emmets-rising",
+      "title": {
+        "orig": "en",
+        "en": "Emmet's rising",
+        "fr": "Soulèvement d'Emmet",
+        "de": "Emmets Aufstand",
+        "draft": ["de"]
+      },
+      "type": "insurrection",
+      "start": {"date": "1803-07-23"},
+      "summary": {
+        "fr": "Tentative d'insurrection à Dublin, vite réprimée ; Robert Emmet est pendu le 20 septembre après un discours depuis le banc des accusés qui deviendra un texte fondateur du républicanisme.",
+        "en": "An attempted insurrection in Dublin, quickly put down; Robert Emmet is hanged on 20 September after a speech from the dock that becomes a founding text of republicanism.",
+        "de": "Ein rasch niedergeschlagener Aufstandsversuch in Dublin; Robert Emmet wird am 20. September gehängt, nach einer Rede vor Gericht, die zu einem Gründungstext des Republikanismus wird.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1801-union-emancipation-and-repeal"}],
+      "persons": ["robert-emmet"],
+      "places": ["dublin"],
+      "sources": [{"ref": "wp-en-robert-emmet"}],
+      "status": "draft"
+    },
+    {
+      "id": "1823-catholic-association-founding",
+      "title": {
+        "fr": "Fondation de l'Association catholique",
+        "en": "Founding of the Catholic Association",
+        "de": "Gründung der Katholischen Vereinigung",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1823"},
+      "summary": {
+        "fr": "O'Connell crée une organisation de masse financée par la « rente catholique » d'un penny par mois : la paysannerie entre en politique.",
+        "en": "O'Connell creates a mass organisation funded by the 'Catholic rent' of a penny a month: the peasantry enters politics.",
+        "de": "O'Connell schafft eine Massenorganisation, die über die „katholische Rente“ von einem Penny im Monat finanziert wird: Die Bauernschaft betritt die Politik.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1801-union-emancipation-and-repeal"}],
+      "persons": ["daniel-oconnell"],
+      "places": ["dublin"],
+      "organizations": ["catholic-association"],
+      "sources": [{"ref": "wp-en-catholic-association"}],
+      "status": "draft"
+    },
+    {
+      "id": "1831-tithe-war",
+      "title": {
+        "orig": "en",
+        "en": "Tithe War",
+        "fr": "Guerre de la dîme",
+        "de": "Zehntkrieg",
+        "draft": ["de"]
+      },
+      "type": "other",
+      "start": {"date": "1831"},
+      "end": {"date": "1838"},
+      "summary": {
+        "fr": "Les paysans catholiques refusent de payer la dîme à l'Église anglicane d'Irlande ; embuscades et fusillades jusqu'à ce qu'une loi de 1838 transfère la charge sur les loyers.",
+        "en": "Catholic peasants refuse to pay tithes to the Anglican Church of Ireland; ambushes and shootings until an 1838 law shifts the charge onto rents.",
+        "de": "Katholische Bauern verweigern der anglikanischen Kirche von Irland den Zehnten; Hinterhalte und Schießereien, bis ein Gesetz von 1838 die Abgabe auf die Pacht umlegt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1801-union-emancipation-and-repeal"}],
+      "sources": [{"ref": "wp-en-tithe-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "1834-rathcormac-massacre",
+      "title": {
+        "orig": "en",
+        "en": "Rathcormac massacre",
+        "fr": "Massacre de Rathcormac",
+        "de": "Massaker von Rathcormac",
+        "draft": ["de"]
+      },
+      "type": "massacre",
+      "start": {"date": "1834-12-18"},
+      "summary": {
+        "fr": "La troupe tire sur environ 250 fermiers qui s'opposent à une saisie pour la dîme : 12 à 20 morts.",
+        "en": "Troops fire on some 250 farmers resisting a tithe seizure: 12 to 20 dead.",
+        "de": "Soldaten schießen auf rund 250 Bauern, die sich einer Pfändung für den Zehnten widersetzen: 12 bis 20 Tote.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1831-tithe-war"}],
+      "places": ["cork"],
+      "sources": [{"ref": "wp-en-tithe-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "1840-repeal-association-founding",
+      "title": {
+        "fr": "Fondation de l'Association pour l'abrogation",
+        "en": "Founding of the Repeal Association",
+        "de": "Gründung der Repeal Association",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1840"},
+      "summary": {
+        "fr": "O'Connell lance une campagne de masse pour l'abrogation de l'Acte d'Union et le retour d'un Parlement à Dublin ; elle décline à la fin des années 1840.",
+        "en": "O'Connell launches a mass campaign for repeal of the Act of Union and the return of a Parliament to Dublin; it declines in the late 1840s.",
+        "de": "O'Connell startet eine Massenkampagne für die Aufhebung der Unionsakte und die Rückkehr eines Parlaments nach Dublin; sie verfällt Ende der 1840er-Jahre.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1801-union-emancipation-and-repeal"}],
+      "persons": ["daniel-oconnell"],
+      "places": ["dublin"],
+      "organizations": ["repeal-association"],
+      "sources": [{"ref": "wp-en-repeal-association"}],
+      "status": "draft"
+    },
+    {
+      "id": "1848-young-irelander-rebellion",
+      "title": {
+        "orig": "en",
+        "en": "Young Irelander Rebellion",
+        "fr": "Soulèvement de la Jeune Irlande",
+        "de": "Aufstand von Young Ireland",
+        "draft": ["de"]
+      },
+      "type": "insurrection",
+      "start": {"date": "1848-07-29"},
+      "summary": {
+        "fr": "En pleine famine et dans l'élan des révolutions européennes, Smith O'Brien et Meagher tentent un soulèvement à Ballingarry ; il échoue en quelques heures et ses chefs sont déportés en Tasmanie.",
+        "en": "In the midst of the famine and inspired by the European revolutions, Smith O'Brien and Meagher attempt a rising at Ballingarry; it fails within hours and its leaders are transported to Tasmania.",
+        "de": "Mitten in der Hungersnot und angefeuert von den europäischen Revolutionen versuchen Smith O'Brien und Meagher in Ballingarry einen Aufstand; er scheitert binnen Stunden, die Anführer werden nach Tasmanien deportiert.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1845-famine-and-emigration"}],
+      "persons": ["william-smith-obrien", "thomas-francis-meagher"],
+      "places": ["ballingarry"],
+      "sources": [{"ref": "wp-en-young-irelander-rebellion-1848"}],
+      "status": "draft"
+    },
+    {
+      "id": "1858-irb-founding",
+      "title": {
+        "orig": "en",
+        "en": "Founding of the Irish Republican Brotherhood",
+        "fr": "Fondation de la Fraternité républicaine irlandaise",
+        "de": "Gründung der Irish Republican Brotherhood",
+        "draft": ["de"]
+      },
+      "type": "founding",
+      "start": {"date": "1858-03-17"},
+      "summary": {
+        "fr": "James Stephens fonde une organisation secrète vouée à l'insurrection, soutenue par les Fenians d'Amérique : elle préparera l'insurrection de Pâques 1916.",
+        "en": "James Stephens founds a secret organisation dedicated to insurrection, backed by the American Fenians: it will plan the Easter Rising of 1916.",
+        "de": "James Stephens gründet eine dem Aufstand verschriebene Geheimorganisation, unterstützt von den amerikanischen Feniern: Sie wird den Osteraufstand von 1916 planen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1858-fenians-land-war-and-home-rule"}],
+      "persons": ["james-stephens-fenian"],
+      "places": ["dublin"],
+      "organizations": ["irb"],
+      "sources": [{"ref": "wp-en-irish-republican-brotherhood"}],
+      "status": "draft"
+    },
+    {
+      "id": "1867-fenian-rising",
+      "title": {
+        "orig": "en",
+        "en": "Fenian Rising",
+        "fr": "Soulèvement fénian",
+        "de": "Fenier-Aufstand",
+        "draft": ["de"]
+      },
+      "type": "insurrection",
+      "start": {"date": "1867-03-05"},
+      "summary": {
+        "fr": "Soulèvement à Dublin, Cork et Limerick, écrasé en quelques jours faute de soutien populaire ; la plupart des chefs sont arrêtés.",
+        "en": "A rising in Dublin, Cork and Limerick, crushed within days for lack of popular support; most leaders are arrested.",
+        "de": "Ein Aufstand in Dublin, Cork und Limerick, mangels Rückhalt in der Bevölkerung binnen Tagen niedergeschlagen; die meisten Anführer werden verhaftet.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1858-fenians-land-war-and-home-rule"}],
+      "places": ["dublin", "cork", "limerick"],
+      "organizations": ["irb"],
+      "sources": [{"ref": "wp-en-fenian-rising"}],
+      "status": "draft"
+    },
+    {
+      "id": "1867-manchester-martyrs",
+      "title": {
+        "orig": "en",
+        "en": "Manchester Martyrs",
+        "fr": "Martyrs de Manchester",
+        "de": "Märtyrer von Manchester",
+        "draft": ["de"]
+      },
+      "type": "repression",
+      "start": {"date": "1867-11-22"},
+      "summary": {
+        "fr": "Trois Fenians sont pendus à Salford pour l'attaque d'un fourgon de police ; Marx et Engels prennent leur défense dans le mouvement ouvrier anglais.",
+        "en": "Three Fenians are hanged in Salford for an attack on a police van; Marx and Engels take up their defence in the English labour movement.",
+        "de": "Drei Fenier werden in Salford wegen eines Angriffs auf einen Polizeiwagen gehängt; Marx und Engels setzen sich in der englischen Arbeiterbewegung für sie ein.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1858-fenians-land-war-and-home-rule"}],
+      "persons": ["marx", "engels"],
+      "places": ["salford", "manchester"],
+      "organizations": ["irb"],
+      "sources": [{"ref": "wp-en-irish-republican-brotherhood"}],
+      "status": "draft"
+    },
+    {
+      "id": "1879-land-war",
+      "title": {"fr": "Guerre agraire", "en": "Land War", "de": "Landkrieg", "draft": ["en", "de"]},
+      "type": "period",
+      "start": {"date": "1879"},
+      "end": {"date": "1882"},
+      "summary": {
+        "fr": "La Ligue agraire mène les fermiers contre les propriétaires : grèves des loyers, boycotts et résistance aux expulsions arrachent la loi agraire de 1881.",
+        "en": "The Land League leads tenant farmers against the landlords: rent strikes, boycotts and resistance to evictions win the Land Act of 1881.",
+        "de": "Die Land League führt die Pächter gegen die Grundherren: Pachtstreiks, Boykotte und Widerstand gegen Räumungen erzwingen das Landgesetz von 1881.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1858-fenians-land-war-and-home-rule"}],
+      "persons": ["michael-davitt", "charles-stewart-parnell"],
+      "organizations": ["land-league"],
+      "sources": [{"ref": "wp-en-land-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "1879-land-league-founding",
+      "title": {
+        "fr": "Fondation de la Ligue agraire",
+        "en": "Founding of the Land League",
+        "de": "Gründung der Land League",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1879-10-21"},
+      "summary": {
+        "fr": "Sous la présidence de Parnell et à l'initiative de Davitt, la Ligue réclame les « trois F » : loyer équitable, fixité du bail et liberté de cession.",
+        "en": "Under Parnell's presidency and on Davitt's initiative, the League demands the 'three Fs': fair rent, fixity of tenure and free sale.",
+        "de": "Unter Parnells Vorsitz und auf Davitts Initiative fordert die Liga die „drei F“: faire Pacht, feste Pachtdauer und freien Verkauf.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1879-land-war"}],
+      "persons": ["michael-davitt", "charles-stewart-parnell"],
+      "organizations": ["land-league"],
+      "sources": [{"ref": "wp-en-land-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "1880-boycott-campaign",
+      "title": {
+        "fr": "Mise à l'index du capitaine Boycott",
+        "en": "Ostracism of Captain Boycott",
+        "de": "Ächtung von Captain Boycott",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1880"},
+      "summary": {
+        "fr": "En Mayo, les fermiers et ouvriers isolent totalement un régisseur, Charles Boycott : son nom devient celui d'une arme de lutte.",
+        "en": "In Mayo, farmers and labourers completely isolate a land agent, Charles Boycott: his name becomes that of a weapon of struggle.",
+        "de": "In Mayo isolieren Bauern und Landarbeiter einen Gutsverwalter, Charles Boycott, vollständig: Sein Name wird zur Bezeichnung einer Kampfwaffe.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1879-land-war"}],
+      "persons": ["charles-boycott"],
+      "organizations": ["land-league"],
+      "sources": [{"ref": "wp-en-land-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "1882-phoenix-park-murders",
+      "title": {
+        "orig": "en",
+        "en": "Phoenix Park murders",
+        "fr": "Assassinats de Phoenix Park",
+        "de": "Phoenix-Park-Morde",
+        "draft": ["de"]
+      },
+      "type": "assassination",
+      "start": {"date": "1882-05-06"},
+      "summary": {
+        "fr": "Des membres d'un groupe républicain tuent le secrétaire en chef pour l'Irlande et son adjoint à Dublin, quelques jours après l'accord de Kilmainham entre Parnell et le gouvernement.",
+        "en": "Members of a republican group kill the Chief Secretary for Ireland and his under-secretary in Dublin, days after the Kilmainham agreement between Parnell and the government.",
+        "de": "Mitglieder einer republikanischen Gruppe töten in Dublin den Chief Secretary für Irland und seinen Staatssekretär, wenige Tage nach dem Kilmainham-Abkommen zwischen Parnell und der Regierung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1879-land-war"}],
+      "persons": ["charles-stewart-parnell"],
+      "places": ["dublin"],
+      "sources": [{"ref": "wp-en-land-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "1884-gaa-founding",
+      "title": {
+        "fr": "Fondation de l'Association athlétique gaélique",
+        "en": "Founding of the Gaelic Athletic Association",
+        "de": "Gründung des Gälischen Sportverbands",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1884-11-01"},
+      "summary": {
+        "fr": "À Thurles naît l'organisation des sports gaéliques, pilier du nationalisme culturel et du recrutement républicain.",
+        "en": "The organisation of Gaelic games is born in Thurles, a pillar of cultural nationalism and republican recruitment.",
+        "de": "In Thurles entsteht die Organisation der gälischen Sportarten, eine Stütze des kulturellen Nationalismus und der republikanischen Rekrutierung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1858-fenians-land-war-and-home-rule"}],
+      "places": ["thurles"],
+      "organizations": ["gaa"],
+      "sources": [{"ref": "wp-en-gaa"}],
+      "status": "draft"
+    },
+    {
+      "id": "1886-first-home-rule-bill",
+      "title": {
+        "fr": "Rejet du premier projet de Home Rule",
+        "en": "First Home Rule Bill defeated",
+        "de": "Erste Home-Rule-Vorlage abgelehnt",
+        "draft": ["en", "de"]
+      },
+      "type": "vote",
+      "start": {"date": "1886"},
+      "summary": {
+        "fr": "Le projet d'autonomie de Gladstone, soutenu par les députés de Parnell, est rejeté aux Communes par 30 voix ; le Parti libéral se divise.",
+        "en": "Gladstone's self-government bill, backed by Parnell's MPs, is defeated in the Commons by 30 votes; the Liberal Party splits.",
+        "de": "Gladstones Gesetzentwurf zur Selbstverwaltung, unterstützt von Parnells Abgeordneten, scheitert im Unterhaus mit 30 Stimmen; die Liberale Partei spaltet sich.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1858-fenians-land-war-and-home-rule"}],
+      "persons": ["charles-stewart-parnell"],
+      "places": ["london"],
+      "sources": [{"ref": "wp-en-irish-home-rule-movement"}],
+      "status": "draft"
+    },
+    {
+      "id": "1890-parnell-split",
+      "title": {
+        "fr": "Scission du parti de Parnell",
+        "en": "Parnell split",
+        "de": "Spaltung der Parnell-Partei",
+        "draft": ["en", "de"]
+      },
+      "type": "split",
+      "start": {"date": "1890-12-06"},
+      "summary": {
+        "fr": "Après le divorce O'Shea, la majorité des députés nationalistes abandonne Parnell sous la pression de l'Église et des libéraux ; il meurt en octobre 1891.",
+        "en": "After the O'Shea divorce, most nationalist MPs abandon Parnell under pressure from the Church and the Liberals; he dies in October 1891.",
+        "de": "Nach der O'Shea-Scheidung lässt die Mehrheit der nationalistischen Abgeordneten Parnell auf Druck der Kirche und der Liberalen fallen; er stirbt im Oktober 1891.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1858-fenians-land-war-and-home-rule"}],
+      "persons": ["charles-stewart-parnell"],
+      "places": ["london"],
+      "sources": [{"ref": "wp-en-charles-stewart-parnell"}],
+      "status": "draft"
+    },
+    {
+      "id": "1893-gaelic-league-founding",
+      "title": {
+        "fr": "Fondation de la Ligue gaélique",
+        "en": "Founding of the Gaelic League",
+        "de": "Gründung der Gälischen Liga",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1893-07-31"},
+      "summary": {
+        "fr": "Douglas Hyde fonde une organisation pour la renaissance de la langue irlandaise, où se forme une génération de futurs révolutionnaires.",
+        "en": "Douglas Hyde founds an organisation for the revival of the Irish language, which forms a generation of future revolutionaries.",
+        "de": "Douglas Hyde gründet eine Organisation zur Wiederbelebung der irischen Sprache, in der sich eine Generation künftiger Revolutionäre formt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1858-fenians-land-war-and-home-rule"}],
+      "persons": ["douglas-hyde"],
+      "places": ["dublin"],
+      "organizations": ["gaelic-league"],
+      "sources": [{"ref": "wp-en-conradh-na-gaeilge"}],
+      "status": "draft"
+    },
+    {
+      "id": "1893-second-home-rule-bill",
+      "title": {
+        "fr": "Rejet du deuxième projet de Home Rule",
+        "en": "Second Home Rule Bill defeated",
+        "de": "Zweite Home-Rule-Vorlage abgelehnt",
+        "draft": ["en", "de"]
+      },
+      "type": "vote",
+      "start": {"date": "1893"},
+      "summary": {
+        "fr": "Adopté aux Communes par 30 voix de majorité, le second projet de Gladstone est rejeté par la Chambre des lords.",
+        "en": "Passed by the Commons with a majority of 30, Gladstone's second bill is rejected by the House of Lords.",
+        "de": "Vom Unterhaus mit 30 Stimmen Mehrheit angenommen, wird Gladstones zweite Vorlage vom Oberhaus abgelehnt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1858-fenians-land-war-and-home-rule"}],
+      "places": ["london"],
+      "sources": [{"ref": "wp-en-irish-home-rule-movement"}],
+      "status": "draft"
+    },
+    {
+      "id": "1896-isrp-founding",
+      "title": {
+        "fr": "Fondation du Parti socialiste républicain irlandais",
+        "en": "Founding of the Irish Socialist Republican Party",
+        "de": "Gründung der Irischen Sozialistischen Republikanischen Partei",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1896-05"},
+      "summary": {
+        "fr": "Dans un pub de Dublin, James Connolly fonde le premier parti liant indépendance nationale et socialisme ; il publie le Workers' Republic.",
+        "en": "In a Dublin pub, James Connolly founds the first party linking national independence and socialism; it publishes the Workers' Republic.",
+        "de": "In einem Dubliner Pub gründet James Connolly die erste Partei, die nationale Unabhängigkeit und Sozialismus verbindet; sie gibt die Workers' Republic heraus.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1896-socialism-labour-and-national-revival"}],
+      "persons": ["james-connolly"],
+      "places": ["dublin"],
+      "organizations": ["isrp"],
+      "sources": [{"ref": "wp-en-isrp"}],
+      "status": "draft"
+    },
+    {
+      "id": "1903-land-purchase-act",
+      "title": {
+        "fr": "Loi Wyndham sur le rachat des terres",
+        "en": "Land Purchase Act 1903",
+        "de": "Landkaufgesetz von 1903",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Wyndham Act"],
+      "type": "law",
+      "start": {"date": "1903"},
+      "summary": {
+        "fr": "Après la conférence agraire de 1902, l'État finance le rachat des terres par les fermiers : la classe des grands propriétaires anglo-irlandais commence à disparaître.",
+        "en": "After the 1902 Land Conference, the state finances the purchase of land by tenant farmers: the Anglo-Irish landlord class begins to disappear.",
+        "de": "Nach der Landkonferenz von 1902 finanziert der Staat den Landkauf durch die Pächter: Die anglo-irische Grundherrenklasse beginnt zu verschwinden.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1896-socialism-labour-and-national-revival"}],
+      "sources": [{"ref": "wp-en-land-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "1905-sinn-fein-founding",
+      "title": {
+        "fr": "Fondation du Sinn Féin",
+        "en": "Founding of Sinn Féin",
+        "de": "Gründung von Sinn Féin",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1905-11-28"},
+      "summary": {
+        "fr": "Arthur Griffith fonde un mouvement nationaliste, d'abord partisan d'une double monarchie anglo-irlandaise, qui deviendra le parti de l'indépendance.",
+        "en": "Arthur Griffith founds a nationalist movement, at first in favour of an Anglo-Irish dual monarchy, which will become the party of independence.",
+        "de": "Arthur Griffith gründet eine nationalistische Bewegung, zunächst für eine anglo-irische Doppelmonarchie, die zur Partei der Unabhängigkeit wird.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1896-socialism-labour-and-national-revival"}],
+      "persons": ["arthur-griffith"],
+      "places": ["dublin"],
+      "organizations": ["sinn-fein"],
+      "sources": [{"ref": "wp-en-sinn-fein"}],
+      "status": "draft"
+    },
+    {
+      "id": "1907-belfast-dock-strike",
+      "title": {
+        "orig": "en",
+        "en": "1907 Belfast Dock strike",
+        "fr": "Grève des docks de Belfast",
+        "de": "Belfaster Dockarbeiterstreik von 1907",
+        "draft": ["de"]
+      },
+      "type": "strike",
+      "start": {"date": "1907-04-26"},
+      "end": {"date": "1907-08-28"},
+      "summary": {
+        "fr": "Menés par Larkin, dockers et charretiers protestants et catholiques font grève ensemble ; une partie de la police se mutine, l'armée tue deux personnes, et l'unité se brise sur les émeutes confessionnelles.",
+        "en": "Led by Larkin, Protestant and Catholic dockers and carters strike together; part of the police mutinies, the army kills two people, and unity breaks on sectarian riots.",
+        "de": "Unter Larkins Führung streiken protestantische und katholische Dockarbeiter und Fuhrleute gemeinsam; ein Teil der Polizei meutert, die Armee tötet zwei Menschen, und die Einheit zerbricht an konfessionellen Unruhen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1896-socialism-labour-and-national-revival"}],
+      "persons": ["james-larkin"],
+      "places": ["belfast"],
+      "sources": [{"ref": "wp-en-1907-belfast-dock-strike"}],
+      "status": "draft"
+    },
+    {
+      "id": "1909-itgwu-founding",
+      "title": {
+        "fr": "Fondation de l'ITGWU",
+        "en": "Founding of the Irish Transport and General Workers' Union",
+        "de": "Gründung der ITGWU",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1909-01"},
+      "summary": {
+        "fr": "Larkin fonde un syndicat général pour les ouvriers non qualifiés de toutes les industries, qui devient la force motrice du mouvement ouvrier irlandais.",
+        "en": "Larkin founds a general union for unskilled workers in every industry, which becomes the driving force of the Irish labour movement.",
+        "de": "Larkin gründet eine Allgemeingewerkschaft für Ungelernte aller Branchen, die zur treibenden Kraft der irischen Arbeiterbewegung wird.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1896-socialism-labour-and-national-revival"}],
+      "persons": ["james-larkin"],
+      "places": ["dublin"],
+      "organizations": ["itgwu"],
+      "sources": [{"ref": "wp-en-itgwu"}],
+      "status": "draft"
+    },
+    {
+      "id": "1912-irish-labour-party-founding",
+      "title": {
+        "fr": "Fondation du Parti travailliste irlandais",
+        "en": "Founding of the Irish Labour Party",
+        "de": "Gründung der Irischen Labour Party",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1912-05-28"},
+      "summary": {
+        "fr": "Le congrès syndical irlandais réuni à Clonmel crée son aile politique à l'initiative de Connolly, Larkin et William O'Brien.",
+        "en": "The Irish Trades Union Congress meeting in Clonmel creates its political wing on the initiative of Connolly, Larkin and William O'Brien.",
+        "de": "Der in Clonmel tagende irische Gewerkschaftskongress gründet auf Initiative von Connolly, Larkin und William O'Brien seinen politischen Arm.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1896-socialism-labour-and-national-revival"}],
+      "persons": ["james-connolly", "james-larkin", "william-obrien-labour"],
+      "places": ["clonmel"],
+      "organizations": ["irish-labour-party"],
+      "sources": [{"ref": "wp-en-labour-party-ireland"}],
+      "status": "draft"
+    },
+    {
+      "id": "1912-ulster-covenant",
+      "title": {
+        "orig": "en",
+        "en": "Ulster Covenant",
+        "fr": "Pacte d'Ulster",
+        "de": "Ulster Covenant",
+        "draft": ["de"]
+      },
+      "type": "other",
+      "start": {"date": "1912-09-28"},
+      "summary": {
+        "fr": "471 414 unionistes, Carson en tête, s'engagent à résister au Home Rule par tous les moyens ; les Volontaires d'Ulster s'arment.",
+        "en": "471,414 unionists, led by Carson, pledge to resist Home Rule by every means; the Ulster Volunteers arm themselves.",
+        "de": "471.414 Unionisten, angeführt von Carson, verpflichten sich, der Home Rule mit allen Mitteln zu widerstehen; die Ulster Volunteers bewaffnen sich.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1896-socialism-labour-and-national-revival"}],
+      "persons": ["edward-carson"],
+      "places": ["belfast"],
+      "organizations": ["uvf"],
+      "sources": [{"ref": "wp-en-ulster-covenant"}],
+      "status": "draft"
+    },
+    {
+      "id": "1913-irish-citizen-army-founding",
+      "title": {
+        "fr": "Fondation de l'Armée citoyenne irlandaise",
+        "en": "Founding of the Irish Citizen Army",
+        "de": "Gründung der Irischen Bürgerarmee",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1913-11"},
+      "summary": {
+        "fr": "Pendant le lock-out de Dublin, Larkin, Connolly et Jack White créent une milice ouvrière pour protéger les piquets contre la police : la première armée rouge d'Europe occidentale.",
+        "en": "During the Dublin lockout, Larkin, Connolly and Jack White create a workers' militia to protect pickets from the police: the first red army in Western Europe.",
+        "de": "Während der Dubliner Aussperrung gründen Larkin, Connolly und Jack White eine Arbeitermiliz zum Schutz der Streikposten vor der Polizei: die erste rote Armee Westeuropas.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1896-socialism-labour-and-national-revival"}],
+      "persons": ["james-larkin", "james-connolly", "jack-white"],
+      "places": ["dublin"],
+      "organizations": ["irish-citizen-army", "itgwu"],
+      "sources": [{"ref": "wp-en-irish-citizen-army"}],
+      "status": "draft"
+    },
+    {
+      "id": "1913-irish-volunteers-founding",
+      "title": {
+        "fr": "Fondation des Volontaires irlandais",
+        "en": "Founding of the Irish Volunteers",
+        "de": "Gründung der Irischen Freiwilligen",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1913-11-25"},
+      "summary": {
+        "fr": "En réponse à l'armement unioniste, les nationalistes créent leur propre milice à la Rotunda de Dublin ; elle compte près de 200 000 membres à la mi-1914.",
+        "en": "In response to unionist arming, nationalists create their own militia at the Rotunda in Dublin; it has nearly 200,000 members by mid-1914.",
+        "de": "Als Antwort auf die unionistische Bewaffnung gründen Nationalisten in der Dubliner Rotunda ihre eigene Miliz; Mitte 1914 zählt sie fast 200.000 Mitglieder.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1896-socialism-labour-and-national-revival"}],
+      "places": ["dublin"],
+      "organizations": ["irish-volunteers", "irb"],
+      "sources": [{"ref": "wp-en-irish-volunteers"}],
+      "status": "draft"
+    },
+    {
+      "id": "1914-howth-gun-running",
+      "title": {
+        "orig": "en",
+        "en": "Howth gun-running",
+        "fr": "Débarquement d'armes à Howth",
+        "de": "Waffenschmuggel von Howth",
+        "draft": ["de"]
+      },
+      "type": "other",
+      "start": {"date": "1914-07-26"},
+      "summary": {
+        "fr": "Les Volontaires débarquent des fusils près de Dublin ; le même jour, des soldats tirent sur la foule à Bachelor's Walk, tuant quatre personnes.",
+        "en": "The Volunteers land rifles near Dublin; the same day, soldiers fire on the crowd at Bachelor's Walk, killing four.",
+        "de": "Die Freiwilligen landen bei Dublin Gewehre an; am selben Tag schießen Soldaten an der Bachelor's Walk in die Menge und töten vier Menschen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1896-socialism-labour-and-national-revival"}],
+      "places": ["howth", "dublin"],
+      "organizations": ["irish-volunteers"],
+      "sources": [{"ref": "wp-en-irish-volunteers"}],
+      "status": "draft"
+    },
+    {
+      "id": "1914-government-of-ireland-act",
+      "title": {
+        "fr": "Le Home Rule voté puis suspendu",
+        "en": "Home Rule Act passed and suspended",
+        "de": "Home Rule beschlossen und ausgesetzt",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Government of Ireland Act 1914"],
+      "type": "law",
+      "start": {"date": "1914-09-18"},
+      "summary": {
+        "fr": "La loi d'autonomie reçoit la sanction royale mais est suspendue le jour même pour la durée de la guerre.",
+        "en": "The self-government act receives royal assent but is suspended the same day for the duration of the war.",
+        "de": "Das Autonomiegesetz erhält die königliche Zustimmung, wird aber am selben Tag für die Dauer des Krieges ausgesetzt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1896-socialism-labour-and-national-revival"}],
+      "persons": ["john-redmond"],
+      "places": ["london"],
+      "sources": [{"ref": "wp-en-irish-home-rule-movement"}],
+      "status": "draft"
+    },
+    {
+      "id": "1914-irish-volunteers-split",
+      "title": {
+        "fr": "Scission des Volontaires",
+        "en": "Irish Volunteers split",
+        "de": "Spaltung der Irischen Freiwilligen",
+        "draft": ["en", "de"]
+      },
+      "type": "split",
+      "start": {"date": "1914-09"},
+      "summary": {
+        "fr": "Redmond appelle les Volontaires à combattre pour l'Empire : environ 175 000 le suivent, 13 500 à 15 000 refusent et forment le noyau de la future insurrection.",
+        "en": "Redmond calls on the Volunteers to fight for the Empire: about 175,000 follow him, 13,500 to 15,000 refuse and form the core of the future rising.",
+        "de": "Redmond ruft die Freiwilligen auf, für das Empire zu kämpfen: Rund 175.000 folgen ihm, 13.500 bis 15.000 verweigern sich und bilden den Kern des künftigen Aufstands.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1896-socialism-labour-and-national-revival"}],
+      "persons": ["john-redmond"],
+      "organizations": ["irish-volunteers", "irb"],
+      "sources": [{"ref": "wp-en-irish-volunteers"}],
+      "status": "draft"
+    },
+    {
+      "id": "1916-easter-rising",
+      "title": {
+        "orig": "en",
+        "en": "Easter Rising",
+        "fr": "Insurrection de Pâques",
+        "de": "Osteraufstand",
+        "draft": ["de"]
+      },
+      "aliases": ["Éirí Amach na Cásca"],
+      "type": "insurrection",
+      "start": {"date": "1916-04-24"},
+      "end": {"date": "1916-04-29"},
+      "summary": {
+        "fr": "Environ 1 200 Volontaires et membres de l'Armée citoyenne de Connolly s'emparent du centre de Dublin ; après six jours de combats et d'artillerie, 485 morts, dont 260 civils, et la reddition.",
+        "en": "About 1,200 Volunteers and members of Connolly's Citizen Army seize central Dublin; after six days of fighting and shelling, 485 dead, 260 of them civilians, and surrender.",
+        "de": "Rund 1.200 Freiwillige und Angehörige von Connollys Bürgerarmee besetzen das Zentrum Dublins; nach sechs Tagen Kampf und Artilleriebeschuss 485 Tote, darunter 260 Zivilisten, und Kapitulation.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1916-irish-revolution"}, {"id": "1914-first-world-war-and-red-clydeside"}],
+      "persons": ["patrick-pearse", "james-connolly", "thomas-clarke", "eamon-de-valera"],
+      "places": ["dublin"],
+      "organizations": ["irish-volunteers", "irish-citizen-army", "irb"],
+      "sources": [{"ref": "wp-en-easter-rising"}],
+      "status": "draft"
+    },
+    {
+      "id": "1916-proclamation-of-the-republic",
+      "title": {
+        "orig": "en",
+        "en": "Proclamation of the Irish Republic",
+        "fr": "Proclamation de la République irlandaise",
+        "de": "Proklamation der Irischen Republik",
+        "draft": ["de"]
+      },
+      "type": "publication",
+      "start": {"date": "1916-04-24"},
+      "summary": {
+        "fr": "Devant la Poste centrale, Pearse lit la proclamation signée par sept dirigeants, dont Connolly : elle promet l'égalité des droits et le suffrage des femmes.",
+        "en": "Outside the General Post Office, Pearse reads the proclamation signed by seven leaders, including Connolly: it promises equal rights and votes for women.",
+        "de": "Vor dem Hauptpostamt verliest Pearse die von sieben Anführern, darunter Connolly, unterzeichnete Proklamation: Sie verspricht gleiche Rechte und das Frauenwahlrecht.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1916-easter-rising"}],
+      "persons": ["patrick-pearse", "james-connolly", "thomas-clarke"],
+      "places": ["dublin"],
+      "organizations": ["irb"],
+      "works": ["proclamation-of-the-irish-republic"],
+      "sources": [{"ref": "wp-en-easter-rising"}],
+      "status": "draft"
+    },
+    {
+      "id": "1916-easter-rising-executions",
+      "title": {
+        "fr": "Exécution des chefs de l'insurrection",
+        "en": "Executions of the Easter Rising leaders",
+        "de": "Hinrichtung der Anführer des Osteraufstands",
+        "draft": ["en", "de"]
+      },
+      "type": "repression",
+      "start": {"date": "1916-05-03"},
+      "end": {"date": "1916-05-12"},
+      "summary": {
+        "fr": "Quatorze dirigeants sont fusillés à la prison de Kilmainham, Connolly le dernier, attaché sur une chaise ; avec l'internement de 1 836 hommes, la répression retourne l'opinion en faveur des insurgés.",
+        "en": "Fourteen leaders are shot at Kilmainham Gaol, Connolly last, tied to a chair; together with the internment of 1,836 men, the repression turns opinion in favour of the rebels.",
+        "de": "Vierzehn Anführer werden im Kilmainham-Gefängnis erschossen, Connolly als Letzter, an einen Stuhl gefesselt; zusammen mit der Internierung von 1.836 Männern wendet die Repression die öffentliche Meinung zugunsten der Aufständischen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1916-irish-revolution"}],
+      "persons": ["james-connolly", "patrick-pearse", "thomas-clarke"],
+      "places": ["dublin"],
+      "sources": [{"ref": "wp-en-easter-rising"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-anti-conscription-general-strike",
+      "title": {
+        "fr": "Grève générale contre la conscription",
+        "en": "General strike against conscription",
+        "de": "Generalstreik gegen die Wehrpflicht",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "1918-04-23"},
+      "summary": {
+        "fr": "Contre l'extension de la conscription à l'Irlande, une grève générale d'un jour arrête chemins de fer, docks et usines ; la conscription ne sera jamais appliquée, et l'arrestation des chefs du Sinn Féin renforce le parti.",
+        "en": "Against the extension of conscription to Ireland, a one-day general strike halts railways, docks and factories; conscription is never enforced, and the arrest of Sinn Féin leaders strengthens the party.",
+        "de": "Gegen die Ausdehnung der Wehrpflicht auf Irland legt ein eintägiger Generalstreik Eisenbahnen, Docks und Fabriken lahm; die Wehrpflicht wird nie durchgesetzt, und die Verhaftung der Sinn-Féin-Führer stärkt die Partei.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1916-irish-revolution"}],
+      "persons": ["eamon-de-valera", "arthur-griffith", "john-french"],
+      "organizations": ["irish-labour-party", "sinn-fein"],
+      "sources": [{"ref": "wp-en-conscription-crisis-1918"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-irish-general-election",
+      "title": {
+        "fr": "Triomphe du Sinn Féin aux élections de 1918",
+        "en": "Sinn Féin landslide in the 1918 election",
+        "de": "Erdrutschsieg von Sinn Féin bei der Wahl 1918",
+        "draft": ["en", "de"]
+      },
+      "type": "election",
+      "start": {"date": "1918-12-14"},
+      "summary": {
+        "fr": "Le Sinn Féin remporte 73 des 105 sièges irlandais et balaie le Parti parlementaire ; le Labour s'est retiré pour laisser l'élection valoir référendum sur l'indépendance.",
+        "en": "Sinn Féin wins 73 of the 105 Irish seats and sweeps away the Parliamentary Party; Labour stood aside so that the election would serve as a referendum on independence.",
+        "de": "Sinn Féin gewinnt 73 der 105 irischen Sitze und fegt die Parlamentspartei hinweg; Labour verzichtet auf eine Kandidatur, damit die Wahl als Referendum über die Unabhängigkeit gilt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1916-irish-revolution"}],
+      "persons": ["eamon-de-valera"],
+      "organizations": ["sinn-fein", "irish-labour-party"],
+      "sources": [{"ref": "wp-en-1918-irish-general-election"}],
+      "status": "draft"
+    },
+    {
+      "id": "1919-belfast-engineering-strike",
+      "title": {
+        "fr": "Grève des chantiers de Belfast pour les 44 heures",
+        "en": "1919 Belfast engineering strike",
+        "de": "Belfaster Metallarbeiterstreik von 1919",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "1919-01-25"},
+      "end": {"date": "1919-02-20"},
+      "summary": {
+        "fr": "Les ouvriers, majoritairement protestants, des chantiers navals et de la métallurgie font grève pour la semaine de 44 heures ; l'armée occupe l'usine à gaz et la centrale, et le mouvement échoue.",
+        "en": "Shipyard and engineering workers, mostly Protestant, strike for a 44-hour week; the army occupies the gasworks and power station, and the movement fails.",
+        "de": "Werft- und Metallarbeiter, überwiegend Protestanten, streiken für die 44-Stunden-Woche; die Armee besetzt Gaswerk und Kraftwerk, und die Bewegung scheitert.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1916-irish-revolution"}, {"id": "1918-post-war-upsurge-and-general-strike"}],
+      "places": ["belfast"],
+      "sources": [{"ref": "centenaries-1919-belfast-strike"}],
+      "status": "draft"
+    },
+    {
+      "id": "1919-first-dail",
+      "title": {
+        "fr": "Premier Dáil et déclaration d'indépendance",
+        "en": "First Dáil and declaration of independence",
+        "de": "Erster Dáil und Unabhängigkeitserklärung",
+        "draft": ["en", "de"]
+      },
+      "type": "government",
+      "start": {"date": "1919-01-21"},
+      "summary": {
+        "fr": "Les députés du Sinn Féin refusent de siéger à Westminster, se réunissent à Dublin en Parlement irlandais et proclament l'indépendance ; le même jour, l'embuscade de Soloheadbeg ouvre la guerre.",
+        "en": "Sinn Féin MPs refuse to sit at Westminster, meet in Dublin as an Irish Parliament and declare independence; the same day, the Soloheadbeg ambush opens the war.",
+        "de": "Die Sinn-Féin-Abgeordneten weigern sich, in Westminster Platz zu nehmen, treten in Dublin als irisches Parlament zusammen und erklären die Unabhängigkeit; am selben Tag eröffnet der Hinterhalt von Soloheadbeg den Krieg.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1916-irish-revolution"}],
+      "persons": ["eamon-de-valera"],
+      "places": ["dublin"],
+      "organizations": ["dail-eireann", "sinn-fein"],
+      "sources": [{"ref": "wp-en-irish-war-of-independence"}],
+      "status": "draft"
+    },
+    {
+      "id": "1919-irish-war-of-independence",
+      "title": {
+        "fr": "Guerre d'indépendance irlandaise",
+        "en": "Irish War of Independence",
+        "de": "Irischer Unabhängigkeitskrieg",
+        "draft": ["en", "de"]
+      },
+      "type": "war",
+      "start": {"date": "1919-01-21"},
+      "end": {"date": "1921-07-11"},
+      "summary": {
+        "fr": "Guérilla de l'IRA contre la police et l'armée britanniques, renforcées par les Black and Tans et les Auxiliaires : représailles, incendies, loi martiale et environ 1 400 morts parmi les combattants.",
+        "en": "IRA guerrilla war against the British police and army, reinforced by the Black and Tans and the Auxiliaries: reprisals, burnings, martial law and about 1,400 combatants killed.",
+        "de": "Guerillakrieg der IRA gegen britische Polizei und Armee, verstärkt durch die Black and Tans und die Auxiliaries: Vergeltung, Brandschatzungen, Kriegsrecht und rund 1.400 getötete Kämpfer.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1916-irish-revolution"},
+        {"id": "1918-post-war-upsurge-and-general-strike", "deep": true}
+      ],
+      "persons": ["michael-collins", "eamon-de-valera"],
+      "organizations": ["ira-1919", "black-and-tans"],
+      "sources": [{"ref": "wp-en-irish-war-of-independence"}],
+      "status": "draft"
+    },
+    {
+      "id": "1919-limerick-soviet",
+      "title": {
+        "orig": "en",
+        "en": "Limerick Soviet",
+        "fr": "Soviet de Limerick",
+        "de": "Sowjet von Limerick",
+        "draft": ["de"]
+      },
+      "type": "strike",
+      "start": {"date": "1919-04-14"},
+      "end": {"date": "1919-04-27"},
+      "summary": {
+        "fr": "Contre une zone militaire à laissez-passer, le conseil syndical de Limerick lance une grève générale, administre la ville, imprime sa propre monnaie et contrôle les prix pendant deux semaines.",
+        "en": "Against a military permit zone, the Limerick Trades Council launches a general strike, runs the city, prints its own money and controls prices for two weeks.",
+        "de": "Gegen eine militärische Passierscheinzone ruft der Gewerkschaftsrat von Limerick einen Generalstreik aus, verwaltet die Stadt, druckt eigenes Geld und kontrolliert zwei Wochen lang die Preise.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-irish-war-of-independence"}],
+      "places": ["limerick"],
+      "sources": [{"ref": "wp-en-limerick-soviet"}],
+      "status": "draft"
+    },
+    {
+      "id": "1920-munitions-strike",
+      "title": {
+        "fr": "Grève des munitions",
+        "en": "Munitions strike of 1920",
+        "de": "Munitionsstreik von 1920",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "1920-05"},
+      "end": {"date": "1920-12"},
+      "summary": {
+        "fr": "Les dockers de Dublin refusent de décharger le matériel de guerre britannique, et les cheminots de transporter troupes et armes, jusqu'en décembre.",
+        "en": "Dublin dockers refuse to unload British war materiel, and railway workers refuse to carry troops and weapons, until December.",
+        "de": "Dubliner Dockarbeiter weigern sich, britisches Kriegsmaterial zu entladen, und Eisenbahner, Truppen und Waffen zu befördern, bis Dezember.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-irish-war-of-independence"}],
+      "places": ["dublin"],
+      "sources": [{"ref": "wp-en-irish-war-of-independence"}],
+      "status": "draft"
+    },
+    {
+      "id": "1920-belfast-shipyard-expulsions",
+      "title": {
+        "fr": "Expulsions des chantiers navals de Belfast",
+        "en": "Belfast shipyard expulsions",
+        "de": "Vertreibungen aus den Belfaster Werften",
+        "draft": ["en", "de"]
+      },
+      "type": "repression",
+      "start": {"date": "1920-07-21"},
+      "summary": {
+        "fr": "Des loyalistes chassent des chantiers et usines quelque 8 000 travailleurs catholiques et militants ouvriers protestants ; jusqu'en 1922, les violences font 455 morts à Belfast.",
+        "en": "Loyalists drive some 8,000 Catholic workers and Protestant labour activists out of the shipyards and factories; until 1922, violence kills 455 people in Belfast.",
+        "de": "Loyalisten vertreiben rund 8.000 katholische Arbeiter und protestantische Gewerkschaftsaktivisten aus Werften und Fabriken; bis 1922 fordert die Gewalt in Belfast 455 Tote.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-irish-war-of-independence"}],
+      "places": ["belfast"],
+      "sources": [{"ref": "wp-en-troubles-in-ulster-1920-1922"}],
+      "status": "draft"
+    },
+    {
+      "id": "1920-death-of-terence-macswiney",
+      "title": {
+        "fr": "Mort de Terence MacSwiney en grève de la faim",
+        "en": "Death of Terence MacSwiney on hunger strike",
+        "de": "Tod Terence MacSwineys im Hungerstreik",
+        "draft": ["en", "de"]
+      },
+      "type": "death",
+      "start": {"date": "1920-10"},
+      "summary": {
+        "fr": "Le lord-maire républicain de Cork meurt dans une prison de Londres après des semaines de grève de la faim, devenant un symbole international.",
+        "en": "The republican Lord Mayor of Cork dies in a London prison after weeks on hunger strike, becoming an international symbol.",
+        "de": "Der republikanische Oberbürgermeister von Cork stirbt nach wochenlangem Hungerstreik in einem Londoner Gefängnis und wird zu einem internationalen Symbol.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-irish-war-of-independence"}],
+      "persons": ["terence-macswiney"],
+      "places": ["cork", "london"],
+      "sources": [{"ref": "wp-en-irish-war-of-independence"}],
+      "status": "draft"
+    },
+    {
+      "id": "1920-bloody-sunday-dublin",
+      "title": {
+        "orig": "en",
+        "en": "Bloody Sunday (1920)",
+        "fr": "Bloody Sunday de Dublin",
+        "de": "Blutsonntag in Dublin 1920",
+        "draft": ["de"]
+      },
+      "type": "massacre",
+      "start": {"date": "1920-11-21"},
+      "summary": {
+        "fr": "Le matin, l'IRA de Collins abat des agents de renseignement britanniques ; l'après-midi, les forces britanniques tirent sur la foule d'un match à Croke Park, tuant 14 civils.",
+        "en": "In the morning, Collins's IRA shoots British intelligence agents; in the afternoon, British forces fire on the crowd at a match in Croke Park, killing 14 civilians.",
+        "de": "Am Morgen erschießt Collins' IRA britische Geheimdienstagenten; am Nachmittag schießen britische Kräfte bei einem Spiel im Croke Park in die Menge und töten 14 Zivilisten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-irish-war-of-independence"}],
+      "persons": ["michael-collins"],
+      "places": ["dublin"],
+      "organizations": ["ira-1919", "black-and-tans"],
+      "sources": [{"ref": "wp-en-irish-war-of-independence"}],
+      "status": "draft"
+    },
+    {
+      "id": "1920-burning-of-cork",
+      "title": {
+        "orig": "en",
+        "en": "Burning of Cork",
+        "fr": "Incendie de Cork",
+        "de": "Brand von Cork",
+        "draft": ["de"]
+      },
+      "type": "repression",
+      "start": {"date": "1920-12-11"},
+      "summary": {
+        "fr": "En représailles à une embuscade, des Auxiliaires et des Black and Tans incendient le centre de Cork ; la loi martiale est proclamée dans le sud-ouest.",
+        "en": "In reprisal for an ambush, Auxiliaries and Black and Tans set fire to the centre of Cork; martial law is declared in the south-west.",
+        "de": "Als Vergeltung für einen Hinterhalt setzen Auxiliaries und Black and Tans das Zentrum von Cork in Brand; im Südwesten wird das Kriegsrecht verhängt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-irish-war-of-independence"}],
+      "places": ["cork"],
+      "organizations": ["black-and-tans"],
+      "sources": [{"ref": "wp-en-irish-war-of-independence"}],
+      "status": "draft"
+    },
+    {
+      "id": "1920-government-of-ireland-act",
+      "title": {
+        "orig": "en",
+        "en": "Government of Ireland Act 1920",
+        "fr": "Partition de l'Irlande",
+        "de": "Teilung Irlands",
+        "draft": ["de"]
+      },
+      "aliases": ["Partition"],
+      "type": "law",
+      "start": {"date": "1920-12-23"},
+      "summary": {
+        "fr": "Londres partage l'île en deux entités autonomes : l'Irlande du Nord, dont le Parlement s'ouvre en juin 1921 sous domination unioniste, et l'Irlande du Sud, mort-née.",
+        "en": "London divides the island into two self-governing entities: Northern Ireland, whose Parliament opens in June 1921 under unionist control, and a stillborn Southern Ireland.",
+        "de": "London teilt die Insel in zwei autonome Gebilde: Nordirland, dessen Parlament im Juni 1921 unter unionistischer Kontrolle eröffnet wird, und ein totgeborenes Südirland.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1916-irish-revolution"}, {"id": "1918-post-war-upsurge-and-general-strike"}],
+      "persons": ["james-craig"],
+      "places": ["belfast"],
+      "sources": [{"ref": "wp-en-government-of-ireland-act-1920"}],
+      "status": "draft"
+    },
+    {
+      "id": "1921-anglo-irish-treaty",
+      "title": {
+        "orig": "en",
+        "en": "Anglo-Irish Treaty",
+        "fr": "Traité anglo-irlandais",
+        "de": "Anglo-irischer Vertrag",
+        "draft": ["de"]
+      },
+      "type": "treaty",
+      "start": {"date": "1921-12-06"},
+      "summary": {
+        "fr": "Signé à Londres, le traité crée un État libre, dominion de l'Empire avec serment au roi, laisse l'Irlande du Nord libre de sortir et garde des ports pour la Royal Navy ; le Dáil le ratifie par 64 voix contre 57.",
+        "en": "Signed in London, the treaty creates a Free State, a dominion of the Empire with an oath to the King, lets Northern Ireland opt out and keeps ports for the Royal Navy; the Dáil ratifies it by 64 votes to 57.",
+        "de": "Der in London unterzeichnete Vertrag schafft einen Freistaat als Dominion des Empire mit Eid auf den König, erlaubt Nordirland den Austritt und behält Häfen für die Royal Navy; der Dáil ratifiziert ihn mit 64 zu 57 Stimmen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1916-irish-revolution"}, {"id": "1918-post-war-upsurge-and-general-strike"}],
+      "persons": ["michael-collins", "arthur-griffith", "eamon-de-valera"],
+      "places": ["london"],
+      "organizations": ["dail-eireann", "sinn-fein"],
+      "sources": [{"ref": "wp-en-anglo-irish-treaty"}],
+      "status": "draft"
+    },
+    {
+      "id": "1922-irish-civil-war",
+      "title": {
+        "fr": "Guerre civile irlandaise",
+        "en": "Irish Civil War",
+        "de": "Irischer Bürgerkrieg",
+        "draft": ["en", "de"]
+      },
+      "type": "war",
+      "start": {"date": "1922-06-28"},
+      "end": {"date": "1923-05-24"},
+      "summary": {
+        "fr": "Le gouvernement de l'État libre, armé par Londres, écrase les républicains hostiles au traité : plus de 1 000 morts et 81 exécutions officielles.",
+        "en": "The Free State government, armed by London, crushes the anti-Treaty republicans: more than 1,000 dead and 81 official executions.",
+        "de": "Die von London bewaffnete Regierung des Freistaats zerschlägt die vertragsfeindlichen Republikaner: über 1.000 Tote und 81 offizielle Hinrichtungen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1916-irish-revolution"}],
+      "persons": ["michael-collins", "eamon-de-valera", "liam-mellows"],
+      "organizations": ["irish-free-state", "ira-1919"],
+      "sources": [{"ref": "wp-en-irish-civil-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "1922-four-courts-bombardment",
+      "title": {
+        "fr": "Bombardement des Four Courts",
+        "en": "Bombardment of the Four Courts",
+        "de": "Beschießung der Four Courts",
+        "draft": ["en", "de"]
+      },
+      "type": "battle",
+      "start": {"date": "1922-06-28"},
+      "summary": {
+        "fr": "Avec des canons prêtés par les Britanniques, l'armée de l'État libre bombarde les républicains retranchés dans le palais de justice de Dublin : début de la guerre civile.",
+        "en": "With guns lent by the British, the Free State army shells the republicans entrenched in Dublin's law courts: the start of the civil war.",
+        "de": "Mit von den Briten geliehenen Geschützen beschießt die Armee des Freistaats die im Dubliner Justizpalast verschanzten Republikaner: Beginn des Bürgerkriegs.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1922-irish-civil-war"}],
+      "persons": ["rory-oconnor", "liam-mellows"],
+      "places": ["dublin"],
+      "organizations": ["irish-free-state"],
+      "sources": [{"ref": "wp-en-irish-civil-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "1922-death-of-michael-collins",
+      "title": {
+        "fr": "Mort de Michael Collins",
+        "en": "Death of Michael Collins",
+        "de": "Tod Michael Collins'",
+        "draft": ["en", "de"]
+      },
+      "type": "death",
+      "start": {"date": "1922-08"},
+      "summary": {
+        "fr": "Le chef de l'armée de l'État libre est tué dans une embuscade républicaine à Béal na Bláth, dans le comté de Cork.",
+        "en": "The head of the Free State army is killed in a republican ambush at Béal na Bláth, County Cork.",
+        "de": "Der Chef der Armee des Freistaats wird in einem republikanischen Hinterhalt bei Béal na Bláth im County Cork getötet.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1922-irish-civil-war"}],
+      "persons": ["michael-collins"],
+      "places": ["cork"],
+      "organizations": ["irish-free-state"],
+      "sources": [{"ref": "wp-en-irish-civil-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "1922-irish-free-state",
+      "title": {
+        "fr": "Naissance de l'État libre d'Irlande",
+        "en": "Establishment of the Irish Free State",
+        "de": "Gründung des Irischen Freistaats",
+        "draft": ["en", "de"]
+      },
+      "type": "independence",
+      "start": {"date": "1922-12-06"},
+      "summary": {
+        "fr": "La Constitution de l'État libre entre en vigueur ; dès le lendemain, le Parlement d'Irlande du Nord vote sa sortie, consacrant la partition.",
+        "en": "The Free State Constitution comes into force; the very next day the Northern Ireland Parliament votes to opt out, entrenching partition.",
+        "de": "Die Verfassung des Freistaats tritt in Kraft; schon am nächsten Tag stimmt das nordirische Parlament für den Austritt und besiegelt die Teilung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1922-irish-civil-war"}],
+      "places": ["dublin", "belfast"],
+      "organizations": ["irish-free-state"],
+      "sources": [{"ref": "wp-en-irish-free-state"}],
+      "status": "draft"
+    },
+    {
+      "id": "1922-execution-of-mellows-and-oconnor",
+      "title": {
+        "fr": "Exécution de Mellows, O'Connor et deux autres républicains",
+        "en": "Execution of Mellows, O'Connor and two others",
+        "de": "Hinrichtung von Mellows, O'Connor und zwei weiteren Republikanern",
+        "draft": ["en", "de"]
+      },
+      "type": "repression",
+      "start": {"date": "1922-12-08"},
+      "summary": {
+        "fr": "En représailles, l'État libre fusille sans procès quatre républicains prisonniers, dont Liam Mellows, partisan d'un programme social pour gagner les ouvriers et les paysans.",
+        "en": "As a reprisal, the Free State executes four republican prisoners without trial, including Liam Mellows, who advocated a social programme to win workers and peasants.",
+        "de": "Als Vergeltung erschießt der Freistaat ohne Prozess vier republikanische Gefangene, darunter Liam Mellows, der für ein soziales Programm zur Gewinnung von Arbeitern und Bauern eintrat.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1922-irish-civil-war"}],
+      "persons": ["liam-mellows", "rory-oconnor"],
+      "places": ["dublin"],
+      "organizations": ["irish-free-state"],
+      "sources": [{"ref": "wp-en-irish-civil-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "1926-fianna-fail-founding",
+      "title": {
+        "fr": "Fondation du Fianna Fáil",
+        "en": "Founding of Fianna Fáil",
+        "de": "Gründung von Fianna Fáil",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1926-05-16"},
+      "summary": {
+        "fr": "De Valera quitte le Sinn Féin abstentionniste et fonde un parti qui entre au Dáil en 1927 ; il dominera la vie politique pendant des décennies.",
+        "en": "De Valera leaves abstentionist Sinn Féin and founds a party that enters the Dáil in 1927; it will dominate political life for decades.",
+        "de": "De Valera verlässt das abstentionistische Sinn Féin und gründet eine Partei, die 1927 in den Dáil einzieht; sie wird das politische Leben jahrzehntelang beherrschen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1923-free-state-and-de-valera"}],
+      "persons": ["eamon-de-valera"],
+      "places": ["dublin"],
+      "organizations": ["fianna-fail", "sinn-fein"],
+      "sources": [{"ref": "wp-en-fianna-fail"}],
+      "status": "draft"
+    },
+    {
+      "id": "1932-de-valera-government",
+      "title": {
+        "fr": "De Valera au pouvoir",
+        "en": "De Valera comes to power",
+        "de": "De Valera kommt an die Macht",
+        "draft": ["en", "de"]
+      },
+      "type": "government",
+      "start": {"date": "1932-03-09"},
+      "summary": {
+        "fr": "Dix ans après la guerre civile, les vaincus de 1922 forment le gouvernement : de Valera démantèle le serment au roi et engage l'épreuve de force économique avec Londres.",
+        "en": "Ten years after the civil war, the defeated side of 1922 forms the government: de Valera dismantles the oath to the King and begins the economic showdown with London.",
+        "de": "Zehn Jahre nach dem Bürgerkrieg bilden die Verlierer von 1922 die Regierung: De Valera schafft den Eid auf den König ab und beginnt die wirtschaftliche Kraftprobe mit London.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1923-free-state-and-de-valera"}],
+      "persons": ["eamon-de-valera"],
+      "places": ["dublin"],
+      "organizations": ["fianna-fail"],
+      "sources": [{"ref": "wp-en-fianna-fail"}],
+      "status": "draft"
+    },
+    {
+      "id": "1932-economic-war",
+      "title": {
+        "fr": "Guerre économique anglo-irlandaise",
+        "en": "Anglo-Irish Trade War",
+        "de": "Anglo-irischer Handelskrieg",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1932"},
+      "end": {"date": "1938"},
+      "summary": {
+        "fr": "L'Irlande cesse de verser à Londres les annuités foncières, qui riposte par des droits de douane ; l'accord de 1938 met fin au conflit et rend les ports conservés par la Royal Navy.",
+        "en": "Ireland stops paying land annuities to London, which retaliates with tariffs; the 1938 agreement ends the conflict and returns the ports kept by the Royal Navy.",
+        "de": "Irland stellt die Zahlung der Landannuitäten an London ein, das mit Zöllen antwortet; das Abkommen von 1938 beendet den Konflikt und gibt die von der Royal Navy gehaltenen Häfen zurück.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1923-free-state-and-de-valera"}],
+      "persons": ["eamon-de-valera"],
+      "sources": [{"ref": "wp-en-anglo-irish-trade-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "1932-belfast-outdoor-relief-strike",
+      "title": {
+        "fr": "Grève des chômeurs de Belfast (Outdoor Relief)",
+        "en": "Belfast Outdoor Relief strike",
+        "de": "Streik der Belfaster Arbeitslosen (Outdoor Relief)",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "1932-10-03"},
+      "end": {"date": "1932-10-12"},
+      "summary": {
+        "fr": "Les chômeurs catholiques et protestants des quartiers de Falls et Shankill luttent ensemble pour l'aide publique ; la police tue un protestant et un catholique, mais les chômeurs obtiennent une forte hausse des allocations.",
+        "en": "Catholic and Protestant unemployed from the Falls and Shankill fight together for public relief; police kill one Protestant and one Catholic, but the unemployed win a large increase in benefits.",
+        "de": "Katholische und protestantische Arbeitslose aus Falls und Shankill kämpfen gemeinsam um öffentliche Unterstützung; die Polizei tötet einen Protestanten und einen Katholiken, doch die Arbeitslosen erreichen eine kräftige Erhöhung der Hilfen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1923-free-state-and-de-valera"}, {"id": "1926-defeat-slump-and-anti-fascism"}],
+      "places": ["belfast"],
+      "sources": [{"ref": "libcom-belfast-outdoor-relief-strike-1932"}],
+      "status": "draft"
+    },
+    {
+      "id": "1933-blueshirt-march-banned",
+      "title": {
+        "fr": "Interdiction de la marche des Chemises bleues",
+        "en": "Blueshirt march banned",
+        "de": "Verbot des Blauhemden-Marsches",
+        "draft": ["en", "de"]
+      },
+      "type": "ban",
+      "start": {"date": "1933-08-22"},
+      "summary": {
+        "fr": "Le gouvernement interdit le défilé à Dublin du mouvement paramilitaire d'inspiration fasciste d'Eoin O'Duffy, qui fusionne quelques jours plus tard dans le nouveau parti Fine Gael ; O'Duffy mènera ensuite une brigade au service de Franco.",
+        "en": "The government bans the Dublin parade of Eoin O'Duffy's fascist-inspired paramilitary movement, which merges days later into the new Fine Gael party; O'Duffy later leads a brigade in Franco's service.",
+        "de": "Die Regierung verbietet die Dubliner Parade von Eoin O'Duffys faschistisch inspirierter paramilitärischer Bewegung, die wenige Tage später in der neuen Partei Fine Gael aufgeht; O'Duffy führt später eine Brigade im Dienst Francos.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1923-free-state-and-de-valera"}],
+      "persons": ["eoin-oduffy", "eamon-de-valera"],
+      "places": ["dublin"],
+      "organizations": ["blueshirts", "fine-gael"],
+      "sources": [{"ref": "wp-en-blueshirts"}],
+      "status": "draft"
+    },
+    {
+      "id": "1937-constitution-of-ireland",
+      "title": {
+        "fr": "Constitution de 1937",
+        "en": "Constitution of Ireland",
+        "de": "Irische Verfassung von 1937",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Bunreacht na hÉireann"],
+      "type": "law",
+      "start": {"date": "1937-07-01"},
+      "end": {"date": "1937-12-29"},
+      "summary": {
+        "fr": "Adoptée par plébiscite avec 56,5 %, la Constitution de De Valera revendique toute l'île, reconnaît une « position spéciale » à l'Église catholique et assigne les femmes au foyer.",
+        "en": "Adopted by plebiscite with 56.5%, de Valera's Constitution claims the whole island, recognises a 'special position' for the Catholic Church and assigns women to the home.",
+        "de": "Die mit 56,5 % per Volksabstimmung angenommene Verfassung de Valeras beansprucht die ganze Insel, erkennt der katholischen Kirche eine „besondere Stellung“ zu und weist Frauen den Haushalt zu.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1923-free-state-and-de-valera"}],
+      "persons": ["eamon-de-valera"],
+      "sources": [{"ref": "wp-en-constitution-of-ireland"}],
+      "status": "draft"
+    },
+    {
+      "id": "1939-the-emergency",
+      "title": {
+        "orig": "en",
+        "en": "The Emergency",
+        "fr": "L'« Urgence » : neutralité pendant la guerre",
+        "de": "„The Emergency“: Neutralität im Krieg",
+        "draft": ["de"]
+      },
+      "type": "other",
+      "start": {"date": "1939-09-02"},
+      "end": {"date": "1946"},
+      "summary": {
+        "fr": "L'Irlande reste neutre ; le gouvernement interne les militants de l'IRA et censure la presse, tandis que jusqu'à 200 000 Irlandais partent travailler dans l'industrie de guerre britannique.",
+        "en": "Ireland stays neutral; the government interns IRA activists and censors the press, while up to 200,000 Irish people leave to work in British war industry.",
+        "de": "Irland bleibt neutral; die Regierung interniert IRA-Aktivisten und zensiert die Presse, während bis zu 200.000 Iren zur Arbeit in die britische Kriegsindustrie abwandern.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1923-free-state-and-de-valera"}],
+      "persons": ["eamon-de-valera"],
+      "sources": [{"ref": "wp-en-the-emergency-ireland"}],
+      "status": "draft"
+    },
+    {
+      "id": "1949-republic-of-ireland-act",
+      "title": {
+        "fr": "Proclamation de la République d'Irlande",
+        "en": "Republic of Ireland Act",
+        "de": "Ausrufung der Republik Irland",
+        "draft": ["en", "de"]
+      },
+      "type": "law",
+      "start": {"date": "1949-04-18"},
+      "summary": {
+        "fr": "La loi entre en vigueur et l'Irlande quitte le Commonwealth ; Londres répond par une loi garantissant le maintien de l'Irlande du Nord dans le Royaume-Uni.",
+        "en": "The act comes into force and Ireland leaves the Commonwealth; London responds with a law guaranteeing Northern Ireland's place in the United Kingdom.",
+        "de": "Das Gesetz tritt in Kraft, und Irland verlässt das Commonwealth; London antwortet mit einem Gesetz, das Nordirlands Verbleib im Vereinigten Königreich garantiert.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1949-republic-emigration-and-opening"}],
+      "places": ["dublin"],
+      "sources": [{"ref": "wp-en-republic-of-ireland-act-1948"}],
+      "status": "draft"
+    },
+    {
+      "id": "1951-mother-and-child-scheme",
+      "title": {
+        "fr": "Crise du programme Mère et enfant",
+        "en": "Mother and Child Scheme crisis",
+        "de": "Krise um das Mutter-und-Kind-Programm",
+        "draft": ["en", "de"]
+      },
+      "type": "crisis",
+      "start": {"date": "1951-04-11"},
+      "summary": {
+        "fr": "Le ministre Noël Browne veut des soins gratuits pour les mères et les enfants ; l'archevêque McQuaid le déclare contraire à la doctrine catholique, et Browne, isolé, démissionne.",
+        "en": "Minister Noël Browne wants free care for mothers and children; Archbishop McQuaid declares it contrary to Catholic teaching, and Browne, isolated, resigns.",
+        "de": "Minister Noël Browne will kostenlose Versorgung für Mütter und Kinder; Erzbischof McQuaid erklärt dies für unvereinbar mit der katholischen Lehre, und der isolierte Browne tritt zurück.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1949-republic-emigration-and-opening"}],
+      "persons": ["noel-browne", "john-charles-mcquaid"],
+      "places": ["dublin"],
+      "sources": [{"ref": "wp-en-mother-and-child-scheme"}],
+      "status": "draft"
+    },
+    {
+      "id": "1956-border-campaign",
+      "title": {
+        "fr": "Campagne de la frontière de l'IRA",
+        "en": "IRA Border Campaign",
+        "de": "Grenzkampagne der IRA",
+        "draft": ["en", "de"]
+      },
+      "type": "war",
+      "start": {"date": "1956-12-12"},
+      "end": {"date": "1962-02-26"},
+      "summary": {
+        "fr": "Campagne de guérilla de l'IRA contre les postes frontaliers du Nord ; l'internement des deux côtés de la frontière la brise, et l'IRA y met fin faute de soutien.",
+        "en": "An IRA guerrilla campaign against border posts in the North; internment on both sides of the border breaks it, and the IRA calls it off for lack of support.",
+        "de": "Eine Guerillakampagne der IRA gegen Grenzposten im Norden; Internierungen auf beiden Seiten der Grenze brechen sie, und die IRA beendet sie mangels Rückhalt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1949-republic-emigration-and-opening"}],
+      "sources": [{"ref": "wp-en-border-campaign"}],
+      "status": "draft"
+    },
+    {
+      "id": "1969-provisional-ira-founding",
+      "title": {
+        "fr": "Scission de l'IRA et naissance de l'IRA provisoire",
+        "en": "IRA split and birth of the Provisional IRA",
+        "de": "IRA-Spaltung und Entstehung der Provisorischen IRA",
+        "draft": ["en", "de"]
+      },
+      "type": "split",
+      "start": {"date": "1969-12"},
+      "summary": {
+        "fr": "Après les pogroms de l'été 1969 à Belfast, l'IRA se divise : les « Officiels » s'orientent vers la politique, les « Provisoires » vers la lutte armée.",
+        "en": "After the pogroms of summer 1969 in Belfast, the IRA splits: the 'Officials' turn to politics, the 'Provisionals' to armed struggle.",
+        "de": "Nach den Pogromen im Sommer 1969 in Belfast spaltet sich die IRA: Die „Officials“ wenden sich der Politik zu, die „Provisionals“ dem bewaffneten Kampf.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1949-republic-emigration-and-opening"}, {"id": "1968-northern-ireland-troubles"}],
+      "places": ["belfast"],
+      "organizations": ["provisional-ira"],
+      "sources": [{"ref": "wp-en-provisional-ira"}],
+      "status": "draft"
+    },
+    {
+      "id": "1970-arms-crisis",
+      "title": {
+        "orig": "en",
+        "en": "Arms Crisis",
+        "fr": "Crise des armes",
+        "de": "Waffenkrise",
+        "draft": ["de"]
+      },
+      "type": "crisis",
+      "start": {"date": "1970-05-06"},
+      "summary": {
+        "fr": "Les ministres Haughey et Blaney sont limogés, accusés d'avoir tenté d'importer des armes pour les nationalistes du Nord ; Haughey est acquitté en octobre.",
+        "en": "Ministers Haughey and Blaney are sacked, accused of trying to import arms for nationalists in the North; Haughey is acquitted in October.",
+        "de": "Die Minister Haughey und Blaney werden entlassen, weil sie versucht haben sollen, Waffen für die Nationalisten im Norden einzuführen; Haughey wird im Oktober freigesprochen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1949-republic-emigration-and-opening"}],
+      "persons": ["charles-haughey"],
+      "places": ["dublin"],
+      "organizations": ["fianna-fail"],
+      "sources": [{"ref": "wp-en-arms-crisis"}],
+      "status": "draft"
+    },
+    {
+      "id": "1972-eec-referendum",
+      "title": {
+        "fr": "Référendum sur l'adhésion à la CEE",
+        "en": "EEC accession referendum",
+        "de": "Referendum über den EWG-Beitritt",
+        "draft": ["en", "de"]
+      },
+      "type": "vote",
+      "start": {"date": "1972-05-10"},
+      "summary": {
+        "fr": "83,1 % des votants approuvent l'adhésion à la Communauté économique européenne, effective le 1er janvier 1973.",
+        "en": "83.1% of voters approve membership of the European Economic Community, effective on 1 January 1973.",
+        "de": "83,1 % der Wähler stimmen dem Beitritt zur Europäischen Wirtschaftsgemeinschaft zu, der am 1. Januar 1973 wirksam wird.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1949-republic-emigration-and-opening"}],
+      "organizations": ["eec"],
+      "sources": [{"ref": "wp-en-third-amendment-ireland"}],
+      "status": "draft"
+    },
+    {
+      "id": "1983-eighth-amendment",
+      "title": {
+        "fr": "Interdiction constitutionnelle de l'avortement",
+        "en": "Eighth Amendment",
+        "de": "Achter Verfassungszusatz",
+        "draft": ["en", "de"]
+      },
+      "type": "vote",
+      "start": {"date": "1983-09-07"},
+      "summary": {
+        "fr": "Par 67 % des voix, la Constitution reconnaît un droit égal à la vie de l'enfant à naître et de la mère, interdisant de fait l'avortement.",
+        "en": "With 67% of the vote, the Constitution recognises an equal right to life of the unborn and the mother, effectively banning abortion.",
+        "de": "Mit 67 % der Stimmen erkennt die Verfassung ein gleiches Recht auf Leben für Ungeborene und Mütter an und verbietet damit faktisch die Abtreibung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1973-eec-crisis-and-troubles"}],
+      "sources": [{"ref": "wp-en-eighth-amendment-ireland"}],
+      "status": "draft"
+    },
+    {
+      "id": "1985-anglo-irish-agreement",
+      "title": {
+        "orig": "en",
+        "en": "Anglo-Irish Agreement",
+        "fr": "Accord anglo-irlandais",
+        "de": "Anglo-irisches Abkommen",
+        "draft": ["de"]
+      },
+      "type": "treaty",
+      "start": {"date": "1985-11-15"},
+      "summary": {
+        "fr": "Thatcher et FitzGerald donnent à Dublin un rôle consultatif sur l'Irlande du Nord ; les unionistes manifestent en masse à Belfast sous le mot d'ordre « Ulster Says No ».",
+        "en": "Thatcher and FitzGerald give Dublin an advisory role in Northern Ireland; unionists demonstrate en masse in Belfast under the slogan 'Ulster Says No'.",
+        "de": "Thatcher und FitzGerald räumen Dublin eine beratende Rolle in Nordirland ein; Unionisten demonstrieren in Belfast massenhaft unter der Losung „Ulster Says No“.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1973-eec-crisis-and-troubles"}, {"id": "1968-northern-ireland-troubles"}],
+      "persons": ["margaret-thatcher", "garret-fitzgerald"],
+      "places": ["belfast"],
+      "sources": [{"ref": "wp-en-anglo-irish-agreement"}],
+      "status": "draft"
+    },
+    {
+      "id": "1990-mary-robinson-elected",
+      "title": {
+        "fr": "Élection de Mary Robinson à la présidence",
+        "en": "Mary Robinson elected President",
+        "de": "Wahl Mary Robinsons zur Präsidentin",
+        "draft": ["en", "de"]
+      },
+      "type": "election",
+      "start": {"date": "1990-11"},
+      "summary": {
+        "fr": "Soutenue par le Parti travailliste, l'avocate des droits des femmes devient la première présidente de l'Irlande, symbole du recul de l'ordre conservateur.",
+        "en": "Backed by the Labour Party, the women's rights lawyer becomes Ireland's first woman President, a symbol of the retreat of the conservative order.",
+        "de": "Von der Labour Party unterstützt, wird die Frauenrechtsanwältin Irlands erste Präsidentin, ein Symbol für den Rückzug der konservativen Ordnung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1973-eec-crisis-and-troubles"}],
+      "persons": ["mary-robinson"],
+      "places": ["dublin"],
+      "organizations": ["irish-labour-party"],
+      "sources": [{"ref": "wp-en-mary-robinson"}],
+      "status": "draft"
+    },
+    {
+      "id": "1992-x-case",
+      "title": {"fr": "Affaire X", "en": "X Case", "de": "X-Fall", "draft": ["en", "de"]},
+      "type": "trial",
+      "start": {"date": "1992"},
+      "summary": {
+        "fr": "La justice interdit à une adolescente violée et suicidaire d'avorter en Angleterre, avant que la Cour suprême ne l'y autorise ; l'affaire provoque des manifestations massives.",
+        "en": "The courts forbid a suicidal rape victim in her teens from travelling to England for an abortion, before the Supreme Court allows it; the case sparks mass protests.",
+        "de": "Gerichte verbieten einer suizidgefährdeten, vergewaltigten Jugendlichen, zur Abtreibung nach England zu reisen, bevor der Oberste Gerichtshof es erlaubt; der Fall löst Massenproteste aus.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1973-eec-crisis-and-troubles"}],
+      "places": ["dublin"],
+      "sources": [{"ref": "wp-en-eighth-amendment-ireland"}],
+      "status": "draft"
+    },
+    {
+      "id": "1994-ira-ceasefire",
+      "title": {
+        "fr": "Cessez-le-feu de l'IRA",
+        "en": "IRA ceasefire of 1994",
+        "de": "Waffenstillstand der IRA 1994",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1994-08-31"},
+      "summary": {
+        "fr": "L'IRA provisoire annonce l'arrêt complet de ses opérations pour permettre l'entrée du Sinn Féin dans les négociations ; rompu en février 1996, il est rétabli en juillet 1997.",
+        "en": "The Provisional IRA announces a complete cessation of operations to allow Sinn Féin into negotiations; broken in February 1996, it is restored in July 1997.",
+        "de": "Die Provisorische IRA verkündet die vollständige Einstellung ihrer Operationen, um Sinn Féin den Weg in die Verhandlungen zu ebnen; im Februar 1996 gebrochen, wird er im Juli 1997 wiederhergestellt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1973-eec-crisis-and-troubles"}, {"id": "1968-northern-ireland-troubles"}],
+      "places": ["belfast"],
+      "organizations": ["provisional-ira", "sinn-fein"],
+      "sources": [{"ref": "wp-en-provisional-ira"}],
+      "status": "draft"
+    },
+    {
+      "id": "1995-divorce-referendum",
+      "title": {
+        "fr": "Légalisation du divorce",
+        "en": "Divorce referendum",
+        "de": "Scheidungsreferendum",
+        "draft": ["en", "de"]
+      },
+      "type": "vote",
+      "start": {"date": "1995-11-24"},
+      "summary": {
+        "fr": "Le divorce est autorisé par 50,3 % des voix, avec une avance de 9 114 voix seulement.",
+        "en": "Divorce is legalised with 50.3% of the vote, a margin of just 9,114 votes.",
+        "de": "Die Scheidung wird mit 50,3 % der Stimmen legalisiert, mit nur 9.114 Stimmen Vorsprung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1973-eec-crisis-and-troubles"}],
+      "sources": [{"ref": "wp-en-fifteenth-amendment-ireland"}],
+      "status": "draft"
+    },
+    {
+      "id": "2005-ira-ends-armed-campaign",
+      "title": {
+        "fr": "L'IRA met fin à la lutte armée",
+        "en": "IRA ends its armed campaign",
+        "de": "Die IRA beendet den bewaffneten Kampf",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "2005-07-28"},
+      "summary": {
+        "fr": "L'IRA provisoire ordonne à ses membres de cesser toute activité paramilitaire ; son arsenal est déclaré entièrement détruit le 26 septembre.",
+        "en": "The Provisional IRA orders its members to end all paramilitary activity; its arsenal is declared fully decommissioned on 26 September.",
+        "de": "Die Provisorische IRA weist ihre Mitglieder an, jede paramilitärische Tätigkeit einzustellen; ihr Arsenal wird am 26. September für vollständig vernichtet erklärt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1998-celtic-tiger-and-crash"}],
+      "organizations": ["provisional-ira"],
+      "sources": [{"ref": "wp-en-provisional-ira"}],
+      "status": "draft"
+    },
+    {
+      "id": "2008-irish-bank-guarantee",
+      "title": {
+        "fr": "Garantie générale des banques",
+        "en": "Irish bank guarantee",
+        "de": "Irische Bankengarantie",
+        "draft": ["en", "de"]
+      },
+      "type": "crisis",
+      "start": {"date": "2008-09-29"},
+      "summary": {
+        "fr": "En une nuit, le gouvernement garantit la totalité des dettes des banques irlandaises ; avec la nationalisation d'Anglo Irish Bank, le sauvetage coûtera environ 64 milliards d'euros aux contribuables.",
+        "en": "Overnight, the government guarantees the entire liabilities of the Irish banks; together with the nationalisation of Anglo Irish Bank, the rescue will cost taxpayers about €64 billion.",
+        "de": "Über Nacht garantiert die Regierung sämtliche Verbindlichkeiten der irischen Banken; zusammen mit der Verstaatlichung der Anglo Irish Bank kostet die Rettung die Steuerzahler rund 64 Milliarden Euro.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1998-celtic-tiger-and-crash"}],
+      "persons": ["brian-lenihan"],
+      "places": ["dublin"],
+      "organizations": ["fianna-fail"],
+      "sources": [{"ref": "wp-en-post-2008-irish-banking-crisis"}],
+      "status": "draft"
+    },
+    {
+      "id": "2010-eu-imf-bailout",
+      "title": {
+        "fr": "Plan de sauvetage de la troïka",
+        "en": "EU–IMF bailout",
+        "de": "EU-IWF-Rettungsprogramm",
+        "draft": ["en", "de"]
+      },
+      "type": "crisis",
+      "start": {"date": "2010-11-28"},
+      "summary": {
+        "fr": "L'Irlande accepte un programme de 85 milliards d'euros de l'UE et du FMI, assorti de sévères mesures d'austérité.",
+        "en": "Ireland accepts an €85 billion programme from the EU and the IMF, tied to severe austerity measures.",
+        "de": "Irland nimmt ein Programm der EU und des IWF über 85 Milliarden Euro an, verbunden mit harten Sparmaßnahmen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1998-celtic-tiger-and-crash"}],
+      "persons": ["brian-lenihan"],
+      "places": ["dublin"],
+      "organizations": ["imf", "fianna-fail"],
+      "sources": [{"ref": "wp-en-post-2008-irish-banking-crisis"}],
+      "status": "draft"
+    },
+    {
+      "id": "2011-irish-general-election",
+      "title": {
+        "fr": "Effondrement du Fianna Fáil",
+        "en": "Collapse of Fianna Fáil in 2011",
+        "de": "Zusammenbruch von Fianna Fáil 2011",
+        "draft": ["en", "de"]
+      },
+      "type": "election",
+      "start": {"date": "2011-02"},
+      "summary": {
+        "fr": "Le parti au pouvoir tombe de 78 à 20 sièges, la pire défaite d'un gouvernement sortant de l'histoire de l'État ; Enda Kenny forme une coalition Fine Gael-Labour.",
+        "en": "The ruling party falls from 78 to 20 seats, the worst defeat of a sitting government in the state's history; Enda Kenny forms a Fine Gael–Labour coalition.",
+        "de": "Die Regierungspartei fällt von 78 auf 20 Sitze, die schwerste Niederlage einer amtierenden Regierung in der Geschichte des Staates; Enda Kenny bildet eine Koalition aus Fine Gael und Labour.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1998-celtic-tiger-and-crash"}],
+      "persons": ["enda-kenny"],
+      "organizations": ["fianna-fail", "fine-gael", "irish-labour-party"],
+      "sources": [{"ref": "wp-en-fianna-fail"}, {"ref": "wp-en-taoiseach"}],
+      "status": "draft"
+    },
+    {
+      "id": "2014-water-charges-protests",
+      "title": {
+        "fr": "Mouvement contre la taxe sur l'eau",
+        "en": "Water charges protests",
+        "de": "Proteste gegen die Wassergebühren",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "2014-10"},
+      "end": {"date": "2016-02-20"},
+      "summary": {
+        "fr": "Contre l'instauration de redevances sur l'eau en pleine austérité, des manifestations de 80 000 à près de 90 000 personnes à Dublin forcent le gouvernement à des concessions majeures.",
+        "en": "Against the introduction of water charges in the midst of austerity, demonstrations of 80,000 to nearly 90,000 people in Dublin force the government into major concessions.",
+        "de": "Gegen die Einführung von Wassergebühren mitten in der Sparpolitik zwingen Demonstrationen von 80.000 bis fast 90.000 Menschen in Dublin die Regierung zu großen Zugeständnissen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "2011-austerity-and-social-movements"}],
+      "places": ["dublin"],
+      "organizations": ["right2water"],
+      "sources": [{"ref": "wp-en-right2water"}],
+      "status": "draft"
+    },
+    {
+      "id": "2015-marriage-equality-referendum",
+      "title": {
+        "fr": "Référendum sur le mariage pour tous",
+        "en": "Marriage equality referendum",
+        "de": "Referendum über die Ehe für alle",
+        "draft": ["en", "de"]
+      },
+      "type": "vote",
+      "start": {"date": "2015-05-22"},
+      "summary": {
+        "fr": "Avec 62 % de oui, l'Irlande devient le premier pays à légaliser le mariage homosexuel par vote populaire.",
+        "en": "With 62% yes, Ireland becomes the first country to legalise same-sex marriage by popular vote.",
+        "de": "Mit 62 % Ja-Stimmen legalisiert Irland als erstes Land die gleichgeschlechtliche Ehe per Volksabstimmung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "2011-austerity-and-social-movements"}],
+      "persons": ["enda-kenny"],
+      "sources": [{"ref": "wp-en-thirty-fourth-amendment-ireland"}],
+      "status": "draft"
+    },
+    {
+      "id": "2018-repeal-of-the-eighth",
+      "title": {
+        "fr": "Abrogation du huitième amendement",
+        "en": "Repeal of the Eighth Amendment",
+        "de": "Aufhebung des Achten Verfassungszusatzes",
+        "draft": ["en", "de"]
+      },
+      "type": "vote",
+      "start": {"date": "2018-05-25"},
+      "summary": {
+        "fr": "Par 66,4 % des voix, les Irlandais suppriment l'interdiction constitutionnelle de l'avortement, au terme d'un long combat du mouvement des femmes.",
+        "en": "With 66.4% of the vote, the Irish remove the constitutional ban on abortion, after a long struggle by the women's movement.",
+        "de": "Mit 66,4 % der Stimmen streichen die Iren das verfassungsrechtliche Abtreibungsverbot, nach langem Kampf der Frauenbewegung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "2011-austerity-and-social-movements"}],
+      "sources": [{"ref": "wp-en-eighth-amendment-ireland"}],
+      "status": "draft"
+    },
+    {
+      "id": "2020-irish-general-election",
+      "title": {
+        "fr": "Le Sinn Féin en tête des voix",
+        "en": "Sinn Féin tops the vote in 2020",
+        "de": "Sinn Féin wird 2020 stärkste Kraft",
+        "draft": ["en", "de"]
+      },
+      "type": "election",
+      "start": {"date": "2020-02-08"},
+      "summary": {
+        "fr": "Avec 24,5 % des premières préférences, le Sinn Féin arrive en tête, mettant fin au duopole Fianna Fáil-Fine Gael ; ces deux partis s'allient pourtant avec les Verts pour gouverner.",
+        "en": "With 24.5% of first preferences, Sinn Féin comes first, ending the Fianna Fáil–Fine Gael duopoly; the two parties nonetheless join with the Greens to govern.",
+        "de": "Mit 24,5 % der Erstpräferenzen wird Sinn Féin stärkste Kraft und beendet das Duopol von Fianna Fáil und Fine Gael; die beiden Parteien regieren dennoch gemeinsam mit den Grünen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "2011-austerity-and-social-movements"}],
+      "persons": ["micheal-martin"],
+      "organizations": ["sinn-fein", "fianna-fail", "fine-gael"],
+      "sources": [{"ref": "wp-en-2020-irish-general-election"}],
+      "status": "draft"
+    },
+    {
+      "id": "2022-sinn-fein-largest-in-northern-ireland",
+      "title": {
+        "fr": "Le Sinn Féin premier parti d'Irlande du Nord",
+        "en": "Sinn Féin becomes largest party in Northern Ireland",
+        "de": "Sinn Féin wird stärkste Partei in Nordirland",
+        "draft": ["en", "de"]
+      },
+      "type": "election",
+      "start": {"date": "2022-05"},
+      "summary": {
+        "fr": "Pour la première fois depuis la création de l'Irlande du Nord, un parti nationaliste arrive en tête de l'Assemblée, avec 29 % des voix et 27 sièges sur 90.",
+        "en": "For the first time since Northern Ireland was created, a nationalist party comes first in the Assembly, with 29% of the vote and 27 of 90 seats.",
+        "de": "Erstmals seit der Gründung Nordirlands wird eine nationalistische Partei stärkste Kraft in der Versammlung, mit 29 % der Stimmen und 27 von 90 Sitzen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "2011-austerity-and-social-movements"}, {"id": "2010-austerity-and-brexit"}],
+      "places": ["belfast"],
+      "organizations": ["sinn-fein"],
+      "sources": [{"ref": "wp-en-sinn-fein"}],
+      "status": "draft"
+    },
+    {
+      "id": "2023-dublin-riot",
+      "title": {
+        "orig": "en",
+        "en": "2023 Dublin riot",
+        "fr": "Émeute d'extrême droite à Dublin",
+        "de": "Rechtsextreme Ausschreitungen in Dublin 2023",
+        "draft": ["de"]
+      },
+      "type": "other",
+      "start": {"date": "2023-11-23"},
+      "summary": {
+        "fr": "Après une attaque au couteau devant une école, des militants d'extrême droite attisent la haine anti-immigrés en ligne ; des émeutiers incendient bus, tramway et voitures de police dans le centre de Dublin.",
+        "en": "After a knife attack outside a school, far-right activists stoke anti-immigrant hatred online; rioters set fire to buses, a tram and police cars in central Dublin.",
+        "de": "Nach einer Messerattacke vor einer Schule schüren rechtsextreme Aktivisten online Hass gegen Migranten; Randalierer setzen im Dubliner Zentrum Busse, eine Straßenbahn und Polizeiautos in Brand.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "2011-austerity-and-social-movements"}],
+      "places": ["dublin"],
+      "sources": [{"ref": "wp-en-2023-dublin-riot"}],
+      "status": "draft"
+    },
+    {
+      "id": "2024-irish-general-election",
+      "title": {
+        "fr": "Élections générales de 2024",
+        "en": "2024 Irish general election",
+        "de": "Parlamentswahl in Irland 2024",
+        "draft": ["en", "de"]
+      },
+      "type": "election",
+      "start": {"date": "2024-11-29"},
+      "summary": {
+        "fr": "Fianna Fáil (21,9 %), Fine Gael (20,8 %) et Sinn Féin (19 %) se tiennent de près ; Micheál Martin redevient Taoiseach en janvier 2025 à la tête d'une coalition avec Fine Gael et des indépendants.",
+        "en": "Fianna Fáil (21.9%), Fine Gael (20.8%) and Sinn Féin (19%) finish close together; Micheál Martin becomes Taoiseach again in January 2025 at the head of a coalition with Fine Gael and independents.",
+        "de": "Fianna Fáil (21,9 %), Fine Gael (20,8 %) und Sinn Féin (19 %) liegen dicht beieinander; Micheál Martin wird im Januar 2025 erneut Taoiseach an der Spitze einer Koalition mit Fine Gael und Unabhängigen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "2011-austerity-and-social-movements"}],
+      "persons": ["micheal-martin"],
+      "organizations": ["fianna-fail", "fine-gael", "sinn-fein"],
+      "sources": [{"ref": "wp-en-2024-irish-general-election"}, {"ref": "wp-en-taoiseach"}],
+      "status": "draft"
+    },
+    {
+      "id": "2025-catherine-connolly-elected-president",
+      "title": {
+        "fr": "Élection de Catherine Connolly à la présidence",
+        "en": "Catherine Connolly elected President",
+        "de": "Wahl Catherine Connollys zur Präsidentin",
+        "draft": ["en", "de"]
+      },
+      "type": "election",
+      "start": {"date": "2025-10-24"},
+      "summary": {
+        "fr": "Candidate indépendante soutenue par toute la gauche, du Sinn Féin au Labour et à People Before Profit, elle l'emporte avec 63,4 % des premières préférences.",
+        "en": "An independent candidate backed by the whole left, from Sinn Féin to Labour and People Before Profit, she wins with 63.4% of first preferences.",
+        "de": "Als unabhängige Kandidatin, unterstützt von der gesamten Linken von Sinn Féin über Labour bis People Before Profit, gewinnt sie mit 63,4 % der Erstpräferenzen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "2011-austerity-and-social-movements"}],
+      "persons": ["catherine-connolly"],
+      "organizations": ["sinn-fein", "irish-labour-party"],
+      "sources": [{"ref": "wp-en-2025-irish-presidential-election"}],
+      "status": "draft"
+    },
+    {
+      "id": "2026-irish-fuel-protests",
+      "title": {
+        "fr": "Révolte contre le prix des carburants",
+        "en": "2026 Irish fuel protests",
+        "de": "Treibstoffproteste in Irland 2026",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "2026-04-07"},
+      "end": {"date": "2026-04-14"},
+      "summary": {
+        "fr": "Agriculteurs, transporteurs et travailleurs dépendants de la route bloquent autoroutes et dépôts contre la vie chère ; le gouvernement mobilise l'armée, lâche une baisse des taxes et survit à une motion de censure.",
+        "en": "Farmers, hauliers and road-dependent workers block motorways and depots against the cost of living; the government deploys the army, concedes a tax cut and survives a confidence vote.",
+        "de": "Landwirte, Spediteure und auf die Straße angewiesene Beschäftigte blockieren Autobahnen und Depots gegen die Teuerung; die Regierung setzt die Armee ein, senkt Steuern und übersteht eine Vertrauensabstimmung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "2011-austerity-and-social-movements"}],
+      "persons": ["micheal-martin", "michael-healy-rae"],
+      "places": ["dublin", "cork"],
+      "sources": [{"ref": "wp-en-2026-irish-fuel-protests"}],
+      "status": "draft"
+    }
+  ]
+}

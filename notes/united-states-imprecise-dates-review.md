@@ -1,0 +1,16 @@
+---
+id: united-states-imprecise-dates-review
+about: ['node:1786-shays-rebellion', 'node:1812-war-of-1812', 'node:1822-denmark-vesey-conspiracy', 'node:1829-walkers-appeal', 'node:1831-the-liberator-founding', 'node:1847-the-north-star-founding', 'node:1851-jerry-rescue', 'node:1837-panic-and-flour-riot', 'node:1839-anti-rent-war', 'node:1841-dorr-rebellion', 'node:1838-trail-of-tears', 'node:1862-homestead-act', 'node:1890-sherman-antitrust-act', 'node:1896-plessy-v-ferguson', 'node:1901-socialist-party-of-america-founding', 'node:1913-federal-reserve-act', 'node:1913-paterson-silk-strike', 'node:1885-rock-springs-massacre', 'node:1915-execution-of-joe-hill', 'node:1915-us-occupation-of-haiti', 'node:1916-us-occupation-of-the-dominican-republic', 'node:1926-us-intervention-in-nicaragua', 'node:1917-east-st-louis-massacre', 'node:1917-green-corn-rebellion', 'node:1920-nineteenth-amendment', 'node:1920-sacco-and-vanzetti-case', 'node:1924-immigration-act', 'node:1925-brotherhood-of-sleeping-car-porters-founding', 'node:1930-unemployed-councils', 'node:1931-scottsboro-boys', 'node:1932-bonus-army', 'node:1935-wagner-act', 'node:1935-founding-of-the-cio', 'node:1938-fair-labor-standards-act', 'node:1940-smith-act', 'node:1921-battle-of-blair-mountain', 'node:1953-iranian-coup', 'node:1954-guatemalan-coup', 'node:1960-overthrow-of-lumumba', 'node:1964-brazilian-coup', 'node:1963-assassination-of-john-f-kennedy', 'node:1968-tet-offensive', 'node:1973-wounded-knee-occupation', 'node:1981-el-mozote-massacre', 'node:1983-invasion-of-grenada', 'node:1989-invasion-of-panama', 'node:1996-welfare-reform', 'node:2005-hurricane-katrina', 'node:2013-founding-of-black-lives-matter', 'node:1800-gabriels-rebellion']
+tags: [verification, date-imprecise]
+status: draft
+---
+
+# Timeline États-Unis : dates de précision réduite
+
+Pour ces nœuds, les sources consultées ne donnaient que l'année ou le mois. La date a été enregistrée avec la précision disponible, sans compléter de mémoire :
+
+- **Année seule** : révolte de Shays (1786-1787), conspiration de Vesey, Appel de Walker, *The Liberator*, *The North Star*, libération de Jerry, panique de 1837, guerre anti-rente, rébellion de Dorr, Homestead Act, loi Sherman, Plessy, fondation du Parti socialiste, Réserve fédérale, grève de Paterson, Rock Springs, occupations d'Haïti, de la République dominicaine et du Nicaragua, East St. Louis, maïs vert, 19e amendement, Sacco et Vanzetti, loi de 1924, porteurs de wagons-lits, conseils de chômeurs, Scottsboro, Bonus Army, loi Wagner, CIO, loi sur les normes de travail, loi Smith, coups d'État d'Iran, du Guatemala, du Congo et du Brésil, El Mozote, réforme de l'aide sociale, Black Lives Matter.
+- **Mois seul** : guerre de 1812 (juin 1812 ; déclaration usuelle le 18 juin, fin retenue à la signature du traité de Gand, ratifié en 1815), Piste des larmes (mai 1838, sans fin), Joe Hill (novembre 1915), Blair Mountain (août 1921), assassinat de Kennedy (novembre 1963), Grenade (octobre 1983), Panama (décembre 1989), Katrina (août 2005).
+- **Date déduite** : offensive du Têt au 30 janvier 1968 (Zinn : « début 1968 ») ; fin de l'occupation de Wounded Knee en mai 1973 (71 jours) ; conspiration de Gabriel à la date prévue du soulèvement (30 août 1800).
+
+**Choix retenu :** précision réduite. Compléter les jours quand une source sera consultée.

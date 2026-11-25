@@ -1,0 +1,1703 @@
+{
+  "$schema": "../../schema/nodes.schema.json",
+  "collection": "nodes",
+  "version": 1,
+  "items": [
+    {
+      "id": "switzerland",
+      "title": {"fr": "Suisse", "en": "Switzerland", "de": "Schweiz", "draft": ["en", "de"]},
+      "type": "era",
+      "start": {"date": "1798"},
+      "ongoing": true,
+      "summary": {
+        "fr": "Histoire de la Suisse depuis la fondation de l'État fédéral en 1848, centrée sur les rapports de force entre les classes et le mouvement ouvrier, précédée d'un prélude ouvert par la République helvétique.",
+        "en": "History of Switzerland since the founding of the federal state in 1848, focused on the balance of class forces and the labour movement, preceded by a prelude opening with the Helvetic Republic.",
+        "de": "Geschichte der Schweiz seit der Gründung des Bundesstaates 1848, mit Schwerpunkt auf den Kräfteverhältnissen zwischen den Klassen und der Arbeiterbewegung, eingeleitet durch ein Vorspiel ab der Helvetischen Republik.",
+        "draft": ["en", "de"]
+      },
+      "parents": [],
+      "status": "draft",
+      "view": {
+        "color": "#1f6f8b",
+        "label": {"fr": "Suisse", "en": "Switzerland", "de": "Schweiz", "draft": ["en", "de"]},
+        "default_depth": 1
+      }
+    },
+    {
+      "id": "1798-helvetic-republic-to-federal-state",
+      "title": {
+        "fr": "De la République helvétique à l'État fédéral",
+        "en": "From the Helvetic Republic to the Federal State",
+        "de": "Von der Helvetischen Republik zum Bundesstaat",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1798"},
+      "end": {"date": "1848-09-12"},
+      "summary": {
+        "fr": "De l'invasion française et de la République helvétique à la guerre du Sonderbund : un demi-siècle d'affrontements entre conservateurs et libéraux-radicaux qui débouche sur l'État fédéral.",
+        "en": "From the French invasion and the Helvetic Republic to the Sonderbund War: half a century of conflict between conservatives and liberal radicals that ends in the federal state.",
+        "de": "Vom französischen Einmarsch und der Helvetischen Republik bis zum Sonderbundskrieg: ein halbes Jahrhundert der Auseinandersetzung zwischen Konservativen und liberalen Radikalen, das in den Bundesstaat mündet.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "switzerland", "order": 0}],
+      "sources": [{"ref": "dhs-helvetic-republic"}, {"ref": "dhs-federal-constitution"}],
+      "status": "draft"
+    },
+    {
+      "id": "1848-founding-of-federal-state",
+      "title": {
+        "fr": "Fondation de l'État fédéral",
+        "en": "Founding of the Federal State",
+        "de": "Gründung des Bundesstaates",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1848-09-12"},
+      "end": {"date": "1874-04-19"},
+      "summary": {
+        "fr": "La Constitution de 1848 crée un État fédéral dominé par les radicaux : unification économique, essor des chemins de fer et premières organisations ouvrières, jusqu'à la révision totale de 1874.",
+        "en": "The 1848 Constitution creates a federal state dominated by the Radicals: economic unification, railway expansion and the first workers' organisations, up to the total revision of 1874.",
+        "de": "Die Verfassung von 1848 schafft einen von den Freisinnigen beherrschten Bundesstaat: wirtschaftliche Vereinheitlichung, Eisenbahnbau und erste Arbeiterorganisationen bis zur Totalrevision von 1874.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "switzerland", "order": 1}],
+      "sources": [{"ref": "dhs-federal-constitution"}],
+      "status": "draft"
+    },
+    {
+      "id": "1874-direct-democracy-and-labour-movement",
+      "title": {
+        "fr": "Démocratie directe, industrialisation et mouvement ouvrier",
+        "en": "Direct Democracy, Industrialisation and the Labour Movement",
+        "de": "Direkte Demokratie, Industrialisierung und Arbeiterbewegung",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1874-04-19"},
+      "end": {"date": "1914-08-01"},
+      "summary": {
+        "fr": "La Constitution révisée introduit le référendum, puis l'initiative populaire. L'industrialisation fait naître syndicats et parti socialiste, tandis que la Suisse accueille de nombreux exilés politiques.",
+        "en": "The revised Constitution introduces the referendum, then the popular initiative. Industrialisation gives rise to trade unions and a socialist party, while Switzerland takes in many political exiles.",
+        "de": "Die revidierte Verfassung führt das Referendum und später die Volksinitiative ein. Die Industrialisierung bringt Gewerkschaften und eine sozialdemokratische Partei hervor, während die Schweiz viele politische Flüchtlinge aufnimmt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "switzerland", "order": 2}],
+      "sources": [{"ref": "dhs-federal-constitution"}],
+      "status": "draft"
+    },
+    {
+      "id": "1914-first-world-war-and-general-strike",
+      "title": {
+        "fr": "Première Guerre mondiale et grève générale",
+        "en": "First World War and General Strike",
+        "de": "Erster Weltkrieg und Landesstreik",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1914-08-01"},
+      "end": {"date": "1918-11-15"},
+      "summary": {
+        "fr": "Mobilisation, renchérissement et pénuries appauvrissent la classe ouvrière ; la gauche internationaliste se réunit à Zimmerwald et Kienthal, et la tension culmine dans la grève générale de novembre 1918.",
+        "en": "Mobilisation, rising prices and shortages impoverish the working class; the internationalist left meets at Zimmerwald and Kienthal, and tension peaks in the general strike of November 1918.",
+        "de": "Mobilmachung, Teuerung und Mangel verarmen die Arbeiterschaft; die internationalistische Linke trifft sich in Zimmerwald und Kiental, und die Spannungen gipfeln im Landesstreik vom November 1918.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "switzerland", "order": 3}],
+      "sources": [{"ref": "dhs-first-world-war"}, {"ref": "dhs-general-strike"}],
+      "status": "draft"
+    },
+    {
+      "id": "1919-interwar-and-second-world-war",
+      "title": {
+        "fr": "Entre-deux-guerres et Seconde Guerre mondiale",
+        "en": "Interwar Period and Second World War",
+        "de": "Zwischenkriegszeit und Zweiter Weltkrieg",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1919"},
+      "end": {"date": "1945"},
+      "summary": {
+        "fr": "De l'après-grève générale à la fin de la Seconde Guerre mondiale : proportionnelle, crise économique, fronts d'extrême droite, Paix du travail et intégration progressive de la gauche dans les institutions.",
+        "en": "From the aftermath of the general strike to the end of the Second World War: proportional representation, economic crisis, far-right fronts, the labour peace and the gradual integration of the left into the institutions.",
+        "de": "Von der Zeit nach dem Landesstreik bis zum Ende des Zweiten Weltkriegs: Proporzwahl, Wirtschaftskrise, Frontenbewegung, Arbeitsfrieden und schrittweise Einbindung der Linken in die Institutionen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "switzerland", "order": 4}],
+      "status": "draft"
+    },
+    {
+      "id": "1945-post-war-boom-and-concordance",
+      "title": {
+        "fr": "Haute conjoncture et concordance",
+        "en": "Post-war Boom and Concordance",
+        "de": "Hochkonjunktur und Konkordanz",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1945"},
+      "end": {"date": "1989"},
+      "summary": {
+        "fr": "Haute conjoncture et construction de l'État social, concordance gouvernementale, immigration de travail et xénophobie, contestation de 1968, suffrage féminin et création du canton du Jura.",
+        "en": "Economic boom and the building of the welfare state, government by concordance, labour immigration and xenophobia, the protests of 1968, women's suffrage and the creation of the canton of Jura.",
+        "de": "Hochkonjunktur und Ausbau des Sozialstaats, Konkordanzregierung, Arbeitsmigration und Fremdenfeindlichkeit, die Proteste von 1968, Frauenstimmrecht und Gründung des Kantons Jura.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "switzerland", "order": 5}],
+      "status": "draft"
+    },
+    {
+      "id": "1990-since-end-of-cold-war",
+      "title": {
+        "fr": "Depuis la fin de la Guerre froide",
+        "en": "Since the End of the Cold War",
+        "de": "Seit dem Ende des Kalten Krieges",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1990"},
+      "ongoing": true,
+      "summary": {
+        "fr": "Fin de la Guerre froide, débats sur l'intégration européenne, nouvelle Constitution de 1999, adhésion à l'ONU et retour des mobilisations sociales, notamment les grèves des femmes.",
+        "en": "End of the Cold War, debates on European integration, the new Constitution of 1999, accession to the UN and a revival of social mobilisation, notably the women's strikes.",
+        "de": "Ende des Kalten Krieges, Debatten über die europäische Integration, neue Bundesverfassung von 1999, UNO-Beitritt und neue soziale Mobilisierungen, namentlich die Frauenstreiks.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "switzerland", "order": 6}],
+      "sources": [{"ref": "dhs-federal-constitution"}],
+      "status": "draft"
+    },
+    {
+      "id": "1798-french-invasion",
+      "title": {
+        "fr": "Invasion française de la Suisse",
+        "en": "French invasion of Switzerland",
+        "de": "Franzoseneinfall",
+        "draft": ["en", "de"]
+      },
+      "type": "war",
+      "start": {"date": "1798-01-24"},
+      "end": {"date": "1798-03-05"},
+      "summary": {
+        "fr": "Les troupes françaises entrent dans le Pays de Vaud fin janvier, puis envahissent Berne et Soleure début mars. Berne capitule le 4 mars et la défaite du Grauholz, le lendemain, consacre la chute de l'Ancienne Confédération.",
+        "en": "French troops enter Vaud in late January, then invade Bern and Solothurn in early March. Bern capitulates on 4 March, and the defeat at Grauholz the next day seals the fall of the Old Confederacy.",
+        "de": "Französische Truppen rücken Ende Januar in die Waadt ein und fallen Anfang März in Bern und Solothurn ein. Bern kapituliert am 4. März; die Niederlage im Grauholz am Folgetag besiegelt den Untergang der Alten Eidgenossenschaft.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1798-helvetic-republic-to-federal-state"}],
+      "places": ["bern"],
+      "sources": [{"ref": "wp-en-battle-of-grauholz"}, {"ref": "dhs-helvetic-republic"}],
+      "status": "draft"
+    },
+    {
+      "id": "1798-helvetic-republic",
+      "title": {
+        "fr": "République helvétique",
+        "en": "Helvetic Republic",
+        "de": "Helvetische Republik",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1798-04-12"},
+      "end": {"date": "1803-03-10"},
+      "summary": {
+        "fr": "Une constitution imposée par la France remplace la Confédération des cantons par un État unitaire. Minée par le conflit entre unitaires et fédéralistes, la République prend fin avec l'Acte de médiation.",
+        "en": "A constitution imposed by France replaces the confederation of cantons with a unitary state. Undermined by the conflict between unitarists and federalists, the Republic ends with the Act of Mediation.",
+        "de": "Eine von Frankreich aufgezwungene Verfassung ersetzt den Bund der Orte durch einen Einheitsstaat. Vom Konflikt zwischen Unitariern und Föderalisten zermürbt, endet die Republik mit der Mediationsakte.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1798-helvetic-republic-to-federal-state"}],
+      "places": ["aarau"],
+      "sources": [{"ref": "dhs-helvetic-republic"}],
+      "status": "draft"
+    },
+    {
+      "id": "1803-act-of-mediation",
+      "title": {
+        "orig": "fr",
+        "fr": "Acte de médiation",
+        "en": "Act of Mediation",
+        "de": "Mediationsakte",
+        "draft": ["en", "de"]
+      },
+      "type": "law",
+      "start": {"date": "1803-02-19"},
+      "summary": {
+        "fr": "Bonaparte impose une nouvelle organisation fédérale de dix-neuf cantons qui restaure largement leur souveraineté, sous tutelle française.",
+        "en": "Bonaparte imposes a new federal organisation of nineteen cantons that largely restores their sovereignty, under French tutelage.",
+        "de": "Bonaparte setzt eine neue föderale Ordnung mit neunzehn Kantonen durch, die deren Souveränität unter französischer Vormundschaft weitgehend wiederherstellt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1798-helvetic-republic-to-federal-state"}],
+      "persons": ["napoleon"],
+      "sources": [{"ref": "dhs-helvetic-republic"}],
+      "status": "draft"
+    },
+    {
+      "id": "1815-federal-pact",
+      "title": {"fr": "Pacte fédéral", "en": "Federal Treaty", "de": "Bundesvertrag", "draft": ["en", "de"]},
+      "type": "treaty",
+      "start": {"date": "1815-08-07"},
+      "summary": {
+        "fr": "Juré à Zurich, le Pacte fédéral lie vingt-deux cantons souverains dans une confédération lâche, sans gouvernement central, qui reste en vigueur jusqu'en 1848.",
+        "en": "Sworn in Zurich, the Federal Treaty binds twenty-two sovereign cantons in a loose confederation without central government, in force until 1848.",
+        "de": "Der in Zürich beschworene Bundesvertrag vereint zweiundzwanzig souveräne Kantone in einem losen Staatenbund ohne Zentralregierung, der bis 1848 gilt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1798-helvetic-republic-to-federal-state"}],
+      "places": ["zurich"],
+      "sources": [{"ref": "wp-fr-federal-pact-1815"}],
+      "status": "draft"
+    },
+    {
+      "id": "1830-regeneration",
+      "title": {"fr": "Régénération", "en": "Regeneration", "de": "Regeneration", "draft": ["en", "de"]},
+      "type": "period",
+      "start": {"date": "1830"},
+      "end": {"date": "1831"},
+      "summary": {
+        "fr": "Dans le sillage de la révolution de Juillet, sept cantons, dont Zurich, Berne, Lucerne et Argovie, se donnent des constitutions libérales ; une réaction conservatrice suit.",
+        "en": "In the wake of the July Revolution, seven cantons, including Zurich, Bern, Lucerne and Aargau, adopt liberal constitutions; a conservative reaction follows.",
+        "de": "Im Gefolge der Julirevolution geben sich sieben Kantone, darunter Zürich, Bern, Luzern und Aargau, liberale Verfassungen; es folgt eine konservative Reaktion.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1798-helvetic-republic-to-federal-state"}],
+      "sources": [{"ref": "dhs-concordat-of-seven"}],
+      "status": "draft"
+    },
+    {
+      "id": "1838-grutli-union-founding",
+      "title": {
+        "fr": "Fondation de la Société du Grutli",
+        "en": "Founding of the Grütli Union",
+        "de": "Gründung des Grütlivereins",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1838"},
+      "summary": {
+        "fr": "Des artisans fondent à Genève un cercle politique patriotique et démocrate, qui deviendra une composante importante du mouvement ouvrier réformiste.",
+        "en": "Craftsmen found a patriotic and democratic political circle in Geneva, which will become an important component of the reformist labour movement.",
+        "de": "Handwerker gründen in Genf einen patriotisch-demokratischen politischen Zirkel, der zu einem wichtigen Teil der reformistischen Arbeiterbewegung wird.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1798-helvetic-republic-to-federal-state"}],
+      "places": ["geneva"],
+      "organizations": ["grutli-union"],
+      "sources": [{"ref": "dhs-grutli-society"}],
+      "status": "draft"
+    },
+    {
+      "id": "1847-sonderbund-war",
+      "title": {
+        "orig": "de",
+        "fr": "Guerre du Sonderbund",
+        "en": "Sonderbund War",
+        "de": "Sonderbundskrieg",
+        "draft": ["en", "de"]
+      },
+      "type": "war",
+      "start": {"date": "1847-11-03"},
+      "end": {"date": "1847-11-29"},
+      "summary": {
+        "fr": "La Diète dissout par la force l'alliance séparée des cantons catholiques conservateurs. La campagne éclair du général Dufour fait moins d'une centaine de morts et ouvre la voie à l'État fédéral.",
+        "en": "The Diet dissolves by force the separate alliance of the Catholic conservative cantons. General Dufour's lightning campaign costs fewer than a hundred lives and opens the way to the federal state.",
+        "de": "Die Tagsatzung löst das Sonderbündnis der katholisch-konservativen Kantone gewaltsam auf. Der rasche Feldzug General Dufours fordert weniger als hundert Tote und ebnet den Weg zum Bundesstaat.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1798-helvetic-republic-to-federal-state"}],
+      "persons": ["guillaume-henri-dufour"],
+      "places": ["lucerne", "fribourg"],
+      "sources": [{"ref": "wp-en-sonderbund-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "1848-federal-constitution",
+      "title": {
+        "fr": "Constitution fédérale de 1848",
+        "en": "Federal Constitution of 1848",
+        "de": "Bundesverfassung von 1848",
+        "draft": ["en", "de"]
+      },
+      "type": "law",
+      "start": {"date": "1848-09-12"},
+      "summary": {
+        "fr": "Approuvée par quinze cantons et demi, la Constitution transforme la Confédération d'États en État fédéral, doté d'un parlement à deux chambres et d'un gouvernement collégial.",
+        "en": "Approved by fifteen and a half cantons, the Constitution turns the confederation of states into a federal state with a bicameral parliament and a collegial government.",
+        "de": "Von fünfzehneinhalb Kantonen angenommen, verwandelt die Verfassung den Staatenbund in einen Bundesstaat mit Zweikammerparlament und Kollegialregierung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-founding-of-federal-state"}],
+      "sources": [{"ref": "dhs-federal-constitution"}],
+      "status": "draft"
+    },
+    {
+      "id": "1848-first-federal-council",
+      "title": {
+        "fr": "Élection du premier Conseil fédéral",
+        "en": "Election of the first Federal Council",
+        "de": "Wahl des ersten Bundesrates",
+        "draft": ["en", "de"]
+      },
+      "type": "election",
+      "start": {"date": "1848-11"},
+      "summary": {
+        "fr": "L'Assemblée fédérale élit les sept premiers conseillers fédéraux ; les radicaux gouvernent seuls pendant 43 ans.",
+        "en": "The Federal Assembly elects the first seven federal councillors; the Radicals govern alone for 43 years.",
+        "de": "Die Bundesversammlung wählt die ersten sieben Bundesräte; die Freisinnigen regieren 43 Jahre lang allein.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-founding-of-federal-state"}],
+      "places": ["bern"],
+      "sources": [{"ref": "admin-federal-council-history"}],
+      "status": "draft"
+    },
+    {
+      "id": "1849-baden-refugees",
+      "title": {
+        "fr": "Asile des révolutionnaires badois",
+        "en": "Baden revolutionaries seek asylum in Switzerland",
+        "de": "Übertritt der badischen Revolutionäre in die Schweiz",
+        "draft": ["en", "de"]
+      },
+      "type": "exile",
+      "start": {"date": "1849-07-12"},
+      "summary": {
+        "fr": "Après l'écrasement de la révolution badoise, les troupes révolutionnaires franchissent la frontière et demandent l'asile, posant au jeune État fédéral la question des réfugiés politiques.",
+        "en": "After the crushing of the Baden revolution, the revolutionary troops cross the border and ask for asylum, confronting the young federal state with the question of political refugees.",
+        "de": "Nach der Niederschlagung der badischen Revolution überschreiten die Revolutionstruppen die Grenze und bitten um Asyl; der junge Bundesstaat steht vor der Flüchtlingsfrage.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-founding-of-federal-state"}],
+      "sources": [{"ref": "wp-en-baden-revolution"}],
+      "status": "draft"
+    },
+    {
+      "id": "1852-federal-railway-act",
+      "title": {
+        "fr": "Loi fédérale sur les chemins de fer",
+        "en": "Federal Railway Act of 1852",
+        "de": "Eisenbahngesetz von 1852",
+        "draft": ["en", "de"]
+      },
+      "type": "law",
+      "start": {"date": "1852"},
+      "summary": {
+        "fr": "La Confédération laisse les concessions aux cantons et la construction au capital privé, choix défendu par Alfred Escher contre les partisans d'un réseau d'État.",
+        "en": "The Confederation leaves concessions to the cantons and construction to private capital, a choice championed by Alfred Escher against supporters of a state network.",
+        "de": "Der Bund überlässt die Konzessionen den Kantonen und den Bau dem Privatkapital, eine von Alfred Escher gegen die Befürworter einer Staatsbahn verfochtene Lösung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-founding-of-federal-state"}],
+      "persons": ["alfred-escher"],
+      "sources": [{"ref": "dhs-railways"}],
+      "status": "draft"
+    },
+    {
+      "id": "1864-glarus-factory-act",
+      "title": {
+        "fr": "Loi glaronaise sur les fabriques",
+        "en": "Glarus Factory Act",
+        "de": "Glarner Fabrikgesetz",
+        "draft": ["en", "de"]
+      },
+      "type": "law",
+      "start": {"date": "1864"},
+      "summary": {
+        "fr": "Le canton de Glaris limite à douze heures la durée du travail en fabrique et fait figure de pionnier de la protection ouvrière.",
+        "en": "The canton of Glarus limits factory working hours to twelve and becomes a pioneer of labour protection.",
+        "de": "Der Kanton Glarus begrenzt die Fabrikarbeitszeit auf zwölf Stunden und wird zum Pionier des Arbeiterschutzes.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-founding-of-federal-state"}],
+      "places": ["glarus"],
+      "sources": [{"ref": "dhs-working-time"}],
+      "status": "draft"
+    },
+    {
+      "id": "1866-iwa-geneva-congress",
+      "title": {
+        "fr": "Congrès de Genève de l'AIT",
+        "en": "Geneva Congress of the IWA",
+        "de": "Genfer Kongress der IAA",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1866-09-03"},
+      "end": {"date": "1866-09-08"},
+      "summary": {
+        "fr": "Premier congrès de l'Association internationale des travailleurs ; près de la moitié des délégués viennent de sections suisses. Il fait de la journée de huit heures une revendication centrale.",
+        "en": "First congress of the International Workingmen's Association; nearly half the delegates come from Swiss sections. It makes the eight-hour day a central demand.",
+        "de": "Erster Kongress der Internationalen Arbeiterassoziation; fast die Hälfte der Delegierten stammt aus Schweizer Sektionen. Er erhebt den Achtstundentag zur zentralen Forderung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-founding-of-federal-state"}, {"id": "1864-first-international-period"}],
+      "places": ["geneva"],
+      "organizations": ["first-international"],
+      "sources": [{"ref": "wp-en-geneva-congress-1866"}],
+      "status": "draft"
+    },
+    {
+      "id": "1867-democratic-movement",
+      "title": {
+        "orig": "de",
+        "fr": "Mouvement démocratique",
+        "en": "Democratic Movement",
+        "de": "Demokratische Bewegung",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1867"},
+      "end": {"date": "1874-04-19"},
+      "summary": {
+        "fr": "Parti de Winterthour, un mouvement des classes moyennes contre le « système Escher » réclame référendum, initiative et réformes sociales, qu'il obtient d'abord à Zurich avec la Constitution de 1869.",
+        "en": "Starting in Winterthur, a middle-class movement against the 'Escher system' demands the referendum, the initiative and social reforms, winning them first in Zurich with the 1869 Constitution.",
+        "de": "Von Winterthur ausgehend fordert eine Bewegung des Mittelstands gegen das «System Escher» Referendum, Initiative und Sozialreformen und setzt sie zuerst in Zürich mit der Verfassung von 1869 durch.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-founding-of-federal-state"}],
+      "persons": ["alfred-escher"],
+      "places": ["winterthur", "zurich"],
+      "sources": [{"ref": "wp-de-democratic-movement-ch"}, {"ref": "dhs-cantonal-constitutions"}],
+      "status": "draft"
+    },
+    {
+      "id": "1868-geneva-building-strike",
+      "title": {
+        "fr": "Grève du bâtiment à Genève",
+        "en": "Geneva building workers' strike",
+        "de": "Bauarbeiterstreik in Genf",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "1868", "display": "printemps 1868"},
+      "summary": {
+        "fr": "Les ouvriers du bâtiment confient la conduite de leur grève à l'Internationale, reçoivent des soutiens de toute l'Europe et obtiennent une hausse de salaire et la journée de dix heures.",
+        "en": "Building workers hand the conduct of their strike to the International, receive support from across Europe and win a wage rise and the ten-hour day.",
+        "de": "Die Bauarbeiter übertragen die Streikleitung der Internationale, erhalten Unterstützung aus ganz Europa und erreichen eine Lohnerhöhung und den Zehnstundentag.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-founding-of-federal-state"}],
+      "places": ["geneva"],
+      "organizations": ["first-international"],
+      "sources": [{"ref": "stekloff-first-international"}],
+      "status": "draft"
+    },
+    {
+      "id": "1871-jura-federation-founding",
+      "title": {
+        "fr": "Fondation de la Fédération jurassienne",
+        "en": "Founding of the Jura Federation",
+        "de": "Gründung der Juraföderation",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1871-11-12"},
+      "summary": {
+        "fr": "Au congrès de Sonvilier, les sections antiautoritaires de l'Internationale du Jura horloger fondent la Fédération jurassienne et contestent l'autorité du Conseil général de Londres.",
+        "en": "At the Sonvilier congress, the anti-authoritarian sections of the International in the watchmaking Jura found the Jura Federation and challenge the authority of the General Council in London.",
+        "de": "Am Kongress von Sonvilier gründen die antiautoritären Sektionen der Internationale im Uhrenjura die Juraföderation und bestreiten die Autorität des Generalrats in London.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-founding-of-federal-state"}],
+      "persons": ["james-guillaume", "adhemar-schwitzguebel"],
+      "places": ["sonvilier"],
+      "organizations": ["jura-federation", "first-international"],
+      "sources": [{"ref": "wp-fr-jura-federation"}],
+      "status": "draft"
+    },
+    {
+      "id": "1872-constitution-revision-rejected",
+      "title": {
+        "fr": "Rejet de la révision totale de la Constitution",
+        "en": "Rejection of the total revision of the Constitution",
+        "de": "Ablehnung der Totalrevision der Bundesverfassung",
+        "draft": ["en", "de"]
+      },
+      "type": "vote",
+      "start": {"date": "1872-05-12"},
+      "summary": {
+        "fr": "Jugé trop centralisateur, le projet de révision totale est rejeté de justesse par 50,5 % des votants et une majorité des cantons.",
+        "en": "Judged too centralist, the draft total revision is narrowly rejected by 50.5% of voters and a majority of cantons.",
+        "de": "Als zu zentralistisch empfunden, wird der Entwurf zur Totalrevision mit 50,5 % der Stimmen und einer Mehrheit der Kantone knapp abgelehnt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-founding-of-federal-state"}],
+      "sources": [{"ref": "wp-en-1872-constitutional-referendum"}, {"ref": "wp-de-democratic-movement-ch"}],
+      "status": "draft"
+    },
+    {
+      "id": "1872-saint-imier-congress",
+      "title": {
+        "fr": "Congrès de Saint-Imier",
+        "en": "Saint-Imier Congress",
+        "de": "Kongress von Saint-Imier",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1872-09", "display": "mi-septembre 1872"},
+      "summary": {
+        "fr": "Quelques jours après le congrès de La Haye, les fédérations antiautoritaires en rejettent les décisions et fondent l'Internationale antiautoritaire, consacrant la scission de l'AIT.",
+        "en": "A few days after the Hague Congress, the anti-authoritarian federations reject its decisions and found the Anti-authoritarian International, sealing the split in the IWA.",
+        "de": "Wenige Tage nach dem Haager Kongress verwerfen die antiautoritären Föderationen dessen Beschlüsse und gründen die Antiautoritäre Internationale; die Spaltung der IAA ist besiegelt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-founding-of-federal-state"}, {"id": "1864-first-international-period"}],
+      "persons": ["bakunin", "james-guillaume"],
+      "places": ["saint-imier"],
+      "organizations": ["jura-federation", "first-international"],
+      "sources": [{"ref": "wp-en-saint-imier-international"}, {"ref": "wp-fr-jura-federation"}],
+      "status": "draft"
+    },
+    {
+      "id": "1873-swiss-workers-federation-founding",
+      "title": {
+        "fr": "Fondation de l'Arbeiterbund",
+        "en": "Founding of the Swiss Workers' Federation",
+        "de": "Gründung des Schweizerischen Arbeiterbundes",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1873"},
+      "summary": {
+        "fr": "Les associations ouvrières de Suisse alémanique se regroupent dans une fédération qui se dissout en 1880, année de la fondation de l'Union syndicale suisse.",
+        "en": "Workers' associations in German-speaking Switzerland unite in a federation that dissolves in 1880, the year the Swiss Trade Union Federation is founded.",
+        "de": "Die Arbeitervereine der Deutschschweiz schliessen sich zu einem Bund zusammen, der sich 1880 auflöst, im Gründungsjahr des Schweizerischen Gewerkschaftsbundes.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-founding-of-federal-state"}],
+      "organizations": ["swiss-workers-federation"],
+      "sources": [{"ref": "wp-en-trade-unions-switzerland"}],
+      "status": "draft"
+    },
+    {
+      "id": "1874-federal-constitution-revision",
+      "title": {
+        "fr": "Révision totale de la Constitution fédérale",
+        "en": "Total revision of the Federal Constitution",
+        "de": "Totalrevision der Bundesverfassung",
+        "draft": ["en", "de"]
+      },
+      "type": "vote",
+      "start": {"date": "1874-04-19"},
+      "summary": {
+        "fr": "Le peuple accepte la Constitution révisée par 63 % des voix : elle introduit le référendum facultatif et donne à la Confédération des compétences sur l'armée et la protection des travailleurs.",
+        "en": "Voters accept the revised Constitution with 63% of the vote: it introduces the optional referendum and gives the Confederation powers over the army and worker protection.",
+        "de": "Das Volk nimmt die revidierte Verfassung mit 63 % an: Sie führt das fakultative Referendum ein und gibt dem Bund Kompetenzen über die Armee und den Arbeiterschutz.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1874-direct-democracy-and-labour-movement"}],
+      "sources": [{"ref": "dhs-federal-constitution"}, {"ref": "wp-de-democratic-movement-ch"}],
+      "status": "draft"
+    },
+    {
+      "id": "1875-goschenen-strike",
+      "title": {
+        "fr": "Grève de Göschenen",
+        "en": "Göschenen strike",
+        "de": "Streik von Göschenen",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "1875-07-27"},
+      "end": {"date": "1875-07-28"},
+      "summary": {
+        "fr": "Les ouvriers du tunnel du Gothard cessent le travail pour leurs salaires, l'aération et la sécurité ; l'intervention de la police et de la milice fait quatre morts.",
+        "en": "Gotthard tunnel workers stop work over pay, ventilation and safety; the intervention of police and militia leaves four dead.",
+        "de": "Die Arbeiter am Gotthardtunnel legen wegen Lohn, Belüftung und Sicherheit die Arbeit nieder; beim Einsatz von Polizei und Miliz sterben vier Menschen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1874-direct-democracy-and-labour-movement"}],
+      "places": ["goschenen"],
+      "sources": [{"ref": "wp-en-goschenen-riots"}],
+      "status": "draft"
+    },
+    {
+      "id": "1877-federal-factory-act",
+      "title": {
+        "fr": "Loi fédérale sur les fabriques",
+        "en": "Federal Factory Act",
+        "de": "Eidgenössisches Fabrikgesetz",
+        "draft": ["en", "de"]
+      },
+      "type": "vote",
+      "start": {"date": "1877-10-21"},
+      "summary": {
+        "fr": "Acceptée de justesse en votation, la loi limite la journée à onze heures, interdit le travail en fabrique des enfants de moins de 14 ans et crée l'inspection des fabriques.",
+        "en": "Narrowly approved by voters, the act limits the working day to eleven hours, bans factory work by children under 14 and creates factory inspection.",
+        "de": "Knapp angenommen, begrenzt das Gesetz den Arbeitstag auf elf Stunden, verbietet Fabrikarbeit von Kindern unter 14 Jahren und schafft das Fabrikinspektorat.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1874-direct-democracy-and-labour-movement"}],
+      "sources": [{"ref": "parlament-factory-act-1877"}, {"ref": "dhs-working-time"}],
+      "status": "draft"
+    },
+    {
+      "id": "1880-uss-founding",
+      "title": {
+        "fr": "Fondation de l'Union syndicale suisse",
+        "en": "Founding of the Swiss Trade Union Federation",
+        "de": "Gründung des Schweizerischen Gewerkschaftsbundes",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1880-11"},
+      "summary": {
+        "fr": "Au congrès d'Olten, la Fédération ouvrière suisse se dissout au profit d'une organisation purement syndicale, l'Union syndicale suisse, active dès 1881.",
+        "en": "At the Olten congress, the Swiss Workers' Federation dissolves in favour of a purely trade-union body, the Swiss Trade Union Federation, active from 1881.",
+        "de": "Am Kongress in Olten löst sich der Schweizerische Arbeiterbund zugunsten einer rein gewerkschaftlichen Organisation auf, des Schweizerischen Gewerkschaftsbundes, der ab 1881 tätig ist.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1874-direct-democracy-and-labour-movement"}],
+      "places": ["olten"],
+      "organizations": ["swiss-trade-union-federation", "swiss-workers-federation"],
+      "sources": [{"ref": "dhs-uss"}],
+      "status": "draft"
+    },
+    {
+      "id": "1888-sps-founding",
+      "title": {
+        "fr": "Fondation du Parti socialiste suisse",
+        "en": "Founding of the Social Democratic Party of Switzerland",
+        "de": "Gründung der Sozialdemokratischen Partei der Schweiz",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1888"},
+      "summary": {
+        "fr": "Fondation du Parti socialiste suisse, sur un premier programme réformiste esquissé par l'ancien radical Albert Steck ; son premier élu au Conseil national entre en 1890.",
+        "en": "Founding of the Social Democratic Party of Switzerland, on an initial reformist programme drafted by the former Radical Albert Steck; its first National Council member is elected in 1890.",
+        "de": "Gründung der Sozialdemokratischen Partei der Schweiz auf der Grundlage eines ersten reformistischen Programms des ehemaligen Freisinnigen Albert Steck; 1890 zieht ihr erster Nationalrat ein.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1874-direct-democracy-and-labour-movement"}],
+      "persons": ["albert-steck"],
+      "organizations": ["sps"],
+      "sources": [{"ref": "dhs-sp"}],
+      "status": "draft"
+    },
+    {
+      "id": "1891-popular-initiative",
+      "title": {
+        "fr": "Introduction de l'initiative populaire",
+        "en": "Introduction of the popular initiative",
+        "de": "Einführung der Volksinitiative",
+        "draft": ["en", "de"]
+      },
+      "type": "vote",
+      "start": {"date": "1891-07-05"},
+      "summary": {
+        "fr": "Le peuple accepte à 60 % l'initiative populaire pour la révision partielle de la Constitution, nouvel instrument de pression pour les minorités politiques, dont le mouvement ouvrier.",
+        "en": "Voters approve by 60% the popular initiative for partial revision of the Constitution, a new lever for political minorities, including the labour movement.",
+        "de": "Das Volk nimmt mit 60 % die Volksinitiative auf Teilrevision der Verfassung an, ein neues Druckmittel politischer Minderheiten, auch der Arbeiterbewegung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1874-direct-democracy-and-labour-movement"}],
+      "sources": [{"ref": "wp-en-1891-swiss-referendums"}, {"ref": "parlament-popular-initiatives"}],
+      "status": "draft"
+    },
+    {
+      "id": "1898-railway-nationalisation",
+      "title": {
+        "fr": "Rachat des chemins de fer",
+        "en": "Railway nationalisation",
+        "de": "Rückkauf der Eisenbahnen",
+        "draft": ["en", "de"]
+      },
+      "type": "vote",
+      "start": {"date": "1898-02-20"},
+      "summary": {
+        "fr": "Le peuple approuve à 68 % le rachat des grandes compagnies ferroviaires privées par la Confédération ; les Chemins de fer fédéraux commencent leur activité en 1901.",
+        "en": "Voters approve by 68% the federal buyout of the large private railway companies; the Swiss Federal Railways begin operating in 1901.",
+        "de": "Das Volk billigt mit 68 % den Rückkauf der grossen privaten Bahngesellschaften durch den Bund; die Schweizerischen Bundesbahnen nehmen 1901 den Betrieb auf.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1874-direct-democracy-and-labour-movement"}],
+      "sources": [{"ref": "wp-en-1898-swiss-referendums"}, {"ref": "dhs-railways"}],
+      "status": "draft"
+    },
+    {
+      "id": "1902-geneva-general-strike",
+      "title": {
+        "fr": "Grève générale de Genève",
+        "en": "Geneva general strike",
+        "de": "Generalstreik in Genf",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "1902"},
+      "summary": {
+        "fr": "Grève générale à Genève, l'une des grèves générales locales qui marquent la montée des conflits sociaux en Suisse avant 1914.",
+        "en": "General strike in Geneva, one of the local general strikes that mark rising social conflict in Switzerland before 1914.",
+        "de": "Generalstreik in Genf, einer der lokalen Generalstreiks, die die Zunahme sozialer Konflikte in der Schweiz vor 1914 kennzeichnen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1874-direct-democracy-and-labour-movement"}],
+      "places": ["geneva"],
+      "sources": [{"ref": "heimberg-general-strike-1918"}],
+      "status": "draft"
+    },
+    {
+      "id": "1904-sps-marxist-programme",
+      "title": {
+        "fr": "Programme marxiste du Parti socialiste",
+        "en": "Marxist programme of the Social Democratic Party",
+        "de": "Marxistisches Parteiprogramm der SP",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1904"},
+      "summary": {
+        "fr": "Le PS adopte un programme d'inspiration marxiste qui mentionne pour la première fois la lutte des classes et le transfert des moyens de production à la propriété sociale.",
+        "en": "The SP adopts a Marxist-inspired programme that mentions for the first time the class struggle and the transfer of the means of production to social ownership.",
+        "de": "Die SP gibt sich ein marxistisch geprägtes Programm, das erstmals den Klassenkampf und die Überführung der Produktionsmittel in Gemeineigentum nennt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1874-direct-democracy-and-labour-movement"}],
+      "organizations": ["sps"],
+      "sources": [{"ref": "dhs-sp"}],
+      "status": "draft"
+    },
+    {
+      "id": "1912-zurich-general-strike",
+      "title": {
+        "fr": "Grève générale de Zurich",
+        "en": "Zurich general strike",
+        "de": "Zürcher Generalstreik",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "1912-07-12"},
+      "summary": {
+        "fr": "Après le meurtre d'un gréviste par un briseur de grève, jusqu'à 23 000 ouvriers suivent une grève générale d'un jour ; le gouvernement cantonal envoie la troupe et annonce l'expulsion de grévistes étrangers.",
+        "en": "After a striker is killed by a strikebreaker, up to 23,000 workers join a one-day general strike; the cantonal government sends in troops and announces the expulsion of foreign strikers.",
+        "de": "Nachdem ein Streikender von einem Streikbrecher erschossen wurde, beteiligen sich bis zu 23 000 Arbeiter an einem eintägigen Generalstreik; die Kantonsregierung bietet Truppen auf und kündigt die Ausweisung ausländischer Streikender an.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1874-direct-democracy-and-labour-movement"}],
+      "places": ["zurich"],
+      "sources": [{"ref": "tageswoche-zurich-strike-1912"}],
+      "status": "draft"
+    },
+    {
+      "id": "1914-swiss-general-mobilisation",
+      "title": {
+        "fr": "Mobilisation générale et élection du général Wille",
+        "en": "General mobilisation and election of General Wille",
+        "de": "Allgemeine Mobilmachung und Wahl General Willes",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1914-08-01"},
+      "summary": {
+        "fr": "Le Conseil fédéral décrète la mobilisation générale ; environ 220 000 hommes entrent en service et l'Assemblée fédérale élit Ulrich Wille général le 3 août.",
+        "en": "The Federal Council orders general mobilisation; some 220,000 men report for duty and the Federal Assembly elects Ulrich Wille general on 3 August.",
+        "de": "Der Bundesrat ordnet die allgemeine Mobilmachung an; rund 220 000 Mann rücken ein, und die Bundesversammlung wählt am 3. August Ulrich Wille zum General.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1914-first-world-war-and-general-strike"}],
+      "persons": ["ulrich-wille"],
+      "sources": [{"ref": "dhs-first-world-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "1917-food-rationing",
+      "title": {
+        "fr": "Début du rationnement",
+        "en": "Start of food rationing",
+        "de": "Beginn der Rationierung",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1917-03"},
+      "summary": {
+        "fr": "Après les mauvaises récoltes et les crises de ravitaillement, le rationnement commence ; la hausse des prix fait passer près de la moitié d'un salaire moyen dans l'alimentation.",
+        "en": "After poor harvests and supply crises, rationing begins; rising prices push food spending to about half of an average wage.",
+        "de": "Nach Missernten und Versorgungskrisen beginnt die Rationierung; die Teuerung lässt die Ausgaben für Nahrung auf rund die Hälfte eines Durchschnittslohns steigen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1914-first-world-war-and-general-strike"}],
+      "sources": [{"ref": "swissinfo-general-strike-1918"}],
+      "status": "draft"
+    },
+    {
+      "id": "1917-grimm-hoffmann-affair",
+      "title": {
+        "fr": "Affaire Grimm-Hoffmann",
+        "en": "Grimm–Hoffmann affair",
+        "de": "Grimm-Hoffmann-Affäre",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1917-05"},
+      "end": {"date": "1917-06"},
+      "summary": {
+        "fr": "Robert Grimm, à Petrograd, échange des télégrammes avec le conseiller fédéral Hoffmann sur une paix séparée germano-russe ; leur divulgation contraint Hoffmann à démissionner et Grimm à quitter la Commission socialiste internationale.",
+        "en": "Robert Grimm, in Petrograd, exchanges telegrams with Federal Councillor Hoffmann on a separate German-Russian peace; their disclosure forces Hoffmann to resign and Grimm to leave the International Socialist Commission.",
+        "de": "Robert Grimm tauscht in Petrograd mit Bundesrat Hoffmann Telegramme über einen deutsch-russischen Separatfrieden aus; ihre Enthüllung zwingt Hoffmann zum Rücktritt und Grimm zum Austritt aus der Internationalen Sozialistischen Kommission.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1914-first-world-war-and-general-strike"}],
+      "persons": ["robert-grimm", "arthur-hoffmann"],
+      "places": ["saint-petersburg"],
+      "sources": [{"ref": "wp-en-grimm-hoffmann-affair"}],
+      "status": "draft"
+    },
+    {
+      "id": "1917-zurich-november-riots",
+      "title": {
+        "orig": "de",
+        "fr": "Troubles de novembre 1917 à Zurich",
+        "en": "Zurich November riots",
+        "de": "Novemberunruhen in Zürich",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1917-11-17"},
+      "summary": {
+        "fr": "Une manifestation contre deux entreprises de munitions dégénère en émeute à Zurich ; quatre morts et plus de trente blessés.",
+        "en": "A demonstration against two munitions companies turns into a riot in Zurich; four dead and more than thirty injured.",
+        "de": "Eine Demonstration gegen zwei Munitionsfabriken schlägt in Zürich in Krawalle um; vier Tote und über dreissig Verletzte.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1914-first-world-war-and-general-strike"}],
+      "places": ["zurich"],
+      "sources": [{"ref": "swissinfo-general-strike-1918"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-olten-action-committee-founding",
+      "title": {
+        "fr": "Fondation du Comité d'action d'Olten",
+        "en": "Founding of the Olten Action Committee",
+        "de": "Gründung des Oltener Aktionskomitees",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1918-02"},
+      "summary": {
+        "fr": "À l'initiative de Robert Grimm, dirigeants syndicaux et socialistes forment le Comité d'Olten, d'abord contre le projet de service civil obligatoire ; il devient l'état-major du mouvement ouvrier.",
+        "en": "On Robert Grimm's initiative, trade-union and socialist leaders form the Olten Committee, first against a planned compulsory civilian service; it becomes the labour movement's general staff.",
+        "de": "Auf Initiative Robert Grimms bilden Gewerkschafts- und SP-Führer das Oltener Aktionskomitee, zunächst gegen die geplante Zivildienstpflicht; es wird zum Führungsorgan der Arbeiterbewegung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1914-first-world-war-and-general-strike"}],
+      "persons": ["robert-grimm"],
+      "places": ["olten"],
+      "organizations": ["olten-action-committee", "sps", "swiss-trade-union-federation"],
+      "sources": [{"ref": "dhs-general-strike"}, {"ref": "swissinfo-general-strike-1918"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-zurich-bank-strike",
+      "title": {
+        "fr": "Grève des employés de banque à Zurich",
+        "en": "Zurich bank employees' strike",
+        "de": "Zürcher Bankangestelltenstreik",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "1918-09-30"},
+      "summary": {
+        "fr": "Les employés des grandes banques zurichoises font grève pour un salaire minimum face au renchérissement, signe de l'extension du conflit social aux employés.",
+        "en": "Employees of Zurich's major banks strike for a minimum wage in the face of rising prices, a sign that social conflict is spreading to white-collar staff.",
+        "de": "Die Angestellten der Zürcher Grossbanken streiken angesichts der Teuerung für einen Mindestlohn – ein Zeichen, dass der soziale Konflikt auch die Angestellten erfasst.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1914-first-world-war-and-general-strike"}],
+      "places": ["zurich"],
+      "sources": [{"ref": "wp-en-1918-in-switzerland"}, {"ref": "swissinfo-general-strike-1918"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-proportional-representation-vote",
+      "title": {
+        "fr": "Acceptation de la proportionnelle",
+        "en": "Proportional representation approved",
+        "de": "Annahme der Proporzwahl",
+        "draft": ["en", "de"]
+      },
+      "type": "vote",
+      "start": {"date": "1918-10-13"},
+      "summary": {
+        "fr": "Après deux échecs en 1900 et 1910, le peuple accepte à 66,8 % l'élection du Conseil national à la proportionnelle ; en 1919, les radicaux perdent la majorité absolue et le PS double ses sièges.",
+        "en": "After two failures in 1900 and 1910, voters approve by 66.8% the proportional election of the National Council; in 1919 the Radicals lose their absolute majority and the SP doubles its seats.",
+        "de": "Nach zwei Anläufen 1900 und 1910 nimmt das Volk den Nationalratsproporz mit 66,8 % an; 1919 verlieren die Freisinnigen die absolute Mehrheit, die SP verdoppelt ihre Sitze.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1914-first-world-war-and-general-strike"}],
+      "sources": [{"ref": "parlament-majorz-to-proporz"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-protest-strike",
+      "title": {
+        "fr": "Grève de protestation du 9 novembre",
+        "en": "Protest strike of 9 November",
+        "de": "Proteststreik vom 9. November",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "1918-11-09"},
+      "summary": {
+        "fr": "Contre l'envoi de troupes à Zurich, le Comité d'Olten appelle à une grève de protestation de vingt-quatre heures, suivie dans dix-neuf villes ; de violents affrontements éclatent à Zurich le lendemain.",
+        "en": "Against the dispatch of troops to Zurich, the Olten Committee calls a twenty-four-hour protest strike, followed in nineteen towns; violent clashes break out in Zurich the next day.",
+        "de": "Gegen das Truppenaufgebot in Zürich ruft das Oltener Komitee zu einem 24-stündigen Proteststreik auf, dem in neunzehn Städten gefolgt wird; am Folgetag kommt es in Zürich zu heftigen Zusammenstössen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1914-first-world-war-and-general-strike"}],
+      "places": ["zurich"],
+      "organizations": ["olten-action-committee"],
+      "sources": [{"ref": "dhs-general-strike"}, {"ref": "swissinfo-general-strike-1918"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-swiss-general-strike",
+      "title": {
+        "orig": "de",
+        "fr": "Grève générale de 1918",
+        "en": "Swiss general strike of 1918",
+        "de": "Landesstreik",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "1918-11-12"},
+      "end": {"date": "1918-11-15"},
+      "summary": {
+        "fr": "Environ 250 000 travailleurs suivent l'appel du Comité d'Olten, qui réclame notamment la proportionnelle, le suffrage féminin, la semaine de 48 heures et l'AVS ; face à l'armée, il cède à l'ultimatum du Conseil fédéral.",
+        "en": "About 250,000 workers answer the Olten Committee's call, whose demands include proportional representation, women's suffrage, the 48-hour week and old-age insurance; facing the army, it yields to the Federal Council's ultimatum.",
+        "de": "Rund 250 000 Arbeiter folgen dem Aufruf des Oltener Komitees, das u. a. Proporz, Frauenstimmrecht, 48-Stunden-Woche und Altersversicherung fordert; angesichts der Armee beugt es sich dem Ultimatum des Bundesrates.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1914-first-world-war-and-general-strike"}],
+      "persons": ["robert-grimm", "fritz-platten", "ernst-nobs"],
+      "organizations": ["olten-action-committee", "sps", "swiss-trade-union-federation"],
+      "sources": [{"ref": "dhs-general-strike"}, {"ref": "swissinfo-general-strike-1918"}],
+      "status": "draft"
+    },
+    {
+      "id": "1919-general-strike-trial",
+      "title": {
+        "fr": "Procès de la grève générale",
+        "en": "General strike trial",
+        "de": "Landesstreikprozess",
+        "draft": ["en", "de"]
+      },
+      "type": "trial",
+      "start": {"date": "1919-03"},
+      "end": {"date": "1919-04"},
+      "summary": {
+        "fr": "Un tribunal militaire juge 21 dirigeants de la grève pour incitation à la mutinerie : Grimm, Schneider et Platten sont condamnés à six mois de prison, Nobs à quatre semaines, les autres acquittés.",
+        "en": "A military court tries 21 strike leaders for incitement to mutiny: Grimm, Schneider and Platten get six months in prison, Nobs four weeks, and the others are acquitted.",
+        "de": "Ein Militärgericht verurteilt von 21 Streikführern wegen Anstiftung zur Meuterei Grimm, Schneider und Platten zu sechs Monaten Gefängnis und Nobs zu vier Wochen; die übrigen werden freigesprochen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-interwar-and-second-world-war"}],
+      "persons": ["robert-grimm", "friedrich-schneider", "fritz-platten", "ernst-nobs"],
+      "organizations": ["olten-action-committee"],
+      "sources": [{"ref": "dhs-general-strike"}, {"ref": "wp-en-1918-swiss-general-strike"}],
+      "status": "draft"
+    },
+    {
+      "id": "1919-first-proportional-election",
+      "title": {
+        "fr": "Premières élections à la proportionnelle",
+        "en": "First proportional elections",
+        "de": "Erste Proporzwahlen",
+        "draft": ["en", "de"]
+      },
+      "type": "election",
+      "start": {"date": "1919-10"},
+      "summary": {
+        "fr": "Premières élections du Conseil national à la proportionnelle : les radicaux passent de 103 à 60 sièges et perdent la majorité absolue ; le PS obtient 41 sièges et le parti des paysans 29.",
+        "en": "First proportional elections to the National Council: the Radicals fall from 103 to 60 seats and lose their absolute majority; the SP wins 41 seats and the Farmers' Party 29.",
+        "de": "Erste Nationalratswahlen im Proporz: Die Freisinnigen fallen von 103 auf 60 Sitze und verlieren die absolute Mehrheit; die SP erhält 41, die Bauernpartei 29 Sitze.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-interwar-and-second-world-war"}],
+      "organizations": ["sps"],
+      "sources": [{"ref": "parlament-majorz-to-proporz"}, {"ref": "dhs-sp"}],
+      "status": "draft"
+    },
+    {
+      "id": "1921-communist-party-founding",
+      "title": {
+        "fr": "Fondation du Parti communiste suisse",
+        "en": "Founding of the Communist Party of Switzerland",
+        "de": "Gründung der Kommunistischen Partei der Schweiz",
+        "draft": ["en", "de"]
+      },
+      "type": "split",
+      "start": {"date": "1921-03-06"},
+      "summary": {
+        "fr": "Après le refus de la base socialiste d'adhérer à la IIIe Internationale, l'aile gauche du PS fonde à Zurich le Parti communiste suisse.",
+        "en": "After the socialist rank and file refuses to join the Third International, the SP's left wing founds the Communist Party of Switzerland in Zurich.",
+        "de": "Nachdem die SP-Basis den Beitritt zur Dritten Internationale abgelehnt hat, gründet der linke Parteiflügel in Zürich die Kommunistische Partei der Schweiz.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-interwar-and-second-world-war"}],
+      "persons": ["fritz-platten"],
+      "places": ["zurich"],
+      "organizations": ["communist-party-of-switzerland", "sps"],
+      "sources": [{"ref": "wp-en-communist-party-switzerland"}, {"ref": "dhs-sp"}],
+      "status": "draft"
+    },
+    {
+      "id": "1922-capital-levy-initiative",
+      "title": {
+        "fr": "Initiative pour un prélèvement sur la fortune",
+        "en": "Capital levy initiative",
+        "de": "Initiative für eine Vermögensabgabe",
+        "draft": ["en", "de"]
+      },
+      "type": "vote",
+      "start": {"date": "1922-12-03"},
+      "summary": {
+        "fr": "L'initiative pour un prélèvement unique sur les grandes fortunes est rejetée par 87 % des votants.",
+        "en": "The initiative for a one-off levy on large fortunes is rejected by 87% of voters.",
+        "de": "Die Initiative für eine einmalige Abgabe auf grosse Vermögen wird von 87 % der Stimmenden abgelehnt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-interwar-and-second-world-war"}],
+      "sources": [{"ref": "wp-en-1922-swiss-referendums"}],
+      "status": "draft"
+    },
+    {
+      "id": "1928-red-zurich",
+      "title": {
+        "fr": "« Zurich rouge » et percée socialiste",
+        "en": "'Red Zurich' and socialist breakthrough",
+        "de": "«Rotes Zürich» und sozialdemokratischer Durchbruch",
+        "draft": ["en", "de"]
+      },
+      "type": "election",
+      "start": {"date": "1928"},
+      "summary": {
+        "fr": "La gauche conquiert la majorité à Zurich et le PS devient le premier parti au Conseil national, tout en restant exclu du Conseil fédéral.",
+        "en": "The left wins a majority in Zurich and the SP becomes the largest party in the National Council, while remaining excluded from the Federal Council.",
+        "de": "Die Linke erringt in Zürich die Mehrheit, und die SP wird stärkste Partei im Nationalrat, bleibt aber vom Bundesrat ausgeschlossen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-interwar-and-second-world-war"}],
+      "places": ["zurich"],
+      "organizations": ["sps"],
+      "sources": [{"ref": "dhs-sp"}],
+      "status": "draft"
+    },
+    {
+      "id": "1932-geneva-shooting",
+      "title": {
+        "fr": "Fusillade de Genève",
+        "en": "Geneva shooting of 1932",
+        "de": "Genfer Blutnacht",
+        "draft": ["en", "de"]
+      },
+      "type": "massacre",
+      "start": {"date": "1932-11-09"},
+      "summary": {
+        "fr": "Lors d'une contre-manifestation socialiste contre un meeting de l'Union nationale frontiste, des recrues de l'armée tirent sur la foule : 13 morts et 65 blessés, en majorité des passants.",
+        "en": "During a socialist counter-demonstration against a meeting of the far-right National Union, army recruits fire on the crowd: 13 dead and 65 wounded, mostly bystanders.",
+        "de": "Bei einer sozialistischen Gegendemonstration gegen eine Versammlung der frontistischen Union nationale schiessen Rekruten in die Menge: 13 Tote und 65 Verletzte, meist Unbeteiligte.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-interwar-and-second-world-war"}],
+      "persons": ["leon-nicole"],
+      "places": ["geneva"],
+      "organizations": ["union-nationale-geneva", "sps"],
+      "sources": [{"ref": "wp-en-1932-geneva-shooting"}, {"ref": "dhs-sp"}],
+      "status": "draft"
+    },
+    {
+      "id": "1933-fronts-spring",
+      "title": {
+        "orig": "de",
+        "fr": "Printemps des fronts",
+        "en": "Spring of the Fronts",
+        "de": "Frontenfrühling",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1933"},
+      "summary": {
+        "fr": "Les mouvements frontistes d'inspiration fasciste connaissent une brève poussée, à Schaffhouse et Zurich notamment, puis s'effondrent : ils n'ont plus que deux élus au Conseil national en 1935.",
+        "en": "Fascist-inspired Front movements enjoy a brief surge, notably in Schaffhausen and Zurich, then collapse: by 1935 they hold only two National Council seats.",
+        "de": "Die faschistisch inspirierten Fronten erleben, besonders in Schaffhausen und Zürich, einen kurzen Aufschwung und brechen dann ein: 1935 haben sie nur noch zwei Nationalratssitze.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-interwar-and-second-world-war"}],
+      "sources": [{"ref": "hls-fronts"}],
+      "status": "draft"
+    },
+    {
+      "id": "1933-geneva-left-government",
+      "title": {
+        "fr": "Gouvernement de gauche à Genève",
+        "en": "Left-wing government in Geneva",
+        "de": "Linksregierung in Genf",
+        "draft": ["en", "de"]
+      },
+      "type": "election",
+      "start": {"date": "1933-11-26"},
+      "summary": {
+        "fr": "Un an après la fusillade, Léon Nicole est élu au Conseil d'État et prend la tête du gouvernement genevois, le premier gouvernement cantonal de gauche en Suisse.",
+        "en": "A year after the shooting, Léon Nicole is elected to the Council of State and heads the Geneva government, the first left-wing cantonal government in Switzerland.",
+        "de": "Ein Jahr nach der Schiesserei wird Léon Nicole in den Staatsrat gewählt und übernimmt die Genfer Regierung, die erste linke Kantonsregierung der Schweiz.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-interwar-and-second-world-war"}],
+      "persons": ["leon-nicole"],
+      "places": ["geneva"],
+      "organizations": ["sps"],
+      "sources": [{"ref": "wp-en-1932-geneva-shooting"}],
+      "status": "draft"
+    },
+    {
+      "id": "1935-crisis-initiative",
+      "title": {
+        "orig": "de",
+        "fr": "Initiative de crise",
+        "en": "Crisis initiative",
+        "de": "Kriseninitiative",
+        "draft": ["en", "de"]
+      },
+      "type": "vote",
+      "start": {"date": "1935-06-02"},
+      "summary": {
+        "fr": "En pleine dépression, l'initiative de crise, qui réclame une politique active contre le chômage et la baisse des revenus, est rejetée par 57 % des votants.",
+        "en": "In the depths of the Depression, the crisis initiative, calling for an active policy against unemployment and falling incomes, is rejected by 57% of voters.",
+        "de": "Mitten in der Wirtschaftskrise wird die Kriseninitiative, die eine aktive Politik gegen Arbeitslosigkeit und Einkommensverluste verlangt, mit 57 % abgelehnt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-interwar-and-second-world-war"}],
+      "sources": [{"ref": "wp-en-1935-swiss-referendums"}],
+      "status": "draft"
+    },
+    {
+      "id": "1935-sps-national-defence",
+      "title": {
+        "fr": "Le PS se rallie à la défense nationale",
+        "en": "The SP rallies to national defence",
+        "de": "Die SP bekennt sich zur Landesverteidigung",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1935"},
+      "summary": {
+        "fr": "Face aux menaces fasciste et nazie, le PS supprime de son programme la « dictature du prolétariat » et se rallie à la défense nationale.",
+        "en": "Facing the fascist and Nazi threat, the SP drops the 'dictatorship of the proletariat' from its programme and rallies to national defence.",
+        "de": "Angesichts der faschistischen und nationalsozialistischen Bedrohung streicht die SP die «Diktatur des Proletariats» aus ihrem Programm und bekennt sich zur Landesverteidigung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-interwar-and-second-world-war"}],
+      "organizations": ["sps"],
+      "sources": [{"ref": "dhs-sp"}],
+      "status": "draft"
+    },
+    {
+      "id": "1936-franc-devaluation",
+      "title": {
+        "fr": "Dévaluation du franc",
+        "en": "Devaluation of the franc",
+        "de": "Frankenabwertung",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1936-09"},
+      "summary": {
+        "fr": "Après la livre, le dollar et le franc français, la Suisse dévalue à son tour le franc d'environ 30 %.",
+        "en": "Following sterling, the dollar and the French franc, Switzerland in turn devalues the franc by about 30%.",
+        "de": "Nach Pfund, Dollar und französischem Franc wertet auch die Schweiz den Franken um rund 30 % ab.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-interwar-and-second-world-war"}],
+      "sources": [{"ref": "wp-en-swiss-franc"}],
+      "status": "draft"
+    },
+    {
+      "id": "1937-labour-peace",
+      "title": {
+        "fr": "Paix du travail",
+        "en": "Labour Peace Agreement",
+        "de": "Friedensabkommen",
+        "draft": ["en", "de"]
+      },
+      "type": "treaty",
+      "start": {"date": "1937-07-19"},
+      "summary": {
+        "fr": "Syndicats et patronat de la métallurgie et des machines signent une convention de paix absolue du travail : les conflits sont réglés par arbitrage, sans grève ni lock-out.",
+        "en": "Unions and employers in the metal and engineering industry sign an agreement establishing absolute labour peace: disputes go to arbitration, without strikes or lockouts.",
+        "de": "Gewerkschaften und Arbeitgeber der Metall- und Maschinenindustrie schliessen ein Abkommen über den absoluten Arbeitsfrieden: Konflikte werden durch Schlichtung statt Streik oder Aussperrung gelöst.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-interwar-and-second-world-war"}],
+      "sources": [{"ref": "dhs-labour-peace"}],
+      "status": "draft"
+    },
+    {
+      "id": "1939-guisan-mobilisation",
+      "title": {
+        "fr": "Élection du général Guisan et mobilisation",
+        "en": "Election of General Guisan and mobilisation",
+        "de": "Wahl General Guisans und Mobilmachung",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1939-08-30"},
+      "summary": {
+        "fr": "L'Assemblée fédérale élit Henri Guisan général et le Conseil fédéral décrète la mobilisation générale, qui touche environ 430 000 hommes.",
+        "en": "The Federal Assembly elects Henri Guisan general and the Federal Council orders general mobilisation, affecting some 430,000 men.",
+        "de": "Die Bundesversammlung wählt Henri Guisan zum General, und der Bundesrat ordnet die allgemeine Mobilmachung an, die rund 430 000 Mann betrifft.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-interwar-and-second-world-war"}],
+      "persons": ["henri-guisan"],
+      "sources": [{"ref": "dhs-second-world-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "1940-loss-of-earnings-allowances",
+      "title": {
+        "fr": "Allocations pour perte de gain",
+        "en": "Loss-of-earnings allowances",
+        "de": "Lohn- und Verdienstersatzordnung",
+        "draft": ["en", "de"]
+      },
+      "type": "law",
+      "start": {"date": "1940-01"},
+      "summary": {
+        "fr": "Des allocations financées par des cotisations de 2 % des salariés et des employeurs, complétées par les pouvoirs publics, compensent le revenu des mobilisés.",
+        "en": "Allowances funded by 2% contributions from employees and employers, topped up by public funds, compensate mobilised men for lost earnings.",
+        "de": "Durch Beiträge von je 2 % der Arbeitnehmer und Arbeitgeber sowie durch öffentliche Mittel finanzierte Entschädigungen ersetzen den Verdienstausfall der Mobilisierten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-interwar-and-second-world-war"}],
+      "sources": [{"ref": "dhs-second-world-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "1940-pilet-golaz-speech",
+      "title": {
+        "fr": "Discours de Pilet-Golaz",
+        "en": "Pilet-Golaz speech",
+        "de": "Rede von Pilet-Golaz",
+        "draft": ["en", "de"]
+      },
+      "type": "speech",
+      "start": {"date": "1940-06-25"},
+      "summary": {
+        "fr": "Après la défaite française, le président de la Confédération Marcel Pilet-Golaz prononce à la radio un discours dont les passages ambigus inquiètent, surtout dans sa version allemande.",
+        "en": "After the French defeat, Federal President Marcel Pilet-Golaz gives a radio address whose ambiguous passages cause unease, especially in the German version.",
+        "de": "Nach der französischen Niederlage hält Bundespräsident Marcel Pilet-Golaz eine Radioansprache, deren zweideutige Passagen vor allem in der deutschen Fassung beunruhigen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-interwar-and-second-world-war"}],
+      "persons": ["marcel-pilet-golaz"],
+      "sources": [{"ref": "dhs-second-world-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "1940-communist-party-ban",
+      "title": {
+        "fr": "Interdiction du Parti communiste",
+        "en": "Ban of the Communist Party",
+        "de": "Verbot der Kommunistischen Partei",
+        "draft": ["en", "de"]
+      },
+      "type": "ban",
+      "start": {"date": "1940-11"},
+      "summary": {
+        "fr": "Le Conseil fédéral interdit le Parti communiste et le Mouvement national suisse ; la Fédération socialiste suisse de Léon Nicole, exclu du PS, est interdite en 1941.",
+        "en": "The Federal Council bans the Communist Party and the Swiss National Movement; Léon Nicole's Swiss Socialist Federation, after his expulsion from the SP, is banned in 1941.",
+        "de": "Der Bundesrat verbietet die Kommunistische Partei und die Nationale Bewegung der Schweiz; die Sozialistische Föderation des aus der SP ausgeschlossenen Léon Nicole wird 1941 verboten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-interwar-and-second-world-war"}],
+      "persons": ["leon-nicole"],
+      "organizations": ["communist-party-of-switzerland"],
+      "sources": [
+        {"ref": "dhs-second-world-war"},
+        {"ref": "dhs-sp"},
+        {"ref": "wp-en-communist-party-switzerland"}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "1942-refugee-border-closure",
+      "title": {
+        "fr": "Fermeture des frontières aux réfugiés juifs",
+        "en": "Border closure to Jewish refugees",
+        "de": "Grenzschliessung für jüdische Flüchtlinge",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1942-08-13"},
+      "summary": {
+        "fr": "Une circulaire de Heinrich Rothmund, chef de la police des étrangers, ordonne le refoulement des réfugiés juifs ; les estimations des civils refoulés pendant la guerre vont d'environ 10 000 à plus du double.",
+        "en": "A circular from Heinrich Rothmund, head of the aliens police, orders Jewish refugees to be turned back; estimates of civilians turned away during the war range from about 10,000 to more than double.",
+        "de": "Ein Kreisschreiben des Chefs der Fremdenpolizei Heinrich Rothmund ordnet die Rückweisung jüdischer Flüchtlinge an; die Schätzungen der im Krieg abgewiesenen Zivilpersonen reichen von rund 10 000 bis über das Doppelte.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-interwar-and-second-world-war"}],
+      "persons": ["heinrich-rothmund"],
+      "sources": [{"ref": "dhs-second-world-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "1943-first-socialist-federal-councillor",
+      "title": {
+        "fr": "Premier socialiste au Conseil fédéral",
+        "en": "First socialist on the Federal Council",
+        "de": "Erster Sozialdemokrat im Bundesrat",
+        "draft": ["en", "de"]
+      },
+      "type": "election",
+      "start": {"date": "1943-12"},
+      "summary": {
+        "fr": "L'Assemblée fédérale élit Ernst Nobs, ancien membre du Comité d'Olten, premier socialiste au Conseil fédéral.",
+        "en": "The Federal Assembly elects Ernst Nobs, a former member of the Olten Committee, as the first socialist on the Federal Council.",
+        "de": "Die Bundesversammlung wählt Ernst Nobs, ehemaliges Mitglied des Oltener Komitees, als ersten Sozialdemokraten in den Bundesrat.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-interwar-and-second-world-war"}],
+      "persons": ["ernst-nobs"],
+      "organizations": ["sps"],
+      "sources": [{"ref": "dhs-second-world-war"}, {"ref": "dhs-sp"}],
+      "status": "draft"
+    },
+    {
+      "id": "1944-party-of-labour-founding",
+      "title": {
+        "fr": "Fondation du Parti du travail",
+        "en": "Founding of the Party of Labour",
+        "de": "Gründung der Partei der Arbeit",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1944"},
+      "summary": {
+        "fr": "Communistes, membres de la Fédération socialiste interdite, indépendants et une partie de la gauche socialiste fondent le Parti du travail.",
+        "en": "Communists, members of the banned Socialist Federation, independents and part of the socialist left found the Party of Labour.",
+        "de": "Kommunisten, Mitglieder der verbotenen Sozialistischen Föderation, Parteilose und ein Teil der SP-Linken gründen die Partei der Arbeit.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1919-interwar-and-second-world-war"}],
+      "organizations": ["swiss-party-of-labour", "communist-party-of-switzerland"],
+      "sources": [{"ref": "dhs-sp"}, {"ref": "wp-en-communist-party-switzerland"}],
+      "status": "draft"
+    },
+    {
+      "id": "1947-avs-vote",
+      "title": {
+        "fr": "Acceptation de l'AVS",
+        "en": "Old-age and survivors' insurance approved",
+        "de": "Annahme der AHV",
+        "draft": ["en", "de"]
+      },
+      "type": "vote",
+      "start": {"date": "1947-07-06"},
+      "summary": {
+        "fr": "Le peuple accepte à 80 % l'assurance vieillesse et survivants, avec une participation de près de 80 % ; l'assurance vieillesse figurait parmi les revendications de la grève générale de 1918.",
+        "en": "Voters approve old-age and survivors' insurance by 80%, on a turnout of nearly 80%; old-age insurance had been one of the demands of the 1918 general strike.",
+        "de": "Das Volk nimmt die Alters- und Hinterlassenenversicherung mit 80 % bei fast 80 % Stimmbeteiligung an; die Altersversicherung gehörte zu den Forderungen des Landesstreiks von 1918.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1945-post-war-boom-and-concordance"}],
+      "sources": [{"ref": "wp-en-1947-swiss-referendums"}, {"ref": "dhs-general-strike"}],
+      "status": "draft"
+    },
+    {
+      "id": "1959-magic-formula",
+      "title": {
+        "orig": "de",
+        "fr": "Formule magique",
+        "en": "Magic formula",
+        "de": "Zauberformel",
+        "draft": ["en", "de"]
+      },
+      "type": "government",
+      "start": {"date": "1959-12"},
+      "summary": {
+        "fr": "Avec l'élection des socialistes Willy Spühler et Hans Peter Tschudi, le Conseil fédéral est réparti selon la clé 2-2-2-1 entre radicaux, catholiques-conservateurs, socialistes et agrariens, inchangée jusqu'en 2003.",
+        "en": "With the election of the socialists Willy Spühler and Hans Peter Tschudi, the Federal Council is shared on a 2-2-2-1 basis between Radicals, Catholic Conservatives, Socialists and Farmers, unchanged until 2003.",
+        "de": "Mit der Wahl der Sozialdemokraten Willy Spühler und Hans Peter Tschudi wird der Bundesrat nach dem Schlüssel 2-2-2-1 auf Freisinnige, Katholisch-Konservative, Sozialdemokraten und Bauernpartei verteilt, unverändert bis 2003.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1945-post-war-boom-and-concordance"}],
+      "persons": ["willy-spuhler", "hans-peter-tschudi"],
+      "organizations": ["sps"],
+      "sources": [{"ref": "dhs-sp"}, {"ref": "wp-en-magic-formula-swiss"}],
+      "status": "draft"
+    },
+    {
+      "id": "1968-globus-riot",
+      "title": {
+        "orig": "de",
+        "fr": "Émeute du Globus",
+        "en": "Globus riot",
+        "de": "Globuskrawall",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1968-06-29"},
+      "summary": {
+        "fr": "Le refus de la Ville de faire du Globus-Provisorium un centre autonome de jeunesse provoque une manifestation de plus d'un millier de personnes, dispersée à la matraque et au canon à eau : c'est le coup d'envoi de 68 en Suisse.",
+        "en": "The city's refusal to turn the Globus-Provisorium into an autonomous youth centre sparks a demonstration of over a thousand people, broken up with batons and water cannon: the starting point of 1968 in Switzerland.",
+        "de": "Die Weigerung der Stadt, das Globus-Provisorium zum autonomen Jugendhaus zu machen, löst eine Demonstration von über tausend Personen aus, die mit Schlagstöcken und Wasserwerfern aufgelöst wird: der Auftakt zu 1968 in der Schweiz.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1945-post-war-boom-and-concordance"}],
+      "places": ["zurich"],
+      "sources": [{"ref": "swissinfo-youth-centres"}],
+      "status": "draft"
+    },
+    {
+      "id": "1970-schwarzenbach-initiative",
+      "title": {
+        "fr": "Initiative Schwarzenbach",
+        "en": "Schwarzenbach initiative",
+        "de": "Schwarzenbach-Initiative",
+        "draft": ["en", "de"]
+      },
+      "type": "vote",
+      "start": {"date": "1970-06-07"},
+      "summary": {
+        "fr": "L'initiative de James Schwarzenbach contre l'« emprise étrangère », dirigée contre les travailleurs immigrés, est rejetée par 54 % des votants, avec une participation de près de 75 %.",
+        "en": "James Schwarzenbach's initiative 'against foreign infiltration', aimed at immigrant workers, is rejected by 54% of voters on a turnout of nearly 75%.",
+        "de": "Die gegen die ausländischen Arbeitskräfte gerichtete Initiative «gegen die Überfremdung» von James Schwarzenbach wird bei fast 75 % Stimmbeteiligung mit 54 % abgelehnt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1945-post-war-boom-and-concordance"}],
+      "persons": ["james-schwarzenbach"],
+      "sources": [{"ref": "wp-en-1970-swiss-referendums"}],
+      "status": "draft"
+    },
+    {
+      "id": "1971-womens-suffrage",
+      "title": {
+        "fr": "Suffrage féminin fédéral",
+        "en": "Federal women's suffrage",
+        "de": "Eidgenössisches Frauenstimmrecht",
+        "draft": ["en", "de"]
+      },
+      "type": "vote",
+      "start": {"date": "1971-02-07"},
+      "summary": {
+        "fr": "Les électeurs acceptent à 65,7 % le droit de vote et d'éligibilité des femmes au niveau fédéral, plus d'un demi-siècle après la revendication du Comité d'Olten.",
+        "en": "Voters approve by 65.7% women's right to vote and stand for election at federal level, more than half a century after the Olten Committee's demand.",
+        "de": "Die Stimmberechtigten nehmen das Frauenstimm- und -wahlrecht auf Bundesebene mit 65,7 % an, mehr als ein halbes Jahrhundert nach der Forderung des Oltener Komitees.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1945-post-war-boom-and-concordance"}],
+      "sources": [{"ref": "wp-en-1971-swiss-referendums"}, {"ref": "dhs-general-strike"}],
+      "status": "draft"
+    },
+    {
+      "id": "1978-jura-canton-vote",
+      "title": {
+        "fr": "Création du canton du Jura",
+        "en": "Creation of the canton of Jura",
+        "de": "Gründung des Kantons Jura",
+        "draft": ["en", "de"]
+      },
+      "type": "vote",
+      "start": {"date": "1978-09-24"},
+      "summary": {
+        "fr": "Le peuple et les cantons approuvent à 82,3 % la création du canton du Jura, détaché du canton de Berne au terme d'un long conflit séparatiste.",
+        "en": "Voters and cantons approve by 82.3% the creation of the canton of Jura, separated from the canton of Bern after a long separatist conflict.",
+        "de": "Volk und Stände stimmen mit 82,3 % der Gründung des Kantons Jura zu, der nach langem Separatistenkonflikt vom Kanton Bern abgetrennt wird.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1945-post-war-boom-and-concordance"}],
+      "sources": [{"ref": "wp-en-1978-swiss-referendums"}],
+      "status": "draft"
+    },
+    {
+      "id": "1989-army-abolition-initiative",
+      "title": {
+        "fr": "Initiative pour une Suisse sans armée",
+        "en": "Initiative for a Switzerland without an army",
+        "de": "Initiative für eine Schweiz ohne Armee",
+        "draft": ["en", "de"]
+      },
+      "type": "vote",
+      "start": {"date": "1989-11-26"},
+      "summary": {
+        "fr": "L'initiative du Groupe pour une Suisse sans armée est rejetée mais recueille 35,6 % des voix, avec une participation de 69 %.",
+        "en": "The Group for a Switzerland without an Army's initiative is rejected but wins 35.6% of the vote, on a 69% turnout.",
+        "de": "Die Initiative der Gruppe für eine Schweiz ohne Armee wird abgelehnt, erhält aber bei 69 % Stimmbeteiligung 35,6 % der Stimmen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1945-post-war-boom-and-concordance"}],
+      "organizations": ["gsoa"],
+      "sources": [{"ref": "wp-en-1989-swiss-referendums"}],
+      "status": "draft"
+    },
+    {
+      "id": "1989-secret-files-scandal",
+      "title": {
+        "orig": "de",
+        "fr": "Affaire des fiches",
+        "en": "Secret files scandal",
+        "de": "Fichenaffäre",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1989-11"},
+      "summary": {
+        "fr": "Une commission d'enquête parlementaire révèle que la police fédérale a constitué plus de 900 000 fiches, visant surtout des personnes et groupes de gauche ; 300 000 personnes demandent ensuite à consulter la leur.",
+        "en": "A parliamentary commission of inquiry reveals that the federal police kept more than 900,000 files, mostly on left-wing people and groups; 300,000 people later ask to see their own file.",
+        "de": "Eine parlamentarische Untersuchungskommission enthüllt, dass die Bundespolizei über 900 000 Fichen angelegt hat, vor allem über linke Personen und Gruppen; 300 000 Menschen verlangen danach Einsicht in ihre Fiche.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1945-post-war-boom-and-concordance"}],
+      "sources": [{"ref": "wp-en-secret-files-scandal"}],
+      "status": "draft"
+    },
+    {
+      "id": "1991-womens-strike",
+      "title": {
+        "fr": "Grève des femmes",
+        "en": "Women's strike",
+        "de": "Frauenstreik",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "1991-06-14"},
+      "summary": {
+        "fr": "À l'appel de l'Union syndicale suisse, plus de 500 000 femmes font grève ou manifestent pour exiger l'application de l'article constitutionnel sur l'égalité adopté dix ans plus tôt.",
+        "en": "Called by the Swiss Trade Union Federation, over 500,000 women strike or demonstrate to demand enforcement of the constitutional equality article adopted ten years earlier.",
+        "de": "Auf Aufruf des Gewerkschaftsbundes streiken oder demonstrieren über 500 000 Frauen für die Umsetzung des zehn Jahre zuvor angenommenen Gleichstellungsartikels.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1990-since-end-of-cold-war"}],
+      "persons": ["christiane-brunner"],
+      "organizations": ["swiss-trade-union-federation"],
+      "sources": [{"ref": "wp-en-womens-strike-1991"}],
+      "status": "draft"
+    },
+    {
+      "id": "1992-eea-rejection",
+      "title": {
+        "fr": "Rejet de l'Espace économique européen",
+        "en": "Rejection of the European Economic Area",
+        "de": "Nein zum Europäischen Wirtschaftsraum",
+        "draft": ["en", "de"]
+      },
+      "type": "vote",
+      "start": {"date": "1992-12-06"},
+      "summary": {
+        "fr": "Le peuple et une large majorité des cantons rejettent l'adhésion à l'Espace économique européen par 50,3 % des voix, avec une participation de près de 79 %.",
+        "en": "Voters and a large majority of cantons reject joining the European Economic Area with 50.3% of the vote, on a turnout of nearly 79%.",
+        "de": "Volk und eine grosse Mehrheit der Stände lehnen den Beitritt zum Europäischen Wirtschaftsraum mit 50,3 % bei fast 79 % Stimmbeteiligung ab.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1990-since-end-of-cold-war"}],
+      "sources": [{"ref": "wp-en-1992-swiss-referendums"}],
+      "status": "draft"
+    },
+    {
+      "id": "1999-new-federal-constitution",
+      "title": {
+        "fr": "Nouvelle Constitution fédérale",
+        "en": "New Federal Constitution",
+        "de": "Neue Bundesverfassung",
+        "draft": ["en", "de"]
+      },
+      "type": "vote",
+      "start": {"date": "1999-04-18"},
+      "summary": {
+        "fr": "Le peuple accepte une Constitution fédérale entièrement révisée, qui entre en vigueur le 1er janvier 2000.",
+        "en": "Voters accept a totally revised Federal Constitution, which enters into force on 1 January 2000.",
+        "de": "Das Volk nimmt eine totalrevidierte Bundesverfassung an, die am 1. Januar 2000 in Kraft tritt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1990-since-end-of-cold-war"}],
+      "sources": [{"ref": "dhs-federal-constitution"}],
+      "status": "draft"
+    },
+    {
+      "id": "2002-un-accession",
+      "title": {
+        "fr": "Adhésion à l'ONU",
+        "en": "Accession to the United Nations",
+        "de": "UNO-Beitritt",
+        "draft": ["en", "de"]
+      },
+      "type": "vote",
+      "start": {"date": "2002-03-03"},
+      "summary": {
+        "fr": "Le peuple approuve l'adhésion à l'ONU par 54,6 % des voix, la majorité des cantons étant acquise de justesse.",
+        "en": "Voters approve joining the UN with 54.6% of the vote, with a narrow majority of cantons.",
+        "de": "Das Volk stimmt dem UNO-Beitritt mit 54,6 % zu, die Ständemehrheit wird knapp erreicht.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1990-since-end-of-cold-war"}],
+      "sources": [{"ref": "wp-en-2002-swiss-referendums"}],
+      "status": "draft"
+    },
+    {
+      "id": "2019-feminist-strike",
+      "title": {
+        "fr": "Grève féministe",
+        "en": "Feminist strike",
+        "de": "Feministischer Streik",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "2019-06-14"},
+      "summary": {
+        "fr": "Vingt-huit ans après la première grève des femmes, plus d'un demi-million de personnes se mobilisent de nouveau dans tout le pays pour l'égalité.",
+        "en": "Twenty-eight years after the first women's strike, more than half a million people mobilise again across the country for equality.",
+        "de": "28 Jahre nach dem ersten Frauenstreik gehen erneut über eine halbe Million Menschen im ganzen Land für die Gleichstellung auf die Strasse.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1990-since-end-of-cold-war"}],
+      "sources": [{"ref": "wp-en-womens-strike-1991"}],
+      "status": "draft"
+    },
+    {
+      "id": "2024-13th-avs-pension",
+      "title": {
+        "fr": "13e rente AVS",
+        "en": "13th AHV/AVS pension",
+        "de": "13. AHV-Rente",
+        "draft": ["en", "de"]
+      },
+      "type": "vote",
+      "start": {"date": "2024-03-03"},
+      "summary": {
+        "fr": "Lancée par une alliance de gauche emmenée par les syndicats, l'initiative pour une 13e rente AVS est acceptée par 58 % des votants et 16 cantons : première initiative étendant l'État social à aboutir.",
+        "en": "Launched by a union-led left alliance, the initiative for a 13th AHV/AVS pension is approved by 58% of voters and 16 cantons: the first initiative extending the welfare state to succeed.",
+        "de": "Die von einer gewerkschaftlich geführten linken Allianz lancierte Initiative für eine 13. AHV-Rente wird mit 58 % und 16 Ständen angenommen: die erste erfolgreiche Initiative zum Ausbau des Sozialstaats.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1990-since-end-of-cold-war"}],
+      "sources": [{"ref": "ohrh-13th-avs-pension"}],
+      "status": "draft"
+    },
+    {
+      "id": "1947-founding-of-the-mont-pelerin-society",
+      "title": {
+        "fr": "Fondation de la Société du Mont-Pèlerin",
+        "en": "Founding of the Mont Pelerin Society",
+        "de": "Gründung der Mont Pelerin Society",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1947-04-01"},
+      "end": {"date": "1947-04-10"},
+      "summary": {
+        "fr": "À l'appel de Hayek, des économistes libéraux réunis au-dessus de Vevey fondent un réseau qui prépare la contre-offensive néolibérale contre le keynésianisme.",
+        "en": "At Hayek's call, liberal economists meeting above Vevey found a network that prepares the neoliberal counter-offensive against Keynesianism.",
+        "de": "Auf Hayeks Ruf gründen liberale Ökonomen oberhalb von Vevey ein Netzwerk, das die neoliberale Gegenoffensive gegen den Keynesianismus vorbereitet.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1945-post-war-boom-and-concordance"}],
+      "persons": ["friedrich-hayek"],
+      "places": ["mont-pelerin"],
+      "organizations": ["mont-pelerin-society"],
+      "status": "draft"
+    }
+  ]
+}

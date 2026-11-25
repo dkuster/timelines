@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Collection sources",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "collection": {
+      "const": "sources"
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/item"
+      }
+    }
+  },
+  "required": [
+    "collection",
+    "version",
+    "items"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "item": {
+      "type": "object",
+      "title": "Source documentaire (une édition précise)",
+      "properties": {
+        "id": {
+          "$ref": "common.schema.json#/$defs/slug"
+        },
+        "type": {
+          "enum": [
+            "book",
+            "article",
+            "website",
+            "archive",
+            "documentary"
+          ]
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "author": {
+          "type": "string"
+        },
+        "year": {
+          "type": "integer"
+        },
+        "publisher": {
+          "type": "string"
+        },
+        "language": {
+          "$ref": "common.schema.json#/$defs/langTag"
+        },
+        "isbn": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https?://"
+        },
+        "work": {
+          "$ref": "common.schema.json#/$defs/slug"
+        },
+        "status": {
+          "$ref": "common.schema.json#/$defs/status"
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "title"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

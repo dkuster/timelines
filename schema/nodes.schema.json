@@ -1,0 +1,192 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Collection nodes",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "collection": {
+      "const": "nodes"
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/item"
+      }
+    }
+  },
+  "required": [
+    "collection",
+    "version",
+    "items"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "item": {
+      "type": "object",
+      "title": "Nœud : événement, période ou timeline",
+      "properties": {
+        "id": {
+          "$ref": "common.schema.json#/$defs/slug"
+        },
+        "title": {
+          "$ref": "common.schema.json#/$defs/localizedText"
+        },
+        "aliases": {
+          "$ref": "common.schema.json#/$defs/stringList"
+        },
+        "type": {
+          "enum": [
+            "era",
+            "period",
+            "war",
+            "battle",
+            "revolution",
+            "insurrection",
+            "coup",
+            "massacre",
+            "repression",
+            "strike",
+            "demonstration",
+            "mutiny",
+            "election",
+            "vote",
+            "law",
+            "treaty",
+            "government",
+            "assassination",
+            "congress",
+            "conference",
+            "founding",
+            "split",
+            "merger",
+            "ban",
+            "birth",
+            "death",
+            "arrest",
+            "trial",
+            "exile",
+            "release",
+            "publication",
+            "speech",
+            "genocide",
+            "independence",
+            "unification",
+            "crisis",
+            "monetary",
+            "epidemic",
+            "famine",
+            "disaster",
+            "discovery",
+            "invention",
+            "premiere",
+            "artwork",
+            "exhibition",
+            "festival",
+            "competition",
+            "other"
+          ]
+        },
+        "start": {
+          "$ref": "common.schema.json#/$defs/dateValue"
+        },
+        "end": {
+          "$ref": "common.schema.json#/$defs/dateValue"
+        },
+        "ongoing": {
+          "type": "boolean"
+        },
+        "summary": {
+          "$ref": "common.schema.json#/$defs/localizedText"
+        },
+        "parents": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "$ref": "common.schema.json#/$defs/slug"
+              },
+              "order": {
+                "type": "number"
+              },
+              "deep": {
+                "type": "boolean",
+                "description": "Ce rattachement importe tout le sous-arbre du nœud dans la timeline du parent, y compris les descendants d'autres timelines. Défaut : false."
+              }
+            },
+            "required": [
+              "id"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "shared": {
+          "type": "boolean",
+          "description": "Le nœud suit son parent dans toutes les timelines où celui-ci apparaît, au-delà d'un rattachement direct. Défaut : false."
+        },
+        "persons": {
+          "$ref": "common.schema.json#/$defs/slugList"
+        },
+        "places": {
+          "$ref": "common.schema.json#/$defs/slugList"
+        },
+        "organizations": {
+          "$ref": "common.schema.json#/$defs/slugList"
+        },
+        "works": {
+          "$ref": "common.schema.json#/$defs/slugList"
+        },
+        "tags": {
+          "$ref": "common.schema.json#/$defs/stringList"
+        },
+        "sources": {
+          "$ref": "common.schema.json#/$defs/sourceList"
+        },
+        "status": {
+          "$ref": "common.schema.json#/$defs/status"
+        },
+        "view": {
+          "type": "object",
+          "properties": {
+            "color": {
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{6}$"
+            },
+            "label": {
+              "$ref": "common.schema.json#/$defs/localizedText"
+            },
+            "default_depth": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "kind": {
+              "description": "Nature d'une timeline racine : region (pays ou région, défaut), theme (courant ou thème transversal), global (évènements mondiaux). Utilisé par le mode automatique du viewer mobile.",
+              "enum": ["region", "theme", "global"]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "type",
+        "start",
+        "parents"
+      ],
+      "additionalProperties": false,
+      "not": {
+        "required": [
+          "end",
+          "ongoing"
+        ]
+      }
+    }
+  }
+}

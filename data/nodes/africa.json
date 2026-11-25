@@ -1,0 +1,2846 @@
+{
+  "$schema": "../../schema/nodes.schema.json",
+  "collection": "nodes",
+  "version": 1,
+  "items": [
+    {
+      "id": "africa",
+      "title": {"fr": "Afrique", "en": "Africa", "de": "Afrika", "draft": ["en", "de"]},
+      "type": "era",
+      "start": {"date": "1789"},
+      "ongoing": true,
+      "summary": {
+        "fr": "Histoire de l'Afrique depuis 1789 sous l'angle de la lutte des classes : fin de la traite, conquête et pillage coloniaux, résistances, mouvements ouvriers, luttes de libération, États indépendants sous domination néocoloniale et nouveaux soulèvements.",
+        "en": "History of Africa since 1789 from the standpoint of class struggle: end of the slave trade, colonial conquest and plunder, resistance, labour movements, liberation struggles, independent states under neo-colonial domination and new uprisings.",
+        "de": "Geschichte Afrikas seit 1789 unter dem Blickwinkel des Klassenkampfs: Ende des Sklavenhandels, koloniale Eroberung und Ausplünderung, Widerstand, Arbeiterbewegungen, Befreiungskämpfe, unabhängige Staaten unter neokolonialer Herrschaft und neue Aufstände.",
+        "draft": ["en", "de"]
+      },
+      "parents": [],
+      "status": "draft",
+      "view": {
+        "color": "#c27c1e",
+        "label": {"fr": "Afrique", "en": "Africa", "de": "Afrika", "draft": ["en", "de"]},
+        "default_depth": 1
+      }
+    },
+    {
+      "id": "africa-slave-trade-and-slavery",
+      "title": {
+        "fr": "Traites et esclavage",
+        "en": "Slave trades and slavery",
+        "de": "Sklavenhandel und Sklaverei",
+        "draft": ["en", "de"]
+      },
+      "type": "era",
+      "start": {"date": "1789"},
+      "ongoing": true,
+      "summary": {
+        "fr": "Fin de la traite atlantique, traites orientales et esclavage intérieur, abolitions et persistance de l'esclavage jusqu'à nos jours.",
+        "en": "End of the Atlantic trade, eastern trades and internal slavery, abolitions and the persistence of slavery to the present day.",
+        "de": "Ende des atlantischen Sklavenhandels, östliche Sklavenhandel und innere Sklaverei, Abschaffungen und Fortbestehen der Sklaverei bis heute.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa", "order": 0}],
+      "status": "draft",
+      "view": {
+        "color": "#6b3e26",
+        "label": {"fr": "Esclavage", "en": "Slavery", "de": "Sklaverei", "draft": ["en", "de"]},
+        "default_depth": 1
+      }
+    },
+    {
+      "id": "africa-imperialism",
+      "title": {
+        "fr": "Impérialisme : conquête, colonisation, néocolonialisme",
+        "en": "Imperialism: conquest, colonisation, neo-colonialism",
+        "de": "Imperialismus: Eroberung, Kolonisierung, Neokolonialismus",
+        "draft": ["en", "de"]
+      },
+      "type": "era",
+      "start": {"date": "1789"},
+      "ongoing": true,
+      "summary": {
+        "fr": "Partage et conquête du continent, travail forcé et massacres coloniaux, puis domination néocoloniale et interventions militaires après les indépendances.",
+        "en": "Partition and conquest of the continent, forced labour and colonial massacres, then neo-colonial domination and military interventions after independence.",
+        "de": "Aufteilung und Eroberung des Kontinents, Zwangsarbeit und Kolonialmassaker, danach neokoloniale Herrschaft und Militärinterventionen nach der Unabhängigkeit.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa", "order": 1}],
+      "status": "draft",
+      "view": {
+        "color": "#7f1d1d",
+        "label": {"fr": "Impérialisme", "en": "Imperialism", "de": "Imperialismus", "draft": ["en", "de"]},
+        "default_depth": 1
+      }
+    },
+    {
+      "id": "africa-resistance-and-liberation",
+      "title": {
+        "fr": "Résistances et luttes de libération",
+        "en": "Resistance and liberation struggles",
+        "de": "Widerstand und Befreiungskämpfe",
+        "draft": ["en", "de"]
+      },
+      "type": "era",
+      "start": {"date": "1789"},
+      "ongoing": true,
+      "summary": {
+        "fr": "Résistances armées à la conquête, mouvements nationalistes, guerres de libération et lutte contre l'apartheid.",
+        "en": "Armed resistance to conquest, nationalist movements, liberation wars and the struggle against apartheid.",
+        "de": "Bewaffneter Widerstand gegen die Eroberung, nationalistische Bewegungen, Befreiungskriege und Kampf gegen die Apartheid.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa", "order": 2}],
+      "status": "draft",
+      "view": {
+        "color": "#2f7d32",
+        "label": {"fr": "Libération", "en": "Liberation", "de": "Befreiung", "draft": ["en", "de"]},
+        "default_depth": 1
+      }
+    },
+    {
+      "id": "africa-labour-and-social-struggles",
+      "title": {
+        "fr": "Luttes ouvrières, soulèvements et révolutions",
+        "en": "Workers' struggles, uprisings and revolutions",
+        "de": "Arbeiterkämpfe, Aufstände und Revolutionen",
+        "draft": ["en", "de"]
+      },
+      "type": "era",
+      "start": {"date": "1789"},
+      "ongoing": true,
+      "summary": {
+        "fr": "Grèves, syndicats et partis ouvriers, émeutes de la faim contre les plans d'austérité, révolutions et soulèvements populaires.",
+        "en": "Strikes, trade unions and workers' parties, bread riots against austerity plans, revolutions and popular uprisings.",
+        "de": "Streiks, Gewerkschaften und Arbeiterparteien, Brotunruhen gegen Sparprogramme, Revolutionen und Volksaufstände.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa", "order": 3}],
+      "status": "draft",
+      "view": {
+        "color": "#c0392b",
+        "label": {
+          "fr": "Luttes sociales",
+          "en": "Social struggles",
+          "de": "Soziale Kämpfe",
+          "draft": ["en", "de"]
+        },
+        "default_depth": 1
+      }
+    },
+    {
+      "id": "africa-states-and-wars",
+      "title": {
+        "fr": "États, régimes et guerres",
+        "en": "States, regimes and wars",
+        "de": "Staaten, Regime und Kriege",
+        "draft": ["en", "de"]
+      },
+      "type": "era",
+      "start": {"date": "1789"},
+      "ongoing": true,
+      "summary": {
+        "fr": "Formation des États, indépendances, coups d'État, régimes et guerres civiles ou interétatiques.",
+        "en": "State formation, independence, coups, regimes and civil or interstate wars.",
+        "de": "Staatsbildung, Unabhängigkeit, Staatsstreiche, Regime sowie Bürger- und zwischenstaatliche Kriege.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa", "order": 4}],
+      "status": "draft",
+      "view": {
+        "color": "#1f5f8b",
+        "label": {"fr": "États", "en": "States", "de": "Staaten", "draft": ["en", "de"]},
+        "default_depth": 1
+      }
+    },
+    {
+      "id": "africa-pan-africanism-and-ideas",
+      "title": {
+        "fr": "Panafricanisme, idées et culture",
+        "en": "Pan-Africanism, ideas and culture",
+        "de": "Panafrikanismus, Ideen und Kultur",
+        "draft": ["en", "de"]
+      },
+      "type": "era",
+      "start": {"date": "1789"},
+      "ongoing": true,
+      "summary": {
+        "fr": "Congrès panafricains, organisations continentales, théoriciens de la libération et œuvres liées aux luttes.",
+        "en": "Pan-African congresses, continental organisations, theorists of liberation and works linked to the struggles.",
+        "de": "Panafrikanische Kongresse, kontinentale Organisationen, Theoretiker der Befreiung und mit den Kämpfen verbundene Werke.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa", "order": 5}],
+      "status": "draft",
+      "view": {
+        "color": "#7b4fa0",
+        "label": {"fr": "Idées", "en": "Ideas", "de": "Ideen", "draft": ["en", "de"]},
+        "default_depth": 1
+      }
+    },
+    {
+      "id": "africa-economy-and-disasters",
+      "title": {
+        "fr": "Économie, famines et épidémies",
+        "en": "Economy, famines and epidemics",
+        "de": "Wirtschaft, Hungersnöte und Epidemien",
+        "draft": ["en", "de"]
+      },
+      "type": "era",
+      "start": {"date": "1789"},
+      "ongoing": true,
+      "summary": {
+        "fr": "Dette, monnaies coloniales, ressources minières, ajustement structurel, famines et épidémies.",
+        "en": "Debt, colonial currencies, mineral resources, structural adjustment, famines and epidemics.",
+        "de": "Schulden, Kolonialwährungen, Bodenschätze, Strukturanpassung, Hungersnöte und Epidemien.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa", "order": 6}],
+      "status": "draft",
+      "view": {
+        "color": "#9a7b2f",
+        "label": {"fr": "Économie", "en": "Economy", "de": "Wirtschaft", "draft": ["en", "de"]},
+        "default_depth": 1
+      }
+    },
+    {
+      "id": "1792-founding-of-freetown",
+      "title": {
+        "fr": "Fondation de Freetown",
+        "en": "Founding of Freetown",
+        "de": "Gründung von Freetown",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1792-03"},
+      "summary": {
+        "fr": "Des Noirs libérés venus de Nouvelle-Écosse, anciens esclaves ayant combattu pour la Couronne, fondent Freetown, future colonie britannique de Sierra Leone et port d'accueil des captifs saisis sur les navires négriers.",
+        "en": "Freed Black settlers from Nova Scotia, former slaves who had fought for the Crown, found Freetown, the future British colony of Sierra Leone and landing port for captives seized from slave ships.",
+        "de": "Befreite Schwarze aus Nova Scotia, ehemalige Sklaven, die für die Krone gekämpft hatten, gründen Freetown, die spätere britische Kolonie Sierra Leone und Anlaufhafen für von Sklavenschiffen befreite Gefangene.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-slave-trade-and-slavery"}, {"id": "united-kingdom-empire"}],
+      "places": ["freetown"],
+      "status": "draft"
+    },
+    {
+      "id": "1798-french-invasion-of-egypt",
+      "title": {
+        "fr": "Expédition d'Égypte",
+        "en": "French invasion of Egypt",
+        "de": "Ägyptische Expedition",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Campagne d'Égypte"],
+      "type": "war",
+      "start": {"date": "1798-07-01"},
+      "end": {"date": "1801-09-02"},
+      "summary": {
+        "fr": "Bonaparte débarque à Alexandrie, bat les Mamelouks et occupe l'Égypte pour couper la route des Indes aux Britanniques ; l'armée française capitule en 1801. L'expédition ouvre l'ère des ingérences européennes en Égypte.",
+        "en": "Bonaparte lands at Alexandria, defeats the Mamluks and occupies Egypt to cut Britain's route to India; the French army capitulates in 1801. The expedition opens the era of European interference in Egypt.",
+        "de": "Bonaparte landet in Alexandria, schlägt die Mamluken und besetzt Ägypten, um Großbritannien den Weg nach Indien abzuschneiden; die französische Armee kapituliert 1801. Die Expedition eröffnet die Zeit europäischer Einmischung in Ägypten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-imperialism"}, {"id": "1795-directory"}],
+      "persons": ["napoleon"],
+      "places": ["alexandria", "cairo"],
+      "status": "draft"
+    },
+    {
+      "id": "1804-sokoto-caliphate",
+      "title": {
+        "fr": "Jihad d'Ousmane dan Fodio et califat de Sokoto",
+        "en": "Usman dan Fodio's jihad and the Sokoto Caliphate",
+        "de": "Dschihad Usman dan Fodios und Kalifat von Sokoto",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1804-02-21"},
+      "end": {"date": "1903-03"},
+      "summary": {
+        "fr": "Le prédicateur peul Ousmane dan Fodio soulève paysans et lettrés contre les rois haoussa et fonde le califat de Sokoto, l'un des plus grands États d'Afrique de l'Ouest, fondé sur l'esclavage, jusqu'à la conquête britannique de 1903.",
+        "en": "The Fulani preacher Usman dan Fodio raises peasants and scholars against the Hausa kings and founds the Sokoto Caliphate, one of West Africa's largest states, built on slavery, until the British conquest of 1903.",
+        "de": "Der Fulbe-Prediger Usman dan Fodio erhebt Bauern und Gelehrte gegen die Hausa-Könige und gründet das Kalifat von Sokoto, einen der größten Staaten Westafrikas, gestützt auf Sklaverei, bis zur britischen Eroberung 1903.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-states-and-wars"}],
+      "persons": ["usman-dan-fodio"],
+      "places": ["sokoto"],
+      "sources": [{"ref": "wp-en-sokoto-caliphate"}],
+      "status": "draft"
+    },
+    {
+      "id": "1805-muhammad-ali-takes-power-in-egypt",
+      "title": {
+        "fr": "Méhémet Ali prend le pouvoir en Égypte",
+        "en": "Muhammad Ali takes power in Egypt",
+        "de": "Muhammad Ali übernimmt die Macht in Ägypten",
+        "draft": ["en", "de"]
+      },
+      "type": "government",
+      "start": {"date": "1805"},
+      "summary": {
+        "fr": "Officier albanais de l'armée ottomane, Méhémet Ali devient gouverneur d'Égypte ; il élimine les Mamelouks, impose le monopole d'État sur le coton et tente une industrialisation par en haut qui sera brisée par les puissances européennes.",
+        "en": "An Albanian officer of the Ottoman army, Muhammad Ali becomes governor of Egypt; he eliminates the Mamluks, imposes a state monopoly on cotton and attempts an industrialisation from above that the European powers will break.",
+        "de": "Der albanische Offizier der osmanischen Armee Muhammad Ali wird Statthalter Ägyptens; er schaltet die Mamluken aus, errichtet ein Staatsmonopol auf Baumwolle und versucht eine Industrialisierung von oben, die die europäischen Mächte zerschlagen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-states-and-wars"}],
+      "persons": ["muhammad-ali-of-egypt"],
+      "places": ["cairo"],
+      "status": "draft"
+    },
+    {
+      "id": "1806-british-occupation-of-the-cape",
+      "title": {
+        "fr": "Occupation britannique du Cap",
+        "en": "British occupation of the Cape",
+        "de": "Britische Besetzung des Kaps",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Bataille de Blaauwberg"],
+      "type": "battle",
+      "start": {"date": "1806-01-08"},
+      "summary": {
+        "fr": "Victorieux à Blaauwberg, les Britanniques s'emparent définitivement de la colonie néerlandaise du Cap, point d'appui de la route des Indes et base de l'expansion coloniale en Afrique australe.",
+        "en": "Victorious at Blaauwberg, the British take permanent control of the Dutch Cape Colony, a key point on the route to India and the base of colonial expansion in southern Africa.",
+        "de": "Nach dem Sieg bei Blaauwberg bringen die Briten die niederländische Kapkolonie endgültig in ihren Besitz, einen Stützpunkt auf dem Weg nach Indien und Ausgangsbasis der kolonialen Expansion im südlichen Afrika.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-imperialism"}, {"id": "united-kingdom-empire"}],
+      "places": ["cape-town"],
+      "status": "draft"
+    },
+    {
+      "id": "1816-rise-of-the-zulu-kingdom",
+      "title": {
+        "fr": "Chaka et l'essor du royaume zoulou",
+        "en": "Shaka and the rise of the Zulu Kingdom",
+        "de": "Shaka und der Aufstieg des Zulu-Reichs",
+        "draft": ["en", "de"]
+      },
+      "type": "government",
+      "start": {"date": "1816"},
+      "summary": {
+        "fr": "Chaka prend la tête des Zoulous et, par une réorganisation militaire, bâtit un puissant royaume dans l'actuel KwaZulu-Natal ; ses guerres d'expansion bouleversent toute l'Afrique australe.",
+        "en": "Shaka takes the lead of the Zulu and, through military reorganisation, builds a powerful kingdom in present-day KwaZulu-Natal; his wars of expansion upend all of southern Africa.",
+        "de": "Shaka übernimmt die Führung der Zulu und baut durch eine militärische Neuordnung ein mächtiges Reich im heutigen KwaZulu-Natal auf; seine Expansionskriege erschüttern das ganze südliche Afrika.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-states-and-wars"}],
+      "persons": ["shaka"],
+      "places": ["south-africa"],
+      "status": "draft"
+    },
+    {
+      "id": "1832-abd-el-kader-resistance",
+      "title": {
+        "fr": "Résistance d'Abd el-Kader",
+        "en": "Abd al-Qadir's resistance",
+        "de": "Widerstand Abd el-Kaders",
+        "draft": ["en", "de"]
+      },
+      "type": "war",
+      "start": {"date": "1832"},
+      "end": {"date": "1847-12-23"},
+      "summary": {
+        "fr": "Proclamé émir par les tribus de l'Ouest algérien, Abd el-Kader bâtit un État et mène quinze ans de guerre contre la conquête française ; la France répond par la terre brûlée et les enfumades. Il se rend le 23 décembre 1847.",
+        "en": "Proclaimed emir by the tribes of western Algeria, Abd al-Qadir builds a state and wages fifteen years of war against the French conquest; France answers with scorched earth and the smoke-outs. He surrenders on 23 December 1847.",
+        "de": "Von den Stämmen Westalgeriens zum Emir ausgerufen, baut Abd el-Kader einen Staat auf und führt fünfzehn Jahre Krieg gegen die französische Eroberung; Frankreich antwortet mit verbrannter Erde und Ausräucherungen. Er ergibt sich am 23. Dezember 1847.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-resistance-and-liberation"}, {"id": "1830-conquest-of-algeria"}],
+      "persons": ["abd-el-kader"],
+      "places": ["algeria"],
+      "sources": [{"ref": "napoleon-abd-el-kader-timeline"}],
+      "status": "draft"
+    },
+    {
+      "id": "1835-great-trek",
+      "title": {"fr": "Grand Trek", "en": "Great Trek", "de": "Großer Treck", "draft": ["en", "de"]},
+      "type": "other",
+      "start": {"date": "1835"},
+      "end": {"date": "1846"},
+      "summary": {
+        "fr": "Des milliers de colons boers quittent la colonie du Cap, refusant notamment l'abolition de l'esclavage, et s'enfoncent vers l'intérieur où ils dépossèdent les peuples africains et fondent les républiques boers.",
+        "en": "Thousands of Boer settlers leave the Cape Colony, rejecting among other things the abolition of slavery, and push inland, where they dispossess African peoples and found the Boer republics.",
+        "de": "Tausende burische Siedler verlassen die Kapkolonie, unter anderem aus Ablehnung der Abschaffung der Sklaverei, ziehen ins Landesinnere, enteignen die afrikanischen Völker und gründen die Burenrepubliken.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-imperialism"}],
+      "places": ["south-africa"],
+      "sources": [{"ref": "sahistory-great-trek"}],
+      "status": "draft"
+    },
+    {
+      "id": "1847-independence-of-liberia",
+      "title": {
+        "fr": "Indépendance du Libéria",
+        "en": "Independence of Liberia",
+        "de": "Unabhängigkeit Liberias",
+        "draft": ["en", "de"]
+      },
+      "type": "independence",
+      "start": {"date": "1847-07-26"},
+      "summary": {
+        "fr": "La colonie fondée en 1822 par une société américaine pour y installer des Noirs libres proclame son indépendance ; une élite d'origine américaine y domine durablement les populations autochtones.",
+        "en": "The colony founded in 1822 by an American society to settle free Black people proclaims its independence; an elite of American origin long dominates the indigenous populations.",
+        "de": "Die 1822 von einer amerikanischen Gesellschaft zur Ansiedlung freier Schwarzer gegründete Kolonie erklärt ihre Unabhängigkeit; eine amerikanischstämmige Elite beherrscht dort lange die einheimische Bevölkerung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-states-and-wars"}, {"id": "africa-slave-trade-and-slavery"}],
+      "places": ["monrovia"],
+      "status": "draft"
+    },
+    {
+      "id": "1850-eusebio-de-queiros-law",
+      "title": {
+        "orig": "pt",
+        "pt": "Lei Eusébio de Queirós",
+        "fr": "Loi Eusébio de Queirós",
+        "en": "Eusébio de Queirós Law",
+        "de": "Eusébio-de-Queirós-Gesetz",
+        "draft": ["en", "de"]
+      },
+      "type": "law",
+      "start": {"date": "1850-09-04"},
+      "summary": {
+        "fr": "Sous la pression britannique, le Brésil, premier importateur d'esclaves africains, interdit la traite ; le flux transatlantique s'effondre, même si l'esclavage y dure jusqu'en 1888.",
+        "en": "Under British pressure, Brazil, the largest importer of enslaved Africans, bans the slave trade; the transatlantic flow collapses, although slavery lasts there until 1888.",
+        "de": "Unter britischem Druck verbietet Brasilien, der größte Importeur versklavter Afrikaner, den Sklavenhandel; der transatlantische Strom bricht zusammen, auch wenn die Sklaverei dort bis 1888 fortbesteht.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "africa-slave-trade-and-slavery"},
+        {"id": "latin-america-slavery-and-indigenous-peoples"}
+      ],
+      "places": ["rio-de-janeiro"],
+      "status": "draft"
+    },
+    {
+      "id": "1871-mokrani-revolt",
+      "title": {
+        "fr": "Insurrection d'El Mokrani",
+        "en": "Mokrani Revolt",
+        "de": "Mokrani-Aufstand",
+        "draft": ["en", "de"]
+      },
+      "type": "insurrection",
+      "start": {"date": "1871-03-16"},
+      "end": {"date": "1872-01-20"},
+      "summary": {
+        "fr": "Profitant de la défaite française, le cheikh El Mokrani et la confrérie Rahmaniya soulèvent la Kabylie et l'Est algérien. La répression confisque 450 000 hectares au profit des colons et déporte des insurgés en Nouvelle-Calédonie aux côtés des communards.",
+        "en": "Taking advantage of the French defeat, Sheikh Mokrani and the Rahmaniyya brotherhood raise Kabylia and eastern Algeria. Repression confiscates 450,000 hectares for settlers and deports insurgents to New Caledonia alongside the Communards.",
+        "de": "Die französische Niederlage nutzend, erheben Scheich Mokrani und die Bruderschaft Rahmaniya die Kabylei und Ostalgerien. Die Repression beschlagnahmt 450 000 Hektar für Siedler und deportiert Aufständische zusammen mit Kommunarden nach Neukaledonien.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-resistance-and-liberation"}, {"id": "1870-war-and-paris-commune"}],
+      "persons": ["cheikh-mokrani"],
+      "places": ["algeria", "new-caledonia"],
+      "sources": [{"ref": "wp-en-mokrani-revolt"}],
+      "status": "draft"
+    },
+    {
+      "id": "1873-closure-of-the-zanzibar-slave-market",
+      "title": {
+        "fr": "Fermeture du marché aux esclaves de Zanzibar",
+        "en": "Closure of the Zanzibar slave market",
+        "de": "Schließung des Sklavenmarkts von Sansibar",
+        "draft": ["en", "de"]
+      },
+      "type": "treaty",
+      "start": {"date": "1873-06-05"},
+      "summary": {
+        "fr": "Sous la menace d'un blocus britannique, le sultan Barghash interdit la traite maritime et ferme le grand marché aux esclaves de Zanzibar, plaque tournante de la traite d'Afrique de l'Est vers l'Arabie.",
+        "en": "Under threat of a British blockade, Sultan Barghash bans the seaborne trade and closes the great slave market of Zanzibar, hub of the East African trade towards Arabia.",
+        "de": "Unter der Drohung einer britischen Blockade verbietet Sultan Barghasch den Sklavenhandel über See und schließt den großen Sklavenmarkt von Sansibar, Drehscheibe des ostafrikanischen Handels nach Arabien.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-slave-trade-and-slavery"}, {"id": "united-kingdom-empire"}],
+      "places": ["zanzibar-city"],
+      "status": "draft"
+    },
+    {
+      "id": "1876-caisse-de-la-dette",
+      "title": {
+        "orig": "fr",
+        "fr": "Caisse de la dette publique égyptienne",
+        "en": "Egyptian public debt commission",
+        "de": "Ägyptische Staatsschuldenkasse",
+        "draft": ["en", "de"]
+      },
+      "type": "monetary",
+      "start": {"date": "1876-05-02"},
+      "summary": {
+        "fr": "Ruiné par ses emprunts, le khédive Ismaïl doit accepter une caisse gérée par les créanciers européens qui prélève les recettes de l'État ; la dette ouvre la voie à la mainmise franco-britannique sur l'Égypte.",
+        "en": "Ruined by his loans, Khedive Ismail must accept a commission run by European creditors that takes the state's revenues; debt paves the way for the Franco-British grip on Egypt.",
+        "de": "Von seinen Anleihen ruiniert, muss Khedive Ismail eine von europäischen Gläubigern geführte Kasse hinnehmen, die die Staatseinnahmen einzieht; die Schulden ebnen den Weg für den französisch-britischen Zugriff auf Ägypten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-economy-and-disasters"}, {"id": "africa-imperialism"}],
+      "places": ["cairo"],
+      "sources": [{"ref": "wp-en-caisse-de-la-dette"}],
+      "status": "draft"
+    },
+    {
+      "id": "1879-urabi-revolt",
+      "title": {"fr": "Révolte d'Urabi", "en": "Urabi revolt", "de": "Urabi-Bewegung", "draft": ["en", "de"]},
+      "type": "revolution",
+      "start": {"date": "1879"},
+      "end": {"date": "1882-09-13"},
+      "summary": {
+        "fr": "Officiers égyptiens, notables et paysans rassemblés derrière le colonel Ahmed Urabi exigent une constitution et rejettent la tutelle des créanciers européens ; le mouvement est écrasé par l'invasion britannique de 1882.",
+        "en": "Egyptian officers, notables and peasants rallied behind Colonel Ahmed Urabi demand a constitution and reject the tutelage of European creditors; the movement is crushed by the British invasion of 1882.",
+        "de": "Ägyptische Offiziere, Notabeln und Bauern hinter Oberst Ahmed Urabi fordern eine Verfassung und lehnen die Vormundschaft der europäischen Gläubiger ab; die Bewegung wird durch die britische Invasion von 1882 zerschlagen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-resistance-and-liberation"}, {"id": "united-kingdom-empire"}],
+      "persons": ["ahmed-urabi"],
+      "places": ["cairo"],
+      "status": "draft"
+    },
+    {
+      "id": "1881-mahdist-war",
+      "title": {
+        "fr": "Guerre des mahdistes",
+        "en": "Mahdist War",
+        "de": "Mahdi-Aufstand",
+        "draft": ["en", "de"]
+      },
+      "type": "war",
+      "start": {"date": "1881-08-12"},
+      "end": {"date": "1899-11-25"},
+      "summary": {
+        "fr": "Muhammad Ahmad, proclamé Mahdi, soulève le Soudan contre la domination égypto-britannique, prend Khartoum et fonde un État ; celui-ci est détruit par l'expédition de Kitchener à la fin du siècle.",
+        "en": "Muhammad Ahmad, proclaimed the Mahdi, raises Sudan against Egyptian-British rule, takes Khartoum and founds a state, which Kitchener's expedition destroys at the end of the century.",
+        "de": "Muhammad Ahmad, zum Mahdi ausgerufen, erhebt den Sudan gegen die ägyptisch-britische Herrschaft, nimmt Khartum ein und gründet einen Staat, den Kitcheners Feldzug am Ende des Jahrhunderts zerstört.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-resistance-and-liberation"}, {"id": "united-kingdom-empire"}],
+      "persons": ["muhammad-ahmad"],
+      "places": ["khartoum"],
+      "sources": [{"ref": "wp-en-mahdist-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "1885-fall-of-khartoum",
+      "title": {
+        "fr": "Prise de Khartoum",
+        "en": "Fall of Khartoum",
+        "de": "Fall von Khartum",
+        "draft": ["en", "de"]
+      },
+      "type": "battle",
+      "start": {"date": "1885-01-26"},
+      "summary": {
+        "fr": "Après un siège de 313 jours, les forces du Mahdi prennent Khartoum et tuent le général Gordon ; le Soudan échappe pour treize ans à la domination étrangère.",
+        "en": "After a 313-day siege, the Mahdi's forces take Khartoum and kill General Gordon; Sudan escapes foreign rule for thirteen years.",
+        "de": "Nach 313 Tagen Belagerung nehmen die Truppen des Mahdi Khartum ein und töten General Gordon; der Sudan entzieht sich für dreizehn Jahre der Fremdherrschaft.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1881-mahdist-war"}],
+      "persons": ["muhammad-ahmad", "charles-gordon"],
+      "places": ["khartoum"],
+      "sources": [{"ref": "wp-en-mahdist-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "1886-witwatersrand-gold-rush",
+      "title": {
+        "fr": "Ruée vers l'or du Witwatersrand",
+        "en": "Witwatersrand Gold Rush",
+        "de": "Goldrausch am Witwatersrand",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1886"},
+      "summary": {
+        "fr": "La découverte d'immenses gisements d'or fait naître Johannesburg et un capitalisme minier fondé sur le travail migrant noir sous contrat, matrice du système de ségrégation sud-africain.",
+        "en": "The discovery of vast gold deposits gives birth to Johannesburg and to a mining capitalism based on contracted Black migrant labour, the matrix of South Africa's segregation system.",
+        "de": "Die Entdeckung riesiger Goldvorkommen lässt Johannesburg und einen Bergbaukapitalismus entstehen, der auf schwarzer Wanderarbeit unter Vertrag beruht – die Keimzelle des südafrikanischen Segregationssystems.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-economy-and-disasters"}, {"id": "united-kingdom-empire"}],
+      "places": ["johannesburg"],
+      "status": "draft"
+    },
+    {
+      "id": "1888-rinderpest-epizootic",
+      "title": {
+        "fr": "Grande peste bovine",
+        "en": "Great rinderpest epizootic",
+        "de": "Große Rinderpest",
+        "draft": ["en", "de"]
+      },
+      "type": "epidemic",
+      "start": {"date": "1888"},
+      "end": {"date": "1897"},
+      "summary": {
+        "fr": "Introduite par le bétail importé pour l'armée italienne en Érythrée, la peste bovine traverse le continent et tue jusqu'à 90 % du cheptel ; famines et effondrement des sociétés pastorales facilitent la conquête coloniale.",
+        "en": "Introduced with cattle imported for the Italian army in Eritrea, rinderpest sweeps the continent and kills up to 90% of the herds; famine and the collapse of pastoral societies ease colonial conquest.",
+        "de": "Mit für die italienische Armee in Eritrea eingeführtem Vieh eingeschleppt, zieht die Rinderpest über den Kontinent und tötet bis zu 90 % der Herden; Hungersnöte und der Zusammenbruch der Hirtengesellschaften erleichtern die koloniale Eroberung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-economy-and-disasters"}, {"id": "world-disasters"}],
+      "places": ["massawa"],
+      "sources": [{"ref": "wp-en-1890s-african-rinderpest-epizootic"}],
+      "status": "draft"
+    },
+    {
+      "id": "1890-brussels-anti-slavery-conference",
+      "title": {
+        "fr": "Acte antiesclavagiste de Bruxelles",
+        "en": "Brussels Anti-Slavery Act",
+        "de": "Brüsseler Antisklaverei-Akte",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Conférence de Bruxelles"],
+      "type": "conference",
+      "start": {"date": "1890-07-02"},
+      "summary": {
+        "fr": "Les puissances européennes s'engagent à combattre la traite en Afrique ; la lutte contre l'esclavage sert de justification humanitaire à l'occupation militaire de l'intérieur du continent.",
+        "en": "The European powers pledge to fight the slave trade in Africa; the struggle against slavery serves as a humanitarian justification for the military occupation of the interior.",
+        "de": "Die europäischen Mächte verpflichten sich zur Bekämpfung des Sklavenhandels in Afrika; der Kampf gegen die Sklaverei dient als humanitäre Rechtfertigung für die militärische Besetzung des Landesinneren.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-slave-trade-and-slavery"}, {"id": "africa-imperialism"}],
+      "places": ["brussels"],
+      "status": "draft"
+    },
+    {
+      "id": "1896-first-chimurenga",
+      "title": {
+        "fr": "Premier Chimurenga",
+        "en": "First Chimurenga",
+        "de": "Erste Chimurenga",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Seconde guerre des Matabélé"],
+      "type": "insurrection",
+      "start": {"date": "1896-03"},
+      "end": {"date": "1897-10"},
+      "summary": {
+        "fr": "Les Ndébélé puis les Shona se soulèvent contre la British South Africa Company de Cecil Rhodes, qui leur prend terres et bétail ; la révolte est écrasée et ses chefs exécutés.",
+        "en": "The Ndebele and then the Shona rise against Cecil Rhodes's British South Africa Company, which seizes their land and cattle; the revolt is crushed and its leaders executed.",
+        "de": "Die Ndebele und danach die Shona erheben sich gegen Cecil Rhodes' British South Africa Company, die ihnen Land und Vieh raubt; der Aufstand wird niedergeschlagen und seine Anführer hingerichtet.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-resistance-and-liberation"}, {"id": "united-kingdom-empire"}],
+      "places": ["zimbabwe"],
+      "sources": [{"ref": "wp-en-second-matabele-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "1898-fashoda-incident",
+      "title": {
+        "fr": "Crise de Fachoda",
+        "en": "Fashoda Incident",
+        "de": "Faschoda-Krise",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1898-07-10"},
+      "end": {"date": "1898-11-03"},
+      "summary": {
+        "fr": "La mission Marchand et l'armée de Kitchener se font face à Fachoda sur le Nil ; la France recule. La crise marque l'apogée de la course au partage de l'Afrique entre impérialismes rivaux.",
+        "en": "The Marchand mission and Kitchener's army face each other at Fashoda on the Nile; France backs down. The crisis marks the peak of the rival imperialisms' race to partition Africa.",
+        "de": "Die Mission Marchand und Kitcheners Armee stehen sich in Faschoda am Nil gegenüber; Frankreich weicht zurück. Die Krise markiert den Höhepunkt des Wettlaufs rivalisierender Imperialismen um die Aufteilung Afrikas.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "africa-imperialism"},
+        {"id": "1871-third-republic-and-labour-movement"},
+        {"id": "united-kingdom-empire"}
+      ],
+      "persons": ["jean-baptiste-marchand", "herbert-kitchener"],
+      "places": ["kodok"],
+      "sources": [{"ref": "wp-en-fashoda-incident"}, {"ref": "wp-en-kodok"}],
+      "status": "draft"
+    },
+    {
+      "id": "1898-battle-of-omdurman",
+      "title": {
+        "fr": "Bataille d'Omdourman",
+        "en": "Battle of Omdurman",
+        "de": "Schlacht von Omdurman",
+        "draft": ["en", "de"]
+      },
+      "type": "battle",
+      "start": {"date": "1898-09-02"},
+      "summary": {
+        "fr": "Les mitrailleuses Maxim de l'armée de Kitchener fauchent l'armée mahdiste ; des milliers de morts face à quelques dizaines côté anglo-égyptien. Le Soudan passe sous condominium anglo-égyptien.",
+        "en": "The Maxim guns of Kitchener's army mow down the Mahdist army; thousands dead against a few dozen on the Anglo-Egyptian side. Sudan passes under Anglo-Egyptian condominium.",
+        "de": "Die Maxim-Maschinengewehre von Kitcheners Armee mähen das mahdistische Heer nieder; Tausende Tote gegenüber einigen Dutzend auf anglo-ägyptischer Seite. Der Sudan wird anglo-ägyptisches Kondominium.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1881-mahdist-war"}],
+      "persons": ["herbert-kitchener"],
+      "places": ["omdurman"],
+      "sources": [{"ref": "wp-en-mahdist-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "1898-capture-of-samori-toure",
+      "title": {
+        "fr": "Capture de Samory Touré",
+        "en": "Capture of Samori Ture",
+        "de": "Gefangennahme Samori Tourés",
+        "draft": ["en", "de"]
+      },
+      "type": "arrest",
+      "start": {"date": "1898-09-29"},
+      "summary": {
+        "fr": "Après seize ans de résistance à la conquête française à la tête de l'empire du Wassoulou, Samory Touré est capturé puis déporté au Gabon, où il meurt en 1900.",
+        "en": "After sixteen years of resistance to the French conquest at the head of the Wassoulou Empire, Samori Ture is captured and deported to Gabon, where he dies in 1900.",
+        "de": "Nach sechzehn Jahren Widerstand gegen die französische Eroberung an der Spitze des Wassoulou-Reichs wird Samori Touré gefangen genommen und nach Gabun deportiert, wo er 1900 stirbt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "africa-resistance-and-liberation"},
+        {"id": "1871-third-republic-and-labour-movement"}
+      ],
+      "persons": ["samori-toure"],
+      "status": "draft"
+    },
+    {
+      "id": "1900-war-of-the-golden-stool",
+      "title": {
+        "fr": "Guerre du Tabouret d'or",
+        "en": "War of the Golden Stool",
+        "de": "Krieg um den Goldenen Stuhl",
+        "draft": ["en", "de"]
+      },
+      "type": "war",
+      "start": {"date": "1900-03"},
+      "end": {"date": "1900-09"},
+      "summary": {
+        "fr": "Quand le gouverneur britannique exige le Tabouret d'or, symbole de la nation ashanti, la reine mère Yaa Asantewaa mène le soulèvement ; vaincue, elle est exilée aux Seychelles et l'Ashanti annexé.",
+        "en": "When the British governor demands the Golden Stool, symbol of the Asante nation, Queen Mother Yaa Asantewaa leads the uprising; defeated, she is exiled to the Seychelles and Asante annexed.",
+        "de": "Als der britische Gouverneur den Goldenen Stuhl, Symbol der Aschanti-Nation, verlangt, führt die Königinmutter Yaa Asantewaa den Aufstand an; besiegt, wird sie auf die Seychellen verbannt und Aschanti annektiert.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-resistance-and-liberation"}, {"id": "united-kingdom-empire"}],
+      "persons": ["yaa-asantewaa"],
+      "places": ["kumasi"],
+      "sources": [{"ref": "wp-en-war-of-the-golden-stool"}],
+      "status": "draft"
+    },
+    {
+      "id": "1900-first-pan-african-conference",
+      "title": {
+        "fr": "Première conférence panafricaine",
+        "en": "First Pan-African Conference",
+        "de": "Erste Panafrikanische Konferenz",
+        "draft": ["en", "de"]
+      },
+      "type": "conference",
+      "start": {"date": "1900-07-23"},
+      "end": {"date": "1900-07-25"},
+      "summary": {
+        "fr": "Réunie à Londres à l'initiative de l'avocat trinidadien Henry Sylvester Williams, la conférence dénonce le traitement des Africains dans les colonies ; W. E. B. Du Bois y annonce que le problème du XXe siècle est celui de la ligne de couleur.",
+        "en": "Convened in London on the initiative of the Trinidadian lawyer Henry Sylvester Williams, the conference denounces the treatment of Africans in the colonies; W. E. B. Du Bois announces that the problem of the 20th century is the colour line.",
+        "de": "Auf Initiative des trinidadischen Anwalts Henry Sylvester Williams in London einberufen, prangert die Konferenz die Behandlung der Afrikaner in den Kolonien an; W. E. B. Du Bois erklärt, das Problem des 20. Jahrhunderts sei die Farbgrenze.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-pan-africanism-and-ideas"}],
+      "persons": ["henry-sylvester-williams", "w-e-b-du-bois"],
+      "places": ["london"],
+      "status": "draft"
+    },
+    {
+      "id": "1905-maji-maji-rebellion",
+      "title": {
+        "orig": "sw",
+        "sw": "Vita vya Maji Maji",
+        "fr": "Révolte des Maji-Maji",
+        "en": "Maji Maji Rebellion",
+        "de": "Maji-Maji-Aufstand",
+        "draft": ["en", "de"]
+      },
+      "type": "insurrection",
+      "start": {"date": "1905-07"},
+      "end": {"date": "1907-08"},
+      "summary": {
+        "fr": "Contraints de cultiver le coton pour l'administration allemande, les peuples du sud de l'Afrique orientale allemande se soulèvent ; la répression par la terre brûlée et la famine fait de 75 000 à 300 000 morts.",
+        "en": "Forced to grow cotton for the German administration, the peoples of southern German East Africa rise up; repression through scorched earth and famine kills 75,000 to 300,000 people.",
+        "de": "Zum Baumwollanbau für die deutsche Verwaltung gezwungen, erheben sich die Völker im Süden Deutsch-Ostafrikas; die Niederschlagung durch verbrannte Erde und Hunger fordert 75 000 bis 300 000 Tote.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-resistance-and-liberation"}, {"id": "1871-imperial-germany"}],
+      "places": ["tanzania"],
+      "sources": [{"ref": "wp-en-maji-maji-rebellion"}],
+      "status": "draft"
+    },
+    {
+      "id": "1908-annexation-of-the-congo-by-belgium",
+      "title": {
+        "fr": "Annexion du Congo par la Belgique",
+        "en": "Belgian annexation of the Congo",
+        "de": "Annexion des Kongo durch Belgien",
+        "draft": ["en", "de"]
+      },
+      "type": "law",
+      "start": {"date": "1908-11-15"},
+      "summary": {
+        "fr": "Après la campagne internationale contre les crimes de l'État indépendant du Congo, propriété personnelle de Léopold II, la Belgique reprend le territoire, qui devient le Congo belge.",
+        "en": "After the international campaign against the crimes of the Congo Free State, Leopold II's personal property, Belgium takes over the territory, which becomes the Belgian Congo.",
+        "de": "Nach der internationalen Kampagne gegen die Verbrechen des Kongo-Freistaats, Privatbesitz Leopolds II., übernimmt Belgien das Gebiet, das zum Belgisch-Kongo wird.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-imperialism"}, {"id": "1885-congo-free-state-atrocities"}],
+      "places": ["congo"],
+      "status": "draft"
+    },
+    {
+      "id": "1910-union-of-south-africa",
+      "title": {
+        "fr": "Union sud-africaine",
+        "en": "Union of South Africa",
+        "de": "Südafrikanische Union",
+        "draft": ["en", "de"]
+      },
+      "type": "unification",
+      "start": {"date": "1910-05-31"},
+      "summary": {
+        "fr": "Huit ans après la guerre des Boers, les colonies britanniques et les anciennes républiques boers s'unissent en un dominion où le pouvoir politique est réservé à la minorité blanche.",
+        "en": "Eight years after the Boer War, the British colonies and the former Boer republics unite in a dominion where political power is reserved for the white minority.",
+        "de": "Acht Jahre nach dem Burenkrieg vereinigen sich die britischen Kolonien und die ehemaligen Burenrepubliken zu einem Dominion, in dem die politische Macht der weißen Minderheit vorbehalten ist.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-states-and-wars"}, {"id": "united-kingdom-empire"}],
+      "places": ["pretoria", "cape-town"],
+      "status": "draft"
+    },
+    {
+      "id": "1912-founding-of-the-anc",
+      "title": {
+        "fr": "Fondation de l'ANC",
+        "en": "Founding of the ANC",
+        "de": "Gründung des ANC",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1912-01-08"},
+      "summary": {
+        "fr": "Avocats, enseignants et chefs africains fondent à Bloemfontein le South African Native National Congress, futur Congrès national africain, pour défendre les droits des Noirs dans l'Union sud-africaine.",
+        "en": "African lawyers, teachers and chiefs found the South African Native National Congress, the future African National Congress, in Bloemfontein to defend Black rights in the Union of South Africa.",
+        "de": "Afrikanische Anwälte, Lehrer und Häuptlinge gründen in Bloemfontein den South African Native National Congress, den späteren Afrikanischen Nationalkongress, um die Rechte der Schwarzen in der Südafrikanischen Union zu verteidigen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-resistance-and-liberation"}],
+      "places": ["bloemfontein"],
+      "organizations": ["anc"],
+      "status": "draft"
+    },
+    {
+      "id": "1913-natives-land-act",
+      "title": {
+        "fr": "Natives Land Act",
+        "en": "Natives Land Act",
+        "de": "Natives Land Act",
+        "draft": ["en", "de"]
+      },
+      "type": "law",
+      "start": {"date": "1913-06-19"},
+      "summary": {
+        "fr": "La loi réserve aux Africains environ 7 % des terres de l'Union et leur interdit d'en acheter ailleurs, poussant les paysans noirs vers le travail salarié des mines et des fermes blanches.",
+        "en": "The act reserves about 7% of the Union's land for Africans and bars them from buying land elsewhere, pushing Black peasants into wage labour in the mines and on white farms.",
+        "de": "Das Gesetz reserviert etwa 7 % des Landes der Union für Afrikaner und verbietet ihnen den Landkauf anderswo, was schwarze Bauern in die Lohnarbeit in den Minen und auf weißen Farmen treibt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-imperialism"}],
+      "places": ["south-africa"],
+      "status": "draft"
+    },
+    {
+      "id": "1919-egyptian-revolution",
+      "title": {
+        "orig": "ar",
+        "ar": "ثورة 1919",
+        "fr": "Révolution égyptienne de 1919",
+        "en": "Egyptian Revolution of 1919",
+        "de": "Ägyptische Revolution von 1919",
+        "draft": ["en", "de"]
+      },
+      "type": "revolution",
+      "start": {"date": "1919-03"},
+      "summary": {
+        "fr": "La déportation de Saad Zaghloul et des dirigeants du Wafd déclenche grèves, manifestations et soulèvements paysans dans toute l'Égypte contre l'occupation britannique ; ils conduisent à l'indépendance formelle de 1922.",
+        "en": "The deportation of Saad Zaghloul and the Wafd leaders sparks strikes, demonstrations and peasant risings across Egypt against British occupation, leading to formal independence in 1922.",
+        "de": "Die Deportation Saad Zaghluls und der Wafd-Führer löst in ganz Ägypten Streiks, Demonstrationen und Bauernaufstände gegen die britische Besatzung aus, die 1922 zur formalen Unabhängigkeit führen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-resistance-and-liberation"}, {"id": "united-kingdom-empire"}],
+      "persons": ["saad-zaghloul"],
+      "places": ["cairo"],
+      "status": "draft"
+    },
+    {
+      "id": "1919-pan-african-congress",
+      "title": {
+        "fr": "Congrès panafricain de Paris",
+        "en": "Pan-African Congress in Paris",
+        "de": "Panafrikanischer Kongress in Paris",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1919-02-19"},
+      "end": {"date": "1919-02-21"},
+      "summary": {
+        "fr": "Organisé par W. E. B. Du Bois et le député sénégalais Blaise Diagne en marge de la conférence de la paix, le congrès réclame des droits pour les Africains des colonies, sans encore exiger l'indépendance.",
+        "en": "Organised by W. E. B. Du Bois and the Senegalese deputy Blaise Diagne on the sidelines of the peace conference, the congress calls for rights for Africans in the colonies, without yet demanding independence.",
+        "de": "Von W. E. B. Du Bois und dem senegalesischen Abgeordneten Blaise Diagne am Rande der Friedenskonferenz organisiert, fordert der Kongress Rechte für die Afrikaner in den Kolonien, noch ohne Unabhängigkeit zu verlangen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-pan-africanism-and-ideas"}],
+      "persons": ["w-e-b-du-bois"],
+      "places": ["paris"],
+      "status": "draft"
+    },
+    {
+      "id": "1919-founding-of-the-icu",
+      "title": {
+        "fr": "Fondation de l'ICU",
+        "en": "Founding of the ICU",
+        "de": "Gründung der ICU",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1919-01"},
+      "summary": {
+        "fr": "Clements Kadalie fonde parmi les dockers du Cap l'Industrial and Commercial Workers' Union, premier grand syndicat noir d'Afrique australe, qui compte plus de 100 000 membres au milieu des années 1920.",
+        "en": "Clements Kadalie founds the Industrial and Commercial Workers' Union among Cape Town dockers, the first mass Black union of southern Africa, with over 100,000 members by the mid-1920s.",
+        "de": "Clements Kadalie gründet unter den Hafenarbeitern von Kapstadt die Industrial and Commercial Workers' Union, die erste schwarze Massengewerkschaft im südlichen Afrika, mit über 100 000 Mitgliedern Mitte der 1920er-Jahre.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-labour-and-social-struggles"}],
+      "persons": ["clements-kadalie"],
+      "places": ["cape-town"],
+      "organizations": ["icu"],
+      "status": "draft"
+    },
+    {
+      "id": "1921-founding-of-the-communist-party-of-south-africa",
+      "title": {
+        "fr": "Fondation du Parti communiste d'Afrique du Sud",
+        "en": "Founding of the Communist Party of South Africa",
+        "de": "Gründung der Kommunistischen Partei Südafrikas",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1921-07-30"},
+      "summary": {
+        "fr": "Issu de militants socialistes blancs, le premier parti communiste d'Afrique adhère à l'Internationale communiste ; il s'oriente ensuite vers les travailleurs noirs et la lutte contre la domination raciale.",
+        "en": "Formed by white socialist activists, Africa's first communist party joins the Communist International; it later turns towards Black workers and the struggle against racial domination.",
+        "de": "Aus weißen sozialistischen Aktivisten hervorgegangen, tritt die erste kommunistische Partei Afrikas der Kommunistischen Internationale bei; später wendet sie sich den schwarzen Arbeitern und dem Kampf gegen die Rassenherrschaft zu.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-labour-and-social-struggles"}],
+      "places": ["cape-town"],
+      "organizations": ["communist-party-of-south-africa", "comintern"],
+      "status": "draft"
+    },
+    {
+      "id": "1921-congo-ocean-railway",
+      "title": {
+        "fr": "Chantier du chemin de fer Congo-Océan",
+        "en": "Construction of the Congo–Ocean Railway",
+        "de": "Bau der Kongo-Ozean-Eisenbahn",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1921"},
+      "end": {"date": "1934"},
+      "summary": {
+        "fr": "La France fait construire la ligne Brazzaville–Pointe-Noire par des travailleurs forcés raflés dans toute l'Afrique-Équatoriale ; plus de 17 000 meurent d'épuisement, de faim et de maladie, scandale dénoncé par Albert Londres.",
+        "en": "France has the Brazzaville–Pointe-Noire line built by forced labourers rounded up across French Equatorial Africa; over 17,000 die of exhaustion, hunger and disease, a scandal exposed by Albert Londres.",
+        "de": "Frankreich lässt die Strecke Brazzaville–Pointe-Noire von in ganz Französisch-Äquatorialafrika zusammengetriebenen Zwangsarbeitern bauen; über 17 000 sterben an Erschöpfung, Hunger und Krankheit, ein von Albert Londres angeprangerter Skandal.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-imperialism"}, {"id": "1918-interwar-and-popular-front"}],
+      "places": ["brazzaville", "pointe-noire"],
+      "sources": [{"ref": "wp-en-congo-ocean-railway"}],
+      "status": "draft"
+    },
+    {
+      "id": "1922-rand-rebellion",
+      "title": {
+        "fr": "Révolte du Rand",
+        "en": "Rand Rebellion",
+        "de": "Rand-Aufstand",
+        "draft": ["en", "de"]
+      },
+      "type": "insurrection",
+      "start": {"date": "1922-01-10"},
+      "end": {"date": "1922-03-18"},
+      "summary": {
+        "fr": "La grève des mineurs blancs contre le remplacement par des Noirs moins payés tourne à l'insurrection armée, sous le mot d'ordre « Travailleurs du monde, unissez-vous pour une Afrique du Sud blanche ». Smuts l'écrase par l'aviation et l'artillerie.",
+        "en": "White miners' strike against replacement by lower-paid Black workers turns into armed insurrection under the slogan \"Workers of the world, unite and fight for a white South Africa\". Smuts crushes it with aircraft and artillery.",
+        "de": "Der Streik weißer Bergleute gegen ihre Ersetzung durch schlechter bezahlte Schwarze wird unter der Losung „Arbeiter der Welt, vereinigt euch für ein weißes Südafrika“ zum bewaffneten Aufstand. Smuts schlägt ihn mit Flugzeugen und Artillerie nieder.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-labour-and-social-struggles"}],
+      "places": ["johannesburg"],
+      "organizations": ["communist-party-of-south-africa"],
+      "sources": [{"ref": "wp-en-rand-rebellion"}],
+      "status": "draft"
+    },
+    {
+      "id": "1922-egyptian-independence",
+      "title": {
+        "fr": "Indépendance formelle de l'Égypte",
+        "en": "Formal independence of Egypt",
+        "de": "Formale Unabhängigkeit Ägyptens",
+        "draft": ["en", "de"]
+      },
+      "type": "independence",
+      "start": {"date": "1922-02-28"},
+      "summary": {
+        "fr": "Le Royaume-Uni proclame unilatéralement l'indépendance de l'Égypte mais garde la défense, le canal de Suez et le Soudan ; l'occupation militaire britannique se poursuit.",
+        "en": "Britain unilaterally declares Egypt independent but keeps control of defence, the Suez Canal and Sudan; British military occupation continues.",
+        "de": "Großbritannien erklärt einseitig die Unabhängigkeit Ägyptens, behält aber Verteidigung, Suezkanal und Sudan; die britische Militärbesatzung dauert an.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-states-and-wars"}, {"id": "united-kingdom-empire"}],
+      "places": ["cairo"],
+      "status": "draft"
+    },
+    {
+      "id": "1926-founding-of-the-north-african-star",
+      "title": {
+        "orig": "fr",
+        "fr": "Fondation de l'Étoile nord-africaine",
+        "en": "Founding of the North African Star",
+        "de": "Gründung des Nordafrikanischen Sterns",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1926"},
+      "summary": {
+        "fr": "Fondée à Paris parmi les ouvriers immigrés algériens, liée au début au Parti communiste, l'Étoile nord-africaine est la première organisation à réclamer l'indépendance de l'Algérie ; Messali Hadj en prend la tête.",
+        "en": "Founded in Paris among Algerian immigrant workers and initially linked to the Communist Party, the North African Star is the first organisation to demand Algerian independence; Messali Hadj becomes its leader.",
+        "de": "In Paris unter algerischen Einwanderarbeitern gegründet und anfangs mit der Kommunistischen Partei verbunden, ist der Nordafrikanische Stern die erste Organisation, die die Unabhängigkeit Algeriens fordert; Messali Hadj übernimmt die Führung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-resistance-and-liberation"}, {"id": "1918-interwar-and-popular-front"}],
+      "persons": ["messali-hadj"],
+      "places": ["paris"],
+      "organizations": ["north-african-star", "pcf"],
+      "sources": [{"ref": "wp-en-north-african-star"}],
+      "status": "draft"
+    },
+    {
+      "id": "1929-aba-womens-war",
+      "title": {
+        "fr": "Guerre des femmes d'Aba",
+        "en": "Aba Women's War",
+        "de": "Frauenkrieg von Aba",
+        "draft": ["en", "de"]
+      },
+      "type": "insurrection",
+      "start": {"date": "1929-11"},
+      "end": {"date": "1929-12"},
+      "summary": {
+        "fr": "Craignant l'extension de l'impôt colonial aux femmes, des milliers de commerçantes igbo et ibibio assiègent les chefs nommés par les Britanniques dans le sud-est du Nigeria ; la troupe tire, faisant des dizaines de mortes.",
+        "en": "Fearing the extension of colonial tax to women, thousands of Igbo and Ibibio market women besiege British-appointed chiefs in south-eastern Nigeria; troops open fire, killing dozens of women.",
+        "de": "Aus Angst vor der Ausweitung der Kolonialsteuer auf Frauen belagern Tausende Igbo- und Ibibio-Händlerinnen die von den Briten ernannten Häuptlinge im Südosten Nigerias; die Truppe schießt und tötet Dutzende Frauen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-resistance-and-liberation"}, {"id": "united-kingdom-empire"}],
+      "places": ["aba"],
+      "tags": ["femmes"],
+      "status": "draft"
+    },
+    {
+      "id": "1935-copperbelt-strike",
+      "title": {
+        "fr": "Grève du Copperbelt",
+        "en": "Copperbelt strike",
+        "de": "Streik im Kupfergürtel",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "1935-05"},
+      "summary": {
+        "fr": "Contre une hausse de l'impôt, les mineurs africains des mines de cuivre de Rhodésie du Nord cessent le travail ; la police tire à Luanshya. C'est la première grande grève des mineurs noirs de la région.",
+        "en": "Against a tax increase, African miners in Northern Rhodesia's copper mines stop work; police open fire at Luanshya. It is the first major strike of Black miners in the region.",
+        "de": "Gegen eine Steuererhöhung legen die afrikanischen Bergleute der Kupferminen Nordrhodesiens die Arbeit nieder; in Luanshya schießt die Polizei. Es ist der erste große Streik schwarzer Bergleute in der Region.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-labour-and-social-struggles"}, {"id": "united-kingdom-empire"}],
+      "places": ["copperbelt"],
+      "status": "draft"
+    },
+    {
+      "id": "1945-nigerian-general-strike",
+      "title": {
+        "fr": "Grève générale nigériane",
+        "en": "Nigerian general strike",
+        "de": "Nigerianischer Generalstreik",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "1945-06-22"},
+      "end": {"date": "1945-08-04"},
+      "summary": {
+        "fr": "Environ 200 000 travailleurs de dix-sept syndicats, conduits notamment par Michael Imoudu, cessent le travail pendant plus de quarante jours pour obtenir une hausse des salaires face à la vie chère.",
+        "en": "About 200,000 workers from seventeen unions, led notably by Michael Imoudu, stop work for over forty days to win wage increases against the rising cost of living.",
+        "de": "Rund 200 000 Arbeiter aus siebzehn Gewerkschaften, angeführt unter anderem von Michael Imoudu, legen über vierzig Tage die Arbeit nieder, um gegen die Teuerung Lohnerhöhungen durchzusetzen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-labour-and-social-struggles"}, {"id": "united-kingdom-empire"}],
+      "persons": ["michael-imoudu"],
+      "places": ["lagos"],
+      "sources": [{"ref": "wp-en-1945-nigerian-general-strike"}],
+      "status": "draft"
+    },
+    {
+      "id": "1945-manchester-pan-african-congress",
+      "title": {
+        "fr": "Ve Congrès panafricain de Manchester",
+        "en": "Fifth Pan-African Congress in Manchester",
+        "de": "Fünfter Panafrikanischer Kongress in Manchester",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1945-10-15"},
+      "end": {"date": "1945-10-21"},
+      "summary": {
+        "fr": "Avec Kwame Nkrumah, Jomo Kenyatta, George Padmore et W. E. B. Du Bois, le congrès rompt avec les demandes de réformes et exige l'indépendance immédiate, en appuyant sur les syndicats et les masses.",
+        "en": "With Kwame Nkrumah, Jomo Kenyatta, George Padmore and W. E. B. Du Bois, the congress breaks with demands for reform and calls for immediate independence, relying on trade unions and the masses.",
+        "de": "Mit Kwame Nkrumah, Jomo Kenyatta, George Padmore und W. E. B. Du Bois bricht der Kongress mit Reformforderungen und verlangt die sofortige Unabhängigkeit, gestützt auf Gewerkschaften und Massen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-pan-africanism-and-ideas"}],
+      "persons": ["kwame-nkrumah", "w-e-b-du-bois"],
+      "places": ["manchester"],
+      "status": "draft"
+    },
+    {
+      "id": "1945-creation-of-the-cfa-franc",
+      "title": {
+        "fr": "Création du franc CFA",
+        "en": "Creation of the CFA franc",
+        "de": "Schaffung des CFA-Franc",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Franc des colonies françaises d'Afrique"],
+      "type": "monetary",
+      "start": {"date": "1945-12-26"},
+      "summary": {
+        "fr": "La France crée le franc des colonies françaises d'Afrique, arrimé au franc et géré depuis Paris ; maintenu après les indépendances, il oblige les États membres à déposer une partie de leurs réserves au Trésor français.",
+        "en": "France creates the franc of the French colonies of Africa, pegged to the franc and managed from Paris; kept after independence, it obliges member states to deposit part of their reserves with the French Treasury.",
+        "de": "Frankreich schafft den Franc der französischen Kolonien Afrikas, an den Franc gebunden und von Paris aus verwaltet; nach der Unabhängigkeit beibehalten, verpflichtet er die Mitgliedstaaten, einen Teil ihrer Reserven beim französischen Schatzamt zu hinterlegen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-economy-and-disasters"}, {"id": "1945-liberation-and-fourth-republic"}],
+      "status": "draft"
+    },
+    {
+      "id": "1946-abolition-of-forced-labour-in-french-colonies",
+      "title": {
+        "fr": "Abolition du travail forcé dans les colonies françaises",
+        "en": "Abolition of forced labour in the French colonies",
+        "de": "Abschaffung der Zwangsarbeit in den französischen Kolonien",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Loi Houphouët-Boigny"],
+      "type": "law",
+      "start": {"date": "1946-04-11"},
+      "summary": {
+        "fr": "Portée par le député ivoirien Félix Houphouët-Boigny, la loi abolit le travail forcé dans l'empire français, conquête arrachée par les mobilisations des planteurs et travailleurs africains.",
+        "en": "Sponsored by the Ivorian deputy Félix Houphouët-Boigny, the law abolishes forced labour in the French empire, a gain wrested by the mobilisation of African planters and workers.",
+        "de": "Von dem ivorischen Abgeordneten Félix Houphouët-Boigny eingebracht, schafft das Gesetz die Zwangsarbeit im französischen Kolonialreich ab, eine durch die Mobilisierung afrikanischer Pflanzer und Arbeiter erkämpfte Errungenschaft.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-imperialism"}, {"id": "1945-liberation-and-fourth-republic"}],
+      "persons": ["felix-houphouet-boigny"],
+      "places": ["paris"],
+      "status": "draft"
+    },
+    {
+      "id": "1946-founding-of-the-ugtt",
+      "title": {
+        "orig": "ar",
+        "ar": "الاتحاد العام التونسي للشغل",
+        "fr": "Fondation de l'UGTT",
+        "en": "Founding of the UGTT",
+        "de": "Gründung der UGTT",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1946-01-20"},
+      "summary": {
+        "fr": "Farhat Hached fonde l'Union générale tunisienne du travail, centrale qui lie revendications ouvrières et lutte nationale, et pèsera dans toute l'histoire de la Tunisie jusqu'à la révolution de 2011.",
+        "en": "Farhat Hached founds the Tunisian General Labour Union, a federation linking workers' demands to the national struggle, which will weigh throughout Tunisia's history up to the 2011 revolution.",
+        "de": "Farhat Hached gründet den Tunesischen Allgemeinen Gewerkschaftsbund, der Arbeiterforderungen mit dem nationalen Kampf verbindet und die gesamte Geschichte Tunesiens bis zur Revolution von 2011 prägt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-labour-and-social-struggles"}],
+      "persons": ["farhat-hached"],
+      "places": ["tunis"],
+      "organizations": ["ugtt"],
+      "status": "draft"
+    },
+    {
+      "id": "1946-african-mine-workers-strike",
+      "title": {
+        "fr": "Grève des mineurs africains",
+        "en": "African Mine Workers' Strike",
+        "de": "Streik der afrikanischen Bergarbeiter",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "1946-08-12"},
+      "summary": {
+        "fr": "Quelque 70 000 mineurs noirs du Witwatersrand cessent le travail pour des salaires décents ; la police les refoule de force dans les puits, faisant plusieurs morts. La grève radicalise l'ANC.",
+        "en": "Some 70,000 Black miners on the Witwatersrand stop work for a living wage; police force them back down the shafts, killing several. The strike radicalises the ANC.",
+        "de": "Rund 70 000 schwarze Bergleute am Witwatersrand legen für existenzsichernde Löhne die Arbeit nieder; die Polizei treibt sie gewaltsam in die Schächte zurück und tötet mehrere. Der Streik radikalisiert den ANC.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-labour-and-social-struggles"}],
+      "places": ["johannesburg"],
+      "organizations": ["communist-party-of-south-africa"],
+      "status": "draft"
+    },
+    {
+      "id": "1947-dakar-niger-railway-strike",
+      "title": {
+        "fr": "Grève des cheminots du Dakar-Niger",
+        "en": "Dakar–Niger railway strike",
+        "de": "Eisenbahnerstreik der Dakar-Niger-Bahn",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "1947-10-10"},
+      "end": {"date": "1948-03-19"},
+      "summary": {
+        "fr": "Les cheminots africains de la ligne Dakar–Niger, autour de Thiès, tiennent plus de cinq mois pour l'égalité de statut avec les Européens ; la grève, soutenue par les femmes, devient un jalon de la lutte anticoloniale.",
+        "en": "African railway workers on the Dakar–Niger line, centred on Thiès, hold out for more than five months for equal status with Europeans; the strike, backed by the women, becomes a milestone of the anti-colonial struggle.",
+        "de": "Die afrikanischen Eisenbahner der Strecke Dakar–Niger um Thiès halten über fünf Monate für die Gleichstellung mit den Europäern durch; der von den Frauen getragene Streik wird zu einem Meilenstein des antikolonialen Kampfes.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-labour-and-social-struggles"}, {"id": "1945-liberation-and-fourth-republic"}],
+      "places": ["thies", "dakar", "bamako"],
+      "sources": [{"ref": "wp-en-dakar-niger-railway"}, {"ref": "wp-en-thies"}],
+      "status": "draft"
+    },
+    {
+      "id": "1948-accra-riots",
+      "title": {
+        "fr": "Émeutes d'Accra",
+        "en": "Accra riots",
+        "de": "Unruhen von Accra",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1948-02-28"},
+      "summary": {
+        "fr": "La police tire sur une marche d'anciens combattants réclamant leurs pensions ; trois morts déclenchent des émeutes contre la vie chère et les maisons de commerce européennes. La Gold Coast entre dans la marche à l'indépendance.",
+        "en": "Police fire on a march of ex-servicemen demanding their pensions; three deaths trigger riots against high prices and European trading houses. The Gold Coast embarks on the road to independence.",
+        "de": "Die Polizei schießt auf einen Marsch von Kriegsveteranen, die ihre Renten fordern; drei Tote lösen Unruhen gegen Teuerung und europäische Handelshäuser aus. Die Goldküste schlägt den Weg zur Unabhängigkeit ein.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-resistance-and-liberation"}, {"id": "united-kingdom-empire"}],
+      "places": ["accra"],
+      "status": "draft"
+    },
+    {
+      "id": "1948-national-party-victory-and-apartheid",
+      "title": {
+        "fr": "Victoire du Parti national et instauration de l'apartheid",
+        "en": "National Party victory and the introduction of apartheid",
+        "de": "Wahlsieg der Nationalen Partei und Einführung der Apartheid",
+        "draft": ["en", "de"]
+      },
+      "type": "election",
+      "start": {"date": "1948-05-26"},
+      "summary": {
+        "fr": "Élu par le seul électorat blanc, le Parti national afrikaner systématise la ségrégation en apartheid : classification raciale, interdiction des mariages mixtes, zones de résidence séparées, interdiction du Parti communiste en 1950.",
+        "en": "Elected by the white electorate alone, the Afrikaner National Party systematises segregation into apartheid: racial classification, a ban on mixed marriages, separate residential areas and the banning of the Communist Party in 1950.",
+        "de": "Allein von der weißen Wählerschaft gewählt, systematisiert die afrikaanse Nationale Partei die Segregation zur Apartheid: Rassenklassifizierung, Verbot von Mischehen, getrennte Wohngebiete, Verbot der Kommunistischen Partei 1950.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-states-and-wars"}],
+      "places": ["south-africa"],
+      "organizations": ["national-party-south-africa"],
+      "status": "draft"
+    },
+    {
+      "id": "1949-enugu-colliery-massacre",
+      "title": {
+        "fr": "Massacre de la mine d'Enugu",
+        "en": "Enugu colliery massacre",
+        "de": "Massaker in der Zeche von Enugu",
+        "draft": ["en", "de"]
+      },
+      "type": "massacre",
+      "start": {"date": "1949-11-18"},
+      "summary": {
+        "fr": "La police coloniale tire sur des mineurs de charbon en grève perlée à Enugu, tuant 21 ouvriers ; le massacre soulève tout le mouvement nationaliste nigérian.",
+        "en": "Colonial police fire on coal miners on a go-slow strike at Enugu, killing 21 workers; the massacre rouses the whole Nigerian nationalist movement.",
+        "de": "Die Kolonialpolizei schießt in Enugu auf Kohlebergleute im Bummelstreik und tötet 21 Arbeiter; das Massaker bringt die gesamte nigerianische Nationalbewegung in Aufruhr.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-labour-and-social-struggles"}, {"id": "united-kingdom-empire"}],
+      "places": ["enugu"],
+      "status": "draft"
+    },
+    {
+      "id": "1952-assassination-of-farhat-hached",
+      "title": {
+        "fr": "Assassinat de Farhat Hached",
+        "en": "Assassination of Farhat Hached",
+        "de": "Ermordung Farhat Hacheds",
+        "draft": ["en", "de"]
+      },
+      "type": "assassination",
+      "start": {"date": "1952-12-05"},
+      "summary": {
+        "fr": "Le fondateur de l'UGTT est assassiné par la Main rouge, organisation terroriste liée aux services français ; sa mort provoque grèves et émeutes de Tunisie jusqu'à Casablanca.",
+        "en": "The founder of the UGTT is murdered by the Red Hand, a terrorist organisation linked to the French services; his death sparks strikes and riots from Tunisia to Casablanca.",
+        "de": "Der Gründer der UGTT wird von der Roten Hand, einer mit den französischen Diensten verbundenen Terrororganisation, ermordet; sein Tod löst Streiks und Unruhen von Tunesien bis Casablanca aus.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "africa-labour-and-social-struggles"},
+        {"id": "africa-resistance-and-liberation"},
+        {"id": "1945-liberation-and-fourth-republic"}
+      ],
+      "persons": ["farhat-hached"],
+      "places": ["tunis", "casablanca"],
+      "organizations": ["ugtt"],
+      "status": "draft"
+    },
+    {
+      "id": "1952-egyptian-revolution",
+      "title": {
+        "orig": "ar",
+        "ar": "ثورة 23 يوليو",
+        "fr": "Révolution du 23 juillet",
+        "en": "23 July Revolution",
+        "de": "Revolution vom 23. Juli",
+        "draft": ["en", "de"]
+      },
+      "type": "coup",
+      "start": {"date": "1952-07-23"},
+      "summary": {
+        "fr": "Les Officiers libres renversent le roi Farouk ; sous Nasser, le régime engage réforme agraire, nationalisations et nationalisme arabe, tout en réprimant communistes et grèves ouvrières.",
+        "en": "The Free Officers overthrow King Farouk; under Nasser, the regime carries out land reform, nationalisations and Arab nationalism while repressing communists and workers' strikes.",
+        "de": "Die Freien Offiziere stürzen König Faruq; unter Nasser setzt das Regime Bodenreform, Verstaatlichungen und arabischen Nationalismus durch und unterdrückt zugleich Kommunisten und Arbeiterstreiks.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-states-and-wars"}],
+      "persons": ["gamal-abdel-nasser"],
+      "places": ["cairo"],
+      "organizations": ["free-officers-movement"],
+      "status": "draft"
+    },
+    {
+      "id": "1955-freedom-charter",
+      "title": {
+        "fr": "Charte de la liberté",
+        "en": "Freedom Charter",
+        "de": "Freiheitscharta",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Congrès du peuple"],
+      "type": "congress",
+      "start": {"date": "1955-06-26"},
+      "summary": {
+        "fr": "Le Congrès du peuple, réuni par l'ANC et ses alliés à Kliptown, adopte la Charte de la liberté : égalité des droits, partage des terres et nationalisation des mines et des banques.",
+        "en": "The Congress of the People, convened by the ANC and its allies at Kliptown, adopts the Freedom Charter: equal rights, land redistribution and nationalisation of the mines and banks.",
+        "de": "Der vom ANC und seinen Verbündeten in Kliptown einberufene Volkskongress verabschiedet die Freiheitscharta: Gleichberechtigung, Landverteilung und Verstaatlichung der Minen und Banken.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-resistance-and-liberation"}, {"id": "africa-pan-africanism-and-ideas"}],
+      "places": ["soweto"],
+      "organizations": ["anc"],
+      "works": ["freedom-charter"],
+      "status": "draft"
+    },
+    {
+      "id": "1956-independence-of-sudan",
+      "title": {
+        "fr": "Indépendance du Soudan",
+        "en": "Independence of Sudan",
+        "de": "Unabhängigkeit des Sudan",
+        "draft": ["en", "de"]
+      },
+      "type": "independence",
+      "start": {"date": "1956-01-01"},
+      "summary": {
+        "fr": "Le condominium anglo-égyptien prend fin ; le nouvel État hérite d'un déséquilibre entre le Nord et le Sud qui débouche sur une première guerre civile.",
+        "en": "The Anglo-Egyptian condominium ends; the new state inherits an imbalance between North and South that leads to a first civil war.",
+        "de": "Das anglo-ägyptische Kondominium endet; der neue Staat erbt ein Ungleichgewicht zwischen Nord und Süd, das in einen ersten Bürgerkrieg mündet.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-states-and-wars"}, {"id": "united-kingdom-empire"}],
+      "places": ["khartoum"],
+      "status": "draft"
+    },
+    {
+      "id": "1956-independence-of-tunisia",
+      "title": {
+        "fr": "Indépendance de la Tunisie",
+        "en": "Independence of Tunisia",
+        "de": "Unabhängigkeit Tunesiens",
+        "draft": ["en", "de"]
+      },
+      "type": "independence",
+      "start": {"date": "1956-03-20"},
+      "summary": {
+        "fr": "Après plusieurs années de lutte armée et syndicale, la France reconnaît l'indépendance de la Tunisie ; Habib Bourguiba en prend la tête.",
+        "en": "After several years of armed and trade-union struggle, France recognises Tunisia's independence; Habib Bourguiba takes the lead.",
+        "de": "Nach mehreren Jahren bewaffneten und gewerkschaftlichen Kampfes erkennt Frankreich die Unabhängigkeit Tunesiens an; Habib Bourguiba übernimmt die Führung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-states-and-wars"}, {"id": "1945-liberation-and-fourth-republic"}],
+      "places": ["tunis"],
+      "status": "draft"
+    },
+    {
+      "id": "1956-congress-of-black-writers-and-artists",
+      "title": {
+        "fr": "Congrès des écrivains et artistes noirs",
+        "en": "Congress of Black Writers and Artists",
+        "de": "Kongress schwarzer Schriftsteller und Künstler",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1956-09-19"},
+      "end": {"date": "1956-09-22"},
+      "summary": {
+        "fr": "Réuni à la Sorbonne par la revue Présence africaine, le congrès rassemble Césaire, Senghor, Fanon et Richard Wright autour de la culture noire et du colonialisme.",
+        "en": "Convened at the Sorbonne by the journal Présence africaine, the congress brings together Césaire, Senghor, Fanon and Richard Wright around Black culture and colonialism.",
+        "de": "Von der Zeitschrift Présence africaine an der Sorbonne einberufen, versammelt der Kongress Césaire, Senghor, Fanon und Richard Wright zu schwarzer Kultur und Kolonialismus.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-pan-africanism-and-ideas"}],
+      "persons": ["aime-cesaire", "frantz-fanon"],
+      "places": ["paris"],
+      "status": "draft"
+    },
+    {
+      "id": "1958-independence-of-guinea",
+      "title": {
+        "fr": "Indépendance de la Guinée",
+        "en": "Independence of Guinea",
+        "de": "Unabhängigkeit Guineas",
+        "draft": ["en", "de"]
+      },
+      "type": "independence",
+      "start": {"date": "1958-10-02"},
+      "summary": {
+        "fr": "Seul territoire à voter « non » à la Communauté proposée par de Gaulle, le 28 septembre, la Guinée de Sékou Touré proclame son indépendance ; la France rappelle ses cadres et emporte jusqu'aux archives.",
+        "en": "The only territory to vote \"no\" to de Gaulle's proposed Community on 28 September, Sékou Touré's Guinea proclaims independence; France withdraws its staff and takes even the archives.",
+        "de": "Als einziges Gebiet, das am 28. September „Nein“ zu de Gaulles Gemeinschaft stimmt, erklärt Guinea unter Sékou Touré seine Unabhängigkeit; Frankreich zieht sein Personal ab und nimmt sogar die Archive mit.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-states-and-wars"}, {"id": "1945-liberation-and-fourth-republic"}],
+      "persons": ["sekou-toure"],
+      "places": ["conakry"],
+      "status": "draft"
+    },
+    {
+      "id": "1958-all-african-peoples-conference",
+      "title": {
+        "fr": "Conférence des peuples africains d'Accra",
+        "en": "All-African Peoples' Conference",
+        "de": "Gesamtafrikanische Völkerkonferenz",
+        "draft": ["en", "de"]
+      },
+      "type": "conference",
+      "start": {"date": "1958-12-05"},
+      "end": {"date": "1958-12-13"},
+      "summary": {
+        "fr": "Convoquée par Nkrumah, la conférence réunit partis et syndicats de tout le continent, dont Lumumba et Fanon, et soutient toutes les luttes de libération, y compris armées.",
+        "en": "Called by Nkrumah, the conference gathers parties and unions from across the continent, including Lumumba and Fanon, and supports all liberation struggles, armed ones included.",
+        "de": "Von Nkrumah einberufen, versammelt die Konferenz Parteien und Gewerkschaften des ganzen Kontinents, darunter Lumumba und Fanon, und unterstützt alle Befreiungskämpfe, auch die bewaffneten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-pan-africanism-and-ideas"}],
+      "persons": ["kwame-nkrumah", "patrice-lumumba", "frantz-fanon"],
+      "places": ["accra"],
+      "status": "draft"
+    },
+    {
+      "id": "1960-sharpeville-massacre",
+      "title": {
+        "fr": "Massacre de Sharpeville",
+        "en": "Sharpeville massacre",
+        "de": "Massaker von Sharpeville",
+        "draft": ["en", "de"]
+      },
+      "type": "massacre",
+      "start": {"date": "1960-03-21"},
+      "summary": {
+        "fr": "La police tire sur une foule manifestant contre les laissez-passer à l'appel du Congrès panafricain : 69 morts. Le régime interdit l'ANC et le PAC, qui se tournent vers la lutte armée.",
+        "en": "Police fire on a crowd protesting against the pass laws at the call of the Pan Africanist Congress: 69 dead. The regime bans the ANC and the PAC, which turn to armed struggle.",
+        "de": "Die Polizei schießt auf eine Menge, die auf Aufruf des Pan Africanist Congress gegen die Passgesetze protestiert: 69 Tote. Das Regime verbietet ANC und PAC, die zum bewaffneten Kampf übergehen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-resistance-and-liberation"}],
+      "places": ["sharpeville"],
+      "organizations": ["anc"],
+      "sources": [{"ref": "wp-en-sharpeville"}],
+      "status": "draft"
+    },
+    {
+      "id": "1960-congo-crisis",
+      "title": {"fr": "Crise congolaise", "en": "Congo Crisis", "de": "Kongokrise", "draft": ["en", "de"]},
+      "type": "period",
+      "start": {"date": "1960-07-05"},
+      "end": {"date": "1965-11-25"},
+      "summary": {
+        "fr": "Dès l'indépendance du 30 juin 1960, mutinerie, sécession du Katanga soutenue par la Belgique et les compagnies minières, intervention de l'ONU et assassinat de Lumumba plongent le Congo dans cinq ans de guerre jusqu'au coup d'État de Mobutu.",
+        "en": "From independence on 30 June 1960, mutiny, the secession of Katanga backed by Belgium and the mining companies, UN intervention and Lumumba's murder plunge the Congo into five years of war until Mobutu's coup.",
+        "de": "Ab der Unabhängigkeit am 30. Juni 1960 stürzen Meuterei, die von Belgien und den Bergbaukonzernen gestützte Abspaltung Katangas, die UN-Intervention und die Ermordung Lumumbas den Kongo in fünf Jahre Krieg bis zu Mobutus Putsch.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-states-and-wars"}, {"id": "africa-imperialism"}],
+      "persons": ["patrice-lumumba", "mobutu-sese-seko"],
+      "places": ["kinshasa", "lubumbashi"],
+      "sources": [{"ref": "wp-en-congo-crisis"}],
+      "status": "draft"
+    },
+    {
+      "id": "1961-assassination-of-patrice-lumumba",
+      "title": {
+        "fr": "Assassinat de Patrice Lumumba",
+        "en": "Assassination of Patrice Lumumba",
+        "de": "Ermordung Patrice Lumumbas",
+        "draft": ["en", "de"]
+      },
+      "type": "assassination",
+      "start": {"date": "1961-01-17"},
+      "summary": {
+        "fr": "Livré aux sécessionnistes katangais, le Premier ministre déchu est fusillé près d'Élisabethville avec la participation d'officiers belges, sa mort étant cachée pendant près d'un mois.",
+        "en": "Handed over to the Katangese secessionists, the deposed prime minister is shot near Élisabethville with the participation of Belgian officers; his death is concealed for almost a month.",
+        "de": "Den katangischen Sezessionisten ausgeliefert, wird der abgesetzte Premierminister unter Beteiligung belgischer Offiziere bei Élisabethville erschossen; sein Tod wird fast einen Monat verheimlicht.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1960-congo-crisis"}],
+      "persons": ["patrice-lumumba"],
+      "places": ["lubumbashi"],
+      "sources": [{"ref": "wp-en-congo-crisis"}],
+      "status": "draft"
+    },
+    {
+      "id": "1960-gods-bits-of-wood",
+      "title": {
+        "fr": "Parution des Bouts de bois de Dieu",
+        "en": "Publication of God's Bits of Wood",
+        "de": "Erscheinen von Gottes Holzstücke",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1960"},
+      "summary": {
+        "fr": "Ousmane Sembène, ancien docker et militant syndical, publie un roman sur la grève des cheminots du Dakar–Niger de 1947-1948, où les femmes et les ouvriers sont les héros collectifs de la lutte.",
+        "en": "Ousmane Sembène, a former docker and trade-union activist, publishes a novel on the 1947–1948 Dakar–Niger railway strike, in which women and workers are the collective heroes of the struggle.",
+        "de": "Ousmane Sembène, ehemaliger Hafenarbeiter und Gewerkschafter, veröffentlicht einen Roman über den Eisenbahnerstreik der Dakar-Niger-Bahn 1947–1948, in dem Frauen und Arbeiter die kollektiven Helden des Kampfes sind.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-pan-africanism-and-ideas"}],
+      "persons": ["ousmane-sembene"],
+      "works": ["gods-bits-of-wood"],
+      "tags": ["littérature"],
+      "sources": [{"ref": "wp-en-dakar-niger-railway"}],
+      "status": "draft"
+    },
+    {
+      "id": "1961-the-wretched-of-the-earth",
+      "title": {
+        "fr": "Parution des Damnés de la Terre",
+        "en": "Publication of The Wretched of the Earth",
+        "de": "Erscheinen von Die Verdammten dieser Erde",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1961"},
+      "summary": {
+        "fr": "Peu avant sa mort, le psychiatre martiniquais Frantz Fanon, engagé dans le FLN, publie une analyse de la violence coloniale et de la libération, qui met en garde contre la bourgeoisie nationale des futurs États.",
+        "en": "Shortly before his death, the Martinican psychiatrist Frantz Fanon, a member of the FLN, publishes an analysis of colonial violence and liberation that warns against the national bourgeoisie of the future states.",
+        "de": "Kurz vor seinem Tod veröffentlicht der martinikanische Psychiater Frantz Fanon, Mitglied der FLN, eine Analyse kolonialer Gewalt und Befreiung, die vor der nationalen Bourgeoisie der künftigen Staaten warnt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-pan-africanism-and-ideas"}],
+      "persons": ["frantz-fanon"],
+      "organizations": ["fln"],
+      "works": ["wretched-of-the-earth"],
+      "tags": ["littérature"],
+      "status": "draft"
+    },
+    {
+      "id": "1961-portuguese-colonial-war",
+      "title": {
+        "orig": "pt",
+        "pt": "Guerra Colonial Portuguesa",
+        "fr": "Guerre coloniale portugaise",
+        "en": "Portuguese Colonial War",
+        "de": "Portugiesischer Kolonialkrieg",
+        "draft": ["en", "de"]
+      },
+      "type": "war",
+      "start": {"date": "1961-02-04"},
+      "end": {"date": "1974-04-25"},
+      "summary": {
+        "fr": "Du soulèvement de Luanda en 1961 aux maquis de Guinée-Bissau et du Mozambique, MPLA, PAIGC et FRELIMO mènent treize ans de guerre de libération ; l'épuisement de l'armée portugaise provoque la révolution des Œillets.",
+        "en": "From the Luanda uprising of 1961 to the guerrilla zones of Guinea-Bissau and Mozambique, the MPLA, PAIGC and FRELIMO wage thirteen years of liberation war; the exhaustion of the Portuguese army brings on the Carnation Revolution.",
+        "de": "Vom Aufstand in Luanda 1961 bis zu den Guerillagebieten in Guinea-Bissau und Mosambik führen MPLA, PAIGC und FRELIMO dreizehn Jahre Befreiungskrieg; die Erschöpfung der portugiesischen Armee löst die Nelkenrevolution aus.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-resistance-and-liberation"}, {"id": "world-wars"}],
+      "persons": ["amilcar-cabral"],
+      "places": ["angola", "guinea-bissau", "mozambique"],
+      "organizations": ["mpla", "paigc", "frelimo"],
+      "status": "draft"
+    },
+    {
+      "id": "1961-founding-of-umkhonto-we-sizwe",
+      "title": {
+        "fr": "Fondation d'Umkhonto we Sizwe",
+        "en": "Founding of Umkhonto we Sizwe",
+        "de": "Gründung von Umkhonto we Sizwe",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1961-12-16"},
+      "summary": {
+        "fr": "Après Sharpeville et l'interdiction de l'ANC, Nelson Mandela et des dirigeants de l'ANC et du Parti communiste fondent la branche armée « Lance de la nation » et lancent une campagne de sabotages.",
+        "en": "After Sharpeville and the banning of the ANC, Nelson Mandela and leaders of the ANC and the Communist Party found the armed wing \"Spear of the Nation\" and launch a sabotage campaign.",
+        "de": "Nach Sharpeville und dem Verbot des ANC gründen Nelson Mandela und Führer von ANC und Kommunistischer Partei den bewaffneten Arm „Speer der Nation“ und beginnen eine Sabotagekampagne.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-resistance-and-liberation"}],
+      "persons": ["nelson-mandela"],
+      "places": ["johannesburg"],
+      "organizations": ["umkhonto-we-sizwe", "anc", "communist-party-of-south-africa"],
+      "status": "draft"
+    },
+    {
+      "id": "1963-founding-of-the-oau",
+      "title": {
+        "fr": "Fondation de l'Organisation de l'unité africaine",
+        "en": "Founding of the Organisation of African Unity",
+        "de": "Gründung der Organisation für Afrikanische Einheit",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1963-05-25"},
+      "summary": {
+        "fr": "Trente-deux États fondent l'OUA à Addis-Abeba ; contre le projet d'unité continentale de Nkrumah, elle consacre l'intangibilité des frontières coloniales et la non-ingérence, tout en soutenant les mouvements de libération.",
+        "en": "Thirty-two states found the OAU in Addis Ababa; against Nkrumah's plan for continental unity, it enshrines the inviolability of colonial borders and non-interference while supporting liberation movements.",
+        "de": "Zweiunddreißig Staaten gründen in Addis Abeba die OAU; gegen Nkrumahs Plan einer kontinentalen Einheit schreibt sie die Unantastbarkeit der Kolonialgrenzen und die Nichteinmischung fest und unterstützt zugleich die Befreiungsbewegungen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-pan-africanism-and-ideas"}, {"id": "africa-states-and-wars"}],
+      "persons": ["kwame-nkrumah", "haile-selassie"],
+      "places": ["addis-ababa"],
+      "organizations": ["oau"],
+      "status": "draft"
+    },
+    {
+      "id": "1963-rivonia-trial",
+      "title": {
+        "fr": "Procès de Rivonia",
+        "en": "Rivonia Trial",
+        "de": "Rivonia-Prozess",
+        "draft": ["en", "de"]
+      },
+      "type": "trial",
+      "start": {"date": "1963-10"},
+      "end": {"date": "1964-06-12"},
+      "summary": {
+        "fr": "Arrêtés dans la ferme de Liliesleaf à Rivonia, les dirigeants d'Umkhonto we Sizwe sont jugés pour sabotage ; Mandela, Sisulu, Mbeki et leurs camarades sont condamnés à la prison à vie.",
+        "en": "Arrested at Liliesleaf farm in Rivonia, the leaders of Umkhonto we Sizwe are tried for sabotage; Mandela, Sisulu, Mbeki and their comrades are sentenced to life imprisonment.",
+        "de": "Auf der Liliesleaf-Farm in Rivonia verhaftet, werden die Führer von Umkhonto we Sizwe wegen Sabotage angeklagt; Mandela, Sisulu, Mbeki und ihre Genossen werden zu lebenslanger Haft verurteilt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-resistance-and-liberation"}],
+      "persons": ["nelson-mandela"],
+      "places": ["pretoria"],
+      "organizations": ["umkhonto-we-sizwe", "anc"],
+      "status": "draft"
+    },
+    {
+      "id": "1963-independence-of-kenya",
+      "title": {
+        "fr": "Indépendance du Kenya",
+        "en": "Independence of Kenya",
+        "de": "Unabhängigkeit Kenias",
+        "draft": ["en", "de"]
+      },
+      "type": "independence",
+      "start": {"date": "1963-12-12"},
+      "summary": {
+        "fr": "Après l'écrasement de la révolte des Mau Mau, le Kenya accède à l'indépendance sous Jomo Kenyatta ; les terres des colons sont rachetées avec des prêts britanniques plutôt que redistribuées.",
+        "en": "After the crushing of the Mau Mau revolt, Kenya becomes independent under Jomo Kenyatta; settlers' land is bought out with British loans rather than redistributed.",
+        "de": "Nach der Niederschlagung des Mau-Mau-Aufstands wird Kenia unter Jomo Kenyatta unabhängig; das Land der Siedler wird mit britischen Krediten aufgekauft statt umverteilt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-states-and-wars"}, {"id": "united-kingdom-empire"}],
+      "places": ["nairobi"],
+      "status": "draft"
+    },
+    {
+      "id": "1964-zanzibar-revolution",
+      "title": {
+        "fr": "Révolution de Zanzibar",
+        "en": "Zanzibar Revolution",
+        "de": "Revolution von Sansibar",
+        "draft": ["en", "de"]
+      },
+      "type": "revolution",
+      "start": {"date": "1964-01-12"},
+      "summary": {
+        "fr": "Un mois après l'indépendance, une insurrection renverse le sultan et l'élite arabe ; des milliers de personnes sont tuées. Zanzibar s'unit au Tanganyika en avril pour former la Tanzanie.",
+        "en": "A month after independence, an uprising overthrows the sultan and the Arab elite; thousands are killed. In April Zanzibar unites with Tanganyika to form Tanzania.",
+        "de": "Einen Monat nach der Unabhängigkeit stürzt ein Aufstand den Sultan und die arabische Elite; Tausende werden getötet. Im April vereinigt sich Sansibar mit Tanganjika zu Tansania.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-labour-and-social-struggles"}, {"id": "africa-states-and-wars"}],
+      "places": ["zanzibar-city"],
+      "status": "draft"
+    },
+    {
+      "id": "1965-mobutu-coup",
+      "title": {
+        "fr": "Coup d'État de Mobutu",
+        "en": "Mobutu's coup",
+        "de": "Putsch Mobutus",
+        "draft": ["en", "de"]
+      },
+      "type": "coup",
+      "start": {"date": "1965-11-25"},
+      "summary": {
+        "fr": "Soutenu par les États-Unis et la Belgique, le général Mobutu prend le pouvoir ; sa dictature, qui rebaptise le pays Zaïre en 1971, dure plus de trente ans, marquée par la corruption et le pillage des ressources.",
+        "en": "Backed by the United States and Belgium, General Mobutu seizes power; his dictatorship, which renames the country Zaire in 1971, lasts over thirty years, marked by corruption and the plundering of resources.",
+        "de": "Von den USA und Belgien unterstützt, ergreift General Mobutu die Macht; seine Diktatur, die das Land 1971 in Zaire umbenennt, dauert über dreißig Jahre und ist von Korruption und Plünderung der Ressourcen geprägt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1960-congo-crisis"}, {"id": "africa-states-and-wars"}],
+      "persons": ["mobutu-sese-seko"],
+      "places": ["kinshasa"],
+      "sources": [{"ref": "wp-en-congo-crisis"}],
+      "status": "draft"
+    },
+    {
+      "id": "1966-tricontinental-conference",
+      "title": {
+        "fr": "Conférence tricontinentale",
+        "en": "Tricontinental Conference",
+        "de": "Trikontinentale Konferenz",
+        "draft": ["en", "de"]
+      },
+      "type": "conference",
+      "start": {"date": "1966-01-03"},
+      "end": {"date": "1966-01-15"},
+      "summary": {
+        "fr": "À La Havane, mouvements de libération d'Afrique, d'Asie et d'Amérique latine se coordonnent contre l'impérialisme ; Amílcar Cabral y prononce son discours « L'arme de la théorie ».",
+        "en": "In Havana, liberation movements from Africa, Asia and Latin America coordinate against imperialism; Amílcar Cabral delivers his speech \"The Weapon of Theory\".",
+        "de": "In Havanna koordinieren sich Befreiungsbewegungen aus Afrika, Asien und Lateinamerika gegen den Imperialismus; Amílcar Cabral hält seine Rede „Die Waffe der Theorie“.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "africa-pan-africanism-and-ideas"},
+        {"id": "world-states"},
+        {"id": "latin-america-ideas-and-culture"}
+      ],
+      "persons": ["amilcar-cabral"],
+      "places": ["havana"],
+      "works": ["weapon-of-theory"],
+      "status": "draft"
+    },
+    {
+      "id": "1966-overthrow-of-kwame-nkrumah",
+      "title": {
+        "fr": "Renversement de Kwame Nkrumah",
+        "en": "Overthrow of Kwame Nkrumah",
+        "de": "Sturz Kwame Nkrumahs",
+        "draft": ["en", "de"]
+      },
+      "type": "coup",
+      "start": {"date": "1966-02-24"},
+      "summary": {
+        "fr": "Pendant un voyage de Nkrumah en Asie, l'armée et la police ghanéennes le renversent ; le nouveau régime tourne le dos au panafricanisme et se tourne vers le FMI.",
+        "en": "While Nkrumah is travelling in Asia, the Ghanaian army and police overthrow him; the new regime turns its back on pan-Africanism and turns to the IMF.",
+        "de": "Während einer Asienreise Nkrumahs stürzen ihn Armee und Polizei Ghanas; das neue Regime kehrt dem Panafrikanismus den Rücken und wendet sich dem IWF zu.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-states-and-wars"}],
+      "persons": ["kwame-nkrumah"],
+      "places": ["accra"],
+      "status": "draft"
+    },
+    {
+      "id": "1967-arusha-declaration",
+      "title": {
+        "orig": "sw",
+        "sw": "Azimio la Arusha",
+        "fr": "Déclaration d'Arusha",
+        "en": "Arusha Declaration",
+        "de": "Arusha-Erklärung",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1967-02-05"},
+      "summary": {
+        "fr": "Julius Nyerere proclame la voie tanzanienne du « socialisme africain » (ujamaa) : nationalisation des banques et des grandes entreprises, villages collectifs, autonomie vis-à-vis de l'aide étrangère.",
+        "en": "Julius Nyerere proclaims Tanzania's road of \"African socialism\" (ujamaa): nationalisation of the banks and large firms, collective villages and self-reliance from foreign aid.",
+        "de": "Julius Nyerere verkündet Tansanias Weg des „afrikanischen Sozialismus“ (Ujamaa): Verstaatlichung von Banken und Großunternehmen, Kollektivdörfer und Unabhängigkeit von Auslandshilfe.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-pan-africanism-and-ideas"}],
+      "persons": ["julius-nyerere"],
+      "places": ["arusha"],
+      "works": ["arusha-declaration"],
+      "status": "draft"
+    },
+    {
+      "id": "1967-nigerian-civil-war",
+      "title": {
+        "fr": "Guerre du Biafra",
+        "en": "Nigerian Civil War",
+        "de": "Biafra-Krieg",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Guerre civile nigériane"],
+      "type": "war",
+      "start": {"date": "1967-07-06"},
+      "end": {"date": "1970-01-15"},
+      "summary": {
+        "fr": "La sécession de la région orientale, riche en pétrole, sous le nom de Biafra entraîne une guerre où le blocus fédéral provoque une famine de masse ; le Royaume-Uni et l'URSS arment Lagos, la France soutient le Biafra.",
+        "en": "The secession of the oil-rich Eastern Region as Biafra leads to a war in which the federal blockade causes mass famine; Britain and the USSR arm Lagos, France backs Biafra.",
+        "de": "Die Abspaltung der ölreichen Ostregion als Biafra führt zu einem Krieg, in dem die Blockade der Bundesregierung eine Massenhungersnot auslöst; Großbritannien und die UdSSR bewaffnen Lagos, Frankreich unterstützt Biafra.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-states-and-wars"}, {"id": "world-wars"}],
+      "places": ["enugu"],
+      "status": "draft"
+    },
+    {
+      "id": "1968-may-68-in-senegal",
+      "title": {
+        "fr": "Mai 68 au Sénégal",
+        "en": "May 1968 in Senegal",
+        "de": "Mai 1968 im Senegal",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "1968-05-18"},
+      "end": {"date": "1968-06-12"},
+      "summary": {
+        "fr": "La grève des étudiants de Dakar contre la réduction des bourses, réprimée par l'armée sur le campus, s'étend aux travailleurs : la centrale UNTS lance une grève générale qui fait vaciller le régime de Senghor.",
+        "en": "Dakar students' strike against grant cuts, repressed by the army on campus, spreads to workers: the UNTS federation launches a general strike that shakes Senghor's regime.",
+        "de": "Der Streik der Studenten in Dakar gegen Stipendienkürzungen, von der Armee auf dem Campus niedergeschlagen, greift auf die Arbeiter über: der Gewerkschaftsbund UNTS ruft einen Generalstreik aus, der Senghors Regime ins Wanken bringt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-labour-and-social-struggles"}],
+      "places": ["dakar"],
+      "sources": [{"ref": "libcom-may-1968-senegal"}],
+      "status": "draft"
+    },
+    {
+      "id": "1968-sahel-famine",
+      "title": {
+        "fr": "Sécheresse et famine du Sahel",
+        "en": "Sahel drought and famine",
+        "de": "Dürre und Hungersnot im Sahel",
+        "draft": ["en", "de"]
+      },
+      "type": "famine",
+      "start": {"date": "1968"},
+      "end": {"date": "1974"},
+      "summary": {
+        "fr": "Une sécheresse de plusieurs années frappe la bande sahélienne ; jusqu'à 100 000 personnes et un tiers du bétail périssent, dans des économies orientées vers les cultures d'exportation.",
+        "en": "A drought lasting several years strikes the Sahel belt; up to 100,000 people and a third of the livestock perish, in economies geared towards export crops.",
+        "de": "Eine mehrjährige Dürre trifft den Sahelgürtel; bis zu 100 000 Menschen und ein Drittel des Viehs sterben, in Volkswirtschaften, die auf Exportkulturen ausgerichtet sind.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-economy-and-disasters"}, {"id": "world-disasters"}],
+      "places": ["niamey", "mali"],
+      "sources": [{"ref": "wp-en-droughts-in-the-sahel"}],
+      "status": "draft"
+    },
+    {
+      "id": "1969-pan-african-cultural-festival",
+      "title": {
+        "fr": "Festival culturel panafricain d'Alger",
+        "en": "Pan-African Cultural Festival of Algiers",
+        "de": "Panafrikanisches Kulturfestival von Algier",
+        "draft": ["en", "de"]
+      },
+      "type": "festival",
+      "start": {"date": "1969-07-21"},
+      "end": {"date": "1969-08-01"},
+      "summary": {
+        "fr": "Alger, « capitale des révolutionnaires », accueille artistes, musiciens et mouvements de libération d'Afrique et de la diaspora, dont les Black Panthers.",
+        "en": "Algiers, the \"capital of revolutionaries\", hosts artists, musicians and liberation movements from Africa and the diaspora, including the Black Panthers.",
+        "de": "Algier, die „Hauptstadt der Revolutionäre“, empfängt Künstler, Musiker und Befreiungsbewegungen aus Afrika und der Diaspora, darunter die Black Panthers.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-pan-africanism-and-ideas"}, {"id": "world-culture"}],
+      "places": ["algiers"],
+      "tags": ["musique"],
+      "status": "draft"
+    },
+    {
+      "id": "1969-gaddafi-coup",
+      "title": {
+        "fr": "Coup d'État de Kadhafi",
+        "en": "Gaddafi's coup",
+        "de": "Putsch Gaddafis",
+        "draft": ["en", "de"]
+      },
+      "type": "coup",
+      "start": {"date": "1969-09-01"},
+      "summary": {
+        "fr": "De jeunes officiers menés par Mouammar Kadhafi renversent le roi Idris ; le nouveau régime ferme les bases britanniques et américaines et nationalise le pétrole.",
+        "en": "Young officers led by Muammar Gaddafi overthrow King Idris; the new regime closes British and American bases and nationalises oil.",
+        "de": "Junge Offiziere unter Muammar al-Gaddafi stürzen König Idris; das neue Regime schließt die britischen und amerikanischen Stützpunkte und verstaatlicht das Öl.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-states-and-wars"}],
+      "persons": ["muammar-gaddafi"],
+      "places": ["tripoli", "benghazi"],
+      "status": "draft"
+    },
+    {
+      "id": "1972-how-europe-underdeveloped-africa",
+      "title": {
+        "fr": "Parution de Et l'Europe sous-développa l'Afrique",
+        "en": "Publication of How Europe Underdeveloped Africa",
+        "de": "Erscheinen von Wie Europa Afrika unterentwickelte",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1972"},
+      "summary": {
+        "fr": "L'historien marxiste guyanien Walter Rodney, enseignant à Dar es Salaam, soutient que le sous-développement de l'Afrique est le produit de la traite, du colonialisme et du capitalisme mondial.",
+        "en": "The Guyanese Marxist historian Walter Rodney, teaching in Dar es Salaam, argues that Africa's underdevelopment is the product of the slave trade, colonialism and world capitalism.",
+        "de": "Der guyanische marxistische Historiker Walter Rodney, Dozent in Daressalam, vertritt die These, dass die Unterentwicklung Afrikas ein Produkt von Sklavenhandel, Kolonialismus und Weltkapitalismus ist.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-pan-africanism-and-ideas"}],
+      "persons": ["walter-rodney"],
+      "works": ["how-europe-underdeveloped-africa"],
+      "tags": ["littérature"],
+      "status": "draft"
+    },
+    {
+      "id": "1973-assassination-of-amilcar-cabral",
+      "title": {
+        "fr": "Assassinat d'Amílcar Cabral",
+        "en": "Assassination of Amílcar Cabral",
+        "de": "Ermordung Amílcar Cabrals",
+        "draft": ["en", "de"]
+      },
+      "type": "assassination",
+      "start": {"date": "1973-01-20"},
+      "summary": {
+        "fr": "Le dirigeant du PAIGC, théoricien de la libération nationale, est assassiné à Conakry par des membres de son parti manipulés par les services portugais, quelques mois avant l'indépendance de la Guinée-Bissau.",
+        "en": "The PAIGC leader and theorist of national liberation is murdered in Conakry by members of his party manipulated by the Portuguese services, a few months before Guinea-Bissau's independence.",
+        "de": "Der PAIGC-Führer und Theoretiker der nationalen Befreiung wird in Conakry von Mitgliedern seiner Partei ermordet, die von den portugiesischen Diensten manipuliert wurden, wenige Monate vor der Unabhängigkeit Guinea-Bissaus.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1961-portuguese-colonial-war"}],
+      "persons": ["amilcar-cabral"],
+      "places": ["conakry"],
+      "organizations": ["paigc"],
+      "status": "draft"
+    },
+    {
+      "id": "1973-durban-strikes",
+      "title": {
+        "fr": "Grèves de Durban",
+        "en": "Durban strikes",
+        "de": "Streiks von Durban",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "1973-01-09"},
+      "end": {"date": "1973-03"},
+      "summary": {
+        "fr": "Environ 60 000 travailleurs noirs de plus de cent entreprises font grève pour leurs salaires malgré l'interdiction ; le mouvement relance le syndicalisme noir indépendant, d'où naîtront la FOSATU puis le COSATU.",
+        "en": "Some 60,000 Black workers at more than a hundred firms strike for wages despite the ban; the movement revives independent Black trade unionism, from which FOSATU and then COSATU will emerge.",
+        "de": "Rund 60 000 schwarze Arbeiter in über hundert Betrieben streiken trotz Verbots für höhere Löhne; die Bewegung belebt die unabhängige schwarze Gewerkschaftsbewegung, aus der FOSATU und später COSATU hervorgehen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-labour-and-social-struggles"}],
+      "places": ["durban"],
+      "sources": [{"ref": "wp-en-1973-durban-strikes"}],
+      "status": "draft"
+    },
+    {
+      "id": "1974-ethiopian-revolution",
+      "title": {
+        "fr": "Révolution éthiopienne",
+        "en": "Ethiopian Revolution",
+        "de": "Äthiopische Revolution",
+        "draft": ["en", "de"]
+      },
+      "type": "revolution",
+      "start": {"date": "1974-02"},
+      "end": {"date": "1974-09-12"},
+      "summary": {
+        "fr": "Grèves, mutineries et manifestations étudiantes contre la famine et la vie chère abattent l'empire de Hailé Sélassié ; une junte militaire, le Derg, prend le pouvoir et se réclame bientôt du marxisme-léninisme.",
+        "en": "Strikes, mutinies and student protests against famine and high prices bring down Haile Selassie's empire; a military junta, the Derg, takes power and soon proclaims itself Marxist-Leninist.",
+        "de": "Streiks, Meutereien und Studentenproteste gegen Hunger und Teuerung stürzen das Kaiserreich Haile Selassies; eine Militärjunta, der Derg, übernimmt die Macht und beruft sich bald auf den Marxismus-Leninismus.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-labour-and-social-struggles"}, {"id": "africa-states-and-wars"}],
+      "persons": ["haile-selassie"],
+      "places": ["addis-ababa"],
+      "organizations": ["derg"],
+      "status": "draft"
+    },
+    {
+      "id": "1975-angolan-civil-war",
+      "title": {
+        "fr": "Guerre civile angolaise",
+        "en": "Angolan Civil War",
+        "de": "Angolanischer Bürgerkrieg",
+        "draft": ["en", "de"]
+      },
+      "type": "war",
+      "start": {"date": "1975-11-11"},
+      "end": {"date": "2002-04-04"},
+      "summary": {
+        "fr": "Dès l'indépendance, le MPLA, soutenu par Cuba et l'URSS, affronte l'UNITA et le FNLA, appuyés par l'Afrique du Sud et les États-Unis ; la guerre dure vingt-sept ans.",
+        "en": "From independence, the MPLA, backed by Cuba and the USSR, fights UNITA and the FNLA, supported by South Africa and the United States; the war lasts twenty-seven years.",
+        "de": "Ab der Unabhängigkeit kämpft die von Kuba und der UdSSR unterstützte MPLA gegen UNITA und FNLA, die von Südafrika und den USA unterstützt werden; der Krieg dauert siebenundzwanzig Jahre.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-states-and-wars"}, {"id": "world-wars"}],
+      "places": ["angola", "luanda"],
+      "organizations": ["mpla", "unita"],
+      "status": "draft"
+    },
+    {
+      "id": "1987-battle-of-cuito-cuanavale",
+      "title": {
+        "fr": "Bataille de Cuito Cuanavale",
+        "en": "Battle of Cuito Cuanavale",
+        "de": "Schlacht von Cuito Cuanavale",
+        "draft": ["en", "de"]
+      },
+      "type": "battle",
+      "start": {"date": "1987-08-14"},
+      "end": {"date": "1988-03-23"},
+      "summary": {
+        "fr": "Les forces angolaises et cubaines arrêtent l'offensive sud-africaine et de l'UNITA ; l'impasse militaire de Pretoria ouvre la voie à l'indépendance de la Namibie et affaiblit l'apartheid.",
+        "en": "Angolan and Cuban forces halt the South African and UNITA offensive; Pretoria's military stalemate opens the way to Namibian independence and weakens apartheid.",
+        "de": "Angolanische und kubanische Truppen stoppen die Offensive Südafrikas und der UNITA; die militärische Pattsituation Pretorias ebnet den Weg zur Unabhängigkeit Namibias und schwächt die Apartheid.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1975-angolan-civil-war"}],
+      "places": ["cuito-cuanavale"],
+      "organizations": ["unita", "mpla"],
+      "sources": [{"ref": "wp-en-battle-of-cuito-cuanavale"}],
+      "status": "draft"
+    },
+    {
+      "id": "1976-soweto-uprising",
+      "title": {
+        "fr": "Soulèvement de Soweto",
+        "en": "Soweto uprising",
+        "de": "Aufstand von Soweto",
+        "draft": ["en", "de"]
+      },
+      "type": "insurrection",
+      "start": {"date": "1976-06-16"},
+      "summary": {
+        "fr": "Des milliers d'écoliers manifestent contre l'enseignement imposé en afrikaans ; la police tire, tuant notamment Hector Pieterson. La révolte s'étend au pays et fait plusieurs centaines de morts.",
+        "en": "Thousands of schoolchildren march against compulsory teaching in Afrikaans; police open fire, killing among others Hector Pieterson. The revolt spreads across the country, leaving several hundred dead.",
+        "de": "Tausende Schüler demonstrieren gegen den Zwangsunterricht auf Afrikaans; die Polizei schießt und tötet unter anderem Hector Pieterson. Der Aufstand breitet sich im ganzen Land aus und fordert mehrere hundert Tote.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-resistance-and-liberation"}],
+      "places": ["soweto"],
+      "status": "draft"
+    },
+    {
+      "id": "1977-egyptian-bread-riots",
+      "title": {
+        "fr": "Intifada du pain en Égypte",
+        "en": "Egyptian bread riots",
+        "de": "Brotunruhen in Ägypten",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1977-01-18"},
+      "end": {"date": "1977-01-19"},
+      "summary": {
+        "fr": "L'annonce de la suppression des subventions aux produits de base exigée par le FMI déclenche un soulèvement dans toutes les villes ; Sadate fait donner l'armée, puis rétablit les subventions.",
+        "en": "The announcement of IMF-demanded cuts to subsidies on staples triggers an uprising in every city; Sadat sends in the army, then restores the subsidies.",
+        "de": "Die Ankündigung vom IWF geforderter Kürzungen der Subventionen für Grundnahrungsmittel löst in allen Städten einen Aufstand aus; Sadat schickt die Armee und stellt dann die Subventionen wieder her.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-labour-and-social-struggles"}],
+      "places": ["cairo"],
+      "organizations": ["imf"],
+      "status": "draft"
+    },
+    {
+      "id": "1977-death-of-steve-biko",
+      "title": {
+        "fr": "Mort de Steve Biko",
+        "en": "Death of Steve Biko",
+        "de": "Tod Steve Bikos",
+        "draft": ["en", "de"]
+      },
+      "type": "death",
+      "start": {"date": "1977-09-12"},
+      "summary": {
+        "fr": "Le fondateur du mouvement de la Conscience noire meurt des coups reçus en garde à vue ; sa mort provoque une indignation internationale et un embargo de l'ONU sur les armes.",
+        "en": "The founder of the Black Consciousness Movement dies of beatings received in police custody; his death provokes international outrage and a UN arms embargo.",
+        "de": "Der Gründer der Black-Consciousness-Bewegung stirbt an Misshandlungen in Polizeigewahrsam; sein Tod löst internationale Empörung und ein UN-Waffenembargo aus.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-resistance-and-liberation"}],
+      "persons": ["steve-biko"],
+      "places": ["pretoria"],
+      "status": "draft"
+    },
+    {
+      "id": "1978-black-thursday",
+      "title": {
+        "fr": "Jeudi noir en Tunisie",
+        "en": "Black Thursday in Tunisia",
+        "de": "Schwarzer Donnerstag in Tunesien",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "1978-01-26"},
+      "summary": {
+        "fr": "La grève générale de l'UGTT, en conflit avec le régime de Bourguiba, est noyée dans le sang par l'armée ; des dizaines de morts et la direction syndicale emprisonnée.",
+        "en": "The UGTT general strike, in conflict with Bourguiba's regime, is drowned in blood by the army; dozens are killed and the union leadership is jailed.",
+        "de": "Der Generalstreik der UGTT im Konflikt mit Bourguibas Regime wird von der Armee blutig niedergeschlagen; Dutzende Tote, die Gewerkschaftsführung wird inhaftiert.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-labour-and-social-struggles"}],
+      "places": ["tunis"],
+      "organizations": ["ugtt"],
+      "status": "draft"
+    },
+    {
+      "id": "1980-berber-spring",
+      "title": {
+        "orig": "kab",
+        "kab": "Tafsut Imaziɣen",
+        "fr": "Printemps berbère",
+        "en": "Berber Spring",
+        "de": "Berberfrühling",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1980-03-10"},
+      "end": {"date": "1980-04"},
+      "summary": {
+        "fr": "L'interdiction d'une conférence de Mouloud Mammeri à Tizi Ouzou déclenche grèves et manifestations en Kabylie pour la langue amazighe et les libertés ; la répression du 20 avril provoque une grève générale.",
+        "en": "The banning of a lecture by Mouloud Mammeri in Tizi Ouzou sparks strikes and demonstrations in Kabylia for the Amazigh language and civil liberties; the repression of 20 April triggers a general strike.",
+        "de": "Das Verbot eines Vortrags von Mouloud Mammeri in Tizi Ouzou löst in der Kabylei Streiks und Demonstrationen für die amazighische Sprache und die Freiheiten aus; die Repression vom 20. April führt zu einem Generalstreik.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-labour-and-social-struggles"}],
+      "persons": ["mouloud-mammeri"],
+      "places": ["tizi-ouzou"],
+      "sources": [{"ref": "wp-en-berber-spring"}, {"ref": "wp-en-tizi-ouzou"}],
+      "status": "draft"
+    },
+    {
+      "id": "1980-independence-of-zimbabwe",
+      "title": {
+        "fr": "Indépendance du Zimbabwe",
+        "en": "Independence of Zimbabwe",
+        "de": "Unabhängigkeit Simbabwes",
+        "draft": ["en", "de"]
+      },
+      "type": "independence",
+      "start": {"date": "1980-04-18"},
+      "summary": {
+        "fr": "Après quinze ans de guerre de guérilla contre le régime blanc de Rhodésie, les accords de Lancaster House mènent à l'indépendance ; la ZANU de Robert Mugabe gagne les élections, mais la question des terres reste en suspens.",
+        "en": "After fifteen years of guerrilla war against Rhodesia's white regime, the Lancaster House agreements lead to independence; Robert Mugabe's ZANU wins the elections, but the land question remains unresolved.",
+        "de": "Nach fünfzehn Jahren Guerillakrieg gegen das weiße Regime Rhodesiens führen die Lancaster-House-Abkommen zur Unabhängigkeit; Robert Mugabes ZANU gewinnt die Wahlen, doch die Landfrage bleibt ungelöst.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-states-and-wars"}, {"id": "united-kingdom-empire"}],
+      "places": ["harare"],
+      "status": "draft"
+    },
+    {
+      "id": "1981-abolition-of-slavery-in-mauritania",
+      "title": {
+        "fr": "Abolition de l'esclavage en Mauritanie",
+        "en": "Abolition of slavery in Mauritania",
+        "de": "Abschaffung der Sklaverei in Mauretanien",
+        "draft": ["en", "de"]
+      },
+      "type": "law",
+      "start": {"date": "1981"},
+      "summary": {
+        "fr": "La Mauritanie est le dernier pays au monde à abolir officiellement l'esclavage, par décret présidentiel ; la pratique n'est pénalisée qu'en 2007 et persiste à grande échelle.",
+        "en": "Mauritania becomes the last country in the world to officially abolish slavery, by presidential decree; the practice is only criminalised in 2007 and persists on a large scale.",
+        "de": "Mauretanien schafft als letztes Land der Welt die Sklaverei offiziell per Präsidialdekret ab; die Praxis wird erst 2007 unter Strafe gestellt und besteht in großem Umfang fort.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-slave-trade-and-slavery"}],
+      "places": ["mauritania"],
+      "sources": [{"ref": "wp-en-slavery-in-mauritania"}],
+      "status": "draft"
+    },
+    {
+      "id": "1981-casablanca-riots",
+      "title": {
+        "fr": "Émeutes du pain de Casablanca",
+        "en": "Casablanca bread riots",
+        "de": "Brotunruhen von Casablanca",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1981-06-20"},
+      "summary": {
+        "fr": "Une grève générale contre la hausse des prix des produits de base imposée par l'ajustement tourne à l'émeute dans les quartiers pauvres ; la répression fait des centaines de morts selon l'opposition.",
+        "en": "A general strike against rises in staple prices imposed by adjustment turns into rioting in the poor districts; repression kills hundreds according to the opposition.",
+        "de": "Ein Generalstreik gegen die durch die Strukturanpassung verordneten Preiserhöhungen für Grundnahrungsmittel schlägt in den Armenvierteln in Unruhen um; die Repression fordert nach Angaben der Opposition Hunderte Tote.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-labour-and-social-struggles"}],
+      "places": ["casablanca"],
+      "status": "draft"
+    },
+    {
+      "id": "1983-tunisian-bread-riots",
+      "title": {
+        "fr": "Révolte du pain en Tunisie",
+        "en": "Tunisian bread riots",
+        "de": "Brotrevolte in Tunesien",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1983-12-29"},
+      "end": {"date": "1984-01-06"},
+      "summary": {
+        "fr": "Le doublement du prix du pain, décidé sous la pression du FMI, soulève le Sud puis Tunis ; après des dizaines de morts, Bourguiba annule la hausse.",
+        "en": "The doubling of the price of bread, decided under IMF pressure, raises the South and then Tunis; after dozens of deaths, Bourguiba cancels the increase.",
+        "de": "Die unter dem Druck des IWF beschlossene Verdoppelung des Brotpreises bringt erst den Süden, dann Tunis in Aufruhr; nach Dutzenden Toten nimmt Bourguiba die Erhöhung zurück.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-labour-and-social-struggles"}],
+      "places": ["tunis"],
+      "organizations": ["imf"],
+      "status": "draft"
+    },
+    {
+      "id": "1983-burkina-faso-revolution",
+      "title": {
+        "fr": "Révolution burkinabè",
+        "en": "Burkinabè Revolution",
+        "de": "Burkinische Revolution",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1983-08-04"},
+      "end": {"date": "1987-10-15"},
+      "summary": {
+        "fr": "Le capitaine Thomas Sankara prend le pouvoir en Haute-Volta, rebaptisée Burkina Faso : réforme agraire, alphabétisation, vaccination, émancipation des femmes, refus de la dette, mais aussi encadrement militaire des syndicats.",
+        "en": "Captain Thomas Sankara takes power in Upper Volta, renamed Burkina Faso: land reform, literacy and vaccination campaigns, women's emancipation and refusal of debt, but also military control over the unions.",
+        "de": "Hauptmann Thomas Sankara übernimmt in Obervolta, umbenannt in Burkina Faso, die Macht: Bodenreform, Alphabetisierung, Impfkampagnen, Frauenemanzipation, Ablehnung der Schulden, aber auch militärische Kontrolle der Gewerkschaften.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-states-and-wars"}],
+      "persons": ["thomas-sankara"],
+      "places": ["ouagadougou"],
+      "status": "draft"
+    },
+    {
+      "id": "1987-sankara-speech-on-debt",
+      "title": {
+        "fr": "Discours de Sankara sur la dette",
+        "en": "Sankara's speech on debt",
+        "de": "Sankaras Rede über die Schulden",
+        "draft": ["en", "de"]
+      },
+      "type": "speech",
+      "start": {"date": "1987-07-29"},
+      "summary": {
+        "fr": "Au sommet de l'OUA à Addis-Abeba, Thomas Sankara appelle les États africains à refuser collectivement de payer une dette qu'il qualifie de reconquête de l'Afrique.",
+        "en": "At the OAU summit in Addis Ababa, Thomas Sankara calls on African states to collectively refuse to pay a debt he describes as the reconquest of Africa.",
+        "de": "Auf dem OAU-Gipfel in Addis Abeba ruft Thomas Sankara die afrikanischen Staaten auf, die Zahlung von Schulden, die er als Rückeroberung Afrikas bezeichnet, gemeinsam zu verweigern.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1983-burkina-faso-revolution"}, {"id": "africa-economy-and-disasters"}],
+      "persons": ["thomas-sankara"],
+      "places": ["addis-ababa"],
+      "organizations": ["oau"],
+      "status": "draft"
+    },
+    {
+      "id": "1987-assassination-of-thomas-sankara",
+      "title": {
+        "fr": "Assassinat de Thomas Sankara",
+        "en": "Assassination of Thomas Sankara",
+        "de": "Ermordung Thomas Sankaras",
+        "draft": ["en", "de"]
+      },
+      "type": "assassination",
+      "start": {"date": "1987-10-15"},
+      "summary": {
+        "fr": "Sankara et douze de ses compagnons sont tués lors du coup d'État de Blaise Compaoré, qui rétablit les liens avec la France et les institutions financières internationales.",
+        "en": "Sankara and twelve of his companions are killed in Blaise Compaoré's coup, which restores ties with France and the international financial institutions.",
+        "de": "Sankara und zwölf seiner Gefährten werden beim Putsch von Blaise Compaoré getötet, der die Bindungen an Frankreich und die internationalen Finanzinstitutionen wiederherstellt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1983-burkina-faso-revolution"}],
+      "persons": ["thomas-sankara"],
+      "places": ["ouagadougou"],
+      "status": "draft"
+    },
+    {
+      "id": "1983-ethiopian-famine",
+      "title": {
+        "fr": "Famine en Éthiopie",
+        "en": "Ethiopian famine",
+        "de": "Hungersnot in Äthiopien",
+        "draft": ["en", "de"]
+      },
+      "type": "famine",
+      "start": {"date": "1983"},
+      "end": {"date": "1985"},
+      "summary": {
+        "fr": "La sécheresse, aggravée par la guerre civile et les déplacements forcés du régime du Derg, provoque une famine qui fait des centaines de milliers de morts.",
+        "en": "Drought, worsened by civil war and the Derg regime's forced resettlements, causes a famine that kills hundreds of thousands.",
+        "de": "Die Dürre, verschärft durch Bürgerkrieg und die Zwangsumsiedlungen des Derg-Regimes, verursacht eine Hungersnot mit Hunderttausenden Toten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-economy-and-disasters"}, {"id": "world-disasters"}],
+      "places": ["ethiopia"],
+      "organizations": ["derg"],
+      "status": "draft"
+    },
+    {
+      "id": "1985-founding-of-cosatu",
+      "title": {
+        "fr": "Fondation du COSATU",
+        "en": "Founding of COSATU",
+        "de": "Gründung von COSATU",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1985-12-01"},
+      "summary": {
+        "fr": "Les syndicats non raciaux nés des grèves des années 1970 fondent le Congrès des syndicats sud-africains, qui devient une force centrale de la lutte contre l'apartheid.",
+        "en": "The non-racial unions born of the 1970s strikes found the Congress of South African Trade Unions, which becomes a central force in the struggle against apartheid.",
+        "de": "Die aus den Streiks der 1970er-Jahre hervorgegangenen nichtrassischen Gewerkschaften gründen den Congress of South African Trade Unions, der zu einer zentralen Kraft im Kampf gegen die Apartheid wird.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-labour-and-social-struggles"}],
+      "places": ["durban"],
+      "organizations": ["cosatu"],
+      "status": "draft"
+    },
+    {
+      "id": "1988-october-riots-in-algeria",
+      "title": {
+        "fr": "Émeutes d'octobre 1988 en Algérie",
+        "en": "October 1988 riots in Algeria",
+        "de": "Oktoberunruhen 1988 in Algerien",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1988-10-05"},
+      "end": {"date": "1988-10-10"},
+      "summary": {
+        "fr": "Après la chute des prix du pétrole et les pénuries, la jeunesse d'Alger puis du pays se soulève ; l'armée tire, faisant des centaines de morts. Le régime du FLN concède le multipartisme.",
+        "en": "After the fall in oil prices and shortages, the youth of Algiers and then the whole country rise up; the army opens fire, killing hundreds. The FLN regime concedes a multi-party system.",
+        "de": "Nach dem Ölpreisverfall und Versorgungsengpässen erhebt sich die Jugend von Algier und dann des ganzen Landes; die Armee schießt und tötet Hunderte. Das FLN-Regime gesteht das Mehrparteiensystem zu.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-labour-and-social-struggles"}],
+      "places": ["algiers"],
+      "organizations": ["fln"],
+      "status": "draft"
+    },
+    {
+      "id": "1990-release-of-nelson-mandela",
+      "title": {
+        "fr": "Libération de Nelson Mandela",
+        "en": "Release of Nelson Mandela",
+        "de": "Freilassung Nelson Mandelas",
+        "draft": ["en", "de"]
+      },
+      "type": "release",
+      "start": {"date": "1990-02-11"},
+      "summary": {
+        "fr": "Face aux grèves, à la révolte des townships et à l'isolement international, le régime légalise l'ANC et le Parti communiste et libère Mandela après 27 ans de prison ; s'ouvrent les négociations sur la fin de l'apartheid.",
+        "en": "Facing strikes, township revolt and international isolation, the regime legalises the ANC and the Communist Party and frees Mandela after 27 years in prison; negotiations on ending apartheid begin.",
+        "de": "Angesichts von Streiks, Aufständen in den Townships und internationaler Isolation legalisiert das Regime ANC und Kommunistische Partei und lässt Mandela nach 27 Jahren Haft frei; die Verhandlungen über das Ende der Apartheid beginnen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-resistance-and-liberation"}],
+      "persons": ["nelson-mandela"],
+      "places": ["cape-town"],
+      "organizations": ["anc", "communist-party-of-south-africa"],
+      "status": "draft"
+    },
+    {
+      "id": "1990-independence-of-namibia",
+      "title": {
+        "fr": "Indépendance de la Namibie",
+        "en": "Independence of Namibia",
+        "de": "Unabhängigkeit Namibias",
+        "draft": ["en", "de"]
+      },
+      "type": "independence",
+      "start": {"date": "1990-03-21"},
+      "summary": {
+        "fr": "Après vingt-trois ans de lutte armée de la SWAPO contre l'occupation sud-africaine, l'ancienne colonie allemande accède à l'indépendance.",
+        "en": "After twenty-three years of SWAPO's armed struggle against South African occupation, the former German colony becomes independent.",
+        "de": "Nach dreiundzwanzig Jahren bewaffneten Kampfes der SWAPO gegen die südafrikanische Besatzung wird die ehemalige deutsche Kolonie unabhängig.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-states-and-wars"}],
+      "places": ["windhoek"],
+      "status": "draft"
+    },
+    {
+      "id": "1992-algerian-civil-war",
+      "title": {
+        "fr": "Guerre civile algérienne",
+        "en": "Algerian Civil War",
+        "de": "Algerischer Bürgerkrieg",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Décennie noire"],
+      "type": "war",
+      "start": {"date": "1992-01-11"},
+      "end": {"date": "2002"},
+      "summary": {
+        "fr": "L'armée interrompt les élections remportées par le Front islamique du salut ; s'ensuit une décennie de guerre entre maquis islamistes et État, marquée par des massacres de civils, qui fait environ 150 000 morts.",
+        "en": "The army halts the elections won by the Islamic Salvation Front; a decade of war follows between Islamist guerrillas and the state, marked by massacres of civilians, leaving about 150,000 dead.",
+        "de": "Die Armee bricht die von der Islamischen Heilsfront gewonnenen Wahlen ab; es folgt ein Jahrzehnt Krieg zwischen islamistischen Untergrundgruppen und Staat, geprägt von Massakern an Zivilisten, mit etwa 150 000 Toten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-states-and-wars"}, {"id": "world-wars"}],
+      "places": ["algiers"],
+      "status": "draft"
+    },
+    {
+      "id": "1994-cfa-franc-devaluation",
+      "title": {
+        "fr": "Dévaluation du franc CFA",
+        "en": "Devaluation of the CFA franc",
+        "de": "Abwertung des CFA-Franc",
+        "draft": ["en", "de"]
+      },
+      "type": "monetary",
+      "start": {"date": "1994-01-11"},
+      "summary": {
+        "fr": "Sous la pression du FMI et de la Banque mondiale, la France et les pays de la zone franc divisent par deux la valeur du franc CFA ; le prix des produits importés double pour des millions de travailleurs.",
+        "en": "Under pressure from the IMF and the World Bank, France and the franc-zone countries halve the value of the CFA franc; the price of imported goods doubles for millions of workers.",
+        "de": "Unter dem Druck von IWF und Weltbank halbieren Frankreich und die Länder der Franc-Zone den Wert des CFA-Franc; die Preise importierter Waren verdoppeln sich für Millionen Arbeiter.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-economy-and-disasters"}, {"id": "1981-alternation-to-present"}],
+      "places": ["dakar"],
+      "organizations": ["imf", "world-bank"],
+      "sources": [{"ref": "afrik-cfa-devaluation-ten-years"}],
+      "status": "draft"
+    },
+    {
+      "id": "1996-first-congo-war",
+      "title": {
+        "fr": "Première guerre du Congo",
+        "en": "First Congo War",
+        "de": "Erster Kongokrieg",
+        "draft": ["en", "de"]
+      },
+      "type": "war",
+      "start": {"date": "1996-10-24"},
+      "end": {"date": "1997-05-16"},
+      "summary": {
+        "fr": "Soutenue par le Rwanda, l'Ouganda et l'Angola, la rébellion de Laurent-Désiré Kabila traverse le Zaïre et chasse Mobutu ; la guerre s'accompagne de massacres de réfugiés hutus.",
+        "en": "Backed by Rwanda, Uganda and Angola, Laurent-Désiré Kabila's rebellion crosses Zaire and drives out Mobutu; the war is accompanied by massacres of Hutu refugees.",
+        "de": "Von Ruanda, Uganda und Angola unterstützt, durchquert Laurent-Désiré Kabilas Rebellion Zaire und vertreibt Mobutu; der Krieg geht mit Massakern an Hutu-Flüchtlingen einher.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-states-and-wars"}, {"id": "world-wars"}],
+      "persons": ["mobutu-sese-seko"],
+      "places": ["congo", "kinshasa"],
+      "sources": [{"ref": "wp-en-first-congo-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "2002-founding-of-the-african-union",
+      "title": {
+        "fr": "Fondation de l'Union africaine",
+        "en": "Founding of the African Union",
+        "de": "Gründung der Afrikanischen Union",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "2002-07-09"},
+      "summary": {
+        "fr": "L'Union africaine remplace l'OUA à Durban ; elle se donne un droit d'intervention en cas de crimes graves mais reste dépendante de financements extérieurs.",
+        "en": "The African Union replaces the OAU in Durban; it grants itself a right to intervene in cases of grave crimes but remains dependent on outside funding.",
+        "de": "Die Afrikanische Union ersetzt in Durban die OAU; sie gibt sich ein Interventionsrecht bei schweren Verbrechen, bleibt aber von Finanzierung von außen abhängig.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-pan-africanism-and-ideas"}, {"id": "africa-states-and-wars"}],
+      "places": ["durban"],
+      "organizations": ["african-union", "oau"],
+      "status": "draft"
+    },
+    {
+      "id": "2003-war-in-darfur",
+      "title": {
+        "fr": "Guerre du Darfour",
+        "en": "War in Darfur",
+        "de": "Darfur-Konflikt",
+        "draft": ["en", "de"]
+      },
+      "type": "war",
+      "start": {"date": "2003-02-26"},
+      "end": {"date": "2020"},
+      "summary": {
+        "fr": "Contre la rébellion des peuples du Darfour, le régime d'Omar el-Béchir arme les milices janjawids, qui massacrent et chassent des millions de civils ; des centaines de milliers de morts.",
+        "en": "Against the rebellion of the Darfur peoples, Omar al-Bashir's regime arms the Janjaweed militias, which massacre and drive out millions of civilians; hundreds of thousands die.",
+        "de": "Gegen die Rebellion der Völker Darfurs bewaffnet das Regime Omar al-Baschirs die Dschandschawid-Milizen, die Millionen Zivilisten massakrieren und vertreiben; Hunderttausende Tote.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-states-and-wars"}, {"id": "world-wars"}],
+      "places": ["darfur"],
+      "status": "draft"
+    },
+    {
+      "id": "2008-gafsa-mining-basin-revolt",
+      "title": {
+        "fr": "Révolte du bassin minier de Gafsa",
+        "en": "Gafsa mining basin revolt",
+        "de": "Revolte im Bergbaubecken von Gafsa",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "2008-01"},
+      "end": {"date": "2008-06"},
+      "summary": {
+        "fr": "Contre un concours de recrutement truqué de la Compagnie des phosphates, chômeurs et syndicalistes de Redeyef tiennent près de six mois de grèves et d'occupations, réprimées à balles réelles, prélude à la révolution de 2010.",
+        "en": "Against a rigged hiring exam at the phosphate company, unemployed workers and trade unionists in Redeyef hold nearly six months of strikes and occupations, repressed with live ammunition, a prelude to the 2010 revolution.",
+        "de": "Gegen ein manipuliertes Einstellungsverfahren der Phosphatgesellschaft führen Arbeitslose und Gewerkschafter in Redeyef fast sechs Monate Streiks und Besetzungen durch, die mit scharfer Munition unterdrückt werden – ein Vorspiel der Revolution von 2010.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-labour-and-social-struggles"}],
+      "places": ["redeyef"],
+      "sources": [{"ref": "wp-en-2008-tunisian-protests"}, {"ref": "wp-en-redeyef"}],
+      "status": "draft"
+    },
+    {
+      "id": "2008-mahalla-strike",
+      "title": {
+        "fr": "Grève de Mahalla",
+        "en": "Mahalla strike",
+        "de": "Streik von Mahalla",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "2008-04-06"},
+      "summary": {
+        "fr": "Les ouvriers de la grande filature de Mahalla el-Kobra appellent à la grève contre la vie chère ; la police occupe l'usine et la ville se soulève. Le mouvement du 6-Avril, acteur de 2011, en est issu.",
+        "en": "Workers at the great spinning mill of Mahalla al-Kubra call a strike against high prices; police occupy the factory and the town rises up. The April 6 Youth Movement, a protagonist of 2011, grows out of it.",
+        "de": "Die Arbeiter der großen Spinnerei von Mahalla al-Kubra rufen gegen die Teuerung zum Streik auf; die Polizei besetzt die Fabrik, und die Stadt erhebt sich. Daraus geht die Jugendbewegung des 6. April hervor, ein Akteur von 2011.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-labour-and-social-struggles"}],
+      "places": ["mahalla-al-kubra"],
+      "status": "draft"
+    },
+    {
+      "id": "2010-tunisian-revolution",
+      "title": {
+        "orig": "ar",
+        "ar": "الثورة التونسية",
+        "fr": "Révolution tunisienne",
+        "en": "Tunisian Revolution",
+        "de": "Tunesische Revolution",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Révolution de jasmin", "Révolution de la dignité"],
+      "type": "revolution",
+      "start": {"date": "2010-12-17"},
+      "end": {"date": "2011-01-14"},
+      "summary": {
+        "fr": "L'immolation du vendeur ambulant Mohamed Bouazizi à Sidi Bouzid déclenche un soulèvement ; portées par les unions régionales de l'UGTT, les grèves générales chassent Ben Ali et ouvrent la vague des révolutions arabes.",
+        "en": "The self-immolation of street vendor Mohamed Bouazizi in Sidi Bouzid triggers an uprising; carried by the UGTT's regional unions, general strikes drive out Ben Ali and open the wave of Arab revolutions.",
+        "de": "Die Selbstverbrennung des Straßenhändlers Mohamed Bouazizi in Sidi Bouzid löst einen Aufstand aus; getragen von den Regionalverbänden der UGTT, verjagen Generalstreiks Ben Ali und eröffnen die Welle der arabischen Revolutionen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-labour-and-social-struggles"}],
+      "persons": ["mohamed-bouazizi"],
+      "places": ["sidi-bouzid", "tunis"],
+      "organizations": ["ugtt"],
+      "sources": [{"ref": "wp-en-sidi-bouzid"}],
+      "status": "draft"
+    },
+    {
+      "id": "2011-egyptian-revolution",
+      "title": {
+        "orig": "ar",
+        "ar": "ثورة 25 يناير",
+        "fr": "Révolution égyptienne de 2011",
+        "en": "Egyptian Revolution of 2011",
+        "de": "Ägyptische Revolution 2011",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Révolution du 25 janvier"],
+      "type": "revolution",
+      "start": {"date": "2011-01-25"},
+      "end": {"date": "2011-02-11"},
+      "summary": {
+        "fr": "Dix-huit jours d'occupation de la place Tahrir et une vague de grèves dans l'industrie et les services forcent Moubarak à la démission ; l'armée confisque le pouvoir puis rétablit la dictature en 2013.",
+        "en": "Eighteen days of occupation of Tahrir Square and a strike wave in industry and services force Mubarak to resign; the army seizes power and restores dictatorship in 2013.",
+        "de": "Achtzehn Tage Besetzung des Tahrir-Platzes und eine Streikwelle in Industrie und Dienstleistungen zwingen Mubarak zum Rücktritt; die Armee reißt die Macht an sich und stellt 2013 die Diktatur wieder her.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-labour-and-social-struggles"}],
+      "places": ["cairo"],
+      "status": "draft"
+    },
+    {
+      "id": "2011-libyan-civil-war",
+      "title": {
+        "fr": "Guerre civile libyenne et intervention de l'OTAN",
+        "en": "Libyan civil war and NATO intervention",
+        "de": "Libyscher Bürgerkrieg und NATO-Intervention",
+        "draft": ["en", "de"]
+      },
+      "type": "war",
+      "start": {"date": "2011-02-15"},
+      "end": {"date": "2011-10-23"},
+      "summary": {
+        "fr": "Le soulèvement de Benghazi tourne à la guerre civile ; l'intervention aérienne de l'OTAN renverse Kadhafi, tué en octobre, et laisse un pays morcelé entre milices.",
+        "en": "The Benghazi uprising turns into civil war; NATO's air intervention topples Gaddafi, killed in October, and leaves a country split among militias.",
+        "de": "Der Aufstand in Bengasi wird zum Bürgerkrieg; die Luftintervention der NATO stürzt Gaddafi, der im Oktober getötet wird, und hinterlässt ein unter Milizen zersplittertes Land.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-states-and-wars"}, {"id": "africa-imperialism"}, {"id": "world-wars"}],
+      "persons": ["muammar-gaddafi"],
+      "places": ["benghazi", "tripoli"],
+      "organizations": ["nato"],
+      "status": "draft"
+    },
+    {
+      "id": "2011-independence-of-south-sudan",
+      "title": {
+        "fr": "Indépendance du Soudan du Sud",
+        "en": "Independence of South Sudan",
+        "de": "Unabhängigkeit Südsudans",
+        "draft": ["en", "de"]
+      },
+      "type": "independence",
+      "start": {"date": "2011-07-09"},
+      "summary": {
+        "fr": "Après deux longues guerres civiles et un référendum, le Sud se sépare du Soudan ; le nouvel État pétrolier sombre dès 2013 dans une guerre civile entre factions.",
+        "en": "After two long civil wars and a referendum, the South separates from Sudan; the new oil state falls into civil war between factions as early as 2013.",
+        "de": "Nach zwei langen Bürgerkriegen und einem Referendum trennt sich der Süden vom Sudan; der neue Ölstaat versinkt bereits 2013 in einem Bürgerkrieg zwischen Fraktionen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-states-and-wars"}],
+      "places": ["juba"],
+      "status": "draft"
+    },
+    {
+      "id": "2012-marikana-massacre",
+      "title": {
+        "fr": "Massacre de Marikana",
+        "en": "Marikana massacre",
+        "de": "Massaker von Marikana",
+        "draft": ["en", "de"]
+      },
+      "type": "massacre",
+      "start": {"date": "2012-08-16"},
+      "summary": {
+        "fr": "La police tire sur des mineurs en grève sauvage à la mine de platine de Lonmin : 34 morts. Cyril Ramaphosa, dirigeant de l'ANC et administrateur de Lonmin, avait réclamé une action ferme contre les grévistes.",
+        "en": "Police fire on wildcat-striking miners at Lonmin's platinum mine: 34 dead. Cyril Ramaphosa, an ANC leader and Lonmin director, had called for firm action against the strikers.",
+        "de": "Die Polizei schießt auf wild streikende Bergleute in der Platinmine von Lonmin: 34 Tote. Cyril Ramaphosa, ANC-Führer und Direktor von Lonmin, hatte ein hartes Vorgehen gegen die Streikenden gefordert.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-labour-and-social-struggles"}],
+      "places": ["marikana"],
+      "organizations": ["anc"],
+      "sources": [{"ref": "wp-en-marikana-massacre"}, {"ref": "wp-en-marikana"}],
+      "status": "draft"
+    },
+    {
+      "id": "2013-french-military-intervention-in-the-sahel",
+      "title": {
+        "fr": "Opérations Serval et Barkhane",
+        "en": "Operations Serval and Barkhane",
+        "de": "Operationen Serval und Barkhane",
+        "draft": ["en", "de"]
+      },
+      "type": "war",
+      "start": {"date": "2013-01-11"},
+      "end": {"date": "2022-11-09"},
+      "summary": {
+        "fr": "La France intervient au Mali contre les groupes djihadistes, puis étend son opération à tout le Sahel ; neuf ans plus tard, face à l'hostilité populaire et aux juntes, elle doit retirer ses troupes.",
+        "en": "France intervenes in Mali against jihadist groups, then extends its operation to the whole Sahel; nine years later, facing popular hostility and the juntas, it has to withdraw its troops.",
+        "de": "Frankreich interveniert in Mali gegen dschihadistische Gruppen und dehnt seine Operation dann auf den ganzen Sahel aus; neun Jahre später muss es angesichts der Feindseligkeit der Bevölkerung und der Juntas seine Truppen abziehen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-imperialism"}, {"id": "1981-alternation-to-present"}],
+      "places": ["mali"],
+      "status": "draft"
+    },
+    {
+      "id": "2014-burkinabe-uprising",
+      "title": {
+        "fr": "Insurrection populaire au Burkina Faso",
+        "en": "Burkinabè uprising",
+        "de": "Volksaufstand in Burkina Faso",
+        "draft": ["en", "de"]
+      },
+      "type": "insurrection",
+      "start": {"date": "2014-10-30"},
+      "end": {"date": "2014-10-31"},
+      "summary": {
+        "fr": "Contre la révision de la constitution qui lui aurait permis un nouveau mandat, des centaines de milliers de manifestants envahissent l'Assemblée et chassent Blaise Compaoré après 27 ans de pouvoir.",
+        "en": "Against a constitutional amendment that would have allowed him another term, hundreds of thousands of demonstrators storm the Assembly and drive out Blaise Compaoré after 27 years in power.",
+        "de": "Gegen eine Verfassungsänderung, die ihm eine weitere Amtszeit ermöglicht hätte, stürmen Hunderttausende Demonstranten die Nationalversammlung und verjagen Blaise Compaoré nach 27 Jahren an der Macht.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-labour-and-social-struggles"}],
+      "places": ["ouagadougou"],
+      "status": "draft"
+    },
+    {
+      "id": "2017-libyan-slave-markets",
+      "title": {
+        "fr": "Révélation des marchés aux esclaves en Libye",
+        "en": "Exposure of slave markets in Libya",
+        "de": "Enthüllung von Sklavenmärkten in Libyen",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "2017-11"},
+      "summary": {
+        "fr": "Un reportage de CNN montre des migrants subsahariens vendus aux enchères près de Tripoli ; il révèle le sort des exilés bloqués en Libye, où l'Union européenne finance les garde-côtes chargés de les intercepter.",
+        "en": "A CNN report shows sub-Saharan migrants being auctioned near Tripoli; it reveals the fate of exiles stranded in Libya, where the European Union funds the coastguard tasked with intercepting them.",
+        "de": "Eine CNN-Reportage zeigt, wie Migranten aus Subsahara-Afrika bei Tripolis versteigert werden; sie enthüllt das Schicksal der in Libyen festsitzenden Exilierten, wo die Europäische Union die Küstenwache finanziert, die sie abfangen soll.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-slave-trade-and-slavery"}],
+      "places": ["tripoli"],
+      "status": "draft"
+    },
+    {
+      "id": "2018-sudanese-revolution",
+      "title": {
+        "orig": "ar",
+        "ar": "الثورة السودانية",
+        "fr": "Révolution soudanaise",
+        "en": "Sudanese Revolution",
+        "de": "Sudanesische Revolution",
+        "draft": ["en", "de"]
+      },
+      "type": "revolution",
+      "start": {"date": "2018-12-19"},
+      "end": {"date": "2019-08-17"},
+      "summary": {
+        "fr": "Partie d'Atbara contre le triplement du prix du pain, la révolte, animée par l'Association des professionnels et les comités de résistance, renverse Omar el-Béchir ; l'armée impose un partage du pouvoir après le massacre du sit-in de Khartoum.",
+        "en": "Starting in Atbara against the tripling of the price of bread, the revolt, led by the Professionals Association and the resistance committees, topples Omar al-Bashir; the army imposes power-sharing after the Khartoum sit-in massacre.",
+        "de": "In Atbara gegen die Verdreifachung des Brotpreises begonnen, stürzt die von der Berufsverbändevereinigung und den Widerstandskomitees getragene Revolte Omar al-Baschir; nach dem Massaker am Sit-in von Khartum erzwingt die Armee eine Machtteilung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-labour-and-social-struggles"}],
+      "places": ["khartoum"],
+      "status": "draft"
+    },
+    {
+      "id": "2019-algerian-hirak",
+      "title": {
+        "orig": "ar",
+        "ar": "الحراك",
+        "fr": "Hirak algérien",
+        "en": "Algerian Hirak",
+        "de": "Algerischer Hirak",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "2019-02-22"},
+      "end": {"date": "2021"},
+      "summary": {
+        "fr": "Contre un cinquième mandat de Bouteflika, des millions d'Algériens manifestent chaque vendredi ; Bouteflika démissionne, mais le régime militaire survit et finit par interdire les marches.",
+        "en": "Against a fifth term for Bouteflika, millions of Algerians march every Friday; Bouteflika resigns, but the military regime survives and eventually bans the marches.",
+        "de": "Gegen eine fünfte Amtszeit Bouteflikas demonstrieren Millionen Algerier jeden Freitag; Bouteflika tritt zurück, doch das Militärregime überlebt und verbietet schließlich die Märsche.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-labour-and-social-struggles"}],
+      "places": ["algiers"],
+      "status": "draft"
+    },
+    {
+      "id": "2023-sudanese-civil-war",
+      "title": {
+        "fr": "Guerre civile soudanaise",
+        "en": "Sudanese civil war",
+        "de": "Sudanesischer Bürgerkrieg",
+        "draft": ["en", "de"]
+      },
+      "type": "war",
+      "start": {"date": "2023-04-15"},
+      "ongoing": true,
+      "summary": {
+        "fr": "L'armée et les Forces de soutien rapide issues des Janjawid, alliées lors du coup d'État de 2021, s'affrontent pour le pouvoir ; la guerre provoque la plus grande crise de déplacement et de famine au monde.",
+        "en": "The army and the Rapid Support Forces born of the Janjaweed, allies in the 2021 coup, fight for power; the war causes the world's largest displacement and famine crisis.",
+        "de": "Die Armee und die aus den Dschandschawid hervorgegangenen Rapid Support Forces, Verbündete beim Putsch von 2021, kämpfen um die Macht; der Krieg verursacht die weltweit größte Vertreibungs- und Hungerkrise.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-states-and-wars"}, {"id": "world-wars"}],
+      "places": ["khartoum", "darfur"],
+      "sources": [{"ref": "wp-en-timeline-sudanese-civil-war-2026"}],
+      "status": "draft"
+    },
+    {
+      "id": "2023-nigerien-coup",
+      "title": {
+        "fr": "Coup d'État au Niger",
+        "en": "Nigerien coup",
+        "de": "Putsch in Niger",
+        "draft": ["en", "de"]
+      },
+      "type": "coup",
+      "start": {"date": "2023-07-26"},
+      "summary": {
+        "fr": "Après le Mali et le Burkina Faso, des militaires renversent le président Bazoum ; portée par un rejet populaire de la présence française, la junte obtient le départ des troupes françaises.",
+        "en": "After Mali and Burkina Faso, soldiers overthrow President Bazoum; carried by popular rejection of the French presence, the junta obtains the departure of French troops.",
+        "de": "Nach Mali und Burkina Faso stürzen Militärs Präsident Bazoum; getragen von der Ablehnung der französischen Präsenz in der Bevölkerung, erreicht die Junta den Abzug der französischen Truppen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-states-and-wars"}, {"id": "africa-imperialism"}],
+      "places": ["niamey"],
+      "status": "draft"
+    },
+    {
+      "id": "2023-alliance-of-sahel-states",
+      "title": {
+        "fr": "Alliance des États du Sahel",
+        "en": "Alliance of Sahel States",
+        "de": "Allianz der Sahelstaaten",
+        "draft": ["en", "de"]
+      },
+      "type": "treaty",
+      "start": {"date": "2023-09-16"},
+      "summary": {
+        "fr": "Les juntes du Mali, du Burkina Faso et du Niger signent la charte du Liptako-Gourma, pacte de défense mutuelle ; elles quittent ensuite la CEDEAO et se rapprochent de la Russie.",
+        "en": "The juntas of Mali, Burkina Faso and Niger sign the Liptako-Gourma Charter, a mutual defence pact; they later leave ECOWAS and move closer to Russia.",
+        "de": "Die Juntas von Mali, Burkina Faso und Niger unterzeichnen die Liptako-Gourma-Charta, einen Beistandspakt; später verlassen sie die ECOWAS und nähern sich Russland an.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-states-and-wars"}],
+      "places": ["bamako", "ouagadougou", "niamey"],
+      "status": "draft"
+    }
+  ]
+}

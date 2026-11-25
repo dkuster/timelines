@@ -1,0 +1,1188 @@
+{
+  "$schema": "../../schema/nodes.schema.json",
+  "collection": "nodes",
+  "version": 1,
+  "items": [
+    {
+      "id": "bolshevism",
+      "title": {
+        "orig": "ru",
+        "ru": "Большевизм",
+        "fr": "Bolchevisme",
+        "en": "Bolshevism",
+        "de": "Bolschewismus",
+        "draft": ["en", "de"]
+      },
+      "type": "era",
+      "start": {"date": "1870", "qualifier": "circa", "display": "années 1870"},
+      "end": {"date": "1927-12-19"},
+      "summary": {
+        "fr": "Histoire du courant bolchevik : des débuts du marxisme russe à la prise du pouvoir de 1917 (d'après le livre d'Alan Woods), puis du pouvoir des soviets à la défaite de l'Opposition de gauche en 1927.",
+        "en": "History of the Bolshevik current: from the beginnings of Russian Marxism to the seizure of power in 1917 (following Alan Woods's book), then from Soviet power to the defeat of the Left Opposition in 1927.",
+        "de": "Geschichte der bolschewistischen Strömung: von den Anfängen des russischen Marxismus bis zur Machtübernahme 1917 (nach dem Buch von Alan Woods), dann von der Sowjetmacht bis zur Niederlage der Linken Opposition 1927.",
+        "draft": ["en", "de"]
+      },
+      "parents": [],
+      "organizations": ["bolsheviks", "rsdlp"],
+      "sources": [{"ref": "woods-bolshevism"}, {"ref": "wp-en-bolsheviks"}],
+      "status": "draft",
+      "view": {
+        "color": "#b3261e",
+        "label": {"fr": "Bolchevisme", "en": "Bolshevism", "de": "Bolschewismus", "draft": ["en", "de"]},
+        "default_depth": 1,
+        "kind": "theme"
+      }
+    },
+    {
+      "id": "1870-birth-of-russian-marxism",
+      "title": {
+        "fr": "Naissance du marxisme russe",
+        "en": "The Birth of Russian Marxism",
+        "de": "Die Entstehung des russischen Marxismus",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1870", "qualifier": "circa", "display": "années 1870"},
+      "end": {"date": "1904"},
+      "summary": {
+        "fr": "Du populisme révolutionnaire à la fondation du POSDR et à la scission entre bolcheviks et mencheviks.",
+        "en": "From revolutionary populism to the founding of the RSDLP and the split between Bolsheviks and Mensheviks.",
+        "de": "Vom revolutionären Populismus zur Gründung der SDAPR und zur Spaltung in Bolschewiki und Menschewiki.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "bolshevism", "order": 1}, {"id": "marxism", "deep": true}],
+      "sources": [{"ref": "woods-bolshevism", "chapter": "Part One: The Birth of Russian Marxism"}],
+      "status": "draft"
+    },
+    {
+      "id": "1905-first-revolution-period",
+      "title": {
+        "fr": "La première révolution russe",
+        "en": "The First Russian Revolution",
+        "de": "Die erste russische Revolution",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1905-01"},
+      "end": {"date": "1905-12"},
+      "summary": {
+        "fr": "L'année 1905 : grèves de masse, apparition des soviets et insurrection de décembre à Moscou.",
+        "en": "The year 1905: mass strikes, the emergence of the soviets and the December uprising in Moscow.",
+        "de": "Das Jahr 1905: Massenstreiks, Entstehung der Sowjets und Dezemberaufstand in Moskau.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "bolshevism", "order": 2}, {"id": "1889-second-international-period", "deep": true}],
+      "sources": [{"ref": "woods-bolshevism", "chapter": "Part Two: The First Russian Revolution"}],
+      "status": "draft"
+    },
+    {
+      "id": "1906-reaction-period",
+      "title": {
+        "fr": "La période de réaction",
+        "en": "The Period of Reaction",
+        "de": "Die Zeit der Reaktion",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1906"},
+      "end": {"date": "1911"},
+      "summary": {
+        "fr": "Reflux du mouvement après 1905, régime de Stolypine et luttes de tendances dans le parti, en grande partie en exil.",
+        "en": "Ebb of the movement after 1905, the Stolypin regime and factional struggles within the party, largely in exile.",
+        "de": "Abflauen der Bewegung nach 1905, Stolypin-Regime und Fraktionskämpfe in der Partei, großenteils im Exil.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "bolshevism", "order": 3}, {"id": "1889-second-international-period", "deep": true}],
+      "sources": [{"ref": "woods-bolshevism", "chapter": "Part Three: The Period of Reaction"}],
+      "status": "draft"
+    },
+    {
+      "id": "1912-revival-period",
+      "title": {
+        "fr": "Le renouveau",
+        "en": "The Revival",
+        "de": "Der Wiederaufschwung",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1912"},
+      "end": {"date": "1914-07"},
+      "summary": {
+        "fr": "Reprise des luttes ouvrières à partir de 1912 et constitution des bolcheviks en parti distinct.",
+        "en": "Resurgence of workers' struggles from 1912 and the constitution of the Bolsheviks as a separate party.",
+        "de": "Wiederaufleben der Arbeiterkämpfe ab 1912 und Konstituierung der Bolschewiki als eigene Partei.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "bolshevism", "order": 4}, {"id": "1889-second-international-period", "deep": true}],
+      "sources": [{"ref": "woods-bolshevism", "chapter": "Part Four: The Revival"}],
+      "status": "draft"
+    },
+    {
+      "id": "1914-war-years",
+      "title": {
+        "fr": "Les années de guerre",
+        "en": "The War Years",
+        "de": "Die Kriegsjahre",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1914-08"},
+      "end": {"date": "1916"},
+      "summary": {
+        "fr": "Effondrement de l'Internationale face à la guerre, répression du parti en Russie et regroupement des socialistes internationalistes.",
+        "en": "Collapse of the International in the face of war, repression of the party in Russia and regrouping of internationalist socialists.",
+        "de": "Zusammenbruch der Internationale angesichts des Krieges, Unterdrückung der Partei in Russland und Sammlung der internationalistischen Sozialisten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "bolshevism", "order": 5},
+        {"id": "1914-collapse-of-the-second-international", "deep": true}
+      ],
+      "sources": [{"ref": "woods-bolshevism", "chapter": "Part Five: The War Years"}],
+      "status": "draft"
+    },
+    {
+      "id": "1917-revolution-year",
+      "title": {
+        "fr": "L'année de la révolution",
+        "en": "The Year of Revolution",
+        "de": "Das Revolutionsjahr",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1917"},
+      "end": {"date": "1917-11-09", "original": "1917-10-27", "calendar": "julian"},
+      "summary": {
+        "fr": "De la chute du tsarisme en février à la prise du pouvoir par les soviets en octobre.",
+        "en": "From the fall of tsarism in February to the seizure of power by the soviets in October.",
+        "de": "Vom Sturz des Zarismus im Februar bis zur Machtübernahme durch die Sowjets im Oktober.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "bolshevism", "order": 6},
+        {"id": "1914-collapse-of-the-second-international", "deep": true}
+      ],
+      "sources": [{"ref": "woods-bolshevism", "chapter": "Part Six: The Year of Revolution"}],
+      "status": "draft"
+    },
+    {
+      "id": "1883-emancipation-of-labour-group",
+      "title": {
+        "fr": "Fondation du Groupe pour l'émancipation du travail",
+        "en": "Founding of the Emancipation of Labour Group",
+        "de": "Gründung der Gruppe „Befreiung der Arbeit“",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1883-09"},
+      "summary": {
+        "fr": "Plekhanov, Axelrod, Zassoulitch et d'autres anciens populistes fondent à Genève le premier groupe marxiste russe.",
+        "en": "Plekhanov, Axelrod, Zasulich and other former populists found the first Russian Marxist group in Geneva.",
+        "de": "Plechanow, Axelrod, Sassulitsch und andere ehemalige Narodniki gründen in Genf die erste russische marxistische Gruppe.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1870-birth-of-russian-marxism"},
+        {"id": "1874-direct-democracy-and-labour-movement"},
+        {"id": "1881-counter-reforms-industrialisation-and-labour-movement"}
+      ],
+      "persons": ["plekhanov", "axelrod", "zasulich"],
+      "places": ["geneva"],
+      "organizations": ["emancipation-of-labour-group"],
+      "sources": [
+        {
+          "ref": "woods-bolshevism",
+          "chapter": "Part One: The Birth of Russian Marxism — The Emancipation of Labour Group"
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "1898-rsdlp-first-congress",
+      "title": {
+        "orig": "ru",
+        "ru": "Первый съезд РСДРП",
+        "fr": "Ier congrès du POSDR",
+        "en": "First Congress of the RSDLP",
+        "de": "I. Parteitag der SDAPR",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1898-03-13", "original": "1898-03-01", "calendar": "julian"},
+      "end": {"date": "1898-03-15", "original": "1898-03-03", "calendar": "julian"},
+      "summary": {
+        "fr": "Neuf délégués réunis à Minsk proclament la fondation du Parti ouvrier social-démocrate de Russie ; la plupart sont arrêtés peu après.",
+        "en": "Nine delegates meeting in Minsk proclaim the founding of the Russian Social Democratic Labour Party; most are arrested soon afterwards.",
+        "de": "Neun in Minsk versammelte Delegierte rufen die Sozialdemokratische Arbeiterpartei Russlands aus; die meisten werden bald darauf verhaftet.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1870-birth-of-russian-marxism"},
+        {"id": "1881-counter-reforms-industrialisation-and-labour-movement"}
+      ],
+      "places": ["minsk"],
+      "organizations": ["rsdlp"],
+      "sources": [
+        {
+          "ref": "woods-bolshevism",
+          "chapter": "Part One: The Birth of Russian Marxism — The First Congress of the RSDLP"
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "1900-iskra-first-issue",
+      "title": {
+        "fr": "Premier numéro de l'Iskra",
+        "en": "First issue of Iskra",
+        "de": "Erste Ausgabe der Iskra",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1900-12-24", "original": "1900-12-11", "calendar": "julian"},
+      "summary": {
+        "fr": "Lénine, Martov et le groupe de Plekhanov lancent à l'étranger un journal destiné à unifier les cercles sociaux-démocrates de Russie.",
+        "en": "Lenin, Martov and Plekhanov's group launch a newspaper abroad intended to unify the Social Democratic circles in Russia.",
+        "de": "Lenin, Martow und die Gruppe um Plechanow gründen im Ausland eine Zeitung, die die sozialdemokratischen Zirkel Russlands vereinigen soll.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1870-birth-of-russian-marxism"}],
+      "persons": ["lenin", "martov", "plekhanov"],
+      "places": ["leipzig"],
+      "organizations": ["emancipation-of-labour-group"],
+      "works": ["iskra"],
+      "sources": [
+        {
+          "ref": "woods-bolshevism",
+          "chapter": "Part One: The Birth of Russian Marxism — The Birth of Iskra"
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "1902-what-is-to-be-done",
+      "title": {
+        "fr": "Parution de Que faire ?",
+        "en": "Publication of What Is to Be Done?",
+        "de": "Veröffentlichung von „Was tun?“",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1902-03"},
+      "summary": {
+        "fr": "Lénine y défend un parti centralisé de révolutionnaires professionnels contre les « économistes ».",
+        "en": "Lenin argues for a centralised party of professional revolutionaries against the 'Economists'.",
+        "de": "Lenin tritt darin gegen die „Ökonomisten“ für eine zentralisierte Partei von Berufsrevolutionären ein.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1870-birth-of-russian-marxism"}],
+      "persons": ["lenin"],
+      "places": ["stuttgart"],
+      "works": ["what-is-to-be-done"],
+      "sources": [
+        {
+          "ref": "woods-bolshevism",
+          "chapter": "Part One: The Birth of Russian Marxism — What Is To Be Done?"
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "1903-rsdlp-second-congress",
+      "title": {
+        "orig": "ru",
+        "ru": "Второй съезд РСДРП",
+        "fr": "IIe congrès du POSDR",
+        "en": "Second Congress of the RSDLP",
+        "de": "II. Parteitag der SDAPR",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Scission bolcheviks-mencheviks"],
+      "type": "congress",
+      "start": {"date": "1903-07-30"},
+      "end": {"date": "1903-08-23"},
+      "summary": {
+        "fr": "Ouvert à Bruxelles puis transféré à Londres, le congrès adopte un programme mais se divise sur les statuts entre bolcheviks et mencheviks.",
+        "en": "Opened in Brussels and moved to London, the congress adopts a programme but splits over the party rules into Bolsheviks and Mensheviks.",
+        "de": "Der in Brüssel eröffnete und nach London verlegte Parteitag beschließt ein Programm, spaltet sich aber über das Statut in Bolschewiki und Menschewiki.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1870-birth-of-russian-marxism"},
+        {"id": "1881-counter-reforms-industrialisation-and-labour-movement"}
+      ],
+      "persons": ["lenin", "martov", "plekhanov"],
+      "places": ["brussels", "london"],
+      "organizations": ["rsdlp", "bolsheviks", "mensheviks"],
+      "sources": [
+        {
+          "ref": "woods-bolshevism",
+          "chapter": "Part One: The Birth of Russian Marxism — The Second Congress"
+        },
+        {
+          "ref": "woods-bolshevism",
+          "chapter": "Part One: The Birth of Russian Marxism — The Real Meaning of the 1903 Split"
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "1905-rsdlp-third-congress",
+      "title": {
+        "orig": "ru",
+        "ru": "Третий съезд РСДРП",
+        "fr": "IIIe congrès du POSDR",
+        "en": "Third Congress of the RSDLP",
+        "de": "III. Parteitag der SDAPR",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1905-04-25"},
+      "end": {"date": "1905-05-10"},
+      "summary": {
+        "fr": "Congrès réuni à Londres par les seuls bolcheviks ; il met à l'ordre du jour la préparation de l'insurrection armée.",
+        "en": "Congress convened in London by the Bolsheviks alone; it puts the preparation of an armed uprising on the agenda.",
+        "de": "Von den Bolschewiki allein in London einberufener Parteitag; er setzt die Vorbereitung des bewaffneten Aufstands auf die Tagesordnung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1905-first-revolution-period"}],
+      "persons": ["lenin"],
+      "places": ["london"],
+      "organizations": ["rsdlp", "bolsheviks"],
+      "sources": [
+        {
+          "ref": "woods-bolshevism",
+          "chapter": "Part Two: The First Russian Revolution — The Third Congress"
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "1906-rsdlp-fourth-congress",
+      "title": {
+        "orig": "ru",
+        "ru": "Четвёртый (Объединительный) съезд РСДРП",
+        "fr": "IVe congrès du POSDR (congrès d'unification)",
+        "en": "Fourth (Unity) Congress of the RSDLP",
+        "de": "IV. Parteitag der SDAPR (Vereinigungsparteitag)",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1906-04-23"},
+      "end": {"date": "1906-05-08"},
+      "summary": {
+        "fr": "Bolcheviks et mencheviks se réunissent à Stockholm dans un parti unifié, où les mencheviks sont majoritaires.",
+        "en": "Bolsheviks and Mensheviks reunite in Stockholm in a single party, in which the Mensheviks hold the majority.",
+        "de": "Bolschewiki und Menschewiki vereinigen sich in Stockholm zu einer Partei, in der die Menschewiki die Mehrheit stellen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1906-reaction-period"}],
+      "persons": ["lenin"],
+      "places": ["stockholm"],
+      "organizations": ["rsdlp", "bolsheviks", "mensheviks"],
+      "sources": [{"ref": "woods-bolshevism", "chapter": "Part Three: The Period of Reaction — Reunification"}],
+      "status": "draft"
+    },
+    {
+      "id": "1907-rsdlp-fifth-congress",
+      "title": {
+        "orig": "ru",
+        "ru": "Пятый (Лондонский) съезд РСДРП",
+        "fr": "Ve congrès du POSDR (congrès de Londres)",
+        "en": "Fifth (London) Congress of the RSDLP",
+        "de": "V. (Londoner) Parteitag der SDAPR",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1907-05-13"},
+      "end": {"date": "1907-06-01"},
+      "summary": {
+        "fr": "Dernier congrès commun avant 1917, tenu à Londres, où les bolcheviks l'emportent sur la plupart des questions.",
+        "en": "Last joint congress before 1917, held in London, where the Bolsheviks prevail on most questions.",
+        "de": "Letzter gemeinsamer Parteitag vor 1917, in London abgehalten; die Bolschewiki setzen sich in den meisten Fragen durch.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1906-reaction-period"}],
+      "persons": ["lenin", "trotsky"],
+      "places": ["london"],
+      "organizations": ["rsdlp", "bolsheviks", "mensheviks"],
+      "sources": [
+        {
+          "ref": "woods-bolshevism",
+          "chapter": "Part Three: The Period of Reaction — The Fifth (London) Congress"
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "1909-break-with-otzovists",
+      "title": {
+        "fr": "Rupture avec les otzovistes",
+        "en": "Break with the otzovists",
+        "de": "Bruch mit den Otsowisten",
+        "draft": ["en", "de"]
+      },
+      "type": "split",
+      "start": {"date": "1909-06-21"},
+      "end": {"date": "1909-06-30"},
+      "summary": {
+        "fr": "Une réunion élargie de la rédaction du Proletary, à Paris, condamne l'otzovisme et rompt avec le groupe de Bogdanov.",
+        "en": "An enlarged meeting of the Proletary editorial board in Paris condemns otzovism and breaks with Bogdanov's group.",
+        "de": "Eine erweiterte Sitzung der Redaktion des Proletari in Paris verurteilt den Otsowismus und bricht mit der Gruppe um Bogdanow.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1906-reaction-period"}],
+      "persons": ["lenin", "bogdanov"],
+      "places": ["paris"],
+      "organizations": ["bolsheviks"],
+      "sources": [
+        {
+          "ref": "woods-bolshevism",
+          "chapter": "Part Three: The Period of Reaction — The Bolsheviks Split"
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "1910-january-plenum",
+      "title": {
+        "orig": "ru",
+        "ru": "Январский пленум ЦК РСДРП",
+        "fr": "Plénum de janvier du Comité central",
+        "en": "January Plenum of the Central Committee",
+        "de": "Januarplenum des Zentralkomitees",
+        "draft": ["en", "de"]
+      },
+      "type": "conference",
+      "start": {"date": "1910-01-15"},
+      "end": {"date": "1910-02-05"},
+      "summary": {
+        "fr": "Plénum du Comité central réuni à Paris pour réunifier les tendances du parti ; l'accord se défait dans les mois suivants.",
+        "en": "Plenum of the Central Committee held in Paris to reunite the party's tendencies; the agreement unravels in the following months.",
+        "de": "In Paris tagendes Plenum des Zentralkomitees zur Wiedervereinigung der Parteiströmungen; die Einigung zerfällt in den folgenden Monaten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1906-reaction-period"}],
+      "persons": ["lenin", "martov", "trotsky"],
+      "places": ["paris"],
+      "organizations": ["rsdlp"],
+      "sources": [
+        {
+          "ref": "woods-bolshevism",
+          "chapter": "Part Three: The Period of Reaction — The January Plenum"
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "1912-prague-conference",
+      "title": {
+        "orig": "ru",
+        "ru": "Пражская конференция РСДРП",
+        "fr": "Conférence de Prague",
+        "en": "Prague Conference",
+        "de": "Prager Konferenz",
+        "draft": ["en", "de"]
+      },
+      "type": "conference",
+      "start": {"date": "1912-01-18"},
+      "end": {"date": "1912-01-30"},
+      "summary": {
+        "fr": "Les bolcheviks y élisent leur propre Comité central et se constituent de fait en parti distinct.",
+        "en": "The Bolsheviks elect their own Central Committee and in effect constitute themselves as a separate party.",
+        "de": "Die Bolschewiki wählen ein eigenes Zentralkomitee und konstituieren sich faktisch als eigene Partei.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1912-revival-period"}],
+      "persons": ["lenin"],
+      "places": ["prague"],
+      "organizations": ["rsdlp", "bolsheviks"],
+      "sources": [{"ref": "woods-bolshevism", "chapter": "Part Four: The Revival — The Prague Conference"}],
+      "status": "draft"
+    },
+    {
+      "id": "1912-pravda-first-issue",
+      "title": {
+        "fr": "Premier numéro de la Pravda",
+        "en": "First issue of Pravda",
+        "de": "Erste Ausgabe der Prawda",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1912-05-05", "original": "1912-04-22", "calendar": "julian"},
+      "summary": {
+        "fr": "Parution à Saint-Pétersbourg du premier numéro d'un quotidien ouvrier légal dirigé par les bolcheviks.",
+        "en": "The first issue of a legal workers' daily run by the Bolsheviks appears in Saint Petersburg.",
+        "de": "In Sankt Petersburg erscheint die erste Ausgabe einer legalen, von den Bolschewiki geleiteten Arbeitertageszeitung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1912-revival-period"}, {"id": "1907-stolypin-reaction-and-new-upsurge"}],
+      "places": ["saint-petersburg"],
+      "organizations": ["bolsheviks"],
+      "works": ["pravda"],
+      "sources": [{"ref": "woods-bolshevism", "chapter": "Part Four: The Revival — Lenin and Pravda"}],
+      "status": "draft"
+    },
+    {
+      "id": "1914-spd-war-credits",
+      "title": {
+        "fr": "Vote des crédits de guerre par le SPD",
+        "en": "SPD votes for war credits",
+        "de": "Bewilligung der Kriegskredite durch die SPD",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Faillite de la IIe Internationale"],
+      "type": "vote",
+      "start": {"date": "1914-08-04"},
+      "summary": {
+        "fr": "Le groupe social-démocrate du Reichstag vote les crédits de guerre ; la plupart des partis de l'Internationale soutiennent leur gouvernement.",
+        "en": "The Social Democratic group in the Reichstag votes for war credits; most parties of the International back their governments.",
+        "de": "Die sozialdemokratische Reichstagsfraktion bewilligt die Kriegskredite; die meisten Parteien der Internationale unterstützen ihre Regierungen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1914-war-years"},
+        {"id": "1914-war-and-revolutionary-opposition"},
+        {"id": "1889-second-international-period"}
+      ],
+      "places": ["berlin"],
+      "organizations": ["spd", "second-international"],
+      "sources": [
+        {
+          "ref": "woods-bolshevism",
+          "chapter": "Part Five: The War Years — The Collapse of the Second International"
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "1914-lenin-swiss-exile",
+      "title": {
+        "fr": "Exil de Lénine en Suisse",
+        "en": "Lenin's exile in Switzerland",
+        "de": "Lenins Exil in der Schweiz",
+        "draft": ["en", "de"]
+      },
+      "type": "exile",
+      "start": {"date": "1914-09-05"},
+      "end": {"date": "1917-04-09"},
+      "summary": {
+        "fr": "Arrivé de Galicie autrichienne au début de la guerre, Lénine s'installe à Berne, puis à Zurich en 1916, jusqu'à son départ pour la Russie en avril 1917.",
+        "en": "Arriving from Austrian Galicia at the start of the war, Lenin settles in Bern, then in Zurich in 1916, until he leaves for Russia in April 1917.",
+        "de": "Zu Kriegsbeginn aus dem österreichischen Galizien kommend, lässt sich Lenin in Bern und 1916 in Zürich nieder, bis er im April 1917 nach Russland aufbricht.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1914-war-years"}, {"id": "1914-first-world-war-and-general-strike"}],
+      "persons": ["lenin"],
+      "places": ["bern", "zurich"],
+      "sources": [{"ref": "woods-bolshevism", "chapter": "Part Five: The War Years — The Party Decimated"}],
+      "status": "draft"
+    },
+    {
+      "id": "1915-bolshevik-deputies-trial",
+      "title": {
+        "fr": "Procès des députés bolcheviks de la Douma",
+        "en": "Trial of the Bolshevik Duma deputies",
+        "de": "Prozess gegen die bolschewistischen Duma-Abgeordneten",
+        "draft": ["en", "de"]
+      },
+      "type": "trial",
+      "start": {"date": "1915-02-23", "original": "1915-02-10", "calendar": "julian"},
+      "summary": {
+        "fr": "Arrêtés à l'automne 1914, les cinq députés bolcheviks de la Douma sont jugés avec Kamenev et condamnés à la relégation en Sibérie.",
+        "en": "Arrested in autumn 1914, the five Bolshevik Duma deputies are tried together with Kamenev and sentenced to exile in Siberia.",
+        "de": "Die im Herbst 1914 verhafteten fünf bolschewistischen Duma-Abgeordneten werden zusammen mit Kamenew vor Gericht gestellt und zur Verbannung nach Sibirien verurteilt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1914-war-years"}, {"id": "1914-world-war-and-fall-of-tsarism"}],
+      "places": ["saint-petersburg"],
+      "organizations": ["bolsheviks"],
+      "sources": [
+        {
+          "ref": "woods-bolshevism",
+          "chapter": "Part Five: The War Years — The Trial of Bolshevik Duma Deputies"
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "1915-zimmerwald-conference",
+      "title": {
+        "fr": "Conférence de Zimmerwald",
+        "en": "Zimmerwald Conference",
+        "de": "Zimmerwalder Konferenz",
+        "draft": ["en", "de"]
+      },
+      "type": "conference",
+      "start": {"date": "1915-09-05"},
+      "end": {"date": "1915-09-08"},
+      "summary": {
+        "fr": "Première conférence internationale des socialistes opposés à la guerre ; Lénine y anime une minorité, la gauche de Zimmerwald.",
+        "en": "First international conference of socialists opposed to the war; Lenin leads a minority there, the Zimmerwald Left.",
+        "de": "Erste internationale Konferenz der Kriegsgegner unter den Sozialisten; Lenin führt dort eine Minderheit an, die Zimmerwalder Linke.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1914-war-years"},
+        {"id": "1914-first-world-war-and-general-strike"},
+        {"id": "1914-great-war-and-sacred-union"},
+        {"id": "1915-great-war"}
+      ],
+      "persons": ["lenin", "trotsky", "robert-grimm"],
+      "places": ["zimmerwald"],
+      "sources": [
+        {
+          "ref": "woods-bolshevism",
+          "chapter": "Part Five: The War Years — The Zimmerwald Conference"
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "1916-kienthal-conference",
+      "title": {
+        "fr": "Conférence de Kienthal",
+        "en": "Kienthal Conference",
+        "de": "Kientaler Konferenz",
+        "draft": ["en", "de"]
+      },
+      "type": "conference",
+      "start": {"date": "1916-04-24"},
+      "end": {"date": "1916-04-30"},
+      "summary": {
+        "fr": "Seconde conférence des socialistes opposés à la guerre, où les positions de la gauche gagnent du terrain.",
+        "en": "Second conference of socialists opposed to the war, at which the left's positions gain ground.",
+        "de": "Zweite Konferenz der Kriegsgegner unter den Sozialisten, auf der die Positionen der Linken an Boden gewinnen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1914-war-years"}, {"id": "1914-first-world-war-and-general-strike"}],
+      "persons": ["lenin", "robert-grimm"],
+      "places": ["kienthal"],
+      "sources": [{"ref": "woods-bolshevism", "chapter": "Part Five: The War Years — The Kienthal Conference"}],
+      "status": "draft"
+    },
+    {
+      "id": "1917-april-theses",
+      "title": {
+        "orig": "ru",
+        "ru": "Апрельские тезисы",
+        "fr": "Thèses d'avril",
+        "en": "April Theses",
+        "de": "Aprilthesen",
+        "draft": ["en", "de"]
+      },
+      "type": "speech",
+      "start": {"date": "1917-04-17", "original": "1917-04-04", "calendar": "julian"},
+      "summary": {
+        "fr": "Au lendemain de son retour, Lénine appelle à refuser tout soutien au gouvernement provisoire et à donner tout le pouvoir aux soviets.",
+        "en": "The day after his return, Lenin calls for no support to the Provisional Government and for all power to the soviets.",
+        "de": "Am Tag nach seiner Rückkehr fordert Lenin, der Provisorischen Regierung jede Unterstützung zu verweigern und alle Macht den Sowjets zu übertragen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1917-revolution-year"}, {"id": "1917-february-to-october"}],
+      "persons": ["lenin"],
+      "places": ["saint-petersburg"],
+      "organizations": ["bolsheviks"],
+      "works": ["april-theses"],
+      "sources": [
+        {
+          "ref": "woods-bolshevism",
+          "chapter": "Part Six: The Year of Revolution — Lenin Rearms the Party"
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "1917-central-committee-vote-for-insurrection",
+      "title": {
+        "fr": "Le Comité central vote l'insurrection",
+        "en": "Central Committee votes for insurrection",
+        "de": "Zentralkomitee beschließt den Aufstand",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1917-10-23", "original": "1917-10-10", "calendar": "julian"},
+      "summary": {
+        "fr": "Réuni clandestinement, le Comité central bolchevik adopte par dix voix contre deux la motion de Lénine mettant l'insurrection armée à l'ordre du jour ; Zinoviev et Kamenev s'y opposent.",
+        "en": "Meeting in secret, the Bolshevik Central Committee adopts by ten votes to two Lenin's motion putting armed insurrection on the agenda; Zinoviev and Kamenev oppose it.",
+        "de": "In geheimer Sitzung nimmt das bolschewistische Zentralkomitee mit zehn zu zwei Stimmen Lenins Antrag an, der den bewaffneten Aufstand auf die Tagesordnung setzt; Sinowjew und Kamenew sind dagegen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1917-revolution-year"}, {"id": "1917-february-to-october"}],
+      "persons": ["lenin", "zinoviev", "kamenev"],
+      "places": ["saint-petersburg"],
+      "organizations": ["bolsheviks"],
+      "sources": [{"ref": "wp-en-october-revolution"}],
+      "status": "draft"
+    },
+    {
+      "id": "1895-lenin-arrest",
+      "title": {
+        "fr": "Arrestation de Lénine",
+        "en": "Lenin's arrest",
+        "de": "Verhaftung Lenins",
+        "draft": ["en", "de"]
+      },
+      "type": "arrest",
+      "start": {"date": "1895-12-20", "original": "1895-12-08", "calendar": "julian"},
+      "summary": {
+        "fr": "La police arrête Lénine et les dirigeants de l'Union de lutte pour l'émancipation de la classe ouvrière à Saint-Pétersbourg.",
+        "en": "The police arrest Lenin and the leaders of the League of Struggle for the Emancipation of the Working Class in St Petersburg.",
+        "de": "Die Polizei verhaftet Lenin und die Führung des Kampfbundes zur Befreiung der Arbeiterklasse in Sankt Petersburg.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1870-birth-of-russian-marxism"}],
+      "persons": ["lenin"],
+      "places": ["saint-petersburg"],
+      "sources": [{"ref": "marxists-lenin-timeline"}],
+      "status": "draft"
+    },
+    {
+      "id": "1897-lenin-siberian-exile",
+      "title": {
+        "fr": "Exil de Lénine en Sibérie",
+        "en": "Lenin's exile in Siberia",
+        "de": "Lenins Verbannung nach Sibirien",
+        "draft": ["en", "de"]
+      },
+      "type": "exile",
+      "start": {"date": "1897-02-10", "original": "1897-01-29", "calendar": "julian"},
+      "end": {"date": "1900-02-10", "original": "1900-01-29", "calendar": "julian"},
+      "summary": {
+        "fr": "Condamné à trois ans d'exil, Lénine vit à Chouchenskoïe, où il épouse Kroupskaïa et achève Le Développement du capitalisme en Russie.",
+        "en": "Sentenced to three years' exile, Lenin lives in Shushenskoye, where he marries Krupskaya and completes The Development of Capitalism in Russia.",
+        "de": "Zu drei Jahren Verbannung verurteilt, lebt Lenin in Schuschenskoje, heiratet dort Krupskaja und vollendet Die Entwicklung des Kapitalismus in Russland.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1870-birth-of-russian-marxism"}],
+      "persons": ["lenin", "krupskaya"],
+      "places": ["shushenskoye"],
+      "sources": [{"ref": "marxists-lenin-timeline"}, {"ref": "wp-en-shushenskoye"}],
+      "status": "draft"
+    },
+    {
+      "id": "1899-development-of-capitalism-in-russia",
+      "title": {
+        "fr": "Parution du Développement du capitalisme en Russie",
+        "en": "Publication of The Development of Capitalism in Russia",
+        "de": "Erscheinen von Die Entwicklung des Kapitalismus in Russland",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1899-04-05", "original": "1899-03-24", "calendar": "julian"},
+      "end": {"date": "1899-04-12", "original": "1899-03-31", "calendar": "julian"},
+      "summary": {
+        "fr": "Lénine démontre contre les populistes que le capitalisme s'est déjà implanté en Russie et a fait naître un prolétariat.",
+        "en": "Against the Populists, Lenin shows that capitalism has already taken root in Russia and created a proletariat.",
+        "de": "Gegen die Volkstümler weist Lenin nach, dass sich der Kapitalismus in Russland bereits durchgesetzt und ein Proletariat hervorgebracht hat.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1870-birth-of-russian-marxism"}],
+      "persons": ["lenin"],
+      "works": ["the-development-of-capitalism-in-russia"],
+      "sources": [{"ref": "marxists-lenin-timeline"}],
+      "status": "draft"
+    },
+    {
+      "id": "1904-one-step-forward-two-steps-back",
+      "title": {
+        "fr": "Parution d'Un pas en avant, deux pas en arrière",
+        "en": "Publication of One Step Forward, Two Steps Back",
+        "de": "Erscheinen von Ein Schritt vorwärts, zwei Schritte zurück",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1904-05"},
+      "summary": {
+        "fr": "Lénine tire le bilan du IIe congrès et défend contre les mencheviks une organisation de révolutionnaires centralisée.",
+        "en": "Lenin draws the lessons of the Second Congress and defends a centralised organisation of revolutionaries against the Mensheviks.",
+        "de": "Lenin zieht die Bilanz des II. Parteitags und verteidigt gegen die Menschewiki eine zentralisierte Organisation von Revolutionären.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1870-birth-of-russian-marxism"}],
+      "persons": ["lenin"],
+      "places": ["geneva"],
+      "organizations": ["bolsheviks", "mensheviks"],
+      "works": ["one-step-forward-two-steps-back"],
+      "sources": [{"ref": "wp-en-revolutionary-activity-of-lenin"}],
+      "status": "draft"
+    },
+    {
+      "id": "1905-two-tactics",
+      "title": {
+        "fr": "Deux tactiques de la social-démocratie",
+        "en": "Two Tactics of Social-Democracy",
+        "de": "Zwei Taktiken der Sozialdemokratie",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1905-07"},
+      "summary": {
+        "fr": "Lénine soutient que la bourgeoisie libérale ne peut diriger la révolution démocratique : cette tâche revient au prolétariat allié à la paysannerie.",
+        "en": "Lenin argues that the liberal bourgeoisie cannot lead the democratic revolution: this task falls to the proletariat allied with the peasantry.",
+        "de": "Lenin vertritt, dass die liberale Bourgeoisie die demokratische Revolution nicht führen kann: Diese Aufgabe fällt dem mit der Bauernschaft verbündeten Proletariat zu.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1905-first-revolution-period"}],
+      "persons": ["lenin"],
+      "places": ["geneva"],
+      "works": ["two-tactics-of-social-democracy"],
+      "sources": [{"ref": "marxists-lenin-timeline"}],
+      "status": "draft"
+    },
+    {
+      "id": "1905-lenin-returns-to-russia",
+      "title": {
+        "fr": "Retour de Lénine en Russie",
+        "en": "Lenin returns to Russia",
+        "de": "Lenins Rückkehr nach Russland",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1905-11"},
+      "summary": {
+        "fr": "Profitant de l'amnistie qui suit le Manifeste d'octobre, Lénine rentre à Saint-Pétersbourg après cinq ans d'émigration.",
+        "en": "Taking advantage of the amnesty that follows the October Manifesto, Lenin returns to St Petersburg after five years in emigration.",
+        "de": "Lenin nutzt die Amnestie nach dem Oktobermanifest und kehrt nach fünf Jahren Emigration nach Sankt Petersburg zurück.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1905-first-revolution-period"}],
+      "persons": ["lenin"],
+      "places": ["saint-petersburg"],
+      "sources": [{"ref": "marxists-lenin-timeline"}],
+      "status": "draft"
+    },
+    {
+      "id": "1911-longjumeau-party-school",
+      "title": {
+        "fr": "École du parti de Longjumeau",
+        "en": "Longjumeau Party School",
+        "de": "Parteischule von Longjumeau",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1911", "qualifier": "circa", "display": "printemps 1911"},
+      "end": {"date": "1911-08-17"},
+      "summary": {
+        "fr": "Près de Paris, Lénine dirige une école qui forme des ouvriers venus de Russie, avec Zinoviev, Kamenev, Inessa Armand et Riazanov.",
+        "en": "Near Paris, Lenin runs a school training workers from Russia, with Zinoviev, Kamenev, Inessa Armand and Ryazanov.",
+        "de": "Bei Paris leitet Lenin eine Schule für Arbeiter aus Russland, mit Sinowjew, Kamenew, Inessa Armand und Rjasanow.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1906-reaction-period"}],
+      "persons": ["lenin", "zinoviev", "kamenev"],
+      "places": ["longjumeau"],
+      "organizations": ["bolsheviks"],
+      "sources": [{"ref": "wp-en-longjumeau-party-school"}, {"ref": "wp-en-longjumeau"}],
+      "status": "draft"
+    },
+    {
+      "id": "1917-april-conference",
+      "title": {
+        "fr": "Conférence d'avril du parti bolchevik",
+        "en": "Bolshevik April Conference",
+        "de": "Aprilkonferenz der Bolschewiki",
+        "draft": ["en", "de"]
+      },
+      "type": "conference",
+      "start": {"date": "1917-05-07", "original": "1917-04-24", "calendar": "julian"},
+      "end": {"date": "1917-05-12", "original": "1917-04-29", "calendar": "julian"},
+      "summary": {
+        "fr": "La VIIe conférence du parti adopte la ligne des Thèses d'avril : aucun soutien au gouvernement provisoire, tout le pouvoir aux soviets.",
+        "en": "The party's Seventh Conference adopts the line of the April Theses: no support for the Provisional Government, all power to the soviets.",
+        "de": "Die VII. Parteikonferenz übernimmt die Linie der Aprilthesen: keine Unterstützung der Provisorischen Regierung, alle Macht den Sowjets.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1917-revolution-year"}],
+      "persons": ["lenin"],
+      "places": ["saint-petersburg"],
+      "organizations": ["bolsheviks"],
+      "sources": [{"ref": "marxists-glossary-april-conference-1917"}],
+      "status": "draft"
+    },
+    {
+      "id": "1917-lenin-in-hiding",
+      "title": {
+        "fr": "Lénine dans la clandestinité",
+        "en": "Lenin in hiding",
+        "de": "Lenin im Untergrund",
+        "draft": ["en", "de"]
+      },
+      "type": "exile",
+      "start": {"date": "1917-07"},
+      "end": {"date": "1917-10"},
+      "summary": {
+        "fr": "Menacé d'arrestation après les Journées de juillet, Lénine se cache à Razliv puis en Finlande, où il rédige L'État et la Révolution.",
+        "en": "Facing arrest after the July Days, Lenin hides at Razliv and then in Finland, where he writes The State and Revolution.",
+        "de": "Nach den Julitagen von Verhaftung bedroht, versteckt sich Lenin in Raswliw und dann in Finnland, wo er Staat und Revolution schreibt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1917-revolution-year"}],
+      "persons": ["lenin"],
+      "places": ["razliv-lenins-hut", "helsinki"],
+      "works": ["the-state-and-revolution"],
+      "sources": [{"ref": "wp-en-lenins-hovel"}, {"ref": "wp-en-revolutionary-activity-of-lenin"}],
+      "status": "draft"
+    },
+    {
+      "id": "1917-sixth-party-congress",
+      "title": {
+        "fr": "VIe congrès du parti bolchevik",
+        "en": "Sixth Congress of the Bolshevik Party",
+        "de": "VI. Parteitag der Bolschewiki",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1917-08-08", "original": "1917-07-26", "calendar": "julian"},
+      "end": {"date": "1917-08-16", "original": "1917-08-03", "calendar": "julian"},
+      "summary": {
+        "fr": "Réuni semi-clandestinement à Petrograd, le congrès oriente le parti vers l'insurrection ; le groupe interrayons de Trotski rejoint les bolcheviks.",
+        "en": "Meeting semi-clandestinely in Petrograd, the congress orients the party towards insurrection; Trotsky's Mezhraiontsy group joins the Bolsheviks.",
+        "de": "Der halblegal in Petrograd tagende Parteitag orientiert die Partei auf den Aufstand; Trotzkis Meschraionka-Gruppe schließt sich den Bolschewiki an.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1917-revolution-year"}],
+      "persons": ["trotsky", "stalin", "sverdlov"],
+      "places": ["saint-petersburg"],
+      "organizations": ["bolsheviks"],
+      "sources": [{"ref": "wp-en-congress-of-the-cpsu"}],
+      "status": "draft"
+    },
+    {
+      "id": "1917-soviet-power-period",
+      "title": {
+        "fr": "Le pouvoir des soviets et la guerre civile",
+        "en": "Soviet Power and the Civil War",
+        "de": "Sowjetmacht und Bürgerkrieg",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1917-11-09", "original": "1917-10-27", "calendar": "julian"},
+      "end": {"date": "1921-03-21"},
+      "summary": {
+        "fr": "Le parti bolchevik au pouvoir : premiers décrets, paix de Brest-Litovsk, guerre civile et communisme de guerre, fondation de l'Internationale communiste, jusqu'à Kronstadt et au Xe congrès.",
+        "en": "The Bolshevik party in power: first decrees, the Brest-Litovsk peace, civil war and war communism, the founding of the Communist International, up to Kronstadt and the Tenth Congress.",
+        "de": "Die bolschewistische Partei an der Macht: erste Dekrete, Frieden von Brest-Litowsk, Bürgerkrieg und Kriegskommunismus, Gründung der Kommunistischen Internationale bis Kronstadt und zum X. Parteitag.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "bolshevism", "order": 7}, {"id": "marxism", "deep": true}],
+      "organizations": ["bolsheviks"],
+      "sources": [{"ref": "wp-en-bolsheviks"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-seventh-party-congress",
+      "title": {
+        "fr": "VIIe congrès du parti : le Parti communiste",
+        "en": "Seventh Party Congress: the Communist Party",
+        "de": "VII. Parteitag: die Kommunistische Partei",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1918-03-06"},
+      "end": {"date": "1918-03-08"},
+      "summary": {
+        "fr": "Congrès extraordinaire : il ratifie la paix de Brest-Litovsk contre les communistes de gauche et renomme le parti Parti communiste de Russie (bolchevik).",
+        "en": "An extraordinary congress: it ratifies the Brest-Litovsk peace against the Left Communists and renames the party the Russian Communist Party (Bolsheviks).",
+        "de": "Außerordentlicher Parteitag: Er bestätigt gegen die Linken Kommunisten den Frieden von Brest-Litowsk und benennt die Partei in Kommunistische Partei Russlands (Bolschewiki) um.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1917-soviet-power-period"}],
+      "persons": ["lenin", "bukharin"],
+      "places": ["saint-petersburg"],
+      "organizations": ["bolsheviks"],
+      "sources": [{"ref": "wp-en-congress-of-the-cpsu"}],
+      "status": "draft"
+    },
+    {
+      "id": "1919-eighth-party-congress",
+      "title": {
+        "fr": "VIIIe congrès du parti",
+        "en": "Eighth Party Congress",
+        "de": "VIII. Parteitag",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1919-03-18"},
+      "end": {"date": "1919-03-23"},
+      "summary": {
+        "fr": "En pleine guerre civile, le congrès adopte le deuxième programme du parti et crée le Politburo, l'Orgburo et le Secrétariat.",
+        "en": "In the midst of the civil war, the congress adopts the party's second programme and sets up the Politburo, the Orgburo and the Secretariat.",
+        "de": "Mitten im Bürgerkrieg beschließt der Parteitag das zweite Parteiprogramm und schafft Politbüro, Orgbüro und Sekretariat.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1917-soviet-power-period"}],
+      "persons": ["lenin"],
+      "places": ["moscow"],
+      "organizations": ["bolsheviks"],
+      "sources": [{"ref": "wp-en-congress-of-the-cpsu"}],
+      "status": "draft"
+    },
+    {
+      "id": "1921-nep-and-left-opposition-period",
+      "title": {
+        "fr": "NEP, bureaucratisation et Opposition de gauche",
+        "en": "NEP, Bureaucratisation and the Left Opposition",
+        "de": "NEP, Bürokratisierung und Linke Opposition",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1921-03-21"},
+      "end": {"date": "1927-12-19"},
+      "summary": {
+        "fr": "Dans un pays isolé et épuisé, la bureaucratie s'empare du parti ; Lénine puis l'Opposition de gauche la combattent, jusqu'à l'exclusion de l'Opposition au XVe congrès.",
+        "en": "In an isolated and exhausted country, the bureaucracy takes hold of the party; Lenin and then the Left Opposition fight it, until the Opposition is expelled at the Fifteenth Congress.",
+        "de": "In einem isolierten und erschöpften Land bemächtigt sich die Bürokratie der Partei; Lenin und dann die Linke Opposition bekämpfen sie, bis die Opposition auf dem XV. Parteitag ausgeschlossen wird.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "bolshevism", "order": 8}, {"id": "marxism", "deep": true}],
+      "organizations": ["bolsheviks", "left-opposition"],
+      "sources": [{"ref": "wp-en-left-opposition"}],
+      "status": "draft"
+    },
+    {
+      "id": "1922-eleventh-party-congress",
+      "title": {
+        "fr": "XIe congrès du parti",
+        "en": "Eleventh Party Congress",
+        "de": "XI. Parteitag",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1922-03-27"},
+      "end": {"date": "1922-04-02"},
+      "summary": {
+        "fr": "Dernier congrès auquel Lénine participe : il défend la NEP comme une retraite temporaire et met en garde contre l'appareil d'État hérité du tsarisme.",
+        "en": "The last congress Lenin attends: he defends the NEP as a temporary retreat and warns against the state apparatus inherited from tsarism.",
+        "de": "Der letzte Parteitag, an dem Lenin teilnimmt: Er verteidigt die NEP als vorübergehenden Rückzug und warnt vor dem vom Zarismus geerbten Staatsapparat.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1921-nep-and-left-opposition-period"}],
+      "persons": ["lenin"],
+      "places": ["moscow"],
+      "organizations": ["bolsheviks"],
+      "sources": [{"ref": "wp-en-congress-of-the-cpsu"}],
+      "status": "draft"
+    },
+    {
+      "id": "1922-lenins-first-stroke",
+      "title": {
+        "fr": "Première attaque de Lénine",
+        "en": "Lenin's first stroke",
+        "de": "Lenins erster Schlaganfall",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "1922-05-26"},
+      "summary": {
+        "fr": "Frappé d'une première attaque cérébrale, Lénine est écarté pendant des mois de la direction ; deux autres suivront en décembre 1922 et en mars 1923.",
+        "en": "Struck by a first stroke, Lenin is kept away from the leadership for months; two more follow in December 1922 and March 1923.",
+        "de": "Nach einem ersten Schlaganfall ist Lenin monatelang von der Führung ausgeschlossen; zwei weitere folgen im Dezember 1922 und im März 1923.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1921-nep-and-left-opposition-period"}],
+      "persons": ["lenin"],
+      "sources": [{"ref": "marxists-lenin-timeline"}],
+      "status": "draft"
+    },
+    {
+      "id": "1923-twelfth-party-congress",
+      "title": {
+        "fr": "XIIe congrès du parti",
+        "en": "Twelfth Party Congress",
+        "de": "XII. Parteitag",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1923-04-17"},
+      "end": {"date": "1923-04-25"},
+      "summary": {
+        "fr": "Premier congrès sans Lénine : la troïka Staline-Zinoviev-Kamenev contrôle le parti et les critiques de Lénine sur la question géorgienne sont étouffées.",
+        "en": "The first congress without Lenin: the Stalin-Zinoviev-Kamenev troika controls the party and Lenin's criticisms on the Georgian question are suppressed.",
+        "de": "Der erste Parteitag ohne Lenin: Die Troika Stalin-Sinowjew-Kamenew beherrscht die Partei, Lenins Kritik in der georgischen Frage wird unterdrückt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1921-nep-and-left-opposition-period"}],
+      "persons": ["stalin", "zinoviev", "kamenev", "trotsky"],
+      "places": ["moscow"],
+      "organizations": ["bolsheviks"],
+      "sources": [{"ref": "wp-en-congress-of-the-cpsu"}],
+      "status": "draft"
+    },
+    {
+      "id": "1923-new-course",
+      "title": {
+        "fr": "Parution de Cours nouveau",
+        "en": "Publication of The New Course",
+        "de": "Erscheinen von Der neue Kurs",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1923-12"},
+      "summary": {
+        "fr": "Trotski dénonce la bureaucratisation du parti et appelle à rétablir la démocratie ouvrière en son sein.",
+        "en": "Trotsky denounces the bureaucratisation of the party and calls for workers' democracy to be restored within it.",
+        "de": "Trotzki prangert die Bürokratisierung der Partei an und fordert die Wiederherstellung der Arbeiterdemokratie in ihr.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1921-nep-and-left-opposition-period"}, {"id": "1923-left-opposition-in-the-ussr"}],
+      "persons": ["trotsky"],
+      "organizations": ["left-opposition"],
+      "works": ["the-new-course"],
+      "sources": [{"ref": "wp-en-left-opposition"}],
+      "status": "draft"
+    },
+    {
+      "id": "1927-platform-of-the-opposition",
+      "title": {
+        "fr": "Plate-forme de l'Opposition unifiée",
+        "en": "Platform of the Joint Opposition",
+        "de": "Plattform der Vereinigten Opposition",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1927-09"},
+      "summary": {
+        "fr": "L'Opposition soumet sa plate-forme au Comité central ; sa publication est refusée et ses partisans qui l'impriment clandestinement sont exclus.",
+        "en": "The Opposition submits its platform to the Central Committee; publication is refused and the supporters who print it clandestinely are expelled.",
+        "de": "Die Opposition legt dem Zentralkomitee ihre Plattform vor; der Druck wird verweigert, und die Anhänger, die sie heimlich drucken, werden ausgeschlossen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1921-nep-and-left-opposition-period"}, {"id": "1923-left-opposition-in-the-ussr"}],
+      "persons": ["trotsky", "zinoviev"],
+      "places": ["moscow"],
+      "organizations": ["united-opposition"],
+      "works": ["platform-of-the-joint-opposition"],
+      "sources": [{"ref": "marxists-platform-joint-opposition-foreword"}],
+      "status": "draft"
+    },
+    {
+      "id": "1927-fifteenth-party-congress",
+      "title": {
+        "fr": "XVe congrès du parti",
+        "en": "Fifteenth Party Congress",
+        "de": "XV. Parteitag",
+        "draft": ["en", "de"]
+      },
+      "type": "congress",
+      "start": {"date": "1927-12-02"},
+      "end": {"date": "1927-12-19"},
+      "summary": {
+        "fr": "Le congrès déclare les idées de l'Opposition incompatibles avec l'appartenance au parti ; les zinoviévistes capitulent, les trotskistes sont exclus et bientôt déportés.",
+        "en": "The congress declares the Opposition's views incompatible with party membership; the Zinovievists capitulate, the Trotskyists are expelled and soon deported.",
+        "de": "Der Parteitag erklärt die Ansichten der Opposition für unvereinbar mit der Parteimitgliedschaft; die Sinowjew-Anhänger kapitulieren, die Trotzkisten werden ausgeschlossen und bald verbannt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1921-nep-and-left-opposition-period"},
+        {"id": "1924-victory-of-the-bureaucracy"},
+        {"id": "1923-left-opposition-in-the-ussr"}
+      ],
+      "persons": ["stalin", "trotsky", "zinoviev"],
+      "places": ["moscow"],
+      "organizations": ["bolsheviks", "united-opposition", "left-opposition"],
+      "sources": [{"ref": "wp-en-15th-congress-vkp-b"}, {"ref": "marxists-platform-joint-opposition-foreword"}],
+      "status": "draft"
+    }
+  ]
+}

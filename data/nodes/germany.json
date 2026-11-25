@@ -1,0 +1,3511 @@
+{
+  "$schema": "../../schema/nodes.schema.json",
+  "collection": "nodes",
+  "version": 1,
+  "items": [
+    {
+      "id": "germany",
+      "title": {"fr": "Allemagne", "en": "Germany", "de": "Deutschland", "draft": ["en", "de"]},
+      "type": "era",
+      "start": {"date": "1789"},
+      "ongoing": true,
+      "summary": {
+        "fr": "Histoire de l'Allemagne depuis la révolution de 1848, centrée sur les rapports de force entre les classes, le mouvement ouvrier et les situations révolutionnaires, précédée d'un prélude ouvert par la Révolution française.",
+        "en": "History of Germany since the revolution of 1848, focused on the balance of class forces, the labour movement and revolutionary situations, preceded by a prelude opening with the French Revolution.",
+        "de": "Geschichte Deutschlands seit der Revolution von 1848 mit Schwerpunkt auf den Kräfteverhältnissen zwischen den Klassen, der Arbeiterbewegung und revolutionären Situationen, eingeleitet durch ein Vorspiel ab der Französischen Revolution.",
+        "draft": ["en", "de"]
+      },
+      "parents": [],
+      "status": "draft",
+      "view": {
+        "color": "#c2571a",
+        "label": {"fr": "Allemagne", "en": "Germany", "de": "Deutschland", "draft": ["en", "de"]},
+        "default_depth": 1
+      }
+    },
+    {
+      "id": "1789-french-revolution-to-march-revolution",
+      "title": {
+        "fr": "De la Révolution française à la révolution de Mars",
+        "en": "From the French Revolution to the March Revolution",
+        "de": "Von der Französischen Revolution zur Märzrevolution",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1789"},
+      "end": {"date": "1848-02-27"},
+      "summary": {
+        "fr": "Occupation française, fin du Saint-Empire et Restauration : la bourgeoisie libérale et nationale se heurte aux princes, tandis que naissent le prolétariat industriel et les premières organisations communistes.",
+        "en": "French occupation, the end of the Holy Roman Empire and the Restoration: the liberal and national bourgeoisie clashes with the princes, while the industrial proletariat and the first communist organisations emerge.",
+        "de": "Französische Besetzung, Ende des Heiligen Römischen Reiches und Restauration: Das liberale und nationale Bürgertum stößt auf die Fürsten, während das Industrieproletariat und die ersten kommunistischen Organisationen entstehen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "germany", "order": 0}],
+      "sources": [{"ref": "lemo-revolution-1848"}],
+      "status": "draft"
+    },
+    {
+      "id": "1848-revolution",
+      "title": {
+        "fr": "Révolution de 1848-1849",
+        "en": "Revolution of 1848–1849",
+        "de": "Revolution von 1848/49",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1848-02-27"},
+      "end": {"date": "1849-07-23"},
+      "summary": {
+        "fr": "Des revendications de Mars et des barricades de Berlin au Parlement de Francfort, puis à l'écrasement des insurrections de 1849 : la bourgeoisie, effrayée par le prolétariat, capitule devant les princes.",
+        "en": "From the March demands and the Berlin barricades to the Frankfurt Parliament and the crushing of the 1849 uprisings: the bourgeoisie, frightened by the proletariat, capitulates to the princes.",
+        "de": "Von den Märzforderungen und den Berliner Barrikaden über die Frankfurter Nationalversammlung bis zur Niederschlagung der Aufstände von 1849: Das Bürgertum kapituliert aus Angst vor dem Proletariat vor den Fürsten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "germany", "order": 1}, {"id": "1847-communist-league-period"}],
+      "sources": [{"ref": "lemo-revolution-1848"}],
+      "status": "draft"
+    },
+    {
+      "id": "1849-reaction-and-unification",
+      "title": {
+        "fr": "Réaction, industrialisation et unification par le haut",
+        "en": "Reaction, industrialisation and unification from above",
+        "de": "Reaktion, Industrialisierung und Einigung von oben",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1849-07-23"},
+      "end": {"date": "1871-01-18"},
+      "summary": {
+        "fr": "Après la défaite, la réaction triomphe mais l'industrie explose ; le mouvement ouvrier s'organise de façon indépendante, et la Prusse de Bismarck unifie l'Allemagne par trois guerres.",
+        "en": "After the defeat, reaction triumphs but industry booms; the labour movement organises independently, and Bismarck's Prussia unifies Germany through three wars.",
+        "de": "Nach der Niederlage triumphiert die Reaktion, doch die Industrie wächst rasant; die Arbeiterbewegung organisiert sich eigenständig, und Bismarcks Preußen einigt Deutschland durch drei Kriege.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "germany", "order": 2}],
+      "sources": [{"ref": "lemo-revolution-1848"}, {"ref": "lemo-chronicle-1871"}],
+      "status": "draft"
+    },
+    {
+      "id": "1871-imperial-germany",
+      "title": {
+        "fr": "Empire allemand",
+        "en": "Imperial Germany",
+        "de": "Deutsches Kaiserreich",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1871-01-18"},
+      "end": {"date": "1914-08-01"},
+      "summary": {
+        "fr": "Sous l'Empire, la social-démocratie survit aux lois antisocialistes et devient le premier parti ouvrier du monde, tout en s'intégrant progressivement à l'ordre établi.",
+        "en": "Under the Empire, Social Democracy survives the Anti-Socialist Laws and becomes the largest workers' party in the world, while gradually integrating into the established order.",
+        "de": "Im Kaiserreich überlebt die Sozialdemokratie die Sozialistengesetze und wird zur größten Arbeiterpartei der Welt, integriert sich aber schrittweise in die bestehende Ordnung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "germany", "order": 3}],
+      "sources": [{"ref": "lemo-chronicle-1871"}, {"ref": "lemo-chronicle-1914"}],
+      "status": "draft"
+    },
+    {
+      "id": "1914-war-and-revolutionary-opposition",
+      "title": {
+        "fr": "Première Guerre mondiale et opposition révolutionnaire",
+        "en": "First World War and revolutionary opposition",
+        "de": "Erster Weltkrieg und revolutionäre Opposition",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1914-08-01"},
+      "end": {"date": "1918-11-03"},
+      "summary": {
+        "fr": "Le SPD vote les crédits de guerre et rallie l'Union sacrée ; une minorité internationaliste, autour de Liebknecht et Luxemburg, organise l'opposition, tandis que la faim et les grèves minent le régime.",
+        "en": "The SPD votes for war credits and joins the political truce; an internationalist minority around Liebknecht and Luxemburg organises the opposition, while hunger and strikes undermine the regime.",
+        "de": "Die SPD bewilligt die Kriegskredite und schließt sich dem Burgfrieden an; eine internationalistische Minderheit um Liebknecht und Luxemburg organisiert die Opposition, während Hunger und Streiks das Regime untergraben.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "germany", "order": 4}],
+      "sources": [{"ref": "lemo-chronicle-1914"}, {"ref": "lemo-sailors-revolt-1918"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-german-revolution",
+      "title": {
+        "fr": "Révolution allemande (1918-1923)",
+        "en": "German Revolution (1918–1923)",
+        "de": "Deutsche Revolution (1918–1923)",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1918-11-03"},
+      "end": {"date": "1923-11-15"},
+      "summary": {
+        "fr": "Du soulèvement des marins de Kiel à l'Octobre allemand avorté : conseils ouvriers, République de Weimar, insurrections écrasées et putschs contre-révolutionnaires, jusqu'à la stabilisation monétaire.",
+        "en": "From the Kiel sailors' revolt to the aborted German October: workers' councils, the Weimar Republic, crushed uprisings and counter-revolutionary putsches, until monetary stabilisation.",
+        "de": "Vom Kieler Matrosenaufstand bis zum gescheiterten Deutschen Oktober: Arbeiterräte, Weimarer Republik, niedergeschlagene Aufstände und konterrevolutionäre Putsche bis zur Stabilisierung der Währung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "germany", "order": 5}],
+      "sources": [{"ref": "lemo-sailors-revolt-1918"}, {"ref": "lemo-currency-reform-1923"}],
+      "status": "draft"
+    },
+    {
+      "id": "1923-stabilisation-and-rise-of-nazism",
+      "title": {
+        "fr": "Stabilisation, crise mondiale et montée du nazisme",
+        "en": "Stabilisation, world crisis and the rise of Nazism",
+        "de": "Stabilisierung, Weltwirtschaftskrise und Aufstieg des Nationalsozialismus",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1923-11-15"},
+      "end": {"date": "1933-01-30"},
+      "summary": {
+        "fr": "Après une courte stabilisation, la crise de 1929 jette des millions de chômeurs à la rue ; divisé entre SPD et KPD, le mouvement ouvrier ne barre pas la route au nazisme, porté au pouvoir par la droite.",
+        "en": "After a brief stabilisation, the 1929 crisis throws millions out of work; divided between the SPD and the KPD, the labour movement fails to stop Nazism, brought to power by the right.",
+        "de": "Nach einer kurzen Stabilisierung stürzt die Krise von 1929 Millionen in die Arbeitslosigkeit; gespalten zwischen SPD und KPD stoppt die Arbeiterbewegung den Nationalsozialismus nicht, den die Rechte an die Macht bringt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "germany", "order": 6}],
+      "sources": [{"ref": "lemo-currency-reform-1923"}, {"ref": "lemo-chronicle-1933"}],
+      "status": "draft"
+    },
+    {
+      "id": "1933-third-reich",
+      "title": {"fr": "Troisième Reich", "en": "Third Reich", "de": "Drittes Reich", "draft": ["en", "de"]},
+      "type": "period",
+      "start": {"date": "1933-01-30"},
+      "end": {"date": "1945-05-08"},
+      "summary": {
+        "fr": "Dictature nazie : destruction des partis et syndicats ouvriers, terreur, guerre d'extermination et Shoah, jusqu'à la capitulation sans condition.",
+        "en": "Nazi dictatorship: destruction of the workers' parties and trade unions, terror, a war of annihilation and the Holocaust, until unconditional surrender.",
+        "de": "NS-Diktatur: Zerschlagung der Arbeiterparteien und Gewerkschaften, Terror, Vernichtungskrieg und Shoah bis zur bedingungslosen Kapitulation.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "germany", "order": 7}],
+      "sources": [{"ref": "lemo-chronicle-1933"}, {"ref": "lemo-chronicle-1945"}],
+      "status": "draft"
+    },
+    {
+      "id": "1945-occupation-and-two-german-states",
+      "title": {
+        "fr": "Occupation et deux États allemands",
+        "en": "Occupation and two German states",
+        "de": "Besatzung und zwei deutsche Staaten",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1945-05-08"},
+      "end": {"date": "1990-10-03"},
+      "summary": {
+        "fr": "Occupée par les Alliés, l'Allemagne se divise en 1949 en deux États rivaux de la guerre froide, la RFA capitaliste et la RDA stalinienne, jusqu'à la réunification.",
+        "en": "Occupied by the Allies, Germany splits in 1949 into two rival Cold War states, the capitalist FRG and the Stalinist GDR, until reunification.",
+        "de": "Von den Alliierten besetzt, teilt sich Deutschland 1949 in zwei rivalisierende Staaten des Kalten Krieges, die kapitalistische BRD und die stalinistische DDR, bis zur Wiedervereinigung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "germany", "order": 8}],
+      "sources": [
+        {"ref": "lemo-chronicle-1945"},
+        {"ref": "bundesarchiv-double-state-founding-1949"},
+        {"ref": "bpb-german-unity-1990"}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "1949-federal-republic-of-germany",
+      "title": {
+        "fr": "République fédérale d'Allemagne (RFA)",
+        "en": "Federal Republic of Germany (FRG)",
+        "de": "Bundesrepublik Deutschland (BRD)",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1949-05-23"},
+      "end": {"date": "1990-10-03"},
+      "summary": {
+        "fr": "La RFA, ancrée à l'Ouest, connaît le « miracle économique » et l'intégration du SPD et des syndicats à l'économie sociale de marché, puis la contestation de 1968.",
+        "en": "The FRG, anchored in the West, experiences the 'economic miracle' and the integration of the SPD and the unions into the social market economy, followed by the protests of 1968.",
+        "de": "Die im Westen verankerte BRD erlebt das Wirtschaftswunder und die Einbindung von SPD und Gewerkschaften in die soziale Marktwirtschaft, danach die Proteste von 1968.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1945-occupation-and-two-german-states", "order": 0}],
+      "sources": [{"ref": "bundesarchiv-double-state-founding-1949"}, {"ref": "bpb-german-unity-1990"}],
+      "status": "draft",
+      "view": {
+        "color": "#d9884f",
+        "label": {"fr": "RFA", "en": "FRG", "de": "BRD", "draft": ["en", "de"]},
+        "default_depth": 1
+      }
+    },
+    {
+      "id": "1949-german-democratic-republic",
+      "title": {
+        "fr": "République démocratique allemande (RDA)",
+        "en": "German Democratic Republic (GDR)",
+        "de": "Deutsche Demokratische Republik (DDR)",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1949-10-07"},
+      "end": {"date": "1990-10-03"},
+      "summary": {
+        "fr": "La RDA, sous la direction du SED et la tutelle soviétique, nationalise l'économie mais écrase l'insurrection ouvrière de 1953, puis s'effondre sous la pression de la rue en 1989.",
+        "en": "The GDR, led by the SED under Soviet tutelage, nationalises the economy but crushes the workers' uprising of 1953, then collapses under pressure from the streets in 1989.",
+        "de": "Die DDR verstaatlicht unter Führung der SED und sowjetischer Vormundschaft die Wirtschaft, schlägt jedoch den Arbeiteraufstand von 1953 nieder und bricht 1989 unter dem Druck der Straße zusammen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1945-occupation-and-two-german-states", "order": 1}],
+      "sources": [{"ref": "bundesarchiv-double-state-founding-1949"}, {"ref": "bpb-german-unity-1990"}],
+      "status": "draft",
+      "view": {
+        "color": "#8f3a0f",
+        "label": {"fr": "RDA", "en": "GDR", "de": "DDR", "draft": ["en", "de"]},
+        "default_depth": 1
+      }
+    },
+    {
+      "id": "1990-reunified-germany",
+      "title": {
+        "fr": "Allemagne réunifiée",
+        "en": "Reunified Germany",
+        "de": "Wiedervereinigtes Deutschland",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1990-10-03"},
+      "ongoing": true,
+      "summary": {
+        "fr": "Annexion de l'économie est-allemande par la Treuhand, désindustrialisation de l'Est, réformes Hartz et précarisation, essor de nouvelles forces à gauche comme à l'extrême droite.",
+        "en": "Takeover of the East German economy through the Treuhand, deindustrialisation of the East, the Hartz reforms and growing precarity, and the rise of new forces on both the left and the far right.",
+        "de": "Übernahme der ostdeutschen Wirtschaft durch die Treuhand, Deindustrialisierung im Osten, Hartz-Reformen und Prekarisierung sowie der Aufstieg neuer Kräfte links wie rechtsaußen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "germany", "order": 9}],
+      "sources": [{"ref": "bpb-german-unity-1990"}],
+      "status": "draft"
+    },
+    {
+      "id": "1793-republic-of-mainz",
+      "title": {
+        "orig": "de",
+        "fr": "République de Mayence",
+        "en": "Republic of Mainz",
+        "de": "Mainzer Republik",
+        "draft": ["en"]
+      },
+      "type": "government",
+      "start": {"date": "1793-03-18"},
+      "end": {"date": "1793-07-22"},
+      "summary": {
+        "fr": "Sous la protection des armées françaises, les jacobins de Mayence proclament un État libre rhéno-allemand, première république démocratique en terre allemande, écrasée par la Prusse et l'Autriche après un long siège.",
+        "en": "Under the protection of French armies, the Mainz Jacobins proclaim a Rhenish-German Free State, the first democratic republic on German soil, crushed by Prussia and Austria after a long siege.",
+        "de": "Unter dem Schutz französischer Truppen rufen die Mainzer Jakobiner einen Rheinisch-Deutschen Freistaat aus, die erste demokratische Republik auf deutschem Boden, die Preußen und Österreich nach langer Belagerung niederwerfen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1789-french-revolution-to-march-revolution"}],
+      "persons": ["georg-forster"],
+      "places": ["mainz"],
+      "sources": [{"ref": "wp-en-republic-of-mainz"}],
+      "status": "draft"
+    },
+    {
+      "id": "1806-end-of-holy-roman-empire",
+      "title": {
+        "orig": "de",
+        "fr": "Fin du Saint-Empire romain germanique",
+        "en": "Dissolution of the Holy Roman Empire",
+        "de": "Ende des Heiligen Römischen Reiches",
+        "draft": ["en"]
+      },
+      "type": "other",
+      "start": {"date": "1806-08-06"},
+      "summary": {
+        "fr": "Après la création de la Confédération du Rhin sous tutelle napoléonienne, l'empereur François II abdique et dissout le Saint-Empire, balayant l'ordre féodal millénaire de l'Allemagne.",
+        "en": "After the creation of the Confederation of the Rhine under Napoleonic tutelage, Emperor Francis II abdicates and dissolves the Holy Roman Empire, sweeping away Germany's age-old feudal order.",
+        "de": "Nach der Gründung des Rheinbundes unter napoleonischer Vorherrschaft legt Kaiser Franz II. die Krone nieder und löst das Heilige Römische Reich auf; die jahrhundertealte feudale Ordnung Deutschlands zerfällt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1789-french-revolution-to-march-revolution"},
+        {"id": "1789-habsburg-monarchy-and-napoleonic-wars"}
+      ],
+      "persons": ["francis-ii"],
+      "places": ["vienna"],
+      "sources": [{"ref": "wp-en-dissolution-of-the-holy-roman-empire"}],
+      "status": "draft"
+    },
+    {
+      "id": "1807-october-edict",
+      "title": {
+        "orig": "de",
+        "fr": "Édit d'octobre",
+        "en": "October Edict",
+        "de": "Oktoberedikt",
+        "draft": ["en"]
+      },
+      "type": "law",
+      "start": {"date": "1807-10-09"},
+      "summary": {
+        "fr": "Après la défaite face à Napoléon, l'édit ouvre les réformes de Stein et Hardenberg : il engage l'abolition du servage héréditaire en Prusse, achevée à la Saint-Martin 1810, sans supprimer les corvées.",
+        "en": "After the defeat by Napoleon, the edict opens the Stein–Hardenberg reforms: it begins the abolition of hereditary serfdom in Prussia, completed at Martinmas 1810, without abolishing labour dues.",
+        "de": "Nach der Niederlage gegen Napoleon eröffnet das Edikt die Stein-Hardenbergschen Reformen: Es leitet die Aufhebung der Erbuntertänigkeit in Preußen ein, die zu Martini 1810 vollendet ist, ohne die Frondienste abzuschaffen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1789-french-revolution-to-march-revolution"}],
+      "persons": ["karl-vom-stein", "hardenberg"],
+      "sources": [{"ref": "wp-en-prussian-reform-movement"}],
+      "status": "draft"
+    },
+    {
+      "id": "1815-german-confederation",
+      "title": {
+        "orig": "de",
+        "fr": "Fondation de la Confédération germanique",
+        "en": "Founding of the German Confederation",
+        "de": "Gründung des Deutschen Bundes",
+        "draft": ["en"]
+      },
+      "type": "founding",
+      "start": {"date": "1815-06-08"},
+      "summary": {
+        "fr": "Le congrès de Vienne remplace le Saint-Empire par une confédération de princes souverains, siégeant à Francfort et dominée par l'Autriche et la Prusse, rempart de la Restauration contre le libéralisme et l'unité nationale.",
+        "en": "The Congress of Vienna replaces the Holy Roman Empire with a confederation of sovereign princes, sitting in Frankfurt and dominated by Austria and Prussia, a bulwark of the Restoration against liberalism and national unity.",
+        "de": "Der Wiener Kongress ersetzt das Reich durch einen Bund souveräner Fürsten mit Sitz in Frankfurt, beherrscht von Österreich und Preußen, ein Bollwerk der Restauration gegen Liberalismus und nationale Einheit.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1789-french-revolution-to-march-revolution"}],
+      "places": ["vienna", "frankfurt"],
+      "organizations": ["german-confederation"],
+      "sources": [{"ref": "wp-en-german-confederation"}],
+      "status": "draft"
+    },
+    {
+      "id": "1819-carlsbad-decrees",
+      "title": {
+        "orig": "de",
+        "fr": "Décrets de Carlsbad",
+        "en": "Carlsbad Decrees",
+        "de": "Karlsbader Beschlüsse",
+        "draft": ["en"]
+      },
+      "type": "law",
+      "start": {"date": "1819-09-20"},
+      "summary": {
+        "fr": "Après l'assassinat de l'écrivain Kotzebue par un étudiant, Metternich fait adopter par la Diète fédérale l'interdiction des corporations étudiantes, la surveillance des universités et une censure renforcée de la presse.",
+        "en": "After the murder of the writer Kotzebue by a student, Metternich has the Federal Diet ban student fraternities, place universities under surveillance and tighten press censorship.",
+        "de": "Nach der Ermordung des Schriftstellers Kotzebue durch einen Studenten lässt Metternich durch die Bundesversammlung die Burschenschaften verbieten, die Universitäten überwachen und die Pressezensur verschärfen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1789-french-revolution-to-march-revolution"}, {"id": "1815-metternich-system"}],
+      "persons": ["metternich"],
+      "places": ["frankfurt"],
+      "organizations": ["german-confederation"],
+      "sources": [{"ref": "wp-en-carlsbad-decrees"}],
+      "status": "draft"
+    },
+    {
+      "id": "1832-hambach-festival",
+      "title": {
+        "orig": "de",
+        "fr": "Fête de Hambach",
+        "en": "Hambach Festival",
+        "de": "Hambacher Fest",
+        "draft": ["en"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1832-05-27"},
+      "summary": {
+        "fr": "20 000 à 30 000 personnes, artisans, étudiants et réfugiés polonais, se rassemblent au château de Hambach pour l'unité et la démocratie sous le drapeau noir-rouge-or ; la Diète répond par une répression accrue.",
+        "en": "20,000 to 30,000 people, craftsmen, students and Polish exiles, gather at Hambach Castle for unity and democracy under the black-red-gold flag; the Federal Diet responds with harsher repression.",
+        "de": "20.000 bis 30.000 Menschen, Handwerker, Studenten und polnische Emigranten, versammeln sich unter Schwarz-Rot-Gold am Hambacher Schloss für Einheit und Demokratie; der Bundestag antwortet mit verschärfter Repression.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1789-french-revolution-to-march-revolution"}],
+      "persons": ["philipp-jakob-siebenpfeiffer", "johann-georg-august-wirth"],
+      "places": ["hambach-castle"],
+      "sources": [{"ref": "wp-en-hambach-festival"}],
+      "status": "draft"
+    },
+    {
+      "id": "1844-silesian-weavers-uprising",
+      "title": {
+        "orig": "de",
+        "fr": "Révolte des tisserands silésiens",
+        "en": "Silesian weavers' uprising",
+        "de": "Schlesischer Weberaufstand",
+        "draft": ["en"]
+      },
+      "type": "insurrection",
+      "start": {"date": "1844-06-04"},
+      "end": {"date": "1844-06-06"},
+      "summary": {
+        "fr": "Réduits à la misère, les tisserands de Peterswaldau et Langenbielau détruisent machines et maisons de fabricants ; la troupe prussienne tue onze d'entre eux. Heine en fait un poème devenu symbole de la révolte sociale.",
+        "en": "Reduced to destitution, the weavers of Peterswaldau and Langenbielau smash machines and manufacturers' houses; Prussian troops kill eleven of them. Heine turns the revolt into a poem that becomes a symbol of social protest.",
+        "de": "Die verelendeten Weber von Peterswaldau und Langenbielau zerstören Maschinen und Fabrikantenhäuser; preußisches Militär erschießt elf von ihnen. Heine macht daraus ein Gedicht, das zum Symbol des sozialen Protests wird.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1789-french-revolution-to-march-revolution"}],
+      "places": ["peterswaldau", "langenbielau"],
+      "sources": [{"ref": "wp-en-silesian-weavers-uprising"}],
+      "status": "draft"
+    },
+    {
+      "id": "1847-communist-league-founding",
+      "title": {
+        "orig": "de",
+        "fr": "Fondation de la Ligue des communistes",
+        "en": "Founding of the Communist League",
+        "de": "Gründung des Bundes der Kommunisten",
+        "draft": ["en"]
+      },
+      "type": "founding",
+      "start": {"date": "1847-06"},
+      "summary": {
+        "fr": "À Londres, la Ligue des justes, société secrète d'artisans allemands émigrés, fusionne avec le comité de correspondance de Bruxelles autour de Marx et Engels et devient la Ligue des communistes.",
+        "en": "In London, the League of the Just, a secret society of émigré German craftsmen, merges with the Brussels correspondence committee around Marx and Engels and becomes the Communist League.",
+        "de": "In London vereinigt sich der Bund der Gerechten, ein Geheimbund emigrierter deutscher Handwerker, mit dem Brüsseler Korrespondenzkomitee um Marx und Engels und wird zum Bund der Kommunisten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1789-french-revolution-to-march-revolution"},
+        {"id": "1832-reform-act-and-chartism"},
+        {"id": "1847-communist-league-period"}
+      ],
+      "persons": ["marx", "engels"],
+      "places": ["london"],
+      "organizations": ["communist-league"],
+      "sources": [{"ref": "wp-en-communist-league"}],
+      "status": "draft"
+    },
+    {
+      "id": "1848-communist-manifesto",
+      "title": {
+        "orig": "de",
+        "fr": "Parution du Manifeste du Parti communiste",
+        "en": "Publication of the Communist Manifesto",
+        "de": "Erscheinen des Kommunistischen Manifests",
+        "draft": ["en"]
+      },
+      "type": "publication",
+      "start": {"date": "1848-02"},
+      "summary": {
+        "fr": "Rédigé par Marx et Engels à la demande de la Ligue des communistes, le Manifeste paraît à Londres à la veille des révolutions de 1848 et fonde le programme du socialisme scientifique.",
+        "en": "Written by Marx and Engels at the request of the Communist League, the Manifesto appears in London on the eve of the 1848 revolutions and lays down the programme of scientific socialism.",
+        "de": "Von Marx und Engels im Auftrag des Bundes der Kommunisten verfasst, erscheint das Manifest am Vorabend der Revolutionen von 1848 in London und begründet das Programm des wissenschaftlichen Sozialismus.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1789-french-revolution-to-march-revolution"},
+        {"id": "1832-reform-act-and-chartism"},
+        {"id": "1847-communist-league-period"}
+      ],
+      "persons": ["marx", "engels"],
+      "places": ["london"],
+      "organizations": ["communist-league"],
+      "works": ["communist-manifesto"],
+      "sources": [{"ref": "wp-en-communist-manifesto"}],
+      "status": "draft"
+    },
+    {
+      "id": "1848-mannheim-popular-assembly",
+      "title": {
+        "orig": "de",
+        "fr": "Assemblée populaire de Mannheim",
+        "en": "Mannheim popular assembly",
+        "de": "Mannheimer Volksversammlung",
+        "draft": ["en"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1848-02-27"},
+      "summary": {
+        "fr": "Trois jours après la proclamation de la République en France, une assemblée populaire à Mannheim formule les « revendications de Mars » : liberté de la presse, jurys, armement du peuple et parlement allemand.",
+        "en": "Three days after the proclamation of the Republic in France, a popular assembly in Mannheim formulates the 'March demands': freedom of the press, jury trials, a people's militia and a German parliament.",
+        "de": "Drei Tage nach der Ausrufung der Republik in Frankreich erhebt eine Volksversammlung in Mannheim die „Märzforderungen“: Pressefreiheit, Schwurgerichte, Volksbewaffnung und ein deutsches Parlament.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-revolution"}],
+      "places": ["mannheim"],
+      "sources": [{"ref": "lemo-revolution-1848"}],
+      "status": "draft"
+    },
+    {
+      "id": "1848-berlin-barricade-fighting",
+      "title": {
+        "orig": "de",
+        "fr": "Combats de barricades à Berlin",
+        "en": "Berlin barricade fighting",
+        "de": "Berliner Barrikadenkämpfe",
+        "draft": ["en"]
+      },
+      "type": "insurrection",
+      "start": {"date": "1848-03-18"},
+      "summary": {
+        "fr": "Ouvriers et artisans affrontent l'armée sur les barricades de Berlin, au prix de plus de 250 morts ; Frédéric-Guillaume IV retire ses troupes et nomme un ministère libéral.",
+        "en": "Workers and craftsmen fight the army on the barricades of Berlin, at the cost of more than 250 dead; Frederick William IV withdraws his troops and appoints a liberal ministry.",
+        "de": "Arbeiter und Handwerker kämpfen auf den Berliner Barrikaden gegen das Militär, mehr als 250 Menschen sterben; Friedrich Wilhelm IV. zieht die Truppen ab und beruft ein liberales Märzministerium.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-revolution"}],
+      "persons": ["frederick-william-iv"],
+      "places": ["berlin"],
+      "sources": [{"ref": "lemo-revolution-1848"}],
+      "status": "draft"
+    },
+    {
+      "id": "1848-hecker-uprising",
+      "title": {
+        "orig": "de",
+        "fr": "Soulèvement de Hecker",
+        "en": "Hecker uprising",
+        "de": "Heckerzug",
+        "draft": ["en"]
+      },
+      "type": "insurrection",
+      "start": {"date": "1848-04-12"},
+      "end": {"date": "1848-04-27"},
+      "summary": {
+        "fr": "Partis de Constance, Hecker et Struve tentent d'instaurer la république en Bade avec quelques milliers d'insurgés ; leurs colonnes sont écrasées à Kandern et Dossenbach, et les chefs s'enfuient en Suisse.",
+        "en": "Setting out from Konstanz, Hecker and Struve try to establish a republic in Baden with a few thousand insurgents; their columns are crushed at Kandern and Dossenbach, and the leaders flee to Switzerland.",
+        "de": "Von Konstanz aus versuchen Hecker und Struve mit einigen tausend Aufständischen die Republik in Baden durchzusetzen; ihre Kolonnen werden bei Kandern und Dossenbach geschlagen, die Anführer fliehen in die Schweiz.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-revolution"}],
+      "persons": ["friedrich-hecker", "gustav-struve", "georg-herwegh"],
+      "places": ["konstanz", "kandern"],
+      "sources": [{"ref": "wp-en-hecker-uprising"}],
+      "status": "draft"
+    },
+    {
+      "id": "1848-frankfurt-parliament",
+      "title": {
+        "orig": "de",
+        "fr": "Parlement de Francfort",
+        "en": "Frankfurt Parliament",
+        "de": "Frankfurter Nationalversammlung",
+        "draft": ["en"]
+      },
+      "aliases": ["Assemblée nationale de Francfort", "Paulskirche"],
+      "type": "congress",
+      "start": {"date": "1848-05-18"},
+      "end": {"date": "1849-06-18"},
+      "summary": {
+        "fr": "Première assemblée élue de toute l'Allemagne, réunie dans l'église Saint-Paul ; dominée par la bourgeoisie libérale, elle débat sans pouvoir réel et finit dispersée par l'armée à Stuttgart.",
+        "en": "The first elected assembly of all Germany, meeting in St Paul's Church; dominated by the liberal bourgeoisie, it debates without real power and is finally dispersed by the army in Stuttgart.",
+        "de": "Die erste gewählte gesamtdeutsche Volksvertretung tagt in der Paulskirche; vom liberalen Bürgertum beherrscht, berät sie ohne reale Macht und wird schließlich in Stuttgart vom Militär auseinandergetrieben.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-revolution"}],
+      "places": ["frankfurt", "stuttgart"],
+      "sources": [{"ref": "lemo-revolution-1848"}, {"ref": "wp-en-frankfurt-parliament"}],
+      "status": "draft"
+    },
+    {
+      "id": "1848-neue-rheinische-zeitung",
+      "title": {
+        "orig": "de",
+        "fr": "Neue Rheinische Zeitung",
+        "en": "Neue Rheinische Zeitung",
+        "de": "Neue Rheinische Zeitung",
+        "draft": ["en"]
+      },
+      "type": "publication",
+      "start": {"date": "1848-06-01"},
+      "end": {"date": "1849-05-19"},
+      "summary": {
+        "fr": "Dirigé par Marx à Cologne, ce quotidien sous-titré « organe de la démocratie » pousse à mener la révolution plus loin jusqu'à son interdiction ; le dernier numéro est imprimé tout en rouge.",
+        "en": "Edited by Marx in Cologne, the daily 'organ of democracy' argues for carrying the revolution forward until it is banned; the last issue is printed entirely in red.",
+        "de": "Die von Marx in Köln geleitete Tageszeitung, „Organ der Demokratie“, tritt für die Weiterführung der Revolution ein, bis sie verboten wird; die letzte Nummer erscheint ganz in Rot.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-revolution"}, {"id": "1847-communist-league-period"}],
+      "persons": ["marx", "engels"],
+      "places": ["cologne"],
+      "works": ["neue-rheinische-zeitung"],
+      "sources": [{"ref": "wp-en-neue-rheinische-zeitung"}],
+      "status": "draft"
+    },
+    {
+      "id": "1848-workers-brotherhood-founding",
+      "title": {
+        "orig": "de",
+        "fr": "Fondation de la Fraternité ouvrière",
+        "en": "Founding of the Workers' Brotherhood",
+        "de": "Gründung der Arbeiterverbrüderung",
+        "draft": ["en"]
+      },
+      "type": "founding",
+      "start": {"date": "1848-08-23"},
+      "end": {"date": "1848-09-03"},
+      "summary": {
+        "fr": "Un congrès ouvrier réuni à Berlin fonde la Fraternité ouvrière générale allemande, animée par Stephan Born, première organisation ouvrière à l'échelle de l'Allemagne, poursuivie après la révolution puis interdite.",
+        "en": "A workers' congress in Berlin founds the General German Workers' Brotherhood, led by Stephan Born, the first workers' organisation on a German-wide scale, persecuted after the revolution and then banned.",
+        "de": "Ein Arbeiterkongress in Berlin gründet die Allgemeine Deutsche Arbeiterverbrüderung unter Stephan Born, die erste gesamtdeutsche Arbeiterorganisation, die nach der Revolution verfolgt und schließlich verboten wird.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-revolution"}],
+      "persons": ["stephan-born"],
+      "places": ["berlin"],
+      "organizations": ["general-german-workers-brotherhood"],
+      "sources": [{"ref": "wp-de-general-german-workers-brotherhood"}],
+      "status": "draft"
+    },
+    {
+      "id": "1848-frankfurt-september-uprising",
+      "title": {
+        "orig": "de",
+        "fr": "Soulèvement de septembre à Francfort",
+        "en": "Frankfurt September uprising",
+        "de": "Frankfurter Septemberaufstand",
+        "draft": ["en"]
+      },
+      "type": "insurrection",
+      "start": {"date": "1848-09-18"},
+      "summary": {
+        "fr": "L'approbation par le Parlement de l'armistice de Malmö avec le Danemark provoque une insurrection ; une quarantaine de barricades se dressent, mais la troupe les écrase avant minuit : 30 insurgés et 12 soldats tués.",
+        "en": "Parliament's approval of the Malmö armistice with Denmark sparks an uprising; some forty barricades go up, but troops crush them before midnight: 30 insurgents and 12 soldiers killed.",
+        "de": "Die Billigung des Waffenstillstands von Malmö mit Dänemark durch die Nationalversammlung löst einen Aufstand aus; an rund 40 Stellen entstehen Barrikaden, die das Militär bis Mitternacht niederkämpft: 30 Aufständische und 12 Soldaten sterben.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-revolution"}],
+      "places": ["frankfurt"],
+      "sources": [{"ref": "wp-de-september-revolution-1848"}],
+      "status": "draft"
+    },
+    {
+      "id": "1848-prussian-counter-revolution",
+      "title": {
+        "orig": "de",
+        "fr": "Contre-révolution en Prusse",
+        "en": "Prussian counter-revolution",
+        "de": "Gegenrevolution in Preußen",
+        "draft": ["en"]
+      },
+      "type": "coup",
+      "start": {"date": "1848-11-09"},
+      "end": {"date": "1848-12-05"},
+      "summary": {
+        "fr": "Le roi transfère l'Assemblée nationale prussienne à Brandebourg et place Berlin en état de siège ; l'Assemblée appelle au refus de l'impôt, puis est dissoute et une constitution est octroyée d'en haut.",
+        "en": "The king moves the Prussian National Assembly to Brandenburg and places Berlin under a state of siege; the Assembly calls for a tax boycott, is then dissolved, and a constitution is imposed from above.",
+        "de": "Der König verlegt die Preußische Nationalversammlung nach Brandenburg und verhängt den Belagerungszustand über Berlin; die Versammlung ruft zur Steuerverweigerung auf, wird aufgelöst, und eine Verfassung wird oktroyiert.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-revolution"}],
+      "persons": ["frederick-william-iv"],
+      "places": ["berlin", "brandenburg-an-der-havel"],
+      "sources": [{"ref": "wp-de-prussian-national-assembly"}],
+      "status": "draft"
+    },
+    {
+      "id": "1849-frankfurt-constitution",
+      "title": {
+        "orig": "de",
+        "fr": "Constitution de Francfort",
+        "en": "Frankfurt Constitution",
+        "de": "Paulskirchenverfassung",
+        "draft": ["en"]
+      },
+      "aliases": ["Constitution impériale", "Reichsverfassung"],
+      "type": "law",
+      "start": {"date": "1849-03-27"},
+      "summary": {
+        "fr": "Le Parlement adopte une constitution qui garantit les droits fondamentaux et instaure une monarchie constitutionnelle sous un empereur héréditaire ; le lendemain, il élit le roi de Prusse empereur des Allemands.",
+        "en": "Parliament adopts a constitution guaranteeing fundamental rights and establishing a constitutional monarchy under a hereditary emperor; the next day it elects the King of Prussia Emperor of the Germans.",
+        "de": "Die Nationalversammlung verabschiedet eine Verfassung mit Grundrechten und einer konstitutionellen Monarchie unter einem Erbkaiser; am Tag darauf wählt sie den preußischen König zum Kaiser der Deutschen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-revolution"}],
+      "persons": ["frederick-william-iv"],
+      "places": ["frankfurt"],
+      "sources": [{"ref": "lemo-revolution-1848"}, {"ref": "wp-en-frankfurt-parliament"}],
+      "status": "draft"
+    },
+    {
+      "id": "1849-imperial-crown-rejected",
+      "title": {
+        "orig": "de",
+        "fr": "Refus de la couronne impériale",
+        "en": "Rejection of the imperial crown",
+        "de": "Ablehnung der Kaiserkrone",
+        "draft": ["en"]
+      },
+      "type": "other",
+      "start": {"date": "1849-04-21"},
+      "summary": {
+        "fr": "Frédéric-Guillaume IV refuse formellement la couronne que lui offre le Parlement, ainsi que la constitution : l'œuvre de Francfort est condamnée.",
+        "en": "Frederick William IV formally rejects the crown offered by Parliament, together with the constitution: the work of Frankfurt is doomed.",
+        "de": "Friedrich Wilhelm IV. lehnt die von der Nationalversammlung angebotene Krone und die Verfassung förmlich ab; das Frankfurter Verfassungswerk ist damit gescheitert.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-revolution"}],
+      "persons": ["frederick-william-iv"],
+      "sources": [{"ref": "wp-en-frankfurt-parliament"}],
+      "status": "draft"
+    },
+    {
+      "id": "1849-imperial-constitution-campaign",
+      "title": {
+        "orig": "de",
+        "fr": "Campagne pour la Constitution impériale",
+        "en": "Imperial Constitution Campaign",
+        "de": "Reichsverfassungskampagne",
+        "draft": ["en"]
+      },
+      "type": "insurrection",
+      "start": {"date": "1849-05"},
+      "end": {"date": "1849-07-23"},
+      "summary": {
+        "fr": "Dernière vague de la révolution : en Saxe, en Rhénanie, dans le Palatinat et en Bade, des insurrections tentent d'imposer la constitution de Francfort aux princes ; l'armée prussienne les écrase toutes.",
+        "en": "The last wave of the revolution: in Saxony, the Rhineland, the Palatinate and Baden, uprisings try to force the Frankfurt Constitution on the princes; the Prussian army crushes them all.",
+        "de": "Letzte Welle der Revolution: In Sachsen, im Rheinland, in der Pfalz und in Baden versuchen Aufstände, den Fürsten die Reichsverfassung aufzuzwingen; die preußische Armee schlägt sie alle nieder.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1848-revolution"}],
+      "persons": ["engels"],
+      "sources": [{"ref": "lemo-revolution-1848"}],
+      "status": "draft"
+    },
+    {
+      "id": "1849-dresden-may-uprising",
+      "title": {
+        "orig": "de",
+        "fr": "Insurrection de mai à Dresde",
+        "en": "May Uprising in Dresden",
+        "de": "Dresdner Maiaufstand",
+        "draft": ["en"]
+      },
+      "type": "insurrection",
+      "start": {"date": "1849-05-03"},
+      "end": {"date": "1849-05-09"},
+      "summary": {
+        "fr": "Après la fuite du roi de Saxe, 3 000 insurgés tiennent les barricades de Dresde, avec Bakounine, Wagner et Semper ; troupes saxonnes et prussiennes reprennent la ville rue par rue.",
+        "en": "After the King of Saxony flees, 3,000 insurgents hold the barricades of Dresden, with Bakunin, Wagner and Semper among them; Saxon and Prussian troops retake the city street by street.",
+        "de": "Nach der Flucht des sächsischen Königs halten 3.000 Aufständische, darunter Bakunin, Wagner und Semper, die Dresdner Barrikaden; sächsische und preußische Truppen erobern die Stadt Straße um Straße zurück.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1849-imperial-constitution-campaign"}],
+      "persons": ["bakunin", "richard-wagner", "gottfried-semper"],
+      "places": ["dresden"],
+      "sources": [{"ref": "wp-en-may-uprising-in-dresden"}],
+      "status": "draft"
+    },
+    {
+      "id": "1849-baden-palatinate-uprising",
+      "title": {
+        "orig": "de",
+        "fr": "Soulèvement de Bade et du Palatinat",
+        "en": "Baden-Palatinate uprising",
+        "de": "Badisch-Pfälzischer Aufstand",
+        "draft": ["en"]
+      },
+      "type": "insurrection",
+      "start": {"date": "1849-05-09"},
+      "end": {"date": "1849-07-23"},
+      "summary": {
+        "fr": "La garnison de Rastatt se mutine, le grand-duc s'enfuit et un gouvernement provisoire se forme sous Brentano ; Engels combat dans l'armée révolutionnaire, vaincue par les Prussiens jusqu'à la reddition de Rastatt.",
+        "en": "The Rastatt garrison mutinies, the Grand Duke flees and a provisional government forms under Brentano; Engels fights in the revolutionary army, defeated by the Prussians until Rastatt surrenders.",
+        "de": "Die Rastatter Garnison meutert, der Großherzog flieht, und unter Brentano bildet sich eine provisorische Regierung; Engels kämpft in der Revolutionsarmee, die die Preußen bis zur Kapitulation Rastatts besiegen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1849-imperial-constitution-campaign"}],
+      "persons": ["engels", "lorenz-brentano", "ludwik-mieroslawski"],
+      "places": ["rastatt", "karlsruhe"],
+      "sources": [{"ref": "wp-en-baden-revolution"}, {"ref": "lemo-revolution-1848"}],
+      "status": "draft"
+    },
+    {
+      "id": "1852-cologne-communist-trial",
+      "title": {
+        "orig": "de",
+        "fr": "Procès des communistes de Cologne",
+        "en": "Cologne Communist Trial",
+        "de": "Kölner Kommunistenprozess",
+        "draft": ["en"]
+      },
+      "type": "trial",
+      "start": {"date": "1852-10-04"},
+      "end": {"date": "1852-11-12"},
+      "summary": {
+        "fr": "Onze membres de la Ligue des communistes sont jugés à Cologne sur la base de preuves que Marx dénonce comme falsifiées ; sept sont condamnés à la forteresse, et la Ligue se dissout après le procès.",
+        "en": "Eleven members of the Communist League are tried in Cologne on evidence that Marx denounces as forged; seven are sentenced to fortress imprisonment, and the League dissolves after the trial.",
+        "de": "Elf Mitglieder des Bundes der Kommunisten stehen in Köln aufgrund von Beweisen vor Gericht, die Marx als gefälscht entlarvt; sieben erhalten Festungshaft, und der Bund löst sich nach dem Prozess auf.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1849-reaction-and-unification"}, {"id": "1847-communist-league-period"}],
+      "persons": ["marx"],
+      "places": ["cologne"],
+      "organizations": ["communist-league"],
+      "sources": [{"ref": "wp-en-cologne-communist-trial"}],
+      "status": "draft"
+    },
+    {
+      "id": "1862-blood-and-iron-speech",
+      "title": {
+        "orig": "de",
+        "fr": "Discours « Le fer et le sang »",
+        "en": "Blood and Iron speech",
+        "de": "Blut-und-Eisen-Rede",
+        "draft": ["en"]
+      },
+      "type": "speech",
+      "start": {"date": "1862-09-30"},
+      "summary": {
+        "fr": "Nommé ministre-président de Prusse pour briser l'opposition libérale au budget militaire, Bismarck déclare que la question allemande se réglera par la force armée et non par des votes de majorité.",
+        "en": "Appointed Minister President of Prussia to break the liberal opposition to the military budget, Bismarck declares that the German question will be settled by armed force, not by majority votes.",
+        "de": "Zum preußischen Ministerpräsidenten ernannt, um den liberalen Widerstand gegen den Militärhaushalt zu brechen, erklärt Bismarck, die deutsche Frage werde durch Waffengewalt und nicht durch Mehrheitsbeschlüsse entschieden.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1849-reaction-and-unification"}],
+      "persons": ["bismarck", "wilhelm-i"],
+      "places": ["berlin"],
+      "sources": [{"ref": "wp-en-blood-and-iron-speech"}],
+      "status": "draft"
+    },
+    {
+      "id": "1863-adav-founding",
+      "title": {
+        "orig": "de",
+        "fr": "Fondation de l'ADAV",
+        "en": "Founding of the ADAV",
+        "de": "Gründung des ADAV",
+        "draft": ["en"]
+      },
+      "type": "founding",
+      "start": {"date": "1863-05-23"},
+      "summary": {
+        "fr": "À Leipzig, Ferdinand Lassalle fonde l'Association générale des travailleurs allemands, premier parti ouvrier indépendant d'Allemagne, qui mise sur le suffrage universel pour émanciper la classe ouvrière.",
+        "en": "In Leipzig, Ferdinand Lassalle founds the General German Workers' Association, Germany's first independent workers' party, which counts on universal suffrage to emancipate the working class.",
+        "de": "In Leipzig gründet Ferdinand Lassalle den Allgemeinen Deutschen Arbeiterverein, die erste unabhängige Arbeiterpartei Deutschlands, die auf das allgemeine Wahlrecht zur Befreiung der Arbeiterklasse setzt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1849-reaction-and-unification"}],
+      "persons": ["ferdinand-lassalle"],
+      "places": ["leipzig"],
+      "organizations": ["adav"],
+      "sources": [{"ref": "wp-en-general-german-workers-association"}],
+      "status": "draft"
+    },
+    {
+      "id": "1864-second-schleswig-war",
+      "title": {
+        "orig": "de",
+        "fr": "Guerre des Duchés",
+        "en": "Second Schleswig War",
+        "de": "Deutsch-Dänischer Krieg",
+        "draft": ["en"]
+      },
+      "aliases": ["Seconde guerre du Schleswig"],
+      "type": "war",
+      "start": {"date": "1864-02-01"},
+      "end": {"date": "1864-10-30"},
+      "summary": {
+        "fr": "La Prusse et l'Autriche envahissent le Schleswig et contraignent le Danemark à céder les duchés de Schleswig, Holstein et Lauenbourg : première des trois guerres de l'unification bismarckienne.",
+        "en": "Prussia and Austria invade Schleswig and force Denmark to cede the duchies of Schleswig, Holstein and Lauenburg: the first of the three wars of Bismarck's unification.",
+        "de": "Preußen und Österreich marschieren in Schleswig ein und zwingen Dänemark zur Abtretung der Herzogtümer Schleswig, Holstein und Lauenburg: der erste der drei Einigungskriege Bismarcks.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1849-reaction-and-unification"}],
+      "persons": ["bismarck"],
+      "sources": [{"ref": "wp-en-second-schleswig-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "1866-austro-prussian-war",
+      "title": {
+        "orig": "de",
+        "fr": "Guerre austro-prussienne",
+        "en": "Austro-Prussian War",
+        "de": "Deutscher Krieg",
+        "draft": ["en"]
+      },
+      "aliases": ["Guerre de 1866", "Preußisch-Österreichischer Krieg"],
+      "type": "war",
+      "start": {"date": "1866-06-14"},
+      "end": {"date": "1866-07-22"},
+      "summary": {
+        "fr": "Victorieuse à Sadowa, la Prusse exclut l'Autriche des affaires allemandes, dissout la Confédération germanique et annexe le Hanovre, la Hesse-Cassel, Nassau et Francfort.",
+        "en": "Victorious at Königgrätz, Prussia excludes Austria from German affairs, dissolves the German Confederation and annexes Hanover, Hesse-Kassel, Nassau and Frankfurt.",
+        "de": "Nach dem Sieg bei Königgrätz drängt Preußen Österreich aus Deutschland, löst den Deutschen Bund auf und annektiert Hannover, Kurhessen, Nassau und Frankfurt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1849-reaction-and-unification"},
+        {"id": "1849-neo-absolutism-and-defeats"},
+        {"id": "1849-repression-and-passive-resistance"}
+      ],
+      "persons": ["bismarck", "wilhelm-i"],
+      "organizations": ["german-confederation"],
+      "sources": [{"ref": "wp-en-austro-prussian-war"}],
+      "status": "draft"
+    },
+    {
+      "id": "1867-north-german-confederation",
+      "title": {
+        "orig": "de",
+        "fr": "Confédération de l'Allemagne du Nord",
+        "en": "North German Confederation",
+        "de": "Norddeutscher Bund",
+        "draft": ["en"]
+      },
+      "type": "founding",
+      "start": {"date": "1867-07-01"},
+      "summary": {
+        "fr": "La Prusse regroupe les États au nord du Main dans un État fédéral dont le Reichstag est élu au suffrage universel masculin ; sa constitution sert de modèle à celle de l'Empire.",
+        "en": "Prussia gathers the states north of the Main into a federal state whose Reichstag is elected by universal male suffrage; its constitution becomes the model for that of the Empire.",
+        "de": "Preußen fasst die Staaten nördlich der Mainlinie in einem Bundesstaat zusammen, dessen Reichstag nach allgemeinem Männerwahlrecht gewählt wird; seine Verfassung wird zum Vorbild der Reichsverfassung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1849-reaction-and-unification"}],
+      "persons": ["bismarck"],
+      "sources": [{"ref": "wp-en-north-german-confederation"}],
+      "status": "draft"
+    },
+    {
+      "id": "1867-das-kapital",
+      "title": {
+        "orig": "de",
+        "fr": "Parution du Capital",
+        "en": "Publication of Capital",
+        "de": "Erscheinen des Kapitals",
+        "draft": ["en"]
+      },
+      "type": "publication",
+      "start": {"date": "1867"},
+      "summary": {
+        "fr": "Le premier livre du Capital paraît à Hambourg : Marx y analyse la production de la plus-value et les lois du mouvement de la société capitaliste ; Engels publiera les livres II et III après sa mort.",
+        "en": "The first volume of Capital appears in Hamburg: Marx analyses the production of surplus value and the laws of motion of capitalist society; Engels will publish volumes II and III after his death.",
+        "de": "Der erste Band des Kapitals erscheint in Hamburg: Marx analysiert die Produktion des Mehrwerts und die Bewegungsgesetze der kapitalistischen Gesellschaft; Engels gibt die Bände II und III nach seinem Tod heraus.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1849-reaction-and-unification"},
+        {"id": "1848-victorian-boom-and-labour-aristocracy"},
+        {"id": "1864-first-international-period"}
+      ],
+      "persons": ["marx"],
+      "places": ["hamburg"],
+      "works": ["das-kapital"],
+      "sources": [{"ref": "wp-en-das-kapital"}],
+      "status": "draft"
+    },
+    {
+      "id": "1869-eisenach-congress",
+      "title": {
+        "orig": "de",
+        "fr": "Congrès d'Eisenach",
+        "en": "Eisenach Congress",
+        "de": "Eisenacher Parteitag",
+        "draft": ["en"]
+      },
+      "type": "founding",
+      "start": {"date": "1869-08-07"},
+      "end": {"date": "1869-08-09"},
+      "summary": {
+        "fr": "Bebel et Wilhelm Liebknecht fondent le Parti ouvrier social-démocrate, rival des lassalliens, qui adhère à l'Association internationale des travailleurs.",
+        "en": "Bebel and Wilhelm Liebknecht found the Social Democratic Workers' Party, a rival to the Lassalleans, which joins the International Workingmen's Association.",
+        "de": "Bebel und Wilhelm Liebknecht gründen die Sozialdemokratische Arbeiterpartei, Konkurrentin der Lassalleaner, die sich der Internationalen Arbeiterassoziation anschließt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1849-reaction-and-unification"}],
+      "persons": ["august-bebel", "wilhelm-liebknecht"],
+      "places": ["eisenach"],
+      "organizations": ["sdap", "first-international"],
+      "sources": [{"ref": "wp-en-social-democratic-workers-party"}],
+      "status": "draft"
+    },
+    {
+      "id": "1870-war-credits-abstention",
+      "title": {
+        "orig": "de",
+        "fr": "Abstention de Bebel et Liebknecht sur les crédits de guerre",
+        "en": "Bebel and Liebknecht abstain on war credits",
+        "de": "Stimmenthaltung von Bebel und Liebknecht zu den Kriegskrediten",
+        "draft": ["en"]
+      },
+      "type": "vote",
+      "start": {"date": "1870-07-21"},
+      "summary": {
+        "fr": "Au début de la guerre contre la France, Bebel et Liebknecht refusent de voter les crédits de guerre, puis s'opposent à l'annexion de l'Alsace-Lorraine ; ils seront condamnés pour haute trahison.",
+        "en": "At the start of the war against France, Bebel and Liebknecht refuse to vote for war credits, then oppose the annexation of Alsace-Lorraine; they will later be convicted of high treason.",
+        "de": "Zu Beginn des Krieges gegen Frankreich verweigern Bebel und Liebknecht die Zustimmung zu den Kriegskrediten und lehnen später die Annexion Elsass-Lothringens ab; sie werden wegen Hochverrats verurteilt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1849-reaction-and-unification"}],
+      "persons": ["august-bebel", "wilhelm-liebknecht"],
+      "places": ["berlin"],
+      "organizations": ["sdap"],
+      "sources": [{"ref": "wp-en-august-bebel"}],
+      "status": "draft"
+    },
+    {
+      "id": "1872-leipzig-high-treason-trial",
+      "title": {
+        "orig": "de",
+        "fr": "Procès pour haute trahison de Leipzig",
+        "en": "Leipzig high treason trial",
+        "de": "Leipziger Hochverratsprozess",
+        "draft": ["en"]
+      },
+      "type": "trial",
+      "start": {"date": "1872-03"},
+      "summary": {
+        "fr": "Bebel et Wilhelm Liebknecht sont condamnés à deux ans de forteresse pour haute trahison, en raison de leur opposition à la guerre et de leur soutien à la Commune de Paris.",
+        "en": "Bebel and Wilhelm Liebknecht are sentenced to two years' fortress imprisonment for high treason, over their opposition to the war and their support for the Paris Commune.",
+        "de": "Bebel und Wilhelm Liebknecht werden wegen ihrer Ablehnung des Krieges und ihrer Unterstützung der Pariser Kommune wegen Hochverrats zu zwei Jahren Festungshaft verurteilt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1871-imperial-germany"}],
+      "persons": ["august-bebel", "wilhelm-liebknecht"],
+      "places": ["leipzig"],
+      "organizations": ["sdap"],
+      "sources": [{"ref": "wp-en-august-bebel"}],
+      "status": "draft"
+    },
+    {
+      "id": "1875-gotha-congress",
+      "title": {
+        "orig": "de",
+        "fr": "Congrès d'unification de Gotha",
+        "en": "Gotha Unity Congress",
+        "de": "Gothaer Vereinigungsparteitag",
+        "draft": ["en"]
+      },
+      "type": "merger",
+      "start": {"date": "1875-05-22"},
+      "end": {"date": "1875-05-27"},
+      "summary": {
+        "fr": "Lassalliens et eisenachiens fusionnent dans le Parti socialiste ouvrier d'Allemagne, futur SPD ; Marx critique sévèrement les concessions du programme commun au lassallisme.",
+        "en": "Lassalleans and Eisenachers merge into the Socialist Workers' Party of Germany, the future SPD; Marx sharply criticises the joint programme's concessions to Lassalleanism.",
+        "de": "Lassalleaner und Eisenacher vereinigen sich zur Sozialistischen Arbeiterpartei Deutschlands, der späteren SPD; Marx kritisiert scharf die Zugeständnisse des gemeinsamen Programms an den Lassalleanismus.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1871-imperial-germany"}, {"id": "marxism"}],
+      "persons": ["august-bebel", "wilhelm-liebknecht", "marx"],
+      "places": ["gotha"],
+      "organizations": ["adav", "sdap", "spd"],
+      "works": ["critique-of-the-gotha-programme"],
+      "sources": [{"ref": "wp-en-gotha-program"}],
+      "status": "draft"
+    },
+    {
+      "id": "1878-anti-socialist-laws",
+      "title": {
+        "orig": "de",
+        "fr": "Lois antisocialistes",
+        "en": "Anti-Socialist Laws",
+        "de": "Sozialistengesetz",
+        "draft": ["en"]
+      },
+      "type": "ban",
+      "start": {"date": "1878-10-21"},
+      "end": {"date": "1890-09-30"},
+      "summary": {
+        "fr": "Après deux attentats contre Guillaume Ier, Bismarck fait interdire organisations, réunions et presse socialistes ; environ 330 organisations ouvrières sont dissoutes, mais le vote social-démocrate passe de 312 000 à 1,4 million de voix.",
+        "en": "After two attempts on Wilhelm I's life, Bismarck has socialist organisations, meetings and press banned; some 330 workers' organisations are dissolved, yet the Social Democratic vote rises from 312,000 to 1.4 million.",
+        "de": "Nach zwei Attentaten auf Wilhelm I. lässt Bismarck sozialistische Vereine, Versammlungen und Presse verbieten; rund 330 Arbeiterorganisationen werden aufgelöst, doch die sozialdemokratischen Stimmen steigen von 312.000 auf 1,4 Millionen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1871-imperial-germany"}],
+      "persons": ["bismarck", "wilhelm-i"],
+      "organizations": ["spd"],
+      "sources": [{"ref": "wp-en-anti-socialist-laws"}],
+      "status": "draft"
+    },
+    {
+      "id": "1883-health-insurance-law",
+      "title": {
+        "orig": "de",
+        "fr": "Loi sur l'assurance maladie",
+        "en": "Health Insurance Law",
+        "de": "Krankenversicherungsgesetz",
+        "draft": ["en"]
+      },
+      "type": "law",
+      "start": {"date": "1883-06-15"},
+      "summary": {
+        "fr": "Première des lois sociales de Bismarck, suivie de l'assurance accidents (1884) et de l'assurance vieillesse et invalidité (1889) : l'objectif est de détourner les ouvriers de la social-démocratie sans concession politique.",
+        "en": "The first of Bismarck's social laws, followed by accident insurance (1884) and old-age and disability insurance (1889): the aim is to turn workers away from Social Democracy without political concessions.",
+        "de": "Das erste der Bismarckschen Sozialgesetze, gefolgt von Unfall- (1884) sowie Invaliditäts- und Altersversicherung (1889): Ziel ist es, die Arbeiter ohne politische Zugeständnisse der Sozialdemokratie zu entfremden.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1871-imperial-germany"}],
+      "persons": ["bismarck"],
+      "sources": [{"ref": "lemo-social-legislation"}],
+      "status": "draft"
+    },
+    {
+      "id": "1889-ruhr-miners-strike",
+      "title": {
+        "orig": "de",
+        "fr": "Grève des mineurs de la Ruhr de 1889",
+        "en": "Ruhr miners' strike of 1889",
+        "de": "Bergarbeiterstreik von 1889",
+        "draft": ["en"]
+      },
+      "type": "strike",
+      "start": {"date": "1889-04-24"},
+      "end": {"date": "1889-06"},
+      "summary": {
+        "fr": "Partie de Bochum, la grève gagne presque tout le bassin de la Ruhr, avec jusqu'à 90 % des 104 000 mineurs ; une délégation est reçue par Guillaume II, et le mouvement donne naissance au premier grand syndicat de mineurs.",
+        "en": "Starting in Bochum, the strike spreads across almost the whole Ruhr basin, involving up to 90% of its 104,000 miners; a delegation is received by Wilhelm II, and the movement gives birth to the first major miners' union.",
+        "de": "Von Bochum aus erfasst der Streik fast das ganze Ruhrgebiet mit bis zu 90 % der 104.000 Bergleute; eine Delegation wird von Wilhelm II. empfangen, und aus der Bewegung entsteht der Alte Verband.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1871-imperial-germany"}],
+      "persons": ["wilhelm-ii"],
+      "places": ["bochum", "essen"],
+      "sources": [{"ref": "wp-de-miners-strike-1889"}],
+      "status": "draft"
+    },
+    {
+      "id": "1890-reichstag-election",
+      "title": {
+        "orig": "de",
+        "fr": "Élections au Reichstag de 1890",
+        "en": "1890 Reichstag election",
+        "de": "Reichstagswahl 1890",
+        "draft": ["en"]
+      },
+      "type": "election",
+      "start": {"date": "1890-02-20"},
+      "summary": {
+        "fr": "Malgré l'interdiction, les sociaux-démocrates arrivent en tête en voix avec près de 20 % des suffrages ; Bismarck est renvoyé un mois plus tard et les lois antisocialistes ne sont pas renouvelées.",
+        "en": "Despite the ban, the Social Democrats come first in votes with nearly 20%; Bismarck is dismissed a month later and the Anti-Socialist Laws are not renewed.",
+        "de": "Trotz Verbot werden die Sozialdemokraten mit knapp 20 % stimmenstärkste Partei; Bismarck wird einen Monat später entlassen, und das Sozialistengesetz wird nicht verlängert.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1871-imperial-germany"}],
+      "persons": ["bismarck", "wilhelm-ii"],
+      "organizations": ["spd"],
+      "sources": [{"ref": "wp-en-1890-german-federal-election"}, {"ref": "wp-en-anti-socialist-laws"}],
+      "status": "draft"
+    },
+    {
+      "id": "1891-erfurt-programme",
+      "title": {
+        "orig": "de",
+        "fr": "Programme d'Erfurt",
+        "en": "Erfurt Programme",
+        "de": "Erfurter Programm",
+        "draft": ["en"]
+      },
+      "type": "congress",
+      "start": {"date": "1891-10-14"},
+      "end": {"date": "1891-10-20"},
+      "summary": {
+        "fr": "Le congrès d'Erfurt adopte un programme marxiste rédigé par Kautsky et Bernstein, qui juxtapose un but révolutionnaire et des revendications immédiates ; le parti prend le nom de SPD.",
+        "en": "The Erfurt congress adopts a Marxist programme drafted by Kautsky and Bernstein, which sets a revolutionary goal alongside immediate demands; the party takes the name SPD.",
+        "de": "Der Erfurter Parteitag beschließt ein von Kautsky und Bernstein verfasstes marxistisches Programm, das ein revolutionäres Ziel neben Sofortforderungen stellt; die Partei nennt sich fortan SPD.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1871-imperial-germany"}, {"id": "1889-second-international-period"}],
+      "persons": ["karl-kautsky", "eduard-bernstein"],
+      "places": ["erfurt"],
+      "organizations": ["spd"],
+      "sources": [{"ref": "wp-en-erfurt-program"}, {"ref": "wp-en-gotha-program"}],
+      "status": "draft"
+    },
+    {
+      "id": "1896-hamburg-dock-strike",
+      "title": {
+        "orig": "de",
+        "fr": "Grève des dockers de Hambourg",
+        "en": "Hamburg dockworkers' strike",
+        "de": "Hamburger Hafenarbeiterstreik",
+        "draft": ["en"]
+      },
+      "type": "strike",
+      "start": {"date": "1896-11-21"},
+      "end": {"date": "1897-02-06"},
+      "summary": {
+        "fr": "Près de 17 000 dockers et ouvriers du port de Hambourg font grève pendant onze semaines en plein hiver ; le mouvement se termine par une défaite complète face au patronat.",
+        "en": "Nearly 17,000 dockers and port workers in Hamburg strike for eleven weeks in the depths of winter; the movement ends in complete defeat by the employers.",
+        "de": "Fast 17.000 Hafenarbeiter streiken elf Wochen lang mitten im Winter im Hamburger Hafen; die Bewegung endet mit einer vollständigen Niederlage gegen die Unternehmer.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1871-imperial-germany"}],
+      "places": ["hamburg"],
+      "sources": [{"ref": "wp-de-hamburg-dock-strike-1896"}],
+      "status": "draft"
+    },
+    {
+      "id": "1899-revisionism-controversy",
+      "title": {
+        "orig": "de",
+        "fr": "Querelle du révisionnisme",
+        "en": "Revisionism controversy",
+        "de": "Revisionismusstreit",
+        "draft": ["en"]
+      },
+      "type": "publication",
+      "start": {"date": "1899"},
+      "summary": {
+        "fr": "Bernstein soutient que le capitalisme ne s'effondrera pas et que le socialisme viendra par des réformes graduelles ; Rosa Luxemburg lui répond que renoncer à la révolution, c'est renoncer au socialisme. Le parti condamne le révisionnisme.",
+        "en": "Bernstein argues that capitalism will not collapse and that socialism will come through gradual reforms; Rosa Luxemburg replies that giving up revolution means giving up socialism. The party condemns revisionism.",
+        "de": "Bernstein vertritt, der Kapitalismus werde nicht zusammenbrechen und der Sozialismus durch schrittweise Reformen kommen; Rosa Luxemburg entgegnet, wer die Revolution aufgebe, gebe den Sozialismus auf. Die Partei verurteilt den Revisionismus.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1871-imperial-germany"}],
+      "persons": ["eduard-bernstein", "rosa-luxemburg", "karl-kautsky"],
+      "organizations": ["spd"],
+      "works": ["preconditions-of-socialism", "social-reform-or-revolution"],
+      "sources": [{"ref": "wp-en-eduard-bernstein"}, {"ref": "wp-en-social-reform-or-revolution"}],
+      "status": "draft"
+    },
+    {
+      "id": "1905-ruhr-miners-strike",
+      "title": {
+        "orig": "de",
+        "fr": "Grève des mineurs de la Ruhr de 1905",
+        "en": "Ruhr miners' strike of 1905",
+        "de": "Bergarbeiterstreik von 1905",
+        "draft": ["en"]
+      },
+      "type": "strike",
+      "start": {"date": "1905-01-10"},
+      "end": {"date": "1905-02-07"},
+      "summary": {
+        "fr": "Partie d'une mine de Stinnes près de Bochum, la grève mobilise 200 000 des 268 000 mineurs de la Ruhr ; elle arrache une révision de la loi minière prussienne qui limite les heures et crée des comités ouvriers.",
+        "en": "Starting at a Stinnes mine near Bochum, the strike mobilises 200,000 of the Ruhr's 268,000 miners; it wins a revision of the Prussian mining law that limits hours and creates workers' committees.",
+        "de": "Von einer Stinnes-Zeche bei Bochum ausgehend, erfasst der Streik 200.000 der 268.000 Ruhrbergleute; er erzwingt eine Novelle des preußischen Berggesetzes, die Arbeitszeiten begrenzt und Arbeiterausschüsse einführt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1871-imperial-germany"}],
+      "places": ["bochum"],
+      "sources": [{"ref": "wp-de-miners-strike-1905"}],
+      "status": "draft"
+    },
+    {
+      "id": "1906-mannheim-agreement",
+      "title": {
+        "orig": "de",
+        "fr": "Accord de Mannheim",
+        "en": "Mannheim Agreement",
+        "de": "Mannheimer Abkommen",
+        "draft": ["en"]
+      },
+      "type": "congress",
+      "start": {"date": "1906"},
+      "summary": {
+        "fr": "Au congrès de Mannheim, le SPD reconnaît aux syndicats un poids égal au sien et leur laisse le dernier mot sur la grève de masse : la grève générale politique offensive est de fait écartée.",
+        "en": "At the Mannheim congress, the SPD grants the trade unions equal standing with the party and leaves them the final say on the mass strike: the offensive political general strike is effectively ruled out.",
+        "de": "Auf dem Mannheimer Parteitag erkennt die SPD die Gewerkschaften als gleichrangig an und überlässt ihnen das letzte Wort in der Massenstreikfrage: Der offensive politische Massenstreik ist faktisch vom Tisch.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1871-imperial-germany"}],
+      "places": ["mannheim"],
+      "organizations": ["spd"],
+      "sources": [{"ref": "wp-de-mannheim-agreement"}],
+      "status": "draft"
+    },
+    {
+      "id": "1907-stuttgart-congress",
+      "title": {
+        "orig": "de",
+        "fr": "Congrès de Stuttgart de la IIe Internationale",
+        "en": "Stuttgart Congress of the Second International",
+        "de": "Internationaler Sozialistenkongress Stuttgart",
+        "draft": ["en"]
+      },
+      "type": "congress",
+      "start": {"date": "1907-08-18"},
+      "end": {"date": "1907-08-24"},
+      "summary": {
+        "fr": "Le congrès condamne toute politique coloniale et adopte une résolution contre la guerre, amendée par Lénine et les sociaux-démocrates polonais : les partis devront tout faire pour empêcher la guerre.",
+        "en": "The congress condemns all colonial policy and adopts a resolution against war, amended by Lenin and the Polish Social Democrats: the parties must do everything to prevent war.",
+        "de": "Der Kongress verurteilt jede Kolonialpolitik und verabschiedet eine Resolution gegen den Krieg, ergänzt durch Lenin und die polnischen Sozialdemokraten: Die Parteien sollen alles tun, um den Krieg zu verhindern.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1871-imperial-germany"},
+        {"id": "1906-reaction-period"},
+        {"id": "1889-second-international-period"}
+      ],
+      "persons": ["august-bebel", "lenin", "rosa-luxemburg"],
+      "places": ["stuttgart"],
+      "organizations": ["second-international", "spd"],
+      "sources": [{"ref": "lenin-stuttgart-congress-1907"}],
+      "status": "draft"
+    },
+    {
+      "id": "1912-reichstag-election",
+      "title": {
+        "orig": "de",
+        "fr": "Élections au Reichstag de 1912",
+        "en": "1912 Reichstag election",
+        "de": "Reichstagswahl 1912",
+        "draft": ["en"]
+      },
+      "type": "election",
+      "start": {"date": "1912-01-12"},
+      "summary": {
+        "fr": "Avec 4,25 millions de voix (34,8 %) et 110 sièges, le SPD devient pour la première fois le premier groupe du Reichstag, le plus grand parti ouvrier du monde.",
+        "en": "With 4.25 million votes (34.8%) and 110 seats, the SPD becomes the largest group in the Reichstag for the first time, the biggest workers' party in the world.",
+        "de": "Mit 4,25 Millionen Stimmen (34,8 %) und 110 Sitzen wird die SPD erstmals stärkste Fraktion im Reichstag, die größte Arbeiterpartei der Welt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1871-imperial-germany"}],
+      "organizations": ["spd"],
+      "sources": [{"ref": "wp-de-reichstag-election-1912"}],
+      "status": "draft"
+    },
+    {
+      "id": "1914-liebknecht-votes-against-war-credits",
+      "title": {
+        "orig": "de",
+        "fr": "Liebknecht vote seul contre les crédits de guerre",
+        "en": "Liebknecht votes alone against war credits",
+        "de": "Liebknecht stimmt allein gegen die Kriegskredite",
+        "draft": ["en"]
+      },
+      "type": "vote",
+      "start": {"date": "1914-12-02"},
+      "summary": {
+        "fr": "Rompant la discipline du groupe social-démocrate, Karl Liebknecht est le seul député du Reichstag à voter contre la deuxième tranche de crédits de guerre ; il devient le symbole de l'opposition à la guerre.",
+        "en": "Breaking Social Democratic group discipline, Karl Liebknecht is the only Reichstag deputy to vote against the second round of war credits; he becomes the symbol of opposition to the war.",
+        "de": "Unter Bruch der Fraktionsdisziplin stimmt Karl Liebknecht als einziger Reichstagsabgeordneter gegen die zweite Bewilligung von Kriegskrediten und wird zum Symbol der Kriegsgegnerschaft.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1914-war-and-revolutionary-opposition"},
+        {"id": "1914-collapse-of-the-second-international"}
+      ],
+      "persons": ["karl-liebknecht"],
+      "places": ["berlin"],
+      "organizations": ["spd"],
+      "sources": [{"ref": "wp-en-karl-liebknecht"}],
+      "status": "draft"
+    },
+    {
+      "id": "1916-spartacus-group-founding",
+      "title": {
+        "orig": "de",
+        "fr": "Constitution du groupe Spartacus",
+        "en": "Formation of the Spartacus Group",
+        "de": "Gründung der Spartakusgruppe",
+        "draft": ["en"]
+      },
+      "type": "founding",
+      "start": {"date": "1916-01-01"},
+      "summary": {
+        "fr": "Le groupe Internationale, formé dès août 1914 autour de Rosa Luxemburg, adopte ses principes directeurs et s'organise dans tout le Reich ; ses « Lettres de Spartacus » illégales lui donnent son nom.",
+        "en": "The International Group, formed in August 1914 around Rosa Luxemburg, adopts its guiding principles and organises across the Reich; its illegal 'Spartacus Letters' give it its name.",
+        "de": "Die im August 1914 um Rosa Luxemburg entstandene Gruppe Internationale beschließt ihre Leitsätze und organisiert sich reichsweit; ihre illegalen „Spartakusbriefe“ geben ihr den Namen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1914-war-and-revolutionary-opposition"},
+        {"id": "1914-collapse-of-the-second-international"}
+      ],
+      "persons": ["rosa-luxemburg", "karl-liebknecht", "clara-zetkin", "franz-mehring"],
+      "places": ["berlin"],
+      "organizations": ["spartacus-league"],
+      "sources": [{"ref": "wp-en-spartacus-league"}],
+      "status": "draft"
+    },
+    {
+      "id": "1916-liebknecht-arrest",
+      "title": {
+        "orig": "de",
+        "fr": "Arrestation de Liebknecht au 1er Mai",
+        "en": "Liebknecht arrested on May Day",
+        "de": "Verhaftung Liebknechts am 1. Mai",
+        "draft": ["en"]
+      },
+      "type": "arrest",
+      "start": {"date": "1916-05-01"},
+      "summary": {
+        "fr": "Lors d'une manifestation contre la guerre à Berlin, Liebknecht est arrêté ; condamné en août à quatre ans et un mois de réclusion, il reste emprisonné jusqu'à l'automne 1918.",
+        "en": "At an anti-war demonstration in Berlin, Liebknecht is arrested; sentenced in August to four years and one month in prison, he remains behind bars until autumn 1918.",
+        "de": "Bei einer Antikriegsdemonstration in Berlin wird Liebknecht verhaftet; im August zu vier Jahren und einem Monat Zuchthaus verurteilt, bleibt er bis zum Herbst 1918 in Haft.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1914-war-and-revolutionary-opposition"}],
+      "persons": ["karl-liebknecht"],
+      "places": ["berlin"],
+      "organizations": ["spartacus-league"],
+      "sources": [{"ref": "wp-en-karl-liebknecht"}],
+      "status": "draft"
+    },
+    {
+      "id": "1916-berlin-protest-strike",
+      "title": {
+        "orig": "de",
+        "fr": "Grève de protestation de Berlin",
+        "en": "Berlin protest strike",
+        "de": "Berliner Proteststreik",
+        "draft": ["en"]
+      },
+      "type": "strike",
+      "start": {"date": "1916-06-28"},
+      "summary": {
+        "fr": "Contre le procès de Liebknecht, 55 000 ouvriers berlinois débraient à l'appel des délégués d'usine autour de Richard Müller, sans les syndicats : première grève politique de masse de la guerre.",
+        "en": "Against Liebknecht's trial, 55,000 Berlin workers walk out at the call of factory stewards around Richard Müller, without the unions: the first political mass strike of the war.",
+        "de": "Gegen den Prozess gegen Liebknecht legen 55.000 Berliner Arbeiter auf Aufruf der Betriebsobleute um Richard Müller und ohne die Gewerkschaften die Arbeit nieder: der erste politische Massenstreik des Krieges.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1914-war-and-revolutionary-opposition"}],
+      "persons": ["richard-muller", "karl-liebknecht"],
+      "places": ["berlin"],
+      "organizations": ["revolutionary-shop-stewards"],
+      "sources": [{"ref": "wp-en-1916-berlin-strike"}],
+      "status": "draft"
+    },
+    {
+      "id": "1916-auxiliary-service-act",
+      "title": {
+        "orig": "de",
+        "fr": "Loi sur le service auxiliaire patriotique",
+        "en": "Auxiliary Service Act",
+        "de": "Hilfsdienstgesetz",
+        "draft": ["en"]
+      },
+      "aliases": ["Vaterländischer Hilfsdienst"],
+      "type": "law",
+      "start": {"date": "1916-12-06"},
+      "summary": {
+        "fr": "Voulue par le haut commandement, la loi soumet les hommes de 17 à 60 ans au travail obligatoire dans les industries de guerre et supprime le libre choix de l'emploi, en échange de comités ouvriers concédés aux syndicats.",
+        "en": "Demanded by the High Command, the law subjects men aged 17 to 60 to compulsory labour in war industries and abolishes free choice of employment, in exchange for workers' committees conceded to the unions.",
+        "de": "Auf Betreiben der Obersten Heeresleitung verpflichtet das Gesetz Männer von 17 bis 60 Jahren zur Arbeit in der Kriegswirtschaft und hebt die freie Arbeitsplatzwahl auf; im Gegenzug erhalten die Gewerkschaften Arbeiterausschüsse.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1914-war-and-revolutionary-opposition"}],
+      "persons": ["paul-von-hindenburg", "erich-ludendorff"],
+      "sources": [{"ref": "wp-de-auxiliary-service-act"}],
+      "status": "draft"
+    },
+    {
+      "id": "1916-turnip-winter",
+      "title": {
+        "orig": "de",
+        "fr": "Hiver des rutabagas",
+        "en": "Turnip Winter",
+        "de": "Steckrübenwinter",
+        "draft": ["en"]
+      },
+      "type": "famine",
+      "start": {"date": "1916"},
+      "end": {"date": "1917"},
+      "summary": {
+        "fr": "Blocus allié, mauvaises récoltes et priorité à l'armée réduisent les rations à environ 1 000 calories par jour en hiver ; la faim fait des milliers de morts parmi les civils et alimente la colère ouvrière.",
+        "en": "The Allied blockade, poor harvests and priority for the army cut rations to about 1,000 calories a day in winter; hunger kills thousands of civilians and fuels working-class anger.",
+        "de": "Alliierte Blockade, Missernten und der Vorrang des Heeres senken die Rationen im Winter auf etwa 1.000 Kalorien täglich; der Hunger fordert Tausende zivile Opfer und schürt die Wut der Arbeiter.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1914-war-and-revolutionary-opposition"}],
+      "sources": [{"ref": "wp-en-turnip-winter"}],
+      "status": "draft"
+    },
+    {
+      "id": "1917-uspd-founding",
+      "title": {
+        "orig": "de",
+        "fr": "Fondation de l'USPD",
+        "en": "Founding of the USPD",
+        "de": "Gründung der USPD",
+        "draft": ["en"]
+      },
+      "type": "split",
+      "start": {"date": "1917-04-06"},
+      "end": {"date": "1917-04-08"},
+      "summary": {
+        "fr": "Exclus du SPD pour leur refus des crédits de guerre, les députés d'opposition fondent à Gotha le Parti social-démocrate indépendant, que rejoint le groupe Spartacus tout en gardant son autonomie.",
+        "en": "Expelled from the SPD for refusing war credits, the opposition deputies found the Independent Social Democratic Party in Gotha, which the Spartacus Group joins while keeping its autonomy.",
+        "de": "Die wegen Ablehnung der Kriegskredite aus der SPD ausgeschlossenen Oppositionsabgeordneten gründen in Gotha die USPD, der sich die Spartakusgruppe unter Wahrung ihrer Selbständigkeit anschließt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1914-war-and-revolutionary-opposition"}],
+      "persons": ["hugo-haase", "georg-ledebour", "karl-kautsky", "eduard-bernstein"],
+      "places": ["gotha"],
+      "organizations": ["uspd", "spd", "spartacus-league"],
+      "sources": [{"ref": "wp-en-uspd"}, {"ref": "wp-en-spartacus-league"}],
+      "status": "draft"
+    },
+    {
+      "id": "1917-april-strikes",
+      "title": {
+        "orig": "de",
+        "fr": "Grèves d'avril 1917",
+        "en": "April strikes of 1917",
+        "de": "Aprilstreiks 1917",
+        "draft": ["en"]
+      },
+      "type": "strike",
+      "start": {"date": "1917-04"},
+      "summary": {
+        "fr": "La réduction d'un quart de la ration de pain déclenche une grève de 200 000 à 300 000 ouvrières et ouvriers à Berlin et dans plusieurs villes, organisée par les délégués révolutionnaires, avec un net contenu anti-guerre.",
+        "en": "A one-quarter cut in the bread ration sparks a strike by 200,000 to 300,000 women and men workers in Berlin and several other cities, organised by the Revolutionary Shop Stewards, with a clear anti-war content.",
+        "de": "Die Kürzung der Brotration um ein Viertel löst einen Streik von 200.000 bis 300.000 Arbeiterinnen und Arbeitern in Berlin und weiteren Städten aus, organisiert von den Revolutionären Obleuten, mit deutlich antimilitaristischem Inhalt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1914-war-and-revolutionary-opposition"}],
+      "places": ["berlin", "dresden"],
+      "organizations": ["revolutionary-shop-stewards"],
+      "sources": [{"ref": "wp-en-1916-berlin-strike"}],
+      "status": "draft"
+    },
+    {
+      "id": "1917-fleet-unrest",
+      "title": {
+        "orig": "de",
+        "fr": "Agitation dans la flotte de 1917",
+        "en": "Naval unrest of 1917",
+        "de": "Matrosenbewegung 1917",
+        "draft": ["en"]
+      },
+      "type": "mutiny",
+      "start": {"date": "1917-08-01"},
+      "end": {"date": "1917-09-05"},
+      "summary": {
+        "fr": "Sur plusieurs cuirassés, les marins protestent contre la nourriture et le traitement, puis contre la guerre ; deux meneurs, Albin Köbis et Max Reichpietsch, sont condamnés à mort et fusillés.",
+        "en": "On several battleships, sailors protest against food and treatment, then against the war; two ringleaders, Albin Köbis and Max Reichpietsch, are sentenced to death and shot.",
+        "de": "Auf mehreren Schlachtschiffen protestieren Matrosen gegen Verpflegung und Behandlung, dann gegen den Krieg; zwei Wortführer, Albin Köbis und Max Reichpietsch, werden zum Tode verurteilt und erschossen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1914-war-and-revolutionary-opposition"}],
+      "persons": ["albin-kobis", "max-reichpietsch"],
+      "sources": [{"ref": "wp-en-kiel-mutiny"}, {"ref": "wp-en-albin-kobis"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-treaty-of-brest-litovsk",
+      "title": {
+        "orig": "de",
+        "fr": "Traité de Brest-Litovsk",
+        "en": "Treaty of Brest-Litovsk",
+        "de": "Friedensvertrag von Brest-Litowsk",
+        "draft": ["en"]
+      },
+      "type": "treaty",
+      "start": {"date": "1918-03-03"},
+      "summary": {
+        "fr": "L'Allemagne impose à la Russie soviétique une paix d'annexion : la Russie renonce à la Pologne, aux pays baltes, à l'Ukraine et à la Finlande, soit un tiers de sa population ; le traité est annulé en novembre 1918.",
+        "en": "Germany imposes an annexationist peace on Soviet Russia: Russia gives up Poland, the Baltic lands, Ukraine and Finland, a third of its population; the treaty is annulled in November 1918.",
+        "de": "Deutschland zwingt Sowjetrussland einen Annexionsfrieden auf: Russland verzichtet auf Polen, das Baltikum, die Ukraine und Finnland, ein Drittel seiner Bevölkerung; im November 1918 wird der Vertrag annulliert.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1914-war-and-revolutionary-opposition"},
+        {"id": "1917-soviet-power-civil-war-and-war-communism"},
+        {"id": "1917-soviet-power-period"}
+      ],
+      "places": ["brest"],
+      "sources": [{"ref": "wp-en-treaty-of-brest-litovsk"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-january-strike",
+      "title": {
+        "orig": "de",
+        "fr": "Grève de janvier 1918",
+        "en": "January strike of 1918",
+        "de": "Januarstreik 1918",
+        "draft": ["en"]
+      },
+      "type": "strike",
+      "start": {"date": "1918-01-28"},
+      "summary": {
+        "fr": "Plus d'un million d'ouvriers débraient pour la paix et la démocratisation, avec un comité de grève berlinois présidé par Richard Müller ; Ebert y entre pour freiner le mouvement, brisé par la police et l'envoi des grévistes au front.",
+        "en": "Over a million workers strike for peace and democratisation, with a Berlin strike committee chaired by Richard Müller; Ebert joins it to rein in the movement, broken by police action and the sending of strikers to the front.",
+        "de": "Über eine Million Arbeiter streiken für Frieden und Demokratisierung; die Berliner Streikleitung führt Richard Müller. Ebert tritt ihr bei, um die Bewegung zu bremsen, die Polizei und Einberufungen an die Front brechen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1914-war-and-revolutionary-opposition"}],
+      "persons": ["richard-muller", "friedrich-ebert", "philipp-scheidemann", "kurt-eisner"],
+      "places": ["berlin", "kiel"],
+      "organizations": ["revolutionary-shop-stewards", "spartacus-league", "uspd", "spd"],
+      "sources": [{"ref": "wp-de-january-strike"}, {"ref": "wp-en-revolutionary-stewards"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-october-reform",
+      "title": {
+        "orig": "de",
+        "fr": "Réforme d'octobre",
+        "en": "October Reform",
+        "de": "Oktoberreform",
+        "draft": ["en"]
+      },
+      "type": "government",
+      "start": {"date": "1918-10-03"},
+      "end": {"date": "1918-10-28"},
+      "summary": {
+        "fr": "Face à la défaite, le haut commandement fait appel aux partis majoritaires : Max de Bade devient chancelier, le SPD entre au gouvernement et une révision constitutionnelle rend le chancelier responsable devant le Reichstag.",
+        "en": "Facing defeat, the High Command turns to the majority parties: Max of Baden becomes chancellor, the SPD enters government and a constitutional revision makes the chancellor answerable to the Reichstag.",
+        "de": "Angesichts der Niederlage setzt die Oberste Heeresleitung auf die Mehrheitsparteien: Max von Baden wird Reichskanzler, die SPD tritt in die Regierung ein, und eine Verfassungsänderung macht den Kanzler vom Reichstag abhängig.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1914-war-and-revolutionary-opposition"}],
+      "persons": ["max-von-baden", "philipp-scheidemann", "paul-von-hindenburg", "erich-ludendorff"],
+      "places": ["berlin"],
+      "organizations": ["spd"],
+      "sources": [{"ref": "wp-de-october-reform"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-liebknecht-release",
+      "title": {
+        "orig": "de",
+        "fr": "Libération de Liebknecht",
+        "en": "Liebknecht released",
+        "de": "Freilassung Liebknechts",
+        "draft": ["en"]
+      },
+      "type": "release",
+      "start": {"date": "1918-10-23"},
+      "summary": {
+        "fr": "Amnistié par le nouveau gouvernement, Karl Liebknecht sort de prison et reprend aussitôt l'agitation révolutionnaire à Berlin aux côtés des délégués révolutionnaires.",
+        "en": "Amnestied by the new government, Karl Liebknecht leaves prison and immediately resumes revolutionary agitation in Berlin alongside the Revolutionary Shop Stewards.",
+        "de": "Von der neuen Regierung amnestiert, verlässt Karl Liebknecht das Gefängnis und nimmt in Berlin sofort die revolutionäre Agitation an der Seite der Revolutionären Obleute wieder auf.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1914-war-and-revolutionary-opposition"}],
+      "persons": ["karl-liebknecht"],
+      "places": ["berlin"],
+      "sources": [{"ref": "wp-en-karl-liebknecht"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-wilhelmshaven-fleet-mutiny",
+      "title": {
+        "orig": "de",
+        "fr": "Mutinerie de la flotte à Wilhelmshaven",
+        "en": "Wilhelmshaven fleet mutiny",
+        "de": "Flottenmeuterei in Wilhelmshaven",
+        "draft": ["en"]
+      },
+      "type": "mutiny",
+      "start": {"date": "1918-10-30"},
+      "end": {"date": "1918-10-31"},
+      "summary": {
+        "fr": "Refusant une sortie suicidaire contre la flotte britannique ordonnée par l'amirauté à l'insu du gouvernement, les marins de plusieurs cuirassés refusent de lever l'ancre ; l'escadre est renvoyée à Kiel.",
+        "en": "Refusing a suicidal sortie against the British fleet ordered by the Admiralty behind the government's back, sailors on several battleships refuse to weigh anchor; the squadron is sent back to Kiel.",
+        "de": "Gegen einen selbstmörderischen, ohne Wissen der Regierung befohlenen Flottenvorstoß gegen die Briten verweigern Matrosen mehrerer Schlachtschiffe das Ankerlichten; das Geschwader wird nach Kiel zurückbeordert.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1914-war-and-revolutionary-opposition"}],
+      "places": ["wilhelmshaven", "kiel"],
+      "sources": [{"ref": "wp-en-kiel-mutiny"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-november-revolution",
+      "title": {
+        "orig": "de",
+        "fr": "Révolution de Novembre",
+        "en": "November Revolution",
+        "de": "Novemberrevolution",
+        "draft": ["en"]
+      },
+      "type": "revolution",
+      "start": {"date": "1918-11-03"},
+      "end": {"date": "1919-08-11"},
+      "summary": {
+        "fr": "Des mutineries de la flotte à la Constitution de Weimar : les conseils d'ouvriers et de soldats renversent la monarchie, mais la direction du SPD, alliée à l'armée, canalise la révolution vers une république parlementaire et écrase l'aile révolutionnaire.",
+        "en": "From the fleet mutinies to the Weimar Constitution: workers' and soldiers' councils overthrow the monarchy, but the SPD leadership, allied with the army, channels the revolution into a parliamentary republic and crushes its revolutionary wing.",
+        "de": "Von den Flottenmeutereien bis zur Weimarer Verfassung: Arbeiter- und Soldatenräte stürzen die Monarchie, doch die mit dem Heer verbündete SPD-Führung lenkt die Revolution in eine parlamentarische Republik und zerschlägt den revolutionären Flügel.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-german-revolution"}, {"id": "marxism"}],
+      "sources": [{"ref": "wp-en-german-revolution-1918-1919"}, {"ref": "lemo-sailors-revolt-1918"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-kiel-uprising",
+      "title": {
+        "orig": "de",
+        "fr": "Soulèvement de Kiel",
+        "en": "Kiel uprising",
+        "de": "Kieler Matrosenaufstand",
+        "draft": ["en"]
+      },
+      "type": "insurrection",
+      "start": {"date": "1918-11-03"},
+      "end": {"date": "1918-11-04"},
+      "summary": {
+        "fr": "Une patrouille tire sur une manifestation de marins réclamant la libération de leurs camarades ; le lendemain, grève générale ouvrière, et le soir du 4 novembre la ville est aux mains des insurgés, qui forment un conseil.",
+        "en": "A patrol fires on a sailors' demonstration demanding the release of their comrades; the next day workers stage a general strike, and by the evening of 4 November the city is in the hands of the insurgents, who form a council.",
+        "de": "Eine Patrouille schießt auf eine Demonstration von Matrosen, die die Freilassung ihrer Kameraden fordern; am nächsten Tag Generalstreik der Arbeiter, und am Abend des 4. November ist die Stadt in der Hand der Aufständischen, die einen Rat bilden.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-november-revolution"}],
+      "places": ["kiel"],
+      "sources": [{"ref": "lemo-sailors-revolt-1918"}, {"ref": "wp-en-german-revolution-1918-1919"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-bavarian-revolution",
+      "title": {
+        "orig": "de",
+        "fr": "Révolution en Bavière",
+        "en": "Bavarian Revolution",
+        "de": "Revolution in Bayern",
+        "draft": ["en"]
+      },
+      "type": "revolution",
+      "start": {"date": "1918-11-07"},
+      "end": {"date": "1918-11-08"},
+      "summary": {
+        "fr": "À Munich, le roi Louis III s'enfuit et Kurt Eisner (USPD) proclame l'État populaire de Bavière, première monarchie allemande renversée, deux jours avant Berlin.",
+        "en": "In Munich, King Ludwig III flees and Kurt Eisner (USPD) proclaims the People's State of Bavaria, the first German monarchy to fall, two days before Berlin.",
+        "de": "In München flieht König Ludwig III., und Kurt Eisner (USPD) ruft den Volksstaat Bayern aus, die erste gestürzte deutsche Monarchie, zwei Tage vor Berlin.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-november-revolution"}],
+      "persons": ["kurt-eisner"],
+      "places": ["munich"],
+      "organizations": ["uspd"],
+      "sources": [{"ref": "wp-en-german-revolution-1918-1919"}, {"ref": "wp-en-bavarian-soviet-republic"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-proclamation-of-the-republic",
+      "title": {
+        "orig": "de",
+        "fr": "9 novembre : proclamation de la République",
+        "en": "9 November: proclamation of the Republic",
+        "de": "9. November: Ausrufung der Republik",
+        "draft": ["en"]
+      },
+      "type": "revolution",
+      "start": {"date": "1918-11-09"},
+      "summary": {
+        "fr": "Max de Bade annonce l'abdication de Guillaume II et remet la chancellerie à Ebert ; Scheidemann proclame la république depuis le Reichstag, et Liebknecht, quelques heures plus tard, la république socialiste libre.",
+        "en": "Max of Baden announces Wilhelm II's abdication and hands the chancellorship to Ebert; Scheidemann proclaims the republic from the Reichstag, and Liebknecht, a few hours later, the free socialist republic.",
+        "de": "Max von Baden verkündet die Abdankung Wilhelms II. und übergibt das Kanzleramt an Ebert; Scheidemann ruft vom Reichstag die Republik aus, Liebknecht wenige Stunden später die freie sozialistische Republik.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-november-revolution"}],
+      "persons": ["max-von-baden", "wilhelm-ii", "friedrich-ebert", "philipp-scheidemann", "karl-liebknecht"],
+      "places": ["berlin"],
+      "sources": [{"ref": "wp-en-german-revolution-1918-1919"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-council-of-peoples-deputies",
+      "title": {
+        "orig": "de",
+        "fr": "Conseil des commissaires du peuple",
+        "en": "Council of the People's Deputies",
+        "de": "Rat der Volksbeauftragten",
+        "draft": ["en"]
+      },
+      "type": "government",
+      "start": {"date": "1918-11-10"},
+      "summary": {
+        "fr": "Gouvernement révolutionnaire paritaire de trois SPD (Ebert, Scheidemann, Landsberg) et trois USPD (Haase, Dittmann, Barth), qui s'appuie sur les conseils tout en préparant l'Assemblée nationale.",
+        "en": "A revolutionary government made up equally of three SPD members (Ebert, Scheidemann, Landsberg) and three USPD members (Haase, Dittmann, Barth), resting on the councils while preparing the National Assembly.",
+        "de": "Paritätische Revolutionsregierung aus drei SPD- (Ebert, Scheidemann, Landsberg) und drei USPD-Mitgliedern (Haase, Dittmann, Barth), die sich auf die Räte stützt und zugleich die Nationalversammlung vorbereitet.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-november-revolution"}],
+      "persons": [
+        "friedrich-ebert",
+        "philipp-scheidemann",
+        "otto-landsberg",
+        "hugo-haase",
+        "wilhelm-dittmann",
+        "emil-barth"
+      ],
+      "places": ["berlin"],
+      "organizations": ["spd", "uspd"],
+      "sources": [{"ref": "wp-en-german-revolution-1918-1919"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-ebert-groener-pact",
+      "title": {
+        "orig": "de",
+        "fr": "Pacte Ebert-Groener",
+        "en": "Ebert–Groener pact",
+        "de": "Ebert-Groener-Pakt",
+        "draft": ["en"]
+      },
+      "type": "other",
+      "start": {"date": "1918-11-10"},
+      "summary": {
+        "fr": "Par un accord téléphonique secret, le général Groener garantit à Ebert la loyauté de l'armée ; en échange, Ebert s'engage à combattre la gauche révolutionnaire et à laisser le commandement aux officiers.",
+        "en": "In a secret telephone agreement, General Groener guarantees Ebert the army's loyalty; in return, Ebert undertakes to fight the revolutionary left and to leave command to the officers.",
+        "de": "In einer geheimen telefonischen Absprache sichert General Groener Ebert die Loyalität des Heeres zu; im Gegenzug verpflichtet sich Ebert, die revolutionäre Linke zu bekämpfen und das Kommando den Offizieren zu überlassen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-november-revolution"}],
+      "persons": ["friedrich-ebert", "wilhelm-groener"],
+      "sources": [{"ref": "wp-en-ebert-groener-pact"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-armistice",
+      "title": {
+        "orig": "de",
+        "fr": "Armistice du 11 novembre 1918",
+        "en": "Armistice of 11 November 1918",
+        "de": "Waffenstillstand von Compiègne",
+        "draft": ["en"]
+      },
+      "type": "treaty",
+      "start": {"date": "1918-11-11"},
+      "summary": {
+        "fr": "Signé à l'aube dans un wagon en forêt de Compiègne par le civil Matthias Erzberger, l'armistice met fin aux combats sur le front occidental et annule le traité de Brest-Litovsk.",
+        "en": "Signed at dawn in a railway carriage in the Compiègne forest by the civilian Matthias Erzberger, the armistice ends the fighting on the Western Front and abrogates the Treaty of Brest-Litovsk.",
+        "de": "Im Morgengrauen von dem Zivilisten Matthias Erzberger in einem Eisenbahnwagen im Wald von Compiègne unterzeichnet, beendet der Waffenstillstand die Kämpfe an der Westfront und hebt den Vertrag von Brest-Litowsk auf.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-november-revolution"}],
+      "persons": ["matthias-erzberger"],
+      "places": ["compiegne"],
+      "sources": [{"ref": "wp-en-armistice-1918"}, {"ref": "wp-en-treaty-of-brest-litovsk"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-stinnes-legien-agreement",
+      "title": {
+        "orig": "de",
+        "fr": "Accord Stinnes-Legien",
+        "en": "Stinnes–Legien Agreement",
+        "de": "Stinnes-Legien-Abkommen",
+        "draft": ["en"]
+      },
+      "type": "treaty",
+      "start": {"date": "1918-11-15"},
+      "summary": {
+        "fr": "Pour désamorcer la révolution, le patronat accorde aux syndicats la journée de huit heures, la reconnaissance comme représentants des salariés et les conventions collectives, en échange du maintien de la propriété.",
+        "en": "To defuse the revolution, employers grant the unions the eight-hour day, recognition as the workers' representatives and collective bargaining, in exchange for leaving property untouched.",
+        "de": "Um die Revolution zu entschärfen, gestehen die Unternehmer den Gewerkschaften den Achtstundentag, die Anerkennung als Vertretung der Arbeiter und Tarifverträge zu, im Gegenzug bleibt das Eigentum unangetastet.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-november-revolution"}],
+      "persons": ["hugo-stinnes", "carl-legien"],
+      "sources": [{"ref": "wp-en-stinnes-legien-agreement"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-congress-of-councils",
+      "title": {
+        "orig": "de",
+        "fr": "Congrès des conseils d'ouvriers et de soldats",
+        "en": "Congress of Workers' and Soldiers' Councils",
+        "de": "Reichsrätekongress",
+        "draft": ["en"]
+      },
+      "type": "congress",
+      "start": {"date": "1918-12-16"},
+      "summary": {
+        "fr": "Dominé par le SPD, le premier congrès national des conseils rejette par 344 voix contre 98 une constitution fondée sur les conseils et vote l'élection d'une Assemblée nationale.",
+        "en": "Dominated by the SPD, the first national congress of councils rejects a council-based constitution by 344 votes to 98 and votes for the election of a National Assembly.",
+        "de": "Der von der SPD beherrschte erste Reichsrätekongress lehnt mit 344 zu 98 Stimmen eine Räteverfassung ab und beschließt die Wahl einer Nationalversammlung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-november-revolution"}],
+      "places": ["berlin"],
+      "organizations": ["spd"],
+      "sources": [{"ref": "wp-en-german-revolution-1918-1919"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-christmas-crisis",
+      "title": {
+        "orig": "de",
+        "fr": "Crise de Noël",
+        "en": "Christmas crisis",
+        "de": "Weihnachtskämpfe",
+        "draft": ["en"]
+      },
+      "type": "repression",
+      "start": {"date": "1918-12-23"},
+      "end": {"date": "1918-12-29"},
+      "summary": {
+        "fr": "Le gouvernement fait attaquer par l'armée la division de marine populaire installée au château de Berlin ; en protestation, les trois commissaires USPD quittent le Conseil des commissaires du peuple.",
+        "en": "The government has the army attack the People's Navy Division quartered in the Berlin Palace; in protest, the three USPD deputies leave the Council of the People's Deputies.",
+        "de": "Die Regierung lässt die im Berliner Schloss stationierte Volksmarinedivision vom Militär angreifen; aus Protest verlassen die drei USPD-Volksbeauftragten den Rat der Volksbeauftragten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-november-revolution"}],
+      "persons": ["friedrich-ebert", "hugo-haase"],
+      "places": ["berlin"],
+      "organizations": ["spd", "uspd"],
+      "sources": [{"ref": "wp-en-german-revolution-1918-1919"}],
+      "status": "draft"
+    },
+    {
+      "id": "1918-kpd-founding",
+      "title": {
+        "orig": "de",
+        "fr": "Fondation du KPD",
+        "en": "Founding of the KPD",
+        "de": "Gründung der KPD",
+        "draft": ["en"]
+      },
+      "type": "founding",
+      "start": {"date": "1918-12-30"},
+      "end": {"date": "1918-12-31"},
+      "summary": {
+        "fr": "La Ligue spartakiste et des groupes de gauche fondent le Parti communiste d'Allemagne ; Rosa Luxemburg présente son programme, mais le congrès, contre son avis, refuse de participer aux élections.",
+        "en": "The Spartacus League and other left groups found the Communist Party of Germany; Rosa Luxemburg presents its programme, but the congress, against her advice, refuses to take part in the elections.",
+        "de": "Der Spartakusbund und weitere linke Gruppen gründen die KPD; Rosa Luxemburg stellt das Programm vor, doch der Parteitag lehnt gegen ihren Rat die Beteiligung an den Wahlen ab.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-november-revolution"}],
+      "persons": ["rosa-luxemburg", "karl-liebknecht"],
+      "places": ["berlin"],
+      "organizations": ["kpd", "spartacus-league"],
+      "sources": [{"ref": "wp-en-german-revolution-1918-1919"}, {"ref": "wp-en-spartacus-league"}],
+      "status": "draft"
+    },
+    {
+      "id": "1919-spartacist-uprising",
+      "title": {
+        "orig": "de",
+        "fr": "Insurrection de janvier 1919",
+        "en": "Spartacist uprising",
+        "de": "Spartakusaufstand",
+        "draft": ["en"]
+      },
+      "aliases": ["Januaraufstand", "Semaine spartakiste"],
+      "type": "insurrection",
+      "start": {"date": "1919-01-05"},
+      "end": {"date": "1919-01-12"},
+      "summary": {
+        "fr": "Des manifestations de masse à Berlin tournent à l'insurrection, mal préparée et sans direction claire ; Noske la fait écraser par l'armée et les corps francs en une semaine.",
+        "en": "Mass demonstrations in Berlin turn into an ill-prepared insurrection without clear leadership; Noske has it crushed by the army and the Freikorps within a week.",
+        "de": "Massendemonstrationen in Berlin gehen in einen schlecht vorbereiteten Aufstand ohne klare Führung über; Noske lässt ihn binnen einer Woche von Heer und Freikorps niederschlagen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-november-revolution"}],
+      "persons": ["karl-liebknecht", "gustav-noske"],
+      "places": ["berlin"],
+      "organizations": ["kpd", "revolutionary-shop-stewards"],
+      "sources": [{"ref": "wp-en-german-revolution-1918-1919"}],
+      "status": "draft"
+    },
+    {
+      "id": "1919-murder-of-luxemburg-and-liebknecht",
+      "title": {
+        "orig": "de",
+        "fr": "Assassinat de Rosa Luxemburg et Karl Liebknecht",
+        "en": "Murder of Rosa Luxemburg and Karl Liebknecht",
+        "de": "Ermordung von Rosa Luxemburg und Karl Liebknecht",
+        "draft": ["en"]
+      },
+      "type": "assassination",
+      "start": {"date": "1919-01-15"},
+      "summary": {
+        "fr": "Arrêtés à Berlin, les deux dirigeants du KPD sont assassinés dans la nuit par des militaires d'un corps franc ; le corps de Rosa Luxemburg, jeté dans un canal, n'est retrouvé qu'en juillet.",
+        "en": "Arrested in Berlin, the two KPD leaders are murdered during the night by Freikorps soldiers; Rosa Luxemburg's body, thrown into a canal, is only found in July.",
+        "de": "In Berlin verhaftet, werden die beiden KPD-Führer in der Nacht von Freikorps-Soldaten ermordet; die Leiche Rosa Luxemburgs, in einen Kanal geworfen, wird erst im Juli gefunden.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-november-revolution"}, {"id": "1914-collapse-of-the-second-international"}],
+      "persons": ["rosa-luxemburg", "karl-liebknecht"],
+      "places": ["berlin"],
+      "organizations": ["kpd"],
+      "sources": [{"ref": "wp-en-german-revolution-1918-1919"}],
+      "status": "draft"
+    },
+    {
+      "id": "1919-national-assembly-election",
+      "title": {
+        "orig": "de",
+        "fr": "Élection de l'Assemblée nationale",
+        "en": "National Assembly election",
+        "de": "Wahl zur Nationalversammlung",
+        "draft": ["en"]
+      },
+      "type": "election",
+      "start": {"date": "1919-01-19"},
+      "summary": {
+        "fr": "Premier scrutin où votent les femmes : le SPD obtient 37,9 % et l'USPD 7,6 % ; le SPD gouverne avec le Centre et les démocrates, et Ebert est élu président du Reich le 11 février.",
+        "en": "The first election in which women vote: the SPD wins 37.9% and the USPD 7.6%; the SPD governs with the Centre and the Democrats, and Ebert is elected Reich President on 11 February.",
+        "de": "Die erste Wahl mit Frauenwahlrecht: Die SPD erhält 37,9 %, die USPD 7,6 %; die SPD regiert mit Zentrum und DDP, und Ebert wird am 11. Februar zum Reichspräsidenten gewählt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-november-revolution"}],
+      "persons": ["friedrich-ebert"],
+      "organizations": ["spd", "uspd"],
+      "sources": [{"ref": "wp-en-1919-german-federal-election"}],
+      "status": "draft"
+    },
+    {
+      "id": "1919-eisner-assassination",
+      "title": {
+        "orig": "de",
+        "fr": "Assassinat de Kurt Eisner",
+        "en": "Assassination of Kurt Eisner",
+        "de": "Ermordung Kurt Eisners",
+        "draft": ["en"]
+      },
+      "type": "assassination",
+      "start": {"date": "1919-02-21"},
+      "summary": {
+        "fr": "Le ministre-président bavarois Kurt Eisner est abattu par un extrémiste de droite alors qu'il se rend au Landtag ; l'assassinat relance la radicalisation en Bavière.",
+        "en": "Bavarian Minister-President Kurt Eisner is shot dead by a right-wing extremist on his way to the Landtag; the murder revives radicalisation in Bavaria.",
+        "de": "Der bayerische Ministerpräsident Kurt Eisner wird auf dem Weg zum Landtag von einem Rechtsextremisten erschossen; der Mord heizt die Radikalisierung in Bayern erneut an.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-november-revolution"}],
+      "persons": ["kurt-eisner"],
+      "places": ["munich"],
+      "sources": [{"ref": "wp-en-bavarian-soviet-republic"}],
+      "status": "draft"
+    },
+    {
+      "id": "1919-berlin-march-battles",
+      "title": {
+        "orig": "de",
+        "fr": "Combats de mars 1919 à Berlin",
+        "en": "Berlin March Battles",
+        "de": "Berliner Märzkämpfe",
+        "draft": ["en"]
+      },
+      "type": "repression",
+      "start": {"date": "1919-03-03"},
+      "end": {"date": "1919-03-16"},
+      "summary": {
+        "fr": "Une grève générale tourne au soulèvement armé ; Noske ordonne d'abattre tout homme armé, et troupes gouvernementales et corps francs font environ 1 200 morts, dont le dirigeant communiste Leo Jogiches.",
+        "en": "A general strike turns into an armed uprising; Noske orders that anyone bearing arms be shot, and government troops and Freikorps kill about 1,200 people, among them the communist leader Leo Jogiches.",
+        "de": "Ein Generalstreik geht in einen bewaffneten Aufstand über; Noske befiehlt, jeden Bewaffneten zu erschießen, und Regierungstruppen und Freikorps töten rund 1.200 Menschen, darunter den KPD-Führer Leo Jogiches.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-november-revolution"}],
+      "persons": ["gustav-noske", "leo-jogiches"],
+      "places": ["berlin"],
+      "organizations": ["kpd"],
+      "sources": [{"ref": "lemo-march-battles-1919"}],
+      "status": "draft"
+    },
+    {
+      "id": "1919-bavarian-soviet-republic",
+      "title": {
+        "orig": "de",
+        "fr": "République des conseils de Bavière",
+        "en": "Bavarian Soviet Republic",
+        "de": "Münchner Räterepublik",
+        "draft": ["en"]
+      },
+      "aliases": ["Bayerische Räterepublik"],
+      "type": "revolution",
+      "start": {"date": "1919-04-06"},
+      "end": {"date": "1919-05-03"},
+      "summary": {
+        "fr": "Proclamée par des socialistes indépendants et des anarchistes, puis dirigée par les communistes autour d'Eugen Leviné, la république des conseils est écrasée par l'armée et les corps francs : au moins 600 morts.",
+        "en": "Proclaimed by Independent Socialists and anarchists, then led by the communists around Eugen Leviné, the council republic is crushed by the army and the Freikorps: at least 600 dead.",
+        "de": "Von Unabhängigen und Anarchisten ausgerufen und dann von den Kommunisten um Eugen Leviné geführt, wird die Räterepublik von Reichswehr und Freikorps niedergeschlagen: mindestens 600 Tote.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-november-revolution"}],
+      "persons": ["eugen-levine"],
+      "places": ["munich"],
+      "organizations": ["kpd"],
+      "sources": [{"ref": "wp-en-bavarian-soviet-republic"}],
+      "status": "draft"
+    },
+    {
+      "id": "1919-weimar-constitution",
+      "title": {
+        "orig": "de",
+        "fr": "Constitution de Weimar",
+        "en": "Weimar Constitution",
+        "de": "Weimarer Reichsverfassung",
+        "draft": ["en"]
+      },
+      "type": "law",
+      "start": {"date": "1919-08-11"},
+      "summary": {
+        "fr": "Adoptée par l'Assemblée réunie à Weimar, la constitution fonde une république parlementaire avec suffrage universel, mais donne au président des pouvoirs d'exception étendus.",
+        "en": "Adopted by the Assembly meeting in Weimar, the constitution founds a parliamentary republic with universal suffrage, but gives the president extensive emergency powers.",
+        "de": "Von der in Weimar tagenden Nationalversammlung beschlossen, begründet die Verfassung eine parlamentarische Republik mit allgemeinem Wahlrecht, gibt dem Reichspräsidenten aber weitreichende Notstandsbefugnisse.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-november-revolution"}],
+      "places": ["weimar"],
+      "sources": [{"ref": "wp-en-german-revolution-1918-1919"}],
+      "status": "draft"
+    },
+    {
+      "id": "1920-kapp-putsch",
+      "title": {
+        "orig": "de",
+        "fr": "Putsch de Kapp",
+        "en": "Kapp Putsch",
+        "de": "Kapp-Putsch",
+        "draft": ["en"]
+      },
+      "type": "coup",
+      "start": {"date": "1920-03-13"},
+      "end": {"date": "1920-03-17"},
+      "summary": {
+        "fr": "La brigade Ehrhardt occupe Berlin et Kapp se proclame chancelier ; la Reichswehr refuse de défendre le gouvernement, qui s'enfuit, mais le putsch s'effondre en quatre jours face à la grève générale.",
+        "en": "The Ehrhardt Brigade occupies Berlin and Kapp proclaims himself chancellor; the Reichswehr refuses to defend the government, which flees, but the putsch collapses within four days in the face of the general strike.",
+        "de": "Die Brigade Ehrhardt besetzt Berlin, Kapp ernennt sich zum Reichskanzler; die Reichswehr verweigert den Schutz der Regierung, die flieht, doch der Putsch bricht nach vier Tagen am Generalstreik zusammen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-german-revolution"}],
+      "persons": [
+        "wolfgang-kapp",
+        "walther-von-luttwitz",
+        "hermann-ehrhardt",
+        "hans-von-seeckt",
+        "erich-ludendorff"
+      ],
+      "places": ["berlin"],
+      "sources": [{"ref": "wp-en-kapp-putsch"}],
+      "status": "draft"
+    },
+    {
+      "id": "1920-general-strike-against-kapp",
+      "title": {
+        "orig": "de",
+        "fr": "Grève générale contre le putsch de Kapp",
+        "en": "General strike against the Kapp Putsch",
+        "de": "Generalstreik gegen den Kapp-Putsch",
+        "draft": ["en"]
+      },
+      "type": "strike",
+      "start": {"date": "1920-03-14"},
+      "end": {"date": "1920-03-22"},
+      "summary": {
+        "fr": "Jusqu'à 12 millions de travailleurs paralysent le pays : c'est la plus grande grève de l'histoire allemande ; les syndicats obtiennent la démission de Noske avant de lever le mot d'ordre.",
+        "en": "Up to 12 million workers paralyse the country, the largest strike in German history; the unions win Noske's resignation before calling it off.",
+        "de": "Bis zu 12 Millionen Arbeiter legen das Land lahm, der größte Streik der deutschen Geschichte; die Gewerkschaften erreichen Noskes Rücktritt, bevor sie ihn beenden.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-german-revolution"}],
+      "persons": ["carl-legien", "gustav-noske"],
+      "places": ["berlin"],
+      "sources": [{"ref": "wp-en-kapp-putsch"}],
+      "status": "draft"
+    },
+    {
+      "id": "1920-ruhr-uprising",
+      "title": {
+        "orig": "de",
+        "fr": "Insurrection de la Ruhr",
+        "en": "Ruhr uprising",
+        "de": "Ruhraufstand",
+        "draft": ["en"]
+      },
+      "aliases": ["Armée rouge de la Ruhr", "Märzaufstand"],
+      "type": "insurrection",
+      "start": {"date": "1920-03-13"},
+      "end": {"date": "1920-04-06"},
+      "summary": {
+        "fr": "Partie de la résistance au putsch, l'Armée rouge de la Ruhr, forte de 50 000 à 80 000 ouvriers, prend le contrôle du bassin ; la Reichswehr et les corps francs l'écrasent début avril et tuent plus d'un millier d'insurgés.",
+        "en": "Born of the resistance to the putsch, the Ruhr Red Army, 50,000 to 80,000 workers strong, takes control of the basin; the Reichswehr and Freikorps crush it in early April, killing over a thousand insurgents.",
+        "de": "Aus dem Widerstand gegen den Putsch hervorgegangen, übernimmt die Rote Ruhrarmee mit 50.000 bis 80.000 Arbeitern die Kontrolle über das Revier; Reichswehr und Freikorps schlagen sie Anfang April nieder und töten über tausend Aufständische.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-german-revolution"}],
+      "places": ["dortmund", "essen", "bochum"],
+      "sources": [{"ref": "wp-en-ruhr-uprising"}, {"ref": "wp-en-kapp-putsch"}],
+      "status": "draft"
+    },
+    {
+      "id": "1920-uspd-split",
+      "title": {
+        "orig": "de",
+        "fr": "Scission de l'USPD et naissance du VKPD",
+        "en": "USPD split and birth of the VKPD",
+        "de": "Spaltung der USPD und Gründung der VKPD",
+        "draft": ["en"]
+      },
+      "type": "split",
+      "start": {"date": "1920-10"},
+      "end": {"date": "1920-12-04"},
+      "summary": {
+        "fr": "Au congrès de Halle, la majorité de l'USPD vote l'adhésion à l'Internationale communiste ; en décembre, l'aile gauche fusionne avec le KPD dans un parti communiste de masse, le VKPD.",
+        "en": "At the Halle congress, the USPD majority votes to join the Communist International; in December the left wing merges with the KPD into a mass communist party, the VKPD.",
+        "de": "Auf dem Parteitag in Halle stimmt die Mehrheit der USPD für den Beitritt zur Kommunistischen Internationale; im Dezember vereinigt sich der linke Flügel mit der KPD zur kommunistischen Massenpartei VKPD.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-german-revolution"}],
+      "places": ["halle"],
+      "organizations": ["uspd", "kpd", "comintern"],
+      "sources": [{"ref": "wp-en-uspd"}],
+      "status": "draft"
+    },
+    {
+      "id": "1921-march-action",
+      "title": {
+        "orig": "de",
+        "fr": "Action de mars",
+        "en": "March Action",
+        "de": "Märzaktion",
+        "draft": ["en"]
+      },
+      "type": "insurrection",
+      "start": {"date": "1921-03-17"},
+      "end": {"date": "1921-04-01"},
+      "summary": {
+        "fr": "Face à une opération policière dans la région de Halle et Mansfeld, le KPD tente de déclencher une grève générale insurrectionnelle ; isolée, l'action échoue : plus de cent morts et des milliers d'arrestations.",
+        "en": "Faced with a police operation in the Halle and Mansfeld area, the KPD tries to trigger an insurrectionary general strike; isolated, the action fails: over a hundred dead and thousands arrested.",
+        "de": "Gegen einen Polizeieinsatz im Raum Halle-Mansfeld versucht die KPD einen aufständischen Generalstreik auszulösen; isoliert scheitert die Aktion: über hundert Tote und Tausende Verhaftungen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-german-revolution"}],
+      "persons": ["max-hoelz"],
+      "places": ["halle", "leuna"],
+      "organizations": ["kpd"],
+      "sources": [{"ref": "wp-en-march-action"}],
+      "status": "draft"
+    },
+    {
+      "id": "1922-rathenau-assassination",
+      "title": {
+        "orig": "de",
+        "fr": "Assassinat de Walther Rathenau",
+        "en": "Assassination of Walther Rathenau",
+        "de": "Ermordung Walther Rathenaus",
+        "draft": ["en"]
+      },
+      "type": "assassination",
+      "start": {"date": "1922-06-24"},
+      "summary": {
+        "fr": "Le ministre des Affaires étrangères est assassiné par l'Organisation Consul, groupe terroriste d'extrême droite ; des millions de personnes manifestent contre la terreur contre-révolutionnaire.",
+        "en": "The Foreign Minister is murdered by Organisation Consul, a far-right terrorist group; millions demonstrate against counter-revolutionary terror.",
+        "de": "Der Reichsaußenminister wird von der rechtsextremen Terrorgruppe Organisation Consul ermordet; Millionen demonstrieren gegen den konterrevolutionären Terror.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-german-revolution"}],
+      "persons": ["walther-rathenau", "hermann-ehrhardt"],
+      "places": ["berlin"],
+      "organizations": ["organisation-consul"],
+      "sources": [{"ref": "wp-en-walther-rathenau"}],
+      "status": "draft"
+    },
+    {
+      "id": "1923-crisis-year",
+      "title": {
+        "orig": "de",
+        "fr": "Crise de 1923 et Octobre allemand",
+        "en": "1923 crisis and German October",
+        "de": "Krisenjahr 1923 und Deutscher Oktober",
+        "draft": ["en"]
+      },
+      "type": "crisis",
+      "start": {"date": "1923-01-11"},
+      "end": {"date": "1923-11-15"},
+      "summary": {
+        "fr": "Occupation de la Ruhr, hyperinflation et effondrement du niveau de vie créent une situation prérévolutionnaire ; le KPD et l'Internationale préparent une insurrection, annulée au dernier moment, tandis que l'extrême droite tente son propre putsch.",
+        "en": "The Ruhr occupation, hyperinflation and collapsing living standards create a pre-revolutionary situation; the KPD and the International prepare an insurrection, called off at the last moment, while the far right attempts its own putsch.",
+        "de": "Ruhrbesetzung, Hyperinflation und Verelendung schaffen eine vorrevolutionäre Lage; KPD und Komintern bereiten einen Aufstand vor, der im letzten Moment abgesagt wird, während die extreme Rechte ihren eigenen Putsch versucht.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1918-german-revolution"}],
+      "sources": [{"ref": "wp-en-german-october"}, {"ref": "wp-en-occupation-of-the-ruhr"}],
+      "status": "draft"
+    },
+    {
+      "id": "1923-occupation-of-the-ruhr",
+      "title": {
+        "orig": "de",
+        "fr": "Occupation de la Ruhr et résistance passive",
+        "en": "Ruhr occupation and passive resistance",
+        "de": "Ruhrbesetzung und passiver Widerstand",
+        "draft": ["en"]
+      },
+      "type": "other",
+      "start": {"date": "1923-01-11"},
+      "end": {"date": "1923-09-26"},
+      "summary": {
+        "fr": "Les troupes françaises et belges occupent la Ruhr pour saisir les réparations ; le gouvernement Cuno proclame la résistance passive et la finance en faisant tourner la planche à billets, jusqu'à son abandon fin septembre.",
+        "en": "French and Belgian troops occupy the Ruhr to seize reparations; the Cuno government proclaims passive resistance and finances it by printing money, until it is abandoned at the end of September.",
+        "de": "Französische und belgische Truppen besetzen das Ruhrgebiet, um Reparationen einzutreiben; die Regierung Cuno ruft den passiven Widerstand aus und finanziert ihn mit der Notenpresse, bis er Ende September abgebrochen wird.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1923-crisis-year"}, {"id": "1918-interwar-and-popular-front"}],
+      "persons": ["wilhelm-cuno"],
+      "places": ["essen", "dortmund"],
+      "sources": [{"ref": "wp-en-occupation-of-the-ruhr"}],
+      "status": "draft"
+    },
+    {
+      "id": "1923-cuno-strike",
+      "title": {
+        "orig": "de",
+        "fr": "Grève contre le gouvernement Cuno",
+        "en": "Cuno strike",
+        "de": "Cuno-Streik",
+        "draft": ["en"]
+      },
+      "type": "strike",
+      "start": {"date": "1923-08"},
+      "end": {"date": "1923-08-12"},
+      "summary": {
+        "fr": "Partie de l'imprimerie, qui arrête la planche à billets, la grève gagne l'électricité, le bâtiment et les transports de Berlin ; les conseils d'usine appellent à renverser Cuno, qui démissionne le 12 août.",
+        "en": "Starting in printing, which halts the banknote presses, the strike spreads to Berlin's power, building and transport workers; the factory councils call for Cuno's overthrow, and he resigns on 12 August.",
+        "de": "Vom Druckgewerbe ausgehend, das die Notenpresse stilllegt, erfasst der Streik Berliner Elektrizitäts-, Bau- und Verkehrsarbeiter; die Betriebsräte fordern den Sturz Cunos, der am 12. August zurücktritt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1923-crisis-year"}],
+      "persons": ["wilhelm-cuno", "gustav-stresemann"],
+      "places": ["berlin"],
+      "organizations": ["kpd"],
+      "sources": [{"ref": "wp-de-cuno-strike"}],
+      "status": "draft"
+    },
+    {
+      "id": "1923-saxony-thuringia-workers-governments",
+      "title": {
+        "orig": "de",
+        "fr": "Gouvernements ouvriers de Saxe et de Thuringe",
+        "en": "Workers' governments in Saxony and Thuringia",
+        "de": "Arbeiterregierungen in Sachsen und Thüringen",
+        "draft": ["en"]
+      },
+      "aliases": ["Reichsexekution"],
+      "type": "government",
+      "start": {"date": "1923-10-10"},
+      "end": {"date": "1923-10-29"},
+      "summary": {
+        "fr": "Le KPD entre dans les gouvernements de gauche de Saxe puis de Thuringe pour préparer l'insurrection ; le gouvernement du Reich répond par l'intervention de la Reichswehr et destitue le cabinet saxon.",
+        "en": "The KPD joins the left-wing governments of Saxony and then Thuringia to prepare the insurrection; the Reich government responds by sending in the Reichswehr and removing the Saxon cabinet.",
+        "de": "Die KPD tritt in die Linksregierungen Sachsens und Thüringens ein, um den Aufstand vorzubereiten; die Reichsregierung antwortet mit der Reichsexekution und setzt das sächsische Kabinett ab.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1923-crisis-year"}],
+      "persons": ["erich-zeigner", "heinrich-brandler"],
+      "places": ["dresden"],
+      "organizations": ["kpd", "spd"],
+      "sources": [{"ref": "wp-en-german-october"}],
+      "status": "draft"
+    },
+    {
+      "id": "1923-chemnitz-conference",
+      "title": {
+        "orig": "de",
+        "fr": "Conférence de Chemnitz",
+        "en": "Chemnitz conference",
+        "de": "Chemnitzer Konferenz",
+        "draft": ["en"]
+      },
+      "type": "conference",
+      "start": {"date": "1923-10-21"},
+      "summary": {
+        "fr": "Faute de soutien de la social-démocratie de gauche à l'appel à la grève générale, la direction du KPD, en accord avec l'Internationale, annule l'insurrection prévue : l'Octobre allemand s'achève sans combat.",
+        "en": "Lacking the left Social Democrats' support for a general strike call, the KPD leadership, in agreement with the International, calls off the planned insurrection: the German October ends without a fight.",
+        "de": "Mangels Unterstützung der linken Sozialdemokratie für einen Generalstreik sagt die KPD-Führung im Einvernehmen mit der Komintern den geplanten Aufstand ab: Der Deutsche Oktober endet kampflos.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1923-crisis-year"}],
+      "persons": ["heinrich-brandler"],
+      "places": ["chemnitz"],
+      "organizations": ["kpd", "comintern"],
+      "sources": [{"ref": "wp-en-german-october"}, {"ref": "wp-de-hamburg-uprising"}],
+      "status": "draft"
+    },
+    {
+      "id": "1923-hamburg-uprising",
+      "title": {
+        "orig": "de",
+        "fr": "Insurrection de Hambourg",
+        "en": "Hamburg Uprising",
+        "de": "Hamburger Aufstand",
+        "draft": ["en"]
+      },
+      "type": "insurrection",
+      "start": {"date": "1923-10-23"},
+      "end": {"date": "1923-10-25"},
+      "summary": {
+        "fr": "Malgré l'annulation, quelques centaines de communistes prennent d'assaut des postes de police à Hambourg ; isolés, ils tiennent le quartier de Barmbek une journée. Bilan : au moins 100 morts.",
+        "en": "Despite the cancellation, a few hundred communists storm police stations in Hamburg; isolated, they hold the Barmbek district for a day. At least 100 people are killed.",
+        "de": "Trotz der Absage stürmen einige hundert Kommunisten Hamburger Polizeiwachen; isoliert halten sie den Stadtteil Barmbek einen Tag lang. Mindestens 100 Menschen sterben.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1923-crisis-year"}],
+      "persons": ["hugo-urbahns", "hans-kippenberger", "ernst-thalmann"],
+      "places": ["hamburg"],
+      "organizations": ["kpd"],
+      "sources": [{"ref": "wp-de-hamburg-uprising"}, {"ref": "wp-en-german-october"}],
+      "status": "draft"
+    },
+    {
+      "id": "1923-beer-hall-putsch",
+      "title": {
+        "orig": "de",
+        "fr": "Putsch de la Brasserie",
+        "en": "Beer Hall Putsch",
+        "de": "Hitlerputsch",
+        "draft": ["en"]
+      },
+      "aliases": ["Putsch de Munich", "Bürgerbräu-Putsch"],
+      "type": "coup",
+      "start": {"date": "1923-11-08"},
+      "end": {"date": "1923-11-09"},
+      "summary": {
+        "fr": "À Munich, Hitler et Ludendorff proclament une « révolution nationale » ; la marche vers la Feldherrnhalle est dispersée par la police. Condamné à cinq ans de forteresse, Hitler sort au bout de quelques mois.",
+        "en": "In Munich, Hitler and Ludendorff proclaim a 'national revolution'; the march on the Feldherrnhalle is dispersed by the police. Sentenced to five years' fortress confinement, Hitler is released after a few months.",
+        "de": "In München rufen Hitler und Ludendorff die „nationale Revolution“ aus; der Marsch zur Feldherrnhalle wird von der Polizei zerschlagen. Zu fünf Jahren Festungshaft verurteilt, kommt Hitler nach wenigen Monaten frei.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1923-crisis-year"}],
+      "persons": ["adolf-hitler", "erich-ludendorff"],
+      "places": ["munich"],
+      "organizations": ["nsdap"],
+      "sources": [{"ref": "wp-en-beer-hall-putsch"}],
+      "status": "draft"
+    },
+    {
+      "id": "1923-rentenmark",
+      "title": {
+        "orig": "de",
+        "fr": "Introduction du Rentenmark",
+        "en": "Introduction of the Rentenmark",
+        "de": "Einführung der Rentenmark",
+        "draft": ["en"]
+      },
+      "type": "monetary",
+      "start": {"date": "1923-11-15"},
+      "summary": {
+        "fr": "La Rentenbank émet une monnaie de transition qui stoppe l'hyperinflation ; la stabilisation monétaire referme la période révolutionnaire ouverte en 1918.",
+        "en": "The Rentenbank issues a transitional currency that halts hyperinflation; monetary stabilisation closes the revolutionary period opened in 1918.",
+        "de": "Die Rentenbank gibt eine Übergangswährung aus, die die Hyperinflation beendet; die Stabilisierung der Währung schließt die 1918 eröffnete revolutionäre Periode ab.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1923-crisis-year"}],
+      "sources": [{"ref": "lemo-currency-reform-1923"}],
+      "status": "draft"
+    },
+    {
+      "id": "1924-dawes-plan",
+      "title": {"orig": "de", "fr": "Plan Dawes", "en": "Dawes Plan", "de": "Dawes-Plan", "draft": ["en"]},
+      "type": "treaty",
+      "start": {"date": "1924-09-01"},
+      "summary": {
+        "fr": "Le plan rééchelonne les réparations et apporte un prêt de 800 millions de marks, levé pour moitié à Wall Street : la stabilisation de Weimar repose désormais sur le crédit américain.",
+        "en": "The plan reschedules reparations and brings an 800-million-mark loan, half of it raised on Wall Street: Weimar's stabilisation now rests on American credit.",
+        "de": "Der Plan staffelt die Reparationen neu und bringt eine Anleihe von 800 Millionen Mark, zur Hälfte an der Wall Street aufgebracht: Die Stabilisierung Weimars ruht fortan auf amerikanischem Kredit.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1923-stabilisation-and-rise-of-nazism"}],
+      "sources": [{"ref": "wp-en-dawes-plan"}],
+      "status": "draft"
+    },
+    {
+      "id": "1925-hindenburg-elected",
+      "title": {
+        "orig": "de",
+        "fr": "Élection de Hindenburg à la présidence",
+        "en": "Hindenburg elected president",
+        "de": "Wahl Hindenburgs zum Reichspräsidenten",
+        "draft": ["en"]
+      },
+      "type": "election",
+      "start": {"date": "1925-04-26"},
+      "summary": {
+        "fr": "Le maréchal monarchiste Hindenburg l'emporte avec 48,3 % sur le candidat du bloc républicain Wilhelm Marx ; le KPD maintient Thälmann (6,4 %) contre l'avis de l'Internationale.",
+        "en": "The monarchist field marshal Hindenburg wins with 48.3% over the republican bloc's candidate Wilhelm Marx; the KPD keeps Thälmann in the race (6.4%) against the International's advice.",
+        "de": "Der monarchistische Feldmarschall Hindenburg siegt mit 48,3 % über Wilhelm Marx, den Kandidaten des republikanischen Volksblocks; die KPD hält gegen den Rat der Komintern an Thälmann fest (6,4 %).",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1923-stabilisation-and-rise-of-nazism"}],
+      "persons": ["paul-von-hindenburg", "wilhelm-marx", "ernst-thalmann"],
+      "organizations": ["kpd", "comintern"],
+      "sources": [{"ref": "wp-en-1925-german-presidential-election"}],
+      "status": "draft"
+    },
+    {
+      "id": "1929-blutmai",
+      "title": {"orig": "de", "fr": "Mai sanglant", "en": "Blutmai", "de": "Blutmai", "draft": ["en"]},
+      "aliases": ["Mai sanglant de Berlin"],
+      "type": "repression",
+      "start": {"date": "1929-05-01"},
+      "end": {"date": "1929-05-03"},
+      "summary": {
+        "fr": "Le préfet de police social-démocrate Zörgiebel maintient l'interdiction des manifestations du 1er Mai à Berlin ; la police tire et tue plus de 30 personnes. Le KPD y voit la preuve du « social-fascisme » et le fossé avec le SPD se creuse.",
+        "en": "The Social Democratic police chief Zörgiebel upholds the ban on May Day demonstrations in Berlin; police open fire and kill more than 30 people. The KPD sees it as proof of 'social fascism' and the rift with the SPD deepens.",
+        "de": "Der sozialdemokratische Polizeipräsident Zörgiebel hält das Verbot der Maidemonstrationen in Berlin aufrecht; die Polizei schießt und tötet über 30 Menschen. Die KPD sieht darin den Beweis des „Sozialfaschismus“, die Kluft zur SPD vertieft sich.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1923-stabilisation-and-rise-of-nazism"}],
+      "persons": ["karl-zorgiebel", "albert-grzesinski"],
+      "places": ["berlin"],
+      "organizations": ["kpd", "spd", "red-front-fighters-league"],
+      "sources": [{"ref": "wp-en-blutmai"}],
+      "status": "draft"
+    },
+    {
+      "id": "1930-bruning-presidential-cabinet",
+      "title": {
+        "orig": "de",
+        "fr": "Cabinet présidentiel Brüning",
+        "en": "Brüning presidential cabinet",
+        "de": "Präsidialkabinett Brüning",
+        "draft": ["en"]
+      },
+      "type": "government",
+      "start": {"date": "1930-03"},
+      "end": {"date": "1932-05-30"},
+      "summary": {
+        "fr": "Après l'effondrement de la grande coalition de Hermann Müller, Hindenburg nomme Brüning, qui gouverne par décrets d'urgence ; sa politique de déflation aggrave le chômage et la misère.",
+        "en": "After the collapse of Hermann Müller's grand coalition, Hindenburg appoints Brüning, who governs by emergency decree; his deflationary policy worsens unemployment and poverty.",
+        "de": "Nach dem Zerfall der Großen Koalition unter Hermann Müller ernennt Hindenburg Brüning, der mit Notverordnungen regiert; seine Deflationspolitik verschärft Arbeitslosigkeit und Elend.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1923-stabilisation-and-rise-of-nazism"}],
+      "persons": ["heinrich-bruning", "paul-von-hindenburg"],
+      "sources": [{"ref": "wp-en-heinrich-bruning"}],
+      "status": "draft"
+    },
+    {
+      "id": "1930-reichstag-election",
+      "title": {
+        "orig": "de",
+        "fr": "Élections au Reichstag de 1930",
+        "en": "1930 Reichstag election",
+        "de": "Reichstagswahl 1930",
+        "draft": ["en"]
+      },
+      "type": "election",
+      "start": {"date": "1930-09-14"},
+      "summary": {
+        "fr": "En pleine crise, le NSDAP passe de 2,6 % à 18,3 % et de 12 à 107 sièges ; le KPD progresse à 13,1 % tandis que le SPD recule à 24,5 %.",
+        "en": "In the midst of the crisis, the NSDAP jumps from 2.6% to 18.3% and from 12 to 107 seats; the KPD rises to 13.1% while the SPD falls back to 24.5%.",
+        "de": "Mitten in der Krise steigt die NSDAP von 2,6 % auf 18,3 % und von 12 auf 107 Sitze; die KPD legt auf 13,1 % zu, die SPD fällt auf 24,5 % zurück.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1923-stabilisation-and-rise-of-nazism"}],
+      "organizations": ["nsdap", "kpd", "spd"],
+      "sources": [{"ref": "wp-en-1930-german-federal-election"}],
+      "status": "draft"
+    },
+    {
+      "id": "1932-presidential-election",
+      "title": {
+        "orig": "de",
+        "fr": "Élection présidentielle de 1932",
+        "en": "1932 presidential election",
+        "de": "Reichspräsidentenwahl 1932",
+        "draft": ["en"]
+      },
+      "type": "election",
+      "start": {"date": "1932-03-13"},
+      "end": {"date": "1932-04-10"},
+      "summary": {
+        "fr": "Pour barrer la route à Hitler, le SPD soutient Hindenburg, réélu au second tour avec 53 % contre 36,8 % à Hitler et 10,2 % à Thälmann.",
+        "en": "To block Hitler, the SPD backs Hindenburg, re-elected in the second round with 53% against 36.8% for Hitler and 10.2% for Thälmann.",
+        "de": "Um Hitler zu verhindern, unterstützt die SPD Hindenburg, der im zweiten Wahlgang mit 53 % gegen Hitler (36,8 %) und Thälmann (10,2 %) wiedergewählt wird.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1923-stabilisation-and-rise-of-nazism"}],
+      "persons": ["paul-von-hindenburg", "adolf-hitler", "ernst-thalmann"],
+      "organizations": ["spd", "nsdap", "kpd"],
+      "sources": [{"ref": "wp-en-1932-german-presidential-election"}],
+      "status": "draft"
+    },
+    {
+      "id": "1932-altona-bloody-sunday",
+      "title": {
+        "orig": "de",
+        "fr": "Dimanche sanglant d'Altona",
+        "en": "Altona Bloody Sunday",
+        "de": "Altonaer Blutsonntag",
+        "draft": ["en"]
+      },
+      "type": "massacre",
+      "start": {"date": "1932-07-17"},
+      "summary": {
+        "fr": "Une marche de 7 000 SA à travers les quartiers ouvriers d'Altona provoque des affrontements ; 18 personnes meurent, dont 16 habitants tués par les balles de la police.",
+        "en": "A march by 7,000 SA men through the working-class districts of Altona sparks clashes; 18 people die, 16 of them residents killed by police bullets.",
+        "de": "Ein Marsch von 7.000 SA-Männern durch die Arbeiterviertel Altonas führt zu Zusammenstößen; 18 Menschen sterben, darunter 16 Anwohner durch Polizeikugeln.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1923-stabilisation-and-rise-of-nazism"}],
+      "places": ["altona"],
+      "organizations": ["nsdap"],
+      "sources": [{"ref": "wp-en-altona-bloody-sunday"}],
+      "status": "draft"
+    },
+    {
+      "id": "1932-prussian-coup",
+      "title": {
+        "orig": "de",
+        "fr": "Coup de force contre la Prusse",
+        "en": "Prussian coup",
+        "de": "Preußenschlag",
+        "draft": ["en"]
+      },
+      "type": "coup",
+      "start": {"date": "1932-07-20"},
+      "summary": {
+        "fr": "Par décret d'urgence, Papen destitue le gouvernement social-démocrate de Prusse ; le SPD refuse toute résistance, ni police, ni Reichsbanner, ni grève générale, et se contente d'un recours en justice.",
+        "en": "By emergency decree, Papen removes the Social Democratic government of Prussia; the SPD refuses any resistance, neither police, Reichsbanner nor general strike, and merely files a court complaint.",
+        "de": "Per Notverordnung setzt Papen die sozialdemokratische preußische Regierung ab; die SPD verzichtet auf jeden Widerstand, weder Polizei noch Reichsbanner noch Generalstreik, und reicht lediglich Klage ein.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1923-stabilisation-and-rise-of-nazism"}],
+      "persons": ["franz-von-papen", "paul-von-hindenburg", "otto-braun", "kurt-von-schleicher"],
+      "organizations": ["spd"],
+      "sources": [{"ref": "wp-en-1932-prussian-coup"}],
+      "status": "draft"
+    },
+    {
+      "id": "1932-july-reichstag-election",
+      "title": {
+        "orig": "de",
+        "fr": "Élections au Reichstag de juillet 1932",
+        "en": "July 1932 Reichstag election",
+        "de": "Reichstagswahl Juli 1932",
+        "draft": ["en"]
+      },
+      "type": "election",
+      "start": {"date": "1932-07-31"},
+      "summary": {
+        "fr": "Avec 37,3 % et 230 sièges, le NSDAP devient le premier parti du Reichstag, sans majorité ; le SPD obtient 21,6 % et le KPD 14,3 %.",
+        "en": "With 37.3% and 230 seats, the NSDAP becomes the largest party in the Reichstag, without a majority; the SPD wins 21.6% and the KPD 14.3%.",
+        "de": "Mit 37,3 % und 230 Sitzen wird die NSDAP stärkste Partei im Reichstag, ohne Mehrheit; die SPD erhält 21,6 %, die KPD 14,3 %.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1923-stabilisation-and-rise-of-nazism"}],
+      "organizations": ["nsdap", "spd", "kpd"],
+      "sources": [{"ref": "wp-en-july-1932-german-federal-election"}],
+      "status": "draft"
+    },
+    {
+      "id": "1932-bvg-strike",
+      "title": {
+        "orig": "de",
+        "fr": "Grève des transports berlinois",
+        "en": "Berlin transport strike",
+        "de": "BVG-Streik",
+        "draft": ["en"]
+      },
+      "type": "strike",
+      "start": {"date": "1932-11-03"},
+      "end": {"date": "1932-11-07"},
+      "summary": {
+        "fr": "Menée par l'opposition syndicale communiste, avec la participation tactique des nazis, la grève paralyse Berlin cinq jours puis échoue ; aux élections du 6 novembre, le NSDAP recule à 33,1 % et le KPD atteint 16,9 %.",
+        "en": "Led by the communist trade union opposition, with tactical Nazi participation, the strike paralyses Berlin for five days and then fails; in the 6 November election the NSDAP falls back to 33.1% and the KPD reaches 16.9%.",
+        "de": "Unter Führung der kommunistischen RGO und mit taktischer Beteiligung der NSBO legt der Streik Berlin fünf Tage lahm und scheitert dann; bei der Wahl am 6. November fällt die NSDAP auf 33,1 %, die KPD erreicht 16,9 %.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1923-stabilisation-and-rise-of-nazism"}, {"id": "1928-third-period"}],
+      "places": ["berlin"],
+      "organizations": ["kpd", "nsdap"],
+      "sources": [{"ref": "wp-de-bvg-strike-1932"}, {"ref": "wp-en-november-1932-german-federal-election"}],
+      "status": "draft"
+    },
+    {
+      "id": "1933-hitler-appointed-chancellor",
+      "title": {
+        "orig": "de",
+        "fr": "Hitler nommé chancelier",
+        "en": "Hitler appointed chancellor",
+        "de": "Machtübertragung an Hitler",
+        "draft": ["en"]
+      },
+      "aliases": ["Machtergreifung"],
+      "type": "government",
+      "start": {"date": "1933-01-30"},
+      "summary": {
+        "fr": "Hindenburg nomme Hitler chancelier à la tête d'un gouvernement de coalition avec la droite conservatrice : le pouvoir est remis aux nazis par les élites, sans résistance organisée du mouvement ouvrier divisé.",
+        "en": "Hindenburg appoints Hitler chancellor at the head of a coalition government with the conservative right: power is handed to the Nazis by the elites, without organised resistance from the divided labour movement.",
+        "de": "Hindenburg ernennt Hitler zum Reichskanzler einer Koalitionsregierung mit der konservativen Rechten: Die Eliten übertragen den Nazis die Macht, ohne organisierten Widerstand der gespaltenen Arbeiterbewegung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1933-third-reich"}, {"id": "1928-third-period"}],
+      "persons": ["adolf-hitler", "paul-von-hindenburg", "franz-von-papen"],
+      "places": ["berlin"],
+      "organizations": ["nsdap"],
+      "sources": [{"ref": "lemo-chronicle-1933"}],
+      "status": "draft"
+    },
+    {
+      "id": "1933-reichstag-fire",
+      "title": {
+        "orig": "de",
+        "fr": "Incendie du Reichstag et décret d'urgence",
+        "en": "Reichstag fire and emergency decree",
+        "de": "Reichstagsbrand und Reichstagsbrandverordnung",
+        "draft": ["en"]
+      },
+      "type": "repression",
+      "start": {"date": "1933-02-27"},
+      "end": {"date": "1933-02-28"},
+      "summary": {
+        "fr": "Göring impute l'incendie au KPD ; un décret d'urgence suspend les libertés, des milliers de communistes sont arrêtés, Thälmann le 3 mars, et les premiers camps de concentration ouvrent à Dachau et Sachsenhausen.",
+        "en": "Göring blames the fire on the KPD; an emergency decree suspends civil liberties, thousands of communists are arrested, Thälmann on 3 March, and the first concentration camps open at Dachau and Sachsenhausen.",
+        "de": "Göring macht die KPD für den Brand verantwortlich; eine Notverordnung setzt die Grundrechte außer Kraft, Tausende Kommunisten werden verhaftet, Thälmann am 3. März, und in Dachau und Sachsenhausen entstehen die ersten Konzentrationslager.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1933-third-reich"}],
+      "persons": ["hermann-goring", "marinus-van-der-lubbe", "ernst-thalmann"],
+      "places": ["berlin"],
+      "organizations": ["kpd"],
+      "sources": [{"ref": "lemo-chronicle-1933"}],
+      "status": "draft"
+    },
+    {
+      "id": "1933-enabling-act",
+      "title": {
+        "orig": "de",
+        "fr": "Loi des pleins pouvoirs",
+        "en": "Enabling Act",
+        "de": "Ermächtigungsgesetz",
+        "draft": ["en"]
+      },
+      "type": "law",
+      "start": {"date": "1933-03-23"},
+      "summary": {
+        "fr": "Privé de ses députés communistes, dont les sièges ont été annulés, le Reichstag se dessaisit de ses pouvoirs par 441 voix ; seuls les 94 députés SPD présents votent contre.",
+        "en": "Deprived of its communist deputies, whose seats have been annulled, the Reichstag surrenders its powers by 441 votes; only the 94 SPD deputies present vote against.",
+        "de": "Ohne die kommunistischen Abgeordneten, deren Mandate annulliert wurden, entmachtet sich der Reichstag mit 441 Stimmen; nur die 94 anwesenden SPD-Abgeordneten stimmen dagegen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1933-third-reich"}],
+      "places": ["berlin"],
+      "organizations": ["nsdap", "spd", "kpd"],
+      "sources": [{"ref": "lemo-chronicle-1933"}],
+      "status": "draft"
+    },
+    {
+      "id": "1933-destruction-of-trade-unions",
+      "title": {
+        "orig": "de",
+        "fr": "Destruction des syndicats",
+        "en": "Destruction of the trade unions",
+        "de": "Zerschlagung der Gewerkschaften",
+        "draft": ["en"]
+      },
+      "type": "ban",
+      "start": {"date": "1933-05-02"},
+      "summary": {
+        "fr": "Au lendemain d'un 1er Mai décrété « fête du travail national », la SA, la SS et la police occupent les locaux des syndicats libres, dont les biens sont saisis : le mouvement syndical est anéanti.",
+        "en": "The day after a May Day decreed a 'holiday of national labour', the SA, SS and police occupy the free trade unions' premises and seize their assets: the union movement is destroyed.",
+        "de": "Am Tag nach dem zum „Feiertag der nationalen Arbeit“ erklärten 1. Mai besetzen SA, SS und Polizei die Häuser der freien Gewerkschaften und beschlagnahmen ihr Vermögen: Die Gewerkschaftsbewegung wird zerschlagen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1933-third-reich"}],
+      "organizations": ["adgb"],
+      "sources": [{"ref": "lemo-chronicle-1933"}],
+      "status": "draft"
+    },
+    {
+      "id": "1933-ban-of-parties",
+      "title": {
+        "orig": "de",
+        "fr": "Interdiction des partis",
+        "en": "Ban on political parties",
+        "de": "Verbot der Parteien",
+        "draft": ["en"]
+      },
+      "type": "ban",
+      "start": {"date": "1933-06-22"},
+      "end": {"date": "1933-07"},
+      "summary": {
+        "fr": "Le SPD est interdit et ses biens confisqués ; les partis bourgeois se dissolvent d'eux-mêmes début juillet, et le NSDAP devient le parti unique.",
+        "en": "The SPD is banned and its assets confiscated; the bourgeois parties dissolve themselves in early July, and the NSDAP becomes the sole party.",
+        "de": "Die SPD wird verboten und ihr Vermögen beschlagnahmt; die bürgerlichen Parteien lösen sich Anfang Juli selbst auf, die NSDAP wird Einheitspartei.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1933-third-reich"}],
+      "organizations": ["spd", "nsdap"],
+      "sources": [{"ref": "lemo-chronicle-1933"}],
+      "status": "draft"
+    },
+    {
+      "id": "1934-night-of-the-long-knives",
+      "title": {
+        "orig": "de",
+        "fr": "Nuit des longs couteaux",
+        "en": "Night of the Long Knives",
+        "de": "Röhm-Putsch",
+        "draft": ["en"]
+      },
+      "type": "massacre",
+      "start": {"date": "1934-06-30"},
+      "end": {"date": "1934-07-02"},
+      "summary": {
+        "fr": "Hitler fait assassiner la direction de la SA, dont Röhm, ainsi que des adversaires comme Schleicher et Strasser : au moins 85 morts. Il rassure l'armée et consolide son pouvoir.",
+        "en": "Hitler has the SA leadership murdered, Röhm among them, along with opponents such as Schleicher and Strasser: at least 85 dead. He reassures the army and consolidates his power.",
+        "de": "Hitler lässt die SA-Führung, darunter Röhm, sowie Gegner wie Schleicher und Strasser ermorden: mindestens 85 Tote. Er beruhigt die Reichswehr und festigt seine Macht.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1933-third-reich"}],
+      "persons": ["adolf-hitler", "ernst-rohm", "kurt-von-schleicher", "gregor-strasser"],
+      "organizations": ["nsdap"],
+      "sources": [{"ref": "wp-en-night-of-the-long-knives"}],
+      "status": "draft"
+    },
+    {
+      "id": "1935-nuremberg-laws",
+      "title": {
+        "orig": "de",
+        "fr": "Lois de Nuremberg",
+        "en": "Nuremberg Laws",
+        "de": "Nürnberger Gesetze",
+        "draft": ["en"]
+      },
+      "type": "law",
+      "start": {"date": "1935-09-15"},
+      "summary": {
+        "fr": "Votées lors du congrès du parti, les lois réservent la citoyenneté aux personnes « de sang allemand » et interdisent les mariages entre Juifs et non-Juifs : la persécution antisémite devient loi.",
+        "en": "Passed during the party rally, the laws reserve citizenship for people 'of German blood' and forbid marriages between Jews and non-Jews: antisemitic persecution becomes law.",
+        "de": "Auf dem Reichsparteitag beschlossen, beschränken die Gesetze das Bürgerrecht auf Personen „deutschen Blutes“ und verbieten Ehen zwischen Juden und Nichtjuden: Die antisemitische Verfolgung wird Gesetz.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1933-third-reich"}],
+      "places": ["nuremberg"],
+      "organizations": ["nsdap"],
+      "sources": [{"ref": "wp-en-nuremberg-laws"}],
+      "status": "draft"
+    },
+    {
+      "id": "1938-kristallnacht",
+      "title": {
+        "orig": "de",
+        "fr": "Nuit de Cristal",
+        "en": "Kristallnacht",
+        "de": "Novemberpogrome 1938",
+        "draft": ["en"]
+      },
+      "aliases": ["Reichskristallnacht"],
+      "type": "massacre",
+      "start": {"date": "1938-11-09"},
+      "end": {"date": "1938-11-10"},
+      "summary": {
+        "fr": "Pogrom organisé dans tout le Reich : plus d'un millier de synagogues et plus de 7 000 commerces juifs sont saccagés, des centaines de Juifs tués et plus de 30 000 hommes déportés en camp de concentration.",
+        "en": "An organised pogrom across the Reich: over a thousand synagogues and more than 7,000 Jewish businesses are wrecked, hundreds of Jews killed and over 30,000 men deported to concentration camps.",
+        "de": "Organisierter Pogrom im ganzen Reich: Über tausend Synagogen und mehr als 7.000 jüdische Geschäfte werden verwüstet, Hunderte Juden getötet und über 30.000 Männer in Konzentrationslager verschleppt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1933-third-reich"}, {"id": "1938-nazi-annexation-and-war"}],
+      "places": ["buchenwald"],
+      "sources": [{"ref": "wp-en-kristallnacht"}],
+      "status": "draft"
+    },
+    {
+      "id": "1939-molotov-ribbentrop-pact",
+      "title": {
+        "orig": "de",
+        "fr": "Pacte germano-soviétique",
+        "en": "Molotov–Ribbentrop Pact",
+        "de": "Hitler-Stalin-Pakt",
+        "draft": ["en"]
+      },
+      "aliases": ["Pacte Molotov-Ribbentrop"],
+      "type": "treaty",
+      "start": {"date": "1939-08-23"},
+      "summary": {
+        "fr": "Signé à Moscou, le pacte de non-agression comporte un protocole secret partageant la Pologne et l'Europe de l'Est entre l'Allemagne et l'URSS ; une semaine plus tard, l'Allemagne envahit la Pologne.",
+        "en": "Signed in Moscow, the non-aggression pact includes a secret protocol dividing Poland and Eastern Europe between Germany and the USSR; a week later, Germany invades Poland.",
+        "de": "Der in Moskau unterzeichnete Nichtangriffspakt enthält ein geheimes Zusatzprotokoll, das Polen und Osteuropa zwischen Deutschland und der UdSSR aufteilt; eine Woche später überfällt Deutschland Polen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1933-third-reich"},
+        {"id": "1928-five-year-plans-collectivisation-and-great-terror"},
+        {"id": "1939-pact-and-war"}
+      ],
+      "persons": ["joachim-von-ribbentrop", "vyacheslav-molotov"],
+      "places": ["moscow"],
+      "sources": [{"ref": "wp-en-molotov-ribbentrop-pact"}],
+      "status": "draft"
+    },
+    {
+      "id": "1941-operation-barbarossa",
+      "title": {
+        "orig": "de",
+        "fr": "Invasion de l'URSS",
+        "en": "Invasion of the Soviet Union",
+        "de": "Überfall auf die Sowjetunion",
+        "draft": ["en"]
+      },
+      "aliases": ["Opération Barbarossa", "Unternehmen Barbarossa"],
+      "type": "war",
+      "start": {"date": "1941-06-22"},
+      "end": {"date": "1941-12-05"},
+      "summary": {
+        "fr": "Plus de 3,8 millions de soldats de l'Axe envahissent l'URSS dans une guerre d'anéantissement visant aussi les cadres communistes et les Juifs ; l'offensive est stoppée devant Moscou en décembre.",
+        "en": "More than 3.8 million Axis troops invade the USSR in a war of annihilation also targeting communist cadres and Jews; the offensive is halted outside Moscow in December.",
+        "de": "Über 3,8 Millionen Soldaten der Achsenmächte überfallen die UdSSR in einem Vernichtungskrieg, der sich auch gegen kommunistische Kader und Juden richtet; vor Moskau wird die Offensive im Dezember gestoppt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1933-third-reich"},
+        {"id": "1939-second-world-war"},
+        {"id": "1941-great-patriotic-war"}
+      ],
+      "shared": true,
+      "persons": ["adolf-hitler"],
+      "sources": [{"ref": "wp-en-operation-barbarossa"}],
+      "status": "draft"
+    },
+    {
+      "id": "1942-battle-of-stalingrad",
+      "title": {
+        "orig": "de",
+        "fr": "Bataille de Stalingrad",
+        "en": "Battle of Stalingrad",
+        "de": "Schlacht von Stalingrad",
+        "draft": ["en"]
+      },
+      "type": "battle",
+      "start": {"date": "1942-07-17"},
+      "end": {"date": "1943-02-02"},
+      "summary": {
+        "fr": "Encerclée, la 6e armée allemande capitule le 2 février 1943 : c'est le tournant de la guerre en Europe, et l'initiative passe définitivement à l'Armée rouge.",
+        "en": "Encircled, the German 6th Army surrenders on 2 February 1943: it is the turning point of the war in Europe, and the initiative passes for good to the Red Army.",
+        "de": "Eingekesselt kapituliert die 6. Armee am 2. Februar 1943: der Wendepunkt des Krieges in Europa, die Initiative geht endgültig auf die Rote Armee über.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1933-third-reich"},
+        {"id": "1939-second-world-war"},
+        {"id": "1941-great-patriotic-war"}
+      ],
+      "shared": true,
+      "places": ["volgograd"],
+      "sources": [{"ref": "wp-en-battle-of-stalingrad"}],
+      "status": "draft"
+    },
+    {
+      "id": "1944-july-20-plot",
+      "title": {
+        "orig": "de",
+        "fr": "Attentat du 20 juillet 1944",
+        "en": "20 July plot",
+        "de": "Attentat vom 20. Juli 1944",
+        "draft": ["en"]
+      },
+      "type": "coup",
+      "start": {"date": "1944-07-20"},
+      "summary": {
+        "fr": "Le colonel von Stauffenberg fait exploser une bombe au quartier général de Hitler, qui survit ; le coup d'État militaire échoue en quelques heures et la répression fait près de 5 000 exécutions.",
+        "en": "Colonel von Stauffenberg detonates a bomb at Hitler's headquarters, but Hitler survives; the military coup fails within hours and the repression leads to nearly 5,000 executions.",
+        "de": "Oberst von Stauffenberg zündet im Führerhauptquartier eine Bombe, Hitler überlebt; der Militärputsch scheitert binnen Stunden, die Verfolgung führt zu fast 5.000 Hinrichtungen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1933-third-reich"}],
+      "persons": ["claus-von-stauffenberg", "adolf-hitler"],
+      "sources": [{"ref": "wp-en-20-july-plot"}],
+      "status": "draft"
+    },
+    {
+      "id": "1944-thalmann-murder",
+      "title": {
+        "orig": "de",
+        "fr": "Assassinat d'Ernst Thälmann",
+        "en": "Murder of Ernst Thälmann",
+        "de": "Ermordung Ernst Thälmanns",
+        "draft": ["en"]
+      },
+      "type": "assassination",
+      "start": {"date": "1944-08-18"},
+      "summary": {
+        "fr": "Après plus de onze ans d'isolement, le dirigeant du KPD est abattu à Buchenwald sur ordre personnel de Hitler ; les nazis annoncent ensuite sa mort dans un bombardement allié.",
+        "en": "After more than eleven years in solitary confinement, the KPD leader is shot at Buchenwald on Hitler's personal order; the Nazis then announce that he died in an Allied bombing raid.",
+        "de": "Nach über elf Jahren Einzelhaft wird der KPD-Vorsitzende auf persönlichen Befehl Hitlers in Buchenwald erschossen; die Nazis melden danach, er sei bei einem alliierten Luftangriff umgekommen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1933-third-reich"}],
+      "persons": ["ernst-thalmann", "adolf-hitler"],
+      "places": ["buchenwald"],
+      "organizations": ["kpd"],
+      "sources": [{"ref": "wp-en-ernst-thalmann"}],
+      "status": "draft"
+    },
+    {
+      "id": "1945-unconditional-surrender",
+      "title": {
+        "orig": "de",
+        "fr": "Capitulation sans condition",
+        "en": "Unconditional surrender",
+        "de": "Bedingungslose Kapitulation",
+        "draft": ["en"]
+      },
+      "type": "other",
+      "start": {"date": "1945-05-07"},
+      "end": {"date": "1945-05-08"},
+      "summary": {
+        "fr": "Jodl signe à Reims la capitulation sans condition de toutes les forces allemandes, renouvelée par Keitel à Berlin-Karlshorst devant Joukov : la guerre en Europe et le Troisième Reich prennent fin.",
+        "en": "Jodl signs the unconditional surrender of all German forces at Reims, repeated by Keitel at Berlin-Karlshorst before Zhukov: the war in Europe and the Third Reich come to an end.",
+        "de": "Jodl unterzeichnet in Reims die bedingungslose Kapitulation aller deutschen Streitkräfte, die Keitel in Berlin-Karlshorst vor Schukow wiederholt: Der Krieg in Europa und das Dritte Reich sind zu Ende.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1933-third-reich"},
+        {"id": "1939-second-world-war"},
+        {"id": "1941-great-patriotic-war"}
+      ],
+      "shared": true,
+      "persons": ["alfred-jodl", "wilhelm-keitel", "georgy-zhukov"],
+      "places": ["reims", "berlin"],
+      "sources": [{"ref": "lemo-chronicle-1945"}],
+      "status": "draft"
+    },
+    {
+      "id": "1945-potsdam-conference",
+      "title": {
+        "orig": "de",
+        "fr": "Conférence de Potsdam",
+        "en": "Potsdam Conference",
+        "de": "Potsdamer Konferenz",
+        "draft": ["en"]
+      },
+      "type": "conference",
+      "start": {"date": "1945-07-17"},
+      "end": {"date": "1945-08-02"},
+      "summary": {
+        "fr": "Truman, Churchill puis Attlee, et Staline fixent dans l'accord de Potsdam la politique des Alliés envers l'Allemagne vaincue et occupée.",
+        "en": "Truman, Churchill and then Attlee, and Stalin lay down in the Potsdam Agreement the Allies' policy towards defeated and occupied Germany.",
+        "de": "Truman, Churchill bzw. Attlee und Stalin legen im Potsdamer Abkommen die Politik der Alliierten gegenüber dem besiegten und besetzten Deutschland fest.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1945-occupation-and-two-german-states"}, {"id": "1945-late-stalinism"}],
+      "places": ["potsdam"],
+      "sources": [{"ref": "lemo-chronicle-1945"}],
+      "status": "draft"
+    },
+    {
+      "id": "1946-sed-founding",
+      "title": {
+        "orig": "de",
+        "fr": "Fondation du SED",
+        "en": "Founding of the SED",
+        "de": "Gründung der SED",
+        "draft": ["en"]
+      },
+      "aliases": ["Zwangsvereinigung"],
+      "type": "merger",
+      "start": {"date": "1946-04-21"},
+      "summary": {
+        "fr": "Sous forte pression soviétique, le KPD et le SPD de la zone d'occupation soviétique fusionnent dans le Parti socialiste unifié, coprésidé par Pieck et Grotewohl ; les sociaux-démocrates réticents sont ensuite écartés.",
+        "en": "Under heavy Soviet pressure, the KPD and SPD in the Soviet occupation zone merge into the Socialist Unity Party, co-chaired by Pieck and Grotewohl; reluctant Social Democrats are subsequently purged.",
+        "de": "Unter starkem sowjetischem Druck vereinigen sich KPD und SPD in der Sowjetischen Besatzungszone zur SED unter dem Vorsitz von Pieck und Grotewohl; widerstrebende Sozialdemokraten werden danach ausgeschaltet.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1945-occupation-and-two-german-states"}],
+      "persons": ["wilhelm-pieck", "otto-grotewohl"],
+      "places": ["berlin"],
+      "organizations": ["sed", "kpd", "spd"],
+      "sources": [{"ref": "wp-en-sed"}],
+      "status": "draft"
+    },
+    {
+      "id": "1948-berlin-blockade",
+      "title": {
+        "orig": "de",
+        "fr": "Blocus de Berlin",
+        "en": "Berlin Blockade",
+        "de": "Berlin-Blockade",
+        "draft": ["en"]
+      },
+      "type": "crisis",
+      "start": {"date": "1948-06-24"},
+      "end": {"date": "1949-05-12"},
+      "summary": {
+        "fr": "En réponse à l'introduction du Deutsche Mark dans les zones occidentales, l'URSS coupe les accès terrestres à Berlin-Ouest, ravitaillé par un pont aérien : première grande crise de la guerre froide.",
+        "en": "In response to the introduction of the Deutsche Mark in the western zones, the USSR cuts land access to West Berlin, which is supplied by an airlift: the first major crisis of the Cold War.",
+        "de": "Als Antwort auf die Einführung der D-Mark in den Westzonen sperrt die UdSSR die Landwege nach West-Berlin, das über eine Luftbrücke versorgt wird: die erste große Krise des Kalten Krieges.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1945-occupation-and-two-german-states"}, {"id": "1945-late-stalinism"}],
+      "places": ["berlin"],
+      "sources": [{"ref": "wp-en-berlin-blockade"}],
+      "status": "draft"
+    },
+    {
+      "id": "1956-kpd-ban",
+      "title": {
+        "orig": "de",
+        "fr": "Interdiction du KPD",
+        "en": "Ban of the KPD",
+        "de": "KPD-Verbot",
+        "draft": ["en"]
+      },
+      "type": "ban",
+      "start": {"date": "1956-08-17"},
+      "summary": {
+        "fr": "La Cour constitutionnelle fédérale interdit le Parti communiste en RFA ; un nouveau parti communiste, le DKP, ne sera fondé qu'en 1968.",
+        "en": "The Federal Constitutional Court bans the Communist Party in West Germany; a new communist party, the DKP, is only founded in 1968.",
+        "de": "Das Bundesverfassungsgericht verbietet die KPD in der Bundesrepublik; eine neue kommunistische Partei, die DKP, entsteht erst 1968.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1949-federal-republic-of-germany"}],
+      "organizations": ["kpd"],
+      "sources": [{"ref": "wp-en-kpd"}],
+      "status": "draft"
+    },
+    {
+      "id": "1959-godesberg-programme",
+      "title": {
+        "orig": "de",
+        "fr": "Programme de Bad Godesberg",
+        "en": "Godesberg Programme",
+        "de": "Godesberger Programm",
+        "draft": ["en"]
+      },
+      "type": "congress",
+      "start": {"date": "1959-11-15"},
+      "summary": {
+        "fr": "Le SPD abandonne toute référence au marxisme et à la lutte des classes, accepte l'économie de marché et se définit comme parti populaire et non plus parti de la classe ouvrière.",
+        "en": "The SPD drops all reference to Marxism and class struggle, accepts the market economy and defines itself as a people's party rather than a working-class party.",
+        "de": "Die SPD verabschiedet sich vom Marxismus und vom Klassenkampf, bejaht die Marktwirtschaft und versteht sich fortan als Volkspartei statt als Arbeiterpartei.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1949-federal-republic-of-germany"}],
+      "places": ["bonn"],
+      "organizations": ["spd"],
+      "sources": [{"ref": "wp-en-godesberg-program"}],
+      "status": "draft"
+    },
+    {
+      "id": "1967-west-german-student-movement",
+      "title": {
+        "orig": "de",
+        "fr": "Mouvement étudiant ouest-allemand",
+        "en": "West German student movement",
+        "de": "Westdeutsche Studentenbewegung",
+        "draft": ["en"]
+      },
+      "aliases": ["APO", "1968"],
+      "type": "demonstration",
+      "start": {"date": "1967-06"},
+      "end": {"date": "1968-05-30"},
+      "summary": {
+        "fr": "Après la mort de l'étudiant Benno Ohnesorg, tué par un policier, puis l'attentat contre Rudi Dutschke, l'opposition extraparlementaire autour du SDS mobilise contre la presse Springer et les lois d'urgence, votées le 30 mai 1968.",
+        "en": "After the student Benno Ohnesorg is killed by a policeman, and then the attempt on Rudi Dutschke's life, the extra-parliamentary opposition around the SDS mobilises against the Springer press and the emergency laws, passed on 30 May 1968.",
+        "de": "Nach dem Tod des von einem Polizisten erschossenen Studenten Benno Ohnesorg und dem Attentat auf Rudi Dutschke mobilisiert die APO um den SDS gegen die Springer-Presse und die am 30. Mai 1968 beschlossenen Notstandsgesetze.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1949-federal-republic-of-germany"}],
+      "persons": ["benno-ohnesorg", "rudi-dutschke"],
+      "places": ["berlin"],
+      "organizations": ["sds"],
+      "sources": [{"ref": "wp-en-german-student-movement"}],
+      "status": "draft"
+    },
+    {
+      "id": "1969-september-strikes",
+      "title": {
+        "orig": "de",
+        "fr": "Grèves de septembre 1969",
+        "en": "September strikes of 1969",
+        "de": "Septemberstreiks",
+        "draft": ["en"]
+      },
+      "type": "strike",
+      "start": {"date": "1969-09-02"},
+      "end": {"date": "1969-09-19"},
+      "summary": {
+        "fr": "Parties de Hoesch à Dortmund, des grèves sauvages menées sans les syndicats mobilisent au moins 140 000 ouvriers de la sidérurgie et des mines, et arrachent des hausses de salaire pour plus de huit millions de salariés.",
+        "en": "Starting at Hoesch in Dortmund, wildcat strikes waged without the unions mobilise at least 140,000 steel and mine workers and win pay rises for over eight million employees.",
+        "de": "Von Hoesch in Dortmund ausgehend, mobilisieren wilde Streiks ohne die Gewerkschaften mindestens 140.000 Stahl- und Bergarbeiter und erzwingen Lohnerhöhungen für über acht Millionen Beschäftigte.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1949-federal-republic-of-germany"}],
+      "places": ["dortmund"],
+      "sources": [{"ref": "wp-de-september-strikes"}],
+      "status": "draft"
+    },
+    {
+      "id": "1972-radikalenerlass",
+      "title": {
+        "orig": "de",
+        "fr": "Décret sur les radicaux",
+        "en": "Anti-Radical Decree",
+        "de": "Radikalenerlass",
+        "draft": ["en"]
+      },
+      "aliases": ["Berufsverbote", "Extremistenbeschluss"],
+      "type": "law",
+      "start": {"date": "1972-01-28"},
+      "summary": {
+        "fr": "Le gouvernement fédéral et les Länder excluent de la fonction publique, enseignement compris, les membres d'organisations jugées extrémistes : c'est le début des « interdictions professionnelles ».",
+        "en": "The federal government and the states bar members of organisations deemed extremist from the civil service, teaching included: the start of the 'occupational bans'.",
+        "de": "Bund und Länder schließen Mitglieder als extremistisch eingestufter Organisationen vom öffentlichen Dienst, einschließlich des Schuldienstes, aus: der Beginn der „Berufsverbote“.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1949-federal-republic-of-germany"}],
+      "sources": [{"ref": "wp-en-radikalenerlass"}],
+      "status": "draft"
+    },
+    {
+      "id": "1984-35-hour-week-strike",
+      "title": {
+        "orig": "de",
+        "fr": "Grève pour les 35 heures",
+        "en": "Strike for the 35-hour week",
+        "de": "Streik um die 35-Stunden-Woche",
+        "draft": ["en"]
+      },
+      "type": "strike",
+      "start": {"date": "1984-05-14"},
+      "end": {"date": "1984-06"},
+      "summary": {
+        "fr": "IG Metall engage près de sept semaines de grève en Bade-Wurtemberg et en Hesse ; le patronat répond en lock-outant un demi-million de salariés. Le compromis fixe 38,5 heures, puis 35 heures en 1995.",
+        "en": "IG Metall wages a strike of almost seven weeks in Baden-Württemberg and Hesse; employers respond by locking out half a million workers. The compromise sets 38.5 hours, then 35 hours by 1995.",
+        "de": "Die IG Metall führt fast sieben Wochen Streik in Baden-Württemberg und Hessen; die Arbeitgeber sperren eine halbe Million Beschäftigte aus. Der Kompromiss bringt 38,5 Stunden, bis 1995 dann die 35-Stunden-Woche.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1949-federal-republic-of-germany"}],
+      "organizations": ["ig-metall"],
+      "sources": [{"ref": "igmetall-35-hour-week"}],
+      "status": "draft"
+    },
+    {
+      "id": "1953-east-german-uprising",
+      "title": {
+        "orig": "de",
+        "fr": "Insurrection ouvrière du 17 juin 1953",
+        "en": "East German uprising of 17 June 1953",
+        "de": "Volksaufstand vom 17. Juni 1953",
+        "draft": ["en"]
+      },
+      "type": "insurrection",
+      "start": {"date": "1953-06-16"},
+      "end": {"date": "1953-06-17"},
+      "summary": {
+        "fr": "Parti d'une grève des ouvriers du bâtiment de Berlin-Est contre la hausse des normes, le mouvement gagne plus d'un million de personnes dans quelque 700 localités ; les chars soviétiques l'écrasent.",
+        "en": "Starting with a strike by East Berlin construction workers against higher work norms, the movement spreads to over a million people in some 700 localities; Soviet tanks crush it.",
+        "de": "Ausgehend von einem Streik Ost-Berliner Bauarbeiter gegen die Normerhöhung erfasst die Bewegung über eine Million Menschen in rund 700 Orten; sowjetische Panzer schlagen sie nieder.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1949-german-democratic-republic"},
+        {"id": "russia-empire-and-national-question"},
+        {"id": "1945-peoples-democracies"}
+      ],
+      "places": ["berlin"],
+      "organizations": ["sed"],
+      "sources": [{"ref": "wp-en-east-german-uprising-1953"}],
+      "status": "draft"
+    },
+    {
+      "id": "1989-monday-demonstrations",
+      "title": {
+        "orig": "de",
+        "fr": "Manifestations du lundi",
+        "en": "Monday demonstrations",
+        "de": "Montagsdemonstrationen",
+        "draft": ["en"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1989-09-04"},
+      "end": {"date": "1990-03"},
+      "summary": {
+        "fr": "Parties de l'église Saint-Nicolas de Leipzig, elles réunissent 70 000 personnes le 9 octobre sans que le pouvoir n'ose tirer, puis jusqu'à 320 000 ; Honecker démissionne le 18 octobre. « Nous sommes le peuple ! »",
+        "en": "Starting from St Nicholas Church in Leipzig, they draw 70,000 people on 9 October without the regime daring to shoot, then up to 320,000; Honecker resigns on 18 October. 'We are the people!'",
+        "de": "Von der Leipziger Nikolaikirche ausgehend, versammeln sie am 9. Oktober 70.000 Menschen, ohne dass die Staatsmacht zu schießen wagt, später bis zu 320.000; Honecker tritt am 18. Oktober zurück. „Wir sind das Volk!“",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1949-german-democratic-republic"}],
+      "persons": ["erich-honecker"],
+      "places": ["leipzig"],
+      "organizations": ["sed"],
+      "sources": [{"ref": "wp-en-monday-demonstrations-gdr"}],
+      "status": "draft"
+    },
+    {
+      "id": "1990-monetary-union",
+      "title": {
+        "orig": "de",
+        "fr": "Union monétaire, économique et sociale",
+        "en": "Monetary, Economic and Social Union",
+        "de": "Währungs-, Wirtschafts- und Sozialunion",
+        "draft": ["en"]
+      },
+      "type": "monetary",
+      "start": {"date": "1990-07-01"},
+      "summary": {
+        "fr": "Le Deutsche Mark et l'économie de marché sont introduits en RDA ; salaires et retraites sont convertis à un pour un, et l'économie est-allemande, soudain exposée à la concurrence occidentale, s'effondre en grande partie.",
+        "en": "The Deutsche Mark and the market economy are introduced in the GDR; wages and pensions are converted one-to-one, and the East German economy, suddenly exposed to Western competition, largely collapses.",
+        "de": "D-Mark und Marktwirtschaft werden in der DDR eingeführt; Löhne und Renten werden eins zu eins umgestellt, und die ostdeutsche Wirtschaft bricht unter der westlichen Konkurrenz weitgehend zusammen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1949-german-democratic-republic"}],
+      "sources": [{"ref": "dhm-monetary-union-1990"}],
+      "status": "draft"
+    },
+    {
+      "id": "1990-treuhand-privatisation",
+      "title": {
+        "orig": "de",
+        "fr": "Privatisations de la Treuhand",
+        "en": "Treuhand privatisations",
+        "de": "Privatisierung durch die Treuhand",
+        "draft": ["en"]
+      },
+      "type": "other",
+      "start": {"date": "1990-10-03"},
+      "end": {"date": "1994-12-31"},
+      "summary": {
+        "fr": "L'agence fiduciaire vend ou ferme quelque 8 500 entreprises publiques est-allemandes employant plus de quatre millions de personnes ; environ 2,5 millions de salariés sont licenciés et la Treuhand finit lourdement endettée.",
+        "en": "The trust agency sells or closes some 8,500 East German state-owned enterprises employing over four million people; around 2.5 million workers are laid off and the Treuhand ends up heavily indebted.",
+        "de": "Die Treuhandanstalt verkauft oder schließt rund 8.500 volkseigene Betriebe mit über vier Millionen Beschäftigten; etwa 2,5 Millionen werden entlassen, und die Treuhand hinterlässt hohe Schulden.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1990-reunified-germany"}],
+      "persons": ["detlev-karsten-rohwedder"],
+      "organizations": ["treuhandanstalt"],
+      "sources": [{"ref": "wp-en-treuhandanstalt"}, {"ref": "fes-rau-protest-after-1989"}],
+      "status": "draft"
+    },
+    {
+      "id": "1992-rostock-lichtenhagen-riots",
+      "title": {
+        "orig": "de",
+        "fr": "Émeutes racistes de Rostock-Lichtenhagen",
+        "en": "Rostock-Lichtenhagen riots",
+        "de": "Ausschreitungen von Rostock-Lichtenhagen",
+        "draft": ["en"]
+      },
+      "aliases": ["Pogrom de Rostock-Lichtenhagen"],
+      "type": "other",
+      "start": {"date": "1992-08-22"},
+      "end": {"date": "1992-08-24"},
+      "summary": {
+        "fr": "Pendant trois jours, des centaines d'extrémistes de droite attaquent un centre de demandeurs d'asile puis un immeuble où vivent 115 Vietnamiens, incendié sous les applaudissements de milliers de riverains, tandis que la police se retire.",
+        "en": "For three days, hundreds of right-wing extremists attack an asylum seekers' centre and then a building housing 115 Vietnamese, set on fire to the applause of thousands of locals, while the police withdraw.",
+        "de": "Drei Tage lang greifen Hunderte Rechtsextremisten eine Asylbewerberunterkunft und dann ein Haus mit 115 Vietnamesen an, das unter dem Beifall Tausender Anwohner in Brand gesetzt wird, während sich die Polizei zurückzieht.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1990-reunified-germany"}],
+      "places": ["rostock"],
+      "sources": [{"ref": "wp-en-rostock-lichtenhagen-riots"}],
+      "status": "draft"
+    },
+    {
+      "id": "1993-bischofferode-hunger-strike",
+      "title": {
+        "orig": "de",
+        "fr": "Grève de la faim de Bischofferode",
+        "en": "Bischofferode hunger strike",
+        "de": "Hungerstreik von Bischofferode",
+        "draft": ["en"]
+      },
+      "type": "strike",
+      "start": {"date": "1993-07"},
+      "end": {"date": "1993-12"},
+      "summary": {
+        "fr": "Une quarantaine de mineurs de potasse entament une grève de la faim contre la fermeture de leur mine par la Treuhand, sous le mot d'ordre « Bischofferode est partout » ; ils obtiennent des indemnités, mais la mine ferme.",
+        "en": "Some forty potash miners begin a hunger strike against the Treuhand's closure of their mine, under the slogan 'Bischofferode is everywhere'; they win compensation, but the mine closes.",
+        "de": "Rund 40 Kalikumpel treten gegen die Schließung ihrer Grube durch die Treuhand in den Hungerstreik, unter dem Motto „Bischofferode ist überall“; sie erreichen Abfindungen, doch die Grube wird geschlossen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1990-reunified-germany"}],
+      "persons": ["heiner-brodhun"],
+      "places": ["bischofferode"],
+      "organizations": ["treuhandanstalt"],
+      "sources": [{"ref": "fes-rau-protest-after-1989"}],
+      "status": "draft"
+    },
+    {
+      "id": "2003-agenda-2010",
+      "title": {
+        "orig": "de",
+        "fr": "Agenda 2010 et réformes Hartz",
+        "en": "Agenda 2010 and Hartz reforms",
+        "de": "Agenda 2010 und Hartz-Reformen",
+        "draft": ["en"]
+      },
+      "aliases": ["Hartz IV"],
+      "type": "law",
+      "start": {"date": "2003-03-14"},
+      "end": {"date": "2005-01-01"},
+      "summary": {
+        "fr": "Le chancelier social-démocrate Schröder annonce l'Agenda 2010 : allocations chômage raccourcies, durcissement des obligations, assouplissement de la protection contre le licenciement, puis fusion des aides au niveau de l'aide sociale avec Hartz IV en 2005.",
+        "en": "Social Democratic Chancellor Schröder announces Agenda 2010: shorter unemployment benefits, tougher obligations, looser dismissal protection, then the merging of benefits at social-assistance level with Hartz IV in 2005.",
+        "de": "Der sozialdemokratische Kanzler Schröder verkündet die Agenda 2010: kürzeres Arbeitslosengeld, verschärfte Zumutbarkeit, gelockerter Kündigungsschutz, dann 2005 mit Hartz IV die Zusammenlegung der Leistungen auf Sozialhilfeniveau.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1990-reunified-germany"}],
+      "persons": ["gerhard-schroder"],
+      "organizations": ["spd"],
+      "sources": [{"ref": "wp-de-agenda-2010"}, {"ref": "wp-en-hartz-concept"}],
+      "status": "draft"
+    },
+    {
+      "id": "2004-monday-demonstrations-against-hartz-iv",
+      "title": {
+        "orig": "de",
+        "fr": "Manifestations du lundi contre Hartz IV",
+        "en": "Monday demonstrations against Hartz IV",
+        "de": "Montagsdemonstrationen gegen Hartz IV",
+        "draft": ["en"]
+      },
+      "type": "demonstration",
+      "start": {"date": "2004-08"},
+      "end": {"date": "2004-10"},
+      "summary": {
+        "fr": "Se réclamant explicitement des manifestations de 1989, des dizaines de milliers de personnes, surtout à l'Est, défilent chaque lundi contre la loi Hartz IV.",
+        "en": "Explicitly invoking the demonstrations of 1989, tens of thousands of people, mainly in the East, march every Monday against the Hartz IV law.",
+        "de": "In ausdrücklicher Anknüpfung an die Demonstrationen von 1989 ziehen Zehntausende, vor allem im Osten, jeden Montag gegen das Hartz-IV-Gesetz auf die Straße.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1990-reunified-germany"}],
+      "places": ["rostock", "leipzig"],
+      "sources": [{"ref": "ghdi-hartz-iv-monday-demo-2004"}],
+      "status": "draft"
+    },
+    {
+      "id": "2007-die-linke-founding",
+      "title": {
+        "orig": "de",
+        "fr": "Fondation de Die Linke",
+        "en": "Founding of Die Linke",
+        "de": "Gründung der Linken",
+        "draft": ["en"]
+      },
+      "type": "merger",
+      "start": {"date": "2007-06-16"},
+      "summary": {
+        "fr": "Le PDS, héritier du SED, fusionne avec la WASG, fondée par des syndicalistes et sociaux-démocrates opposés à l'Agenda 2010, pour former Die Linke, dirigée par Bisky et Lafontaine.",
+        "en": "The PDS, heir to the SED, merges with the WASG, founded by trade unionists and Social Democrats opposed to Agenda 2010, to form Die Linke, led by Bisky and Lafontaine.",
+        "de": "Die PDS, Nachfolgerin der SED, vereinigt sich mit der von Gewerkschaftern und Sozialdemokraten gegen die Agenda 2010 gegründeten WASG zur Linken unter Bisky und Lafontaine.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1990-reunified-germany"}],
+      "persons": ["lothar-bisky", "oskar-lafontaine", "gregor-gysi"],
+      "places": ["berlin"],
+      "organizations": ["die-linke"],
+      "sources": [{"ref": "wp-en-the-left-germany"}, {"ref": "wp-de-agenda-2010"}],
+      "status": "draft"
+    },
+    {
+      "id": "2013-afd-founding",
+      "title": {
+        "orig": "de",
+        "fr": "Fondation de l'AfD",
+        "en": "Founding of the AfD",
+        "de": "Gründung der AfD",
+        "draft": ["en"]
+      },
+      "type": "founding",
+      "start": {"date": "2013-02-06"},
+      "summary": {
+        "fr": "D'abord parti conservateur eurosceptique, l'Alternative pour l'Allemagne bascule à partir de 2015 vers un nationalisme völkisch et anti-immigrés ; classée extrémiste de droite en mai 2025, classement suspendu en attente d'un jugement.",
+        "en": "Initially a conservative Eurosceptic party, Alternative for Germany shifts from 2015 towards völkisch, anti-immigrant nationalism; classified as right-wing extremist in May 2025, a ruling suspended pending a court decision.",
+        "de": "Zunächst eine konservative euroskeptische Partei, wendet sich die AfD ab 2015 einem völkischen, einwanderungsfeindlichen Nationalismus zu; im Mai 2025 als gesichert rechtsextremistisch eingestuft, die Einstufung ist bis zu einem Urteil ausgesetzt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1990-reunified-germany"}],
+      "persons": ["alexander-gauland", "bernd-lucke"],
+      "organizations": ["afd"],
+      "sources": [{"ref": "wp-en-afd"}],
+      "status": "draft"
+    },
+    {
+      "id": "2025-federal-election",
+      "title": {
+        "orig": "de",
+        "fr": "Élections fédérales de 2025",
+        "en": "2025 federal election",
+        "de": "Bundestagswahl 2025",
+        "draft": ["en"]
+      },
+      "type": "election",
+      "start": {"date": "2025-02-23"},
+      "summary": {
+        "fr": "La CDU/CSU arrive en tête (28,5 %), mais l'AfD double son score et devient deuxième avec 20,8 % ; le SPD tombe à 16,4 %, Die Linke remonte à 8,8 %. Friedrich Merz est élu chancelier le 6 mai.",
+        "en": "The CDU/CSU comes first (28.5%), but the AfD doubles its score and comes second with 20.8%; the SPD falls to 16.4% and Die Linke recovers to 8.8%. Friedrich Merz is elected chancellor on 6 May.",
+        "de": "Die Union wird stärkste Kraft (28,5 %), doch die AfD verdoppelt sich und wird mit 20,8 % Zweite; die SPD fällt auf 16,4 %, die Linke erholt sich auf 8,8 %. Friedrich Merz wird am 6. Mai zum Kanzler gewählt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1990-reunified-germany"}],
+      "persons": ["friedrich-merz"],
+      "organizations": ["afd", "die-linke", "spd"],
+      "sources": [{"ref": "wp-en-2025-german-federal-election"}],
+      "status": "draft"
+    }
+  ]
+}

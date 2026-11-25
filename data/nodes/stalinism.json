@@ -1,0 +1,334 @@
+{
+  "$schema": "../../schema/nodes.schema.json",
+  "collection": "nodes",
+  "version": 1,
+  "items": [
+    {
+      "id": "stalinism",
+      "title": {"fr": "Stalinisme", "en": "Stalinism", "de": "Stalinismus", "draft": ["en", "de"]},
+      "type": "era",
+      "start": {"date": "1924-01-21"},
+      "end": {"date": "1991-12-26"},
+      "summary": {
+        "fr": "La dégénérescence bureaucratique de l'État ouvrier soviétique et de l'Internationale communiste, du « socialisme dans un seul pays » à l'effondrement de l'URSS.",
+        "en": "The bureaucratic degeneration of the Soviet workers' state and of the Communist International, from \"socialism in one country\" to the collapse of the USSR.",
+        "de": "Die bürokratische Entartung des sowjetischen Arbeiterstaats und der Kommunistischen Internationale, vom „Sozialismus in einem Land“ bis zum Zusammenbruch der UdSSR.",
+        "draft": ["en", "de"]
+      },
+      "parents": [],
+      "persons": ["stalin"],
+      "status": "draft",
+      "view": {
+        "color": "#6d5d4b",
+        "label": {"fr": "Stalinisme", "en": "Stalinism", "de": "Stalinismus", "draft": ["en", "de"]},
+        "default_depth": 1,
+        "kind": "theme"
+      }
+    },
+    {
+      "id": "stalinism-ussr",
+      "title": {
+        "fr": "Le régime stalinien en URSS",
+        "en": "The Stalinist regime in the USSR",
+        "de": "Das stalinistische Regime in der UdSSR",
+        "draft": ["en", "de"]
+      },
+      "type": "era",
+      "start": {"date": "1924-01-21"},
+      "end": {"date": "1991-12-26"},
+      "summary": {
+        "fr": "La caste bureaucratique au pouvoir en URSS : liquidation de la démocratie soviétique, plans quinquennaux, terreur, puis crises du régime jusqu'à la restauration du capitalisme.",
+        "en": "The bureaucratic caste in power in the USSR: liquidation of Soviet democracy, five-year plans, terror, then crises of the regime up to the restoration of capitalism.",
+        "de": "Die bürokratische Kaste an der Macht in der UdSSR: Liquidierung der Sowjetdemokratie, Fünfjahrpläne, Terror, dann Krisen des Regimes bis zur Restauration des Kapitalismus.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "stalinism", "order": 1}, {"id": "marxism"}],
+      "status": "draft",
+      "view": {
+        "color": "#6d5d4b",
+        "label": {"fr": "URSS", "en": "USSR", "de": "UdSSR", "draft": ["en", "de"]},
+        "default_depth": 1
+      }
+    },
+    {
+      "id": "stalinism-international",
+      "title": {
+        "fr": "Stalinisme international",
+        "en": "International Stalinism",
+        "de": "Internationaler Stalinismus",
+        "draft": ["en", "de"]
+      },
+      "type": "era",
+      "start": {"date": "1924-06-17"},
+      "end": {"date": "1991-12-26"},
+      "summary": {
+        "fr": "La politique imposée à l'Internationale communiste et aux partis communistes : zigzags de la troisième période et des fronts populaires, partage de Yalta, démocraties populaires et leurs crises.",
+        "en": "The policy imposed on the Communist International and the communist parties: the zigzags of the Third Period and the popular fronts, the Yalta division, the people's democracies and their crises.",
+        "de": "Die der Kommunistischen Internationale und den kommunistischen Parteien aufgezwungene Politik: Zickzack von dritter Periode und Volksfront, Teilung von Jalta, Volksdemokratien und ihre Krisen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "stalinism", "order": 2}],
+      "status": "draft",
+      "view": {
+        "color": "#8a6d3b",
+        "label": {
+          "fr": "Internationale et partis",
+          "en": "International and parties",
+          "de": "Internationale und Parteien",
+          "draft": ["en", "de"]
+        },
+        "default_depth": 1
+      }
+    },
+    {
+      "id": "1924-victory-of-the-bureaucracy",
+      "title": {
+        "fr": "Victoire de la bureaucratie",
+        "en": "The Victory of the Bureaucracy",
+        "de": "Der Sieg der Bürokratie",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1924-01-21"},
+      "end": {"date": "1928-10-01"},
+      "summary": {
+        "fr": "Après la mort de Lénine, l'appareil du parti, appuyé sur la Promotion Lénine et la théorie du socialisme dans un seul pays, écrase les oppositions successives.",
+        "en": "After Lenin's death, the party apparatus, relying on the Lenin Enrolment and the theory of socialism in one country, crushes the successive oppositions.",
+        "de": "Nach Lenins Tod zerschlägt der Parteiapparat, gestützt auf das Lenin-Aufgebot und die Theorie vom Sozialismus in einem Land, die aufeinanderfolgenden Oppositionen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "stalinism-ussr", "order": 1}],
+      "persons": ["stalin", "bukharin"],
+      "sources": [{"ref": "wp-en-left-opposition"}],
+      "status": "draft"
+    },
+    {
+      "id": "1924-bolshevisation-period",
+      "title": {
+        "fr": "Bolchevisation et alliance avec la droite",
+        "en": "Bolshevisation and the Alliance with the Right",
+        "de": "Bolschewisierung und Bündnis mit der Rechten",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1924-06-17"},
+      "end": {"date": "1928-07-17"},
+      "summary": {
+        "fr": "Les partis communistes sont mis au pas ; alliée à Boukharine, la direction subordonne la révolution chinoise au Kuomintang et le mouvement britannique aux chefs syndicaux.",
+        "en": "The communist parties are brought into line; allied with Bukharin, the leadership subordinates the Chinese revolution to the Kuomintang and the British movement to the trade union leaders.",
+        "de": "Die kommunistischen Parteien werden gleichgeschaltet; im Bündnis mit Bucharin ordnet die Führung die chinesische Revolution der Kuomintang und die britische Bewegung den Gewerkschaftsführern unter.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "stalinism-international", "order": 1}, {"id": "1919-communist-international-period"}],
+      "persons": ["stalin", "bukharin", "zinoviev"],
+      "organizations": ["comintern"],
+      "sources": [{"ref": "wp-en-communist-international"}],
+      "status": "draft"
+    },
+    {
+      "id": "1928-third-period",
+      "title": {
+        "fr": "La « troisième période »",
+        "en": "The \"Third Period\"",
+        "de": "Die „dritte Periode“",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1928-07-17"},
+      "end": {"date": "1934-07"},
+      "summary": {
+        "fr": "Ligne ultra-gauche du « social-fascisme » : en Allemagne, le KPD refuse le front unique avec la social-démocratie et laisse Hitler prendre le pouvoir sans combat.",
+        "en": "The ultra-left line of \"social fascism\": in Germany, the KPD refuses the united front with Social Democracy and lets Hitler take power without a fight.",
+        "de": "Ultralinke Linie des „Sozialfaschismus“: In Deutschland verweigert die KPD die Einheitsfront mit der Sozialdemokratie und lässt Hitler kampflos an die Macht.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "stalinism-international", "order": 2}, {"id": "1919-communist-international-period"}],
+      "organizations": ["comintern", "kpd"],
+      "sources": [{"ref": "marxists-eam-comintern-congresses"}],
+      "status": "draft"
+    },
+    {
+      "id": "1934-popular-fronts",
+      "title": {
+        "fr": "Les fronts populaires",
+        "en": "The Popular Fronts",
+        "de": "Die Volksfronten",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1934-07-27"},
+      "end": {"date": "1939-08-23"},
+      "summary": {
+        "fr": "Tournant vers l'alliance avec la bourgeoisie « démocratique » : fronts populaires en France et en Espagne, répression de la gauche révolutionnaire pendant la guerre civile espagnole.",
+        "en": "A turn towards alliance with the \"democratic\" bourgeoisie: popular fronts in France and Spain, repression of the revolutionary left during the Spanish Civil War.",
+        "de": "Wende zum Bündnis mit der „demokratischen“ Bourgeoisie: Volksfronten in Frankreich und Spanien, Unterdrückung der revolutionären Linken im Spanischen Bürgerkrieg.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "stalinism-international", "order": 3}, {"id": "1919-communist-international-period"}],
+      "persons": ["georgi-dimitrov"],
+      "organizations": ["comintern"],
+      "sources": [{"ref": "marxists-eam-comintern-congresses"}],
+      "status": "draft"
+    },
+    {
+      "id": "1939-pact-and-war",
+      "title": {
+        "fr": "Pacte germano-soviétique et guerre",
+        "en": "The Nazi-Soviet Pact and the War",
+        "de": "Hitler-Stalin-Pakt und Krieg",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1939-08-23"},
+      "end": {"date": "1945-05-08"},
+      "summary": {
+        "fr": "Du pacte avec Hitler à la « grande alliance » avec les impérialismes anglo-saxon : dissolution du Komintern et partage du monde en sphères d'influence.",
+        "en": "From the pact with Hitler to the \"grand alliance\" with British and American imperialism: dissolution of the Comintern and division of the world into spheres of influence.",
+        "de": "Vom Pakt mit Hitler zur „großen Allianz“ mit dem britischen und amerikanischen Imperialismus: Auflösung der Komintern und Aufteilung der Welt in Einflusssphären.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "stalinism-international", "order": 4}, {"id": "marxism"}],
+      "persons": ["stalin"],
+      "sources": [{"ref": "wp-en-communist-international"}],
+      "status": "draft"
+    },
+    {
+      "id": "1945-peoples-democracies",
+      "title": {
+        "fr": "Démocraties populaires et guerre froide",
+        "en": "People's Democracies and the Cold War",
+        "de": "Volksdemokratien und Kalter Krieg",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1945-05-08"},
+      "end": {"date": "1956-02-25"},
+      "summary": {
+        "fr": "En Europe de l'Est, l'Armée rouge installe des régimes calqués sur celui de l'URSS ; le Kominform discipline les partis et la Yougoslavie rompt avec Moscou.",
+        "en": "In Eastern Europe, the Red Army installs regimes modelled on that of the USSR; the Cominform disciplines the parties and Yugoslavia breaks with Moscow.",
+        "de": "In Osteuropa errichtet die Rote Armee Regime nach sowjetischem Vorbild; das Kominform diszipliniert die Parteien, und Jugoslawien bricht mit Moskau.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "stalinism-international", "order": 5}, {"id": "marxism"}],
+      "organizations": ["cominform"],
+      "sources": [{"ref": "wp-en-tito-stalin-split"}],
+      "status": "draft"
+    },
+    {
+      "id": "1948-prague-coup",
+      "title": {
+        "orig": "cs",
+        "cs": "Únorový převrat",
+        "fr": "Coup de Prague",
+        "en": "Prague coup",
+        "de": "Prager Umsturz",
+        "draft": ["en", "de"]
+      },
+      "type": "coup",
+      "start": {"date": "1948-02-21"},
+      "end": {"date": "1948-02-25"},
+      "summary": {
+        "fr": "Après la démission des ministres non communistes, le président Beneš accepte un gouvernement dominé par le Parti communiste, qui prend le contrôle total du pays.",
+        "en": "After the non-communist ministers resign, President Beneš accepts a government dominated by the Communist Party, which takes full control of the country.",
+        "de": "Nach dem Rücktritt der nichtkommunistischen Minister akzeptiert Präsident Beneš eine von der Kommunistischen Partei beherrschte Regierung, die das Land vollständig übernimmt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1945-peoples-democracies"}],
+      "places": ["prague"],
+      "sources": [{"ref": "wp-en-1948-czechoslovak-coup"}],
+      "status": "draft"
+    },
+    {
+      "id": "1948-tito-stalin-split",
+      "title": {
+        "fr": "Rupture Tito-Staline",
+        "en": "Tito–Stalin split",
+        "de": "Bruch zwischen Tito und Stalin",
+        "draft": ["en", "de"]
+      },
+      "type": "split",
+      "start": {"date": "1948-06-28"},
+      "summary": {
+        "fr": "Le Kominform exclut le parti yougoslave, qui refuse de se soumettre à Moscou : première rupture au sein du bloc stalinien.",
+        "en": "The Cominform expels the Yugoslav party, which refuses to submit to Moscow: the first break within the Stalinist bloc.",
+        "de": "Das Kominform schließt die jugoslawische Partei aus, die sich Moskau nicht unterwerfen will: der erste Bruch im stalinistischen Block.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1945-peoples-democracies"}],
+      "persons": ["tito", "stalin"],
+      "places": ["bucharest", "belgrade"],
+      "organizations": ["cominform"],
+      "sources": [{"ref": "wp-en-tito-stalin-split"}],
+      "status": "draft"
+    },
+    {
+      "id": "1956-crisis-of-stalinism",
+      "title": {
+        "fr": "Déstalinisation et crises du bloc",
+        "en": "De-Stalinisation and the Crises of the Bloc",
+        "de": "Entstalinisierung und Krisen des Blocks",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1956-02-25"},
+      "end": {"date": "1991-12-26"},
+      "summary": {
+        "fr": "Le rapport secret ouvre une crise permanente : révolutions politiques écrasées en Hongrie et en Tchécoslovaquie, rupture sino-soviétique, eurocommunisme, Solidarność, puis effondrement du bloc.",
+        "en": "The secret speech opens a permanent crisis: political revolutions crushed in Hungary and Czechoslovakia, the Sino-Soviet split, Eurocommunism, Solidarność, then the collapse of the bloc.",
+        "de": "Die Geheimrede eröffnet eine Dauerkrise: niedergeschlagene politische Revolutionen in Ungarn und der Tschechoslowakei, chinesisch-sowjetischer Bruch, Eurokommunismus, Solidarność, dann Zusammenbruch des Blocks.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "stalinism-international", "order": 6}, {"id": "marxism"}],
+      "persons": ["khrushchev"],
+      "sources": [{"ref": "ipn-birth-of-solidarity"}],
+      "status": "draft"
+    },
+    {
+      "id": "1980-gdansk-strikes-and-solidarity",
+      "title": {
+        "orig": "pl",
+        "pl": "Strajki w Gdańsku i powstanie Solidarności",
+        "fr": "Grèves de Gdańsk et naissance de Solidarność",
+        "en": "Gdańsk strikes and the birth of Solidarity",
+        "de": "Streiks in Danzig und Gründung der Solidarność",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "1980-08"},
+      "end": {"date": "1980-09-17"},
+      "summary": {
+        "fr": "Parties du chantier naval de Gdańsk, les grèves arrachent les accords du 31 août et la création d'un syndicat indépendant, Solidarność, fondé le 17 septembre.",
+        "en": "Starting at the Gdańsk shipyard, the strikes win the agreements of 31 August and the creation of an independent union, Solidarity, founded on 17 September.",
+        "de": "Die von der Danziger Werft ausgehenden Streiks erzwingen das Abkommen vom 31. August und eine unabhängige Gewerkschaft, die am 17. September gegründete Solidarność.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1956-crisis-of-stalinism"}],
+      "places": ["gdansk"],
+      "sources": [{"ref": "ipn-birth-of-solidarity"}],
+      "status": "draft"
+    },
+    {
+      "id": "1981-martial-law-in-poland",
+      "title": {
+        "orig": "pl",
+        "pl": "Stan wojenny w Polsce",
+        "fr": "État de guerre en Pologne",
+        "en": "Martial law in Poland",
+        "de": "Kriegsrecht in Polen",
+        "draft": ["en", "de"]
+      },
+      "type": "repression",
+      "start": {"date": "1981-12-13"},
+      "summary": {
+        "fr": "Le général Jaruzelski proclame l'état de guerre, interdit Solidarność et fait interner ses militants.",
+        "en": "General Jaruzelski declares martial law, bans Solidarity and has its activists interned.",
+        "de": "General Jaruzelski verhängt das Kriegsrecht, verbietet die Solidarność und lässt ihre Aktivisten internieren.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1956-crisis-of-stalinism"}],
+      "places": ["warsaw"],
+      "sources": [{"ref": "ipn-birth-of-solidarity"}],
+      "status": "draft"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Collection persons",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "collection": {
+      "const": "persons"
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/item"
+      }
+    }
+  },
+  "required": [
+    "collection",
+    "version",
+    "items"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "item": {
+      "type": "object",
+      "title": "Personne",
+      "properties": {
+        "id": {
+          "$ref": "common.schema.json#/$defs/slug"
+        },
+        "name": {
+          "$ref": "common.schema.json#/$defs/localizedText"
+        },
+        "full_name": {
+          "$ref": "common.schema.json#/$defs/localizedText"
+        },
+        "aliases": {
+          "$ref": "common.schema.json#/$defs/stringList"
+        },
+        "occupation": {
+          "description": "Activité ou rôle principal en quelques mots (« théoricien marxiste, révolutionnaire »).",
+          "$ref": "common.schema.json#/$defs/localizedText"
+        },
+        "born": {
+          "$ref": "common.schema.json#/$defs/dateValue"
+        },
+        "died": {
+          "$ref": "common.schema.json#/$defs/dateValue"
+        },
+        "birth_place": {
+          "description": "Lieu de naissance (identifiant de places).",
+          "$ref": "common.schema.json#/$defs/slug"
+        },
+        "death_place": {
+          "description": "Lieu de décès (identifiant de places).",
+          "$ref": "common.schema.json#/$defs/slug"
+        },
+        "summary": {
+          "$ref": "common.schema.json#/$defs/localizedText"
+        },
+        "bio": {
+          "description": "Mini-biographie : 3 à 6 phrases factuelles, 1200 caractères au plus par langue. Le résumé (summary) reste une phrase d'accroche.",
+          "$ref": "common.schema.json#/$defs/localizedText"
+        },
+        "memberships": {
+          "description": "Appartenances successives à des organisations, avec dates et rôle.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "org": {
+                "$ref": "common.schema.json#/$defs/slug"
+              },
+              "from": {
+                "$ref": "common.schema.json#/$defs/dateValue"
+              },
+              "to": {
+                "$ref": "common.schema.json#/$defs/dateValue"
+              },
+              "role": {
+                "$ref": "common.schema.json#/$defs/localizedText"
+              },
+              "note": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "org"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "phases": {
+          "description": "Étapes d'un parcours séparées par une rupture (Plekhanov avant et après 1914).",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "from": {
+                "$ref": "common.schema.json#/$defs/dateValue"
+              },
+              "to": {
+                "$ref": "common.schema.json#/$defs/dateValue"
+              },
+              "label": {
+                "$ref": "common.schema.json#/$defs/localizedText"
+              },
+              "summary": {
+                "$ref": "common.schema.json#/$defs/localizedText"
+              }
+            },
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "wikidata": {
+          "$ref": "common.schema.json#/$defs/wikidataId"
+        },
+        "sources": {
+          "$ref": "common.schema.json#/$defs/sourceList"
+        },
+        "tags": {
+          "$ref": "common.schema.json#/$defs/stringList"
+        },
+        "status": {
+          "$ref": "common.schema.json#/$defs/status"
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ],
+      "additionalProperties": false
+    }
+  }
+}
