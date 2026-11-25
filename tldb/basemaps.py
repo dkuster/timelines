@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-"""build_basemaps — fonds de carte hors ligne pour viewer/map-proto.html (viewer/basemaps.js).
+"""Fonds de carte hors ligne de la carte (web/public/data/basemaps.js, copié dans dist/data/).
 
 Télécharge les frontières historiques de historical-basemaps (André Ourednik, GPL-3.0)
 pour les années demandées, ainsi que les lacs et fleuves de Natural Earth 1:10m
@@ -9,17 +8,16 @@ pour les années demandées, ainsi que les lacs et fleuves de Natural Earth 1:10
 Prérequis : Python 3.9+, une connexion internet, et mapshaper (Node.js) :
   npm install -g mapshaper
 
-Usage, depuis la racine de la base :
-  py tools\\build_basemaps.py                       (années 1900 1914 1920)
-  py tools\\build_basemaps.py --years 1900 1914 1920 1930 1938 1945
+Usage, depuis la racine du dépôt :
+  py -m tldb basemaps                                (années 1900 1914 1920)
+  py -m tldb basemaps --years 1900 1914 1920 1930 1938 1945
 
 Années disponibles : voir https://github.com/aourednik/historical-basemaps/tree/master/geojson
 (world_1880, world_1900, world_1914, world_1920, world_1930, world_1938, world_1945, world_1960…).
-La période proposée par le prototype suit les années présentes (de la première carte à dix ans après la dernière).
+La période proposée par la carte suit les années présentes (de la première carte à dix ans après la dernière).
 """
 from __future__ import annotations
 
-import argparse
 import json
 import shutil
 import subprocess
@@ -85,12 +83,9 @@ def features(path: Path, props: list[tuple[str, str]]) -> list:
     return out
 
 
-def main() -> int:
-    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--root", type=Path, default=Path(__file__).resolve().parent.parent)
-    ap.add_argument("--years", type=int, nargs="+", default=[1900, 1914, 1920])
-    args = ap.parse_args()
-    out = args.root / "viewer" / "basemaps.js"
+def cmd_basemaps(args) -> int:
+    out = args.root / "web" / "public" / "data" / "basemaps.js"
+    out.parent.mkdir(parents=True, exist_ok=True)
 
     with tempfile.TemporaryDirectory() as tmp:
         t = Path(tmp)
@@ -108,7 +103,7 @@ def main() -> int:
                 "lakes": features(lakes, [("scalerank", "r"), ("name", "n")]),
                 "rivers": features(rivers, [("scalerank", "r"), ("name", "n")])}
 
-    head = ("/* Fonds de carte hors ligne du prototype viewer/map-proto.html (produit par tools/build_basemaps.py).\n"
+    head = ("/* Fonds de carte hors ligne de la carte (produit par « py -m tldb basemaps »).\n"
             "   Frontières : historical-basemaps (André Ourednik, GPL-3.0), https://github.com/aourednik/historical-basemaps"
             f" — années {', '.join(map(str, sorted(maps)))}.\n"
             "   Lacs et fleuves : Natural Earth 1:10m (domaine public), https://www.naturalearthdata.com\n"
@@ -118,6 +113,3 @@ def main() -> int:
     print(f"{out} écrit ({len(payload) // 1024} Ko) — cartes {', '.join(map(str, sorted(maps)))}")
     return 0
 
-
-if __name__ == "__main__":
-    sys.exit(main())
