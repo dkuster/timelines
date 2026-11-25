@@ -122,7 +122,7 @@ def main() -> int:
 
     root: Path = args.root
     data = root / "data"
-    out: Path = args.out or (root / "viewer" / "data.js")
+    out: Path = args.out or (root / "web" / "data.js")
 
     db: dict = {"generated": datetime.now(timezone.utc).isoformat(timespec="seconds"), "nodes": []}
     files = sorted((data / "nodes").glob("*.json"))

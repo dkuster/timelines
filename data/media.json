@@ -353,7 +353,7 @@
     {
       "id": "pastek-flag",
       "kind": "image",
-      "file": "images/pastek-flag.jpg",
+      "file": "other/images/pastek-flag.jpg",
       "title": {
         "orig": "fr",
         "fr": "Drapeau de Capt'ain Pastek, inspiré de One Piece. Le vert pour l'écologie, le rouge pour la communisme et le noir pour l'anarchie."
@@ -364,7 +364,7 @@
     {
       "id":"1897-scramble-for-concessions-cartoon",
       "kind":"image",
-      "file":"images/1897-scramble-for-concessions-cartoon.jpg",
+      "file": "other/images/1897-scramble-for-concessions-cartoon.jpg",
       "title": {
         "orig":"fr",
         "fr":"Cette caricature politique de Henri Meyer montre les dirigeants britanniques, allemands et russes entourant un gâteau représentant la Chine, chacun tenant une coute pour le partager. Publié dans Le Petit Journal le 16 janvier 1898, elle satirise l’imperialisme et la rivalité des grandes puissances pour le contrôle de la Chine."

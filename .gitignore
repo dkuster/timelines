@@ -1,7 +1,7 @@
 # Généré
 dist/
-viewer/data.js
-viewer/data-mobile.js
+web/data.js
+web/data-mobile.js
 __pycache__/
 *.pyc
 .pytest_cache/
