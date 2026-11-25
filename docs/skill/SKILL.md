@@ -1,27 +1,27 @@
 ---
 name: "timeline-db"
-description: "Générer, compléter ou corriger des timelines historiques dans la base JSON de Dom (dossier timeline-db). À utiliser pour créer une timeline, ajouter des événements, des entités ou des idées (courants, théories, mots d'ordre), ou vérifier la base."
+description: "Générer, compléter ou corriger des timelines historiques dans la base JSON de Dom (dépôt git timelines). À utiliser pour créer une timeline, ajouter des événements, des entités ou des idées (courants, théories, mots d'ordre), ou vérifier la base."
 ---
 
 # Base de timelines : génération et édition
 
-La base est un dossier versionné sur l'ordinateur de Dom (Windows). Sa racine contient `data/`, `notes/`, `media/`, `schema/`, `tools/tldb.py` et `README.md`.
+La base est le dépôt git public `dkuster/timelines` (https://github.com/dkuster/timelines), cloné sur l'ordinateur de Dom (Windows) dans `C:\DEV\timelines`. Sa racine contient `data/`, `notes/`, `media/`, `schema/`, le paquet Python `tldb/`, `web/` (sources des pages), `docs/` et `README.md`. L'ancien dossier kDrive `timeline-db` n'est plus qu'une archive : ne jamais y écrire.
 
 - La spécification lisible est le document « Base de timelines — spécification du format JSON » (https://claude.ai/artifact/VKqcPRot8LY14MDF5ZLNbB), parfois exporté en `SPEC.md` à la racine. En cas de doute sur le sens d'un champ, c'est elle qui fait foi.
 - `schema/*.schema.json` fait foi pour la structure et les valeurs autorisées.
-- `tools/tldb.py` valide, formate et interroge la base.
+- `py -m tldb …`, lancé depuis la racine du dépôt, valide, formate et interroge la base ; `py -m tldb build` construit le site dans `dist/` (organisation du dépôt : `docs/architecture.md`).
 
 ## 1. Accéder à la base
 
-1. Repérer le dossier parmi les dossiers connectés à la session (racine reconnaissable à `tools/tldb.py`). S'il n'est pas connecté, demander à Dom de connecter le dossier `timeline-db` depuis l'app de bureau. Ne jamais recréer une base vide à la place.
-2. Si un shell sur son ordinateur est disponible, travailler directement dans le dossier : `py tools\tldb.py …` (ou `python`). Il faut Python 3.9+ avec `jsonschema>=4.18` et `pyyaml`. S'ils manquent, le dire à Dom plutôt que les installer d'office.
-3. Sinon, copier `data/`, `notes/`, `schema/` et `tools/` dans l'espace de travail, y exécuter `tldb.py` avec `--root` et `--no-media-files`, puis réécrire dans le dossier de Dom uniquement les fichiers modifiés.
-4. Ne modifier que `data/` et `notes/` (le schéma et la spécification seulement si Dom le demande). Ne jamais supprimer de fichier ni d'entité : une entité écartée passe en `disabled`, et seulement si Dom le demande.
+1. Repérer le dossier parmi les dossiers connectés à la session (racine reconnaissable à `tldb/__main__.py`). S'il n'est pas connecté, demander à Dom de connecter le dossier `C:\DEV\timelines` depuis l'app de bureau. Ne jamais recréer une base vide à la place.
+2. Si un shell sur son ordinateur est disponible, travailler directement dans le dossier : `py -m tldb …` (ou `python -m tldb …`). Il faut Python 3.9+ avec `jsonschema>=4.18` et `pyyaml` (`py -m pip install -r requirements.txt`). S'ils manquent, le dire à Dom plutôt que les installer d'office.
+3. Sinon, copier `data/`, `notes/`, `schema/` et `tldb/` dans l'espace de travail, y exécuter `python3 -m tldb …` depuis la racine de la copie (avec `--no-media-files` pour `validate`), puis réécrire dans le dossier de Dom uniquement les fichiers modifiés.
+4. Ne modifier que `data/` et `notes/` (le schéma et la spécification seulement si Dom le demande). Ne pas committer ni pousser sans que Dom le demande : un push sur `main` republie le site public. Ne jamais supprimer de fichier ni d'entité : une entité écartée passe en `disabled`, et seulement si Dom le demande.
 
 ## 2. Faire l'inventaire avant d'écrire
 
-- `tldb.py tree --depth 2` : voir les racines et les grandes périodes existantes.
-- `tldb.py index --grep <texte>` pour **chaque** personne, lieu, organisation, œuvre et source mentionnés. Chercher aussi les variantes (Lénine, Lenin, Oulianov ; Petrograd, Saint-Pétersbourg) : réutiliser l'identifiant existant plutôt que créer un doublon.
+- `py -m tldb tree --depth 2` : voir les racines et les grandes périodes existantes.
+- `py -m tldb index --grep <texte>` pour **chaque** personne, lieu, organisation, œuvre et source mentionnés. Chercher aussi les variantes (Lénine, Lenin, Oulianov ; Petrograd, Saint-Pétersbourg) : réutiliser l'identifiant existant plutôt que créer un doublon.
 - Choisir les parents des nouveaux nœuds parmi les nœuds existants. S'il manque une racine (un pays, un mouvement), la créer avec un bloc `view` et le signaler. Une racine de courant ou de thème transversal (comme `marxism` ou `trotskyism`) reçoit `"kind": "theme"` dans ce bloc ; un pays ou une région n'en a pas besoin (`region` par défaut ; `global` est réservé à `world`). Le viewer mobile s'en sert pour inclure ou exclure les timelines thématiques de ses secondaires automatiques.
 
 Pour une demande vaste ou floue (période, profondeur, source à suivre), poser une seule question de cadrage avant de générer. Pour un ajout précis, procéder directement. Au-delà d'une trentaine de nœuds, travailler par lots et valider entre chaque lot.
@@ -57,7 +57,7 @@ Conséquences pour la rédaction :
 - Réserver `shared` aux événements d'importance générale qui doivent suivre leur guerre ou leur crise partout : tournants d'une guerre mondiale, déclencheur d'une crise mondiale. Un épisode national (une bataille du front italien, une rafle) reste privé : il apparaît dans sa timeline et, par rattachement direct, sous son conteneur mondial, sans plus.
 - Réserver `deep` à une timeline thématique ou voisine qui veut un sous-arbre entier d'une autre : par exemple la révolution de 1905 dans `bolshevism`. Le drapeau se pose dans `parents` du nœud importé, sur l'entrée qui pointe vers la timeline d'accueil : `{"id": "1905-first-revolution-period", "deep": true}`.
 - `shared` et `deep` valent `false` par défaut et ne s'écrivent que lorsqu'ils valent `true`.
-- `tldb.py scope <racine>` montre ce qu'une timeline importe et pourquoi ; `tldb.py scope --excluded` montre ce que la règle écarte. Après un ajout touchant une guerre ou une crise mondiale, vérifier ces deux sorties et signaler dans le rapport les choix `shared` et `deep`.
+- `py -m tldb scope <racine>` montre ce qu'une timeline importe et pourquoi ; `py -m tldb scope --excluded` montre ce que la règle écarte. Après un ajout touchant une guerre ou une crise mondiale, vérifier ces deux sorties et signaler dans le rapport les choix `shared` et `deep`.
 
 ## 3. Règles de rédaction
 
@@ -127,21 +127,21 @@ Vérification des coordonnées :
 
 ### Idées (`ideas`)
 
-La collection `data/ideas.json` décrit les idées : courants (`current`), théories, concepts, stratégies, mots d'ordre (`slogan`) et méthodes. Spécification : `specs/ideas.md`.
+La collection `data/ideas.json` décrit les idées : courants (`current`), théories, concepts, stratégies, mots d'ordre (`slogan`) et méthodes. Spécification : `docs/specs/ideas.md`.
 
 - **Champs** : `name`, `type`, `tradition`, `broader` (idées plus générales ; forme l'arbre des courants), `timeline` (racine de la timeline d'un courant qui en a une, comme `bolshevism`), `summary` (une phrase, fr/en/de), `definition` (3 à 6 phrases factuelles, 1200 caractères au plus) et `appraisal`.
 - **`definition` et `appraisal` sont séparées** : la définition reste factuelle ; l'appréciation donne le point de vue du marxisme révolutionnaire. Ne jamais mêler les deux.
 - **Jalons (`milestones`)** : l'histoire de l'idée, dans l'ordre chronologique. Chaque jalon a une étape (`stage`) et au moins un champ parmi `date`, `work`, `node`. Sans `date`, il prend la date de publication de l'œuvre ou le début du nœud. Pour une œuvre posthume, donner `date` (date de rédaction) en plus de `work`. `note` dit en une phrase ce qui se passe.
 - Un évènement qui met une idée à l'épreuve est un jalon `test` de l'idée, pas un lien. Une relation entre deux idées s'écrit en lien (`develops`, `revises`, `opposes`, `influences`, `continues`, `comparable_to`).
 - La pensée adverse (libéralisme, fascisme, etc.) n'entre que si elle a pesé sur le mouvement ouvrier.
-- `tldb.py index --collection ideas` liste les idées ; `validate` contrôle les références des jalons, leur date calculable, leur ordre chronologique et les cycles de `broader`.
+- `py -m tldb index --collection ideas` liste les idées ; `validate` contrôle les références des jalons, leur date calculable, leur ordre chronologique et les cycles de `broader`.
 
 ### Liens
 - Uniquement pour une relation explicite et utile : cause, réaction, influence, prolongement, opposition, comparaison.
 - Chaque lien porte `status: draft`, `provenance: {"by": "claude", "date": "<aujourd'hui>"}` et une `justification` d'une phrase.
 - Ne pas recréer en lien ce qui est déjà exprimé ou calculé : la relation parent-enfant, la contemporanéité, les co-occurrences.
 - Un lien `comparable_to` ne s'écrit qu'une fois, dans un seul sens.
-- Les liens entre timelines différentes nourrissent le mode automatique du viewer mobile. `tldb.py related <racine> <date>` montre quelles timelines seraient proposées à côté d'une autre, et pourquoi ; `tldb.py related --gaps` liste les décennies où une timeline n'a aucun rapport avec les autres. Quand Dom demande d'enrichir les liens, partir de cette liste.
+- Les liens entre timelines différentes nourrissent le mode automatique du viewer mobile. `py -m tldb related <racine> <date>` montre quelles timelines seraient proposées à côté d'une autre, et pourquoi ; `py -m tldb related --gaps` liste les décennies où une timeline n'a aucun rapport avec les autres. Quand Dom demande d'enrichir les liens, partir de cette liste.
 
 ### Médias
 - N'ajouter un média externe que si l'URL a été ouverte et vérifiée. Ne jamais inventer de chemin de fichier local : un fichier n'est référencé que si Dom l'a fourni.
@@ -154,7 +154,7 @@ Ne pas écrire de champ `importance`. Le filtrage est reporté à un futur class
 
 - Ranger un nœud dans `data/nodes/<racine>.json`, d'après la racine de son parent principal (le premier de `parents`). Une nouvelle racine reçoit son propre fichier, nommé d'après son identifiant.
 - Ajouter les éléments à la fin de `items` sans réordonner l'existant. Passer par un script qui charge le JSON, ajoute et réécrit : ne jamais réécrire un fichier de mémoire, ni à partir d'une sortie d'outil tronquée.
-- Lancer ensuite `tldb.py format` pour obtenir le format canonique et des diffs propres.
+- Lancer ensuite `py -m tldb format` pour obtenir le format canonique et des diffs propres.
 - La taille d'une commande du shell distant est limitée : pour un gros lot (plusieurs dizaines d'entités), écrire le script et les données dans l'espace de travail, copier les fichiers à modifier, les réécrire dans le dossier de Dom, puis lancer `validate` et `format` dans son dossier.
 
 ## 5. Consigner les vérifications
@@ -189,10 +189,10 @@ status: draft
 
 ## 6. Valider
 
-- Lancer `tldb.py validate`. Corriger toutes les erreurs dues à mes ajouts. Pour les avertissements : les corriger, ou les expliquer dans le rapport.
+- Lancer `py -m tldb validate`. Corriger toutes les erreurs dues à mes ajouts. Pour les avertissements : les corriger, ou les expliquer dans le rapport.
 - Un lieu sans `kind` ou sans `coords` est une erreur de schéma : la compléter avant d'écrire dans le dossier de Dom, jamais la laisser pour la relecture.
 - Une erreur qui existait avant mon intervention est signalée à Dom, pas corrigée d'office.
-- `tldb.py format --check` doit être propre.
+- `py -m tldb format --check` doit être propre.
 
 ## 7. Rapport à Dom
 

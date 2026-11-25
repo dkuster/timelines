@@ -1,0 +1,14 @@
+{
+  "name": "timelines",
+  "private": true,
+  "description": "Pages du site Timeline : sources ES modules (web/), assemblées par esbuild dans dist/ via « py -m tldb build ».",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint web"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "eslint": "^10.15.0",
+    "globals": "^16.0.0"
+  }
+}

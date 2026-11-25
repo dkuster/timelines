@@ -1,16 +1,14 @@
 # Généré
 dist/
-web/data.js
-web/data-mobile.js
 __pycache__/
 *.pyc
 .pytest_cache/
 node_modules/
-tools/.publish-state.json
 
 # Secrets et réglages locaux
 .env
 specs/ftp.md
+docs/specs/ftp.md
 
 # Système
 .DS_Store

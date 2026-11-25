@@ -1,5 +1,7 @@
 # Collection `ideas` : proposition à valider
 
+> Note du 25 novembre 2026 : ce document date d'avant la réorganisation du dépôt. Les chemins `viewer/…`, `tools/…` et `build_viewer.py` correspondent aujourd'hui à `web/apps/…`, `tldb/` et `py -m tldb build` ; voir `docs/architecture.md`.
+
 Statut : **proposition** (2026-10-26). Rien n'est encore implémenté : ni schéma, ni outil, ni données.
 
 ## 1. Principe

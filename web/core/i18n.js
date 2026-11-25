@@ -1,5 +1,5 @@
 /* =====================================================================
-   i18n.js — traductions de l'interface : accueil (index.html), frise (desktop.html), mobile (mobile.html)
+   core/i18n.js — traductions de l'interface, partagées par toutes les pages (accueil, frise, mobile, carte)
 
    Le contenu de la base (titres, résumés, biographies…) est déjà multilingue dans
    les données ; ce fichier ne traduit que les textes de l'application : boutons,
@@ -20,8 +20,6 @@
    code à LANGS et à LOCALES. Les viewers proposent alors automatiquement la langue
    (sélecteur du bureau et menu du mobile).
    ===================================================================== */
-(function(){
-"use strict";
 
 const LANGS = ["fr", "en", "de"];
 const LOCALES = {fr:"fr-CH", en:"en-GB", de:"de-CH"};
@@ -135,7 +133,7 @@ fr: {
   "d.density.none": "Points seulement",
   "d.focus.clear": "✕ Retirer le filtre",
   "d.focus.text": "Filtre : {name} — {events}",
-  "d.loader.html": "<p>Le fichier <code>viewer/data.js</code> n'existe pas encore. Depuis la racine de la base, lance :</p><p><code>py tools\\build_viewer.py</code></p><p>puis recharge la page. En attendant, tu peux choisir directement le dossier de la base (racine, pour avoir aussi les notes) ou son dossier <code>data</code> :</p>",
+  "d.loader.html": "<p>Les données (<code>data/base.js</code>) sont absentes. Depuis la racine du dépôt, lance :</p><p><code>py -m tldb build</code></p><p>puis ouvre la page construite dans <code>dist/</code>.</p>",
   "d.back": "← Retour",
   "d.zoom": "Zoomer",
   "d.isolate": "Isoler",
@@ -243,7 +241,7 @@ fr: {
   "m.reload": "Recharger",
   "m.notFound": "Fiche introuvable.",
   "m.onTimeline": "◎ Voir sur la timeline",
-  "m.nodata.html": "<p>Le fichier <code>data-mobile.js</code> (ou <code>data.js</code>) manque à côté de cette page.</p><p>Depuis la racine de la base : <code>py tools\\build_viewer.py</code></p>"
+  "m.nodata.html": "<p>Les données (<code>data/base.js</code>) manquent à côté de cette page.</p><p>Depuis la racine du dépôt : <code>py -m tldb build</code></p>",
 },
 
 en: {
@@ -347,7 +345,7 @@ en: {
   "d.density.none": "Markers only",
   "d.focus.clear": "✕ Clear filter",
   "d.focus.text": "Filter: {name} — {events}",
-  "d.loader.html": "<p>The file <code>viewer/data.js</code> does not exist yet. From the root of the database, run:</p><p><code>py tools\\build_viewer.py</code></p><p>then reload the page. Meanwhile you can pick the database folder directly (root, to include the notes) or its <code>data</code> folder:</p>",
+  "d.loader.html": "<p>The data (<code>data/base.js</code>) is missing. From the root of the repository, run:</p><p><code>py -m tldb build</code></p><p>then open the page built in <code>dist/</code>.</p>",
   "d.back": "← Back",
   "d.zoom": "Zoom",
   "d.isolate": "Isolate",
@@ -454,7 +452,7 @@ en: {
   "m.reload": "Reload",
   "m.notFound": "Record not found.",
   "m.onTimeline": "◎ Show on the timeline",
-  "m.nodata.html": "<p>The file <code>data-mobile.js</code> (or <code>data.js</code>) is missing next to this page.</p><p>From the root of the database: <code>py tools\\build_viewer.py</code></p>"
+  "m.nodata.html": "<p>The data (<code>data/base.js</code>) is missing next to this page.</p><p>From the root of the repository: <code>py -m tldb build</code></p>",
 },
 
 de: {
@@ -558,7 +556,7 @@ de: {
   "d.density.none": "Nur Punkte",
   "d.focus.clear": "✕ Filter entfernen",
   "d.focus.text": "Filter: {name} — {events}",
-  "d.loader.html": "<p>Die Datei <code>viewer/data.js</code> existiert noch nicht. Im Stammverzeichnis der Datenbank ausführen:</p><p><code>py tools\\build_viewer.py</code></p><p>und die Seite neu laden. Bis dahin kannst du den Ordner der Datenbank direkt wählen (Stammordner, damit auch die Notizen geladen werden) oder ihren Ordner <code>data</code>:</p>",
+  "d.loader.html": "<p>Die Daten (<code>data/base.js</code>) fehlen. Im Stammverzeichnis des Repositorys ausführen:</p><p><code>py -m tldb build</code></p><p>und dann die in <code>dist/</code> erzeugte Seite öffnen.</p>",
   "d.back": "← Zurück",
   "d.zoom": "Zoomen",
   "d.isolate": "Isolieren",
@@ -665,7 +663,7 @@ de: {
   "m.reload": "Neu laden",
   "m.notFound": "Steckbrief nicht gefunden.",
   "m.onTimeline": "◎ Auf der Zeitleiste zeigen",
-  "m.nodata.html": "<p>Die Datei <code>data-mobile.js</code> (oder <code>data.js</code>) fehlt neben dieser Seite.</p><p>Im Stammverzeichnis der Datenbank: <code>py tools\\build_viewer.py</code></p>"
+  "m.nodata.html": "<p>Die Daten (<code>data/base.js</code>) fehlen neben dieser Seite.</p><p>Im Stammverzeichnis des Repositorys: <code>py -m tldb build</code></p>",
 }
 };
 
@@ -797,7 +795,7 @@ function apply(root){
   document.documentElement.lang = cur;
 }
 
-window.I18N = {
+export const I18N = {
   LANGS, LOCALES, NAMES, MONTHS, MSHORT, QUAL,
   get lang(){ return cur; },
   /** suit la langue d'affichage du contenu ; « orig » (ou une langue non traduite) garde la langue courante. Renvoie true si elle change. */
@@ -814,4 +812,6 @@ window.I18N = {
   /** pour vérifier qu'aucune clé ne manque : I18N.missing() dans la console */
   missing(){ const out = {}; for (const l of LANGS){ const m = Object.keys(STR.fr).filter(k => !(k in STR[l])); if (m.length) out[l] = m; } return out; }
 };
-})();
+
+// accessible depuis la console : I18N.missing()
+window.I18N = I18N;

@@ -121,7 +121,7 @@ def bundle(root: Path, out: Path, minify: bool) -> None:
         raise SystemExit("esbuild introuvable : lancer « npm install » à la racine du dépôt")
     entries = [str(root / "web" / "apps" / p / "main.js") for p in PAGES if (root / "web" / "apps" / p / "main.js").exists()]
     cmd = exe + entries + ["--bundle", "--format=iife", "--target=es2020", "--charset=utf8", "--log-level=warning",
-                           f"--outdir={out / 'assets'}", "--entry-names=[dir]", "--sourcemap=linked"]
+                           f"--outdir={out / 'assets'}", f"--outbase={root / 'web' / 'apps'}", "--entry-names=[dir]", "--sourcemap=linked"]
     if minify:
         cmd.append("--minify")
     # [dir] = nom du dossier de l'application : assets/desktop.js, assets/mobile.js…
@@ -159,6 +159,8 @@ def build(root: Path, out: Path | None = None, minify: bool = True, quiet: bool 
     (out / "data" / "notes.js").write_text(js_assign("TLDB_NOTES", verif), encoding="utf-8")
 
     copy_tree(web / "public", out)
+    for proto in sorted((web / "prototypes").glob("*.html")):   # prototypes autonomes (données embarquées)
+        shutil.copyfile(proto, out / proto.name)
     copy_tree(root / "media", out / "media")
     for p in PAGES:
         page = web / "apps" / p / "index.html"
@@ -171,7 +173,6 @@ def build(root: Path, out: Path | None = None, minify: bool = True, quiet: bool 
     if sw.exists():
         sw.write_text(re.sub(r'^const VERSION = ".*?";', f'const VERSION = "{version}";',
                              sw.read_text(encoding="utf-8"), count=1, flags=re.M), encoding="utf-8")
-    (out / ".nojekyll").write_text("", encoding="utf-8")   # GitHub Pages : servir tel quel
 
     if not quiet:
         counts = ", ".join(f"{k} {len(v)}" for k, v in db.items() if isinstance(v, list) and k != "lanes")

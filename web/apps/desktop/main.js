@@ -1,354 +1,42 @@
-<!doctype html>
-<html lang="fr">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Frise — timeline-db</title>
-<link rel="icon" href="icons/icon-192.png">
-<style>
-:root{
-  --paper:#f6f3ec; --paper2:#efeadf; --card:#fffdf8; --ink:#1f1c18; --muted:#6d675c; --faint:#a59e90;
-  --rule:#ddd5c5; --accent:#b3261e; --focus:#1f4e8c;
-  --serif: "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
-  --sans: "Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
-}
-*{box-sizing:border-box}
-html,body{margin:0;height:100%;background:var(--paper);color:var(--ink);font:14px/1.45 var(--sans)}
-button,select,input{font:inherit;color:inherit}
-#app{display:grid;grid-template-rows:auto 1fr;grid-template-columns:auto 1fr;height:100vh}
-header{grid-column:1/3;display:flex;align-items:center;gap:10px;padding:8px 12px;border-bottom:1px solid var(--rule);background:var(--paper2);flex-wrap:wrap}
-.brand{font:600 17px/1 var(--serif);letter-spacing:.2px;margin-right:6px;white-space:nowrap;color:inherit;text-decoration:none}
-.brand small{font:12px var(--sans);color:var(--muted);margin-left:6px}
-.search{position:relative;flex:1 1 260px;max-width:440px}
-.search input{width:100%;padding:6px 10px;border:1px solid var(--rule);border-radius:6px;background:var(--card)}
-.search input:focus{outline:2px solid #1f4e8c55;border-color:var(--focus)}
-#results{position:absolute;top:100%;left:0;right:0;margin-top:4px;background:var(--card);border:1px solid var(--rule);border-radius:6px;box-shadow:0 8px 24px #0002;z-index:30;max-height:60vh;overflow:auto;display:none}
-#results div{padding:6px 10px;cursor:pointer;display:flex;gap:8px;align-items:baseline}
-#results div.on,#results div:hover{background:#efe7d6}
-#results .k{font-size:11px;color:var(--muted);min-width:64px}
-#results .d{margin-left:auto;font-size:12px;color:var(--muted);white-space:nowrap}
-.tools{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
-.btn{border:1px solid var(--rule);background:var(--card);border-radius:6px;padding:5px 9px;cursor:pointer;white-space:nowrap}
-.btn:hover{border-color:var(--faint)}
-.btn.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
-.btn.rec.on{background:var(--accent);border-color:var(--accent)}
-select.btn{padding:5px 6px}
-#side{width:250px;border-right:1px solid var(--rule);overflow:auto;padding:10px 10px 20px;background:var(--paper)}
-#side h3{font:600 11px/1 var(--sans);text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:14px 0 8px}
-#side h3:first-child{margin-top:4px}
-.lane-row{display:flex;align-items:center;gap:6px;padding:3px 0}
-.lane-row label{display:flex;align-items:center;gap:6px;cursor:pointer;flex:1;min-width:0}
-.lane-row .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.sw{width:10px;height:10px;border-radius:2px;flex:none}
-.bg-t{font-size:11px;border:1px solid var(--rule);background:var(--card);border-radius:4px;padding:0 5px;cursor:pointer;color:var(--muted)}
-.bg-t.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
-.lane-tools{display:flex;gap:4px;margin:-2px 0 6px}
-.lane-tools button{font-size:11px;border:1px solid var(--rule);background:var(--card);border-radius:4px;padding:1px 7px;cursor:pointer;color:var(--muted)}
-.lane-tools button:hover{color:var(--ink);border-color:var(--muted)}
-.lane-row.off .nm{color:var(--faint)}
-.legend div{display:flex;align-items:center;gap:8px;padding:2px 0;cursor:pointer;user-select:none}
-.legend div.off{opacity:.35}
-.legend canvas{flex:none}
-.hint{font-size:12px;color:var(--muted);line-height:1.5}
-.hint kbd{font:11px var(--sans);border:1px solid var(--rule);border-bottom-width:2px;border-radius:3px;padding:0 4px;background:var(--card)}
-input[type=range]{width:100%}
-#stage{position:relative;overflow:hidden;min-width:0}
-#cv{position:absolute;inset:0;width:100%;height:100%;cursor:grab;touch-action:none}
-#cv.drag{cursor:grabbing}
-#cv.pt{cursor:pointer}
-#tip{position:absolute;pointer-events:none;background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:7px 9px;box-shadow:0 6px 20px #0002;max-width:320px;font-size:13px;display:none;z-index:10}
-#tip b{font-family:var(--serif);font-size:14px}
-#tip .m{color:var(--muted);font-size:12px}
-#detail{position:absolute;top:0;right:0;bottom:0;width:min(400px,92vw);background:var(--card);border-left:1px solid var(--rule);box-shadow:-10px 0 30px #0001;overflow:auto;padding:14px 16px 30px;transform:translateX(105%);transition:transform .18s ease;z-index:20}
-#detail.open{transform:none}
-#detail .bar{display:flex;gap:6px;justify-content:space-between;margin-bottom:8px}
-#detail h2{font:600 21px/1.2 var(--serif);margin:4px 0 4px}
-#detail .orig{font-family:var(--serif);color:var(--muted);margin-bottom:6px}
-#detail .meta{color:var(--muted);font-size:13px;margin-bottom:10px}
-#detail .crumbs{font-size:12px;color:var(--muted)}
-#detail .crumbs a{color:var(--muted)}
-#detail h4{font:600 11px/1 var(--sans);text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:16px 0 6px}
-#detail p{margin:0 0 8px}
-#detail a{color:var(--focus);text-decoration:none;cursor:pointer}
-#detail a:hover{text-decoration:underline}
-.chips{display:flex;flex-wrap:wrap;gap:5px}
-.chip{border:1px solid var(--rule);border-radius:999px;padding:1px 9px;font-size:13px;cursor:pointer;background:var(--paper)}
-.chip:hover{border-color:var(--focus);color:var(--focus)}
-.pill{display:inline-block;font-size:11px;border-radius:3px;padding:0 6px;margin-right:4px;color:#fff;vertical-align:1px}
-.draft{background:#c9a227}.final{background:#2e6f40}
-.lk{padding:5px 0;border-top:1px dashed var(--rule)}
-.lk .ty{font-size:12px;color:var(--muted)}
-.lk .why{font-size:12px;color:var(--muted);margin-top:2px}
-.ev{display:flex;gap:8px;padding:4px 0;border-top:1px dashed var(--rule);cursor:pointer;align-items:baseline}
-.ev:hover{color:var(--focus)}
-.ev .dt{font-size:12px;color:var(--muted);min-width:76px;font-variant-numeric:tabular-nums}
-.ev .dot{width:8px;height:8px;border-radius:50%;flex:none;transform:translateY(-1px)}
-figure{margin:8px 0}
-figure img{max-width:100%;border-radius:4px;display:block;background:var(--paper2)}
-figcaption{font-size:12px;color:var(--muted);margin-top:3px}
-figure.one img,.gallery figure,.phead .pt{cursor:zoom-in}
-.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(104px,1fr));gap:8px;margin:6px 0 8px}
-.gallery figure{margin:0}
-.gallery img{width:100%;height:120px;object-fit:cover;object-position:50% 22%}
-.gallery figcaption{font-size:11px;line-height:1.3}
-.phead{display:flex;gap:12px;align-items:flex-start}
-.phead .tx{flex:1;min-width:0}
-.phead .pt{flex:none;width:96px;margin-top:4px}
-.phead .pt img{width:96px;height:124px;object-fit:cover;object-position:50% 20%;border-radius:4px;display:block;background:var(--paper2);box-shadow:0 1px 4px #0002}
-#detail .occ{font-size:13px;margin:2px 0 6px}
-#detail .lead{font-family:var(--serif);font-size:15px;line-height:1.45}
-#detail .bio{line-height:1.55}
-.mb{display:flex;gap:8px;padding:4px 0;border-top:1px dashed var(--rule);align-items:baseline;flex-wrap:wrap}
-.mb .dt{font-size:12px;color:var(--muted);min-width:96px;font-variant-numeric:tabular-nums}
-#lb{position:fixed;inset:0;background:#000d;display:none;align-items:center;justify-content:center;flex-direction:column;z-index:60;padding:20px;cursor:zoom-out}
-#lb.open{display:flex}
-#lb img{max-width:94vw;max-height:80vh;object-fit:contain;background:#222;box-shadow:0 10px 40px #0008}
-#lb .cap{color:#eee;font-size:13px;max-width:760px;text-align:center;margin-top:12px;line-height:1.5}
-#lb .cap b{font-family:var(--serif);font-size:15px}
-#lb .cap .m{color:#bbb;font-size:12px}
-#lb a{color:#9cc3ff;cursor:pointer}
-.src{font-size:13px;padding:3px 0}
-details.note{border:1px solid var(--rule);border-left:3px solid #b8860b;border-radius:4px;background:var(--paper);margin:6px 0;padding:0 10px}
-details.note summary{cursor:pointer;padding:7px 0;font-weight:600;font-size:13px;line-height:1.35;list-style-position:outside;margin-left:14px}
-details.note .nm{display:flex;gap:4px;flex-wrap:wrap;margin:0 0 6px}
-details.note .nm span{font-size:11px;background:var(--paper2);border-radius:3px;padding:1px 6px;color:var(--muted)}
-details.note .nb{font-size:13px;line-height:1.5;padding-bottom:6px}
-details.note .nb h5{font:600 13px var(--sans);margin:10px 0 4px}
-details.note .nb ol,details.note .nb ul{margin:4px 0 8px;padding-left:20px}
-details.note .nb li{margin:3px 0}
-details.note .nb code{background:var(--paper2);padding:0 4px;border-radius:3px;font-size:12px}
-details.note .src{font-size:12px}
-#detail .notecue{font-size:12px;color:#8a6508;margin:-4px 0 8px}
-#focusbar{position:absolute;left:50%;transform:translateX(-50%);bottom:56px;background:var(--ink);color:var(--paper);border-radius:999px;padding:5px 8px 5px 14px;display:none;align-items:center;gap:10px;z-index:15;font-size:13px;box-shadow:0 6px 20px #0003}
-#focusbar button{background:#ffffff22;border:0;color:inherit;border-radius:999px;padding:2px 10px;cursor:pointer}
-#loader{position:fixed;inset:0;background:var(--paper);display:none;align-items:center;justify-content:center;z-index:100;padding:20px}
-#loader .box{max-width:520px;background:var(--card);border:1px solid var(--rule);border-radius:10px;padding:22px}
-#loader h2{font:600 20px var(--serif);margin:0 0 10px}
-#loader code{background:var(--paper2);padding:1px 5px;border-radius:3px}
-#sidetoggle{display:none}
-@media (max-width:820px){
-  #app{grid-template-columns:1fr}
-  #side{position:fixed;top:0;bottom:0;left:0;z-index:40;transform:translateX(-105%);transition:transform .18s;box-shadow:10px 0 30px #0002}
-  #side.open{transform:none}
-  #sidetoggle{display:inline-block}
-  #stage{grid-column:1}
-}
-</style>
-</head>
-<body>
-<div id="app">
-  <header>
-    <button class="btn" id="sidetoggle" data-i18n-title="d.sideToggle" title="Lignes et légende">☰</button>
-    <a class="brand" href="index.html" data-i18n-title="m.home"><span data-i18n="d.brand">Frise</span><small id="stamp"></small></a>
-    <div class="search"><input id="q" data-i18n-ph="d.search" placeholder="Chercher un évènement, une personne, une organisation…" autocomplete="off"><div id="results"></div></div>
-    <div class="tools">
-      <select class="btn" id="lang" data-i18n-title="lang.title" title="Langue">
-        <option value="fr">FR</option><option value="en">EN</option><option value="de">DE</option><option value="orig" data-i18n="lang.orig">Original</option>
-      </select>
-      <button class="btn" id="fit" data-i18n="d.fit" data-i18n-title="d.fit.title">Tout voir</button>
-      <button class="btn" id="alllinks" data-i18n="d.links" data-i18n-title="d.links.title">Liens</button>
-      <button class="btn" id="play" data-i18n-title="d.play.title">▶ Défiler</button>
-      <button class="btn rec" id="rec" data-i18n-title="d.rec.title">● Film</button>
-      <button class="btn" id="png" data-i18n-title="d.png.title">PNG</button>
-    </div>
-  </header>
-  <aside id="side">
-    <h3 data-i18n="d.side.lanes">Lignes</h3>
-    <div class="lane-tools">
-      <button id="lanesAll" data-i18n="d.lanes.all" data-i18n-title="d.lanes.all.title">Toutes</button>
-      <button id="lanesNone" data-i18n="d.lanes.none" data-i18n-title="d.lanes.none.title">Aucune</button>
-      <button id="lanesDef" data-i18n="d.lanes.def" data-i18n-title="d.lanes.def.title">Par défaut</button>
-    </div>
-    <div id="lanes"></div>
-    <div class="hint" style="margin-top:6px" data-i18n="d.side.bgHint">« fond » projette les périodes d'une ligne en bandes verticales derrière toutes les autres.</div>
-    <h3 data-i18n="d.side.density">Titres affichés</h3>
-    <input type="range" id="density" min="0" max="7" value="4">
-    <div class="hint" id="densityLbl"></div>
-    <h3 data-i18n="d.side.types">Types (cliquer pour masquer)</h3>
-    <div class="legend" id="legend"></div>
-    <h3 data-i18n="d.side.nav">Navigation</h3>
-    <div class="hint" data-i18n-html="d.side.navHelp">
-      Molette : zoom · <kbd>Maj</kbd>+molette : défiler les lignes · glisser : déplacer<br>
-      Clic : détails · double-clic : zoomer sur l'évènement<br>
-      <kbd>0</kbd> tout voir · <kbd>Échap</kbd> fermer · <kbd>←</kbd><kbd>→</kbd> déplacer · <kbd>+</kbd><kbd>−</kbd> zoom
-    </div>
-  </aside>
-  <main id="stage">
-    <canvas id="cv"></canvas>
-    <div id="tip"></div>
-    <div id="focusbar"><span id="focustxt"></span><button id="focusclear" data-i18n="d.focus.clear">✕ Retirer le filtre</button></div>
-    <aside id="detail"></aside>
-    <div id="lb"></div>
-  </main>
-</div>
-<div id="loader"><div class="box">
-  <h2 data-i18n="nodata.title">Données introuvables</h2>
-  <div data-i18n-html="d.loader.html"><p>Le fichier <code>viewer/data.js</code> n'existe pas encore. Depuis la racine de la base, lance :</p>
-  <p><code>py tools\build_viewer.py</code></p>
-  <p>puis recharge la page. En attendant, tu peux choisir directement le dossier de la base (racine, pour avoir aussi les notes) ou son dossier <code>data</code> :</p></div>
-  <p><input type="file" id="dirpick" webkitdirectory multiple></p>
-</div></div>
+/* Frise (bureau) */
+import { I18N } from "../../core/i18n.js";
+import { LANG, setLang, tr, txt, esc, norm, allTexts } from "../../core/text.js";
+import { MONTHS, MSHORT, isLeap, daysInYear, dayOfYear, span, NOW, fmtDate, fmtRange } from "../../core/dates.js";
+import { FAMILIES, LINK_COLORS } from "../../core/families.js";
+import { alpha, shapePath, tw, clearTextCache, stamp, download } from "../../core/canvas.js";
+import { DB, NODES, CHILDREN, ENT, LINKS_OUT, LINKS_IN, ENT_NODES, NOTES_ABOUT, WORKS_BY, SUBORGS, ROOT_LANES, ALL_LANES, indexDB, laneOrder, laneName, entName } from "../../core/model.js";
+import { imagesOf, mediaSrc, primaryPortrait } from "../../core/media.js";
+import { link, crumbs } from "../../ui/html.js";
 
-<script src="i18n.js"></script>
-<script src="data.js"></script>
-<script>/* data.js (base complète, avec les notes) est publié en ligne comme en local ; data-mobile.js ne sert qu'à défaut */
-if (!window.TLDB) document.write('<script src="data-mobile.js"><\/script>');</script>
-<script>
-"use strict";
 /* =====================================================================
    Frise — visualiseur de timeline-db (v0)
-   Canvas 2D, sans dépendance. Données : window.TLDB (viewer/data.js)
+   Canvas 2D, sans dépendance. Données : window.TLDB (data/base.js) et window.TLDB_NOTES (data/notes.js),
+   produites par « py -m tldb build ». Code commun : web/core/ et web/ui/.
    ===================================================================== */
 
 // ---------------------------------------------------------------- constantes
-// libellés des types, familles et liens : viewer/i18n.js (I18N.type, I18N.fam, I18N.link)
-const FAMILIES = [
-  {id:"struggle", shape:"triUp", w:6, types:["revolution","insurrection","strike","demonstration","mutiny"]},
-  {id:"violence", shape:"diamond", w:5, types:["war","battle","massacre","repression","genocide","coup","assassination"]},
-  {id:"crisis", shape:"triDown", w:4, types:["crisis","monetary","epidemic","famine","disaster"]},
-  {id:"state", shape:"square", w:3, types:["election","vote","law","treaty","government","independence","unification","ban","trial"]},
-  {id:"org", shape:"circle", w:3, types:["congress","conference","founding","split","merger","publication","speech"]},
-  {id:"life", shape:"ring", w:2, types:["birth","death","arrest","exile","release"]},
-  {id:"culture", shape:"star", w:2, types:["discovery","invention","premiere","artwork","exhibition","festival","competition"]},
-  {id:"other", shape:"dot", w:1, types:["other","era","period"]},
-];
-const FAM_OF = {}; FAMILIES.forEach(f => f.types.forEach(t => FAM_OF[t] = f));
-const LINK_COLORS = {leads_to:"#1f4e8c", causes:"#b3261e", reaction_to:"#8b1e3f", influences:"#2e6f40",
-  continues:"#4a4e69", opposes:"#c25e00", references:"#7a5c3e", comparable_to:"#8e5c9e"};
-const MONTHS = I18N.MONTHS, MSHORT = I18N.MSHORT, QUAL = I18N.QUAL;
-const PALETTE = ["#b3261e","#1f6f8b","#4a4e69","#b8860b","#2e6f40","#8e5c9e","#c25e00","#3a5fa0"];
+// familles, couleurs des liens, palette : core/families.js ; libellés : core/i18n.js
 const AXIS_H = 34, OVER_H = 44, HEADER_H = 22, BAR_H = 19, LH = 15, BASE_PAD = 12, LANE_PAD = 8;
 const MIN_T = 1700, MAX_T = 2045, MIN_SPAN = 7/365.25, MAX_SPAN = 340;
-const NOW = (() => { const d = new Date(); return d.getFullYear() + (dayOfYear(d.getFullYear(), d.getMonth()+1, d.getDate())-1)/daysInYear(d.getFullYear()); })();
 const SANS = "\"Segoe UI\",system-ui,-apple-system,Arial,sans-serif";
 const COLORS = {paper:"#f6f3ec", ink:"#1f1c18", muted:"#6d675c", faint:"#a59e90", rule:"#ddd5c5", grid:"#e7e0d2", sel:"#1f4e8c"};
 
 // ---------------------------------------------------------------- dates
-function isLeap(y){ return (y%4===0 && y%100!==0) || y%400===0; }
-function daysInYear(y){ return isLeap(y) ? 366 : 365; }
-function dayOfYear(y,m,d){ const ml=[31,isLeap(y)?29:28,31,30,31,30,31,31,30,31,30,31]; let n=d; for(let i=0;i<m-1;i++) n+=ml[i]; return n; }
-function parseD(s){ const neg = s.startsWith("-"); const p = (neg?s.slice(1):s).split("-").map(Number); return {y:neg?-p[0]:p[0], m:p[1]||0, d:p[2]||0}; }
-/** intervalle [a,b[ en années fractionnaires couvert par une date de précision variable */
-function span(dv){
-  const {y,m,d} = parseD(dv.date), D = daysInYear(y);
-  if (d){ const a = y + (dayOfYear(y,m,d)-1)/D; return [a, a+1/D]; }
-  if (m){ return [y + (dayOfYear(y,m,1)-1)/D, m===12 ? y+1 : y + (dayOfYear(y,m+1,1)-1)/D]; }
-  return [y, y+1];
-}
-function fmtRaw(s, lang){
-  const {y,m,d} = parseD(s), L = MONTHS[lang] || MONTHS.fr;
-  if (d) return lang==="de" ? `${d}. ${L[m-1]} ${y}` : lang==="en" ? `${d} ${L[m-1]} ${y}` : `${d===1?"1er":d} ${L[m-1]} ${y}`;
-  if (m) return `${L[m-1]} ${y}`;
-  return String(y);
-}
-function fmtDate(dv, lang){
-  if (!dv) return "";
-  if (dv.display) return txt(dv.display); // texte libre, simple ou multilingue
-  const l = MONTHS[lang] ? lang : I18N.lang;
-  let s = (dv.qualifier ? QUAL[l][dv.qualifier] : "") + fmtRaw(dv.date, l);
-  if (dv.original && dv.calendar === "julian") s += ` (${fmtRaw(dv.original, l)} ${I18N.t("julian")})`;
-  else if (dv.original) s += ` (${dv.original})`;
-  return s;
-}
-function fmtRange(n, lang){
-  const a = fmtDate(n.start, lang);
-  if (n.end) return a + " – " + fmtDate(n.end, lang);
-  if (n.ongoing) return I18N.t("since", {date:a});
-  return a;
-}
 function shortYear(t){ return String(Math.floor(t)); }
 
 // ---------------------------------------------------------------- textes
-let LANG = I18N.lang;     // langue du contenu : fr, en, de ou orig ; l'interface suit I18N.lang
-const tr = I18N.t;
-function txt(lt){
-  if (!lt) return "";
-  if (typeof lt === "string") return lt;
-  if (LANG === "orig" && lt.orig && lt[lt.orig]) return lt[lt.orig];
-  for (const k of [LANG, "fr", "en", "de", lt.orig]) if (k && lt[k]) return lt[k];
-  for (const k in lt) if (k !== "orig" && k !== "draft" && typeof lt[k] === "string") return lt[k];
-  return "";
-}
-function esc(s){ return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
-function norm(s){ return String(s).normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase(); }
-function allTexts(lt){ if (!lt) return []; if (typeof lt === "string") return [lt]; return Object.entries(lt).filter(([k,v]) => k!=="orig" && k!=="draft" && typeof v==="string").map(([,v]) => v); }
 
 // ---------------------------------------------------------------- base
-let DB, NODES = new Map(), CHILDREN = new Map(), ENT = new Map(), LINKS_OUT = new Map(), LINKS_IN = new Map(),
-    ENT_NODES = new Map(), MEDIA_ABOUT = new Map(), NOTES_ABOUT = new Map(), WORKS_BY = new Map(), SUBORGS = new Map(), ROOT_LANES = [], ALL_LANES = [];
 
-function push(map, k, v){ let a = map.get(k); if (!a) map.set(k, a = []); a.push(v); }
 
-function indexDB(raw){
-  DB = raw;
-  for (const n of raw.nodes){
-    if (n.status === "disabled") continue;
-    const s = span(n.start);
-    n._s = s;
-    if (n.end){ n._t0 = s[0]; n._t1 = span(n.end)[1]; }
-    else if (n.ongoing){ n._t0 = s[0]; n._t1 = Math.max(NOW, s[1]); }
-    else { n._t0 = s[0]; n._t1 = s[1]; }
-    n._tp = (s[0] + s[1]) / 2;
-    n._fam = FAM_OF[n.type] || FAMILIES[FAMILIES.length-1];
-    NODES.set(n.id, n);
-    ENT.set("node:" + n.id, {kind:"node", item:n});
-  }
-  for (const n of NODES.values()) for (const p of n.parents) if (NODES.has(p.id)) push(CHILDREN, p.id, n);
-  // timeline d'origine : la racine du fichier (posée par build_viewer ou loadFromDir), sinon via parents[0]
-  for (const n of NODES.values()) if (!n._home || !NODES.has(n._home)){
-    let q = n; const guard = new Set();
-    while (q.parents.length && NODES.has(q.parents[0].id) && !guard.has(q.id)){ guard.add(q.id); q = NODES.get(q.parents[0].id); }
-    n._home = q.id;
-  }
-  for (const arr of CHILDREN.values()) arr.sort((a,b) => (a._t0 - b._t0) || ((a.parents[0]?.order ?? 0) - (b.parents[0]?.order ?? 0)));
-  const coll = {person:"persons", place:"places", org:"organizations", work:"works", source:"sources", media:"media"};
-  for (const [pre, c] of Object.entries(coll)) for (const it of (raw[c] || [])) if (it.status !== "disabled") ENT.set(pre + ":" + it.id, {kind:pre, item:it});
-  for (const n of NODES.values()){
-    n._links = 0;
-    for (const [f, pre] of [["persons","person"],["places","place"],["organizations","org"],["works","work"]]) for (const id of (n[f]||[])) push(ENT_NODES, pre+":"+id, n);
-    for (const s of (n.sources||[])) push(ENT_NODES, "source:"+s.ref, n);
-  }
-  for (const l of (raw.links || [])){
-    if (l.status === "disabled") continue;
-    push(LINKS_OUT, l.from, l); push(LINKS_IN, l.to, l);
-    for (const r of [l.from, l.to]) if (r.startsWith("node:") && NODES.has(r.slice(5))) NODES.get(r.slice(5))._links++;
-  }
-  for (const m of (raw.media || [])) for (const a of (m.about || [])) push(MEDIA_ABOUT, a.ref, m);
-  for (const nt of (raw.notes || [])) if (nt && typeof nt === "object" && nt.status !== "disabled") for (const a of (nt.about || [])) push(NOTES_ABOUT, typeof a === "string" ? a : a.ref, nt);
-  for (const w of (raw.works || [])) for (const a of (w.authors || [])) push(WORKS_BY, "person:"+a, w);
-  for (const o of (raw.organizations || [])) if (o.parent) push(SUBORGS, "org:"+o.parent, o);
-  buildLanes();
-}
 
 // ---------------------------------------------------------------- lignes
-/* Une « ligne » = une racine ou une sous-timeline de type era.
-   Ses descendants (hors sous-lignes) y sont aplatis : périodes en barres, évènements en points.
-   Un enfant c d'un nœud p déjà présent dans la ligne y figure si :
-     - c appartient à la timeline de la ligne (même fichier), ou
-     - p appartient à la timeline de la ligne (rattachement direct), ou
-     - c est shared (il suit son parent partout), ou
-     - on est sous un rattachement deep (tout le sous-arbre est importé).
-   Au-delà d'un rattachement direct, les nœuds d'une autre timeline ne suivent donc pas. */
-function isLaneNode(n){ return n.type === "era" && (CHILDREN.get(n.id)||[]).length > 0; }
+/* Une « ligne » = une racine ou une sous-timeline de type era. Son contenu (règle shared / deep)
+   est calculé au build (tldb/scope.py) et indexé par core/model.js ; ici, la mise en page :
+   périodes, conteneurs et durées > 6 mois en barres empilées, le reste en points. */
 function buildLanes(){
-  let pi = 0;
-  function make(n, parent, depth){
-    const lane = {id:n.id, node:n, parent, depth, sub:[], items:[], visible:true, bg:false,
-      color: n.view?.color || parent?.color || PALETTE[pi++ % PALETTE.length]};
-    const home = n._home, seen = new Set(), seenDeep = new Set(), via = new Set();
-    (function walk(p, level, deep){
-      for (const c of (CHILDREN.get(p.id) || [])){
-        const d = deep || !!c.parents.find(q => q.id === p.id)?.deep;
-        if (!(d || c._home === home || p._home === home || c.shared)) continue;
-        if (isLaneNode(c) && level === 0 && c._home === home){ lane.sub.push(make(c, lane, depth+1)); continue; }
-        if (d){ if (seenDeep.has(c.id)) continue; seenDeep.add(c.id); }
-        else if (seen.has(c.id)) continue;
-        via.add(p.id);
-        if (!seen.has(c.id)){ seen.add(c.id); lane.items.push({n:c, level}); }
-        walk(c, level+1, d);
-      }
-    })(n, 0, false);
-    for (const it of lane.items) it.container = via.has(it.n.id);
+  for (const lane of ALL_LANES){
+    lane.visible = true; lane.bg = false;
     // barres : périodes, conteneurs, ou durée > 6 mois ; le reste = points
     lane.bars = []; lane.points = [];
     for (const it of lane.items){
@@ -367,15 +55,8 @@ function buildLanes(){
       }
       lane.barRows += rows.length;
     }
-    ALL_LANES.push(lane);
-    return lane;
   }
-  const roots = [...NODES.values()].filter(n => n.parents.length === 0);
-  ROOT_LANES = roots.map(r => make(r, null, 0));
-  // racines simples d'abord, racines de contexte (avec sous-lignes) ensuite
-  ROOT_LANES.sort((a,b) => (a.sub.length>0) - (b.sub.length>0) || a.node._t0 - b.node._t0);
 }
-function laneOrder(){ const out=[]; (function w(ls){ for (const l of ls){ out.push(l); w(l.sub); } })(ROOT_LANES); return out; }
 function laneShown(l){ for (let x=l; x; x=x.parent) if (!x.visible) return false; return true; }
 
 /* Lignes actives : au premier lancement, seules les racines DEFAULT_LANES sont cochées
@@ -436,28 +117,13 @@ function clampT(){
 let drawQueued = false;
 function draw(){ if (!drawQueued){ drawQueued = true; requestAnimationFrame(() => { drawQueued = false; render(ctx, W, H, DPR); saveHashSoon(); }); } }
 
-const tmCache = new Map();
-function tw(c, s){ const k = c.font + "|" + s; let v = tmCache.get(k); if (v === undefined){ v = c.measureText(s).width; if (tmCache.size > 5000) tmCache.clear(); tmCache.set(k, v); } return v; }
 function clip(c, s, maxW){
   if (tw(c, s) <= maxW) return s;
   let lo = 0, hi = s.length;
   while (lo < hi){ const mid = (lo+hi+1)>>1; if (tw(c, s.slice(0,mid)+"…") <= maxW) lo = mid; else hi = mid-1; }
   return lo > 0 ? s.slice(0,lo) + "…" : "";
 }
-function alpha(hex, a){ const n = parseInt(hex.slice(1),16); return `rgba(${n>>16},${(n>>8)&255},${n&255},${a})`; }
 
-function shapePath(c, kind, x, y, r){
-  c.beginPath();
-  switch (kind){
-    case "triUp": c.moveTo(x, y-r*1.25); c.lineTo(x+r*1.1, y+r*0.8); c.lineTo(x-r*1.1, y+r*0.8); c.closePath(); break;
-    case "triDown": c.moveTo(x, y+r*1.25); c.lineTo(x+r*1.1, y-r*0.8); c.lineTo(x-r*1.1, y-r*0.8); c.closePath(); break;
-    case "diamond": c.moveTo(x, y-r*1.3); c.lineTo(x+r*1.05, y); c.lineTo(x, y+r*1.3); c.lineTo(x-r*1.05, y); c.closePath(); break;
-    case "square": c.rect(x-r*0.88, y-r*0.88, r*1.76, r*1.76); break;
-    case "star": for (let i=0;i<10;i++){ const a = -Math.PI/2 + i*Math.PI/5, rr = i%2 ? r*0.55 : r*1.3; c[i?"lineTo":"moveTo"](x+rr*Math.cos(a), y+rr*Math.sin(a)); } c.closePath(); break;
-    case "dot": c.arc(x, y, r*0.7, 0, Math.PI*2); break;
-    default: c.arc(x, y, r, 0, Math.PI*2);
-  }
-}
 function drawShape(c, fam, x, y, r, color, a){
   shapePath(c, fam.shape, x, y, r);
   if (fam.shape === "ring"){ c.fillStyle = alpha("#ffffff", a); c.fill(); c.lineWidth = 2; c.strokeStyle = alpha(color, a); c.stroke(); }
@@ -682,7 +348,6 @@ function drawScrollHint(c, w, h){
   const frac = vh / (totalH + 20), y = AXIS_H + (S.y / (totalH + 20)) * vh;
   c.fillStyle = "rgba(0,0,0,0.18)"; c.fillRect(w - 5, y, 3, Math.max(20, frac*vh));
 }
-function laneName(l){ return txt(l.node.view?.label || l.node.title); }
 function hiddenNode(n){ return !!n._fam && S.hiddenFam.has(n._fam.id) && !CHILDREN.has(n.id); }
 
 function drawLinks(c, w){
@@ -918,26 +583,9 @@ function select(id, push = true){
   S.sel = id; showNode(n); draw();
 }
 function closeDetail(){ detail.classList.remove("open"); }
-function link(ref, label){ return `<a data-ref="${esc(ref)}">${esc(label)}</a>`; }
-function entName(ref){
-  const e = ENT.get(ref); if (!e) return ref.split(":")[1];
-  const it = e.item;
-  return txt(it.name || it.title) || it.id;
-}
 function chips(pre, ids){ return `<div class="chips">${ids.map(id => `<span class="chip" data-ref="${pre}:${esc(id)}" title="${esc(tr("d.chip.title"))}">${esc(entName(pre+":"+id))}</span>`).join("")}</div>`; }
 function barTop(back){
   return `<div class="bar"><span>${back ? `<button class="btn" data-act="back">${esc(tr("d.back"))}</button>` : ""}</span><button class="btn" data-act="close">✕</button></div>`;
-}
-function imagesOf(ref){
-  const t = m => m.date ? span(m.date)[0] : 1e9;
-  return (MEDIA_ABOUT.get(ref) || []).filter(m => m.kind === "image" && (m.url || m.file)).sort((a,b) => t(a) - t(b));
-}
-// médias locaux : ../media/ depuis le dossier de la base (file://), media/ une fois publiés (dossier copié à côté de la page)
-function mediaSrc(m){ return m.url || ((location.protocol === "file:" ? "../media/" : "media/") + m.file); }
-/** portrait principal d'une entité : primary, sinon le premier portrait */
-function primaryPortrait(ref){
-  const ms = imagesOf(ref), ab = m => m.about.find(a => a.ref === ref) || {};
-  return ms.find(m => ab(m).primary) || ms.find(m => ab(m).role === "portrait") || null;
 }
 function mediaHTML(ref, skip){
   const ms = imagesOf(ref).filter(m => m !== skip);
@@ -1053,11 +701,6 @@ function evList(nodes){
     const l = POS.get(n.id)?.lane || ALL_LANES.find(l => l.items.some(i => i.n === n));
     return `<div class="ev" data-ref="node:${esc(n.id)}"><span class="dot" style="background:${l ? l.color : "#999"}"></span><span class="dt">${esc(fmtDate(n.start, LANG).replace(/ \(.*\)$/, ""))}</span><span>${esc(txt(n.title))}</span></div>`;
   }).join("");
-}
-function crumbs(n){
-  const chain = []; let p = n;
-  while (p && p.parents.length){ const q = NODES.get(p.parents[0].id); if (!q) break; chain.unshift(q); p = q; }
-  return chain.length ? `<div class="crumbs">${chain.map(q => link("node:" + q.id, txt(q.view?.label || q.title))).join(" › ")}</div>` : "";
 }
 function showNode(n){
   const t = txt(n.title), ot = n.title.orig && n.title[n.title.orig] && n.title[n.title.orig] !== t ? n.title[n.title.orig] : "";
@@ -1247,7 +890,7 @@ function buildSide(){
 }
 function updateDensityLabel(){ $("densityLbl").textContent = S.rows ? tr("d.density", {n:S.rows}) : tr("d.density.none"); }
 $("density").oninput = e => { S.rows = +e.target.value; updateDensityLabel(); relayout(); draw(); };
-$("lang").onchange = e => { LANG = e.target.value; I18N.set(LANG); I18N.remember(LANG); applyUI(); };
+$("lang").onchange = e => { setLang(e.target.value); I18N.set(e.target.value); I18N.remember(LANG); applyUI(); };
 /** (re)traduit toute l'interface : au démarrage et à chaque changement de langue */
 function applyUI(){
   I18N.apply();
@@ -1255,7 +898,7 @@ function applyUI(){
   $("play").textContent = tr(playing ? "d.stop" : "d.play");
   $("rec").textContent = tr(recorder ? "d.rec.stop" : "d.rec");
   if (DB?.generated) $("stamp").textContent = tr("stamp", {date:new Date(DB.generated).toLocaleString(I18N.locale(), {dateStyle:"medium", timeStyle:"short"})});
-  tmCache.clear(); buildSide();
+  clearTextCache(); buildSide();
   if (S.focus) setFocus(S.focus);
   if (detail.classList.contains("open") && detail._cur) { const c = detail._cur; c.startsWith("node:") ? showNode(NODES.get(c.slice(5))) : showEntity(c, false); }
   draw();
@@ -1308,8 +951,6 @@ $("png").onclick = () => {
   render(ctx, W, H, DPR); // restaure les zones cliquables
   off.toBlob(b => download(b, `${tr("d.file")}-${stamp()}.png`), "image/png");
 };
-function stamp(){ const d = new Date(), p = n => String(n).padStart(2,"0"); return `${d.getFullYear()}${p(d.getMonth()+1)}${p(d.getDate())}-${p(d.getHours())}${p(d.getMinutes())}`; }
-function download(blob, name){ const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = name; document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1000); }
 
 // ---------------------------------------------------------------- état dans l'URL (partageable)
 let hashT = null;
@@ -1331,7 +972,7 @@ function saveHash(){
 function loadHash(){
   const p = new URLSearchParams(location.hash.slice(1));
   if (p.get("t")){ const [a,b] = p.get("t").split(",").map(Number); if (isFinite(a) && isFinite(b) && b > a){ S.t0 = a; S.t1 = b; } }
-  const l = p.get("l"); if ([...I18N.LANGS, "orig"].includes(l)){ LANG = l; I18N.set(l); }
+  const l = p.get("l"); if ([...I18N.LANGS, "orig"].includes(l)){ setLang(l); I18N.set(l); }
   if (p.has("v")){ const v = new Set(p.get("v").split(",")); for (const l of ALL_LANES) l.visible = !!l.parent || v.has(l.id); }
   else if (!p.has("h")) restoreLanes();   // pas de lien partagé : config mémorisée, sinon défaut
   // (ancien format de lien : h seul = tout visible sauf h)
@@ -1350,8 +991,8 @@ function resize(){
   cv.width = Math.round(W*DPR); cv.height = Math.round(H*DPR);
   clampY(); render(ctx, W, H, DPR);
 }
-function start(raw){
-  indexDB(raw); buildSearch();
+function start(raw, notes){
+  indexDB(raw, notes); buildLanes(); buildSearch();
   const st = loadHash();
   $("lang").value = LANG;
   applyUI(); relayout();
@@ -1362,50 +1003,9 @@ function start(raw){
   if (st.focus && ENT.has(st.focus)) setFocus(st.focus);
   draw();
 }
-function yFlow(v){
-  v = v.trim();
-  const split = inner => { const out = []; let cur = "", q = null, d = 0;
-    for (const ch of inner){ if (q){ cur += ch; if (ch === q) q = null; } else if (ch === "'" || ch === '"'){ q = ch; cur += ch; }
-      else if ("[{".includes(ch)){ d++; cur += ch; } else if ("]}".includes(ch)){ d--; cur += ch; }
-      else if (ch === "," && !d){ out.push(cur); cur = ""; } else cur += ch; }
-    if (cur.trim()) out.push(cur); return out; };
-  if (v.startsWith("[") && v.endsWith("]")) return split(v.slice(1,-1)).map(yFlow);
-  if (v.startsWith("{") && v.endsWith("}")){ const o = {}; for (const part of split(v.slice(1,-1))){ const i = part.indexOf(":"); o[part.slice(0,i).trim()] = yFlow(part.slice(i+1)); } return o; }
-  if (v.length > 1 && v[0] === v[v.length-1] && (v[0] === "'" || v[0] === '"')) return v.slice(1,-1);
-  return /^-?\d+$/.test(v) ? Number(v) : v;
-}
-function parseNote(text, name){
-  const m = text.match(/^---\s*\r?\n([\s\S]*?)\r?\n---\s*\r?\n?([\s\S]*)$/);
-  const head = {}; let key = null;
-  if (m) for (const line of m[1].split(/\r?\n/)){
-    if (!line.trim() || line.trim().startsWith("#")) continue;
-    const li = line.match(/^\s*-\s+(.*)$/);
-    if (li && key){ (head[key] = Array.isArray(head[key]) ? head[key] : []).push(yFlow(li[1])); continue; }
-    const i = line.indexOf(":"); key = line.slice(0, i).trim(); const v = line.slice(i+1);
-    head[key] = v.trim() ? yFlow(v) : [];
-  }
-  head.id = head.id || name.replace(/\.md$/, ""); head.file = name; head.body = (m ? m[2] : text).trim();
-  return head;
-}
-async function loadFromDir(files){
-  const raw = {nodes:[], notes:[], generated:new Date().toISOString()};
-  for (const f of files){
-    const p = f.webkitRelativePath.replace(/\\/g, "/");
-    if (/(^|\/)notes\/[^\/]+\.md$/.test(p)){ try { raw.notes.push(parseNote(await f.text(), f.name)); } catch(e){} continue; }
-    if (!p.endsWith(".json")) continue;
-    let j; try { j = JSON.parse(await f.text()); } catch(e){ continue; }
-    if (!j.collection || !Array.isArray(j.items)) continue;
-    if (j.collection === "nodes"){
-      const root = j.items.find(it => it && Array.isArray(it.parents) && it.parents.length === 0);
-      if (root) for (const it of j.items) if (it) it._home = root.id;
-      raw.nodes.push(...j.items);
-    } else raw[j.collection] = j.items;
-  }
-  if (!raw.nodes.length){ alert(tr("d.alert.noNodes")); return; }
-  $("loader").style.display = "none"; start(raw);
-}
-if (window.TLDB) start(window.TLDB);
-else { I18N.apply(); document.title = tr("d.title"); $("loader").style.display = "flex"; $("dirpick").onchange = e => loadFromDir([...e.target.files]); }
-</script>
-</body>
-</html>
+if (window.TLDB) start(window.TLDB, window.TLDB_NOTES || []);
+else { I18N.apply(); document.title = tr("d.title"); $("loader").style.display = "flex"; }
+
+// diagnostic (comparaison avant / après une refonte) : window.__tl.dump()
+window.__tl = {dump: () => ({nodes: NODES.size, ent: ENT.size, search: SEARCH.length, roots: ROOT_LANES.map(l => l.id),
+  lanes: ALL_LANES.map(l => ({id:l.id, p:l.parent && l.parent.id, d:l.depth, color:l.color, items:l.items.map(i => [i.n.id, i.level, !!i.container, i.row ?? null])}))})};

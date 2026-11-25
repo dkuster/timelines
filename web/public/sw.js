@@ -1,9 +1,9 @@
 /* Service worker du viewer mobile : fonctionnement hors ligne.
-   VERSION est réécrite par tools/build_viewer.py (date des données + empreinte des fichiers) :
+   VERSION est réécrite par « py -m tldb build » (date des données + empreinte des fichiers) :
    à chaque changement, le téléphone télécharge la nouvelle version et propose de recharger. */
-const VERSION = "2026-10-30T172031-4107c1c0";
+const VERSION = "dev";
 const APP = "tl-app-" + VERSION, MEDIA = "tl-media";
-const CORE = ["mobile.html", "i18n.js", "data-mobile.js", "manifest.webmanifest",
+const CORE = ["mobile.html", "assets/mobile.js", "data/base.js", "manifest.webmanifest",
   "icons/icon-192.png", "icons/icon-512.png", "icons/maskable-512.png", "icons/apple-touch-icon.png"];
 
 self.addEventListener("install", e => {

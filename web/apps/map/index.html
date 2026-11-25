@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carte dans le temps</title>
+<!--
+  Prototype « carte dans le temps » — web/apps/map/ (publiée sous map.html)
+  Fonctionne hors ligne par double-clic : lit data/base.js (la base, produite par « py -m tldb build »),
+  core/i18n.js (libellés des types, mois) et data/basemaps.js (frontières historiques simplifiées,
+  d'après historical-basemaps d'André Ourednik, GPL-3.0 ; lacs et fleuves Natural Earth, domaine public).
+  data/basemaps.js se régénère avec « py -m tldb basemaps » (années au choix).
+-->
+<style>
+:root{
+  --paper:#f6f3ec; --paper2:#efeadf; --card:#fffdf8; --ink:#1f1c18; --muted:#6d675c; --faint:#a59e90;
+  --rule:#ddd5c5; --accent:#b3261e; --focus:#1f4e8c;
+  --serif: "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  --sans: "Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--paper);color:var(--ink);font:14px/1.45 var(--sans)}
+button,select,input{font:inherit;color:inherit}
+#app{display:grid;grid-template-rows:auto 1fr 92px;grid-template-columns:220px 1fr 340px;height:100vh}
+header{grid-column:1/4;display:flex;align-items:center;gap:6px 12px;padding:7px 12px;font-size:13px;border-bottom:1px solid var(--rule);background:var(--paper2);flex-wrap:wrap}
+.brand{font:600 17px/1 var(--serif);white-space:nowrap;color:inherit;text-decoration:none}
+.brand small{font:12px var(--sans);color:var(--muted);margin-left:6px}
+.grp{display:flex;align-items:center;gap:6px}
+.grp > span{font-size:12px;color:var(--muted)}
+.btn{border:1px solid var(--rule);background:var(--card);border-radius:6px;padding:2px 8px;cursor:pointer;line-height:1.4}
+.btn:hover{border-color:var(--faint)}
+.btn.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.btn.rec{color:var(--accent)}
+.btn.rec.on{background:var(--accent);border-color:var(--accent);color:#fff}
+#play{min-width:40px;font-weight:600}
+select{border:1px solid var(--rule);background:var(--card);border-radius:6px;padding:2px 4px}
+.spacer{flex:1}
+
+#filters{grid-row:2/3;border-right:1px solid var(--rule);background:var(--paper2);overflow:auto;padding:4px 12px 16px}
+#filters h3,#panel h3{font:600 11px/1 var(--sans);text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:16px 0 8px}
+.tl{display:flex;align-items:center;gap:7px;padding:2px 0;cursor:pointer;font-size:13px;user-select:none}
+.tl input{margin:0}
+.tl .sw{width:10px;height:10px;border-radius:2px;flex:none}
+.tl .n{margin-left:auto;font-size:11px;color:var(--faint);font-variant-numeric:tabular-nums}
+.tiny{font-size:12px;color:var(--muted)}
+.tiny a{color:var(--muted);cursor:pointer;text-decoration:underline}
+.fam{display:inline-flex;align-items:center;gap:4px;border:1px solid var(--rule);background:var(--card);border-radius:12px;padding:1px 8px;margin:0 4px 5px 0;font-size:12px;cursor:pointer;user-select:none}
+.fam.off{opacity:.38;text-decoration:line-through}
+.fam i{font-style:normal;color:var(--muted)}
+.leg{font-size:12px;color:var(--muted);line-height:1.5}
+.leg div{display:flex;gap:8px;align-items:center;margin:4px 0}
+.leg canvas{flex:none}
+
+#mapwrap{grid-row:2/3;position:relative;overflow:hidden;background:#dfe5e3}
+#map{position:absolute;inset:0;width:100%;height:100%;cursor:grab;touch-action:none}
+#map.drag{cursor:grabbing}
+.zoom{position:absolute;right:10px;top:10px;display:flex;flex-direction:column;gap:4px}
+.zoom .btn{width:30px;padding:2px 0;text-align:center;font-weight:600}
+#tip{position:absolute;pointer-events:none;background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:6px 9px;font-size:12px;max-width:320px;box-shadow:0 2px 10px rgba(0,0,0,.08);display:none;z-index:5}
+#tip b{font-family:var(--serif);font-size:14px;font-weight:600}
+#tip .m{color:var(--muted)}
+#tip ul{margin:4px 0 0;padding-left:16px}
+
+#panel{grid-row:2/3;border-left:1px solid var(--rule);background:var(--card);overflow:auto;padding:4px 14px 16px}
+.ctx{font-size:12px;line-height:1.45;margin:3px 0;display:flex;gap:6px}
+.ctx .sw{width:4px;border-radius:2px;flex:none}
+.ctx .r{color:var(--muted)}
+.ctx a{color:inherit;cursor:pointer}
+.ev{display:flex;gap:8px;padding:5px 4px;border-radius:5px;cursor:pointer;font-size:13px;line-height:1.35}
+.ev:hover,.ev.hov{background:var(--paper2)}
+.ev.sel{background:#e4ebf4}
+.ev .ic{flex:none;width:14px;text-align:center}
+.ev .dt{font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums}
+.ev .pl{font-size:11px;color:var(--muted)}
+.ev .off{font-size:10px;border:1px solid var(--rule);border-radius:3px;padding:0 3px;color:var(--muted);margin-left:4px}
+.empty{color:var(--faint);font-size:13px;font-style:italic}
+#detail{border:1px solid var(--rule);border-radius:8px;padding:10px 12px;margin:12px 0 4px;background:#fff;position:relative}
+#detail:empty{display:none}
+#detail h2{font:600 18px/1.25 var(--serif);margin:0 22px 4px 0}
+#detail .orig{font-family:var(--serif);color:var(--muted);margin-bottom:4px}
+#detail .meta{color:var(--muted);font-size:12px;margin-bottom:8px}
+#detail p{margin:6px 0;font-family:var(--serif);font-size:14.5px;line-height:1.45}
+#detail h4{font:600 10.5px/1 var(--sans);text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:12px 0 5px}
+#detail .x{position:absolute;right:8px;top:6px;border:0;background:none;font-size:18px;color:var(--muted);cursor:pointer}
+.chip{display:inline-block;border:1px solid var(--rule);border-radius:10px;padding:0 7px;margin:0 4px 4px 0;font-size:12px;background:var(--paper)}
+.chip.a{cursor:pointer}
+.lk{font-size:12.5px;margin:3px 0;cursor:pointer}
+.lk .ty{color:var(--muted)}
+.lk:hover .t{text-decoration:underline}
+.acts{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.acts .btn{font-size:12px;padding:2px 8px;text-decoration:none;color:inherit}
+
+#strip{grid-column:1/4;border-top:1px solid var(--rule);background:var(--paper2);display:grid;grid-template-columns:220px 1fr 340px;align-items:stretch}
+#strip .rg{display:flex;flex-direction:column;justify-content:center;gap:6px;padding:0 12px;font-size:12px;color:var(--muted)}
+#strip .rg > div{white-space:nowrap}
+#strip .rg input{width:56px;border:1px solid var(--rule);border-radius:5px;padding:1px 4px;background:var(--card)}
+#histw{position:relative;min-width:0}
+#hist{position:absolute;inset:0;width:100%;height:100%;display:block;cursor:pointer;touch-action:none}
+#strip .note{padding:8px 14px;font-size:11.5px;color:var(--muted);line-height:1.4;border-left:1px solid var(--rule)}
+@media (max-width: 1000px){
+  #app{grid-template-columns:0 1fr 0} #filters,#panel{display:none}
+  #strip{grid-template-columns:0 1fr 0} #strip .rg,#strip .note{display:none}
+}
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <a class="brand" href="index.html" title="Accueil">Timeline <small>carte · prototype</small></a>
+    <div class="grp">
+      <button class="btn" id="prev" title="Reculer d'une fenêtre (←)">‹</button>
+      <button class="btn" id="play" title="Lecture / pause (espace)">▶</button>
+      <button class="btn" id="next" title="Avancer d'une fenêtre (→)">›</button>
+    </div>
+    <div class="grp">
+      <select id="win" title="Largeur de la fenêtre temporelle">
+        <option value="w">fenêtre : semaine</option>
+        <option value="m" selected>fenêtre : mois</option>
+        <option value="q">fenêtre : trimestre</option>
+        <option value="y">fenêtre : année</option>
+      </select>
+      <select id="speed" title="Vitesse de lecture">
+        <option value="0.0192">1 semaine / s</option>
+        <option value="0.0417">2 semaines / s</option>
+        <option value="0.0833" selected>1 mois / s</option>
+        <option value="0.25">3 mois / s</option>
+        <option value="1">1 an / s</option>
+      </select>
+    </div>
+    <div class="grp">
+      <select id="mode" title="Évènements passés : effacés après la fenêtre, ou gardés pâles">
+        <option value="slide" selected>fenêtre glissante</option>
+        <option value="cum">cumulatif</option>
+      </select>
+    </div>
+    <div class="grp"><span>Vue</span>
+      <button class="btn" data-view="europe">Europe</button>
+      <button class="btn" data-view="russia">Russie</button>
+      <button class="btn" data-view="switzerland">Suisse</button>
+      <button class="btn" data-view="world">Monde</button>
+      <button class="btn" data-view="fit" title="Cadrer sur les évènements de la période">Ajuster</button>
+    </div>
+    <div class="spacer"></div>
+    <div class="grp">
+      <select id="lang" title="Langue du contenu">
+        <option value="fr">FR</option><option value="en">EN</option><option value="de">DE</option><option value="orig">original</option>
+      </select>
+      <button class="btn" id="png" title="Exporter l'image de la carte">PNG</button>
+      <button class="btn rec" id="rec" title="Enregistrer une vidéo pendant la lecture">● Vidéo</button>
+    </div>
+  </header>
+
+  <aside id="filters">
+    <h3>Timelines</h3>
+    <div id="roots"></div>
+    <div class="tiny"><a id="allR">toutes</a> · <a id="noR">aucune</a> · <a id="defR">par défaut</a></div>
+    <h3>Familles</h3>
+    <div id="fams"></div>
+    <h3>Options</h3>
+    <label class="tl"><input type="checkbox" id="optLinks" checked> Liens entre évènements</label>
+    <label class="tl"><input type="checkbox" id="optLabels" checked> Titres</label>
+    <label class="tl"><input type="checkbox" id="optNat" checked> Évènements nationaux</label>
+    <label class="tl"><input type="checkbox" id="optEmp"> Empires coloniaux</label>
+    <h3>Lecture</h3>
+    <div class="leg" id="legend"></div>
+  </aside>
+
+  <main id="mapwrap">
+    <canvas id="map"></canvas>
+    <div class="zoom"><button class="btn" id="zin" title="Zoom avant">+</button><button class="btn" id="zout" title="Zoom arrière">−</button></div>
+    <div id="tip"></div>
+  </main>
+
+  <aside id="panel">
+    <h3>Périodes en cours</h3>
+    <div id="ctx"></div>
+    <div id="detail"></div>
+    <h3 id="listH">Dans la fenêtre</h3>
+    <div id="list"></div>
+  </aside>
+
+  <footer id="strip">
+    <div class="rg">
+      <div>Période : <input type="number" id="T0" value="1905"> → <input type="number" id="T1" value="1923"></div>
+      <div id="cnt"></div>
+    </div>
+    <div id="histw"><canvas id="hist"></canvas></div>
+    <div class="note" id="bmnote"></div>
+  </footer>
+</div>
+
+<script src="data/base.js"></script>
+<script src="data/basemaps.js"></script>
+<script src="assets/map.js"></script>
+</body>
+</html>

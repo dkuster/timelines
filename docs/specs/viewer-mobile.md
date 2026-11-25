@@ -1,5 +1,7 @@
 # Spécification du viewer mobile
 
+> Note du 25 novembre 2026 : ce document date d'avant la réorganisation du dépôt. Les chemins `viewer/…`, `tools/…` et `build_viewer.py` correspondent aujourd'hui à `web/apps/…`, `tldb/` et `py -m tldb build` ; voir `docs/architecture.md`.
+
 _Version 1.1, 30 octobre 2026 (v1.0 du 26 octobre ; ajouts : mode automatique des secondaires, § 16, et liens hors de la loupe, § 17). Base au moment de la rédaction : 12 racines, 6 sous-timelines (Monde), 2 665 nœuds, 1 009 personnes, 321 liens, 15 médias, 182 notes._
 
 Le viewer mobile est une application HTML pour consulter une ou plusieurs timelines, optimisée pour le téléphone tenu verticalement. Il complète le viewer de bureau (`viewer/desktop.html`, ex-`index.html`) sans le remplacer : il lit les mêmes données (`viewer/data.js`) et reprend les mêmes règles d'appartenance aux timelines.

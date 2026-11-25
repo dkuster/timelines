@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Frise — timeline-db</title>
+<link rel="icon" href="icons/icon-192.png">
+<style>
+:root{
+  --paper:#f6f3ec; --paper2:#efeadf; --card:#fffdf8; --ink:#1f1c18; --muted:#6d675c; --faint:#a59e90;
+  --rule:#ddd5c5; --accent:#b3261e; --focus:#1f4e8c;
+  --serif: "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  --sans: "Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--paper);color:var(--ink);font:14px/1.45 var(--sans)}
+button,select,input{font:inherit;color:inherit}
+#app{display:grid;grid-template-rows:auto 1fr;grid-template-columns:auto 1fr;height:100vh}
+header{grid-column:1/3;display:flex;align-items:center;gap:10px;padding:8px 12px;border-bottom:1px solid var(--rule);background:var(--paper2);flex-wrap:wrap}
+.brand{font:600 17px/1 var(--serif);letter-spacing:.2px;margin-right:6px;white-space:nowrap;color:inherit;text-decoration:none}
+.brand small{font:12px var(--sans);color:var(--muted);margin-left:6px}
+.search{position:relative;flex:1 1 260px;max-width:440px}
+.search input{width:100%;padding:6px 10px;border:1px solid var(--rule);border-radius:6px;background:var(--card)}
+.search input:focus{outline:2px solid #1f4e8c55;border-color:var(--focus)}
+#results{position:absolute;top:100%;left:0;right:0;margin-top:4px;background:var(--card);border:1px solid var(--rule);border-radius:6px;box-shadow:0 8px 24px #0002;z-index:30;max-height:60vh;overflow:auto;display:none}
+#results div{padding:6px 10px;cursor:pointer;display:flex;gap:8px;align-items:baseline}
+#results div.on,#results div:hover{background:#efe7d6}
+#results .k{font-size:11px;color:var(--muted);min-width:64px}
+#results .d{margin-left:auto;font-size:12px;color:var(--muted);white-space:nowrap}
+.tools{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.btn{border:1px solid var(--rule);background:var(--card);border-radius:6px;padding:5px 9px;cursor:pointer;white-space:nowrap}
+.btn:hover{border-color:var(--faint)}
+.btn.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.btn.rec.on{background:var(--accent);border-color:var(--accent)}
+select.btn{padding:5px 6px}
+#side{width:250px;border-right:1px solid var(--rule);overflow:auto;padding:10px 10px 20px;background:var(--paper)}
+#side h3{font:600 11px/1 var(--sans);text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:14px 0 8px}
+#side h3:first-child{margin-top:4px}
+.lane-row{display:flex;align-items:center;gap:6px;padding:3px 0}
+.lane-row label{display:flex;align-items:center;gap:6px;cursor:pointer;flex:1;min-width:0}
+.lane-row .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sw{width:10px;height:10px;border-radius:2px;flex:none}
+.bg-t{font-size:11px;border:1px solid var(--rule);background:var(--card);border-radius:4px;padding:0 5px;cursor:pointer;color:var(--muted)}
+.bg-t.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.lane-tools{display:flex;gap:4px;margin:-2px 0 6px}
+.lane-tools button{font-size:11px;border:1px solid var(--rule);background:var(--card);border-radius:4px;padding:1px 7px;cursor:pointer;color:var(--muted)}
+.lane-tools button:hover{color:var(--ink);border-color:var(--muted)}
+.lane-row.off .nm{color:var(--faint)}
+.legend div{display:flex;align-items:center;gap:8px;padding:2px 0;cursor:pointer;user-select:none}
+.legend div.off{opacity:.35}
+.legend canvas{flex:none}
+.hint{font-size:12px;color:var(--muted);line-height:1.5}
+.hint kbd{font:11px var(--sans);border:1px solid var(--rule);border-bottom-width:2px;border-radius:3px;padding:0 4px;background:var(--card)}
+input[type=range]{width:100%}
+#stage{position:relative;overflow:hidden;min-width:0}
+#cv{position:absolute;inset:0;width:100%;height:100%;cursor:grab;touch-action:none}
+#cv.drag{cursor:grabbing}
+#cv.pt{cursor:pointer}
+#tip{position:absolute;pointer-events:none;background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:7px 9px;box-shadow:0 6px 20px #0002;max-width:320px;font-size:13px;display:none;z-index:10}
+#tip b{font-family:var(--serif);font-size:14px}
+#tip .m{color:var(--muted);font-size:12px}
+#detail{position:absolute;top:0;right:0;bottom:0;width:min(400px,92vw);background:var(--card);border-left:1px solid var(--rule);box-shadow:-10px 0 30px #0001;overflow:auto;padding:14px 16px 30px;transform:translateX(105%);transition:transform .18s ease;z-index:20}
+#detail.open{transform:none}
+#detail .bar{display:flex;gap:6px;justify-content:space-between;margin-bottom:8px}
+#detail h2{font:600 21px/1.2 var(--serif);margin:4px 0 4px}
+#detail .orig{font-family:var(--serif);color:var(--muted);margin-bottom:6px}
+#detail .meta{color:var(--muted);font-size:13px;margin-bottom:10px}
+#detail .crumbs{font-size:12px;color:var(--muted)}
+#detail .crumbs a{color:var(--muted)}
+#detail h4{font:600 11px/1 var(--sans);text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:16px 0 6px}
+#detail p{margin:0 0 8px}
+#detail a{color:var(--focus);text-decoration:none;cursor:pointer}
+#detail a:hover{text-decoration:underline}
+.chips{display:flex;flex-wrap:wrap;gap:5px}
+.chip{border:1px solid var(--rule);border-radius:999px;padding:1px 9px;font-size:13px;cursor:pointer;background:var(--paper)}
+.chip:hover{border-color:var(--focus);color:var(--focus)}
+.pill{display:inline-block;font-size:11px;border-radius:3px;padding:0 6px;margin-right:4px;color:#fff;vertical-align:1px}
+.draft{background:#c9a227}.final{background:#2e6f40}
+.lk{padding:5px 0;border-top:1px dashed var(--rule)}
+.lk .ty{font-size:12px;color:var(--muted)}
+.lk .why{font-size:12px;color:var(--muted);margin-top:2px}
+.ev{display:flex;gap:8px;padding:4px 0;border-top:1px dashed var(--rule);cursor:pointer;align-items:baseline}
+.ev:hover{color:var(--focus)}
+.ev .dt{font-size:12px;color:var(--muted);min-width:76px;font-variant-numeric:tabular-nums}
+.ev .dot{width:8px;height:8px;border-radius:50%;flex:none;transform:translateY(-1px)}
+figure{margin:8px 0}
+figure img{max-width:100%;border-radius:4px;display:block;background:var(--paper2)}
+figcaption{font-size:12px;color:var(--muted);margin-top:3px}
+figure.one img,.gallery figure,.phead .pt{cursor:zoom-in}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(104px,1fr));gap:8px;margin:6px 0 8px}
+.gallery figure{margin:0}
+.gallery img{width:100%;height:120px;object-fit:cover;object-position:50% 22%}
+.gallery figcaption{font-size:11px;line-height:1.3}
+.phead{display:flex;gap:12px;align-items:flex-start}
+.phead .tx{flex:1;min-width:0}
+.phead .pt{flex:none;width:96px;margin-top:4px}
+.phead .pt img{width:96px;height:124px;object-fit:cover;object-position:50% 20%;border-radius:4px;display:block;background:var(--paper2);box-shadow:0 1px 4px #0002}
+#detail .occ{font-size:13px;margin:2px 0 6px}
+#detail .lead{font-family:var(--serif);font-size:15px;line-height:1.45}
+#detail .bio{line-height:1.55}
+.mb{display:flex;gap:8px;padding:4px 0;border-top:1px dashed var(--rule);align-items:baseline;flex-wrap:wrap}
+.mb .dt{font-size:12px;color:var(--muted);min-width:96px;font-variant-numeric:tabular-nums}
+#lb{position:fixed;inset:0;background:#000d;display:none;align-items:center;justify-content:center;flex-direction:column;z-index:60;padding:20px;cursor:zoom-out}
+#lb.open{display:flex}
+#lb img{max-width:94vw;max-height:80vh;object-fit:contain;background:#222;box-shadow:0 10px 40px #0008}
+#lb .cap{color:#eee;font-size:13px;max-width:760px;text-align:center;margin-top:12px;line-height:1.5}
+#lb .cap b{font-family:var(--serif);font-size:15px}
+#lb .cap .m{color:#bbb;font-size:12px}
+#lb a{color:#9cc3ff;cursor:pointer}
+.src{font-size:13px;padding:3px 0}
+details.note{border:1px solid var(--rule);border-left:3px solid #b8860b;border-radius:4px;background:var(--paper);margin:6px 0;padding:0 10px}
+details.note summary{cursor:pointer;padding:7px 0;font-weight:600;font-size:13px;line-height:1.35;list-style-position:outside;margin-left:14px}
+details.note .nm{display:flex;gap:4px;flex-wrap:wrap;margin:0 0 6px}
+details.note .nm span{font-size:11px;background:var(--paper2);border-radius:3px;padding:1px 6px;color:var(--muted)}
+details.note .nb{font-size:13px;line-height:1.5;padding-bottom:6px}
+details.note .nb h5{font:600 13px var(--sans);margin:10px 0 4px}
+details.note .nb ol,details.note .nb ul{margin:4px 0 8px;padding-left:20px}
+details.note .nb li{margin:3px 0}
+details.note .nb code{background:var(--paper2);padding:0 4px;border-radius:3px;font-size:12px}
+details.note .src{font-size:12px}
+#detail .notecue{font-size:12px;color:#8a6508;margin:-4px 0 8px}
+#focusbar{position:absolute;left:50%;transform:translateX(-50%);bottom:56px;background:var(--ink);color:var(--paper);border-radius:999px;padding:5px 8px 5px 14px;display:none;align-items:center;gap:10px;z-index:15;font-size:13px;box-shadow:0 6px 20px #0003}
+#focusbar button{background:#ffffff22;border:0;color:inherit;border-radius:999px;padding:2px 10px;cursor:pointer}
+#loader{position:fixed;inset:0;background:var(--paper);display:none;align-items:center;justify-content:center;z-index:100;padding:20px}
+#loader .box{max-width:520px;background:var(--card);border:1px solid var(--rule);border-radius:10px;padding:22px}
+#loader h2{font:600 20px var(--serif);margin:0 0 10px}
+#loader code{background:var(--paper2);padding:1px 5px;border-radius:3px}
+#sidetoggle{display:none}
+@media (max-width:820px){
+  #app{grid-template-columns:1fr}
+  #side{position:fixed;top:0;bottom:0;left:0;z-index:40;transform:translateX(-105%);transition:transform .18s;box-shadow:10px 0 30px #0002}
+  #side.open{transform:none}
+  #sidetoggle{display:inline-block}
+  #stage{grid-column:1}
+}
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <button class="btn" id="sidetoggle" data-i18n-title="d.sideToggle" title="Lignes et légende">☰</button>
+    <a class="brand" href="index.html" data-i18n-title="m.home"><span data-i18n="d.brand">Frise</span><small id="stamp"></small></a>
+    <div class="search"><input id="q" data-i18n-ph="d.search" placeholder="Chercher un évènement, une personne, une organisation…" autocomplete="off"><div id="results"></div></div>
+    <div class="tools">
+      <select class="btn" id="lang" data-i18n-title="lang.title" title="Langue">
+        <option value="fr">FR</option><option value="en">EN</option><option value="de">DE</option><option value="orig" data-i18n="lang.orig">Original</option>
+      </select>
+      <button class="btn" id="fit" data-i18n="d.fit" data-i18n-title="d.fit.title">Tout voir</button>
+      <button class="btn" id="alllinks" data-i18n="d.links" data-i18n-title="d.links.title">Liens</button>
+      <button class="btn" id="play" data-i18n-title="d.play.title">▶ Défiler</button>
+      <button class="btn rec" id="rec" data-i18n-title="d.rec.title">● Film</button>
+      <button class="btn" id="png" data-i18n-title="d.png.title">PNG</button>
+    </div>
+  </header>
+  <aside id="side">
+    <h3 data-i18n="d.side.lanes">Lignes</h3>
+    <div class="lane-tools">
+      <button id="lanesAll" data-i18n="d.lanes.all" data-i18n-title="d.lanes.all.title">Toutes</button>
+      <button id="lanesNone" data-i18n="d.lanes.none" data-i18n-title="d.lanes.none.title">Aucune</button>
+      <button id="lanesDef" data-i18n="d.lanes.def" data-i18n-title="d.lanes.def.title">Par défaut</button>
+    </div>
+    <div id="lanes"></div>
+    <div class="hint" style="margin-top:6px" data-i18n="d.side.bgHint">« fond » projette les périodes d'une ligne en bandes verticales derrière toutes les autres.</div>
+    <h3 data-i18n="d.side.density">Titres affichés</h3>
+    <input type="range" id="density" min="0" max="7" value="4">
+    <div class="hint" id="densityLbl"></div>
+    <h3 data-i18n="d.side.types">Types (cliquer pour masquer)</h3>
+    <div class="legend" id="legend"></div>
+    <h3 data-i18n="d.side.nav">Navigation</h3>
+    <div class="hint" data-i18n-html="d.side.navHelp">
+      Molette : zoom · <kbd>Maj</kbd>+molette : défiler les lignes · glisser : déplacer<br>
+      Clic : détails · double-clic : zoomer sur l'évènement<br>
+      <kbd>0</kbd> tout voir · <kbd>Échap</kbd> fermer · <kbd>←</kbd><kbd>→</kbd> déplacer · <kbd>+</kbd><kbd>−</kbd> zoom
+    </div>
+  </aside>
+  <main id="stage">
+    <canvas id="cv"></canvas>
+    <div id="tip"></div>
+    <div id="focusbar"><span id="focustxt"></span><button id="focusclear" data-i18n="d.focus.clear">✕ Retirer le filtre</button></div>
+    <aside id="detail"></aside>
+    <div id="lb"></div>
+  </main>
+</div>
+<div id="loader"><div class="box">
+  <h2 data-i18n="nodata.title">Données introuvables</h2>
+  <div data-i18n-html="d.loader.html"><p>Les données (<code>data/base.js</code>) sont absentes. Depuis la racine du dépôt, lance :</p><p><code>py -m tldb build</code></p><p>puis ouvre la page construite dans <code>dist/</code>.</p></div>
+</div></div>
+
+<script src="data/base.js"></script>
+<script src="data/notes.js"></script>
+<script src="assets/desktop.js"></script>
+</body>
+</html>
