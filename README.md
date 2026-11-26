@@ -12,6 +12,10 @@ Site publié : https://dkuster.github.io/timelines/ (reconstruit à chaque push 
 - Skill de génération pour Claude : [`docs/skill/SKILL.md`](docs/skill/SKILL.md) (copie versionnée)
 - Veille mensuelle (nouveaux évènements, curseur `veille/watch.json`) : [`docs/veille.md`](docs/veille.md)
 
+## Discussions
+
+Vous pouvez participer à son développement, faire des remarques ou des suggestions, pour cela rejoignez le groupe Telegram https://t.me/+EaGghQtukBFlOWU0
+
 ## Arborescence
 
 ```
