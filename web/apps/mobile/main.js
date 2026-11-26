@@ -1179,6 +1179,7 @@ function renderMenu(){
     `<div class="mrow"><span class="nm">${esc(tr("m.menu.theme"))}</span>${seg("theme", [["system",tr("m.theme.auto")],["light",tr("m.theme.light")],["dark",tr("m.theme.dark")]], S.theme)}</div>` +
     `<div class="mrow act" data-act="share"><span class="nm">${esc(tr("m.menu.share"))}</span>↗</div>` +
     `<div class="mrow act" data-act="help"><span class="nm">${esc(tr("m.menu.help"))}</span>?</div>` +
+    (SWREG ? `<div class="mrow act" data-act="update"><span class="nm">${esc(tr(swWaiting ? "m.menu.install" : "m.menu.update"))}</span>${swWaiting ? "●" : "↻"}</div>` : "") +
     `<div class="about">${tr("m.about", {date:esc(g ? g.toLocaleDateString(I18N.locale(), {day:"numeric", month:"long", year:"numeric"}) : "?"), nodes:nEv, persons:(DB.persons||[]).length, links:(DB.links||[]).length})}<br><a href="index.html">${esc(tr("m.home"))}</a> · <a href="desktop.html" target="_blank" rel="noopener">${esc(tr("m.desktop"))}</a></div>`;
 }
 $("sheet").addEventListener("click", e => {
@@ -1238,6 +1239,7 @@ $("sheet").addEventListener("click", e => {
   if (act === "lang"){ setLang(a.dataset.v); I18N.set(LANG); I18N.remember(LANG); applyUI(); renderMenu(); return; }
   if (act === "theme"){ S.theme = a.dataset.v; applyTheme(); renderMenu(); return; }
   if (act === "share") return share();
+  if (act === "update") return checkUpdate(true);
   if (act === "help"){ replaceTop({type:"help"}); return; }
   if (act === "speed"){ S.speed = +a.dataset.i; saveLocal(); back(); setTimeout(startPlay, 60); return; }
 });
@@ -1679,15 +1681,48 @@ window.visualViewport?.addEventListener("resize", () => { clearTimeout(window._r
 document.addEventListener("visibilitychange", () => { if (document.hidden) stopPlay(); });
 
 // service worker (seulement en ligne : https ou localhost)
+// Le navigateur ne vérifie sw.js qu'au chargement de la page ; une appli installée revient souvent au premier plan
+// sans être rechargée. On vérifie donc aussi au retour au premier plan (au plus 1 fois par minute), toutes les heures
+// si elle reste ouverte, et à la demande depuis le menu. Une nouvelle version téléchargée est signalée par un bandeau
+// qui reste affiché jusqu'à ce qu'on l'installe ou le ferme ; le menu propose alors « Installer la nouvelle version ».
+let SWREG = null, swWaiting = null, swChecked = 0;
+function showUpdate(w){
+  swWaiting = w;
+  const b = $("upd");
+  b.querySelector("span").textContent = tr("m.update");
+  b.querySelector(".go").textContent = tr("m.reload");
+  b.querySelector(".x").setAttribute("aria-label", tr("m.upd.later"));
+  b.classList.add("show");
+}
+function installUpdate(){ $("upd").classList.remove("show"); if (swWaiting) swWaiting.postMessage("skip"); }
+async function checkUpdate(manual){
+  if (!SWREG) return;
+  if (swWaiting){ if (manual) installUpdate(); return; }
+  if (!manual && (!navigator.onLine || Date.now() - swChecked < 60000)) return;
+  swChecked = Date.now();
+  if (manual && !navigator.onLine){ toast(tr("m.upd.offline"), 4000); return; }
+  if (manual) toast(tr("m.upd.checking"), 8000);
+  try { await SWREG.update(); }
+  catch(_){ if (manual) toast(tr("m.upd.offline"), 4000); return; }
+  if (!manual || swWaiting) return;
+  const w = SWREG.installing || SWREG.waiting;
+  if (!w) toast(tr("m.upd.latest"), 3000);
+  else if (w.state === "installed") showUpdate(w);
+  else toast(tr("m.upd.downloading"), 6000); // le bandeau apparaîtra à la fin du téléchargement
+}
 if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol)){
+  const watch = w => w && w.addEventListener("statechange", () => { if (w.state === "installed" && navigator.serviceWorker.controller) showUpdate(w); });
   navigator.serviceWorker.register("sw.js").then(reg => {
-    const offer = w => toast(tr("m.update"), 12000, {label:tr("m.reload"), fn:() => w.postMessage("skip")});
-    if (reg.waiting && navigator.serviceWorker.controller) offer(reg.waiting);
-    reg.addEventListener("updatefound", () => {
-      const w = reg.installing;
-      w && w.addEventListener("statechange", () => { if (w.state === "installed" && navigator.serviceWorker.controller) offer(w); });
-    });
+    SWREG = reg; swChecked = Date.now(); // l'enregistrement vient de vérifier sw.js
+    if (reg.waiting && navigator.serviceWorker.controller) showUpdate(reg.waiting);
+    watch(reg.installing);
+    reg.addEventListener("updatefound", () => watch(reg.installing));
   }).catch(() => {});
+  $("upd").querySelector(".go").addEventListener("click", installUpdate);
+  $("upd").querySelector(".x").addEventListener("click", () => $("upd").classList.remove("show"));
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) checkUpdate(false); });
+  window.addEventListener("online", () => checkUpdate(false));
+  setInterval(() => { if (!document.hidden) checkUpdate(false); }, 3600000);
   let reloading = false;
   navigator.serviceWorker.addEventListener("controllerchange", () => { if (!reloading){ reloading = true; location.reload(); } });
 }
