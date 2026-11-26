@@ -92,6 +92,14 @@ body.noband #area{top:calc(var(--hdr) + var(--st))}
 #rail button.on:active{background:var(--muted)}
 #rail .badge{position:absolute;top:3px;right:3px;min-width:16px;height:16px;border-radius:8px;background:var(--accent);color:#fff;font:600 10px/16px var(--sans);padding:0 4px;display:none}
 #rail .badge.show{display:block}
+#rail .zoom{margin-top:auto;margin-bottom:calc(8px + var(--sb));display:flex;flex-direction:column;border:1px solid var(--rule);border-radius:12px;background:var(--card);overflow:hidden;flex:none}
+#rail .zoom button{border-radius:0}
+#rail .zoom button+button{border-top:1px solid var(--rule)}
+#rail .zoom button:disabled{opacity:.28;cursor:default;background:transparent}
+@media (max-height:560px){ #rail{gap:2px;overflow-y:auto} #rail button{height:38px} #rail .zoom{margin-bottom:calc(4px + var(--sb))} }
+.res.yr .dot{width:auto;height:auto;border-radius:0;background:none;color:var(--accent);font-size:15px;line-height:1}
+.res.yr .t1{font-weight:600}
+.res.yr.out{cursor:default;color:var(--muted)}
 
 /* feuilles du bas */
 #scrim{position:fixed;inset:0;background:var(--scrim);opacity:0;pointer-events:none;transition:opacity .2s;z-index:20}
@@ -271,6 +279,10 @@ img.broken{min-height:80px;opacity:.35;background:var(--paper2) !important}
       <button id="bPlay" data-i18n-aria="m.rail.play" aria-label="Défilement automatique"><svg width="22" height="22" viewBox="0 0 24 24"><path id="playShape" d="M7 4.5l12 7.5-12 7.5z" fill="currentColor"/></svg></button>
       <button id="bFilter" data-i18n-aria="m.rail.filter" aria-label="Filtres"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M3.5 5h17l-6.5 8v6l-4-2v-4z"/></svg><span class="badge" id="fbadge"></span></button>
       <button id="bMenu" data-i18n-aria="m.rail.menu" aria-label="Plus d'options"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/></svg></button>
+      <div class="zoom">
+        <button id="bZin" data-i18n-aria="m.rail.zin" aria-label="Zoom avant"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button>
+        <button id="bZout" data-i18n-aria="m.rail.zout" aria-label="Zoom arrière"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14"/></svg></button>
+      </div>
     </nav>
   </main>
 </div>

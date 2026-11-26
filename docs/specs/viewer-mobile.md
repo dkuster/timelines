@@ -2,7 +2,7 @@
 
 > Note du 25 novembre 2026 : ce document date d'avant la réorganisation du dépôt. Les chemins `viewer/…`, `tools/…` et `build_viewer.py` correspondent aujourd'hui à `web/apps/…`, `tldb/` et `py -m tldb build` ; voir `docs/architecture.md`.
 
-_Version 1.1, 30 octobre 2026 (v1.0 du 26 octobre ; ajouts : mode automatique des secondaires, § 16, et liens hors de la loupe, § 17). Base au moment de la rédaction : 12 racines, 6 sous-timelines (Monde), 2 665 nœuds, 1 009 personnes, 321 liens, 15 médias, 182 notes._
+_Version 1.2, 26 novembre 2026 (v1.0 du 26 octobre ; v1.1 du 30 octobre : mode automatique des secondaires, § 16, et liens hors de la loupe, § 17 ; v1.2 : boutons de zoom et recherche d'une année, § 19). Base au moment de la rédaction : 12 racines, 6 sous-timelines (Monde), 2 665 nœuds, 1 009 personnes, 321 liens, 15 médias, 182 notes._
 
 Le viewer mobile est une application HTML pour consulter une ou plusieurs timelines, optimisée pour le téléphone tenu verticalement. Il complète le viewer de bureau (`viewer/desktop.html`, ex-`index.html`) sans le remplacer : il lit les mêmes données (`viewer/data.js`) et reprend les mêmes règles d'appartenance aux timelines.
 
@@ -128,14 +128,17 @@ Le rail est fixé le long du bord droit, avec des cibles de 44 × 44 px. Quand u
 | ▶ Défilement auto / ■ arrêt | Langue : FR / EN / DE / originale |
 | ⚲ Filtres | Thème : système / clair / sombre |
 | ⋯ Menu | Partager cette vue |
-| | Aide des gestes |
+| ＋ − Zoom par paliers, en bas du rail (§ 5) | Aide des gestes |
 | | À propos (date de génération des données) |
+
+Les boutons ＋ et − sont groupés en bas du rail, à portée du pouce. Sur un écran bas (paysage), le rail se resserre (boutons de 38 px) et défile s'il le faut.
 
 ## 5. Échelle et zoom
 
 - L'échelle est linéaire et commune à toutes les colonnes. La plage visible va de 2 mois à 250 ans, entre 1770 et l'année en cours plus un an.
 - Les titres sont placés par priorité, avec la même heuristique que le bureau (famille, nombre de liens, nombre de personnes). Un évènement qui n'a pas la place pour son titre reste un point. Quand plusieurs points tombent à moins de 6 px les uns des autres, ils fusionnent en un seul repère « +5 ». En zoomant (pinch ou loupe), on les sépare.
 - Le zoom par pinch se fait autour du point entre les deux doigts. La plage dans l'en-tête se met à jour en direct.
+- **Boutons ＋ et −** : la plage passe au palier suivant de la série 2 mois, 6 mois, 1, 2, 5, 10, 20, 50, 100, 250 ans (＋ raccourcit la plage, − l'allonge). Après un pinch, on repart du palier le plus proche dans la direction choisie (une plage de 13 ans passe à 10 avec ＋, à 20 avec −). La date de la loupe reste au centre et l'évènement ciblé reste sous la loupe ; le magnétisme s'applique à la fin de l'animation (280 ms). Des appuis rapides s'enchaînent depuis le palier visé. Un bouton est grisé à la limite (2 mois ou 250 ans). Le zoom fonctionne aussi pendant le défilement automatique, dont la vitesse suit la plage. Sur ordinateur, les touches + et − font de même.
 
 ## 6. Gestes
 
@@ -182,6 +185,8 @@ Panneau montant depuis le bas qui liste les racines et leurs sous-timelines, en 
 ### 9.2 Recherche
 
 Écran plein avec un champ en haut et le clavier ouvert. On cherche dans les titres, alias, noms complets et noms historiques, dans toutes les langues, sans tenir compte des accents (comme le bureau). Les résultats sont groupés : évènements, personnes, organisations, lieux, œuvres ; chacun indique sa date et sa timeline. Un tap ouvre la fiche en mode détail.
+
+**Année** : quand la saisie est une année de quatre chiffres (« 1917 »), une première ligne « Aller à 1917 » précède les résultats (Entrée la choisit). Elle ferme la recherche et positionne la timeline sur cette année : la loupe va à l'évènement de la principale le plus proche du milieu de l'année (filtres respectés), ou au milieu de l'année s'il n'y en a pas. Une plage de plus de 20 ans est ramenée à 10 ans, sinon elle est gardée. Une année hors de la période couverte (avant 1770 ou après l'année en cours) affiche une ligne grisée qui l'indique.
 
 ### 9.3 Défilement automatique
 
@@ -404,3 +409,12 @@ Livrée dans `viewer/mobile.html` et `viewer/i18n.js` (textes FR, EN, DE), avec 
 - **Panneaux ouverts depuis la frise** : le fond assombri ignore les clics pendant 450 ms après l'ouverture, sans quoi le clic émulé qui suit un toucher refermait aussitôt le panneau.
 - **Premier lancement** : le mode automatique est actif et le sélecteur s'ouvre avec l'interrupteur sur « Automatiques ». Un ancien état mémorisé sur l'appareil, sans `a`, garde le mode manuel.
 - `tldb.py related --gaps --no-themes` relevait le 30 octobre 116 décennies sans aucune candidate (Suisse et Irlande 13 chacune, Allemagne, Hongrie et Espagne 11 chacune) : ce sont les endroits où ajouter des liens entre pays rendra le mode automatique le plus utile.
+
+## 19. Implémentation v1.2 (26 novembre 2026)
+
+Livrée dans `web/apps/mobile/index.html`, `web/apps/mobile/main.js` et `web/core/i18n.js` (textes FR, EN, DE et aide des gestes).
+
+- **Paliers** : constante `ZOOM_LEVELS` dans `main.js`. Un palier est considéré comme atteint à 3 % près, pour qu'une plage restaurée depuis l'adresse (arrondie) ne bloque pas un appui.
+- **Animation** : `zoomStep()` n'anime que la plage, sans toucher à la date de la loupe, ce qui évite de contrarier le défilement automatique ; le palier visé (`ZOOM.to`) sert de base aux appuis rapides.
+- **Année** : `yearRow()` et `goYear()` ; la recherche par titres continue de s'afficher sous la ligne de l'année (les identifiants des évènements commencent par leur année, d'où de nombreux résultats).
+- **Essai** (Russie, plage de 10 ans sur 1912-1922) : ＋ donne 5 ans, 2 ans, 1 an, 6 mois, 2 mois puis se grise ; − remonte jusqu'à 250 ans ; « 1917 » place la loupe sur la manifestation du 18 juin (1er juillet) 1917 ; « 1848 », année sans évènement russe, centre le milieu de l'année et montre la période (guerre du Caucase).

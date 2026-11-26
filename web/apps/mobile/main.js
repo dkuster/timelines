@@ -18,6 +18,7 @@ import { link, crumbs } from "../../ui/html.js";
 // ---------------------------------------------------------------- constantes
 // libellés des types, familles et liens : viewer/i18n.js (I18N.type, I18N.fam, I18N.link)
 const MIN_T = 1770, MIN_SPAN = 2/12, MAX_SPAN = 250;
+const ZOOM_LEVELS = [2/12, 6/12, 1, 2, 5, 10, 20, 50, 100, 250]; // paliers des boutons + et − (ans), de MIN_SPAN à MAX_SPAN
 const TOL = 40;            // tolérance de la loupe (px)
 const MERGE = 6;           // fusion des points proches (px)
 const SPEEDS = [1, 3, 10]; // ans par seconde pour une plage de 10 ans
@@ -238,6 +239,7 @@ function render(){
   } else drawLayout(layoutFor(S.c), 1, 0, true);
   drawFx();
   updateDom();
+  updateZoomBtns();
   jumpCheck();
   autoSoon();
   saveHashSoon();
@@ -835,6 +837,34 @@ function magnet(){
   if (Math.abs(y - H/2) > .5) glideTo(t.n._tp, S.span, 250);
 }
 
+// ---------------------------------------------------------------- zoom par paliers (boutons + et −)
+// Seule la plage change : la date de la loupe reste au centre, ce qui permet de zoomer aussi pendant le défilement automatique.
+let ZOOM = null; // {f: fonction d'animation en cours, to: plage visée}
+function zoomBase(){ return ZOOM && ANIMS.get("view") === ZOOM.f ? ZOOM.to : S.span; }
+function zoomNext(dir){ // dir -1 : plage plus courte (zoom avant), +1 : plage plus longue
+  const cur = zoomBase();
+  return dir < 0 ? [...ZOOM_LEVELS].reverse().find(v => v < cur * 0.97) : ZOOM_LEVELS.find(v => v > cur * 1.03);
+}
+function zoomStep(dir){
+  const to = zoomNext(dir);
+  if (to === undefined) return;
+  stopAnim("inertia"); userMoved(); // la cible de la loupe (S.pick, S.sec) est gardée : elle reste au centre
+  const a = S.span, t0 = performance.now(), ms = 280;
+  const f = now => {
+    const p = Math.min(1, (now - t0) / ms);
+    S.span = Math.exp(Math.log(a) + (Math.log(to) - Math.log(a)) * easeOut(p));
+    if (p >= 1){ ZOOM = null; magnet(); return false; }
+    return true;
+  };
+  ZOOM = {f, to}; anim("view", f);
+}
+let ZKEY = "";
+function updateZoomBtns(){
+  const k = (zoomNext(-1) === undefined ? "0" : "1") + (zoomNext(1) === undefined ? "0" : "1");
+  if (k === ZKEY) return;
+  ZKEY = k; $("bZin").disabled = k[0] === "0"; $("bZout").disabled = k[1] === "0";
+}
+
 // ---------------------------------------------------------------- gestes
 const PTR = new Map(); let G = null, lastTap = null;
 function local(e){ const r = wrap.getBoundingClientRect(); return {x:e.clientX - r.left, y:e.clientY - r.top}; }
@@ -1235,6 +1265,13 @@ $("bSearch").onclick = () => openSearch();
 $("jback").onclick = jumpBack;
 $("bFilter").onclick = () => openSheet("filter");
 $("bMenu").onclick = () => openSheet("menu");
+$("bZin").onclick = () => zoomStep(-1);
+$("bZout").onclick = () => zoomStep(1);
+document.addEventListener("keydown", e => {
+  if (OV.length || e.ctrlKey || e.metaKey || e.altKey || /^(INPUT|TEXTAREA)$/.test(e.target.tagName)) return;
+  if (e.key === "+" || e.key === "="){ e.preventDefault(); zoomStep(-1); }
+  else if (e.key === "-" || e.key === "_"){ e.preventDefault(); zoomStep(1); }
+});
 (() => {
   const b = $("bPlay"); let lp = 0, longFired = false;
   b.addEventListener("pointerdown", () => { longFired = false; lp = setTimeout(() => { longFired = true; stopPlay(); openSheet("speed"); }, 520); });
@@ -1258,15 +1295,16 @@ function openSearch(){ if (!SEARCH) buildSearch(); pushOv({type:"search"}); $("q
 const GROUPS = ["node", "person", "org", "place", "work"].map(k => [k, k]); // libellés : I18N, clés group.*
 function renderResults(){
   const q = norm($("q").value.trim()), box = $("sres");
-  if (q.length < 2){ box.innerHTML = `<div class="sempty">${esc(tr("search.hint"))}</div>`; return; }
+  if (q.length < 2){ box.innerHTML = `<div class="sempty">${esc(tr("search.hint"))}</div><div class="sempty" style="padding-top:0">${esc(tr("m.search.yearHint"))}</div>`; return; }
+  const yh = yearRow(q);
   const words = q.split(/\s+/);
   const hits = SEARCH.filter(s => words.every(w => s.hay.includes(w)))
     .map(s => { const nm = norm(entName(s.ref)); return {s, score:(nm === q ? -1 : nm.startsWith(q) ? 0 : 1) - Math.min(0.4, (ENT_NODES.get(s.ref)||[]).length/20)}; })
     .sort((a,b) => a.score - b.score);
-  if (!hits.length){ box.innerHTML = `<div class="sempty">${esc(tr("search.none"))}</div>`; return; }
+  if (!hits.length){ box.innerHTML = yh || `<div class="sempty">${esc(tr("search.none"))}</div>`; return; }
   const best = k => { const x = hits.find(h => h.s.e.kind === k); return x ? x.score : 9; };
   const groups = GROUPS.map((g, i) => [...g, best(g[0]), i]).sort((a,b) => a[2] - b[2] || a[3] - b[3]);
-  let h = "";
+  let h = yh;
   for (const [k] of groups){
     const list = hits.filter(x => x.s.e.kind === k).slice(0, 25).map(x => x.s);
     if (!list.length) continue;
@@ -1280,11 +1318,33 @@ function renderResults(){
   }
   box.innerHTML = h;
 }
+/** ligne « Aller à 1917 » en tête des résultats quand la recherche est une année */
+function yearRow(q){
+  if (!/^\d{4}$/.test(q)) return "";
+  const y = +q, a = MIN_T, b = Math.floor(MAX_T);
+  if (y < a || y > b) return `<div class="res yr out"><span class="dot">⊘</span><div class="tx"><div class="t1">${esc(tr("m.search.yearOut", {y, a, b}))}</div></div></div>`;
+  const l = mainLane();
+  return `<div class="res yr" data-year="${y}"><span class="dot">⤓</span><div class="tx"><div class="t1">${esc(tr("m.search.year", {y}))}</div><div class="t2">${esc(tr("m.search.yearSub", {tl:l ? laneName(l) : ""}))}</div></div></div>`;
+}
+/** positionne la timeline sur une année : la loupe va à l'évènement de la principale le plus proche du milieu de l'année,
+    sinon au milieu de l'année ; une plage de plus de 20 ans est ramenée à 10 ans */
+function goYear(y){
+  closeTo(OV.findIndex(o => o.type === "search"));
+  stopPlay(); clearJump(); userMoved(); S.sec = null; S.pick = null;
+  const mid = y + 0.5, sp = S.span > 20 ? 10 : S.span, l = mainLane();
+  let best = null;
+  if (l) for (const e of l.evs){ const n = e.n; if (hidden(n) || n._tp < y || n._tp >= y + 1) continue; if (!best || Math.abs(n._tp - mid) < Math.abs(best._tp - mid)) best = n; }
+  if (best) S.pick = best.id;
+  setTimeout(() => glideTo(best ? best._tp : Math.min(mid, MAX_T), sp, 420), 50);
+}
 $("q").addEventListener("input", renderResults);
-$("q").addEventListener("keydown", e => { if (e.key === "Enter"){ const f = $("sres").querySelector(".res"); if (f) f.click(); } });
+$("q").addEventListener("keydown", e => { if (e.key === "Enter"){ const f = $("sres").querySelector(".res:not(.out)"); if (f) f.click(); } });
 $("search").addEventListener("click", e => {
   if (e.target.closest("[data-act=back]")) return back();
-  const r = e.target.closest(".res"); if (r){ $("q").blur(); replaceTop({type:"detail", ref:r.dataset.ref}); }
+  const r = e.target.closest(".res"); if (!r || r.classList.contains("out")) return;
+  $("q").blur();
+  if (r.dataset.year) return goYear(+r.dataset.year);
+  replaceTop({type:"detail", ref:r.dataset.ref});
 });
 
 // ---------------------------------------------------------------- fiches
