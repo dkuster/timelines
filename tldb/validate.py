@@ -4,6 +4,7 @@ from __future__ import annotations
 import sys
 from collections import defaultdict
 
+from .watch import check_watch
 from .model import Base, Entity, Report, label, COLLECTIONS, COLLECTION_TO_PREFIX, SUMMARY_MAX, BIO_MAX, SYMMETRIC_LINKS, lt_langs
 from .dates import parse_date, cmp_coarse, check_date, check_range
 from .schemas import build_validators, check_schemas
@@ -330,6 +331,7 @@ def cmd_validate(args) -> int:
     if validators:
         check_schemas(base, validators)
     check_semantics(base, check_media_files=not args.no_media_files)
+    check_watch(base, validators)
     for line in rep.errors + ([] if args.quiet else rep.warnings):
         print(line)
     counts = ", ".join(f"{c} {len(base.entities[c])}" for c in COLLECTIONS) + f", notes {len(base.notes)}"

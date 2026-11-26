@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Curseur de veille des timelines (veille/watch.json)",
+  "description": "Pour chaque timeline, mois jusqu'auquel la recherche de nouveaux évènements a été faite. Procédure : docs/veille.md.",
+  "type": "object",
+  "properties": {
+    "$schema": {"type": "string"},
+    "version": {"const": 1},
+    "lag_months": {
+      "description": "Recul : la période couverte s'arrête ce nombre de mois avant le mois écoulé.",
+      "type": "integer", "minimum": 0, "maximum": 12
+    },
+    "rotation": {
+      "description": "Nombre de groupes de rotation : chaque timeline est revue tous les `rotation` mois.",
+      "type": "integer", "minimum": 1, "maximum": 12
+    },
+    "timelines": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"$ref": "common.schema.json#/$defs/slug"},
+          "group": {
+            "description": "0 : chaque mois ; 1 à rotation : mois où (mois - 1) % rotation + 1 vaut ce groupe.",
+            "type": "integer", "minimum": 0
+          },
+          "active": {"description": "false : timeline close, hors veille.", "type": "boolean"},
+          "last_checked": {
+            "description": "Recherche faite jusqu'à la fin de ce mois (AAAA-MM).",
+            "type": "string", "pattern": "^\\d{4}-(0[1-9]|1[0-2])$"
+          },
+          "checked_on": {
+            "description": "Date du dernier passage de veille (AAAA-MM-JJ).",
+            "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          },
+          "note": {"type": "string"}
+        },
+        "required": ["id"],
+        "additionalProperties": false,
+        "if": {"not": {"properties": {"active": {"const": false}}, "required": ["active"]}},
+        "then": {"required": ["group", "last_checked"]}
+      }
+    }
+  },
+  "required": ["version", "timelines"],
+  "additionalProperties": false
+}

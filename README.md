@@ -10,12 +10,14 @@ Site publié : https://dkuster.github.io/timelines/ (reconstruit à chaque push 
 - Idées (courants, théories, concepts, stratégies, mots d'ordre) : [`docs/specs/ideas.md`](docs/specs/ideas.md)
 - Viewer mobile : [`docs/specs/viewer-mobile.md`](docs/specs/viewer-mobile.md)
 - Skill de génération pour Claude : [`docs/skill/SKILL.md`](docs/skill/SKILL.md) (copie versionnée)
+- Veille mensuelle (nouveaux évènements, curseur `veille/watch.json`) : [`docs/veille.md`](docs/veille.md)
 
 ## Arborescence
 
 ```
 data/nodes/*.json        nœuds, un fichier par timeline racine
 data/<collection>.json   persons, places, organizations, works, ideas, sources, links, media
+veille/watch.json        curseur de la veille mensuelle (docs/veille.md)
 notes/*.md               notes longues (en-tête YAML) ; tag « verification » : points à vérifier
 media/other/             images, audio, documents locaux ; media/video/ : vidéos (branchable ailleurs plus tard)
 schema/                  JSON Schema, référencés par la clé $schema de chaque fichier de data/
@@ -46,6 +48,7 @@ Depuis la racine du dépôt (`python -m tldb` hors Windows) :
 ```
 py -m tldb validate                 vérifier toute la base (code 1 s'il y a des erreurs)
 py -m tldb validate --quiet         erreurs seulement
+py -m tldb watch                    veille : timelines à mettre à jour ce mois-ci
 py -m tldb format                   remettre les fichiers au format canonique
 py -m tldb format --check           signaler sans modifier
 py -m tldb index --grep lenin       chercher une entité (id, titres, noms, alias)

@@ -1,0 +1,28 @@
+{
+  "$schema": "../schema/watch.schema.json",
+  "version": 1,
+  "lag_months": 1,
+  "rotation": 3,
+  "timelines": [
+    {"id": "world", "group": 0, "last_checked": "2025-10"},
+    {"id": "france", "group": 1, "last_checked": "2026-08"},
+    {"id": "germany", "group": 1, "last_checked": "2025-01"},
+    {"id": "switzerland", "group": 1, "last_checked": "2024-03"},
+    {"id": "austria", "group": 1, "last_checked": "2024-08"},
+    {"id": "africa", "group": 1, "last_checked": "2023-08"},
+    {"id": "marxism", "group": 1, "last_checked": "2026-08", "note": "veille des seuls évènements récents ; la lacune après 1928 se comble hors veille"},
+    {"id": "united-kingdom", "group": 2, "last_checked": "2026-06"},
+    {"id": "ireland", "group": 2, "last_checked": "2026-03"},
+    {"id": "italy", "group": 2, "last_checked": "2026-08"},
+    {"id": "spain", "group": 2, "last_checked": "2026-09"},
+    {"id": "latin-america", "group": 2, "last_checked": "2023-10"},
+    {"id": "hungary", "group": 2, "last_checked": "2026-04"},
+    {"id": "russia", "group": 3, "last_checked": "2026-08"},
+    {"id": "china", "group": 3, "last_checked": "2025-11"},
+    {"id": "asia", "group": 3, "last_checked": "2025-08"},
+    {"id": "united-states", "group": 3, "last_checked": "2026-04"},
+    {"id": "trotskyism", "group": 3, "last_checked": "2024-05"},
+    {"id": "bolshevism", "active": false, "note": "période close (fin 1927)"},
+    {"id": "stalinism", "active": false, "note": "période close (1991)"}
+  ]
+}

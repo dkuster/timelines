@@ -14,6 +14,7 @@ from .fmt import cmd_format
 from .related import cmd_related
 from .build import cmd_build, cmd_serve
 from .basemaps import cmd_basemaps
+from .watch import cmd_watch
 
 
 def cmd_index(args) -> int:
@@ -174,6 +175,15 @@ def main(argv=None) -> int:
     bm = sub.add_parser("basemaps", help="régénérer les fonds de carte (Internet + mapshaper)")
     bm.add_argument("--years", type=int, nargs="+", default=[1900, 1914, 1920])
     bm.set_defaults(fn=cmd_basemaps)
+
+    w = sub.add_parser("watch", help="veille : timelines à mettre à jour (veille/watch.json, docs/veille.md)")
+    w.add_argument("--date", help="date d'exécution AAAA-MM-JJ (défaut : aujourd'hui)")
+    w.add_argument("--json", action="store_true", help="plan au format JSON")
+    w.add_argument("--all", action="store_true", help="afficher aussi l'état de tous les curseurs")
+    w.add_argument("--ongoing", metavar="RACINE", help="lister les nœuds ongoing d'une timeline")
+    w.add_argument("--done", metavar="RACINE", help="avancer le curseur de la timeline (jusqu'à --until)")
+    w.add_argument("--until", metavar="AAAA-MM", help="avec --done : mois atteint (défaut : fin de la période couverte)")
+    w.set_defaults(fn=cmd_watch)
 
     args = ap.parse_args(argv)
     args.root = args.root.resolve()
