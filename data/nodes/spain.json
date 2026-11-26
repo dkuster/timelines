@@ -6754,7 +6754,11 @@
         "de": "Sintflutartige Regenfälle töten über 230 Menschen, vor allem in Valencias Arbeitervororten; die verspätete Warnung löst massiven Zorn gegen Regionalpräsident Mazón aus, der 2025 zurücktritt.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "2011-15m-austerity-and-regime-crisis"}, {"id": "world-disasters"}],
+      "parents": [
+        {"id": "2011-15m-austerity-and-regime-crisis"},
+        {"id": "world-disasters"},
+        {"id": "world-ecology"}
+      ],
       "persons": ["carlos-mazon"],
       "places": ["valencia", "paiporta"],
       "sources": [{"ref": "wp-en-2024-spanish-floods"}],

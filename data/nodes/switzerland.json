@@ -1698,6 +1698,114 @@
       "places": ["mont-pelerin"],
       "organizations": ["mont-pelerin-society"],
       "status": "draft"
+    },
+    {
+      "id": "1986-schweizerhalle-chemical-fire",
+      "title": {
+        "fr": "Incendie de Schweizerhalle",
+        "en": "Schweizerhalle chemical fire",
+        "de": "Brand von Schweizerhalle",
+        "draft": ["en", "de"]
+      },
+      "type": "disaster",
+      "start": {"date": "1986-11-01"},
+      "summary": {
+        "fr": "L'incendie d'un entrepôt de pesticides de Sandoz près de Bâle déverse dans le Rhin des tonnes de produits toxiques avec l'eau d'extinction : le fleuve devient rouge et la vie aquatique est anéantie sur des centaines de kilomètres.",
+        "en": "A fire at a Sandoz pesticide warehouse near Basel washes tonnes of toxic chemicals into the Rhine with the firefighting water: the river turns red and aquatic life is wiped out for hundreds of kilometres.",
+        "de": "Beim Brand eines Pestizidlagers von Sandoz bei Basel gelangen mit dem Löschwasser Tonnen giftiger Chemikalien in den Rhein: Der Fluss färbt sich rot, das Leben im Wasser wird auf Hunderten Kilometern ausgelöscht.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1945-post-war-boom-and-concordance"},
+        {"id": "world-disasters"},
+        {"id": "world-ecology"}
+      ],
+      "places": ["schweizerhalle"],
+      "organizations": ["sandoz"],
+      "sources": [{"ref": "wp-en-sandoz-chemical-spill"}],
+      "status": "draft"
+    },
+    {
+      "id": "1975-kaiseraugst-site-occupation",
+      "title": {
+        "fr": "Occupation du site de Kaiseraugst",
+        "en": "Occupation of the Kaiseraugst site",
+        "de": "Besetzung des Baugeländes von Kaiseraugst",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1975-04"},
+      "end": {"date": "1975-06"},
+      "summary": {
+        "fr": "Des milliers d'opposants occupent pendant onze semaines le chantier de la centrale nucléaire prévue près de Bâle ; le projet est finalement abandonné en 1988 et la lutte fonde le mouvement antinucléaire suisse.",
+        "en": "Thousands of opponents occupy the construction site of the planned nuclear power plant near Basel for eleven weeks; the project is finally abandoned in 1988 and the struggle founds the Swiss anti-nuclear movement.",
+        "de": "Tausende Gegner besetzen elf Wochen lang den Bauplatz des geplanten Atomkraftwerks bei Basel; das Projekt wird 1988 endgültig aufgegeben, der Kampf begründet die Schweizer Anti-AKW-Bewegung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1945-post-war-boom-and-concordance"}, {"id": "world-ecology"}],
+      "places": ["kaiseraugst"],
+      "sources": [{"ref": "wp-en-kaiseraugst-nuclear-power-plant"}],
+      "status": "draft"
+    },
+    {
+      "id": "2021-swiss-co2-act-rejected",
+      "title": {
+        "fr": "Rejet de la loi sur le CO₂",
+        "en": "Swiss CO₂ Act rejected",
+        "de": "Ablehnung des CO₂-Gesetzes",
+        "draft": ["en", "de"]
+      },
+      "type": "vote",
+      "start": {"date": "2021-06-13"},
+      "summary": {
+        "fr": "Le peuple suisse rejette à 51,6 % la loi révisée sur le CO₂, qui devait mettre en œuvre l'accord de Paris par des taxes sur le carburant et les billets d'avion, combattue au nom du porte-monnaie.",
+        "en": "Swiss voters reject by 51.6% the revised CO₂ Act, which was to implement the Paris Agreement through taxes on fuel and air tickets, opposed on cost-of-living grounds.",
+        "de": "Das Schweizer Stimmvolk lehnt mit 51,6 % das revidierte CO₂-Gesetz ab, das das Pariser Abkommen mit Abgaben auf Treibstoff und Flugtickets umsetzen sollte und mit dem Portemonnaie-Argument bekämpft wurde.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1990-since-end-of-cold-war"}, {"id": "world-ecology"}],
+      "status": "draft"
+    },
+    {
+      "id": "2023-swiss-climate-and-innovation-act",
+      "title": {
+        "fr": "Acceptation de la loi sur le climat",
+        "en": "Swiss climate law approved",
+        "de": "Annahme des Klimagesetzes",
+        "draft": ["en", "de"]
+      },
+      "type": "vote",
+      "start": {"date": "2023-06-18"},
+      "summary": {
+        "fr": "Contre-projet à l'initiative pour les glaciers, la loi fédérale sur le climat et l'innovation fixe la neutralité carbone en 2050 sans nouvelles taxes ; elle est acceptée à 59,1 % malgré le référendum de l'UDC.",
+        "en": "A counter-proposal to the glacier initiative, the federal Climate and Innovation Act sets carbon neutrality by 2050 without new taxes; it is approved by 59.1% despite the SVP referendum.",
+        "de": "Als Gegenvorschlag zur Gletscher-Initiative legt das Bundesgesetz über Klimaschutz und Innovation Netto-Null bis 2050 ohne neue Abgaben fest; es wird trotz SVP-Referendum mit 59,1 % angenommen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1990-since-end-of-cold-war"}, {"id": "world-ecology"}],
+      "status": "draft"
+    },
+    {
+      "id": "2024-klimaseniorinnen-ruling",
+      "title": {
+        "fr": "Arrêt KlimaSeniorinnen contre la Suisse",
+        "en": "KlimaSeniorinnen v Switzerland ruling",
+        "de": "Urteil KlimaSeniorinnen gegen die Schweiz",
+        "draft": ["en", "de"]
+      },
+      "type": "trial",
+      "start": {"date": "2024-04-09"},
+      "summary": {
+        "fr": "Saisie par une association de femmes âgées, la Grande Chambre de la Cour européenne des droits de l'homme juge que la Suisse ne protège pas suffisamment sa population contre le changement climatique ; le Parlement fédéral recommande de ne pas donner suite.",
+        "en": "Petitioned by an association of older women, the Grand Chamber of the European Court of Human Rights rules that Switzerland does not adequately protect its population against climate change; the federal parliament recommends not complying.",
+        "de": "Auf Klage eines Vereins älterer Frauen urteilt die Große Kammer des Europäischen Gerichtshofs für Menschenrechte, dass die Schweiz ihre Bevölkerung nicht ausreichend vor dem Klimawandel schützt; das Bundesparlament empfiehlt, dem Urteil keine Folge zu leisten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1990-since-end-of-cold-war"}, {"id": "world-ecology"}],
+      "places": ["strasbourg"],
+      "organizations": ["klimaseniorinnen", "european-court-of-human-rights"],
+      "sources": [{"ref": "wp-en-klimaseniorinnen-v-switzerland"}],
+      "status": "draft"
     }
   ]
 }

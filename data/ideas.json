@@ -2081,6 +2081,14 @@
           "date": {"date": "1844"},
           "persons": ["engels"],
           "note": {"fr": "Esquisse d'une critique de l'économie politique."}
+        },
+        {
+          "stage": "revival",
+          "node": "1968-the-population-bomb",
+          "persons": ["paul-r-ehrlich"],
+          "note": {
+            "fr": "Le néomalthusianisme d'Ehrlich impute la crise écologique à la croissance démographique du Sud."
+          }
         }
       ],
       "status": "draft"
@@ -3189,6 +3197,214 @@
           "persons": ["evo-morales"]
         },
         {"stage": "test", "node": "2026-capture-of-nicolas-maduro", "persons": ["nicolas-maduro"]}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "metabolic-rift",
+      "name": {
+        "fr": "Rupture métabolique",
+        "en": "Metabolic rift",
+        "de": "Metabolischer Bruch",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Faille métabolique", "Riss im Stoffwechsel"],
+      "type": "concept",
+      "tradition": "marxist",
+      "broader": ["historical-materialism"],
+      "summary": {
+        "fr": "Concept marxiste selon lequel le capitalisme rompt les échanges de matière entre la société et la nature, en épuisant à la fois la terre et le travailleur.",
+        "en": "Marxist concept according to which capitalism disrupts the exchange of matter between society and nature, exhausting both the soil and the worker.",
+        "de": "Marxistischer Begriff, wonach der Kapitalismus den Stoffwechsel zwischen Gesellschaft und Natur zerreißt und dabei Boden und Arbeiter zugleich erschöpft.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Marx décrit le travail comme un « métabolisme » entre l'homme et la nature. S'appuyant sur la chimie agricole de Liebig, il montre dans Le Capital que la séparation de la ville et de la campagne et l'agriculture capitaliste exportent les nutriments du sol vers les villes sans les restituer : la fertilité s'épuise tandis que les déchets polluent les villes. Le livre III parle d'une rupture irrémédiable de ce métabolisme. Longtemps négligé, le concept est remis au premier plan en 2000 par John Bellamy Foster et sert de base à une écologie marxiste qui l'étend au climat, aux océans ou à la biodiversité."
+      },
+      "appraisal": {
+        "fr": "Le concept montre que la crise écologique n'est pas le produit de « l'humanité » en général ni de la technique, mais d'un mode de production fondé sur la recherche du profit à court terme. Il réfute l'idée que le marxisme serait par nature productiviste. Sa conclusion pratique est qu'aucune régulation dans le cadre du capitalisme ne peut combler la rupture : seule une économie planifiée démocratiquement par les producteurs associés peut « régler rationnellement » les échanges avec la nature, comme l'écrit Marx."
+      },
+      "milestones": [
+        {
+          "stage": "precursor",
+          "date": {"date": "1862"},
+          "persons": ["justus-von-liebig"],
+          "note": {
+            "fr": "Liebig dénonce l'agriculture « de pillage » qui épuise les sols sans leur rendre leurs nutriments."
+          }
+        },
+        {
+          "stage": "formulation",
+          "work": "das-kapital",
+          "persons": ["marx"],
+          "note": {
+            "fr": "Le livre I montre que l'agriculture capitaliste ruine à la fois le travailleur et la terre."
+          }
+        },
+        {
+          "stage": "development",
+          "date": {"date": "1876"},
+          "work": "the-part-played-by-labour-in-the-transition-from-ape-to-man",
+          "persons": ["engels"],
+          "note": {
+            "fr": "Engels avertit que la nature « se venge » de chaque victoire remportée sur elle ; texte publié en 1896."
+          }
+        },
+        {
+          "stage": "development",
+          "date": {"date": "1894"},
+          "work": "das-kapital",
+          "persons": ["marx", "engels"],
+          "note": {
+            "fr": "Le livre III, publié par Engels, évoque une rupture irrémédiable du métabolisme social."
+          }
+        },
+        {"stage": "revival", "node": "2000-marxs-ecology", "persons": ["john-bellamy-foster"]},
+        {
+          "stage": "development",
+          "node": "2016-fossil-capital",
+          "persons": ["andreas-malm"],
+          "note": {
+            "fr": "Malm situe les racines du réchauffement dans le passage du capital industriel britannique au charbon."
+          }
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "ecosocialism",
+      "name": {"fr": "Écosocialisme", "en": "Ecosocialism", "de": "Ökosozialismus", "draft": ["en", "de"]},
+      "type": "current",
+      "tradition": "marxist",
+      "broader": ["marxism"],
+      "summary": {
+        "fr": "Courant qui lie la lutte écologique à la lutte pour le socialisme et voit dans le capitalisme la cause de la crise écologique.",
+        "en": "Current that links the ecological struggle to the struggle for socialism and sees capitalism as the cause of the ecological crisis.",
+        "de": "Strömung, die den ökologischen Kampf mit dem Kampf für den Sozialismus verbindet und im Kapitalismus die Ursache der ökologischen Krise sieht.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "L'écosocialisme naît dans les années 1970 de la rencontre entre l'écologie politique et une partie de la gauche marxiste, avec des auteurs comme André Gorz. Le Manifeste écosocialiste de Joel Kovel et Michael Löwy (2001) lui donne un nom et un programme : planification démocratique, propriété sociale des moyens de production, rupture avec le productivisme du capitalisme comme avec celui des régimes staliniens. Il s'appuie sur la redécouverte de l'écologie de Marx par John Bellamy Foster et inspire aujourd'hui des auteurs comme Andreas Malm."
+      },
+      "appraisal": {
+        "fr": "L'écosocialisme a raison de situer la cause de la crise dans le capitalisme et de rejeter les solutions de marché. Mais il reste hétérogène : une partie oppose « l'écologie » à la croissance des forces productives, dissout la classe ouvrière dans des alliances floues ou mise sur des expériences locales et des réformes graduelles. Pour les marxistes révolutionnaires, la transition écologique dépend de la prise du pouvoir par la classe ouvrière, la seule force capable d'exproprier les grands groupes de l'énergie et de la finance et de planifier la production à l'échelle mondiale."
+      },
+      "milestones": [
+        {"stage": "precursor", "node": "1975-gorz-ecologie-et-politique", "persons": ["andre-gorz"]},
+        {"stage": "development", "node": "2000-marxs-ecology", "persons": ["john-bellamy-foster"]},
+        {
+          "stage": "formulation",
+          "date": {"date": "2001"},
+          "note": {"fr": "Joel Kovel et Michael Löwy publient le Manifeste écosocialiste."}
+        },
+        {"stage": "development", "node": "2016-fossil-capital", "persons": ["andreas-malm"]}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "degrowth",
+      "name": {"fr": "Décroissance", "en": "Degrowth", "de": "Postwachstum", "draft": ["en", "de"]},
+      "aliases": ["Degrowth", "Wachstumsrücknahme"],
+      "type": "current",
+      "tradition": "other",
+      "summary": {
+        "fr": "Courant qui prône la réduction de la production et de la consommation dans les pays riches pour revenir dans les limites de la planète.",
+        "en": "Current that advocates reducing production and consumption in rich countries to return within planetary limits.",
+        "de": "Strömung, die eine Verringerung von Produktion und Konsum in den reichen Ländern fordert, um in die Grenzen des Planeten zurückzukehren.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "La décroissance s'appuie sur le constat du rapport Meadows (1972) qu'une croissance matérielle infinie est impossible dans un monde fini. Le terme se diffuse en France au début des années 2000, puis à l'international après la première conférence sur la décroissance à Paris en 2008. Ses partisans critiquent le PIB comme mesure du progrès, prônent la sobriété, la relocalisation et le partage du travail, et refusent l'idée d'une « croissance verte » découplée des ressources."
+      },
+      "appraisal": {
+        "fr": "La décroissance a le mérite de mettre en cause l'idéologie de la croissance sans fin. Mais elle vise la croissance en général plutôt que l'accumulation du capital, et s'adresse souvent aux consommateurs plutôt qu'aux producteurs. Sous le capitalisme, une baisse de la production signifie chômage et misère pour les travailleurs, comme le montrent les récessions. Les marxistes posent la question autrement : qui décide de ce qui est produit, et pour quels besoins ? Seule la planification socialiste permet de réduire les productions nuisibles tout en développant les besoins sociaux."
+      },
+      "milestones": [
+        {
+          "stage": "precursor",
+          "node": "1972-the-limits-to-growth",
+          "organizations": ["club-of-rome"]
+        },
+        {"stage": "development", "node": "2004-limits-to-growth-30-year-update"},
+        {
+          "stage": "formulation",
+          "date": {"date": "2008-04"},
+          "note": {"fr": "Première conférence internationale sur la décroissance à Paris."}
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "sustainable-development",
+      "name": {
+        "fr": "Développement durable",
+        "en": "Sustainable development",
+        "de": "Nachhaltige Entwicklung",
+        "draft": ["en", "de"]
+      },
+      "type": "concept",
+      "tradition": "liberal",
+      "summary": {
+        "fr": "Notion popularisée par le rapport Brundtland : un développement qui répond aux besoins présents sans compromettre ceux des générations futures.",
+        "en": "Notion popularised by the Brundtland Report: development that meets present needs without compromising those of future generations.",
+        "de": "Vom Brundtland-Bericht verbreiteter Begriff: eine Entwicklung, die die heutigen Bedürfnisse befriedigt, ohne die künftiger Generationen zu gefährden.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Le rapport Brundtland (1987) définit le développement durable comme un développement qui répond aux besoins du présent sans compromettre la capacité des générations futures à répondre aux leurs. La notion repose sur trois « piliers », économique, social et environnemental, censés être conciliables. Adoptée au sommet de Rio en 1992, elle devient la doctrine officielle des Nations unies, des gouvernements et des entreprises, prolongée en 2015 par les objectifs de développement durable."
+      },
+      "appraisal": {
+        "fr": "Le développement durable affirme qu'on peut concilier la croissance capitaliste et la protection de la nature sans toucher à la propriété privée ni au marché. Trente ans après Rio, la hausse continue des émissions et des températures dément cette promesse. La notion sert surtout à légitimer le « capitalisme vert » et l'écoblanchiment des grands groupes, et à faire porter l'effort sur les consommateurs plutôt que sur les capitalistes."
+      },
+      "milestones": [
+        {
+          "stage": "formulation",
+          "node": "1987-brundtland-report",
+          "persons": ["gro-harlem-brundtland"]
+        },
+        {"stage": "adoption", "node": "1992-rio-earth-summit", "organizations": ["united-nations"]},
+        {
+          "stage": "test",
+          "node": "2024-first-year-above-1-5-c",
+          "note": {"fr": "Plus de trente ans après Rio, émissions et températures continuent d'augmenter."}
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "anthropocene",
+      "name": {"fr": "Anthropocène", "en": "Anthropocene", "de": "Anthropozän", "draft": ["en", "de"]},
+      "type": "concept",
+      "tradition": "other",
+      "summary": {
+        "fr": "Proposition de nommer une nouvelle époque géologique marquée par l'action humaine sur le système Terre.",
+        "en": "Proposal to name a new geological epoch marked by human action on the Earth system.",
+        "de": "Vorschlag, eine neue erdgeschichtliche Epoche zu benennen, die vom menschlichen Einfluss auf das Erdsystem geprägt ist.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Proposé en 2000 par Paul Crutzen, l'Anthropocène désigne une époque où l'humanité est devenue une force géologique : climat, cycles de l'azote et du phosphore, biodiversité et sédiments portent sa marque. Son début est débattu : révolution industrielle, essais nucléaires ou « grande accélération » d'après 1950. La notion se diffuse largement dans les sciences et le débat public, mais les géologues refusent en 2024 de l'inscrire officiellement dans l'échelle des temps."
+      },
+      "appraisal": {
+        "fr": "Le concept a le mérite de montrer l'ampleur des transformations de la planète. Mais en attribuant la crise à « l'Anthropos », l'espèce humaine en général, il efface les responsabilités de classe : ce sont les capitalistes des pays impérialistes, et non les paysans du Sud ou les ouvriers, qui ont décidé de l'usage des énergies fossiles. C'est pourquoi Andreas Malm et d'autres lui opposent le terme de « Capitalocène »."
+      },
+      "milestones": [
+        {"stage": "formulation", "node": "2000-anthropocene-proposal", "persons": ["paul-crutzen"]},
+        {
+          "stage": "critique",
+          "node": "2016-fossil-capital",
+          "persons": ["andreas-malm"],
+          "note": {
+            "fr": "Malm reproche au concept de rendre l'humanité entière responsable de ce qui relève du capital."
+          }
+        },
+        {
+          "stage": "test",
+          "date": {"date": "2024-03"},
+          "note": {
+            "fr": "Une sous-commission de l'Union internationale des sciences géologiques rejette sa reconnaissance comme époque géologique."
+          }
+        }
       ],
       "status": "draft"
     }

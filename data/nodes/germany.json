@@ -3506,6 +3506,51 @@
       "organizations": ["afd", "die-linke", "spd"],
       "sources": [{"ref": "wp-en-2025-german-federal-election"}],
       "status": "draft"
+    },
+    {
+      "id": "1980-founding-of-the-german-greens",
+      "title": {
+        "fr": "Fondation des Verts allemands",
+        "en": "Founding of the German Greens",
+        "de": "Gründung der Grünen",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1980-01-13"},
+      "summary": {
+        "fr": "Issus des luttes antinucléaires, pacifistes et alternatives, les Verts se constituent en parti à Karlsruhe ; entrés au Bundestag en 1983, ils participent au gouvernement fédéral à partir de 1998.",
+        "en": "Emerging from anti-nuclear, peace and alternative movements, the Greens form a party in Karlsruhe; entering the Bundestag in 1983, they join the federal government from 1998.",
+        "de": "Aus Anti-Atom-, Friedens- und Alternativbewegungen hervorgegangen, gründen sich die Grünen in Karlsruhe als Partei; 1983 ziehen sie in den Bundestag ein, ab 1998 sind sie an der Bundesregierung beteiligt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1945-occupation-and-two-german-states"}, {"id": "world-ecology"}],
+      "places": ["karlsruhe"],
+      "organizations": ["german-greens"],
+      "status": "draft"
+    },
+    {
+      "id": "2023-lutzerath-eviction",
+      "title": {
+        "fr": "Évacuation de Lützerath",
+        "en": "Eviction of Lützerath",
+        "de": "Räumung von Lützerath",
+        "draft": ["en", "de"]
+      },
+      "type": "repression",
+      "start": {"date": "2023-01-11"},
+      "end": {"date": "2023-01-16"},
+      "summary": {
+        "fr": "La police évacue le hameau occupé pour laisser RWE étendre la mine de lignite de Garzweiler, avec l'accord des Verts au gouvernement ; le 14 janvier, des dizaines de milliers de manifestants, jusqu'à 35 000 selon les organisateurs, affrontent la police.",
+        "en": "Police evict the occupied hamlet so that RWE can extend the Garzweiler lignite mine, with the agreement of the Greens in government; on 14 January tens of thousands of protesters, up to 35,000 according to the organisers, clash with police.",
+        "de": "Die Polizei räumt den besetzten Weiler, damit RWE den Braunkohletagebau Garzweiler erweitern kann, mit Zustimmung der mitregierenden Grünen; am 14. Januar stoßen Zehntausende Demonstranten, laut Veranstaltern bis zu 35 000, mit der Polizei zusammen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1990-reunified-germany"}, {"id": "world-ecology"}],
+      "persons": ["greta-thunberg"],
+      "places": ["lutzerath"],
+      "organizations": ["rwe", "german-greens"],
+      "sources": [{"ref": "wp-en-lutzerath"}],
+      "status": "draft"
     }
   ]
 }

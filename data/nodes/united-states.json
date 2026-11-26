@@ -6889,7 +6889,8 @@
       "parents": [
         {"id": "united-states-slavery-and-black-liberation"},
         {"id": "1981-reaganism-and-neoliberalism"},
-        {"id": "world-disasters"}
+        {"id": "world-disasters"},
+        {"id": "world-ecology"}
       ],
       "persons": ["george-w-bush"],
       "places": ["new-orleans"],
@@ -7039,7 +7040,8 @@
       },
       "parents": [
         {"id": "united-states-westward-expansion-and-native-nations"},
-        {"id": "2008-crisis-polarisation-and-new-struggles"}
+        {"id": "2008-crisis-polarisation-and-new-struggles"},
+        {"id": "world-ecology"}
       ],
       "places": ["standing-rock"],
       "sources": [{"ref": "wp-en-dakota-access-pipeline-protests"}],
@@ -7648,6 +7650,86 @@
       "parents": [{"id": "2008-crisis-polarisation-and-new-struggles"}],
       "places": ["chicago", "los-angeles", "new-york"],
       "sources": [{"ref": "wp-en-2026-may-day-protests"}],
+      "status": "draft"
+    },
+    {
+      "id": "1970-epa-founding",
+      "title": {
+        "fr": "Création de l'Agence de protection de l'environnement",
+        "en": "Founding of the Environmental Protection Agency",
+        "de": "Gründung der Umweltschutzbehörde EPA",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1970-12-02"},
+      "summary": {
+        "fr": "Sous la pression d'un mouvement de masse, l'administration Nixon crée l'EPA, chargée de faire appliquer les nouvelles lois sur l'air, l'eau et les pesticides.",
+        "en": "Under pressure from a mass movement, the Nixon administration creates the EPA, responsible for enforcing new laws on air, water and pesticides.",
+        "de": "Unter dem Druck einer Massenbewegung gründet die Regierung Nixon die EPA, die die neuen Gesetze über Luft, Wasser und Pestizide durchsetzen soll.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1968-revolts-vietnam-defeat-and-crisis-of-hegemony"}, {"id": "world-ecology"}],
+      "places": ["washington-dc"],
+      "organizations": ["us-epa"],
+      "status": "draft"
+    },
+    {
+      "id": "1972-us-ddt-ban",
+      "title": {
+        "fr": "Interdiction du DDT aux États-Unis",
+        "en": "DDT ban in the United States",
+        "de": "DDT-Verbot in den USA",
+        "draft": ["en", "de"]
+      },
+      "type": "ban",
+      "start": {"date": "1972-06-14"},
+      "summary": {
+        "fr": "Dix ans après Printemps silencieux, l'EPA interdit l'usage agricole du DDT aux États-Unis ; les fabricants continuent de l'exporter.",
+        "en": "Ten years after Silent Spring, the EPA bans the agricultural use of DDT in the United States; manufacturers continue to export it.",
+        "de": "Zehn Jahre nach Der stumme Frühling verbietet die EPA den landwirtschaftlichen Einsatz von DDT in den USA; die Hersteller exportieren es weiter.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1968-revolts-vietnam-defeat-and-crisis-of-hegemony"}, {"id": "world-ecology"}],
+      "organizations": ["us-epa"],
+      "status": "draft"
+    },
+    {
+      "id": "2017-us-withdrawal-from-the-paris-agreement",
+      "title": {
+        "fr": "Les États-Unis se retirent de l'accord de Paris",
+        "en": "United States withdraws from the Paris Agreement",
+        "de": "Die USA treten aus dem Pariser Abkommen aus",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "2017-06-01"},
+      "summary": {
+        "fr": "Donald Trump annonce le retrait du deuxième émetteur mondial ; effectif en 2020, il est annulé par Joe Biden en 2021, puis Trump le décide à nouveau dès son retour au pouvoir en janvier 2025.",
+        "en": "Donald Trump announces the withdrawal of the world's second-largest emitter; effective in 2020, it is reversed by Joe Biden in 2021, then Trump orders it again on his return to power in January 2025.",
+        "de": "Donald Trump kündigt den Austritt des zweitgrößten Emittenten der Welt an; 2020 wirksam, wird er 2021 von Joe Biden rückgängig gemacht, und Trump beschließt ihn nach seiner Rückkehr an die Macht im Januar 2025 erneut.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "2008-crisis-polarisation-and-new-struggles"}, {"id": "world-ecology"}],
+      "persons": ["donald-trump"],
+      "status": "draft"
+    },
+    {
+      "id": "1970-first-earth-day",
+      "title": {
+        "fr": "Premier Jour de la Terre",
+        "en": "First Earth Day",
+        "de": "Erster Tag der Erde",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1970-04-22"},
+      "summary": {
+        "fr": "Environ 20 millions d'Américains manifestent dans les campus, les écoles et les rues contre la pollution ; la mobilisation pousse le Congrès à voter les grandes lois environnementales des années 1970.",
+        "en": "About 20 million Americans demonstrate on campuses, in schools and in the streets against pollution; the mobilisation pushes Congress to pass the major environmental laws of the 1970s.",
+        "de": "Etwa 20 Millionen Amerikaner demonstrieren an Universitäten, Schulen und auf den Straßen gegen Umweltverschmutzung; die Mobilisierung bewegt den Kongress zu den großen Umweltgesetzen der 1970er-Jahre.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1968-revolts-vietnam-defeat-and-crisis-of-hegemony"}, {"id": "world-ecology"}],
       "status": "draft"
     }
   ]

@@ -5685,7 +5685,7 @@
         "de": "Ein Berghang stürzt in den Stausee eines trotz ungeeigneten Geländes gebauten Wasserkraftwerks; die Flutwelle zerstört Longarone: 1917 Tote.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "1960-economic-miracle-and-centre-left"}],
+      "parents": [{"id": "1960-economic-miracle-and-centre-left"}, {"id": "world-ecology"}],
       "places": ["longarone"],
       "sources": [{"ref": "protezionecivile-vajont"}],
       "status": "draft"

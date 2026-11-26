@@ -8269,6 +8269,237 @@
       "country": "VE",
       "coords": {"lat": 8.75, "lon": -69.93},
       "status": "draft"
+    },
+    {
+      "id": "albany",
+      "name": {"fr": "Albany", "en": "Albany", "de": "Albany", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "US",
+      "coords": {"lat": 42.65, "lon": -73.76},
+      "status": "draft"
+    },
+    {
+      "id": "jena",
+      "name": {"fr": "Iéna", "en": "Jena", "de": "Jena", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "DE",
+      "coords": {"lat": 50.93, "lon": 11.59},
+      "status": "draft"
+    },
+    {
+      "id": "mauna-loa-observatory",
+      "name": {
+        "fr": "Observatoire du Mauna Loa",
+        "en": "Mauna Loa Observatory",
+        "de": "Mauna-Loa-Observatorium",
+        "draft": ["en", "de"]
+      },
+      "kind": "site",
+      "country": "US",
+      "coords": {"lat": 19.54, "lon": -155.58},
+      "status": "draft"
+    },
+    {
+      "id": "montreal",
+      "name": {"fr": "Montréal", "en": "Montreal", "de": "Montreal", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "CA",
+      "coords": {"lat": 45.5, "lon": -73.57},
+      "status": "draft"
+    },
+    {
+      "id": "kyoto",
+      "name": {"fr": "Kyoto", "en": "Kyoto", "de": "Kyōto", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "JP",
+      "coords": {"lat": 35.01, "lon": 135.77},
+      "status": "draft"
+    },
+    {
+      "id": "dubai",
+      "name": {"fr": "Dubaï", "en": "Dubai", "de": "Dubai", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "AE",
+      "coords": {"lat": 25.2, "lon": 55.27},
+      "status": "draft"
+    },
+    {
+      "id": "vancouver",
+      "name": {"fr": "Vancouver", "en": "Vancouver", "de": "Vancouver", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "CA",
+      "coords": {"lat": 49.28, "lon": -123.12},
+      "status": "draft"
+    },
+    {
+      "id": "minamata",
+      "name": {"fr": "Minamata", "en": "Minamata", "de": "Minamata", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "JP",
+      "coords": {"lat": 32.22, "lon": 130.4},
+      "status": "draft"
+    },
+    {
+      "id": "aral-sea",
+      "name": {"fr": "Mer d'Aral", "en": "Aral Sea", "de": "Aralsee", "draft": ["en", "de"]},
+      "kind": "water",
+      "coords": {"lat": 45.0, "lon": 60.0},
+      "status": "draft"
+    },
+    {
+      "id": "meda",
+      "name": {"fr": "Meda", "en": "Meda", "de": "Meda", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "IT",
+      "coords": {"lat": 45.67, "lon": 9.17},
+      "status": "draft"
+    },
+    {
+      "id": "schweizerhalle",
+      "name": {
+        "fr": "Schweizerhalle",
+        "en": "Schweizerhalle",
+        "de": "Schweizerhalle",
+        "draft": ["en", "de"]
+      },
+      "kind": "site",
+      "country": "CH",
+      "coords": {"lat": 47.53, "lon": 7.68},
+      "status": "draft"
+    },
+    {
+      "id": "prince-william-sound",
+      "name": {
+        "fr": "Détroit du Prince-William (récif Bligh)",
+        "en": "Prince William Sound (Bligh Reef)",
+        "de": "Prinz-William-Sund (Bligh Reef)",
+        "draft": ["en", "de"]
+      },
+      "kind": "water",
+      "country": "US",
+      "coords": {"lat": 60.84, "lon": -146.86},
+      "status": "draft"
+    },
+    {
+      "id": "macondo-well",
+      "name": {
+        "fr": "Puits Macondo (golfe du Mexique)",
+        "en": "Macondo well (Gulf of Mexico)",
+        "de": "Macondo-Bohrloch (Golf von Mexiko)",
+        "draft": ["en", "de"]
+      },
+      "kind": "site",
+      "country": "US",
+      "coords": {"lat": 28.74, "lon": -88.37},
+      "status": "draft"
+    },
+    {
+      "id": "australia",
+      "name": {"fr": "Australie", "en": "Australia", "de": "Australien", "draft": ["en", "de"]},
+      "kind": "country",
+      "country": "AU",
+      "coords": {"lat": -25.27, "lon": 133.78},
+      "status": "draft"
+    },
+    {
+      "id": "pakistan",
+      "name": {"fr": "Pakistan", "en": "Pakistan", "de": "Pakistan", "draft": ["en", "de"]},
+      "kind": "country",
+      "country": "PK",
+      "coords": {"lat": 30.38, "lon": 69.35},
+      "status": "draft"
+    },
+    {
+      "id": "chamoli-district",
+      "name": {
+        "fr": "District de Chamoli",
+        "en": "Chamoli district",
+        "de": "Distrikt Chamoli",
+        "draft": ["en", "de"]
+      },
+      "kind": "region",
+      "country": "IN",
+      "coords": {"lat": 30.4, "lon": 79.32},
+      "status": "draft"
+    },
+    {
+      "id": "kaiseraugst",
+      "name": {
+        "fr": "Kaiseraugst (site de la centrale)",
+        "en": "Kaiseraugst (power plant site)",
+        "de": "Kaiseraugst (Kraftwerksgelände)",
+        "draft": ["en", "de"]
+      },
+      "kind": "site",
+      "country": "CH",
+      "coords": {"lat": 47.54, "lon": 7.75},
+      "status": "draft"
+    },
+    {
+      "id": "creys-malville",
+      "name": {
+        "fr": "Creys-Malville (Superphénix)",
+        "en": "Creys-Malville (Superphénix)",
+        "de": "Creys-Malville (Superphénix)",
+        "draft": ["en", "de"]
+      },
+      "kind": "site",
+      "country": "FR",
+      "coords": {"lat": 45.76, "lon": 5.47},
+      "status": "draft"
+    },
+    {
+      "id": "plogoff",
+      "name": {"fr": "Plogoff", "en": "Plogoff", "de": "Plogoff", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "FR",
+      "coords": {"lat": 48.04, "lon": -4.66},
+      "status": "draft"
+    },
+    {
+      "id": "notre-dame-des-landes",
+      "name": {
+        "fr": "Notre-Dame-des-Landes",
+        "en": "Notre-Dame-des-Landes",
+        "de": "Notre-Dame-des-Landes",
+        "draft": ["en", "de"]
+      },
+      "kind": "city",
+      "country": "FR",
+      "coords": {"lat": 47.38, "lon": -1.71},
+      "status": "draft"
+    },
+    {
+      "id": "xapuri",
+      "name": {"fr": "Xapuri", "en": "Xapuri", "de": "Xapuri", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "BR",
+      "coords": {"lat": -10.65, "lon": -68.5},
+      "status": "draft"
+    },
+    {
+      "id": "port-harcourt",
+      "name": {"fr": "Port Harcourt", "en": "Port Harcourt", "de": "Port Harcourt", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "NG",
+      "coords": {"lat": 4.82, "lon": 7.03},
+      "status": "draft"
+    },
+    {
+      "id": "lutzerath",
+      "name": {"fr": "Lützerath", "en": "Lützerath", "de": "Lützerath", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "DE",
+      "coords": {"lat": 51.06, "lon": 6.43},
+      "status": "draft"
+    },
+    {
+      "id": "sainte-soline",
+      "name": {"fr": "Sainte-Soline", "en": "Sainte-Soline", "de": "Sainte-Soline", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "FR",
+      "coords": {"lat": 46.25, "lon": 0.04},
+      "status": "draft"
     }
   ]
 }

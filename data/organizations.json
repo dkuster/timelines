@@ -7998,6 +7998,224 @@
       "type": "party",
       "founded": {"date": "2007"},
       "status": "draft"
+    },
+    {
+      "id": "club-of-rome",
+      "name": {"fr": "Club de Rome", "en": "Club of Rome", "de": "Club of Rome", "draft": ["en", "de"]},
+      "type": "other",
+      "founded": {"date": "1968-04"},
+      "status": "draft"
+    },
+    {
+      "id": "ipcc",
+      "name": {
+        "fr": "Groupe d'experts intergouvernemental sur l'évolution du climat",
+        "en": "Intergovernmental Panel on Climate Change",
+        "de": "Weltklimarat",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["GIEC", "IPCC", "IPCC (Weltklimarat)"],
+      "type": "other",
+      "founded": {"date": "1988"},
+      "parent": "united-nations",
+      "status": "draft"
+    },
+    {
+      "id": "unep",
+      "name": {
+        "fr": "Programme des Nations unies pour l'environnement",
+        "en": "United Nations Environment Programme",
+        "de": "Umweltprogramm der Vereinten Nationen",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["PNUE", "UNEP"],
+      "type": "other",
+      "founded": {"date": "1972"},
+      "parent": "united-nations",
+      "status": "draft"
+    },
+    {
+      "id": "wmo",
+      "name": {
+        "fr": "Organisation météorologique mondiale",
+        "en": "World Meteorological Organization",
+        "de": "Weltorganisation für Meteorologie",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["OMM", "WMO"],
+      "type": "other",
+      "parent": "united-nations",
+      "status": "draft"
+    },
+    {
+      "id": "ipbes",
+      "name": {
+        "fr": "Plateforme intergouvernementale sur la biodiversité et les services écosystémiques",
+        "en": "Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services",
+        "de": "Weltbiodiversitätsrat",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["IPBES"],
+      "type": "other",
+      "founded": {"date": "2012"},
+      "status": "draft"
+    },
+    {
+      "id": "us-epa",
+      "name": {
+        "fr": "Agence américaine de protection de l'environnement",
+        "en": "United States Environmental Protection Agency",
+        "de": "US-Umweltschutzbehörde",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["EPA"],
+      "type": "government",
+      "founded": {"date": "1970-12-02"},
+      "status": "draft"
+    },
+    {
+      "id": "greenpeace",
+      "name": {"fr": "Greenpeace", "en": "Greenpeace", "de": "Greenpeace", "draft": ["en", "de"]},
+      "type": "other",
+      "status": "draft"
+    },
+    {
+      "id": "extinction-rebellion",
+      "name": {
+        "fr": "Extinction Rebellion",
+        "en": "Extinction Rebellion",
+        "de": "Extinction Rebellion",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["XR"],
+      "type": "other",
+      "founded": {"date": "2018"},
+      "status": "draft"
+    },
+    {
+      "id": "fridays-for-future",
+      "name": {
+        "fr": "Fridays for Future",
+        "en": "Fridays for Future",
+        "de": "Fridays for Future",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Grève pour le climat", "Klimastreik", "School Strike for Climate"],
+      "type": "other",
+      "founded": {"date": "2018"},
+      "status": "draft"
+    },
+    {
+      "id": "soulevements-de-la-terre",
+      "name": {
+        "fr": "Les Soulèvements de la Terre",
+        "en": "Les Soulèvements de la Terre",
+        "de": "Les Soulèvements de la Terre",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "status": "draft"
+    },
+    {
+      "id": "klimaseniorinnen",
+      "name": {
+        "fr": "Aînées pour le climat Suisse",
+        "en": "KlimaSeniorinnen Schweiz",
+        "de": "KlimaSeniorinnen Schweiz",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Verein KlimaSeniorinnen Schweiz"],
+      "type": "other",
+      "status": "draft"
+    },
+    {
+      "id": "european-court-of-human-rights",
+      "name": {
+        "fr": "Cour européenne des droits de l'homme",
+        "en": "European Court of Human Rights",
+        "de": "Europäischer Gerichtshof für Menschenrechte",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["CEDH", "ECtHR", "EGMR"],
+      "type": "other",
+      "founded": {"date": "1959"},
+      "status": "draft"
+    },
+    {
+      "id": "german-greens",
+      "name": {
+        "fr": "Les Verts (Allemagne)",
+        "en": "The Greens (Germany)",
+        "de": "Die Grünen",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Die Grünen", "Bündnis 90/Die Grünen"],
+      "type": "party",
+      "founded": {"date": "1980-01-13"},
+      "status": "draft"
+    },
+    {
+      "id": "mosop",
+      "name": {
+        "fr": "Mouvement pour la survie du peuple ogoni",
+        "en": "Movement for the Survival of the Ogoni People",
+        "de": "Bewegung für das Überleben des Ogoni-Volkes",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["MOSOP"],
+      "type": "other",
+      "status": "draft"
+    },
+    {
+      "id": "exxon",
+      "name": {"fr": "Exxon", "en": "Exxon", "de": "Exxon", "draft": ["en", "de"]},
+      "aliases": ["ExxonMobil", "Esso"],
+      "type": "other",
+      "status": "draft"
+    },
+    {
+      "id": "royal-dutch-shell",
+      "name": {"fr": "Shell", "en": "Shell", "de": "Shell", "draft": ["en", "de"]},
+      "aliases": ["Royal Dutch Shell"],
+      "type": "other",
+      "status": "draft"
+    },
+    {
+      "id": "bp",
+      "name": {"fr": "BP", "en": "BP", "de": "BP", "draft": ["en", "de"]},
+      "aliases": ["British Petroleum"],
+      "type": "other",
+      "status": "draft"
+    },
+    {
+      "id": "chisso",
+      "name": {"fr": "Chisso", "en": "Chisso Corporation", "de": "Chisso", "draft": ["en", "de"]},
+      "type": "other",
+      "status": "draft"
+    },
+    {
+      "id": "hoffmann-la-roche",
+      "name": {
+        "fr": "Hoffmann-La Roche",
+        "en": "Hoffmann-La Roche",
+        "de": "Hoffmann-La Roche",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Roche"],
+      "type": "other",
+      "status": "draft"
+    },
+    {
+      "id": "sandoz",
+      "name": {"fr": "Sandoz", "en": "Sandoz", "de": "Sandoz", "draft": ["en", "de"]},
+      "type": "other",
+      "status": "draft"
+    },
+    {
+      "id": "rwe",
+      "name": {"fr": "RWE", "en": "RWE", "de": "RWE", "draft": ["en", "de"]},
+      "type": "other",
+      "status": "draft"
     }
   ]
 }

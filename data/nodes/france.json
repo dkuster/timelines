@@ -6185,7 +6185,7 @@
         "de": "Die Bauern der Hochebene und Unterstützer aus ganz Frankreich kämpfen zehn Jahre lang gegen die Erweiterung des Truppenübungsplatzes, die Mitterrand nach seiner Wahl aufgibt.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "1958-fifth-republic-until-1981"}],
+      "parents": [{"id": "1958-fifth-republic-until-1981"}, {"id": "world-ecology"}],
       "places": ["larzac"],
       "sources": [{"ref": "wp-en-larzac"}],
       "status": "draft"
@@ -6677,7 +6677,7 @@
         "de": "Gegen höhere Kraftstoffsteuern entstanden, besetzt die Bewegung jeden Samstag Kreisverkehre und Innenstädte; die Repression fordert 11 Tote und Tausende Verletzte.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "1981-alternation-to-present"}],
+      "parents": [{"id": "1981-alternation-to-present"}, {"id": "world-ecology"}],
       "persons": ["emmanuel-macron"],
       "sources": [{"ref": "wp-en-yellow-vests"}],
       "status": "draft"
@@ -6998,6 +6998,97 @@
       },
       "parents": [{"id": "1958-fifth-republic-until-1981"}, {"id": "1956-crisis-of-stalinism"}],
       "organizations": ["pcf"],
+      "status": "draft"
+    },
+    {
+      "id": "1977-creys-malville-demonstration",
+      "title": {
+        "fr": "Manifestation de Creys-Malville",
+        "en": "Creys-Malville demonstration",
+        "de": "Demonstration von Creys-Malville",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1977-07-31"},
+      "summary": {
+        "fr": "Des dizaines de milliers d'antinucléaires venus de France, de Suisse et d'Allemagne marchent contre le surgénérateur Superphénix ; la répression fait une centaine de blessés et tue Vital Michalon.",
+        "en": "Tens of thousands of anti-nuclear protesters from France, Switzerland and Germany march against the Superphénix fast breeder reactor; the repression injures about a hundred and kills Vital Michalon.",
+        "de": "Zehntausende Atomkraftgegner aus Frankreich, der Schweiz und Deutschland marschieren gegen den Schnellen Brüter Superphénix; die Repression fordert rund hundert Verletzte und tötet Vital Michalon.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1958-fifth-republic-until-1981"}, {"id": "world-ecology"}],
+      "persons": ["vital-michalon"],
+      "places": ["creys-malville"],
+      "status": "draft"
+    },
+    {
+      "id": "1980-plogoff-struggle",
+      "title": {
+        "fr": "Lutte de Plogoff",
+        "en": "Plogoff struggle",
+        "de": "Kampf von Plogoff",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1980-01-31"},
+      "end": {"date": "1981-12-12"},
+      "summary": {
+        "fr": "Pendant les six semaines de l'enquête publique sur une centrale nucléaire à la pointe du Raz, la population affronte chaque jour les gendarmes mobiles ; le gouvernement Mitterrand abandonne le projet en 1981.",
+        "en": "During the six weeks of the public inquiry into a nuclear plant at the Pointe du Raz, the population clashes daily with the riot police; the Mitterrand government abandons the project in 1981.",
+        "de": "Während der sechswöchigen öffentlichen Anhörung zu einem Atomkraftwerk an der Pointe du Raz liefert sich die Bevölkerung täglich Auseinandersetzungen mit der Bereitschaftspolizei; die Regierung Mitterrand gibt das Projekt 1981 auf.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1958-fifth-republic-until-1981"},
+        {"id": "world-ecology"},
+        {"id": "1981-alternation-to-present"}
+      ],
+      "places": ["plogoff"],
+      "sources": [{"ref": "wp-en-plogoff"}],
+      "status": "draft"
+    },
+    {
+      "id": "2007-notre-dame-des-landes-zad",
+      "title": {
+        "fr": "ZAD de Notre-Dame-des-Landes",
+        "en": "Notre-Dame-des-Landes ZAD",
+        "de": "ZAD von Notre-Dame-des-Landes",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "2007-08"},
+      "end": {"date": "2018-01-17"},
+      "summary": {
+        "fr": "Paysans et occupants défendent le bocage contre un projet d'aéroport près de Nantes ; l'opération policière César échoue en 2012 et le gouvernement abandonne le projet le 17 janvier 2018 avant d'expulser une partie de la « zone à défendre ».",
+        "en": "Farmers and occupiers defend the bocage against an airport project near Nantes; the police Operation César fails in 2012 and the government abandons the project on 17 January 2018 before evicting part of the \"zone to defend\".",
+        "de": "Bauern und Besetzer verteidigen die Heckenlandschaft gegen ein Flughafenprojekt bei Nantes; die Polizeioperation César scheitert 2012, die Regierung gibt das Projekt am 17. Januar 2018 auf und räumt danach einen Teil der „zu verteidigenden Zone“.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1981-alternation-to-present"}, {"id": "world-ecology"}],
+      "places": ["notre-dame-des-landes"],
+      "sources": [{"ref": "wp-en-notre-dame-des-landes"}],
+      "status": "draft"
+    },
+    {
+      "id": "2023-sainte-soline-demonstration",
+      "title": {
+        "fr": "Manifestation de Sainte-Soline",
+        "en": "Sainte-Soline demonstration",
+        "de": "Demonstration von Sainte-Soline",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "2023-03-25"},
+      "summary": {
+        "fr": "Des milliers de manifestants bravent l'interdiction contre une « méga-bassine » d'irrigation pour l'agro-industrie ; des milliers de grenades sont tirées et les organisateurs comptent environ 200 blessés, dont deux dans le coma.",
+        "en": "Thousands of protesters defy a ban to oppose an irrigation \"mega-basin\" for agribusiness; thousands of grenades are fired and the organisers count about 200 injured, two of them in a coma.",
+        "de": "Tausende Demonstranten trotzen einem Verbot und protestieren gegen ein Bewässerungs-„Megabecken“ für die Agrarindustrie; Tausende Granaten werden abgefeuert, die Veranstalter zählen rund 200 Verletzte, zwei davon im Koma.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1981-alternation-to-present"}, {"id": "world-ecology"}],
+      "places": ["sainte-soline"],
+      "organizations": ["soulevements-de-la-terre"],
+      "sources": [{"ref": "wp-en-sainte-soline"}],
       "status": "draft"
     }
   ]

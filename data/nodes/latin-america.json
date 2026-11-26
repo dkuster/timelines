@@ -4023,7 +4023,11 @@
         "de": "Der Bergbau-Rückhaltedamm von Samarco (Vale und BHP) bricht, zerstört das Dorf Bento Rodrigues, tötet 19 Menschen und verseucht den Rio Doce bis zum Atlantik.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "latin-america-economy-and-disasters"}, {"id": "world-disasters"}],
+      "parents": [
+        {"id": "latin-america-economy-and-disasters"},
+        {"id": "world-disasters"},
+        {"id": "world-ecology"}
+      ],
       "places": ["fundao-dam"],
       "organizations": ["samarco", "vale"],
       "sources": [{"ref": "wp-en-mariana-dam-disaster"}],
@@ -4115,7 +4119,11 @@
         "de": "Drei Jahre nach Mariana bricht an der Mine Córrego do Feijão ein Rückhaltedamm von Vale und begräbt Kantine und Büros: etwa 270 Tote, überwiegend Arbeiter.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "latin-america-economy-and-disasters"}, {"id": "world-disasters"}],
+      "parents": [
+        {"id": "latin-america-economy-and-disasters"},
+        {"id": "world-disasters"},
+        {"id": "world-ecology"}
+      ],
       "places": ["corrego-do-feijao-mine"],
       "organizations": ["vale"],
       "sources": [{"ref": "wp-en-brumadinho-dam-disaster"}],
@@ -4303,6 +4311,28 @@
       "parents": [{"id": "latin-america-states-and-wars"}, {"id": "latin-america-economy-and-disasters"}],
       "persons": ["javier-milei"],
       "places": ["argentina"],
+      "status": "draft"
+    },
+    {
+      "id": "1988-assassination-of-chico-mendes",
+      "title": {
+        "fr": "Assassinat de Chico Mendes",
+        "en": "Assassination of Chico Mendes",
+        "de": "Ermordung von Chico Mendes",
+        "draft": ["en", "de"]
+      },
+      "type": "assassination",
+      "start": {"date": "1988-12-22"},
+      "summary": {
+        "fr": "Le syndicaliste des seringueiros d'Amazonie, qui organisait la résistance des communautés de la forêt à la déforestation, est abattu par un fils de grand éleveur ; une réserve extractiviste porte son nom dès 1990.",
+        "en": "The Amazonian rubber tappers' union leader, who organised forest communities' resistance to deforestation, is shot dead by a big rancher's son; an extractive reserve bears his name from 1990.",
+        "de": "Der Gewerkschafter der Kautschukzapfer Amazoniens, der den Widerstand der Waldgemeinschaften gegen die Abholzung organisierte, wird vom Sohn eines Großgrundbesitzers erschossen; ab 1990 trägt ein Sammelreservat seinen Namen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "latin-america-labour-and-social-struggles"}, {"id": "world-ecology"}],
+      "persons": ["chico-mendes"],
+      "places": ["xapuri"],
+      "sources": [{"ref": "wp-en-chico-mendes"}, {"ref": "wp-en-xapuri"}],
       "status": "draft"
     }
   ]

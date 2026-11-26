@@ -3525,6 +3525,195 @@
       "status": "draft",
       "provenance": {"by": "claude", "date": "2026-10-30"},
       "justification": "Debray fait du foyer de guérilla le substitut du parti d'avant-garde."
+    },
+    {
+      "id": "1896-arrhenius-global-warming-calculation-develops-1859-tyndall-greenhouse-gases",
+      "from": "node:1896-arrhenius-global-warming-calculation",
+      "to": "node:1859-tyndall-greenhouse-gases",
+      "type": "develops",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Arrhenius chiffre l'effet sur la température des gaz absorbants mis en évidence par Tyndall."
+    },
+    {
+      "id": "1938-callendar-effect-continues-1896-arrhenius-global-warming-calculation",
+      "from": "node:1938-callendar-effect",
+      "to": "node:1896-arrhenius-global-warming-calculation",
+      "type": "continues",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Callendar confronte la théorie d'Arrhenius aux températures mesurées."
+    },
+    {
+      "id": "2013-co2-passes-400-ppm-continues-1958-keeling-curve",
+      "from": "node:2013-co2-passes-400-ppm",
+      "to": "node:1958-keeling-curve",
+      "type": "continues",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Le seuil est mesuré au même observatoire, dans la série commencée par Keeling."
+    },
+    {
+      "id": "1962-silent-spring-leads-to-1972-us-ddt-ban",
+      "from": "node:1962-silent-spring",
+      "to": "node:1972-us-ddt-ban",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La campagne lancée par le livre aboutit à l'interdiction du DDT aux États-Unis."
+    },
+    {
+      "id": "1962-silent-spring-influences-1970-first-earth-day",
+      "from": "node:1962-silent-spring",
+      "to": "node:1970-first-earth-day",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Le livre éveille la conscience écologique qui nourrit la mobilisation de 1970."
+    },
+    {
+      "id": "1970-first-earth-day-leads-to-1970-epa-founding",
+      "from": "node:1970-first-earth-day",
+      "to": "node:1970-epa-founding",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La mobilisation de masse pousse l'administration Nixon à créer l'EPA."
+    },
+    {
+      "id": "1968-club-of-rome-founding-leads-to-1972-the-limits-to-growth",
+      "from": "node:1968-club-of-rome-founding",
+      "to": "node:1972-the-limits-to-growth",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Le Club de Rome commande le rapport au MIT."
+    },
+    {
+      "id": "2004-limits-to-growth-30-year-update-continues-1972-the-limits-to-growth",
+      "from": "node:2004-limits-to-growth-30-year-update",
+      "to": "node:1972-the-limits-to-growth",
+      "type": "continues",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Mise à jour du rapport par ses auteurs."
+    },
+    {
+      "id": "2022-earth-for-all-continues-1972-the-limits-to-growth",
+      "from": "node:2022-earth-for-all",
+      "to": "node:1972-the-limits-to-growth",
+      "type": "continues",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Le Club de Rome publie ce rapport pour les cinquante ans des Limites à la croissance."
+    },
+    {
+      "id": "1985-ozone-hole-discovery-leads-to-1987-montreal-protocol",
+      "from": "node:1985-ozone-hole-discovery",
+      "to": "node:1987-montreal-protocol",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La découverte du trou d'ozone accélère l'interdiction des CFC."
+    },
+    {
+      "id": "1987-brundtland-report-leads-to-1992-rio-earth-summit",
+      "from": "node:1987-brundtland-report",
+      "to": "node:1992-rio-earth-summit",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Le rapport recommande la conférence que l'Assemblée générale convoque à Rio."
+    },
+    {
+      "id": "1992-rio-earth-summit-leads-to-1995-cop1-berlin",
+      "from": "node:1992-rio-earth-summit",
+      "to": "node:1995-cop1-berlin",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La convention-cadre adoptée à Rio institue les conférences des parties."
+    },
+    {
+      "id": "2017-us-withdrawal-from-the-paris-agreement-reaction-to-2015-cop21-paris-agreement",
+      "from": "node:2017-us-withdrawal-from-the-paris-agreement",
+      "to": "node:2015-cop21-paris-agreement",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Trump dénonce l'accord négocié sous Obama."
+    },
+    {
+      "id": "2018-greta-thunberg-school-strike-leads-to-2019-global-climate-strike",
+      "from": "node:2018-greta-thunberg-school-strike",
+      "to": "node:2019-global-climate-strike",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La grève solitaire de Greta Thunberg donne naissance aux grèves mondiales pour le climat."
+    },
+    {
+      "id": "2018-ipcc-special-report-on-1-5-c-influences-2019-global-climate-strike",
+      "from": "node:2018-ipcc-special-report-on-1-5-c",
+      "to": "node:2019-global-climate-strike",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Le rapport sur +1,5 °C sert d'argument central aux grévistes du climat."
+    },
+    {
+      "id": "2021-swiss-co2-act-rejected-leads-to-2023-swiss-climate-and-innovation-act",
+      "from": "node:2021-swiss-co2-act-rejected",
+      "to": "node:2023-swiss-climate-and-innovation-act",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Après l'échec de 2021, la nouvelle loi renonce aux taxes qui avaient fait échouer la précédente."
+    },
+    {
+      "id": "1975-kaiseraugst-site-occupation-comparable-to-1980-plogoff-struggle",
+      "from": "node:1975-kaiseraugst-site-occupation",
+      "to": "node:1980-plogoff-struggle",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Deux luttes populaires d'occupation qui font échouer un projet de centrale nucléaire."
+    },
+    {
+      "id": "1970-larzac-struggle-comparable-to-2007-notre-dame-des-landes-zad",
+      "from": "node:1970-larzac-struggle",
+      "to": "node:2007-notre-dame-des-landes-zad",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Deux longues luttes paysannes et militantes pour la terre qui obtiennent l'abandon d'un grand projet de l'État."
+    },
+    {
+      "id": "1988-assassination-of-chico-mendes-comparable-to-1995-execution-of-ken-saro-wiwa",
+      "from": "node:1988-assassination-of-chico-mendes",
+      "to": "node:1995-execution-of-ken-saro-wiwa",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Deux dirigeants de luttes populaires contre la destruction de leur milieu par le capital, tués pour cela."
+    },
+    {
+      "id": "1976-seveso-disaster-comparable-to-1986-schweizerhalle-chemical-fire",
+      "from": "node:1976-seveso-disaster",
+      "to": "node:1986-schweizerhalle-chemical-fire",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Deux catastrophes de la chimie bâloise : Roche à Seveso, Sandoz à Schweizerhalle."
+    },
+    {
+      "id": "2023-lutzerath-eviction-comparable-to-2023-sainte-soline-demonstration",
+      "from": "node:2023-lutzerath-eviction",
+      "to": "node:2023-sainte-soline-demonstration",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La même année, deux mobilisations écologistes de masse durement réprimées en Allemagne et en France."
     }
   ]
 }

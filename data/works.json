@@ -3169,6 +3169,265 @@
       "date": {"date": "1973"},
       "language": "es",
       "status": "draft"
+    },
+    {
+      "id": "generelle-morphologie",
+      "title": {
+        "orig": "de",
+        "fr": "Morphologie générale des organismes",
+        "en": "General Morphology of Organisms",
+        "de": "Generelle Morphologie der Organismen",
+        "draft": ["en"]
+      },
+      "type": "book",
+      "authors": ["ernst-haeckel"],
+      "date": {"date": "1866"},
+      "language": "de",
+      "status": "draft"
+    },
+    {
+      "id": "silent-spring",
+      "title": {
+        "orig": "en",
+        "fr": "Printemps silencieux",
+        "en": "Silent Spring",
+        "de": "Der stumme Frühling",
+        "draft": ["de"]
+      },
+      "type": "book",
+      "authors": ["rachel-carson"],
+      "date": {"date": "1962-09-27"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "the-population-bomb",
+      "title": {
+        "orig": "en",
+        "fr": "La Bombe P",
+        "en": "The Population Bomb",
+        "de": "Die Bevölkerungsbombe",
+        "draft": ["de"]
+      },
+      "type": "book",
+      "authors": ["paul-r-ehrlich"],
+      "date": {"date": "1968-05"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "the-tragedy-of-the-commons",
+      "title": {
+        "orig": "en",
+        "fr": "La Tragédie des communs",
+        "en": "The Tragedy of the Commons",
+        "de": "Die Tragik der Allmende",
+        "draft": ["de"]
+      },
+      "type": "article",
+      "authors": ["garrett-hardin"],
+      "date": {"date": "1968-12-13"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "the-limits-to-growth",
+      "title": {
+        "orig": "en",
+        "fr": "Halte à la croissance ? (Les Limites à la croissance)",
+        "en": "The Limits to Growth",
+        "de": "Die Grenzen des Wachstums",
+        "draft": ["de"]
+      },
+      "aliases": ["Rapport Meadows", "Meadows Report"],
+      "type": "book",
+      "authors": ["donella-meadows", "dennis-meadows"],
+      "organizations": ["club-of-rome"],
+      "date": {"date": "1972-03-02"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "limits-to-growth-the-30-year-update",
+      "title": {
+        "orig": "en",
+        "fr": "Les Limites à la croissance : la mise à jour de trente ans",
+        "en": "Limits to Growth: The 30-Year Update",
+        "de": "Grenzen des Wachstums: Das 30-Jahre-Update",
+        "draft": ["de"]
+      },
+      "type": "book",
+      "authors": ["donella-meadows", "dennis-meadows"],
+      "date": {"date": "2004"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "earth-for-all",
+      "title": {
+        "orig": "en",
+        "fr": "Earth for All",
+        "en": "Earth for All: A Survival Guide for Humanity",
+        "de": "Earth for All",
+        "draft": ["de"]
+      },
+      "type": "book",
+      "organizations": ["club-of-rome"],
+      "date": {"date": "2022-09"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "ecologie-et-politique",
+      "title": {
+        "orig": "fr",
+        "fr": "Écologie et politique",
+        "en": "Ecology as Politics",
+        "de": "Ökologie und Politik",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["andre-gorz"],
+      "date": {"date": "1975"},
+      "language": "fr",
+      "status": "draft"
+    },
+    {
+      "id": "the-ecology-of-freedom",
+      "title": {
+        "orig": "en",
+        "fr": "L'Écologie de la liberté",
+        "en": "The Ecology of Freedom",
+        "de": "Die Ökologie der Freiheit",
+        "draft": ["de"]
+      },
+      "type": "book",
+      "authors": ["murray-bookchin"],
+      "date": {"date": "1982"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "marxs-ecology",
+      "title": {
+        "orig": "en",
+        "fr": "L'Écologie de Marx",
+        "en": "Marx's Ecology: Materialism and Nature",
+        "de": "Marx’ Ökologie",
+        "draft": ["de"]
+      },
+      "type": "book",
+      "authors": ["john-bellamy-foster"],
+      "date": {"date": "2000"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "stern-review",
+      "title": {
+        "orig": "en",
+        "fr": "Rapport Stern sur l'économie du changement climatique",
+        "en": "Stern Review on the Economics of Climate Change",
+        "de": "Stern-Report über die Ökonomie des Klimawandels",
+        "draft": ["de"]
+      },
+      "type": "other",
+      "authors": ["nicholas-stern"],
+      "date": {"date": "2006-10-30"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "an-inconvenient-truth",
+      "title": {
+        "orig": "en",
+        "fr": "Une vérité qui dérange",
+        "en": "An Inconvenient Truth",
+        "de": "Eine unbequeme Wahrheit",
+        "draft": ["de"]
+      },
+      "type": "film",
+      "authors": ["al-gore"],
+      "date": {"date": "2006-01-24"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "this-changes-everything",
+      "title": {
+        "orig": "en",
+        "fr": "Tout peut changer",
+        "en": "This Changes Everything: Capitalism vs. the Climate",
+        "de": "Die Entscheidung: Kapitalismus vs. Klima",
+        "draft": ["de"]
+      },
+      "type": "book",
+      "authors": ["naomi-klein"],
+      "date": {"date": "2014-09-16"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "laudato-si",
+      "title": {
+        "orig": "it",
+        "it": "Laudato si'",
+        "fr": "Laudato si'",
+        "en": "Laudato si'",
+        "de": "Laudato si'",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "authors": ["pope-francis"],
+      "date": {"date": "2015-06-18"},
+      "language": "it",
+      "status": "draft"
+    },
+    {
+      "id": "fossil-capital",
+      "title": {
+        "orig": "en",
+        "fr": "Fossil Capital",
+        "en": "Fossil Capital: The Rise of Steam Power and the Roots of Global Warming",
+        "de": "Fossil Capital",
+        "draft": ["de"]
+      },
+      "type": "book",
+      "authors": ["andreas-malm"],
+      "date": {"date": "2016-01"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "our-common-future",
+      "title": {
+        "orig": "en",
+        "fr": "Notre avenir à tous (rapport Brundtland)",
+        "en": "Our Common Future",
+        "de": "Unsere gemeinsame Zukunft",
+        "draft": ["de"]
+      },
+      "aliases": ["Rapport Brundtland", "Brundtland Report"],
+      "type": "other",
+      "date": {"date": "1987-04"},
+      "language": "en",
+      "status": "draft"
+    },
+    {
+      "id": "the-part-played-by-labour-in-the-transition-from-ape-to-man",
+      "title": {
+        "orig": "de",
+        "fr": "Le Rôle du travail dans la transformation du singe en homme",
+        "en": "The Part Played by Labour in the Transition from Ape to Man",
+        "de": "Anteil der Arbeit an der Menschwerdung des Affen",
+        "draft": ["en"]
+      },
+      "type": "article",
+      "authors": ["engels"],
+      "date": {"date": "1896"},
+      "written_start": {"date": "1876"},
+      "language": "de",
+      "status": "draft"
     }
   ]
 }

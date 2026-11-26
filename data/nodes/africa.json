@@ -2841,6 +2841,29 @@
       "parents": [{"id": "africa-states-and-wars"}],
       "places": ["bamako", "ouagadougou", "niamey"],
       "status": "draft"
+    },
+    {
+      "id": "1995-execution-of-ken-saro-wiwa",
+      "title": {
+        "fr": "Exécution de Ken Saro-Wiwa et des « Neuf Ogoni »",
+        "en": "Execution of Ken Saro-Wiwa and the Ogoni Nine",
+        "de": "Hinrichtung von Ken Saro-Wiwa und den „Ogoni Nine“",
+        "draft": ["en", "de"]
+      },
+      "type": "repression",
+      "start": {"date": "1995-11-10"},
+      "summary": {
+        "fr": "La dictature militaire nigériane pend l'écrivain et huit autres dirigeants du MOSOP, qui luttaient contre la dévastation du delta du Niger par Shell ; le procès truqué provoque la suspension du Nigeria du Commonwealth.",
+        "en": "Nigeria's military dictatorship hangs the writer and eight other MOSOP leaders, who were fighting Shell's devastation of the Niger Delta; the rigged trial leads to Nigeria's suspension from the Commonwealth.",
+        "de": "Die nigerianische Militärdiktatur hängt den Schriftsteller und acht weitere MOSOP-Führer, die gegen die Verwüstung des Nigerdeltas durch Shell kämpften; der manipulierte Prozess führt zur Suspendierung Nigerias aus dem Commonwealth.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "africa-resistance-and-liberation"}, {"id": "world-ecology"}],
+      "persons": ["ken-saro-wiwa"],
+      "places": ["port-harcourt"],
+      "organizations": ["mosop", "royal-dutch-shell"],
+      "sources": [{"ref": "wp-en-ken-saro-wiwa"}, {"ref": "wp-en-ogoni-people"}],
+      "status": "draft"
     }
   ]
 }

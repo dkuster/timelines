@@ -11940,6 +11940,231 @@
       "language": "en",
       "url": "https://en.wikipedia.org/wiki/Sabaneta,_Barinas",
       "status": "draft"
+    },
+    {
+      "id": "wp-en-un-climate-change-conference",
+      "type": "website",
+      "title": "United Nations Climate Change conference",
+      "publisher": "Wikipedia (en)",
+      "language": "en",
+      "url": "https://en.wikipedia.org/wiki/United_Nations_Climate_Change_conference",
+      "status": "draft"
+    },
+    {
+      "id": "wp-en-ipcc",
+      "type": "website",
+      "title": "Intergovernmental Panel on Climate Change",
+      "publisher": "Wikipedia (en)",
+      "language": "en",
+      "url": "https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change",
+      "status": "draft"
+    },
+    {
+      "id": "wp-en-cop28",
+      "type": "website",
+      "title": "2023 United Nations Climate Change Conference",
+      "publisher": "Wikipedia (en)",
+      "language": "en",
+      "url": "https://en.wikipedia.org/wiki/2023_United_Nations_Climate_Change_Conference",
+      "status": "draft"
+    },
+    {
+      "id": "wp-en-cop30",
+      "type": "website",
+      "title": "2025 United Nations Climate Change Conference",
+      "publisher": "Wikipedia (en)",
+      "language": "en",
+      "url": "https://en.wikipedia.org/wiki/2025_United_Nations_Climate_Change_Conference",
+      "status": "draft"
+    },
+    {
+      "id": "wp-en-kaiseraugst-nuclear-power-plant",
+      "type": "website",
+      "title": "Kaiseraugst Nuclear Power Plant",
+      "publisher": "Wikipedia (en)",
+      "language": "en",
+      "url": "https://en.wikipedia.org/wiki/Kaiseraugst_Nuclear_Power_Plant",
+      "status": "draft"
+    },
+    {
+      "id": "wp-en-sandoz-chemical-spill",
+      "type": "website",
+      "title": "Sandoz chemical spill",
+      "publisher": "Wikipedia (en)",
+      "language": "en",
+      "url": "https://en.wikipedia.org/wiki/Sandoz_chemical_spill",
+      "status": "draft"
+    },
+    {
+      "id": "wp-en-lutzerath",
+      "type": "website",
+      "title": "Lützerath",
+      "publisher": "Wikipedia (en)",
+      "language": "en",
+      "url": "https://en.wikipedia.org/wiki/L%C3%BCtzerath",
+      "status": "draft"
+    },
+    {
+      "id": "wp-en-klimaseniorinnen-v-switzerland",
+      "type": "website",
+      "title": "Verein KlimaSeniorinnen Schweiz v Switzerland",
+      "publisher": "Wikipedia (en)",
+      "language": "en",
+      "url": "https://en.wikipedia.org/wiki/Verein_KlimaSeniorinnen_Schweiz_v_Switzerland",
+      "status": "draft"
+    },
+    {
+      "id": "wp-en-minamata-disease",
+      "type": "website",
+      "title": "Minamata disease",
+      "publisher": "Wikipedia (en)",
+      "language": "en",
+      "url": "https://en.wikipedia.org/wiki/Minamata_disease",
+      "status": "draft"
+    },
+    {
+      "id": "wp-en-minamata-kumamoto",
+      "type": "website",
+      "title": "Minamata, Kumamoto",
+      "publisher": "Wikipedia (en)",
+      "language": "en",
+      "url": "https://en.wikipedia.org/wiki/Minamata,_Kumamoto",
+      "status": "draft"
+    },
+    {
+      "id": "wp-en-seveso-disaster",
+      "type": "website",
+      "title": "Seveso disaster",
+      "publisher": "Wikipedia (en)",
+      "language": "en",
+      "url": "https://en.wikipedia.org/wiki/Seveso_disaster",
+      "status": "draft"
+    },
+    {
+      "id": "wp-en-meda-lombardy",
+      "type": "website",
+      "title": "Meda, Lombardy",
+      "publisher": "Wikipedia (en)",
+      "language": "en",
+      "url": "https://en.wikipedia.org/wiki/Meda,_Lombardy",
+      "status": "draft"
+    },
+    {
+      "id": "wp-en-chipko-movement",
+      "type": "website",
+      "title": "Chipko movement",
+      "publisher": "Wikipedia (en)",
+      "language": "en",
+      "url": "https://en.wikipedia.org/wiki/Chipko_movement",
+      "status": "draft"
+    },
+    {
+      "id": "wp-en-chico-mendes",
+      "type": "website",
+      "title": "Chico Mendes",
+      "publisher": "Wikipedia (en)",
+      "language": "en",
+      "url": "https://en.wikipedia.org/wiki/Chico_Mendes",
+      "status": "draft"
+    },
+    {
+      "id": "wp-en-xapuri",
+      "type": "website",
+      "title": "Xapuri",
+      "publisher": "Wikipedia (en)",
+      "language": "en",
+      "url": "https://en.wikipedia.org/wiki/Xapuri",
+      "status": "draft"
+    },
+    {
+      "id": "wp-en-ken-saro-wiwa",
+      "type": "website",
+      "title": "Ken Saro-Wiwa",
+      "publisher": "Wikipedia (en)",
+      "language": "en",
+      "url": "https://en.wikipedia.org/wiki/Ken_Saro-Wiwa",
+      "status": "draft"
+    },
+    {
+      "id": "wp-en-ogoni-people",
+      "type": "website",
+      "title": "Ogoni people",
+      "publisher": "Wikipedia (en)",
+      "language": "en",
+      "url": "https://en.wikipedia.org/wiki/Ogoni_people",
+      "status": "draft"
+    },
+    {
+      "id": "wp-en-aral-sea",
+      "type": "website",
+      "title": "Aral Sea",
+      "publisher": "Wikipedia (en)",
+      "language": "en",
+      "url": "https://en.wikipedia.org/wiki/Aral_Sea",
+      "status": "draft"
+    },
+    {
+      "id": "wp-en-exxon-valdez-oil-spill",
+      "type": "website",
+      "title": "Exxon Valdez oil spill",
+      "publisher": "Wikipedia (en)",
+      "language": "en",
+      "url": "https://en.wikipedia.org/wiki/Exxon_Valdez_oil_spill",
+      "status": "draft"
+    },
+    {
+      "id": "wp-en-deepwater-horizon-oil-spill",
+      "type": "website",
+      "title": "Deepwater Horizon oil spill",
+      "publisher": "Wikipedia (en)",
+      "language": "en",
+      "url": "https://en.wikipedia.org/wiki/Deepwater_Horizon_oil_spill",
+      "status": "draft"
+    },
+    {
+      "id": "wp-en-mauna-loa-observatory",
+      "type": "website",
+      "title": "Mauna Loa Observatory",
+      "publisher": "Wikipedia (en)",
+      "language": "en",
+      "url": "https://en.wikipedia.org/wiki/Mauna_Loa_Observatory",
+      "status": "draft"
+    },
+    {
+      "id": "noaa-gml-mauna-loa-observatory",
+      "type": "website",
+      "title": "Mauna Loa Observatory (MLO)",
+      "publisher": "NOAA Global Monitoring Laboratory",
+      "language": "en",
+      "url": "https://gml.noaa.gov/obop/mlo/",
+      "status": "draft"
+    },
+    {
+      "id": "wp-en-plogoff",
+      "type": "website",
+      "title": "Plogoff",
+      "publisher": "Wikipedia (en)",
+      "language": "en",
+      "url": "https://en.wikipedia.org/wiki/Plogoff",
+      "status": "draft"
+    },
+    {
+      "id": "wp-en-sainte-soline",
+      "type": "website",
+      "title": "Sainte-Soline",
+      "publisher": "Wikipedia (en)",
+      "language": "en",
+      "url": "https://en.wikipedia.org/wiki/Sainte-Soline",
+      "status": "draft"
+    },
+    {
+      "id": "wp-en-notre-dame-des-landes",
+      "type": "website",
+      "title": "Notre-Dame-des-Landes",
+      "publisher": "Wikipedia (en)",
+      "language": "en",
+      "url": "https://en.wikipedia.org/wiki/Notre-Dame-des-Landes",
+      "status": "draft"
     }
   ]
 }

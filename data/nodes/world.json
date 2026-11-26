@@ -10,9 +10,9 @@
       "start": {"date": "1789"},
       "ongoing": true,
       "summary": {
-        "fr": "Contexte mondial depuis 1789 : économie, guerres, États et frontières, catastrophes et épidémies, sciences et techniques, répartis en sous-timelines thématiques à afficher ou masquer.",
-        "en": "World context since 1789: economy, wars, states and borders, disasters and epidemics, science and technology, organised as thematic sub-timelines that can be shown or hidden.",
-        "de": "Weltgeschehen seit 1789: Wirtschaft, Kriege, Staaten und Grenzen, Katastrophen und Seuchen, Wissenschaft und Technik, gegliedert in thematische Unter-Timelines zum Ein- und Ausblenden.",
+        "fr": "Contexte mondial depuis 1789 : économie, guerres, États et frontières, catastrophes et épidémies, sciences et techniques, culture, écologie et climat, répartis en sous-timelines thématiques à afficher ou masquer.",
+        "en": "World context since 1789: economy, wars, states and borders, disasters and epidemics, science and technology, culture, ecology and climate, organised as thematic sub-timelines that can be shown or hidden.",
+        "de": "Weltgeschehen seit 1789: Wirtschaft, Kriege, Staaten und Grenzen, Katastrophen und Seuchen, Wissenschaft und Technik, Kultur, Ökologie und Klima, gegliedert in thematische Unter-Timelines zum Ein- und Ausblenden.",
         "draft": ["en", "de"]
       },
       "parents": [],
@@ -680,7 +680,8 @@
         {"id": "world-economy"},
         {"id": "1958-fifth-republic-until-1981"},
         {"id": "1970-labour-upsurge-of-the-1970s"},
-        {"id": "1968-revolts-vietnam-defeat-and-crisis-of-hegemony"}
+        {"id": "1968-revolts-vietnam-defeat-and-crisis-of-hegemony"},
+        {"id": "world-ecology"}
       ],
       "organizations": ["opec"],
       "status": "draft"
@@ -2662,7 +2663,11 @@
         "de": "Dürre und Erosion übernutzter Böden verwandeln die Great Plains in eine Staubwüste; Hunderttausende ruinierte Farmer ziehen nach Westen.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-disasters"}, {"id": "1929-depression-new-deal-and-second-world-war"}],
+      "parents": [
+        {"id": "world-disasters"},
+        {"id": "1929-depression-new-deal-and-second-world-war"},
+        {"id": "world-ecology"}
+      ],
       "status": "draft"
     },
     {
@@ -2838,7 +2843,7 @@
         "de": "Ein Giftgasaustritt in der Pestizidfabrik von Union Carbide tötet in einer Nacht Tausende Anwohner und danach Tausende weitere; die schlimmste Industriekatastrophe der Geschichte.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-disasters"}],
+      "parents": [{"id": "world-disasters"}, {"id": "world-ecology"}],
       "places": ["bhopal"],
       "status": "draft"
     },
@@ -2858,7 +2863,11 @@
         "de": "Die Explosion eines Reaktors des Kernkraftwerks verseucht große Teile Europas; sie offenbart die Krise der sowjetischen Bürokratie.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-disasters"}, {"id": "1985-perestroika-and-collapse-of-the-ussr"}],
+      "parents": [
+        {"id": "world-disasters"},
+        {"id": "1985-perestroika-and-collapse-of-the-ussr"},
+        {"id": "world-ecology"}
+      ],
       "places": ["chernobyl"],
       "status": "draft"
     },
@@ -2916,7 +2925,7 @@
         "de": "Ein Erdbeben und ein Tsunami töten in Japan fast 20 000 Menschen und verursachen die Kernschmelze in drei Reaktoren des Kraftwerks Fukushima Daiichi.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-disasters"}],
+      "parents": [{"id": "world-disasters"}, {"id": "world-ecology"}],
       "places": ["fukushima"],
       "status": "draft"
     },
@@ -6326,6 +6335,1509 @@
       "parents": [{"id": "world-culture"}],
       "places": ["paris"],
       "tags": ["sport"],
+      "status": "draft"
+    },
+    {
+      "id": "world-ecology",
+      "title": {
+        "fr": "Écologie et climat",
+        "en": "Ecology and climate",
+        "de": "Ökologie und Klima",
+        "draft": ["en", "de"]
+      },
+      "type": "era",
+      "start": {"date": "1789"},
+      "ongoing": true,
+      "summary": {
+        "fr": "Découvertes sur le climat et l'environnement, grandes catastrophes écologiques, conférences et rapports internationaux, luttes écologistes et œuvres qui ont façonné la conscience écologique.",
+        "en": "Discoveries about climate and the environment, major ecological disasters, international conferences and reports, environmental struggles and the works that shaped ecological awareness.",
+        "de": "Entdeckungen über Klima und Umwelt, große Umweltkatastrophen, internationale Konferenzen und Berichte, ökologische Kämpfe und Werke, die das ökologische Bewusstsein geprägt haben.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world", "order": 6}],
+      "status": "draft",
+      "view": {
+        "color": "#3f7d4e",
+        "label": {"fr": "Écologie", "en": "Ecology", "de": "Ökologie", "draft": ["en", "de"]},
+        "default_depth": 1
+      }
+    },
+    {
+      "id": "1824-fourier-greenhouse-effect",
+      "title": {
+        "fr": "Fourier décrit l'effet de serre",
+        "en": "Fourier describes the greenhouse effect",
+        "de": "Fourier beschreibt den Treibhauseffekt",
+        "draft": ["en", "de"]
+      },
+      "type": "discovery",
+      "start": {"date": "1824"},
+      "summary": {
+        "fr": "Joseph Fourier montre que l'atmosphère retient une partie de la chaleur reçue du Soleil et rend la Terre plus chaude qu'elle ne le serait sans elle.",
+        "en": "Joseph Fourier shows that the atmosphere retains part of the heat received from the Sun and makes the Earth warmer than it would be without it.",
+        "de": "Joseph Fourier zeigt, dass die Atmosphäre einen Teil der Sonnenwärme zurückhält und die Erde wärmer macht, als sie ohne sie wäre.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}, {"id": "world-science"}],
+      "persons": ["joseph-fourier"],
+      "places": ["paris"],
+      "status": "draft"
+    },
+    {
+      "id": "1856-foote-co2-experiment",
+      "title": {
+        "fr": "Eunice Foote mesure le réchauffement par le CO₂",
+        "en": "Eunice Foote measures warming by CO₂",
+        "de": "Eunice Foote misst die Erwärmung durch CO₂",
+        "draft": ["en", "de"]
+      },
+      "type": "discovery",
+      "start": {"date": "1856-08-23"},
+      "summary": {
+        "fr": "Ses expériences montrent qu'un air chargé de gaz carbonique s'échauffe davantage au soleil ; elle en déduit qu'une atmosphère plus riche en CO₂ rendrait la Terre plus chaude. Son travail, présenté par un homme, est longtemps oublié.",
+        "en": "Her experiments show that air charged with carbonic acid gas heats up more in the sun; she infers that an atmosphere richer in CO₂ would make the Earth warmer. Her work, presented by a man, is long forgotten.",
+        "de": "Ihre Versuche zeigen, dass mit Kohlensäure angereicherte Luft sich in der Sonne stärker erwärmt; sie folgert, dass eine CO₂-reichere Atmosphäre die Erde erwärmen würde. Ihre von einem Mann vorgetragene Arbeit gerät lange in Vergessenheit.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}, {"id": "world-science"}],
+      "persons": ["eunice-newton-foote"],
+      "places": ["albany"],
+      "status": "draft"
+    },
+    {
+      "id": "1859-tyndall-greenhouse-gases",
+      "title": {
+        "fr": "Tyndall identifie les gaz à effet de serre",
+        "en": "Tyndall identifies greenhouse gases",
+        "de": "Tyndall identifiziert die Treibhausgase",
+        "draft": ["en", "de"]
+      },
+      "type": "discovery",
+      "start": {"date": "1859"},
+      "summary": {
+        "fr": "John Tyndall mesure en laboratoire l'absorption du rayonnement infrarouge par la vapeur d'eau et le gaz carbonique, qui piègent la chaleur dans l'atmosphère.",
+        "en": "John Tyndall measures in the laboratory the absorption of infrared radiation by water vapour and carbon dioxide, which trap heat in the atmosphere.",
+        "de": "John Tyndall misst im Labor die Absorption von Infrarotstrahlung durch Wasserdampf und Kohlendioxid, die Wärme in der Atmosphäre festhalten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}, {"id": "world-science"}],
+      "persons": ["john-tyndall"],
+      "places": ["london"],
+      "status": "draft"
+    },
+    {
+      "id": "1866-haeckel-coins-ecology",
+      "title": {
+        "fr": "Haeckel forge le mot « écologie »",
+        "en": "Haeckel coins the word \"ecology\"",
+        "de": "Haeckel prägt das Wort „Ökologie“",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1866"},
+      "summary": {
+        "fr": "Dans sa Morphologie générale des organismes, le biologiste darwinien Ernst Haeckel nomme « Oecologie » la science des rapports des êtres vivants avec leur milieu.",
+        "en": "In his General Morphology of Organisms, the Darwinian biologist Ernst Haeckel names \"Oecologie\" the science of the relations of living beings with their environment.",
+        "de": "In seiner Generellen Morphologie der Organismen nennt der darwinistische Biologe Ernst Haeckel die Wissenschaft von den Beziehungen der Lebewesen zu ihrer Umwelt „Oecologie“.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}, {"id": "world-science"}],
+      "persons": ["ernst-haeckel"],
+      "places": ["jena"],
+      "works": ["generelle-morphologie"],
+      "status": "draft"
+    },
+    {
+      "id": "1896-arrhenius-global-warming-calculation",
+      "title": {
+        "fr": "Arrhenius calcule le réchauffement dû au CO₂",
+        "en": "Arrhenius calculates CO₂-driven warming",
+        "de": "Arrhenius berechnet die CO₂-bedingte Erwärmung",
+        "draft": ["en", "de"]
+      },
+      "type": "discovery",
+      "start": {"date": "1896"},
+      "summary": {
+        "fr": "Svante Arrhenius estime qu'un doublement du gaz carbonique dans l'air réchaufferait la Terre de plusieurs degrés et que la combustion du charbon peut y contribuer.",
+        "en": "Svante Arrhenius estimates that a doubling of carbon dioxide in the air would warm the Earth by several degrees and that burning coal can contribute to it.",
+        "de": "Svante Arrhenius schätzt, dass eine Verdopplung des Kohlendioxids in der Luft die Erde um mehrere Grad erwärmen würde und dass die Kohleverbrennung dazu beitragen kann.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}, {"id": "world-science"}],
+      "persons": ["svante-arrhenius"],
+      "places": ["stockholm"],
+      "status": "draft"
+    },
+    {
+      "id": "1896-engels-part-played-by-labour",
+      "title": {
+        "fr": "Parution du « Rôle du travail » d'Engels",
+        "en": "Publication of Engels' \"Part Played by Labour\"",
+        "de": "Erscheinen von Engels’ „Anteil der Arbeit“",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1896"},
+      "summary": {
+        "fr": "Rédigé en 1876 et publié dans Die Neue Zeit, ce texte avertit que chaque victoire humaine sur la nature se paie de conséquences imprévues qui en annulent les effets.",
+        "en": "Written in 1876 and published in Die Neue Zeit, this text warns that every human victory over nature is paid for by unforeseen consequences that cancel out its effects.",
+        "de": "1876 geschrieben und in der Neuen Zeit veröffentlicht, warnt dieser Text, dass jeder Sieg des Menschen über die Natur mit unvorhergesehenen Folgen bezahlt wird, die seine Wirkungen wieder aufheben.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}, {"id": "1889-second-international-period"}],
+      "persons": ["engels"],
+      "works": ["the-part-played-by-labour-in-the-transition-from-ape-to-man"],
+      "status": "draft"
+    },
+    {
+      "id": "1938-callendar-effect",
+      "title": {
+        "fr": "Callendar détecte le réchauffement en cours",
+        "en": "Callendar detects ongoing warming",
+        "de": "Callendar weist die laufende Erwärmung nach",
+        "draft": ["en", "de"]
+      },
+      "type": "discovery",
+      "start": {"date": "1938"},
+      "summary": {
+        "fr": "L'ingénieur Guy Callendar relie la hausse des températures mesurées depuis la fin du XIXe siècle à l'augmentation du CO₂ due aux combustibles fossiles.",
+        "en": "The engineer Guy Callendar links the rise in temperatures measured since the late 19th century to the increase in CO₂ from fossil fuels.",
+        "de": "Der Ingenieur Guy Callendar führt den seit Ende des 19. Jahrhunderts gemessenen Temperaturanstieg auf die Zunahme von CO₂ aus fossilen Brennstoffen zurück.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}, {"id": "world-science"}],
+      "persons": ["guy-callendar"],
+      "places": ["london"],
+      "status": "draft"
+    },
+    {
+      "id": "1952-great-smog-of-london",
+      "title": {
+        "fr": "Grand smog de Londres",
+        "en": "Great Smog of London",
+        "de": "Großer Smog von London",
+        "draft": ["en", "de"]
+      },
+      "type": "disaster",
+      "start": {"date": "1952-12-05"},
+      "end": {"date": "1952-12-09"},
+      "summary": {
+        "fr": "Pendant cinq jours, un brouillard chargé de fumées de charbon paralyse Londres et tue des milliers de personnes, surtout dans les quartiers populaires ; il conduit à la loi sur la pureté de l'air de 1956.",
+        "en": "For five days, a fog laden with coal smoke paralyses London and kills thousands of people, mostly in working-class districts; it leads to the Clean Air Act of 1956.",
+        "de": "Fünf Tage lang legt ein mit Kohlenrauch beladener Nebel London lahm und tötet Tausende Menschen, vor allem in Arbeitervierteln; er führt zum Luftreinhaltegesetz von 1956.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "world-disasters"},
+        {"id": "world-ecology"},
+        {"id": "1945-welfare-state-and-decolonisation"}
+      ],
+      "places": ["london"],
+      "status": "draft"
+    },
+    {
+      "id": "1956-hubbert-peak-oil",
+      "title": {
+        "fr": "Hubbert prédit le pic pétrolier",
+        "en": "Hubbert predicts peak oil",
+        "de": "Hubbert sagt das Ölfördermaximum voraus",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1956-03-08"},
+      "summary": {
+        "fr": "Le géologue de Shell M. King Hubbert annonce que la production de pétrole des États-Unis atteindra son maximum vers 1970, puis déclinera : la théorie du « pic pétrolier ».",
+        "en": "The Shell geologist M. King Hubbert announces that US oil production will peak around 1970 and then decline: the theory of \"peak oil\".",
+        "de": "Der Shell-Geologe M. King Hubbert kündigt an, dass die Erdölförderung der USA um 1970 ihr Maximum erreichen und dann sinken wird: die Theorie des „Peak Oil“.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}, {"id": "world-economy"}],
+      "persons": ["m-king-hubbert"],
+      "organizations": ["royal-dutch-shell"],
+      "status": "draft"
+    },
+    {
+      "id": "1956-minamata-disease",
+      "title": {
+        "fr": "Maladie de Minamata",
+        "en": "Minamata disease",
+        "de": "Minamata-Krankheit",
+        "draft": ["en", "de"]
+      },
+      "type": "disaster",
+      "start": {"date": "1956-05-01"},
+      "summary": {
+        "fr": "Une maladie neurologique causée par le mercure que l'usine Chisso rejette dans la baie est officiellement découverte ; l'entreprise et l'État nient pendant des années, et la lutte des victimes aboutit à la condamnation de Chisso en 1973.",
+        "en": "A neurological disease caused by the mercury that the Chisso factory dumps into the bay is officially discovered; the company and the state deny it for years, and the victims' struggle leads to Chisso's conviction in 1973.",
+        "de": "Eine neurologische Krankheit, verursacht durch das Quecksilber, das die Chisso-Fabrik in die Bucht leitet, wird offiziell entdeckt; Konzern und Staat leugnen jahrelang, der Kampf der Opfer führt 1973 zur Verurteilung von Chisso.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-disasters"}, {"id": "world-ecology"}],
+      "places": ["minamata"],
+      "organizations": ["chisso"],
+      "sources": [{"ref": "wp-en-minamata-disease"}, {"ref": "wp-en-minamata-kumamoto"}],
+      "status": "draft"
+    },
+    {
+      "id": "1958-keeling-curve",
+      "title": {
+        "fr": "Début de la courbe de Keeling",
+        "en": "Start of the Keeling Curve",
+        "de": "Beginn der Keeling-Kurve",
+        "draft": ["en", "de"]
+      },
+      "type": "discovery",
+      "start": {"date": "1958-03"},
+      "summary": {
+        "fr": "Charles David Keeling commence à mesurer en continu le CO₂ atmosphérique au Mauna Loa ; la courbe montre une hausse ininterrompue et devient le symbole du réchauffement.",
+        "en": "Charles David Keeling begins continuous measurement of atmospheric CO₂ at Mauna Loa; the curve shows an unbroken rise and becomes the emblem of global warming.",
+        "de": "Charles David Keeling beginnt mit der kontinuierlichen Messung des atmosphärischen CO₂ am Mauna Loa; die Kurve zeigt einen ununterbrochenen Anstieg und wird zum Sinnbild der Erderwärmung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}, {"id": "world-science"}],
+      "persons": ["charles-david-keeling"],
+      "places": ["mauna-loa-observatory"],
+      "sources": [{"ref": "wp-en-mauna-loa-observatory"}, {"ref": "noaa-gml-mauna-loa-observatory"}],
+      "status": "draft"
+    },
+    {
+      "id": "1960-drying-of-the-aral-sea",
+      "title": {
+        "fr": "Assèchement de la mer d'Aral",
+        "en": "Drying up of the Aral Sea",
+        "de": "Austrocknung des Aralsees",
+        "draft": ["en", "de"]
+      },
+      "type": "disaster",
+      "start": {"date": "1960"},
+      "ongoing": true,
+      "summary": {
+        "fr": "Pour irriguer le coton, la planification soviétique détourne l'Amou-Daria et le Syr-Daria ; la mer perd l'essentiel de sa surface, la pêche s'effondre et des tempêtes de sel et de pesticides ruinent la santé des riverains.",
+        "en": "To irrigate cotton, Soviet planning diverts the Amu Darya and Syr Darya; the sea loses most of its surface, fishing collapses and storms of salt and pesticides ruin the health of local people.",
+        "de": "Für die Baumwollbewässerung leitet die sowjetische Planung Amudarja und Syrdarja um; der See verliert den größten Teil seiner Fläche, die Fischerei bricht zusammen, Salz- und Pestizidstürme ruinieren die Gesundheit der Anwohner.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-disasters"}, {"id": "world-ecology"}, {"id": "1953-khrushchev-thaw"}],
+      "places": ["aral-sea"],
+      "sources": [{"ref": "wp-en-aral-sea"}],
+      "status": "draft"
+    },
+    {
+      "id": "1962-silent-spring",
+      "title": {
+        "fr": "Parution de Printemps silencieux",
+        "en": "Publication of Silent Spring",
+        "de": "Erscheinen von Der stumme Frühling",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1962-09-27"},
+      "summary": {
+        "fr": "Rachel Carson dénonce les ravages des pesticides comme le DDT sur les oiseaux, les écosystèmes et la santé humaine ; malgré une violente campagne de l'industrie chimique, le livre lance l'écologisme moderne.",
+        "en": "Rachel Carson exposes the damage done by pesticides such as DDT to birds, ecosystems and human health; despite a fierce campaign by the chemical industry, the book launches modern environmentalism.",
+        "de": "Rachel Carson prangert die Verwüstungen durch Pestizide wie DDT an Vögeln, Ökosystemen und der menschlichen Gesundheit an; trotz einer heftigen Kampagne der Chemieindustrie begründet das Buch die moderne Umweltbewegung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "world-ecology"},
+        {"id": "world-culture"},
+        {"id": "1945-cold-war-mccarthyism-and-civil-rights"}
+      ],
+      "persons": ["rachel-carson"],
+      "works": ["silent-spring"],
+      "tags": ["littérature"],
+      "status": "draft"
+    },
+    {
+      "id": "1968-club-of-rome-founding",
+      "title": {
+        "fr": "Fondation du Club de Rome",
+        "en": "Founding of the Club of Rome",
+        "de": "Gründung des Club of Rome",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1968-04"},
+      "summary": {
+        "fr": "L'industriel Aurelio Peccei et le scientifique Alexander King réunissent à Rome des chercheurs, des patrons et des hauts fonctionnaires pour étudier les « problèmes du monde » à long terme.",
+        "en": "The industrialist Aurelio Peccei and the scientist Alexander King bring together researchers, business leaders and senior officials in Rome to study the long-term \"problems of the world\".",
+        "de": "Der Industrielle Aurelio Peccei und der Wissenschaftler Alexander King versammeln in Rom Forscher, Unternehmer und hohe Beamte, um die langfristigen „Weltprobleme“ zu untersuchen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}],
+      "persons": ["aurelio-peccei", "alexander-king"],
+      "places": ["rome"],
+      "organizations": ["club-of-rome"],
+      "status": "draft"
+    },
+    {
+      "id": "1968-the-population-bomb",
+      "title": {
+        "fr": "Parution de La Bombe P",
+        "en": "Publication of The Population Bomb",
+        "de": "Erscheinen von Die Bevölkerungsbombe",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1968-05"},
+      "summary": {
+        "fr": "Paul Ehrlich prédit des famines de masse dues à la croissance démographique ; best-seller, le livre relance un néomalthusianisme qui fait porter la crise sur les pauvres du Sud. Ses prophéties ne se réalisent pas.",
+        "en": "Paul Ehrlich predicts mass famines due to population growth; a bestseller, the book revives a neo-Malthusianism that blames the crisis on the poor of the South. His prophecies do not come true.",
+        "de": "Paul Ehrlich sagt Massenhungersnöte infolge des Bevölkerungswachstums voraus; der Bestseller belebt einen Neomalthusianismus, der die Krise den Armen des Südens anlastet. Seine Prophezeiungen treffen nicht ein.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}, {"id": "world-culture"}],
+      "persons": ["paul-r-ehrlich"],
+      "works": ["the-population-bomb"],
+      "tags": ["littérature"],
+      "status": "draft"
+    },
+    {
+      "id": "1968-tragedy-of-the-commons",
+      "title": {
+        "fr": "Parution de « La Tragédie des communs »",
+        "en": "Publication of \"The Tragedy of the Commons\"",
+        "de": "Erscheinen von „Die Tragik der Allmende“",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1968-12-13"},
+      "summary": {
+        "fr": "Dans Science, Garrett Hardin soutient que des biens laissés en libre accès sont fatalement surexploités ; l'article sert d'argument pour la privatisation, mais Elinor Ostrom montrera que de nombreux communs sont gérés durablement.",
+        "en": "In Science, Garrett Hardin argues that goods left in open access are inevitably overexploited; the article serves as an argument for privatisation, but Elinor Ostrom will show that many commons are managed sustainably.",
+        "de": "In Science behauptet Garrett Hardin, frei zugängliche Güter würden zwangsläufig übernutzt; der Aufsatz dient als Argument für Privatisierung, doch Elinor Ostrom wird zeigen, dass viele Allmenden nachhaltig bewirtschaftet werden.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}],
+      "persons": ["garrett-hardin"],
+      "works": ["the-tragedy-of-the-commons"],
+      "status": "draft"
+    },
+    {
+      "id": "1972-the-limits-to-growth",
+      "title": {
+        "fr": "Rapport Meadows : Les Limites à la croissance",
+        "en": "Meadows Report: The Limits to Growth",
+        "de": "Meadows-Bericht: Die Grenzen des Wachstums",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1972-03-02"},
+      "summary": {
+        "fr": "Commandé par le Club de Rome au MIT, le rapport simule avec le modèle World3 l'évolution de la population, de la production et des ressources : une croissance exponentielle sans fin mène à l'effondrement au XXIe siècle. Il est vivement attaqué par les économistes.",
+        "en": "Commissioned by the Club of Rome from MIT, the report uses the World3 model to simulate population, production and resources: endless exponential growth leads to collapse in the 21st century. Economists attack it fiercely.",
+        "de": "Der vom Club of Rome beim MIT in Auftrag gegebene Bericht simuliert mit dem Modell World3 Bevölkerung, Produktion und Ressourcen: endloses exponentielles Wachstum führt im 21. Jahrhundert zum Zusammenbruch. Ökonomen greifen ihn heftig an.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}, {"id": "world-economy"}],
+      "persons": ["donella-meadows", "dennis-meadows"],
+      "organizations": ["club-of-rome"],
+      "works": ["the-limits-to-growth"],
+      "status": "draft"
+    },
+    {
+      "id": "1975-gorz-ecologie-et-politique",
+      "title": {
+        "fr": "Parution d'Écologie et politique de Gorz",
+        "en": "Publication of Gorz's Ecology as Politics",
+        "de": "Erscheinen von Gorz’ Ökologie und Politik",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1975"},
+      "summary": {
+        "fr": "André Gorz relie la crise écologique à la logique d'accumulation du capitalisme et appelle à produire moins et autrement ; le livre fonde l'écologie politique de gauche en France.",
+        "en": "André Gorz links the ecological crisis to the accumulation logic of capitalism and calls for producing less and differently; the book founds left-wing political ecology in France.",
+        "de": "André Gorz verknüpft die ökologische Krise mit der Akkumulationslogik des Kapitalismus und fordert, weniger und anders zu produzieren; das Buch begründet die linke politische Ökologie in Frankreich.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}],
+      "persons": ["andre-gorz"],
+      "works": ["ecologie-et-politique"],
+      "status": "draft"
+    },
+    {
+      "id": "1977-exxon-climate-research",
+      "title": {"fr": "Exxon savait", "en": "Exxon knew", "de": "Exxon wusste es", "draft": ["en", "de"]},
+      "type": "other",
+      "start": {"date": "1977"},
+      "end": {"date": "1982"},
+      "summary": {
+        "fr": "Les chercheurs d'Exxon avertissent la direction que la combustion des énergies fossiles réchauffe le climat et prévoient correctement l'ampleur du réchauffement ; la compagnie finance ensuite pendant des décennies la désinformation climatique. Ces documents sont révélés en 2015.",
+        "en": "Exxon's scientists warn management that burning fossil fuels is warming the climate and correctly forecast the scale of warming; the company then funds climate disinformation for decades. The documents are revealed in 2015.",
+        "de": "Exxon-Forscher warnen die Konzernleitung, dass die Verbrennung fossiler Energien das Klima erwärmt, und sagen das Ausmaß der Erwärmung richtig voraus; der Konzern finanziert danach jahrzehntelang Klimadesinformation. Die Dokumente werden 2015 enthüllt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}, {"id": "world-economy"}],
+      "organizations": ["exxon"],
+      "status": "draft"
+    },
+    {
+      "id": "1979-charney-report",
+      "title": {
+        "fr": "Rapport Charney",
+        "en": "Charney Report",
+        "de": "Charney-Bericht",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1979-07"},
+      "summary": {
+        "fr": "Pour l'Académie des sciences des États-Unis, un groupe dirigé par Jule Charney estime qu'un doublement du CO₂ réchaufferait la planète d'environ 3 °C, une fourchette que les travaux ultérieurs confirmeront.",
+        "en": "For the US National Academy of Sciences, a group led by Jule Charney estimates that a doubling of CO₂ would warm the planet by about 3 °C, a range later work will confirm.",
+        "de": "Für die US-Akademie der Wissenschaften schätzt eine Gruppe unter Jule Charney, dass eine CO₂-Verdopplung den Planeten um etwa 3 °C erwärmen würde – eine Spanne, die spätere Arbeiten bestätigen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}, {"id": "world-science"}],
+      "persons": ["jule-charney"],
+      "status": "draft"
+    },
+    {
+      "id": "1982-the-ecology-of-freedom",
+      "title": {
+        "fr": "Parution de L'Écologie de la liberté de Bookchin",
+        "en": "Publication of Bookchin's The Ecology of Freedom",
+        "de": "Erscheinen von Bookchins Die Ökologie der Freiheit",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1982"},
+      "summary": {
+        "fr": "Murray Bookchin fait dériver la domination de la nature de la domination de l'homme par l'homme et propose une « écologie sociale » libertaire fondée sur le municipalisme.",
+        "en": "Murray Bookchin derives the domination of nature from the domination of human by human and proposes a libertarian \"social ecology\" based on municipalism.",
+        "de": "Murray Bookchin leitet die Herrschaft über die Natur aus der Herrschaft des Menschen über den Menschen ab und schlägt eine libertäre „soziale Ökologie“ auf der Grundlage des Kommunalismus vor.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}],
+      "persons": ["murray-bookchin"],
+      "works": ["the-ecology-of-freedom"],
+      "status": "draft"
+    },
+    {
+      "id": "1985-ozone-hole-discovery",
+      "title": {
+        "fr": "Découverte du trou dans la couche d'ozone",
+        "en": "Discovery of the ozone hole",
+        "de": "Entdeckung des Ozonlochs",
+        "draft": ["en", "de"]
+      },
+      "type": "discovery",
+      "start": {"date": "1985-05"},
+      "summary": {
+        "fr": "Des chercheurs britanniques en Antarctique, dont Joseph Farman, publient la chute de l'ozone stratosphérique chaque printemps austral, causée par les CFC des réfrigérateurs et des aérosols.",
+        "en": "British researchers in Antarctica, including Joseph Farman, publish the fall in stratospheric ozone every southern spring, caused by CFCs from refrigerators and aerosols.",
+        "de": "Britische Forscher in der Antarktis, darunter Joseph Farman, veröffentlichen den Rückgang des stratosphärischen Ozons in jedem Südfrühling, verursacht durch FCKW aus Kühlschränken und Spraydosen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}, {"id": "world-science"}],
+      "persons": ["joseph-farman"],
+      "status": "draft"
+    },
+    {
+      "id": "1988-hansen-senate-testimony",
+      "title": {
+        "fr": "Témoignage de James Hansen au Sénat",
+        "en": "James Hansen's Senate testimony",
+        "de": "James Hansens Aussage vor dem Senat",
+        "draft": ["en", "de"]
+      },
+      "type": "speech",
+      "start": {"date": "1988-06-23"},
+      "summary": {
+        "fr": "En pleine canicule, le climatologue de la NASA déclare devant le Sénat des États-Unis que le réchauffement d'origine humaine a commencé ; le climat entre dans le débat public.",
+        "en": "In the middle of a heatwave, the NASA climate scientist tells the US Senate that human-caused warming has begun; climate enters public debate.",
+        "de": "Mitten in einer Hitzewelle erklärt der NASA-Klimaforscher vor dem US-Senat, dass die menschengemachte Erwärmung begonnen hat; das Klima wird zum öffentlichen Thema.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}, {"id": "1981-reaganism-and-neoliberalism"}],
+      "persons": ["james-hansen"],
+      "places": ["washington-dc"],
+      "status": "draft"
+    },
+    {
+      "id": "2000-anthropocene-proposal",
+      "title": {
+        "fr": "Crutzen propose la notion d'Anthropocène",
+        "en": "Crutzen proposes the Anthropocene",
+        "de": "Crutzen schlägt das Anthropozän vor",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "2000"},
+      "summary": {
+        "fr": "Le prix Nobel de chimie Paul Crutzen propose de nommer Anthropocène une nouvelle époque géologique où l'humanité est devenue la principale force qui transforme la Terre. En 2024, les géologues refusent de l'inscrire dans l'échelle des temps.",
+        "en": "The Nobel chemistry laureate Paul Crutzen proposes calling the Anthropocene a new geological epoch in which humanity has become the main force transforming the Earth. In 2024 geologists decline to add it to the time scale.",
+        "de": "Der Chemie-Nobelpreisträger Paul Crutzen schlägt vor, eine neue erdgeschichtliche Epoche, in der die Menschheit zur wichtigsten erdverändernden Kraft geworden ist, Anthropozän zu nennen. 2024 lehnen Geologen die Aufnahme in die Zeitskala ab.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}, {"id": "world-science"}],
+      "persons": ["paul-crutzen"],
+      "status": "draft"
+    },
+    {
+      "id": "2000-marxs-ecology",
+      "title": {
+        "fr": "Parution de L'Écologie de Marx de Foster",
+        "en": "Publication of Foster's Marx's Ecology",
+        "de": "Erscheinen von Fosters Marx’ Ökologie",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "2000"},
+      "summary": {
+        "fr": "John Bellamy Foster redécouvre chez Marx le concept de « rupture métabolique » entre la société et la nature, et ouvre un renouveau de l'écologie marxiste.",
+        "en": "John Bellamy Foster rediscovers in Marx the concept of the \"metabolic rift\" between society and nature, opening a revival of Marxist ecology.",
+        "de": "John Bellamy Foster entdeckt bei Marx den Begriff des „metabolischen Bruchs“ zwischen Gesellschaft und Natur wieder und leitet eine Erneuerung der marxistischen Ökologie ein.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}, {"id": "marxism"}],
+      "persons": ["john-bellamy-foster"],
+      "works": ["marxs-ecology"],
+      "status": "draft"
+    },
+    {
+      "id": "2004-limits-to-growth-30-year-update",
+      "title": {
+        "fr": "Mise à jour du rapport Meadows",
+        "en": "Limits to Growth: 30-year update",
+        "de": "Neuauflage der Grenzen des Wachstums",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "2004"},
+      "summary": {
+        "fr": "Trente ans après, les auteurs constatent que l'humanité a déjà dépassé les capacités de la planète et que l'évolution réelle suit à peu près leur scénario de référence.",
+        "en": "Thirty years on, the authors find that humanity has already overshot the planet's capacities and that actual trends roughly follow their reference scenario.",
+        "de": "Dreißig Jahre später stellen die Autoren fest, dass die Menschheit die Kapazitäten des Planeten bereits überschritten hat und die tatsächliche Entwicklung etwa ihrem Standardszenario folgt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}],
+      "persons": ["donella-meadows", "dennis-meadows"],
+      "works": ["limits-to-growth-the-30-year-update"],
+      "status": "draft"
+    },
+    {
+      "id": "2006-an-inconvenient-truth",
+      "title": {
+        "fr": "Première d'Une vérité qui dérange",
+        "en": "Premiere of An Inconvenient Truth",
+        "de": "Premiere von Eine unbequeme Wahrheit",
+        "draft": ["en", "de"]
+      },
+      "type": "premiere",
+      "start": {"date": "2006-01-24"},
+      "summary": {
+        "fr": "Le documentaire tiré des conférences d'Al Gore sur le réchauffement climatique est un succès mondial et oscarisé ; il popularise le sujet tout en promettant des solutions par le marché et la consommation responsable.",
+        "en": "The documentary based on Al Gore's lectures on global warming becomes a worldwide, Oscar-winning success; it popularises the issue while promising market solutions and responsible consumption.",
+        "de": "Der Dokumentarfilm nach Al Gores Vorträgen über die Erderwärmung wird ein oscarprämierter Welterfolg; er macht das Thema populär, verspricht aber Lösungen über Markt und verantwortungsvollen Konsum.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}, {"id": "world-culture"}],
+      "persons": ["al-gore"],
+      "works": ["an-inconvenient-truth"],
+      "tags": ["cinéma"],
+      "status": "draft"
+    },
+    {
+      "id": "2006-stern-review",
+      "title": {"fr": "Rapport Stern", "en": "Stern Review", "de": "Stern-Report", "draft": ["en", "de"]},
+      "type": "publication",
+      "start": {"date": "2006-10-30"},
+      "summary": {
+        "fr": "Pour le gouvernement britannique, l'économiste Nicholas Stern chiffre le coût de l'inaction climatique bien au-dessus de celui de la réduction des émissions et qualifie le réchauffement de plus grand échec du marché.",
+        "en": "For the British government, the economist Nicholas Stern puts the cost of climate inaction far above that of cutting emissions and calls global warming the greatest market failure.",
+        "de": "Für die britische Regierung beziffert der Ökonom Nicholas Stern die Kosten klimapolitischer Untätigkeit weit höher als die der Emissionsminderung und nennt die Erderwärmung das größte Marktversagen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}, {"id": "world-economy"}, {"id": "1997-new-labour"}],
+      "persons": ["nicholas-stern"],
+      "works": ["stern-review"],
+      "status": "draft"
+    },
+    {
+      "id": "2009-planetary-boundaries",
+      "title": {
+        "fr": "Définition des limites planétaires",
+        "en": "Planetary boundaries defined",
+        "de": "Planetare Grenzen definiert",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "2009-09"},
+      "summary": {
+        "fr": "Une équipe dirigée par Johan Rockström définit neuf limites du système Terre, dont le climat, la biodiversité et les cycles de l'azote, et estime que plusieurs sont déjà franchies.",
+        "en": "A team led by Johan Rockström defines nine Earth-system boundaries, including climate, biodiversity and the nitrogen cycle, and estimates that several have already been crossed.",
+        "de": "Ein Team unter Johan Rockström definiert neun Grenzen des Erdsystems, darunter Klima, Biodiversität und Stickstoffkreislauf, und schätzt, dass mehrere bereits überschritten sind.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}, {"id": "world-science"}],
+      "persons": ["johan-rockstrom"],
+      "status": "draft"
+    },
+    {
+      "id": "2013-co2-passes-400-ppm",
+      "title": {
+        "fr": "Le CO₂ dépasse 400 ppm",
+        "en": "CO₂ passes 400 ppm",
+        "de": "CO₂ übersteigt 400 ppm",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "2013-05"},
+      "summary": {
+        "fr": "Au Mauna Loa, la concentration de gaz carbonique dans l'air dépasse 400 parties par million, contre environ 280 avant l'ère industrielle et 315 au début des mesures de Keeling.",
+        "en": "At Mauna Loa, the concentration of carbon dioxide in the air exceeds 400 parts per million, against about 280 before the industrial era and 315 when Keeling's measurements began.",
+        "de": "Am Mauna Loa übersteigt die Kohlendioxidkonzentration der Luft 400 ppm, gegenüber etwa 280 vor dem Industriezeitalter und 315 zu Beginn von Keelings Messungen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}, {"id": "world-science"}],
+      "places": ["mauna-loa-observatory"],
+      "status": "draft"
+    },
+    {
+      "id": "2014-this-changes-everything",
+      "title": {
+        "fr": "Parution de Tout peut changer de Naomi Klein",
+        "en": "Publication of Naomi Klein's This Changes Everything",
+        "de": "Erscheinen von Naomi Kleins Die Entscheidung",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "2014-09-16"},
+      "summary": {
+        "fr": "Naomi Klein soutient que la crise climatique est incompatible avec le capitalisme dérégulé et voit dans les luttes contre l'extraction fossile la base d'un vaste mouvement social.",
+        "en": "Naomi Klein argues that the climate crisis is incompatible with deregulated capitalism and sees struggles against fossil extraction as the basis of a broad social movement.",
+        "de": "Naomi Klein argumentiert, dass die Klimakrise mit dem deregulierten Kapitalismus unvereinbar ist, und sieht in den Kämpfen gegen fossile Förderung die Grundlage einer breiten sozialen Bewegung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}],
+      "persons": ["naomi-klein"],
+      "works": ["this-changes-everything"],
+      "status": "draft"
+    },
+    {
+      "id": "2015-laudato-si",
+      "title": {
+        "fr": "Encyclique Laudato si'",
+        "en": "Encyclical Laudato si'",
+        "de": "Enzyklika Laudato si'",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "2015-06-18"},
+      "summary": {
+        "fr": "Le pape François consacre une encyclique à la « maison commune » : il lie crise écologique et pauvreté, critique la foi dans le marché et la technique, et appelle à une « conversion écologique ».",
+        "en": "Pope Francis devotes an encyclical to \"our common home\": he links the ecological crisis with poverty, criticises faith in the market and technology, and calls for an \"ecological conversion\".",
+        "de": "Papst Franziskus widmet dem „gemeinsamen Haus“ eine Enzyklika: Er verknüpft ökologische Krise und Armut, kritisiert den Glauben an Markt und Technik und ruft zu einer „ökologischen Umkehr“ auf.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}],
+      "persons": ["pope-francis"],
+      "works": ["laudato-si"],
+      "status": "draft"
+    },
+    {
+      "id": "2016-fossil-capital",
+      "title": {
+        "fr": "Parution de Fossil Capital d'Andreas Malm",
+        "en": "Publication of Andreas Malm's Fossil Capital",
+        "de": "Erscheinen von Andreas Malms Fossil Capital",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "2016-01"},
+      "summary": {
+        "fr": "Andreas Malm montre que les industriels britanniques ont adopté la machine à vapeur au charbon non parce qu'elle était moins chère que l'énergie hydraulique, mais parce qu'elle leur permettait de mieux contrôler la main-d'œuvre : le réchauffement plonge ses racines dans le capital.",
+        "en": "Andreas Malm shows that British manufacturers adopted the coal-fired steam engine not because it was cheaper than water power but because it gave them better control over labour: global warming is rooted in capital.",
+        "de": "Andreas Malm zeigt, dass britische Fabrikanten die Kohle-Dampfmaschine nicht einführten, weil sie billiger als Wasserkraft war, sondern weil sie ihnen mehr Kontrolle über die Arbeitskräfte gab: Die Erderwärmung wurzelt im Kapital.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}],
+      "persons": ["andreas-malm"],
+      "works": ["fossil-capital"],
+      "status": "draft"
+    },
+    {
+      "id": "2022-earth-for-all",
+      "title": {
+        "fr": "Parution de Earth for All",
+        "en": "Publication of Earth for All",
+        "de": "Erscheinen von Earth for All",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "2022-09"},
+      "summary": {
+        "fr": "Cinquante ans après le rapport Meadows, le Club de Rome publie un nouveau rapport qui associe lutte contre la pauvreté, réduction des inégalités et transition énergétique.",
+        "en": "Fifty years after the Meadows Report, the Club of Rome publishes a new report combining the fight against poverty, reduction of inequality and energy transition.",
+        "de": "Fünfzig Jahre nach dem Meadows-Bericht veröffentlicht der Club of Rome einen neuen Bericht, der Armutsbekämpfung, Abbau von Ungleichheit und Energiewende verbindet.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}],
+      "organizations": ["club-of-rome"],
+      "works": ["earth-for-all"],
+      "status": "draft"
+    },
+    {
+      "id": "2024-first-year-above-1-5-c",
+      "title": {
+        "fr": "Première année au-dessus de +1,5 °C",
+        "en": "First year above 1.5 °C",
+        "de": "Erstes Jahr über 1,5 °C",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "start": {"date": "2024"},
+      "summary": {
+        "fr": "Selon le service européen Copernicus, 2024 est l'année la plus chaude jamais mesurée et la première dont la température moyenne mondiale dépasse de plus de 1,5 °C le niveau préindustriel, seuil de l'accord de Paris.",
+        "en": "According to the European Copernicus service, 2024 is the hottest year on record and the first whose global average temperature exceeds the pre-industrial level by more than 1.5 °C, the Paris Agreement threshold.",
+        "de": "Laut dem europäischen Copernicus-Dienst ist 2024 das wärmste je gemessene Jahr und das erste, dessen globale Mitteltemperatur das vorindustrielle Niveau um mehr als 1,5 °C übersteigt, die Schwelle des Pariser Abkommens.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}, {"id": "world-science"}],
+      "status": "draft"
+    },
+    {
+      "id": "1972-stockholm-conference",
+      "title": {
+        "fr": "Conférence de Stockholm sur l'environnement",
+        "en": "Stockholm Conference on the Human Environment",
+        "de": "Stockholmer Umweltkonferenz",
+        "draft": ["en", "de"]
+      },
+      "type": "conference",
+      "start": {"date": "1972-06-05"},
+      "end": {"date": "1972-06-16"},
+      "summary": {
+        "fr": "Première grande conférence de l'ONU sur l'environnement ; elle adopte une déclaration de principes et aboutit à la création du Programme des Nations unies pour l'environnement (PNUE), installé à Nairobi.",
+        "en": "The UN's first major conference on the environment; it adopts a declaration of principles and leads to the creation of the United Nations Environment Programme (UNEP), based in Nairobi.",
+        "de": "Erste große UN-Konferenz über die Umwelt; sie verabschiedet eine Grundsatzerklärung und führt zur Gründung des Umweltprogramms der Vereinten Nationen (UNEP) mit Sitz in Nairobi.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}, {"id": "world-states"}],
+      "places": ["stockholm"],
+      "organizations": ["united-nations", "unep"],
+      "status": "draft"
+    },
+    {
+      "id": "1987-brundtland-report",
+      "title": {
+        "fr": "Rapport Brundtland",
+        "en": "Brundtland Report",
+        "de": "Brundtland-Bericht",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1987-04"},
+      "summary": {
+        "fr": "La commission de l'ONU présidée par Gro Harlem Brundtland publie Notre avenir à tous et popularise le « développement durable », qui prétend concilier croissance, justice sociale et protection de l'environnement.",
+        "en": "The UN commission chaired by Gro Harlem Brundtland publishes Our Common Future and popularises \"sustainable development\", which claims to reconcile growth, social justice and environmental protection.",
+        "de": "Die UN-Kommission unter Vorsitz von Gro Harlem Brundtland veröffentlicht Unsere gemeinsame Zukunft und macht die „nachhaltige Entwicklung“ populär, die Wachstum, soziale Gerechtigkeit und Umweltschutz zu versöhnen verspricht.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}, {"id": "world-states"}],
+      "persons": ["gro-harlem-brundtland"],
+      "organizations": ["united-nations"],
+      "works": ["our-common-future"],
+      "status": "draft"
+    },
+    {
+      "id": "1987-montreal-protocol",
+      "title": {
+        "fr": "Protocole de Montréal",
+        "en": "Montreal Protocol",
+        "de": "Montreal-Protokoll",
+        "draft": ["en", "de"]
+      },
+      "type": "treaty",
+      "start": {"date": "1987-09-16"},
+      "summary": {
+        "fr": "Les États s'engagent à éliminer les CFC qui détruisent la couche d'ozone ; ratifié par tous les pays, le protocole est le seul traité environnemental qui a réellement inversé une tendance.",
+        "en": "States commit to phasing out the CFCs that destroy the ozone layer; ratified by every country, the protocol is the only environmental treaty that has actually reversed a trend.",
+        "de": "Die Staaten verpflichten sich, die ozonzerstörenden FCKW abzuschaffen; das von allen Ländern ratifizierte Protokoll ist der einzige Umweltvertrag, der einen Trend tatsächlich umgekehrt hat.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}, {"id": "world-states"}],
+      "places": ["montreal"],
+      "status": "draft"
+    },
+    {
+      "id": "1988-ipcc-and-its-reports",
+      "title": {
+        "fr": "Le GIEC et ses rapports",
+        "en": "The IPCC and its reports",
+        "de": "Der Weltklimarat und seine Berichte",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1988"},
+      "ongoing": true,
+      "summary": {
+        "fr": "Depuis 1988, le GIEC rassemble l'état des connaissances sur le climat ; ses rapports successifs établissent avec une certitude croissante la responsabilité humaine dans le réchauffement.",
+        "en": "Since 1988 the IPCC has compiled the state of knowledge on climate; its successive reports establish human responsibility for warming with increasing certainty.",
+        "de": "Seit 1988 trägt der Weltklimarat den Wissensstand zum Klima zusammen; seine aufeinanderfolgenden Berichte belegen mit wachsender Gewissheit die menschliche Verantwortung für die Erwärmung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}],
+      "organizations": ["ipcc"],
+      "sources": [{"ref": "wp-en-ipcc"}],
+      "status": "draft"
+    },
+    {
+      "id": "1988-ipcc-founding",
+      "title": {
+        "fr": "Création du GIEC",
+        "en": "Founding of the IPCC",
+        "de": "Gründung des Weltklimarats",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1988"},
+      "summary": {
+        "fr": "L'Organisation météorologique mondiale et le PNUE créent le Groupe d'experts intergouvernemental sur l'évolution du climat, chargé d'évaluer les travaux scientifiques pour les gouvernements.",
+        "en": "The World Meteorological Organization and UNEP set up the Intergovernmental Panel on Climate Change to assess scientific research for governments.",
+        "de": "Die Weltorganisation für Meteorologie und das UNEP gründen den Weltklimarat, der die Forschung für die Regierungen bewerten soll.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1988-ipcc-and-its-reports"}],
+      "organizations": ["ipcc", "wmo", "unep"],
+      "sources": [{"ref": "wp-en-ipcc"}],
+      "status": "draft"
+    },
+    {
+      "id": "1990-ipcc-first-assessment-report",
+      "title": {
+        "fr": "Premier rapport du GIEC",
+        "en": "First IPCC Assessment Report",
+        "de": "Erster Sachstandsbericht des IPCC",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1990"},
+      "summary": {
+        "fr": "Le premier rapport confirme que les émissions humaines renforcent l'effet de serre et prépare la convention-cadre adoptée à Rio en 1992.",
+        "en": "The first report confirms that human emissions are enhancing the greenhouse effect and prepares the framework convention adopted in Rio in 1992.",
+        "de": "Der erste Bericht bestätigt, dass menschliche Emissionen den Treibhauseffekt verstärken, und bereitet die 1992 in Rio verabschiedete Rahmenkonvention vor.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1988-ipcc-and-its-reports"}],
+      "organizations": ["ipcc"],
+      "sources": [{"ref": "wp-en-ipcc"}],
+      "status": "draft"
+    },
+    {
+      "id": "1995-ipcc-second-assessment-report",
+      "title": {
+        "fr": "Deuxième rapport du GIEC",
+        "en": "Second IPCC Assessment Report",
+        "de": "Zweiter Sachstandsbericht des IPCC",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "1995"},
+      "summary": {
+        "fr": "Le GIEC conclut qu'un faisceau d'éléments suggère une influence humaine perceptible sur le climat ; le rapport sert de base aux négociations de Kyoto.",
+        "en": "The IPCC concludes that the balance of evidence suggests a discernible human influence on climate; the report underpins the Kyoto negotiations.",
+        "de": "Der IPCC folgert, dass die Gesamtheit der Befunde auf einen erkennbaren menschlichen Einfluss auf das Klima hindeutet; der Bericht bildet die Grundlage der Kyoto-Verhandlungen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1988-ipcc-and-its-reports"}],
+      "organizations": ["ipcc"],
+      "sources": [{"ref": "wp-en-ipcc"}],
+      "status": "draft"
+    },
+    {
+      "id": "2001-ipcc-third-assessment-report",
+      "title": {
+        "fr": "Troisième rapport du GIEC",
+        "en": "Third IPCC Assessment Report",
+        "de": "Dritter Sachstandsbericht des IPCC",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "2001"},
+      "summary": {
+        "fr": "Le rapport attribue l'essentiel du réchauffement des cinquante dernières années aux activités humaines ; sa courbe en « crosse de hockey » devient la cible des climatosceptiques.",
+        "en": "The report attributes most of the warming of the past fifty years to human activities; its \"hockey stick\" curve becomes a target for climate deniers.",
+        "de": "Der Bericht schreibt den größten Teil der Erwärmung der letzten fünfzig Jahre menschlichen Aktivitäten zu; seine „Hockeyschläger“-Kurve wird zur Zielscheibe der Klimaleugner.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1988-ipcc-and-its-reports"}],
+      "organizations": ["ipcc"],
+      "sources": [{"ref": "wp-en-ipcc"}],
+      "status": "draft"
+    },
+    {
+      "id": "2007-ipcc-fourth-assessment-report",
+      "title": {
+        "fr": "Quatrième rapport du GIEC et prix Nobel de la paix",
+        "en": "Fourth IPCC Assessment Report and Nobel Peace Prize",
+        "de": "Vierter Sachstandsbericht des IPCC und Friedensnobelpreis",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "2007-02"},
+      "end": {"date": "2007-12"},
+      "summary": {
+        "fr": "Le réchauffement est jugé « sans équivoque » et très probablement dû aux gaz à effet de serre humains ; en décembre, le GIEC reçoit le prix Nobel de la paix avec Al Gore.",
+        "en": "Warming is judged \"unequivocal\" and very likely due to human greenhouse gases; in December the IPCC receives the Nobel Peace Prize together with Al Gore.",
+        "de": "Die Erwärmung wird als „eindeutig“ und sehr wahrscheinlich durch menschliche Treibhausgase verursacht eingestuft; im Dezember erhält der IPCC zusammen mit Al Gore den Friedensnobelpreis.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1988-ipcc-and-its-reports"}],
+      "persons": ["al-gore"],
+      "organizations": ["ipcc"],
+      "sources": [{"ref": "wp-en-ipcc"}],
+      "status": "draft"
+    },
+    {
+      "id": "2013-ipcc-fifth-assessment-report",
+      "title": {
+        "fr": "Cinquième rapport du GIEC",
+        "en": "Fifth IPCC Assessment Report",
+        "de": "Fünfter Sachstandsbericht des IPCC",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "2013-09"},
+      "end": {"date": "2014"},
+      "summary": {
+        "fr": "Le GIEC juge « extrêmement probable » que l'influence humaine soit la cause principale du réchauffement observé ; le rapport prépare la COP21 de Paris.",
+        "en": "The IPCC judges it \"extremely likely\" that human influence is the main cause of observed warming; the report prepares COP21 in Paris.",
+        "de": "Der IPCC hält es für „äußerst wahrscheinlich“, dass der menschliche Einfluss die Hauptursache der beobachteten Erwärmung ist; der Bericht bereitet die COP21 in Paris vor.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1988-ipcc-and-its-reports"}],
+      "organizations": ["ipcc"],
+      "sources": [{"ref": "wp-en-ipcc"}],
+      "status": "draft"
+    },
+    {
+      "id": "2018-ipcc-special-report-on-1-5-c",
+      "title": {
+        "fr": "Rapport spécial du GIEC sur +1,5 °C",
+        "en": "IPCC Special Report on Global Warming of 1.5 °C",
+        "de": "IPCC-Sonderbericht über 1,5 °C globale Erwärmung",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "2018-10"},
+      "summary": {
+        "fr": "Le GIEC montre que les effets d'un réchauffement de 2 °C seraient bien plus graves qu'à 1,5 °C et que limiter la hausse à 1,5 °C exigerait de réduire de moitié les émissions mondiales en une décennie. Le rapport alimente les grèves pour le climat.",
+        "en": "The IPCC shows that the impacts of 2 °C of warming would be far worse than at 1.5 °C and that limiting the rise to 1.5 °C would require halving global emissions within a decade. The report fuels the climate strikes.",
+        "de": "Der IPCC zeigt, dass die Folgen einer Erwärmung um 2 °C weit schwerer wären als bei 1,5 °C und dass eine Begrenzung auf 1,5 °C die Halbierung der weltweiten Emissionen innerhalb eines Jahrzehnts erfordern würde. Der Bericht befeuert die Klimastreiks.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1988-ipcc-and-its-reports"}],
+      "organizations": ["ipcc"],
+      "sources": [{"ref": "wp-en-ipcc"}],
+      "status": "draft"
+    },
+    {
+      "id": "2021-ipcc-sixth-assessment-report",
+      "title": {
+        "fr": "Sixième rapport du GIEC",
+        "en": "Sixth IPCC Assessment Report",
+        "de": "Sechster Sachstandsbericht des IPCC",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "2021-08"},
+      "end": {"date": "2023-03"},
+      "summary": {
+        "fr": "Il est désormais « sans équivoque » que l'influence humaine a réchauffé l'atmosphère, les océans et les terres ; le rapport de synthèse de mars 2023 souligne que la fenêtre pour limiter le réchauffement se referme rapidement.",
+        "en": "It is now \"unequivocal\" that human influence has warmed the atmosphere, ocean and land; the synthesis report of March 2023 stresses that the window to limit warming is closing fast.",
+        "de": "Es ist nun „eindeutig“, dass der Mensch Atmosphäre, Ozeane und Land erwärmt hat; der Synthesebericht vom März 2023 betont, dass sich das Zeitfenster zur Begrenzung der Erwärmung rasch schließt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1988-ipcc-and-its-reports"}],
+      "organizations": ["ipcc"],
+      "sources": [{"ref": "wp-en-ipcc"}],
+      "status": "draft"
+    },
+    {
+      "id": "1992-rio-earth-summit",
+      "title": {
+        "fr": "Sommet de la Terre de Rio",
+        "en": "Rio Earth Summit",
+        "de": "Erdgipfel von Rio",
+        "draft": ["en", "de"]
+      },
+      "type": "conference",
+      "start": {"date": "1992-06-03"},
+      "end": {"date": "1992-06-14"},
+      "summary": {
+        "fr": "La conférence de l'ONU sur l'environnement et le développement adopte la convention-cadre sur les changements climatiques, la convention sur la diversité biologique et l'Agenda 21, sans aucune obligation contraignante de réduction des émissions.",
+        "en": "The UN Conference on Environment and Development adopts the Framework Convention on Climate Change, the Convention on Biological Diversity and Agenda 21, without any binding obligation to cut emissions.",
+        "de": "Die UN-Konferenz über Umwelt und Entwicklung verabschiedet die Klimarahmenkonvention, das Übereinkommen über die biologische Vielfalt und die Agenda 21, ohne verbindliche Pflicht zur Emissionsminderung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}, {"id": "world-states"}],
+      "places": ["rio-de-janeiro"],
+      "organizations": ["united-nations"],
+      "status": "draft"
+    },
+    {
+      "id": "1995-un-climate-change-conferences",
+      "title": {
+        "fr": "Conférences des Nations unies sur le climat (COP)",
+        "en": "United Nations climate change conferences (COP)",
+        "de": "UN-Klimakonferenzen (COP)",
+        "draft": ["en", "de"]
+      },
+      "type": "period",
+      "start": {"date": "1995-03-28"},
+      "ongoing": true,
+      "summary": {
+        "fr": "Chaque année, les États parties à la convention-cadre se réunissent en conférence des parties ; les émissions mondiales ont pourtant continué d'augmenter pendant trente ans de négociations.",
+        "en": "Every year the states party to the framework convention meet in a conference of the parties; yet global emissions have kept rising through thirty years of negotiations.",
+        "de": "Jedes Jahr treffen sich die Vertragsstaaten der Rahmenkonvention zur Vertragsstaatenkonferenz; dennoch sind die weltweiten Emissionen in dreißig Verhandlungsjahren weiter gestiegen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}],
+      "organizations": ["united-nations"],
+      "sources": [{"ref": "wp-en-un-climate-change-conference"}],
+      "status": "draft"
+    },
+    {
+      "id": "1995-cop1-berlin",
+      "title": {
+        "fr": "COP1 de Berlin",
+        "en": "COP1 in Berlin",
+        "de": "COP1 in Berlin",
+        "draft": ["en", "de"]
+      },
+      "type": "conference",
+      "start": {"date": "1995-03-28"},
+      "end": {"date": "1995-04-07"},
+      "summary": {
+        "fr": "Première conférence des parties : le « mandat de Berlin » reconnaît que les engagements de Rio sont insuffisants et lance la négociation d'objectifs chiffrés pour les pays industrialisés.",
+        "en": "First conference of the parties: the \"Berlin Mandate\" recognises that the Rio commitments are inadequate and launches negotiations on quantified targets for industrialised countries.",
+        "de": "Erste Vertragsstaatenkonferenz: Das „Berliner Mandat“ erkennt die Rio-Verpflichtungen als unzureichend an und leitet Verhandlungen über bezifferte Ziele für die Industrieländer ein.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1995-un-climate-change-conferences"}],
+      "places": ["berlin"],
+      "sources": [{"ref": "wp-en-un-climate-change-conference"}],
+      "status": "draft"
+    },
+    {
+      "id": "1997-cop3-kyoto-protocol",
+      "title": {
+        "fr": "COP3 et protocole de Kyoto",
+        "en": "COP3 and the Kyoto Protocol",
+        "de": "COP3 und Kyoto-Protokoll",
+        "draft": ["en", "de"]
+      },
+      "type": "treaty",
+      "start": {"date": "1997-12-01"},
+      "end": {"date": "1997-12-11"},
+      "summary": {
+        "fr": "Le protocole adopté le 11 décembre impose aux pays industrialisés une baisse moyenne d'environ 5 % de leurs émissions et crée des marchés du carbone ; les États-Unis ne le ratifient jamais et il n'entre en vigueur qu'en 2005.",
+        "en": "The protocol adopted on 11 December requires industrialised countries to cut their emissions by about 5% on average and creates carbon markets; the United States never ratifies it and it only enters into force in 2005.",
+        "de": "Das am 11. Dezember verabschiedete Protokoll verpflichtet die Industrieländer, ihre Emissionen im Schnitt um etwa 5 % zu senken, und schafft Kohlenstoffmärkte; die USA ratifizieren es nie, es tritt erst 2005 in Kraft.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1995-un-climate-change-conferences"}, {"id": "world-states"}],
+      "places": ["kyoto"],
+      "sources": [{"ref": "wp-en-un-climate-change-conference"}],
+      "status": "draft"
+    },
+    {
+      "id": "2009-cop15-copenhagen",
+      "title": {
+        "fr": "Échec de la COP15 de Copenhague",
+        "en": "Failure of COP15 in Copenhagen",
+        "de": "Scheitern der COP15 in Kopenhagen",
+        "draft": ["en", "de"]
+      },
+      "type": "conference",
+      "start": {"date": "2009-12-07"},
+      "end": {"date": "2009-12-18"},
+      "summary": {
+        "fr": "Attendu comme le successeur de Kyoto, le sommet n'aboutit qu'à un accord politique non contraignant négocié par quelques grandes puissances, dont la conférence se contente de « prendre note ».",
+        "en": "Expected to produce a successor to Kyoto, the summit ends with only a non-binding political accord negotiated by a few great powers, which the conference merely \"takes note\" of.",
+        "de": "Der als Nachfolger von Kyoto erwartete Gipfel endet nur mit einer unverbindlichen, von einigen Großmächten ausgehandelten politischen Vereinbarung, die die Konferenz lediglich „zur Kenntnis nimmt“.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1995-un-climate-change-conferences"}],
+      "places": ["copenhagen"],
+      "sources": [{"ref": "wp-en-un-climate-change-conference"}],
+      "status": "draft"
+    },
+    {
+      "id": "2015-cop21-paris-agreement",
+      "title": {
+        "fr": "COP21 et accord de Paris",
+        "en": "COP21 and the Paris Agreement",
+        "de": "COP21 und Pariser Abkommen",
+        "draft": ["en", "de"]
+      },
+      "type": "treaty",
+      "start": {"date": "2015-11-30"},
+      "end": {"date": "2015-12-12"},
+      "summary": {
+        "fr": "L'accord adopté le 12 décembre vise à contenir le réchauffement nettement sous 2 °C, si possible à 1,5 °C, mais repose sur des contributions nationales volontaires dont la somme mène bien au-delà.",
+        "en": "The agreement adopted on 12 December aims to hold warming well below 2 °C, if possible 1.5 °C, but relies on voluntary national contributions whose sum leads far beyond.",
+        "de": "Das am 12. Dezember verabschiedete Abkommen will die Erwärmung deutlich unter 2 °C, möglichst bei 1,5 °C halten, beruht aber auf freiwilligen nationalen Beiträgen, die zusammen weit darüber hinausführen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1995-un-climate-change-conferences"}, {"id": "world-states"}],
+      "places": ["paris"],
+      "sources": [{"ref": "wp-en-un-climate-change-conference"}],
+      "status": "draft"
+    },
+    {
+      "id": "2019-ipbes-global-assessment",
+      "title": {
+        "fr": "Rapport de l'IPBES sur la biodiversité",
+        "en": "IPBES Global Assessment on biodiversity",
+        "de": "Globaler IPBES-Bericht zur Biodiversität",
+        "draft": ["en", "de"]
+      },
+      "type": "publication",
+      "start": {"date": "2019-05"},
+      "summary": {
+        "fr": "Le « GIEC de la biodiversité » estime qu'environ un million d'espèces animales et végétales sont menacées d'extinction et désigne l'usage des terres et des mers comme première cause.",
+        "en": "The \"IPCC for biodiversity\" estimates that around one million animal and plant species are threatened with extinction and identifies land and sea use as the main driver.",
+        "de": "Der „Weltklimarat der Biodiversität“ schätzt, dass rund eine Million Tier- und Pflanzenarten vom Aussterben bedroht sind, und nennt die Nutzung von Land und Meer als Hauptursache.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}],
+      "places": ["paris"],
+      "organizations": ["ipbes"],
+      "status": "draft"
+    },
+    {
+      "id": "2021-cop26-glasgow",
+      "title": {
+        "fr": "COP26 de Glasgow",
+        "en": "COP26 in Glasgow",
+        "de": "COP26 in Glasgow",
+        "draft": ["en", "de"]
+      },
+      "type": "conference",
+      "start": {"date": "2021-10-31"},
+      "end": {"date": "2021-11-13"},
+      "summary": {
+        "fr": "Le pacte de Glasgow appelle pour la première fois à « diminuer progressivement » le charbon, une formule affaiblie à la dernière minute ; des dizaines de milliers de manifestants dénoncent le « bla-bla-bla » des dirigeants.",
+        "en": "The Glasgow Climate Pact calls for the first time for coal to be \"phased down\", a wording watered down at the last minute; tens of thousands of protesters denounce the leaders' \"blah, blah, blah\".",
+        "de": "Der Klimapakt von Glasgow fordert erstmals, die Kohle „schrittweise zu verringern“, eine in letzter Minute abgeschwächte Formulierung; Zehntausende Demonstranten prangern das „Bla-bla-bla“ der Regierenden an.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1995-un-climate-change-conferences"}],
+      "places": ["glasgow"],
+      "sources": [{"ref": "wp-en-un-climate-change-conference"}],
+      "status": "draft"
+    },
+    {
+      "id": "2023-cop28-dubai",
+      "title": {
+        "fr": "COP28 de Dubaï",
+        "en": "COP28 in Dubai",
+        "de": "COP28 in Dubai",
+        "draft": ["en", "de"]
+      },
+      "type": "conference",
+      "start": {"date": "2023-11-30"},
+      "end": {"date": "2023-12-13"},
+      "summary": {
+        "fr": "Présidée par le patron de la compagnie pétrolière nationale d'Abou Dabi, la COP28 appelle pour la première fois à s'éloigner des combustibles fossiles, sans décider leur sortie.",
+        "en": "Chaired by the head of Abu Dhabi's national oil company, COP28 calls for the first time for a transition away from fossil fuels, without deciding to phase them out.",
+        "de": "Unter Vorsitz des Chefs der staatlichen Ölgesellschaft Abu Dhabis ruft die COP28 erstmals zur Abkehr von fossilen Brennstoffen auf, ohne deren Ausstieg zu beschließen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1995-un-climate-change-conferences"}],
+      "places": ["dubai"],
+      "sources": [{"ref": "wp-en-cop28"}],
+      "status": "draft"
+    },
+    {
+      "id": "2024-cop29-baku",
+      "title": {"fr": "COP29 de Bakou", "en": "COP29 in Baku", "de": "COP29 in Baku", "draft": ["en", "de"]},
+      "type": "conference",
+      "start": {"date": "2024-11-11"},
+      "end": {"date": "2024-11-24"},
+      "summary": {
+        "fr": "Dans un autre pays pétrolier, la conférence fixe un objectif de financement climatique pour les pays du Sud que ceux-ci jugent très insuffisant, et adopte les règles d'un marché mondial du carbone.",
+        "en": "In another oil state, the conference sets a climate finance target for the countries of the South that they consider far too low, and adopts rules for a global carbon market.",
+        "de": "In einem weiteren Ölstaat legt die Konferenz ein Klimafinanzierungsziel für die Länder des Südens fest, das diese für völlig unzureichend halten, und beschließt Regeln für einen globalen Kohlenstoffmarkt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1995-un-climate-change-conferences"}],
+      "places": ["baku"],
+      "sources": [{"ref": "wp-en-un-climate-change-conference"}],
+      "status": "draft"
+    },
+    {
+      "id": "2025-cop30-belem",
+      "title": {
+        "fr": "COP30 de Belém",
+        "en": "COP30 in Belém",
+        "de": "COP30 in Belém",
+        "draft": ["en", "de"]
+      },
+      "type": "conference",
+      "start": {"date": "2025-11-10"},
+      "end": {"date": "2025-11-22"},
+      "summary": {
+        "fr": "Aux portes de l'Amazonie, le texte final ne contient aucun engagement de sortie des énergies fossiles, bloqué par les pays producteurs ; la présidence brésilienne lance des feuilles de route volontaires sur les fossiles et la déforestation hors du cadre de l'ONU.",
+        "en": "On the edge of the Amazon, the final text contains no commitment to phase out fossil fuels, blocked by producer countries; the Brazilian presidency launches voluntary roadmaps on fossil fuels and deforestation outside the UN framework.",
+        "de": "Am Rand des Amazonas enthält der Schlusstext keine Verpflichtung zum Ausstieg aus fossilen Energien, blockiert von den Förderländern; die brasilianische Präsidentschaft startet freiwillige Fahrpläne zu fossilen Energien und Entwaldung außerhalb des UN-Rahmens.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "1995-un-climate-change-conferences"}],
+      "places": ["belem"],
+      "sources": [{"ref": "wp-en-cop30"}],
+      "status": "draft"
+    },
+    {
+      "id": "1976-seveso-disaster",
+      "title": {
+        "fr": "Catastrophe de Seveso",
+        "en": "Seveso disaster",
+        "de": "Sevesounglück",
+        "draft": ["en", "de"]
+      },
+      "type": "disaster",
+      "start": {"date": "1976-07-10"},
+      "summary": {
+        "fr": "Un réacteur de l'usine ICMESA, filiale de Givaudan et du groupe suisse Hoffmann-La Roche, libère un nuage de dioxine sur Seveso et les communes voisines ; habitants évacués, animaux abattus, et une directive européenne sur les risques industriels qui porte son nom.",
+        "en": "A reactor at the ICMESA plant, a subsidiary of Givaudan and the Swiss Hoffmann-La Roche group, releases a cloud of dioxin over Seveso and neighbouring towns; residents evacuated, animals slaughtered, and a European directive on industrial hazards named after it.",
+        "de": "Ein Reaktor der ICMESA-Fabrik, einer Tochter von Givaudan und des Schweizer Konzerns Hoffmann-La Roche, setzt eine Dioxinwolke über Seveso und Nachbargemeinden frei; Bewohner evakuiert, Tiere getötet, und eine nach dem Ort benannte EU-Richtlinie über Industrierisiken.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "world-disasters"},
+        {"id": "world-ecology"},
+        {"id": "1968-creeping-may-and-years-of-lead"}
+      ],
+      "places": ["meda"],
+      "organizations": ["hoffmann-la-roche"],
+      "sources": [{"ref": "wp-en-seveso-disaster"}, {"ref": "wp-en-meda-lombardy"}],
+      "status": "draft"
+    },
+    {
+      "id": "1989-exxon-valdez-oil-spill",
+      "title": {
+        "fr": "Marée noire de l'Exxon Valdez",
+        "en": "Exxon Valdez oil spill",
+        "de": "Ölpest der Exxon Valdez",
+        "draft": ["en", "de"]
+      },
+      "type": "disaster",
+      "start": {"date": "1989-03-24"},
+      "summary": {
+        "fr": "Le pétrolier s'échoue en Alaska et déverse environ 40 000 tonnes de brut, qui souillent quelque 2 000 km de côtes et tuent des centaines de milliers d'oiseaux de mer.",
+        "en": "The tanker runs aground in Alaska and spills about 40,000 tonnes of crude, fouling some 2,000 km of coastline and killing hundreds of thousands of seabirds.",
+        "de": "Der Tanker läuft in Alaska auf Grund und verliert rund 40 000 Tonnen Rohöl, die etwa 2000 km Küste verschmutzen und Hunderttausende Seevögel töten.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "world-disasters"},
+        {"id": "world-ecology"},
+        {"id": "1981-reaganism-and-neoliberalism"}
+      ],
+      "places": ["prince-william-sound"],
+      "organizations": ["exxon"],
+      "sources": [{"ref": "wp-en-exxon-valdez-oil-spill"}],
+      "status": "draft"
+    },
+    {
+      "id": "2003-european-heatwave",
+      "title": {
+        "fr": "Canicule européenne de 2003",
+        "en": "2003 European heatwave",
+        "de": "Hitzewelle in Europa 2003",
+        "draft": ["en", "de"]
+      },
+      "type": "disaster",
+      "start": {"date": "2003-08"},
+      "summary": {
+        "fr": "Une vague de chaleur sans précédent fait des dizaines de milliers de morts en Europe, dont environ 15 000 en France, surtout parmi les personnes âgées isolées et les pauvres.",
+        "en": "An unprecedented heatwave kills tens of thousands of people in Europe, including about 15,000 in France, mostly among isolated elderly people and the poor.",
+        "de": "Eine beispiellose Hitzewelle tötet in Europa Zehntausende Menschen, davon etwa 15 000 in Frankreich, vor allem vereinsamte alte Menschen und Arme.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-disasters"}, {"id": "world-ecology"}, {"id": "1981-alternation-to-present"}],
+      "status": "draft"
+    },
+    {
+      "id": "2010-deepwater-horizon-oil-spill",
+      "title": {
+        "fr": "Marée noire de Deepwater Horizon",
+        "en": "Deepwater Horizon oil spill",
+        "de": "Ölpest der Deepwater Horizon",
+        "draft": ["en", "de"]
+      },
+      "type": "disaster",
+      "start": {"date": "2010-04-20"},
+      "end": {"date": "2010-09-19"},
+      "summary": {
+        "fr": "L'explosion d'une plateforme exploitée pour BP tue onze ouvriers ; le puits Macondo laisse fuir environ 4,9 millions de barils dans le golfe du Mexique avant d'être bouché en septembre.",
+        "en": "The explosion of a rig operated for BP kills eleven workers; the Macondo well spills about 4.9 million barrels into the Gulf of Mexico before being sealed in September.",
+        "de": "Die Explosion einer für BP betriebenen Bohrinsel tötet elf Arbeiter; aus dem Macondo-Bohrloch strömen rund 4,9 Millionen Barrel in den Golf von Mexiko, bevor es im September verschlossen wird.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "world-disasters"},
+        {"id": "world-ecology"},
+        {"id": "2008-crisis-polarisation-and-new-struggles"}
+      ],
+      "places": ["macondo-well"],
+      "organizations": ["bp"],
+      "sources": [{"ref": "wp-en-deepwater-horizon-oil-spill"}],
+      "status": "draft"
+    },
+    {
+      "id": "2019-australian-black-summer-bushfires",
+      "title": {
+        "fr": "Mégafeux de l'« été noir » australien",
+        "en": "Australia's Black Summer bushfires",
+        "de": "Buschbrände des australischen „Schwarzen Sommers“",
+        "draft": ["en", "de"]
+      },
+      "type": "disaster",
+      "start": {"date": "2019-06"},
+      "end": {"date": "2020-05"},
+      "summary": {
+        "fr": "Après une sécheresse et des chaleurs record, des incendies géants ravagent environ 24 millions d'hectares, détruisent des milliers de maisons et tuent ou déplacent des milliards d'animaux, sous un gouvernement défenseur du charbon.",
+        "en": "After record drought and heat, giant fires ravage about 24 million hectares, destroy thousands of homes and kill or displace billions of animals, under a pro-coal government.",
+        "de": "Nach Rekorddürre und -hitze verwüsten Riesenbrände rund 24 Millionen Hektar, zerstören Tausende Häuser und töten oder vertreiben Milliarden Tiere, unter einer kohlefreundlichen Regierung.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-disasters"}, {"id": "world-ecology"}],
+      "places": ["australia"],
+      "status": "draft"
+    },
+    {
+      "id": "2022-pakistan-floods",
+      "title": {
+        "fr": "Inondations au Pakistan",
+        "en": "2022 Pakistan floods",
+        "de": "Überschwemmungen in Pakistan 2022",
+        "draft": ["en", "de"]
+      },
+      "type": "disaster",
+      "start": {"date": "2022-06"},
+      "end": {"date": "2022-10"},
+      "summary": {
+        "fr": "Des pluies de mousson exceptionnelles et la fonte des glaciers submergent environ un tiers du pays et touchent plus de 30 millions de personnes, dans un pays qui émet moins de 1 % des gaz à effet de serre mondiaux.",
+        "en": "Exceptional monsoon rains and glacier melt submerge about a third of the country and affect more than 30 million people, in a country that emits less than 1% of global greenhouse gases.",
+        "de": "Außergewöhnliche Monsunregen und Gletscherschmelze überfluten etwa ein Drittel des Landes und betreffen über 30 Millionen Menschen, in einem Land, das weniger als 1 % der weltweiten Treibhausgase ausstößt.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-disasters"}, {"id": "world-ecology"}],
+      "places": ["pakistan"],
+      "status": "draft"
+    },
+    {
+      "id": "1971-greenpeace-first-voyage",
+      "title": {
+        "fr": "Premier voyage de Greenpeace",
+        "en": "Greenpeace's first voyage",
+        "de": "Erste Fahrt von Greenpeace",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1971-09-15"},
+      "summary": {
+        "fr": "Un petit bateau quitte Vancouver pour tenter d'empêcher un essai nucléaire américain dans les îles Aléoutiennes ; l'action donne naissance à Greenpeace.",
+        "en": "A small boat leaves Vancouver to try to stop a US nuclear test in the Aleutian Islands; the action gives birth to Greenpeace.",
+        "de": "Ein kleines Boot verlässt Vancouver, um einen US-Atomtest auf den Aleuten zu verhindern; aus der Aktion entsteht Greenpeace.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}],
+      "places": ["vancouver"],
+      "organizations": ["greenpeace"],
+      "status": "draft"
+    },
+    {
+      "id": "1973-chipko-movement",
+      "title": {
+        "fr": "Mouvement Chipko",
+        "en": "Chipko movement",
+        "de": "Chipko-Bewegung",
+        "draft": ["en", "de"]
+      },
+      "type": "demonstration",
+      "start": {"date": "1973-04-24"},
+      "end": {"date": "1980"},
+      "summary": {
+        "fr": "Dans l'Himalaya indien, des villageois, puis surtout des femmes autour de Gaura Devi, enlacent les arbres pour empêcher les exploitants forestiers de les abattre ; en 1980, le gouvernement interdit l'abattage dans les régions himalayennes pour quinze ans.",
+        "en": "In the Indian Himalayas, villagers, and then above all women around Gaura Devi, hug the trees to stop loggers from felling them; in 1980 the government bans felling in the Himalayan regions for fifteen years.",
+        "de": "Im indischen Himalaya umarmen Dorfbewohner und dann vor allem Frauen um Gaura Devi die Bäume, um Holzfäller am Fällen zu hindern; 1980 verbietet die Regierung das Fällen in den Himalaya-Regionen für fünfzehn Jahre.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}],
+      "persons": ["gaura-devi", "chandi-prasad-bhatt", "sunderlal-bahuguna"],
+      "places": ["chamoli-district"],
+      "sources": [{"ref": "wp-en-chipko-movement"}],
+      "status": "draft"
+    },
+    {
+      "id": "2018-greta-thunberg-school-strike",
+      "title": {
+        "fr": "Grève scolaire de Greta Thunberg",
+        "en": "Greta Thunberg's school strike",
+        "de": "Schulstreik von Greta Thunberg",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "2018-08-20"},
+      "summary": {
+        "fr": "Une lycéenne de quinze ans s'assoit seule devant le Parlement suédois avec une pancarte « grève scolaire pour le climat » ; en quelques mois, son geste devient le mouvement mondial Fridays for Future.",
+        "en": "A fifteen-year-old schoolgirl sits alone outside the Swedish Parliament with a \"school strike for climate\" sign; within months her gesture becomes the worldwide Fridays for Future movement.",
+        "de": "Eine fünfzehnjährige Schülerin setzt sich allein mit einem Schild „Schulstreik fürs Klima“ vor den schwedischen Reichstag; binnen Monaten wird daraus die weltweite Bewegung Fridays for Future.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}],
+      "persons": ["greta-thunberg"],
+      "places": ["stockholm"],
+      "organizations": ["fridays-for-future"],
+      "status": "draft"
+    },
+    {
+      "id": "2018-extinction-rebellion-launch",
+      "title": {
+        "fr": "Lancement d'Extinction Rebellion",
+        "en": "Launch of Extinction Rebellion",
+        "de": "Start von Extinction Rebellion",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "2018-10-31"},
+      "summary": {
+        "fr": "Le mouvement proclame une « déclaration de rébellion » sur la place du Parlement à Londres et lance des actions de désobéissance civile de masse, pacifistes et sans revendication de classe.",
+        "en": "The movement proclaims a \"declaration of rebellion\" in Parliament Square in London and launches mass civil disobedience actions, non-violent and without class demands.",
+        "de": "Die Bewegung verkündet auf dem Londoner Parliament Square eine „Rebellionserklärung“ und startet gewaltfreie Aktionen massenhaften zivilen Ungehorsams ohne Klassenforderungen.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}, {"id": "2010-austerity-and-brexit"}],
+      "places": ["london"],
+      "organizations": ["extinction-rebellion"],
+      "status": "draft"
+    },
+    {
+      "id": "2019-global-climate-strike",
+      "title": {
+        "fr": "Grève mondiale pour le climat",
+        "en": "Global Climate Strike",
+        "de": "Globaler Klimastreik",
+        "draft": ["en", "de"]
+      },
+      "type": "strike",
+      "start": {"date": "2019-09-20"},
+      "end": {"date": "2019-09-27"},
+      "summary": {
+        "fr": "Pendant une semaine, de 6 à 7,6 millions de personnes, surtout des jeunes, manifestent dans plus de 150 pays : la plus grande mobilisation pour le climat de l'histoire.",
+        "en": "Over one week, between 6 and 7.6 million people, mostly young, demonstrate in more than 150 countries: the largest climate mobilisation in history.",
+        "de": "Eine Woche lang demonstrieren 6 bis 7,6 Millionen Menschen, vor allem junge, in mehr als 150 Ländern: die größte Klimamobilisierung der Geschichte.",
+        "draft": ["en", "de"]
+      },
+      "parents": [{"id": "world-ecology"}],
+      "persons": ["greta-thunberg"],
+      "organizations": ["fridays-for-future"],
       "status": "draft"
     }
   ]
