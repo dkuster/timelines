@@ -622,7 +622,7 @@
         "de": "Der in Petrograd eröffnete und in Moskau fortgesetzte Kongress verabschiedet die 21 Aufnahmebedingungen und die Thesen zur nationalen und kolonialen Frage.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "1919-communist-international-period"}],
+      "parents": [{"id": "1919-communist-international-period"}, {"id": "asia-communism-and-ideas"}],
       "persons": ["lenin"],
       "places": ["saint-petersburg", "moscow"],
       "organizations": ["comintern"],

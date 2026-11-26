@@ -2416,7 +2416,7 @@
         "de": "Eine französisch-spanische Expedition landet in Tourane; der Vertrag von Saigon tritt drei südvietnamesische Provinzen an Frankreich ab, der Ausgangspunkt Französisch-Indochinas.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "1851-second-empire"}],
+      "parents": [{"id": "1851-second-empire"}, {"id": "asia-imperialism"}],
       "places": ["saigon"],
       "sources": [{"ref": "wp-en-cochinchina-campaign"}],
       "status": "draft"
@@ -3381,7 +3381,7 @@
         "de": "Tonkin und Annam werden französische Protektorate; 1887 wird Französisch-Indochina gebildet.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "1871-third-republic-and-labour-movement"}],
+      "parents": [{"id": "1871-third-republic-and-labour-movement"}, {"id": "asia-imperialism"}],
       "sources": [{"ref": "wp-en-french-colonial-empire"}],
       "status": "draft"
     },
@@ -5465,7 +5465,7 @@
         "de": "Der Viet Minh schließt das französische Feldlager ein und vernichtet es: die entscheidende Niederlage des französischen Kolonialismus in Indochina.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "1945-liberation-and-fourth-republic"}],
+      "parents": [{"id": "1945-liberation-and-fourth-republic"}, {"id": "asia-resistance-and-liberation"}],
       "places": ["dien-bien-phu"],
       "sources": [{"ref": "wp-en-battle-of-dien-bien-phu"}],
       "status": "draft"
@@ -5486,7 +5486,7 @@
         "de": "Die Regierung Mendès France schließt Frieden in Indochina; Vietnam wird vorläufig am 17. Breitengrad geteilt.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "1945-liberation-and-fourth-republic"}],
+      "parents": [{"id": "1945-liberation-and-fourth-republic"}, {"id": "asia-resistance-and-liberation"}],
       "persons": ["mendes-france"],
       "places": ["geneva"],
       "sources": [{"ref": "wp-en-1954-geneva-conference"}],

@@ -13372,6 +13372,932 @@
       },
       "born": {"date": "2003"},
       "status": "draft"
+    },
+    {
+      "id": "tipu-sultan",
+      "name": {"fr": "Tipu Sultan", "en": "Tipu Sultan", "de": "Tipu Sultan", "draft": ["en", "de"]},
+      "occupation": {
+        "fr": "sultan de Mysore",
+        "en": "Sultan of Mysore",
+        "de": "Sultan von Mysore",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1751"},
+      "died": {"date": "1799-05-04"},
+      "status": "draft"
+    },
+    {
+      "id": "stamford-raffles",
+      "name": {
+        "fr": "Stamford Raffles",
+        "en": "Stamford Raffles",
+        "de": "Stamford Raffles",
+        "draft": ["en", "de"]
+      },
+      "occupation": {
+        "fr": "administrateur colonial",
+        "en": "colonial administrator",
+        "de": "Kolonialbeamter",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1781"},
+      "died": {"date": "1826"},
+      "status": "draft"
+    },
+    {
+      "id": "diponegoro",
+      "name": {"fr": "Diponegoro", "en": "Diponegoro", "de": "Diponegoro", "draft": ["en", "de"]},
+      "born": {"date": "1785"},
+      "died": {"date": "1855"},
+      "status": "draft"
+    },
+    {
+      "id": "multatuli",
+      "name": {"fr": "Multatuli", "en": "Multatuli", "de": "Multatuli", "draft": ["en", "de"]},
+      "occupation": {"fr": "écrivain", "en": "writer", "de": "Schriftsteller", "draft": ["en", "de"]},
+      "born": {"date": "1820"},
+      "died": {"date": "1887"},
+      "status": "draft"
+    },
+    {
+      "id": "matthew-perry",
+      "name": {
+        "fr": "Matthew C. Perry",
+        "en": "Matthew C. Perry",
+        "de": "Matthew C. Perry",
+        "draft": ["en", "de"]
+      },
+      "occupation": {
+        "fr": "commodore de la marine américaine",
+        "en": "US Navy commodore",
+        "de": "Kommodore der US-Marine",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1794"},
+      "died": {"date": "1858"},
+      "status": "draft"
+    },
+    {
+      "id": "saigo-takamori",
+      "name": {
+        "fr": "Saigō Takamori",
+        "en": "Saigō Takamori",
+        "de": "Saigō Takamori",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1828"},
+      "died": {"date": "1877"},
+      "status": "draft"
+    },
+    {
+      "id": "ham-nghi",
+      "name": {"fr": "Hàm Nghi", "en": "Hàm Nghi", "de": "Hàm Nghi", "draft": ["en", "de"]},
+      "occupation": {
+        "fr": "empereur d'Annam",
+        "en": "Emperor of Annam",
+        "de": "Kaiser von Annam",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1871"},
+      "died": {"date": "1943"},
+      "status": "draft"
+    },
+    {
+      "id": "jeon-bong-jun",
+      "name": {"fr": "Jeon Bong-jun", "en": "Jeon Bong-jun", "de": "Jeon Bong-jun", "draft": ["en", "de"]},
+      "born": {"date": "1855"},
+      "died": {"date": "1895"},
+      "status": "draft"
+    },
+    {
+      "id": "andres-bonifacio",
+      "name": {
+        "fr": "Andrés Bonifacio",
+        "en": "Andrés Bonifacio",
+        "de": "Andrés Bonifacio",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1863"},
+      "died": {"date": "1897"},
+      "status": "draft"
+    },
+    {
+      "id": "kotoku-shusui",
+      "name": {"fr": "Kōtoku Shūsui", "en": "Kōtoku Shūsui", "de": "Kōtoku Shūsui", "draft": ["en", "de"]},
+      "occupation": {
+        "fr": "journaliste anarchiste",
+        "en": "anarchist journalist",
+        "de": "anarchistischer Journalist",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1871"},
+      "died": {"date": "1911"},
+      "status": "draft"
+    },
+    {
+      "id": "kanno-suga",
+      "name": {"fr": "Kanno Suga", "en": "Kanno Suga", "de": "Kanno Suga", "draft": ["en", "de"]},
+      "occupation": {
+        "fr": "journaliste anarchiste",
+        "en": "anarchist journalist",
+        "de": "anarchistische Journalistin",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1881"},
+      "died": {"date": "1911"},
+      "status": "draft"
+    },
+    {
+      "id": "katayama-sen",
+      "name": {"fr": "Katayama Sen", "en": "Katayama Sen", "de": "Katayama Sen", "draft": ["en", "de"]},
+      "occupation": {
+        "fr": "dirigeant socialiste puis communiste",
+        "en": "socialist, later communist leader",
+        "de": "sozialistischer, später kommunistischer Führer",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1859"},
+      "died": {"date": "1933"},
+      "status": "draft"
+    },
+    {
+      "id": "bal-gangadhar-tilak",
+      "name": {
+        "fr": "Bal Gangadhar Tilak",
+        "en": "Bal Gangadhar Tilak",
+        "de": "Bal Gangadhar Tilak",
+        "draft": ["en", "de"]
+      },
+      "occupation": {
+        "fr": "dirigeant nationaliste",
+        "en": "nationalist leader",
+        "de": "nationalistischer Führer",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1856"},
+      "died": {"date": "1920"},
+      "status": "draft"
+    },
+    {
+      "id": "phan-boi-chau",
+      "name": {"fr": "Phan Bội Châu", "en": "Phan Bội Châu", "de": "Phan Bội Châu", "draft": ["en", "de"]},
+      "born": {"date": "1867"},
+      "died": {"date": "1940"},
+      "status": "draft"
+    },
+    {
+      "id": "jyotirao-phule",
+      "name": {
+        "fr": "Jyotirao Phule",
+        "en": "Jyotirao Phule",
+        "de": "Jyotirao Phule",
+        "draft": ["en", "de"]
+      },
+      "occupation": {
+        "fr": "réformateur social",
+        "en": "social reformer",
+        "de": "Sozialreformer",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1827"},
+      "died": {"date": "1890"},
+      "status": "draft"
+    },
+    {
+      "id": "oshio-heihachiro",
+      "name": {
+        "fr": "Ōshio Heihachirō",
+        "en": "Ōshio Heihachirō",
+        "de": "Ōshio Heihachirō",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1793"},
+      "died": {"date": "1837"},
+      "status": "draft"
+    },
+    {
+      "id": "quang-trung",
+      "name": {"fr": "Quang Trung", "en": "Quang Trung", "de": "Quang Trung", "draft": ["en", "de"]},
+      "occupation": {
+        "fr": "empereur Tây Sơn",
+        "en": "Tây Sơn emperor",
+        "de": "Tây-Sơn-Kaiser",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1753"},
+      "died": {"date": "1792"},
+      "status": "draft"
+    },
+    {
+      "id": "samanhudi",
+      "name": {"fr": "Samanhudi", "en": "Samanhudi", "de": "Samanhudi", "draft": ["en", "de"]},
+      "born": {"date": "1868"},
+      "died": {"date": "1956"},
+      "status": "draft"
+    },
+    {
+      "id": "tjokroaminoto",
+      "name": {"fr": "Tjokroaminoto", "en": "Tjokroaminoto", "de": "Tjokroaminoto", "draft": ["en", "de"]},
+      "born": {"date": "1882"},
+      "died": {"date": "1934"},
+      "status": "draft"
+    },
+    {
+      "id": "har-dayal",
+      "name": {"fr": "Har Dayal", "en": "Har Dayal", "de": "Har Dayal", "draft": ["en", "de"]},
+      "born": {"date": "1884"},
+      "died": {"date": "1939"},
+      "status": "draft"
+    },
+    {
+      "id": "ho-chi-minh",
+      "name": {"fr": "Hô Chi Minh", "en": "Ho Chi Minh", "de": "Ho Chi Minh", "draft": ["en", "de"]},
+      "occupation": {
+        "fr": "dirigeant communiste",
+        "en": "communist leader",
+        "de": "kommunistischer Führer",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1890-05-19"},
+      "died": {"date": "1969-09-02"},
+      "status": "draft"
+    },
+    {
+      "id": "tan-malaka",
+      "name": {"fr": "Tan Malaka", "en": "Tan Malaka", "de": "Tan Malaka", "draft": ["en", "de"]},
+      "occupation": {
+        "fr": "dirigeant communiste",
+        "en": "communist leader",
+        "de": "kommunistischer Führer",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1897"},
+      "died": {"date": "1949"},
+      "status": "draft"
+    },
+    {
+      "id": "semaun",
+      "name": {"fr": "Semaun", "en": "Semaun", "de": "Semaun", "draft": ["en", "de"]},
+      "born": {"date": "1899"},
+      "died": {"date": "1971"},
+      "status": "draft"
+    },
+    {
+      "id": "sukarno",
+      "name": {"fr": "Soekarno", "en": "Sukarno", "de": "Sukarno", "draft": ["en", "de"]},
+      "occupation": {
+        "fr": "dirigeant nationaliste, président de l'Indonésie",
+        "en": "nationalist leader, President of Indonesia",
+        "de": "nationalistischer Führer, Präsident Indonesiens",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1901-06-06"},
+      "died": {"date": "1970-06-21"},
+      "status": "draft"
+    },
+    {
+      "id": "mohammad-hatta",
+      "name": {
+        "fr": "Mohammad Hatta",
+        "en": "Mohammad Hatta",
+        "de": "Mohammad Hatta",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1902"},
+      "died": {"date": "1980"},
+      "status": "draft"
+    },
+    {
+      "id": "b-r-ambedkar",
+      "name": {
+        "fr": "B. R. Ambedkar",
+        "en": "B. R. Ambedkar",
+        "de": "B. R. Ambedkar",
+        "draft": ["en", "de"]
+      },
+      "occupation": {
+        "fr": "juriste et dirigeant dalit",
+        "en": "jurist and Dalit leader",
+        "de": "Jurist und Dalit-Führer",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1891-04-14"},
+      "died": {"date": "1956-12-06"},
+      "status": "draft"
+    },
+    {
+      "id": "subhas-chandra-bose",
+      "name": {
+        "fr": "Subhas Chandra Bose",
+        "en": "Subhas Chandra Bose",
+        "de": "Subhas Chandra Bose",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1897"},
+      "died": {"date": "1945"},
+      "status": "draft"
+    },
+    {
+      "id": "ta-thu-thau",
+      "name": {"fr": "Tạ Thu Thâu", "en": "Tạ Thu Thâu", "de": "Tạ Thu Thâu", "draft": ["en", "de"]},
+      "occupation": {
+        "fr": "dirigeant trotskiste",
+        "en": "Trotskyist leader",
+        "de": "trotzkistischer Führer",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1906"},
+      "died": {"date": "1945"},
+      "status": "draft"
+    },
+    {
+      "id": "nguyen-thai-hoc",
+      "name": {
+        "fr": "Nguyễn Thái Học",
+        "en": "Nguyễn Thái Học",
+        "de": "Nguyễn Thái Học",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1902"},
+      "died": {"date": "1930"},
+      "status": "draft"
+    },
+    {
+      "id": "kobayashi-takiji",
+      "name": {
+        "fr": "Kobayashi Takiji",
+        "en": "Kobayashi Takiji",
+        "de": "Kobayashi Takiji",
+        "draft": ["en", "de"]
+      },
+      "occupation": {
+        "fr": "écrivain prolétarien",
+        "en": "proletarian writer",
+        "de": "proletarischer Schriftsteller",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1903"},
+      "died": {"date": "1933-02-20"},
+      "status": "draft"
+    },
+    {
+      "id": "osugi-sakae",
+      "name": {"fr": "Ōsugi Sakae", "en": "Ōsugi Sakae", "de": "Ōsugi Sakae", "draft": ["en", "de"]},
+      "occupation": {"fr": "anarchiste", "en": "anarchist", "de": "Anarchist", "draft": ["en", "de"]},
+      "born": {"date": "1885"},
+      "died": {"date": "1923-09-16"},
+      "status": "draft"
+    },
+    {
+      "id": "ito-noe",
+      "name": {"fr": "Itō Noe", "en": "Itō Noe", "de": "Itō Noe", "draft": ["en", "de"]},
+      "occupation": {
+        "fr": "féministe et anarchiste",
+        "en": "feminist and anarchist",
+        "de": "Feministin und Anarchistin",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1895"},
+      "died": {"date": "1923-09-16"},
+      "status": "draft"
+    },
+    {
+      "id": "saya-san",
+      "name": {"fr": "Saya San", "en": "Saya San", "de": "Saya San", "draft": ["en", "de"]},
+      "born": {"date": "1876"},
+      "died": {"date": "1931"},
+      "status": "draft"
+    },
+    {
+      "id": "pridi-banomyong",
+      "name": {
+        "fr": "Pridi Banomyong",
+        "en": "Pridi Banomyong",
+        "de": "Pridi Banomyong",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1900"},
+      "died": {"date": "1983"},
+      "status": "draft"
+    },
+    {
+      "id": "n-m-perera",
+      "name": {"fr": "N. M. Perera", "en": "N. M. Perera", "de": "N. M. Perera", "draft": ["en", "de"]},
+      "born": {"date": "1904"},
+      "died": {"date": "1979"},
+      "status": "draft"
+    },
+    {
+      "id": "philip-gunawardena",
+      "name": {
+        "fr": "Philip Gunawardena",
+        "en": "Philip Gunawardena",
+        "de": "Philip Gunawardena",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1901"},
+      "died": {"date": "1972"},
+      "status": "draft"
+    },
+    {
+      "id": "luis-taruc",
+      "name": {"fr": "Luis Taruc", "en": "Luis Taruc", "de": "Luis Taruc", "draft": ["en", "de"]},
+      "born": {"date": "1913"},
+      "died": {"date": "2005"},
+      "status": "draft"
+    },
+    {
+      "id": "s-a-dange",
+      "name": {"fr": "S. A. Dange", "en": "S. A. Dange", "de": "S. A. Dange", "draft": ["en", "de"]},
+      "born": {"date": "1899"},
+      "died": {"date": "1991"},
+      "status": "draft"
+    },
+    {
+      "id": "hirohito",
+      "name": {"fr": "Hirohito", "en": "Hirohito", "de": "Hirohito", "draft": ["en", "de"]},
+      "occupation": {
+        "fr": "empereur du Japon",
+        "en": "Emperor of Japan",
+        "de": "Kaiser von Japan",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1901-04-29"},
+      "died": {"date": "1989-01-07"},
+      "status": "draft"
+    },
+    {
+      "id": "aung-san",
+      "name": {"fr": "Aung San", "en": "Aung San", "de": "Aung San", "draft": ["en", "de"]},
+      "occupation": {
+        "fr": "dirigeant nationaliste",
+        "en": "nationalist leader",
+        "de": "nationalistischer Führer",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1915"},
+      "died": {"date": "1947-07-19"},
+      "status": "draft"
+    },
+    {
+      "id": "syngman-rhee",
+      "name": {"fr": "Syngman Rhee", "en": "Syngman Rhee", "de": "Syngman Rhee", "draft": ["en", "de"]},
+      "occupation": {
+        "fr": "président de la Corée du Sud",
+        "en": "President of South Korea",
+        "de": "Präsident Südkoreas",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1875"},
+      "died": {"date": "1965"},
+      "status": "draft"
+    },
+    {
+      "id": "kim-il-sung",
+      "name": {"fr": "Kim Il-sung", "en": "Kim Il-sung", "de": "Kim Il-sung", "draft": ["en", "de"]},
+      "occupation": {
+        "fr": "dirigeant de la Corée du Nord",
+        "en": "leader of North Korea",
+        "de": "Führer Nordkoreas",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1912"},
+      "died": {"date": "1994"},
+      "status": "draft"
+    },
+    {
+      "id": "ems-namboodiripad",
+      "name": {
+        "fr": "E. M. S. Namboodiripad",
+        "en": "E. M. S. Namboodiripad",
+        "de": "E. M. S. Namboodiripad",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1909"},
+      "died": {"date": "1998"},
+      "status": "draft"
+    },
+    {
+      "id": "douglas-macarthur",
+      "name": {
+        "fr": "Douglas MacArthur",
+        "en": "Douglas MacArthur",
+        "de": "Douglas MacArthur",
+        "draft": ["en", "de"]
+      },
+      "occupation": {"fr": "général américain", "en": "US general", "de": "US-General", "draft": ["en", "de"]},
+      "born": {"date": "1880"},
+      "died": {"date": "1964"},
+      "status": "draft"
+    },
+    {
+      "id": "kishi-nobusuke",
+      "name": {
+        "fr": "Kishi Nobusuke",
+        "en": "Kishi Nobusuke",
+        "de": "Kishi Nobusuke",
+        "draft": ["en", "de"]
+      },
+      "occupation": {
+        "fr": "Premier ministre du Japon",
+        "en": "Prime Minister of Japan",
+        "de": "Premierminister Japans",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1896"},
+      "died": {"date": "1987"},
+      "status": "draft"
+    },
+    {
+      "id": "satyajit-ray",
+      "name": {"fr": "Satyajit Ray", "en": "Satyajit Ray", "de": "Satyajit Ray", "draft": ["en", "de"]},
+      "occupation": {"fr": "cinéaste", "en": "film director", "de": "Filmregisseur", "draft": ["en", "de"]},
+      "born": {"date": "1921"},
+      "died": {"date": "1992"},
+      "status": "draft"
+    },
+    {
+      "id": "lee-kuan-yew",
+      "name": {"fr": "Lee Kuan Yew", "en": "Lee Kuan Yew", "de": "Lee Kuan Yew", "draft": ["en", "de"]},
+      "occupation": {
+        "fr": "Premier ministre de Singapour",
+        "en": "Prime Minister of Singapore",
+        "de": "Premierminister Singapurs",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1923"},
+      "died": {"date": "2015"},
+      "status": "draft"
+    },
+    {
+      "id": "park-chung-hee",
+      "name": {
+        "fr": "Park Chung-hee",
+        "en": "Park Chung-hee",
+        "de": "Park Chung-hee",
+        "draft": ["en", "de"]
+      },
+      "occupation": {
+        "fr": "général, dictateur de la Corée du Sud",
+        "en": "general, dictator of South Korea",
+        "de": "General, Diktator Südkoreas",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1917"},
+      "died": {"date": "1979-10-26"},
+      "status": "draft"
+    },
+    {
+      "id": "suharto",
+      "name": {"fr": "Soeharto", "en": "Suharto", "de": "Suharto", "draft": ["en", "de"]},
+      "occupation": {
+        "fr": "général, dictateur de l'Indonésie",
+        "en": "general, dictator of Indonesia",
+        "de": "General, Diktator Indonesiens",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1921-06-08"},
+      "died": {"date": "2008-01-27"},
+      "status": "draft"
+    },
+    {
+      "id": "d-n-aidit",
+      "name": {"fr": "D. N. Aidit", "en": "D. N. Aidit", "de": "D. N. Aidit", "draft": ["en", "de"]},
+      "occupation": {
+        "fr": "dirigeant du PKI",
+        "en": "PKI leader",
+        "de": "PKI-Vorsitzender",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1923"},
+      "died": {"date": "1965-11-22"},
+      "status": "draft"
+    },
+    {
+      "id": "charu-majumdar",
+      "name": {
+        "fr": "Charu Majumdar",
+        "en": "Charu Majumdar",
+        "de": "Charu Majumdar",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1918"},
+      "died": {"date": "1972"},
+      "status": "draft"
+    },
+    {
+      "id": "jose-maria-sison",
+      "name": {
+        "fr": "José María Sison",
+        "en": "José María Sison",
+        "de": "José María Sison",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1939"},
+      "died": {"date": "2022"},
+      "status": "draft"
+    },
+    {
+      "id": "jeon-tae-il",
+      "name": {"fr": "Jeon Tae-il", "en": "Jeon Tae-il", "de": "Jeon Tae-il", "draft": ["en", "de"]},
+      "occupation": {
+        "fr": "ouvrier du textile",
+        "en": "textile worker",
+        "de": "Textilarbeiter",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1948"},
+      "died": {"date": "1970-11-13"},
+      "status": "draft"
+    },
+    {
+      "id": "lon-nol",
+      "name": {"fr": "Lon Nol", "en": "Lon Nol", "de": "Lon Nol", "draft": ["en", "de"]},
+      "born": {"date": "1913"},
+      "died": {"date": "1985"},
+      "status": "draft"
+    },
+    {
+      "id": "norodom-sihanouk",
+      "name": {
+        "fr": "Norodom Sihanouk",
+        "en": "Norodom Sihanouk",
+        "de": "Norodom Sihanouk",
+        "draft": ["en", "de"]
+      },
+      "occupation": {
+        "fr": "roi puis chef d'État du Cambodge",
+        "en": "King, later head of state of Cambodia",
+        "de": "König, später Staatschef Kambodschas",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1922"},
+      "died": {"date": "2012"},
+      "status": "draft"
+    },
+    {
+      "id": "sheikh-mujibur-rahman",
+      "name": {
+        "fr": "Sheikh Mujibur Rahman",
+        "en": "Sheikh Mujibur Rahman",
+        "de": "Sheikh Mujibur Rahman",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1920"},
+      "died": {"date": "1975-08-15"},
+      "status": "draft"
+    },
+    {
+      "id": "ferdinand-marcos",
+      "name": {
+        "fr": "Ferdinand Marcos",
+        "en": "Ferdinand Marcos",
+        "de": "Ferdinand Marcos",
+        "draft": ["en", "de"]
+      },
+      "occupation": {
+        "fr": "dictateur des Philippines",
+        "en": "dictator of the Philippines",
+        "de": "Diktator der Philippinen",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1917"},
+      "died": {"date": "1989"},
+      "status": "draft"
+    },
+    {
+      "id": "george-fernandes",
+      "name": {
+        "fr": "George Fernandes",
+        "en": "George Fernandes",
+        "de": "George Fernandes",
+        "draft": ["en", "de"]
+      },
+      "occupation": {"fr": "syndicaliste", "en": "trade unionist", "de": "Gewerkschafter", "draft": ["en", "de"]},
+      "born": {"date": "1930"},
+      "died": {"date": "2019"},
+      "status": "draft"
+    },
+    {
+      "id": "indira-gandhi",
+      "name": {"fr": "Indira Gandhi", "en": "Indira Gandhi", "de": "Indira Gandhi", "draft": ["en", "de"]},
+      "occupation": {
+        "fr": "Première ministre de l'Inde",
+        "en": "Prime Minister of India",
+        "de": "Premierministerin Indiens",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1917"},
+      "died": {"date": "1984-10-31"},
+      "status": "draft"
+    },
+    {
+      "id": "rohana-wijeweera",
+      "name": {
+        "fr": "Rohana Wijeweera",
+        "en": "Rohana Wijeweera",
+        "de": "Rohana Wijeweera",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1943"},
+      "died": {"date": "1989"},
+      "status": "draft"
+    },
+    {
+      "id": "sirimavo-bandaranaike",
+      "name": {
+        "fr": "Sirimavo Bandaranaike",
+        "en": "Sirimavo Bandaranaike",
+        "de": "Sirimavo Bandaranaike",
+        "draft": ["en", "de"]
+      },
+      "occupation": {
+        "fr": "Première ministre de Ceylan",
+        "en": "Prime Minister of Ceylon",
+        "de": "Premierministerin Ceylons",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1916"},
+      "died": {"date": "2000"},
+      "status": "draft"
+    },
+    {
+      "id": "chun-doo-hwan",
+      "name": {"fr": "Chun Doo-hwan", "en": "Chun Doo-hwan", "de": "Chun Doo-hwan", "draft": ["en", "de"]},
+      "occupation": {
+        "fr": "général, dictateur de la Corée du Sud",
+        "en": "general, dictator of South Korea",
+        "de": "General, Diktator Südkoreas",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1931"},
+      "died": {"date": "2021"},
+      "status": "draft"
+    },
+    {
+      "id": "datta-samant",
+      "name": {"fr": "Datta Samant", "en": "Datta Samant", "de": "Datta Samant", "draft": ["en", "de"]},
+      "occupation": {"fr": "syndicaliste", "en": "trade unionist", "de": "Gewerkschafter", "draft": ["en", "de"]},
+      "born": {"date": "1932"},
+      "died": {"date": "1997-01-16"},
+      "status": "draft"
+    },
+    {
+      "id": "corazon-aquino",
+      "name": {
+        "fr": "Corazon Aquino",
+        "en": "Corazon Aquino",
+        "de": "Corazon Aquino",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1933"},
+      "died": {"date": "2009"},
+      "status": "draft"
+    },
+    {
+      "id": "aung-san-suu-kyi",
+      "name": {
+        "fr": "Aung San Suu Kyi",
+        "en": "Aung San Suu Kyi",
+        "de": "Aung San Suu Kyi",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1945-06-19"},
+      "status": "draft"
+    },
+    {
+      "id": "narendra-modi",
+      "name": {"fr": "Narendra Modi", "en": "Narendra Modi", "de": "Narendra Modi", "draft": ["en", "de"]},
+      "occupation": {
+        "fr": "Premier ministre de l'Inde",
+        "en": "Prime Minister of India",
+        "de": "Premierminister Indiens",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1950-09-17"},
+      "status": "draft"
+    },
+    {
+      "id": "rodrigo-duterte",
+      "name": {
+        "fr": "Rodrigo Duterte",
+        "en": "Rodrigo Duterte",
+        "de": "Rodrigo Duterte",
+        "draft": ["en", "de"]
+      },
+      "occupation": {
+        "fr": "président des Philippines",
+        "en": "President of the Philippines",
+        "de": "Präsident der Philippinen",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1945-03-28"},
+      "status": "draft"
+    },
+    {
+      "id": "prachanda",
+      "name": {"fr": "Prachanda", "en": "Prachanda", "de": "Prachanda", "draft": ["en", "de"]},
+      "born": {"date": "1954-12-11"},
+      "status": "draft"
+    },
+    {
+      "id": "sheikh-hasina",
+      "name": {"fr": "Sheikh Hasina", "en": "Sheikh Hasina", "de": "Sheikh Hasina", "draft": ["en", "de"]},
+      "occupation": {
+        "fr": "Première ministre du Bangladesh",
+        "en": "Prime Minister of Bangladesh",
+        "de": "Premierministerin Bangladeschs",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1947-09-28"},
+      "status": "draft"
+    },
+    {
+      "id": "yoon-suk-yeol",
+      "name": {"fr": "Yoon Suk Yeol", "en": "Yoon Suk Yeol", "de": "Yoon Suk Yeol", "draft": ["en", "de"]},
+      "occupation": {
+        "fr": "président de la Corée du Sud",
+        "en": "President of South Korea",
+        "de": "Präsident Südkoreas",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1960-12-18"},
+      "status": "draft"
+    },
+    {
+      "id": "park-geun-hye",
+      "name": {"fr": "Park Geun-hye", "en": "Park Geun-hye", "de": "Park Geun-hye", "draft": ["en", "de"]},
+      "born": {"date": "1952-02-02"},
+      "status": "draft"
+    },
+    {
+      "id": "gotabaya-rajapaksa",
+      "name": {
+        "fr": "Gotabaya Rajapaksa",
+        "en": "Gotabaya Rajapaksa",
+        "de": "Gotabaya Rajapaksa",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1949-06-20"},
+      "status": "draft"
+    },
+    {
+      "id": "velupillai-prabhakaran",
+      "name": {
+        "fr": "Velupillai Prabhakaran",
+        "en": "Velupillai Prabhakaran",
+        "de": "Velupillai Prabhakaran",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1954"},
+      "died": {"date": "2009-05-18"},
+      "status": "draft"
+    },
+    {
+      "id": "sushila-karki",
+      "name": {"fr": "Sushila Karki", "en": "Sushila Karki", "de": "Sushila Karki", "draft": ["en", "de"]},
+      "born": {"date": "1952"},
+      "status": "draft"
+    },
+    {
+      "id": "kp-sharma-oli",
+      "name": {
+        "fr": "K. P. Sharma Oli",
+        "en": "K. P. Sharma Oli",
+        "de": "K. P. Sharma Oli",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1952"},
+      "status": "draft"
+    },
+    {
+      "id": "min-aung-hlaing",
+      "name": {
+        "fr": "Min Aung Hlaing",
+        "en": "Min Aung Hlaing",
+        "de": "Min Aung Hlaing",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1956"},
+      "status": "draft"
+    },
+    {
+      "id": "zia-ul-haq",
+      "name": {
+        "fr": "Muhammad Zia-ul-Haq",
+        "en": "Muhammad Zia-ul-Haq",
+        "de": "Muhammad Zia-ul-Haq",
+        "draft": ["en", "de"]
+      },
+      "occupation": {
+        "fr": "général, dictateur du Pakistan",
+        "en": "general, dictator of Pakistan",
+        "de": "General, Diktator Pakistans",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1924"},
+      "died": {"date": "1988-08-17"},
+      "status": "draft"
     }
   ]
 }

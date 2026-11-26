@@ -12165,6 +12165,51 @@
       "language": "en",
       "url": "https://en.wikipedia.org/wiki/Notre-Dame-des-Landes",
       "status": "draft"
+    },
+    {
+      "id": "wp-en-social-democratic-party-japan-1901",
+      "type": "website",
+      "title": "Social Democratic Party (Japan, 1901)",
+      "publisher": "Wikipedia (en)",
+      "language": "en",
+      "url": "https://en.wikipedia.org/wiki/Social_Democratic_Party_(Japan,_1901)",
+      "status": "draft"
+    },
+    {
+      "id": "ndl-formation-of-the-social-democratic-party",
+      "type": "website",
+      "title": "Formation of the Social Democratic Party (Early Socialism)",
+      "publisher": "National Diet Library",
+      "language": "en",
+      "url": "https://www.ndl.go.jp/modern/e/cha2/description20.html",
+      "status": "draft"
+    },
+    {
+      "id": "wp-en-sarekat-islam",
+      "type": "website",
+      "title": "Sarekat Islam",
+      "publisher": "Wikipedia (en)",
+      "language": "en",
+      "url": "https://en.wikipedia.org/wiki/Sarekat_Islam",
+      "status": "draft"
+    },
+    {
+      "id": "hansard-1908-08-01-rioting-in-bombay",
+      "type": "website",
+      "title": "Rioting in Bombay (HC Deb 01 August 1908)",
+      "publisher": "UK Parliament (Hansard)",
+      "language": "en",
+      "url": "https://api.parliament.uk/historic-hansard/commons/1908/aug/01/rioting-in-bombay",
+      "status": "draft"
+    },
+    {
+      "id": "idea-democracy-tracker-nepal-2025-09",
+      "type": "website",
+      "title": "Nepal - September 2025",
+      "publisher": "International IDEA",
+      "language": "en",
+      "url": "https://www.idea.int/democracytracker/report/nepal/september-2025",
+      "status": "draft"
     }
   ]
 }

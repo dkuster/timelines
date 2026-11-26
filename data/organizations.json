@@ -8216,6 +8216,413 @@
       "name": {"fr": "RWE", "en": "RWE", "de": "RWE", "draft": ["en", "de"]},
       "type": "other",
       "status": "draft"
+    },
+    {
+      "id": "indian-national-congress",
+      "name": {
+        "fr": "Congrès national indien",
+        "en": "Indian National Congress",
+        "de": "Indischer Nationalkongress",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["INC"],
+      "type": "party",
+      "founded": {"date": "1885-12-28"},
+      "status": "draft"
+    },
+    {
+      "id": "muslim-league",
+      "name": {
+        "fr": "Ligue musulmane",
+        "en": "All-India Muslim League",
+        "de": "Muslimliga",
+        "draft": ["en", "de"]
+      },
+      "type": "party",
+      "founded": {"date": "1906-12-30"},
+      "status": "draft"
+    },
+    {
+      "id": "katipunan",
+      "name": {"fr": "Katipunan", "en": "Katipunan", "de": "Katipunan", "draft": ["en", "de"]},
+      "type": "other",
+      "founded": {"date": "1892-07-07"},
+      "dissolved": {"date": "1897"},
+      "status": "draft"
+    },
+    {
+      "id": "sarekat-islam",
+      "name": {"fr": "Sarekat Islam", "en": "Sarekat Islam", "de": "Sarekat Islam", "draft": ["en", "de"]},
+      "type": "party",
+      "founded": {"date": "1912"},
+      "status": "draft"
+    },
+    {
+      "id": "isdv",
+      "name": {
+        "fr": "Association sociale-démocrate des Indes",
+        "en": "Indies Social Democratic Association",
+        "de": "Indische Sozialdemokratische Vereinigung",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["ISDV"],
+      "type": "party",
+      "founded": {"date": "1914-05-09"},
+      "dissolved": {"date": "1920"},
+      "status": "draft"
+    },
+    {
+      "id": "japan-social-democratic-party-1901",
+      "name": {
+        "fr": "Parti social-démocrate (Japon, 1901)",
+        "en": "Social Democratic Party (Japan, 1901)",
+        "de": "Sozialdemokratische Partei (Japan, 1901)",
+        "draft": ["en", "de"]
+      },
+      "type": "party",
+      "founded": {"date": "1901-05-18"},
+      "dissolved": {"date": "1901-05-20"},
+      "status": "draft"
+    },
+    {
+      "id": "ghadar-party",
+      "name": {"fr": "Parti Ghadar", "en": "Ghadar Party", "de": "Ghadar-Partei", "draft": ["en", "de"]},
+      "type": "party",
+      "founded": {"date": "1913"},
+      "status": "draft"
+    },
+    {
+      "id": "satyashodhak-samaj",
+      "name": {
+        "fr": "Satyashodhak Samaj",
+        "en": "Satyashodhak Samaj",
+        "de": "Satyashodhak Samaj",
+        "draft": ["en", "de"]
+      },
+      "type": "other",
+      "founded": {"date": "1873-09-24"},
+      "status": "draft"
+    },
+    {
+      "id": "pki",
+      "name": {
+        "fr": "Parti communiste indonésien",
+        "en": "Communist Party of Indonesia",
+        "de": "Kommunistische Partei Indonesiens",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["PKI"],
+      "type": "party",
+      "founded": {"date": "1920-05-23"},
+      "dissolved": {"date": "1966-03-12"},
+      "status": "draft"
+    },
+    {
+      "id": "communist-party-of-india",
+      "name": {
+        "fr": "Parti communiste de l'Inde",
+        "en": "Communist Party of India",
+        "de": "Kommunistische Partei Indiens",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["CPI"],
+      "type": "party",
+      "founded": {"date": "1920-10-17"},
+      "status": "draft"
+    },
+    {
+      "id": "japanese-communist-party",
+      "name": {
+        "fr": "Parti communiste japonais",
+        "en": "Japanese Communist Party",
+        "de": "Kommunistische Partei Japans",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["JCP"],
+      "type": "party",
+      "founded": {"date": "1922-07-15"},
+      "status": "draft"
+    },
+    {
+      "id": "indochinese-communist-party",
+      "name": {
+        "fr": "Parti communiste indochinois",
+        "en": "Indochinese Communist Party",
+        "de": "Kommunistische Partei Indochinas",
+        "draft": ["en", "de"]
+      },
+      "type": "party",
+      "founded": {"date": "1930-02-03"},
+      "dissolved": {"date": "1945-11-11"},
+      "status": "draft"
+    },
+    {
+      "id": "viet-minh",
+      "name": {"fr": "Việt Minh", "en": "Viet Minh", "de": "Việt Minh", "draft": ["en", "de"]},
+      "type": "other",
+      "founded": {"date": "1941-05-19"},
+      "status": "draft"
+    },
+    {
+      "id": "vnqdd",
+      "name": {
+        "fr": "Parti nationaliste vietnamien",
+        "en": "Vietnamese Nationalist Party",
+        "de": "Vietnamesische Nationalpartei",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["VNQDĐ"],
+      "type": "party",
+      "founded": {"date": "1927-12-25"},
+      "status": "draft"
+    },
+    {
+      "id": "lssp",
+      "name": {
+        "fr": "Lanka Sama Samaja Party",
+        "en": "Lanka Sama Samaja Party",
+        "de": "Lanka Sama Samaja Party",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["LSSP"],
+      "type": "party",
+      "founded": {"date": "1935-12-18"},
+      "status": "draft"
+    },
+    {
+      "id": "hukbalahap",
+      "name": {"fr": "Hukbalahap", "en": "Hukbalahap", "de": "Hukbalahap", "draft": ["en", "de"]},
+      "aliases": ["Huks"],
+      "type": "army",
+      "founded": {"date": "1942-03-29"},
+      "status": "draft"
+    },
+    {
+      "id": "rss",
+      "name": {
+        "fr": "Rashtriya Swayamsevak Sangh",
+        "en": "Rashtriya Swayamsevak Sangh",
+        "de": "Rashtriya Swayamsevak Sangh",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["RSS"],
+      "type": "other",
+      "founded": {"date": "1925-09-27"},
+      "status": "draft"
+    },
+    {
+      "id": "girni-kamgar-union",
+      "name": {
+        "fr": "Girni Kamgar Union",
+        "en": "Girni Kamgar Union",
+        "de": "Girni Kamgar Union",
+        "draft": ["en", "de"]
+      },
+      "type": "union",
+      "founded": {"date": "1928"},
+      "status": "draft"
+    },
+    {
+      "id": "indian-national-army",
+      "name": {
+        "fr": "Armée nationale indienne",
+        "en": "Indian National Army",
+        "de": "Indische Nationalarmee",
+        "draft": ["en", "de"]
+      },
+      "type": "army",
+      "founded": {"date": "1942"},
+      "status": "draft"
+    },
+    {
+      "id": "communist-party-of-burma",
+      "name": {
+        "fr": "Parti communiste de Birmanie",
+        "en": "Communist Party of Burma",
+        "de": "Kommunistische Partei Birmas",
+        "draft": ["en", "de"]
+      },
+      "type": "party",
+      "founded": {"date": "1939-08-15"},
+      "status": "draft"
+    },
+    {
+      "id": "seato",
+      "name": {
+        "fr": "Organisation du traité de l'Asie du Sud-Est",
+        "en": "Southeast Asia Treaty Organization",
+        "de": "Südostasienpakt",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["OTASE", "SEATO"],
+      "type": "international",
+      "founded": {"date": "1954-09-08"},
+      "dissolved": {"date": "1977-06-30"},
+      "status": "draft"
+    },
+    {
+      "id": "cpi-m",
+      "name": {
+        "fr": "Parti communiste de l'Inde (marxiste)",
+        "en": "Communist Party of India (Marxist)",
+        "de": "Kommunistische Partei Indiens (Marxistisch)",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["CPI(M)"],
+      "type": "party",
+      "founded": {"date": "1964-11"},
+      "status": "draft"
+    },
+    {
+      "id": "cpi-ml",
+      "name": {
+        "fr": "Parti communiste de l'Inde (marxiste-léniniste)",
+        "en": "Communist Party of India (Marxist–Leninist)",
+        "de": "Kommunistische Partei Indiens (Marxistisch-Leninistisch)",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["CPI(ML)"],
+      "type": "party",
+      "founded": {"date": "1969-04-22"},
+      "status": "draft"
+    },
+    {
+      "id": "communist-party-of-the-philippines",
+      "name": {
+        "fr": "Parti communiste des Philippines",
+        "en": "Communist Party of the Philippines",
+        "de": "Kommunistische Partei der Philippinen",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["CPP"],
+      "type": "party",
+      "founded": {"date": "1968-12-26"},
+      "status": "draft"
+    },
+    {
+      "id": "new-peoples-army",
+      "name": {
+        "fr": "Nouvelle Armée populaire",
+        "en": "New People's Army",
+        "de": "Neue Volksarmee",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["NPA"],
+      "type": "army",
+      "founded": {"date": "1969-03-29"},
+      "status": "draft"
+    },
+    {
+      "id": "asean",
+      "name": {
+        "fr": "Association des nations de l'Asie du Sud-Est",
+        "en": "Association of Southeast Asian Nations",
+        "de": "Verband Südostasiatischer Nationen",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["ASEAN", "ANASE"],
+      "type": "international",
+      "founded": {"date": "1967-08-08"},
+      "status": "draft"
+    },
+    {
+      "id": "jvp",
+      "name": {
+        "fr": "Janatha Vimukthi Peramuna",
+        "en": "Janatha Vimukthi Peramuna",
+        "de": "Janatha Vimukthi Peramuna",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["JVP"],
+      "type": "party",
+      "founded": {"date": "1965"},
+      "status": "draft"
+    },
+    {
+      "id": "awami-league",
+      "name": {"fr": "Ligue Awami", "en": "Awami League", "de": "Awami-Liga", "draft": ["en", "de"]},
+      "type": "party",
+      "founded": {"date": "1949-06-23"},
+      "status": "draft"
+    },
+    {
+      "id": "pathet-lao",
+      "name": {"fr": "Pathet Lao", "en": "Pathet Lao", "de": "Pathet Lao", "draft": ["en", "de"]},
+      "type": "other",
+      "founded": {"date": "1950"},
+      "status": "draft"
+    },
+    {
+      "id": "fretilin",
+      "name": {"fr": "Fretilin", "en": "Fretilin", "de": "Fretilin", "draft": ["en", "de"]},
+      "type": "party",
+      "founded": {"date": "1974-05-20"},
+      "status": "draft"
+    },
+    {
+      "id": "ltte",
+      "name": {
+        "fr": "Tigres de libération de l'Îlam tamoul",
+        "en": "Liberation Tigers of Tamil Eelam",
+        "de": "Befreiungstiger von Tamil Eelam",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["LTTE"],
+      "type": "army",
+      "founded": {"date": "1976-05-05"},
+      "dissolved": {"date": "2009-05"},
+      "status": "draft"
+    },
+    {
+      "id": "bjp",
+      "name": {
+        "fr": "Bharatiya Janata Party",
+        "en": "Bharatiya Janata Party",
+        "de": "Bharatiya Janata Party",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["BJP"],
+      "type": "party",
+      "founded": {"date": "1980-04-06"},
+      "status": "draft"
+    },
+    {
+      "id": "cpn-maoist",
+      "name": {
+        "fr": "Parti communiste du Népal (maoïste)",
+        "en": "Communist Party of Nepal (Maoist)",
+        "de": "Kommunistische Partei Nepals (Maoistisch)",
+        "draft": ["en", "de"]
+      },
+      "type": "party",
+      "founded": {"date": "1994"},
+      "status": "draft"
+    },
+    {
+      "id": "kctu",
+      "name": {
+        "fr": "Confédération coréenne des syndicats",
+        "en": "Korean Confederation of Trade Unions",
+        "de": "Koreanischer Gewerkschaftsbund",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["KCTU"],
+      "type": "union",
+      "founded": {"date": "1995-11-11"},
+      "status": "draft"
+    },
+    {
+      "id": "nld",
+      "name": {
+        "fr": "Ligue nationale pour la démocratie",
+        "en": "National League for Democracy",
+        "de": "Nationale Liga für Demokratie",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["NLD"],
+      "type": "party",
+      "founded": {"date": "1988-09-27"},
+      "status": "draft"
     }
   ]
 }

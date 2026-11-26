@@ -8500,6 +8500,532 @@
       "country": "FR",
       "coords": {"lat": 46.25, "lon": 0.04},
       "status": "draft"
+    },
+    {
+      "id": "srirangapatna",
+      "name": {"fr": "Srirangapatna", "en": "Srirangapatna", "de": "Srirangapatna", "draft": ["en", "de"]},
+      "kind": "city",
+      "historical_names": [{"name": "Seringapatam"}],
+      "country": "IN",
+      "coords": {"lat": 12.42, "lon": 76.69},
+      "status": "draft"
+    },
+    {
+      "id": "singapore",
+      "name": {"fr": "Singapour", "en": "Singapore", "de": "Singapur", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "SG",
+      "coords": {"lat": 1.29, "lon": 103.85},
+      "status": "draft"
+    },
+    {
+      "id": "yangon",
+      "name": {"fr": "Rangoun", "en": "Yangon", "de": "Rangun", "draft": ["en", "de"]},
+      "kind": "city",
+      "historical_names": [{"name": "Rangoon"}],
+      "country": "MM",
+      "coords": {"lat": 16.8, "lon": 96.16},
+      "status": "draft"
+    },
+    {
+      "id": "mandalay",
+      "name": {"fr": "Mandalay", "en": "Mandalay", "de": "Mandalay", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "MM",
+      "coords": {"lat": 21.98, "lon": 96.08},
+      "status": "draft"
+    },
+    {
+      "id": "yogyakarta",
+      "name": {"fr": "Yogyakarta", "en": "Yogyakarta", "de": "Yogyakarta", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "ID",
+      "coords": {"lat": -7.8, "lon": 110.36},
+      "status": "draft"
+    },
+    {
+      "id": "java",
+      "name": {"fr": "Java", "en": "Java", "de": "Java", "draft": ["en", "de"]},
+      "kind": "region",
+      "country": "ID",
+      "coords": {"lat": -7.4, "lon": 110.0},
+      "status": "draft"
+    },
+    {
+      "id": "aceh",
+      "name": {"fr": "Aceh", "en": "Aceh", "de": "Aceh", "draft": ["en", "de"]},
+      "kind": "region",
+      "country": "ID",
+      "coords": {"lat": 4.7, "lon": 96.7},
+      "status": "draft"
+    },
+    {
+      "id": "uraga",
+      "name": {"fr": "Uraga", "en": "Uraga", "de": "Uraga", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "JP",
+      "coords": {"lat": 35.24, "lon": 139.72},
+      "status": "draft"
+    },
+    {
+      "id": "kagoshima",
+      "name": {"fr": "Kagoshima", "en": "Kagoshima", "de": "Kagoshima", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "JP",
+      "coords": {"lat": 31.6, "lon": 130.56},
+      "status": "draft"
+    },
+    {
+      "id": "seoul",
+      "name": {"fr": "Séoul", "en": "Seoul", "de": "Seoul", "draft": ["en", "de"]},
+      "kind": "city",
+      "historical_names": [{"name": "Hanseong"}, {"name": "Keijō"}],
+      "country": "KR",
+      "coords": {"lat": 37.57, "lon": 126.98},
+      "status": "draft"
+    },
+    {
+      "id": "ganghwa-island",
+      "name": {"fr": "Île de Ganghwa", "en": "Ganghwa Island", "de": "Ganghwa-Insel", "draft": ["en", "de"]},
+      "kind": "region",
+      "country": "KR",
+      "coords": {"lat": 37.7, "lon": 126.45},
+      "status": "draft"
+    },
+    {
+      "id": "jeongeup",
+      "name": {"fr": "Jeongeup", "en": "Jeongeup", "de": "Jeongeup", "draft": ["en", "de"]},
+      "kind": "city",
+      "historical_names": [{"name": "Gobu"}],
+      "country": "KR",
+      "coords": {"lat": 35.57, "lon": 126.86},
+      "status": "draft"
+    },
+    {
+      "id": "manila",
+      "name": {"fr": "Manille", "en": "Manila", "de": "Manila", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "PH",
+      "coords": {"lat": 14.6, "lon": 120.98},
+      "status": "draft"
+    },
+    {
+      "id": "cavite",
+      "name": {"fr": "Cavite", "en": "Cavite", "de": "Cavite", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "PH",
+      "coords": {"lat": 14.48, "lon": 120.9},
+      "status": "draft"
+    },
+    {
+      "id": "hue",
+      "name": {"fr": "Hué", "en": "Huế", "de": "Huế", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "VN",
+      "coords": {"lat": 16.46, "lon": 107.59},
+      "status": "draft"
+    },
+    {
+      "id": "hanoi",
+      "name": {"fr": "Hanoï", "en": "Hanoi", "de": "Hanoi", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "VN",
+      "coords": {"lat": 21.03, "lon": 105.85},
+      "status": "draft"
+    },
+    {
+      "id": "mumbai",
+      "name": {"fr": "Bombay", "en": "Mumbai", "de": "Mumbai", "draft": ["en", "de"]},
+      "kind": "city",
+      "historical_names": [{"name": "Bombay"}],
+      "country": "IN",
+      "coords": {"lat": 18.94, "lon": 72.83},
+      "status": "draft"
+    },
+    {
+      "id": "kolkata",
+      "name": {"fr": "Calcutta", "en": "Kolkata", "de": "Kalkutta", "draft": ["en", "de"]},
+      "kind": "city",
+      "historical_names": [{"name": "Calcutta"}],
+      "country": "IN",
+      "coords": {"lat": 22.57, "lon": 88.36},
+      "status": "draft"
+    },
+    {
+      "id": "dhaka",
+      "name": {"fr": "Dacca", "en": "Dhaka", "de": "Dhaka", "draft": ["en", "de"]},
+      "kind": "city",
+      "historical_names": [{"name": "Dacca"}],
+      "country": "BD",
+      "coords": {"lat": 23.71, "lon": 90.41},
+      "status": "draft"
+    },
+    {
+      "id": "lahore",
+      "name": {"fr": "Lahore", "en": "Lahore", "de": "Lahore", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "PK",
+      "coords": {"lat": 31.55, "lon": 74.34},
+      "status": "draft"
+    },
+    {
+      "id": "pune",
+      "name": {"fr": "Pune", "en": "Pune", "de": "Pune", "draft": ["en", "de"]},
+      "kind": "city",
+      "historical_names": [{"name": "Poona"}],
+      "country": "IN",
+      "coords": {"lat": 18.52, "lon": 73.86},
+      "status": "draft"
+    },
+    {
+      "id": "osaka",
+      "name": {"fr": "Osaka", "en": "Osaka", "de": "Osaka", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "JP",
+      "coords": {"lat": 34.69, "lon": 135.5},
+      "status": "draft"
+    },
+    {
+      "id": "kofu",
+      "name": {"fr": "Kōfu", "en": "Kofu", "de": "Kōfu", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "JP",
+      "coords": {"lat": 35.66, "lon": 138.57},
+      "status": "draft"
+    },
+    {
+      "id": "ashio-copper-mine",
+      "name": {
+        "fr": "Mine de cuivre d'Ashio",
+        "en": "Ashio copper mine",
+        "de": "Kupfermine Ashio",
+        "draft": ["en", "de"]
+      },
+      "kind": "site",
+      "country": "JP",
+      "coords": {"lat": 36.64, "lon": 139.45},
+      "status": "draft"
+    },
+    {
+      "id": "surakarta",
+      "name": {"fr": "Surakarta", "en": "Surakarta", "de": "Surakarta", "draft": ["en", "de"]},
+      "kind": "city",
+      "historical_names": [{"name": "Solo"}],
+      "country": "ID",
+      "coords": {"lat": -7.57, "lon": 110.82},
+      "status": "draft"
+    },
+    {
+      "id": "semarang",
+      "name": {"fr": "Semarang", "en": "Semarang", "de": "Semarang", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "ID",
+      "coords": {"lat": -6.97, "lon": 110.42},
+      "status": "draft"
+    },
+    {
+      "id": "bengal",
+      "name": {"fr": "Bengale", "en": "Bengal", "de": "Bengalen", "draft": ["en", "de"]},
+      "kind": "region",
+      "country": "IN",
+      "coords": {"lat": 23.5, "lon": 88.8},
+      "status": "draft"
+    },
+    {
+      "id": "santal-parganas",
+      "name": {
+        "fr": "Santal Parganas",
+        "en": "Santal Parganas",
+        "de": "Santal Parganas",
+        "draft": ["en", "de"]
+      },
+      "kind": "region",
+      "historical_names": [{"name": "Damin-i-koh"}],
+      "country": "IN",
+      "coords": {"lat": 24.6, "lon": 87.4},
+      "status": "draft"
+    },
+    {
+      "id": "nadia",
+      "name": {"fr": "Nadia", "en": "Nadia", "de": "Nadia", "draft": ["en", "de"]},
+      "kind": "region",
+      "country": "IN",
+      "coords": {"lat": 23.4, "lon": 88.5},
+      "status": "draft"
+    },
+    {
+      "id": "bangkok",
+      "name": {"fr": "Bangkok", "en": "Bangkok", "de": "Bangkok", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "TH",
+      "coords": {"lat": 13.75, "lon": 100.5},
+      "status": "draft"
+    },
+    {
+      "id": "korea",
+      "name": {"fr": "Corée", "en": "Korea", "de": "Korea", "draft": ["en", "de"]},
+      "kind": "region",
+      "country": "KR",
+      "coords": {"lat": 38.0, "lon": 127.5},
+      "status": "draft"
+    },
+    {
+      "id": "jakarta",
+      "name": {"fr": "Jakarta", "en": "Jakarta", "de": "Jakarta", "draft": ["en", "de"]},
+      "kind": "city",
+      "historical_names": [{"name": "Batavia"}],
+      "country": "ID",
+      "coords": {"lat": -6.18, "lon": 106.83},
+      "status": "draft"
+    },
+    {
+      "id": "colombo",
+      "name": {"fr": "Colombo", "en": "Colombo", "de": "Colombo", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "LK",
+      "coords": {"lat": 6.93, "lon": 79.85},
+      "status": "draft"
+    },
+    {
+      "id": "surabaya",
+      "name": {"fr": "Surabaya", "en": "Surabaya", "de": "Surabaya", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "ID",
+      "coords": {"lat": -7.25, "lon": 112.75},
+      "status": "draft"
+    },
+    {
+      "id": "malabar",
+      "name": {"fr": "Malabar", "en": "Malabar", "de": "Malabar", "draft": ["en", "de"]},
+      "kind": "region",
+      "country": "IN",
+      "coords": {"lat": 11.1, "lon": 76.1},
+      "status": "draft"
+    },
+    {
+      "id": "yen-bai",
+      "name": {"fr": "Yên Bái", "en": "Yên Bái", "de": "Yên Bái", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "VN",
+      "coords": {"lat": 21.72, "lon": 104.9},
+      "status": "draft"
+    },
+    {
+      "id": "nghe-an",
+      "name": {"fr": "Nghệ An", "en": "Nghệ An", "de": "Nghệ An", "draft": ["en", "de"]},
+      "kind": "region",
+      "country": "VN",
+      "coords": {"lat": 19.0, "lon": 105.2},
+      "status": "draft"
+    },
+    {
+      "id": "tharrawaddy",
+      "name": {"fr": "Tharrawaddy", "en": "Tharrawaddy", "de": "Tharrawaddy", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "MM",
+      "coords": {"lat": 17.65, "lon": 95.79},
+      "status": "draft"
+    },
+    {
+      "id": "yenangyaung",
+      "name": {"fr": "Yenangyaung", "en": "Yenangyaung", "de": "Yenangyaung", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "MM",
+      "coords": {"lat": 20.46, "lon": 94.88},
+      "status": "draft"
+    },
+    {
+      "id": "central-luzon",
+      "name": {"fr": "Luçon central", "en": "Central Luzon", "de": "Zentral-Luzon", "draft": ["en", "de"]},
+      "kind": "region",
+      "country": "PH",
+      "coords": {"lat": 15.4, "lon": 120.8},
+      "status": "draft"
+    },
+    {
+      "id": "telangana",
+      "name": {"fr": "Télangana", "en": "Telangana", "de": "Telangana", "draft": ["en", "de"]},
+      "kind": "region",
+      "country": "IN",
+      "coords": {"lat": 17.8, "lon": 79.1},
+      "status": "draft"
+    },
+    {
+      "id": "jeju",
+      "name": {"fr": "Jeju", "en": "Jeju", "de": "Jeju", "draft": ["en", "de"]},
+      "kind": "region",
+      "country": "KR",
+      "coords": {"lat": 33.38, "lon": 126.55},
+      "status": "draft"
+    },
+    {
+      "id": "madiun",
+      "name": {"fr": "Madiun", "en": "Madiun", "de": "Madiun", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "ID",
+      "coords": {"lat": -7.63, "lon": 111.52},
+      "status": "draft"
+    },
+    {
+      "id": "kerala",
+      "name": {"fr": "Kerala", "en": "Kerala", "de": "Kerala", "draft": ["en", "de"]},
+      "kind": "region",
+      "country": "IN",
+      "coords": {"lat": 10.5, "lon": 76.3},
+      "status": "draft"
+    },
+    {
+      "id": "pyongyang",
+      "name": {"fr": "Pyongyang", "en": "Pyongyang", "de": "Pjöngjang", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "KP",
+      "coords": {"lat": 39.03, "lon": 125.75},
+      "status": "draft"
+    },
+    {
+      "id": "kashmir",
+      "name": {"fr": "Cachemire", "en": "Kashmir", "de": "Kaschmir", "draft": ["en", "de"]},
+      "kind": "region",
+      "country": "IN",
+      "coords": {"lat": 34.1, "lon": 74.8},
+      "status": "draft"
+    },
+    {
+      "id": "kuala-lumpur",
+      "name": {"fr": "Kuala Lumpur", "en": "Kuala Lumpur", "de": "Kuala Lumpur", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "MY",
+      "coords": {"lat": 3.15, "lon": 101.69},
+      "status": "draft"
+    },
+    {
+      "id": "omuta",
+      "name": {"fr": "Ōmuta", "en": "Omuta", "de": "Ōmuta", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "JP",
+      "coords": {"lat": 33.03, "lon": 130.45},
+      "status": "draft"
+    },
+    {
+      "id": "naxalbari",
+      "name": {"fr": "Naxalbari", "en": "Naxalbari", "de": "Naxalbari", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "IN",
+      "coords": {"lat": 26.68, "lon": 88.22},
+      "status": "draft"
+    },
+    {
+      "id": "phnom-penh",
+      "name": {"fr": "Phnom Penh", "en": "Phnom Penh", "de": "Phnom Penh", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "KH",
+      "coords": {"lat": 11.56, "lon": 104.92},
+      "status": "draft"
+    },
+    {
+      "id": "vientiane",
+      "name": {"fr": "Vientiane", "en": "Vientiane", "de": "Vientiane", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "LA",
+      "coords": {"lat": 17.97, "lon": 102.6},
+      "status": "draft"
+    },
+    {
+      "id": "dili",
+      "name": {"fr": "Dili", "en": "Dili", "de": "Dili", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "TL",
+      "coords": {"lat": -8.56, "lon": 125.57},
+      "status": "draft"
+    },
+    {
+      "id": "punjab-region",
+      "name": {"fr": "Pendjab", "en": "Punjab", "de": "Pandschab", "draft": ["en", "de"]},
+      "kind": "region",
+      "country": "PK",
+      "coords": {"lat": 31.0, "lon": 73.5},
+      "status": "draft"
+    },
+    {
+      "id": "kathmandu",
+      "name": {"fr": "Katmandou", "en": "Kathmandu", "de": "Kathmandu", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "NP",
+      "coords": {"lat": 27.71, "lon": 85.32},
+      "status": "draft"
+    },
+    {
+      "id": "gwangju",
+      "name": {"fr": "Gwangju", "en": "Gwangju", "de": "Gwangju", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "KR",
+      "coords": {"lat": 35.16, "lon": 126.85},
+      "status": "draft"
+    },
+    {
+      "id": "busan",
+      "name": {"fr": "Busan", "en": "Busan", "de": "Busan", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "KR",
+      "coords": {"lat": 35.18, "lon": 129.08},
+      "status": "draft"
+    },
+    {
+      "id": "ulsan",
+      "name": {"fr": "Ulsan", "en": "Ulsan", "de": "Ulsan", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "KR",
+      "coords": {"lat": 35.54, "lon": 129.31},
+      "status": "draft"
+    },
+    {
+      "id": "ayodhya",
+      "name": {"fr": "Ayodhya", "en": "Ayodhya", "de": "Ayodhya", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "IN",
+      "coords": {"lat": 26.8, "lon": 82.2},
+      "status": "draft"
+    },
+    {
+      "id": "gujarat",
+      "name": {"fr": "Gujarat", "en": "Gujarat", "de": "Gujarat", "draft": ["en", "de"]},
+      "kind": "region",
+      "country": "IN",
+      "coords": {"lat": 22.7, "lon": 71.6},
+      "status": "draft"
+    },
+    {
+      "id": "rana-plaza",
+      "name": {"fr": "Rana Plaza", "en": "Rana Plaza", "de": "Rana Plaza", "draft": ["en", "de"]},
+      "kind": "site",
+      "country": "BD",
+      "coords": {"lat": 23.85, "lon": 90.26},
+      "status": "draft"
+    },
+    {
+      "id": "rakhine",
+      "name": {"fr": "Arakan", "en": "Rakhine", "de": "Rakhaing", "draft": ["en", "de"]},
+      "kind": "region",
+      "historical_names": [{"name": "Arakan"}],
+      "country": "MM",
+      "coords": {"lat": 19.8, "lon": 93.9},
+      "status": "draft"
+    },
+    {
+      "id": "mullaitivu",
+      "name": {"fr": "Mullaitivu", "en": "Mullaitivu", "de": "Mullaitivu", "draft": ["en", "de"]},
+      "kind": "region",
+      "country": "LK",
+      "coords": {"lat": 9.27, "lon": 80.81},
+      "status": "draft"
+    },
+    {
+      "id": "naypyidaw",
+      "name": {"fr": "Naypyidaw", "en": "Naypyidaw", "de": "Naypyidaw", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "MM",
+      "coords": {"lat": 19.75, "lon": 96.12},
+      "status": "draft"
     }
   ]
 }

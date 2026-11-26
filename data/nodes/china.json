@@ -84,7 +84,7 @@
         "de": "Großbritannien erzwingt den Opiumhandel mit Waffengewalt; der Vertrag von Nanking öffnet fünf Häfen, tritt Hongkong ab und leitet die Ära der ungleichen Verträge ein.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "china", "order": 1}],
+      "parents": [{"id": "china", "order": 1}, {"id": "asia-imperialism"}],
       "sources": [{"ref": "roberts-china-permanent-revolution"}],
       "status": "draft"
     },
@@ -280,7 +280,7 @@
         "de": "Das korrupte, von den USA gestützte Kuomintang-Regime bricht vor der Volksbefreiungsarmee zusammen, getragen von Bodenreform und Hyperinflation.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "china", "order": 9}],
+      "parents": [{"id": "china", "order": 9}, {"id": "asia-labour-and-social-struggles"}],
       "sources": [{"ref": "roberts-china-permanent-revolution"}],
       "status": "draft"
     },
@@ -352,7 +352,7 @@
         "de": "Mao mobilisiert die Jugend gegen seine Rivalen im Apparat; die Bewegung entgleitet teilweise der Kontrolle (Shanghaier Kommune), bevor die Armee sie wieder einfängt, bis zu Maos Tod und der Verhaftung der Viererbande.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "china", "order": 12}],
+      "parents": [{"id": "china", "order": 12}, {"id": "asia-labour-and-social-struggles"}],
       "sources": [{"ref": "roberts-china-permanent-revolution"}],
       "status": "draft"
     },
@@ -1422,7 +1422,8 @@
       "parents": [
         {"id": "1864-self-strengthening-and-imperialist-carve-up"},
         {"id": "china-imperialism-and-world-power"},
-        {"id": "world-wars"}
+        {"id": "world-wars"},
+        {"id": "asia-states-and-wars"}
       ],
       "persons": ["li-hongzhang"],
       "sources": [{"ref": "wp-en-treaty-of-shimonoseki"}],
@@ -1617,7 +1618,8 @@
         {"id": "1864-self-strengthening-and-imperialist-carve-up"},
         {"id": "china-labour-and-peasant-struggles"},
         {"id": "china-imperialism-and-world-power"},
-        {"id": "world-wars"}
+        {"id": "world-wars"},
+        {"id": "asia-resistance-and-liberation"}
       ],
       "organizations": ["boxers", "eight-nation-alliance", "qing-dynasty"],
       "sources": [{"ref": "wp-en-eight-nation-alliance"}, {"ref": "roberts-china-permanent-revolution"}],
@@ -1968,7 +1970,7 @@
         "de": "Eine Meuterei in Wuchang löst die Abspaltung der Provinzen aus; die Dynastie bricht zusammen, doch die schwache Bourgeoisie und das Militär überlassen Yuan Shikai die Macht.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "1901-late-qing-and-1911-revolution"}],
+      "parents": [{"id": "1901-late-qing-and-1911-revolution"}, {"id": "asia-labour-and-social-struggles"}],
       "persons": ["sun-yat-sen", "yuan-shikai"],
       "organizations": ["tongmenghui", "qing-dynasty"],
       "sources": [
@@ -2293,7 +2295,8 @@
       "parents": [
         {"id": "1912-beiyang-republic-and-warlords"},
         {"id": "china-imperialism-and-world-power"},
-        {"id": "china-labour-and-peasant-struggles"}
+        {"id": "china-labour-and-peasant-struggles"},
+        {"id": "asia-labour-and-social-struggles"}
       ],
       "persons": ["chen-duxiu", "li-dazhao"],
       "places": ["beijing", "shanghai"],
@@ -2349,7 +2352,11 @@
         "de": "Dreizehn Delegierte, die rund fünfzig Mitglieder vertreten, darunter Mao Zedong, tagen mit zwei Gesandten der Komintern in Shanghai; von der Polizei vertrieben, beenden sie den Kongress auf einem Boot in Jiaxing. Chen Duxiu wird zum Sekretär gewählt.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "1912-beiyang-republic-and-warlords"}, {"id": "china-communist-movement"}],
+      "parents": [
+        {"id": "1912-beiyang-republic-and-warlords"},
+        {"id": "china-communist-movement"},
+        {"id": "asia-communism-and-ideas"}
+      ],
       "persons": ["chen-duxiu", "mao-zedong", "henk-sneevliet"],
       "places": ["shanghai", "jiaxing"],
       "organizations": ["chinese-communist-party", "comintern"],
@@ -2765,7 +2772,8 @@
         {"id": "1925-second-chinese-revolution"},
         {"id": "china-labour-and-peasant-struggles"},
         {"id": "china-communist-movement"},
-        {"id": "1924-bolshevisation-period"}
+        {"id": "1924-bolshevisation-period"},
+        {"id": "asia-labour-and-social-struggles"}
       ],
       "persons": ["chiang-kai-shek", "du-yuesheng", "wang-shouhua"],
       "places": ["shanghai"],
@@ -3439,7 +3447,8 @@
       "parents": [
         {"id": "1927-nanjing-decade-and-long-march"},
         {"id": "china-imperialism-and-world-power"},
-        {"id": "world-wars"}
+        {"id": "world-wars"},
+        {"id": "asia-imperialism"}
       ],
       "places": ["shenyang"],
       "sources": [{"ref": "alphahistory-chinese-revolution-timeline-1928-1949"}],
@@ -3523,7 +3532,8 @@
       "parents": [
         {"id": "1927-nanjing-decade-and-long-march"},
         {"id": "china-imperialism-and-world-power"},
-        {"id": "world-states"}
+        {"id": "world-states"},
+        {"id": "asia-imperialism"}
       ],
       "persons": ["puyi"],
       "organizations": ["manchukuo"],
@@ -3601,7 +3611,11 @@
         "de": "Aus Jiangxi vertrieben, legt die Rote Armee fast 10 000 km bis nach Shaanxi zurück; einige Tausend Überlebende von fast 100 000 Aufgebrochenen bilden den Kern der künftigen Macht.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "1927-nanjing-decade-and-long-march"}, {"id": "china-communist-movement"}],
+      "parents": [
+        {"id": "1927-nanjing-decade-and-long-march"},
+        {"id": "china-communist-movement"},
+        {"id": "asia-labour-and-social-struggles"}
+      ],
       "persons": ["mao-zedong", "zhou-enlai", "zhu-de", "bo-gu", "otto-braun-comintern"],
       "places": ["yudu", "yanan"],
       "organizations": ["chinese-red-army"],
@@ -5089,7 +5103,8 @@
       "parents": [
         {"id": "1958-great-leap-and-sino-soviet-split"},
         {"id": "china-imperialism-and-world-power"},
-        {"id": "world-wars"}
+        {"id": "world-wars"},
+        {"id": "asia-states-and-wars"}
       ],
       "persons": ["jawaharlal-nehru"],
       "organizations": ["peoples-liberation-army"],
@@ -5803,7 +5818,8 @@
       "parents": [
         {"id": "1976-reform-and-opening"},
         {"id": "china-imperialism-and-world-power"},
-        {"id": "world-wars"}
+        {"id": "world-wars"},
+        {"id": "asia-states-and-wars"}
       ],
       "persons": ["deng-xiaoping"],
       "places": ["vietnam"],
@@ -6117,7 +6133,11 @@
         "de": "Nach dem Kriegsrecht vom 20. Mai rückt die Armee in Peking ein und schießt in der Nacht vom 3. auf den 4. Juni in die Menge; Hunderte, vielleicht Tausende sterben, vor allem Arbeiter und Anwohner.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "1976-reform-and-opening"}, {"id": "1989-tiananmen-protests"}],
+      "parents": [
+        {"id": "1976-reform-and-opening"},
+        {"id": "1989-tiananmen-protests"},
+        {"id": "asia-labour-and-social-struggles"}
+      ],
       "persons": ["deng-xiaoping", "li-peng"],
       "places": ["beijing", "tiananmen-square"],
       "organizations": ["peoples-liberation-army"],

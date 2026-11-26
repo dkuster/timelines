@@ -3714,6 +3714,402 @@
       "status": "draft",
       "provenance": {"by": "claude", "date": "2026-11-26"},
       "justification": "La même année, deux mobilisations écologistes de masse durement réprimées en Allemagne et en France."
+    },
+    {
+      "id": "1908-bombay-political-strike-leads-to-1908-inflammable-material-in-world-politics",
+      "from": "node:1908-bombay-political-strike",
+      "to": "node:1908-inflammable-material-in-world-politics",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Lénine écrit son article en réaction directe à la grève de Bombay."
+    },
+    {
+      "id": "1894-donghak-peasant-revolution-leads-to-1894-first-sino-japanese-war",
+      "from": "node:1894-donghak-peasant-revolution",
+      "to": "node:1894-first-sino-japanese-war",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "L'appel de la cour coréenne à la Chine contre les insurgés sert de prétexte à l'intervention japonaise."
+    },
+    {
+      "id": "1905-japan-korea-protectorate-treaty-reaction-to-1904-russo-japanese-war",
+      "from": "node:1905-japan-korea-protectorate-treaty",
+      "to": "node:1904-russo-japanese-war",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Le protectorat découle directement de la victoire japonaise sur la Russie."
+    },
+    {
+      "id": "1905-hibiya-riots-reaction-to-1904-russo-japanese-war",
+      "from": "node:1905-hibiya-riots",
+      "to": "node:1904-russo-japanese-war",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Les émeutes éclatent contre les conditions de la paix de Portsmouth."
+    },
+    {
+      "id": "1860-max-havelaar-opposes-1830-cultivation-system",
+      "from": "node:1860-max-havelaar",
+      "to": "node:1830-cultivation-system",
+      "type": "opposes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Le roman dénonce les abus du système des cultures à Java."
+    },
+    {
+      "id": "1830-cultivation-system-reaction-to-1825-java-war",
+      "from": "node:1830-cultivation-system",
+      "to": "node:1825-java-war",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Le système est instauré pour renflouer le trésor néerlandais vidé par la guerre de Java."
+    },
+    {
+      "id": "1910-high-treason-incident-continues-1901-founding-of-the-social-democratic-party-of-japan",
+      "from": "node:1910-high-treason-incident",
+      "to": "node:1901-founding-of-the-social-democratic-party-of-japan",
+      "type": "continues",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La répression de 1910 achève l'écrasement du premier socialisme japonais commencé par l'interdiction de 1901."
+    },
+    {
+      "id": "1923-kanto-massacre-reaction-to-1923-great-kanto-earthquake",
+      "from": "node:1923-kanto-massacre",
+      "to": "node:1923-great-kanto-earthquake",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Les massacres sont déclenchés par les rumeurs qui suivent le séisme."
+    },
+    {
+      "id": "1926-pki-uprising-continues-1920-founding-of-the-pki",
+      "from": "node:1926-pki-uprising",
+      "to": "node:1920-founding-of-the-pki",
+      "type": "continues",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "L'insurrection mal préparée entraîne la destruction du premier PKI fondé en 1920."
+    },
+    {
+      "id": "1930-yen-bai-mutiny-comparable-to-1930-nghe-tinh-soviets",
+      "from": "node:1930-yen-bai-mutiny",
+      "to": "node:1930-nghe-tinh-soviets",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La même année, l'échec du soulèvement nationaliste et la poussée des soviets paysans dirigés par les communistes déplacent la direction du mouvement national."
+    },
+    {
+      "id": "1918-rice-riots-comparable-to-1917-revolution-year",
+      "from": "node:1918-rice-riots",
+      "to": "node:1917-revolution-year",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Les émeutes du riz éclatent au moment où la révolution russe et l'intervention en Sibérie dominent la politique japonaise."
+    },
+    {
+      "id": "1945-august-revolution-reaction-to-1945-surrender-of-japan",
+      "from": "node:1945-august-revolution",
+      "to": "node:1945-surrender-of-japan",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Le Việt Minh déclenche l'insurrection dès l'annonce de la capitulation japonaise."
+    },
+    {
+      "id": "1945-proclamation-of-indonesian-independence-reaction-to-1945-surrender-of-japan",
+      "from": "node:1945-proclamation-of-indonesian-independence",
+      "to": "node:1945-surrender-of-japan",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La proclamation intervient deux jours après l'annonce de la capitulation."
+    },
+    {
+      "id": "1945-british-reoccupation-of-saigon-leads-to-1946-first-indochina-war",
+      "from": "node:1945-british-reoccupation-of-saigon",
+      "to": "node:1946-first-indochina-war",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La reconquête de Saigon ouvre la guerre de reconquête française en Indochine."
+    },
+    {
+      "id": "1929-meerut-conspiracy-case-reaction-to-1928-bombay-textile-strike",
+      "from": "node:1929-meerut-conspiracy-case",
+      "to": "node:1928-bombay-textile-strike",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Les arrestations visent les dirigeants communistes de la grève de 1928."
+    },
+    {
+      "id": "1932-poona-pact-continues-1873-founding-of-the-satyashodhak-samaj",
+      "from": "node:1932-poona-pact",
+      "to": "node:1873-founding-of-the-satyashodhak-samaj",
+      "type": "continues",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Ambedkar prolonge le combat anticaste ouvert par Phule."
+    },
+    {
+      "id": "1938-burmese-oilfield-strike-continues-1930-saya-san-rebellion",
+      "from": "node:1938-burmese-oilfield-strike",
+      "to": "node:1930-saya-san-rebellion",
+      "type": "continues",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Après l'échec de la révolte paysanne, la lutte anticoloniale birmane passe par les ouvriers et les étudiants."
+    },
+    {
+      "id": "1960-april-revolution-leads-to-1961-may-16-coup",
+      "from": "node:1960-april-revolution",
+      "to": "node:1961-may-16-coup",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Le coup militaire met fin au régime civil né de la révolution d'avril."
+    },
+    {
+      "id": "1960-miike-strike-comparable-to-1960-anpo-protests",
+      "from": "node:1960-miike-strike",
+      "to": "node:1960-anpo-protests",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Les deux grands mouvements de 1960 se rejoignent dans la rue et marquent l'apogée des luttes de l'après-guerre au Japon."
+    },
+    {
+      "id": "1948-jeju-uprising-reaction-to-1945-division-of-korea",
+      "from": "node:1948-jeju-uprising",
+      "to": "node:1945-division-of-korea",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "L'insurrection vise l'élection séparée qui consacre la partition."
+    },
+    {
+      "id": "1953-ceylon-hartal-references-1935-founding-of-the-lssp",
+      "from": "node:1953-ceylon-hartal",
+      "to": "node:1935-founding-of-the-lssp",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Le hartal est la plus grande action de masse dirigée par le LSSP."
+    },
+    {
+      "id": "1947-february-1-general-strike-comparable-to-1960-miike-strike",
+      "from": "node:1947-february-1-general-strike",
+      "to": "node:1960-miike-strike",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Les deux grands affrontements ouvriers de l'après-guerre japonais se soldent par une défaite face à l'État et au patronat."
+    },
+    {
+      "id": "1965-30-september-movement-leads-to-1965-indonesian-mass-killings",
+      "from": "node:1965-30-september-movement",
+      "to": "node:1965-indonesian-mass-killings",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "L'armée impute le coup au PKI et déclenche l'extermination de ses membres."
+    },
+    {
+      "id": "1965-indonesian-mass-killings-leads-to-1966-suharto-takes-power",
+      "from": "node:1965-indonesian-mass-killings",
+      "to": "node:1966-suharto-takes-power",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "L'anéantissement du PKI permet à Soeharto d'écarter Soekarno."
+    },
+    {
+      "id": "1967-naxalbari-uprising-leads-to-1969-founding-of-the-cpi-ml",
+      "from": "node:1967-naxalbari-uprising",
+      "to": "node:1969-founding-of-the-cpi-ml",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Le parti naxalite naît du soulèvement de Naxalbari."
+    },
+    {
+      "id": "1970-cambodian-coup-leads-to-1975-cambodian-genocide",
+      "from": "node:1970-cambodian-coup",
+      "to": "node:1975-cambodian-genocide",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Le coup et les bombardements qui suivent ouvrent la voie à la victoire des Khmers rouges."
+    },
+    {
+      "id": "1971-jvp-insurrection-comparable-to-1953-ceylon-hartal",
+      "from": "node:1971-jvp-insurrection",
+      "to": "node:1953-ceylon-hartal",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Le LSSP, qui dirigeait le hartal de 1953, participe en 1971 au gouvernement qui écrase l'insurrection."
+    },
+    {
+      "id": "1974-indian-railway-strike-leads-to-1975-indian-emergency",
+      "from": "node:1974-indian-railway-strike",
+      "to": "node:1975-indian-emergency",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La vague de luttes de 1974 est l'une des causes de la proclamation de l'état d'urgence."
+    },
+    {
+      "id": "1975-fall-of-saigon-continues-1945-august-revolution",
+      "from": "node:1975-fall-of-saigon",
+      "to": "node:1945-august-revolution",
+      "type": "continues",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La victoire de 1975 achève la libération ouverte par la révolution d'août."
+    },
+    {
+      "id": "1979-bu-ma-uprising-leads-to-1980-gwangju-uprising",
+      "from": "node:1979-bu-ma-uprising",
+      "to": "node:1980-gwangju-uprising",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La chute de Park ouvre la crise que le coup de Chun Doo-hwan tranche dans le sang à Gwangju."
+    },
+    {
+      "id": "1980-gwangju-uprising-leads-to-1987-june-democratic-struggle",
+      "from": "node:1980-gwangju-uprising",
+      "to": "node:1987-june-democratic-struggle",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La mémoire de Gwangju nourrit le mouvement démocratique qui fait céder le régime en 1987."
+    },
+    {
+      "id": "1987-june-democratic-struggle-leads-to-1987-great-workers-struggle",
+      "from": "node:1987-june-democratic-struggle",
+      "to": "node:1987-great-workers-struggle",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La brèche démocratique de juin déclenche la vague de grèves de l'été."
+    },
+    {
+      "id": "1997-asian-financial-crisis-causes-1998-fall-of-suharto",
+      "from": "node:1997-asian-financial-crisis",
+      "to": "node:1998-fall-of-suharto",
+      "type": "causes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La crise ruine la base économique du régime et déclenche le soulèvement."
+    },
+    {
+      "id": "1992-demolition-of-the-babri-masjid-references-1925-founding-of-the-rss",
+      "from": "node:1992-demolition-of-the-babri-masjid",
+      "to": "node:1925-founding-of-the-rss",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La destruction est organisée par les organisations issues du RSS."
+    },
+    {
+      "id": "2002-gujarat-pogrom-leads-to-2014-modi-comes-to-power",
+      "from": "node:2002-gujarat-pogrom",
+      "to": "node:2014-modi-comes-to-power",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Le pogrom fait de Modi le champion du nationalisme hindou qui le porte au pouvoir national."
+    },
+    {
+      "id": "2022-sri-lankan-protests-comparable-to-2024-bangladesh-july-revolution",
+      "from": "node:2022-sri-lankan-protests",
+      "to": "node:2024-bangladesh-july-revolution",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Deux soulèvements de masse sud-asiatiques qui chassent un chef de gouvernement en fuite."
+    },
+    {
+      "id": "2024-bangladesh-july-revolution-comparable-to-2025-nepal-gen-z-protests",
+      "from": "node:2024-bangladesh-july-revolution",
+      "to": "node:2025-nepal-gen-z-protests",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Deux soulèvements de la jeunesse qui renversent le pouvoir en quelques semaines."
+    },
+    {
+      "id": "1976-thammasat-massacre-reaction-to-1973-thai-popular-uprising",
+      "from": "node:1976-thammasat-massacre",
+      "to": "node:1973-thai-popular-uprising",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Le massacre et le coup militaire referment la parenthèse démocratique ouverte en 1973."
+    },
+    {
+      "id": "1798-french-invasion-of-egypt-influences-1799-fall-of-seringapatam",
+      "from": "node:1798-french-invasion-of-egypt",
+      "to": "node:1799-fall-of-seringapatam",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La menace d'une jonction française par l'Égypte pousse les Britanniques à en finir avec Tipu Sultan, allié de la France."
+    },
+    {
+      "id": "1853-perry-expedition-leads-to-1868-meiji-restoration",
+      "from": "node:1853-perry-expedition",
+      "to": "node:1868-meiji-restoration",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "L'ouverture forcée du Japon et les traités inégaux discréditent le shogunat et préparent sa chute."
+    },
+    {
+      "id": "1877-satsuma-rebellion-reaction-to-1868-meiji-restoration",
+      "from": "node:1877-satsuma-rebellion",
+      "to": "node:1868-meiji-restoration",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Les samouraïs de Satsuma se soulèvent contre les réformes du nouveau régime Meiji."
+    },
+    {
+      "id": "1876-treaty-of-ganghwa-comparable-to-1853-perry-expedition",
+      "from": "node:1876-treaty-of-ganghwa",
+      "to": "node:1853-perry-expedition",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Le Japon impose à la Corée la diplomatie de la canonnière qu'il a subie de la part des États-Unis."
+    },
+    {
+      "id": "1849-annexation-of-the-punjab-leads-to-1857-indian-rebellion",
+      "from": "node:1849-annexation-of-the-punjab",
+      "to": "node:1857-indian-rebellion",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La politique d'annexions de la Compagnie des Indes nourrit la révolte de 1857."
+    },
+    {
+      "id": "2002-gujarat-pogrom-comparable-to-1984-anti-sikh-massacres",
+      "from": "node:2002-gujarat-pogrom",
+      "to": "node:1984-anti-sikh-massacres",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Deux pogroms contre une minorité religieuse couverts par le parti au pouvoir."
     }
   ]
 }

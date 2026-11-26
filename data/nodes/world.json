@@ -780,7 +780,7 @@
         "de": "Die Abwertung des thailändischen Baht löst eine Kapitalflucht aus, die Südostasien und Südkorea und danach Russland und Brasilien trifft.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-economy"}],
+      "parents": [{"id": "world-economy"}, {"id": "asia-economy-and-disasters"}],
       "status": "draft"
     },
     {
@@ -1141,7 +1141,8 @@
         {"id": "world-wars"},
         {"id": "1881-counter-reforms-industrialisation-and-labour-movement"},
         {"id": "1901-late-qing-and-1911-revolution"},
-        {"id": "china-imperialism-and-world-power"}
+        {"id": "china-imperialism-and-world-power"},
+        {"id": "asia-states-and-wars"}
       ],
       "status": "draft"
     },
@@ -1233,7 +1234,11 @@
         "de": "Japan überfällt China; der Krieg geht im Zweiten Weltkrieg auf und stärkt die chinesischen Kommunisten.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-wars"}, {"id": "1937-war-of-resistance-against-japan"}],
+      "parents": [
+        {"id": "world-wars"},
+        {"id": "1937-war-of-resistance-against-japan"},
+        {"id": "asia-states-and-wars"}
+      ],
       "status": "draft"
     },
     {
@@ -1321,7 +1326,11 @@
         "de": "Die Vereinigten Staaten werfen zwei Atombomben auf japanische Städte; mehr als 100 000 unmittelbare Todesopfer und Beginn des Atomzeitalters.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "1939-second-world-war"}, {"id": "1929-depression-new-deal-and-second-world-war"}],
+      "parents": [
+        {"id": "1939-second-world-war"},
+        {"id": "1929-depression-new-deal-and-second-world-war"},
+        {"id": "asia-states-and-wars"}
+      ],
       "shared": true,
       "places": ["hiroshima", "nagasaki"],
       "tags": ["nucléaire"],
@@ -1344,7 +1353,11 @@
         "de": "Der Viet Minh kämpft gegen die französische koloniale Rückeroberung; die Niederlage von Điện Biên Phủ führt zu den Genfer Abkommen und zur Teilung Vietnams.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-wars"}, {"id": "1945-liberation-and-fourth-republic"}],
+      "parents": [
+        {"id": "world-wars"},
+        {"id": "1945-liberation-and-fourth-republic"},
+        {"id": "asia-resistance-and-liberation"}
+      ],
       "status": "draft"
     },
     {
@@ -1364,7 +1377,7 @@
         "de": "Die Teilung in Indien und Pakistan wird von Massakern zwischen den Religionsgemeinschaften und der Flucht von 10 bis 20 Millionen Menschen begleitet; Hunderttausende Tote.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-wars"}, {"id": "united-kingdom-empire"}],
+      "parents": [{"id": "world-wars"}, {"id": "united-kingdom-empire"}, {"id": "asia-states-and-wars"}],
       "status": "draft"
     },
     {
@@ -1383,7 +1396,8 @@
         {"id": "world-wars"},
         {"id": "1945-cold-war-mccarthyism-and-civil-rights"},
         {"id": "united-states-empire"},
-        {"id": "1949-new-democracy-and-socialist-transformation"}
+        {"id": "1949-new-democracy-and-socialist-transformation"},
+        {"id": "asia-states-and-wars"}
       ],
       "status": "draft"
     },
@@ -1414,7 +1428,11 @@
         "de": "Nordvietnam und die Nationale Befreiungsfront kämpfen gegen den Süden und die USA; der Fall Saigons vereint das Land nach Millionen Toten.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-wars"}, {"id": "united-states-empire"}],
+      "parents": [
+        {"id": "world-wars"},
+        {"id": "united-states-empire"},
+        {"id": "asia-resistance-and-liberation"}
+      ],
       "status": "draft"
     },
     {
@@ -1434,7 +1452,7 @@
         "de": "Nach einem gescheiterten Putsch rotten Armee und Milizen Kommunisten und Sympathisanten aus; mindestens 500 000 Tote und die Zerschlagung der PKI, damals größte kommunistische Partei außerhalb des sozialistischen Blocks.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-wars"}],
+      "parents": [{"id": "world-wars"}, {"id": "asia-labour-and-social-struggles"}],
       "status": "draft"
     },
     {
@@ -1495,7 +1513,7 @@
         "de": "Unter dem Regime der Roten Khmer sterben durch Hinrichtungen, Zwangsarbeit und Hunger etwa 1,5 bis 2 Millionen Menschen; die vietnamesische Intervention beendet das Regime.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-wars"}],
+      "parents": [{"id": "world-wars"}, {"id": "asia-states-and-wars"}],
       "organizations": ["khmer-rouge"],
       "status": "draft"
     },
@@ -1807,7 +1825,7 @@
         "de": "Das Shogunat wird gestürzt und die kaiserliche Macht wiederhergestellt; Japan industrialisiert sich rasch von oben und wird zur imperialistischen Macht.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-states"}],
+      "parents": [{"id": "world-states"}, {"id": "asia-states-and-wars"}],
       "status": "draft"
     },
     {
@@ -2046,7 +2064,7 @@
         "de": "Hồ Chí Minh ruft in Hanoi die Demokratische Republik Vietnam aus; Frankreich lehnt ab und beginnt den Indochinakrieg.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-states"}],
+      "parents": [{"id": "world-states"}, {"id": "asia-resistance-and-liberation"}],
       "status": "draft"
     },
     {
@@ -2065,7 +2083,11 @@
         "de": "Großbritannien zieht sich zurück und teilt Britisch-Indien in Indien und Pakistan; Beginn der Dekolonisierung Asiens.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-states"}, {"id": "united-kingdom-empire"}],
+      "parents": [
+        {"id": "world-states"},
+        {"id": "united-kingdom-empire"},
+        {"id": "asia-resistance-and-liberation"}
+      ],
       "status": "draft"
     },
     {
@@ -2151,7 +2173,8 @@
       "parents": [
         {"id": "world-states"},
         {"id": "china-imperialism-and-world-power"},
-        {"id": "africa-pan-africanism-and-ideas"}
+        {"id": "africa-pan-africanism-and-ideas"},
+        {"id": "asia-communism-and-ideas"}
       ],
       "places": ["bandung"],
       "status": "draft"
@@ -2376,7 +2399,7 @@
         "de": "Der stärkste Vulkanausbruch der Neuzeit tötet in Indonesien Zehntausende Menschen und kühlt das Weltklima ab.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-disasters"}],
+      "parents": [{"id": "world-disasters"}, {"id": "asia-economy-and-disasters"}],
       "places": ["mount-tambora"],
       "status": "draft"
     },
@@ -2482,7 +2505,11 @@
         "de": "In Yunnan entstanden, verbreitet sich die Pest ab 1894 von Hongkong aus weltweit und tötet mehr als zehn Millionen Menschen, vor allem in Indien; Yersin entdeckt 1894 den Erreger.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-disasters"}, {"id": "1850-taiping-and-second-opium-war"}],
+      "parents": [
+        {"id": "world-disasters"},
+        {"id": "1850-taiping-and-second-opium-war"},
+        {"id": "asia-economy-and-disasters"}
+      ],
       "status": "draft"
     },
     {
@@ -2505,7 +2532,8 @@
       "parents": [
         {"id": "world-disasters"},
         {"id": "united-kingdom-empire"},
-        {"id": "1864-self-strengthening-and-imperialist-carve-up"}
+        {"id": "1864-self-strengthening-and-imperialist-carve-up"},
+        {"id": "asia-economy-and-disasters"}
       ],
       "status": "draft"
     },
@@ -2525,7 +2553,7 @@
         "de": "Die Explosion des Vulkans und die ausgelösten Tsunamis fordern mehr als 36 000 Tote; es ist die erste Katastrophe, die per Telegraf in Echtzeit verfolgt wird.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-disasters"}],
+      "parents": [{"id": "world-disasters"}, {"id": "asia-economy-and-disasters"}],
       "places": ["krakatoa"],
       "status": "draft"
     },
@@ -2648,7 +2676,7 @@
         "de": "Erdbeben und Brände zerstören Tokio und Yokohama; mehr als 100 000 Tote, gefolgt von Massakern an Koreanern und linken Aktivisten.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-disasters"}],
+      "parents": [{"id": "world-disasters"}, {"id": "asia-economy-and-disasters"}],
       "status": "draft"
     },
     {
@@ -2731,7 +2759,11 @@
         "de": "Unter der britischen Kriegsverwaltung führen Preissteigerungen und der Vorrang militärischer Bedürfnisse zu einer Hungersnot; etwa drei Millionen Tote.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-disasters"}, {"id": "united-kingdom-empire"}],
+      "parents": [
+        {"id": "world-disasters"},
+        {"id": "united-kingdom-empire"},
+        {"id": "asia-economy-and-disasters"}
+      ],
       "status": "draft"
     },
     {
@@ -2770,7 +2802,7 @@
         "de": "Der Zyklon tötet in Ostpakistan Hunderttausende; die Untätigkeit der Zentralregierung befeuert die Bewegung, die zur Unabhängigkeit Bangladeschs führt.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-disasters"}],
+      "parents": [{"id": "world-disasters"}, {"id": "asia-economy-and-disasters"}],
       "status": "draft"
     },
     {
@@ -2843,7 +2875,7 @@
         "de": "Ein Giftgasaustritt in der Pestizidfabrik von Union Carbide tötet in einer Nacht Tausende Anwohner und danach Tausende weitere; die schlimmste Industriekatastrophe der Geschichte.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-disasters"}, {"id": "world-ecology"}],
+      "parents": [{"id": "world-disasters"}, {"id": "world-ecology"}, {"id": "asia-economy-and-disasters"}],
       "places": ["bhopal"],
       "status": "draft"
     },
@@ -2887,7 +2919,7 @@
         "de": "Ein Seebeben vor Sumatra löst einen Tsunami aus, der in vierzehn Ländern etwa 230 000 Menschen tötet.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-disasters"}],
+      "parents": [{"id": "world-disasters"}, {"id": "asia-economy-and-disasters"}],
       "status": "draft"
     },
     {
@@ -2925,7 +2957,7 @@
         "de": "Ein Erdbeben und ein Tsunami töten in Japan fast 20 000 Menschen und verursachen die Kernschmelze in drei Reaktoren des Kraftwerks Fukushima Daiichi.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-disasters"}, {"id": "world-ecology"}],
+      "parents": [{"id": "world-disasters"}, {"id": "world-ecology"}, {"id": "asia-economy-and-disasters"}],
       "places": ["fukushima"],
       "status": "draft"
     },
@@ -5103,7 +5135,7 @@
         "de": "Bong Joon-hos Satire über eine arme Familie, die eine reiche unterwandert, gewinnt die Goldene Palme und 2020 als erster nicht englischsprachiger Film den Oscar als bester Film.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-culture"}],
+      "parents": [{"id": "world-culture"}, {"id": "asia-communism-and-ideas"}],
       "persons": ["bong-joon-ho"],
       "places": ["cannes"],
       "works": ["parasite"],
@@ -5243,7 +5275,11 @@
         "de": "Die um die halbe Welt geschickte Baltische Flotte wird von der japanischen Marine vernichtet; die Katastrophe zwingt den Zaren zu Friedensverhandlungen.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "1904-russo-japanese-war"}, {"id": "1905-russian-revolution"}],
+      "parents": [
+        {"id": "1904-russo-japanese-war"},
+        {"id": "1905-russian-revolution"},
+        {"id": "asia-states-and-wars"}
+      ],
       "sources": [{"ref": "wp-en-battle-of-tsushima"}],
       "status": "draft"
     },
@@ -5263,7 +5299,11 @@
         "de": "Der von Witte in den USA ausgehandelte Frieden tritt Port Arthur, Süd-Sachalin und den Einfluss in Korea an Japan ab; das Regime kann seine Truppen gegen die Revolution zurückholen.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "1904-russo-japanese-war"}, {"id": "1905-russian-revolution"}],
+      "parents": [
+        {"id": "1904-russo-japanese-war"},
+        {"id": "1905-russian-revolution"},
+        {"id": "asia-states-and-wars"}
+      ],
       "persons": ["witte"],
       "sources": [{"ref": "wp-en-sergei-witte"}, {"ref": "wp-en-battle-of-tsushima"}],
       "status": "draft"
@@ -6309,7 +6349,7 @@
         "de": "Hwang Dong-hyuks südkoreanische Serie, in der hoch verschuldete Menschen in Kinderspielen zur Unterhaltung reicher Zuschauer um ihr Leben kämpfen, wird zur damals meistgesehenen Netflix-Serie.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-culture"}],
+      "parents": [{"id": "world-culture"}, {"id": "asia-communism-and-ideas"}],
       "persons": ["hwang-dong-hyuk"],
       "works": ["squid-game"],
       "tags": ["cinéma"],
@@ -6572,7 +6612,7 @@
         "de": "Eine neurologische Krankheit, verursacht durch das Quecksilber, das die Chisso-Fabrik in die Bucht leitet, wird offiziell entdeckt; Konzern und Staat leugnen jahrelang, der Kampf der Opfer führt 1973 zur Verurteilung von Chisso.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-disasters"}, {"id": "world-ecology"}],
+      "parents": [{"id": "world-disasters"}, {"id": "world-ecology"}, {"id": "asia-economy-and-disasters"}],
       "places": ["minamata"],
       "organizations": ["chisso"],
       "sources": [{"ref": "wp-en-minamata-disease"}, {"ref": "wp-en-minamata-kumamoto"}],
@@ -7727,7 +7767,7 @@
         "de": "Außergewöhnliche Monsunregen und Gletscherschmelze überfluten etwa ein Drittel des Landes und betreffen über 30 Millionen Menschen, in einem Land, das weniger als 1 % der weltweiten Treibhausgase ausstößt.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-disasters"}, {"id": "world-ecology"}],
+      "parents": [{"id": "world-disasters"}, {"id": "world-ecology"}, {"id": "asia-economy-and-disasters"}],
       "places": ["pakistan"],
       "status": "draft"
     },
@@ -7769,7 +7809,7 @@
         "de": "Im indischen Himalaya umarmen Dorfbewohner und dann vor allem Frauen um Gaura Devi die Bäume, um Holzfäller am Fällen zu hindern; 1980 verbietet die Regierung das Fällen in den Himalaya-Regionen für fünfzehn Jahre.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-ecology"}],
+      "parents": [{"id": "world-ecology"}, {"id": "asia-labour-and-social-struggles"}],
       "persons": ["gaura-devi", "chandi-prasad-bhatt", "sunderlal-bahuguna"],
       "places": ["chamoli-district"],
       "sources": [{"ref": "wp-en-chipko-movement"}],

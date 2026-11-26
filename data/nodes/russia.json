@@ -1568,7 +1568,7 @@
         "de": "Innerhalb von zwei Jahrzehnten unterwerfen russische Armeen die Khanate Kokand, Buchara und Chiwa sowie die Turkmenen; Turkestan wird zu einer Siedlungs- und Baumwollkolonie.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "russia-empire-and-national-question"}],
+      "parents": [{"id": "russia-empire-and-national-question"}, {"id": "asia-imperialism"}],
       "sources": [{"ref": "wp-en-russian-conquest-of-central-asia"}],
       "status": "draft"
     },
@@ -2338,7 +2338,7 @@
         "de": "Die Zwangsrekrutierung zentralasiatischer Muslime für Arbeitsbataillone löst einen Aufstand aus, der in Blut ertränkt wird; Hunderttausende Kirgisen und Kasachen fliehen nach China, das Ürkün.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "russia-empire-and-national-question"}],
+      "parents": [{"id": "russia-empire-and-national-question"}, {"id": "asia-resistance-and-liberation"}],
       "places": ["khujand"],
       "sources": [{"ref": "wp-en-central-asian-revolt-of-1916"}],
       "status": "draft"
@@ -4312,7 +4312,8 @@
       "parents": [
         {"id": "1945-late-stalinism"},
         {"id": "1939-second-world-war"},
-        {"id": "1937-war-of-resistance-against-japan"}
+        {"id": "1937-war-of-resistance-against-japan"},
+        {"id": "asia-states-and-wars"}
       ],
       "persons": ["vyacheslav-molotov"],
       "organizations": ["red-army"],
@@ -7711,7 +7712,8 @@
       "parents": [
         {"id": "1917-soviet-power-civil-war-and-war-communism"},
         {"id": "russia-empire-and-national-question"},
-        {"id": "1919-communist-international-period"}
+        {"id": "1919-communist-international-period"},
+        {"id": "asia-communism-and-ideas"}
       ],
       "persons": ["zinoviev"],
       "places": ["baku"],

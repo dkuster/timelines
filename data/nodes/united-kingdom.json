@@ -1424,7 +1424,7 @@
         "de": "Ausgehend von der Meuterei der Sepoys in Meerut erfasst der Aufstand Nordindien und ruft in Delhi den Mogulkaiser aus; die britische Rückeroberung geht mit Massakern einher, die Zahl der indischen Toten wird auf 800.000 oder mehr geschätzt.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "united-kingdom-empire"}],
+      "parents": [{"id": "united-kingdom-empire"}, {"id": "asia-resistance-and-liberation"}],
       "places": ["meerut", "delhi"],
       "organizations": ["east-india-company"],
       "sources": [{"ref": "wp-en-indian-rebellion-of-1857"}],
@@ -1446,7 +1446,7 @@
         "de": "Nach dem Aufstand übernimmt die Krone von der Ostindien-Kompanie direkt die Verwaltung Indiens: Beginn des British Raj.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "united-kingdom-empire"}],
+      "parents": [{"id": "united-kingdom-empire"}, {"id": "asia-imperialism"}],
       "organizations": ["east-india-company"],
       "sources": [{"ref": "wp-en-government-of-india-act-1858"}, {"ref": "wp-en-indian-rebellion-of-1857"}],
       "status": "draft"
@@ -2498,7 +2498,7 @@
         "de": "General Dyer lässt ohne Vorwarnung auf eine unbewaffnete Menge im Garten Jallianwala Bagh schießen: 379 Tote nach offizieller Zählung, etwa 1.000 nach Angaben des Kongresses.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "united-kingdom-empire"}],
+      "parents": [{"id": "united-kingdom-empire"}, {"id": "asia-resistance-and-liberation"}],
       "persons": ["reginald-dyer"],
       "places": ["amritsar"],
       "sources": [{"ref": "wp-en-jallianwala-bagh-massacre"}],
@@ -2978,7 +2978,7 @@
         "de": "Gandhi marschiert zum Meer, um das britische Salzmonopol herauszufordern, und löst eine Massenkampagne zivilen Ungehorsams aus: über 60.000 Inder werden inhaftiert.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "united-kingdom-empire"}],
+      "parents": [{"id": "united-kingdom-empire"}, {"id": "asia-resistance-and-liberation"}],
       "persons": ["gandhi"],
       "sources": [{"ref": "wp-en-salt-march"}],
       "status": "draft"
@@ -3022,7 +3022,7 @@
         "de": "Mitten im Krieg fordert der Kongress unter der Losung „Tun oder sterben“ den sofortigen Abzug der Briten; über 100.000 Verhaftungen und Tausende Tote.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "united-kingdom-empire"}],
+      "parents": [{"id": "united-kingdom-empire"}, {"id": "asia-resistance-and-liberation"}],
       "persons": ["gandhi"],
       "sources": [{"ref": "wp-en-quit-india-movement"}],
       "status": "draft"
@@ -3223,7 +3223,7 @@
         "de": "Krieg gegen die kommunistische Guerilla in Malaya: eine Million Zivilisten in „neue Dörfer“ umgesiedelt, ein Massaker in Batang Kali und rund 11.000 Tote.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "united-kingdom-empire"}],
+      "parents": [{"id": "united-kingdom-empire"}, {"id": "asia-resistance-and-liberation"}],
       "places": ["malaya"],
       "sources": [{"ref": "wp-en-malayan-emergency"}],
       "status": "draft"

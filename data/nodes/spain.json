@@ -2445,7 +2445,7 @@
         "de": "Der Geheimbund Katipunan erhebt den Archipel gegen die spanische Herrschaft; die Hinrichtung des Schriftstellers José Rizal in Manila macht ihn zum Nationalmärtyrer.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "spain-colonial-empire"}],
+      "parents": [{"id": "spain-colonial-empire"}, {"id": "asia-resistance-and-liberation"}],
       "persons": ["jose-rizal"],
       "places": ["philippines"],
       "sources": [{"ref": "wp-en-spanish-empire"}],
@@ -2475,7 +2475,8 @@
         {"id": "1874-bourbon-restoration"},
         {"id": "united-states-empire"},
         {"id": "1877-gilded-age-and-labour-wars"},
-        {"id": "latin-america-imperialism"}
+        {"id": "latin-america-imperialism"},
+        {"id": "asia-imperialism"}
       ],
       "places": ["cuba", "philippines"],
       "sources": [{"ref": "wp-en-spanish-american-war"}],

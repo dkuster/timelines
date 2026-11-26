@@ -3387,7 +3387,8 @@
       "parents": [
         {"id": "united-states-empire"},
         {"id": "world-wars"},
-        {"id": "1877-gilded-age-and-labour-wars"}
+        {"id": "1877-gilded-age-and-labour-wars"},
+        {"id": "asia-resistance-and-liberation"}
       ],
       "persons": ["emilio-aguinaldo", "william-mckinley"],
       "places": ["philippines"],
@@ -5035,7 +5036,7 @@
         "de": "Nach dem amerikanischen Ölembargo greift Japan die Pazifikflotte auf Hawaii an; die USA treten in den Zweiten Weltkrieg ein.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "1929-depression-new-deal-and-second-world-war"}],
+      "parents": [{"id": "1929-depression-new-deal-and-second-world-war"}, {"id": "asia-states-and-wars"}],
       "places": ["pearl-harbor", "hawaii"],
       "sources": [{"ref": "zinn-peoples-history", "chapter": "16. A People's War?"}],
       "status": "draft"
@@ -5713,7 +5714,11 @@
         "de": "Mit Billigung Washingtons stürzen südvietnamesische Generäle Präsident Diệm, der nach der Unterdrückung der Buddhisten zu unbeliebt geworden war, und richten ihn hin.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "united-states-empire"}, {"id": "1945-cold-war-mccarthyism-and-civil-rights"}],
+      "parents": [
+        {"id": "united-states-empire"},
+        {"id": "1945-cold-war-mccarthyism-and-civil-rights"},
+        {"id": "asia-states-and-wars"}
+      ],
       "persons": ["ngo-dinh-diem", "john-f-kennedy"],
       "places": ["saigon"],
       "sources": [
@@ -5816,7 +5821,11 @@
         "de": "Gestützt auf teils erfundene Angriffe auf Zerstörer gibt der Kongress Johnson freie Hand; er beginnt die Bombardierung Nordvietnams und schickt bis 1965 200.000 Soldaten.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "united-states-empire"}, {"id": "1945-cold-war-mccarthyism-and-civil-rights"}],
+      "parents": [
+        {"id": "united-states-empire"},
+        {"id": "1945-cold-war-mccarthyism-and-civil-rights"},
+        {"id": "asia-imperialism"}
+      ],
       "persons": ["lyndon-b-johnson"],
       "places": ["vietnam"],
       "sources": [{"ref": "zinn-peoples-history", "chapter": "18. The Impossible Victory: Vietnam"}],
@@ -6102,7 +6111,11 @@
         "de": "Die Nationale Befreiungsfront greift gleichzeitig die Städte des Südens an und dringt kurzzeitig in die US-Botschaft in Saigon ein: Trotz 500.000 eingesetzter Soldaten erscheint ein amerikanischer Sieg unmöglich.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "united-states-empire"}, {"id": "1968-revolts-vietnam-defeat-and-crisis-of-hegemony"}],
+      "parents": [
+        {"id": "united-states-empire"},
+        {"id": "1968-revolts-vietnam-defeat-and-crisis-of-hegemony"},
+        {"id": "asia-resistance-and-liberation"}
+      ],
       "places": ["saigon", "vietnam"],
       "sources": [{"ref": "zinn-peoples-history", "chapter": "18. The Impossible Victory: Vietnam"}],
       "status": "draft"
@@ -6124,7 +6137,11 @@
         "de": "Eine amerikanische Kompanie massakriert im Dorf My Lai mehrere hundert Zivilisten, Frauen, Kinder und Alte; das Verbrechen wird erst 1969 bekannt.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "united-states-empire"}, {"id": "1968-revolts-vietnam-defeat-and-crisis-of-hegemony"}],
+      "parents": [
+        {"id": "united-states-empire"},
+        {"id": "1968-revolts-vietnam-defeat-and-crisis-of-hegemony"},
+        {"id": "asia-imperialism"}
+      ],
       "places": ["my-lai"],
       "sources": [{"ref": "zinn-peoples-history", "chapter": "18. The Impossible Victory: Vietnam"}],
       "status": "draft"

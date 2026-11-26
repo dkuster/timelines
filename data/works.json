@@ -3428,6 +3428,70 @@
       "written_start": {"date": "1876"},
       "language": "de",
       "status": "draft"
+    },
+    {
+      "id": "max-havelaar",
+      "title": {
+        "orig": "nl",
+        "nl": "Max Havelaar, of de koffi-veilingen der Nederlandsche Handel-Maatschappy",
+        "fr": "Max Havelaar",
+        "en": "Max Havelaar",
+        "de": "Max Havelaar",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["multatuli"],
+      "date": {"date": "1860"},
+      "language": "nl",
+      "status": "draft"
+    },
+    {
+      "id": "inflammable-material-in-world-politics",
+      "title": {
+        "orig": "ru",
+        "ru": "Горючий материал в мировой политике",
+        "fr": "Matières inflammables dans la politique mondiale",
+        "en": "Inflammable Material in World Politics",
+        "de": "Zündstoff in der Weltpolitik",
+        "draft": ["en", "de"]
+      },
+      "type": "article",
+      "authors": ["lenin"],
+      "date": {"date": "1908"},
+      "language": "ru",
+      "status": "draft"
+    },
+    {
+      "id": "kanikosen",
+      "title": {
+        "orig": "ja",
+        "ja": "蟹工船",
+        "fr": "Le Bateau-usine",
+        "en": "The Crab Cannery Ship",
+        "de": "Das Fabrikschiff",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["kobayashi-takiji"],
+      "date": {"date": "1929"},
+      "language": "ja",
+      "status": "draft"
+    },
+    {
+      "id": "pather-panchali",
+      "title": {
+        "orig": "bn",
+        "bn": "পথের পাঁচালী",
+        "fr": "La Complainte du sentier",
+        "en": "Pather Panchali",
+        "de": "Apus Weg ins Leben",
+        "draft": ["en", "de"]
+      },
+      "type": "film",
+      "authors": ["satyajit-ray"],
+      "date": {"date": "1955"},
+      "language": "bn",
+      "status": "draft"
     }
   ]
 }
