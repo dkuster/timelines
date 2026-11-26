@@ -1136,7 +1136,11 @@
         "de": "Im Namen der Balkanslawen besiegt Russland das Osmanische Reich und erzwingt den Frieden von San Stefano, der auf dem Berliner Kongress zu seinen Ungunsten revidiert wird; es annektiert Kars, Batumi und Südbessarabien.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "1855-great-reforms-and-populism"}, {"id": "world-wars"}],
+      "parents": [
+        {"id": "1855-great-reforms-and-populism"},
+        {"id": "world-wars"},
+        {"id": "middle-east-states-and-wars"}
+      ],
       "persons": ["alexander-ii"],
       "sources": [{"ref": "wp-en-russo-turkish-war-1877-1878"}],
       "status": "draft"
@@ -6692,7 +6696,8 @@
       "parents": [
         {"id": "2011-protests-crimea-and-authoritarian-turn"},
         {"id": "world-wars"},
-        {"id": "2022-war-against-ukraine-and-war-economy"}
+        {"id": "2022-war-against-ukraine-and-war-economy"},
+        {"id": "2011-syrian-revolution-and-civil-war"}
       ],
       "status": "draft"
     },
@@ -7713,7 +7718,8 @@
         {"id": "1917-soviet-power-civil-war-and-war-communism"},
         {"id": "russia-empire-and-national-question"},
         {"id": "1919-communist-international-period"},
-        {"id": "asia-communism-and-ideas"}
+        {"id": "asia-communism-and-ideas"},
+        {"id": "middle-east-communism-and-ideas"}
       ],
       "persons": ["zinoviev"],
       "places": ["baku"],

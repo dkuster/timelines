@@ -9034,6 +9034,686 @@
       "country": "CN",
       "coords": {"lat": 27.91, "lon": 112.48},
       "status": "draft"
+    },
+    {
+      "id": "tehran",
+      "name": {
+        "orig": "fa",
+        "fa": "تهران",
+        "fr": "Téhéran",
+        "en": "Tehran",
+        "de": "Teheran",
+        "draft": ["en", "de"]
+      },
+      "kind": "city",
+      "country": "IR",
+      "coords": {"lat": 35.69, "lon": 51.39},
+      "status": "draft"
+    },
+    {
+      "id": "ankara",
+      "name": {"fr": "Ankara", "en": "Ankara", "de": "Ankara", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "TR",
+      "coords": {"lat": 39.93, "lon": 32.86},
+      "status": "draft"
+    },
+    {
+      "id": "damascus",
+      "name": {
+        "orig": "ar",
+        "ar": "دمشق",
+        "fr": "Damas",
+        "en": "Damascus",
+        "de": "Damaskus",
+        "draft": ["en", "de"]
+      },
+      "kind": "city",
+      "country": "SY",
+      "coords": {"lat": 33.51, "lon": 36.29},
+      "status": "draft"
+    },
+    {
+      "id": "beirut",
+      "name": {
+        "orig": "ar",
+        "ar": "بيروت",
+        "fr": "Beyrouth",
+        "en": "Beirut",
+        "de": "Beirut",
+        "draft": ["en", "de"]
+      },
+      "kind": "city",
+      "country": "LB",
+      "coords": {"lat": 33.89, "lon": 35.5},
+      "status": "draft"
+    },
+    {
+      "id": "jerusalem",
+      "name": {"fr": "Jérusalem", "en": "Jerusalem", "de": "Jerusalem", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "PS",
+      "coords": {"lat": 31.78, "lon": 35.22},
+      "status": "draft"
+    },
+    {
+      "id": "gaza",
+      "name": {
+        "orig": "ar",
+        "ar": "غزة",
+        "fr": "Gaza",
+        "en": "Gaza City",
+        "de": "Gaza",
+        "draft": ["en", "de"]
+      },
+      "kind": "city",
+      "country": "PS",
+      "coords": {"lat": 31.5, "lon": 34.47},
+      "status": "draft"
+    },
+    {
+      "id": "gaza-strip",
+      "name": {"fr": "Bande de Gaza", "en": "Gaza Strip", "de": "Gazastreifen", "draft": ["en", "de"]},
+      "kind": "region",
+      "country": "PS",
+      "coords": {"lat": 31.42, "lon": 34.37},
+      "status": "draft"
+    },
+    {
+      "id": "amman",
+      "name": {"fr": "Amman", "en": "Amman", "de": "Amman", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "JO",
+      "coords": {"lat": 31.95, "lon": 35.93},
+      "status": "draft"
+    },
+    {
+      "id": "riyadh",
+      "name": {"fr": "Riyad", "en": "Riyadh", "de": "Riad", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "SA",
+      "coords": {"lat": 24.71, "lon": 46.68},
+      "status": "draft"
+    },
+    {
+      "id": "sanaa",
+      "name": {"fr": "Sanaa", "en": "Sanaa", "de": "Sanaa", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "YE",
+      "coords": {"lat": 15.37, "lon": 44.19},
+      "status": "draft"
+    },
+    {
+      "id": "aden",
+      "name": {"fr": "Aden", "en": "Aden", "de": "Aden", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "YE",
+      "coords": {"lat": 12.79, "lon": 45.03},
+      "status": "draft"
+    },
+    {
+      "id": "tabriz",
+      "name": {"fr": "Tabriz", "en": "Tabriz", "de": "Täbris", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "IR",
+      "coords": {"lat": 38.08, "lon": 46.29},
+      "status": "draft"
+    },
+    {
+      "id": "basra",
+      "name": {"fr": "Bassorah", "en": "Basra", "de": "Basra", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "IQ",
+      "coords": {"lat": 30.51, "lon": 47.81},
+      "status": "draft"
+    },
+    {
+      "id": "mosul",
+      "name": {"fr": "Mossoul", "en": "Mosul", "de": "Mossul", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "IQ",
+      "coords": {"lat": 36.34, "lon": 43.13},
+      "status": "draft"
+    },
+    {
+      "id": "kirkuk",
+      "name": {"fr": "Kirkouk", "en": "Kirkuk", "de": "Kirkuk", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "IQ",
+      "coords": {"lat": 35.47, "lon": 44.39},
+      "status": "draft"
+    },
+    {
+      "id": "aleppo",
+      "name": {"fr": "Alep", "en": "Aleppo", "de": "Aleppo", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "SY",
+      "coords": {"lat": 36.2, "lon": 37.16},
+      "status": "draft"
+    },
+    {
+      "id": "hama",
+      "name": {"fr": "Hama", "en": "Hama", "de": "Hama", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "SY",
+      "coords": {"lat": 35.13, "lon": 36.75},
+      "status": "draft"
+    },
+    {
+      "id": "haifa",
+      "name": {"fr": "Haïfa", "en": "Haifa", "de": "Haifa", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "IL",
+      "coords": {"lat": 32.79, "lon": 34.99},
+      "status": "draft"
+    },
+    {
+      "id": "tel-aviv",
+      "name": {"fr": "Tel-Aviv", "en": "Tel Aviv", "de": "Tel Aviv", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "IL",
+      "coords": {"lat": 32.08, "lon": 34.78},
+      "status": "draft"
+    },
+    {
+      "id": "izmir",
+      "name": {"fr": "Izmir", "en": "Izmir", "de": "Izmir", "draft": ["en", "de"]},
+      "kind": "city",
+      "aliases": ["Smyrne", "Smyrna"],
+      "country": "TR",
+      "coords": {"lat": 38.42, "lon": 27.14},
+      "status": "draft"
+    },
+    {
+      "id": "thessaloniki",
+      "name": {"fr": "Thessalonique", "en": "Thessaloniki", "de": "Thessaloniki", "draft": ["en", "de"]},
+      "kind": "city",
+      "aliases": ["Salonique", "Salonica"],
+      "country": "GR",
+      "coords": {"lat": 40.64, "lon": 22.94},
+      "status": "draft"
+    },
+    {
+      "id": "trabzon",
+      "name": {"fr": "Trabzon", "en": "Trabzon", "de": "Trabzon", "draft": ["en", "de"]},
+      "kind": "city",
+      "aliases": ["Trébizonde"],
+      "country": "TR",
+      "coords": {"lat": 41.0, "lon": 39.72},
+      "status": "draft"
+    },
+    {
+      "id": "ismailia",
+      "name": {"fr": "Ismaïlia", "en": "Ismailia", "de": "Ismailia", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "EG",
+      "coords": {"lat": 30.6, "lon": 32.27},
+      "status": "draft"
+    },
+    {
+      "id": "abadan",
+      "name": {"fr": "Abadan", "en": "Abadan", "de": "Abadan", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "IR",
+      "coords": {"lat": 30.34, "lon": 48.3},
+      "status": "draft"
+    },
+    {
+      "id": "qom",
+      "name": {"fr": "Qom", "en": "Qom", "de": "Ghom", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "IR",
+      "coords": {"lat": 34.64, "lon": 50.88},
+      "status": "draft"
+    },
+    {
+      "id": "mecca",
+      "name": {"fr": "La Mecque", "en": "Mecca", "de": "Mekka", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "SA",
+      "coords": {"lat": 21.42, "lon": 39.83},
+      "status": "draft"
+    },
+    {
+      "id": "manama",
+      "name": {"fr": "Manama", "en": "Manama", "de": "Manama", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "BH",
+      "coords": {"lat": 26.23, "lon": 50.59},
+      "status": "draft"
+    },
+    {
+      "id": "diyarbakir",
+      "name": {"fr": "Diyarbakır", "en": "Diyarbakır", "de": "Diyarbakır", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "TR",
+      "coords": {"lat": 37.91, "lon": 40.24},
+      "status": "draft"
+    },
+    {
+      "id": "fallujah",
+      "name": {"fr": "Falloujah", "en": "Fallujah", "de": "Falludscha", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "IQ",
+      "coords": {"lat": 33.35, "lon": 43.78},
+      "status": "draft"
+    },
+    {
+      "id": "rasht",
+      "name": {"fr": "Racht", "en": "Rasht", "de": "Rascht", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "IR",
+      "coords": {"lat": 37.28, "lon": 49.58},
+      "status": "draft"
+    },
+    {
+      "id": "dhofar",
+      "name": {"fr": "Dhofar", "en": "Dhofar", "de": "Dhofar", "draft": ["en", "de"]},
+      "kind": "region",
+      "country": "OM",
+      "coords": {"lat": 17.0, "lon": 54.1},
+      "status": "draft"
+    },
+    {
+      "id": "camp-david",
+      "name": {"fr": "Camp David", "en": "Camp David", "de": "Camp David", "draft": ["en", "de"]},
+      "kind": "site",
+      "country": "US",
+      "coords": {"lat": 39.65, "lon": -77.46},
+      "status": "draft"
+    },
+    {
+      "id": "san-remo",
+      "name": {"fr": "San Remo", "en": "Sanremo", "de": "Sanremo", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "IT",
+      "coords": {"lat": 43.82, "lon": 7.78},
+      "status": "draft"
+    },
+    {
+      "id": "sevres",
+      "name": {"fr": "Sèvres", "en": "Sèvres", "de": "Sèvres", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "FR",
+      "coords": {"lat": 48.82, "lon": 2.21},
+      "status": "draft"
+    },
+    {
+      "id": "great-bitter-lake",
+      "name": {
+        "fr": "Grand Lac Amer",
+        "en": "Great Bitter Lake",
+        "de": "Großer Bittersee",
+        "draft": ["en", "de"]
+      },
+      "kind": "water",
+      "country": "EG",
+      "coords": {"lat": 30.36, "lon": 32.37},
+      "status": "draft"
+    },
+    {
+      "id": "gallipoli-peninsula",
+      "name": {
+        "fr": "Péninsule de Gallipoli",
+        "en": "Gallipoli peninsula",
+        "de": "Halbinsel Gallipoli",
+        "draft": ["en", "de"]
+      },
+      "kind": "region",
+      "country": "TR",
+      "coords": {"lat": 40.25, "lon": 26.45},
+      "status": "draft"
+    },
+    {
+      "id": "sinjar",
+      "name": {"fr": "Sinjar", "en": "Sinjar", "de": "Sindschar", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "IQ",
+      "coords": {"lat": 36.32, "lon": 41.86},
+      "status": "draft"
+    },
+    {
+      "id": "kobani",
+      "name": {"fr": "Kobané", "en": "Kobani", "de": "Kobanê", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "SY",
+      "coords": {"lat": 36.89, "lon": 38.35},
+      "status": "draft"
+    },
+    {
+      "id": "halabja",
+      "name": {"fr": "Halabja", "en": "Halabja", "de": "Halabdscha", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "IQ",
+      "coords": {"lat": 35.19, "lon": 45.97},
+      "status": "draft"
+    },
+    {
+      "id": "mahabad",
+      "name": {"fr": "Mahabad", "en": "Mahabad", "de": "Mahabad", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "IR",
+      "coords": {"lat": 36.77, "lon": 45.73},
+      "status": "draft"
+    },
+    {
+      "id": "deir-yassin",
+      "name": {"fr": "Deir Yassin", "en": "Deir Yassin", "de": "Deir Yassin", "draft": ["en", "de"]},
+      "kind": "site",
+      "country": "IL",
+      "coords": {"lat": 31.79, "lon": 35.18},
+      "status": "draft"
+    },
+    {
+      "id": "kafr-qasim",
+      "name": {"fr": "Kafr Qasim", "en": "Kafr Qasim", "de": "Kafr Qasim", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "IL",
+      "coords": {"lat": 32.12, "lon": 34.98},
+      "status": "draft"
+    },
+    {
+      "id": "shatila",
+      "name": {
+        "fr": "Sabra et Chatila",
+        "en": "Sabra and Shatila",
+        "de": "Sabra und Schatila",
+        "draft": ["en", "de"]
+      },
+      "kind": "district",
+      "country": "LB",
+      "coords": {"lat": 33.86, "lon": 35.5},
+      "status": "draft"
+    },
+    {
+      "id": "tel-al-zaatar",
+      "name": {"fr": "Tall al-Zaatar", "en": "Tel al-Zaatar", "de": "Tall al-Zaatar", "draft": ["en", "de"]},
+      "kind": "site",
+      "country": "LB",
+      "coords": {"lat": 33.87, "lon": 35.54},
+      "status": "draft"
+    },
+    {
+      "id": "karameh",
+      "name": {"fr": "Karameh", "en": "Karameh", "de": "Karameh", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "JO",
+      "coords": {"lat": 31.95, "lon": 35.58},
+      "status": "draft"
+    },
+    {
+      "id": "siahkal",
+      "name": {"fr": "Siahkal", "en": "Siahkal", "de": "Siahkal", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "IR",
+      "coords": {"lat": 37.15, "lon": 49.87},
+      "status": "draft"
+    },
+    {
+      "id": "maysalun",
+      "name": {"fr": "Khan Maysaloun", "en": "Khan Maysalun", "de": "Khan Maysalun", "draft": ["en", "de"]},
+      "kind": "site",
+      "country": "SY",
+      "coords": {"lat": 33.59, "lon": 36.06},
+      "status": "draft"
+    },
+    {
+      "id": "simele",
+      "name": {"fr": "Simele", "en": "Simele", "de": "Simele", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "IQ",
+      "coords": {"lat": 36.86, "lon": 42.85},
+      "status": "draft"
+    },
+    {
+      "id": "masjed-soleyman",
+      "name": {
+        "fr": "Masjed Soleyman",
+        "en": "Masjed Soleyman",
+        "de": "Masjed Soleyman",
+        "draft": ["en", "de"]
+      },
+      "kind": "city",
+      "country": "IR",
+      "coords": {"lat": 31.96, "lon": 49.29},
+      "status": "draft"
+    },
+    {
+      "id": "baba-gurgur",
+      "name": {"fr": "Baba Gurgur", "en": "Baba Gurgur", "de": "Baba Gurgur", "draft": ["en", "de"]},
+      "kind": "site",
+      "country": "IQ",
+      "coords": {"lat": 35.53, "lon": 44.34},
+      "status": "draft"
+    },
+    {
+      "id": "dammam-no-7",
+      "name": {"fr": "Puits Dammam n° 7", "en": "Dammam No. 7", "de": "Dammam Nr. 7", "draft": ["en", "de"]},
+      "kind": "site",
+      "country": "SA",
+      "coords": {"lat": 26.32, "lon": 50.13},
+      "status": "draft"
+    },
+    {
+      "id": "kafr-el-dawwar",
+      "name": {
+        "fr": "Kafr el-Dawwar",
+        "en": "Kafr el-Dawwar",
+        "de": "Kafr el-Dawwar",
+        "draft": ["en", "de"]
+      },
+      "kind": "city",
+      "country": "EG",
+      "coords": {"lat": 31.13, "lon": 30.13},
+      "status": "draft"
+    },
+    {
+      "id": "denshawai",
+      "name": {"fr": "Denchawaï", "en": "Denshawai", "de": "Denshawai", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "EG",
+      "coords": {"lat": 30.59, "lon": 30.84},
+      "status": "draft"
+    },
+    {
+      "id": "tunceli",
+      "name": {
+        "fr": "Tunceli (Dersim)",
+        "en": "Tunceli (Dersim)",
+        "de": "Tunceli (Dersim)",
+        "draft": ["en", "de"]
+      },
+      "kind": "city",
+      "aliases": ["Dersim"],
+      "country": "TR",
+      "coords": {"lat": 39.11, "lon": 39.55},
+      "status": "draft"
+    },
+    {
+      "id": "eastern-ghouta",
+      "name": {"fr": "Ghouta orientale", "en": "Eastern Ghouta", "de": "Ost-Ghuta", "draft": ["en", "de"]},
+      "kind": "region",
+      "country": "SY",
+      "coords": {"lat": 33.53, "lon": 36.38},
+      "status": "draft"
+    },
+    {
+      "id": "taksim-square",
+      "name": {"fr": "Place Taksim", "en": "Taksim Square", "de": "Taksim-Platz", "draft": ["en", "de"]},
+      "kind": "site",
+      "country": "TR",
+      "coords": {"lat": 41.04, "lon": 28.99},
+      "status": "draft"
+    },
+    {
+      "id": "port-of-beirut",
+      "name": {
+        "fr": "Port de Beyrouth",
+        "en": "Port of Beirut",
+        "de": "Hafen von Beirut",
+        "draft": ["en", "de"]
+      },
+      "kind": "site",
+      "country": "LB",
+      "coords": {"lat": 33.9, "lon": 35.52},
+      "status": "draft"
+    },
+    {
+      "id": "izmit",
+      "name": {"fr": "Izmit", "en": "Izmit", "de": "Izmit", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "TR",
+      "coords": {"lat": 40.77, "lon": 29.92},
+      "status": "draft"
+    },
+    {
+      "id": "bam",
+      "name": {"fr": "Bam", "en": "Bam", "de": "Bam", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "IR",
+      "coords": {"lat": 29.11, "lon": 58.36},
+      "status": "draft"
+    },
+    {
+      "id": "kahramanmaras",
+      "name": {"fr": "Kahramanmaraş", "en": "Kahramanmaraş", "de": "Kahramanmaraş", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "TR",
+      "coords": {"lat": 37.58, "lon": 36.94},
+      "status": "draft"
+    },
+    {
+      "id": "mount-lebanon",
+      "name": {"fr": "Mont-Liban", "en": "Mount Lebanon", "de": "Libanongebirge", "draft": ["en", "de"]},
+      "kind": "region",
+      "country": "LB",
+      "coords": {"lat": 33.83, "lon": 35.75},
+      "status": "draft"
+    },
+    {
+      "id": "north-east-syria",
+      "name": {
+        "fr": "Nord et Est de la Syrie (Rojava)",
+        "en": "North and East Syria (Rojava)",
+        "de": "Nord- und Ostsyrien (Rojava)",
+        "draft": ["en", "de"]
+      },
+      "kind": "region",
+      "aliases": ["Rojava"],
+      "country": "SY",
+      "coords": {"lat": 36.6, "lon": 40.5},
+      "status": "draft"
+    },
+    {
+      "id": "palestine",
+      "name": {"fr": "Palestine", "en": "Palestine", "de": "Palästina", "draft": ["en", "de"]},
+      "kind": "country",
+      "country": "PS",
+      "coords": {"lat": 31.9, "lon": 35.2},
+      "status": "draft"
+    },
+    {
+      "id": "israel",
+      "name": {"fr": "Israël", "en": "Israel", "de": "Israel", "draft": ["en", "de"]},
+      "kind": "country",
+      "country": "IL",
+      "coords": {"lat": 31.5, "lon": 34.9},
+      "status": "draft"
+    },
+    {
+      "id": "lebanon",
+      "name": {"fr": "Liban", "en": "Lebanon", "de": "Libanon", "draft": ["en", "de"]},
+      "kind": "country",
+      "country": "LB",
+      "coords": {"lat": 33.9, "lon": 35.9},
+      "status": "draft"
+    },
+    {
+      "id": "syria",
+      "name": {"fr": "Syrie", "en": "Syria", "de": "Syrien", "draft": ["en", "de"]},
+      "kind": "country",
+      "country": "SY",
+      "coords": {"lat": 35.0, "lon": 38.5},
+      "status": "draft"
+    },
+    {
+      "id": "turkey",
+      "name": {"fr": "Turquie", "en": "Turkey", "de": "Türkei", "draft": ["en", "de"]},
+      "kind": "country",
+      "country": "TR",
+      "coords": {"lat": 39.0, "lon": 35.0},
+      "status": "draft"
+    },
+    {
+      "id": "saudi-arabia",
+      "name": {"fr": "Arabie saoudite", "en": "Saudi Arabia", "de": "Saudi-Arabien", "draft": ["en", "de"]},
+      "kind": "country",
+      "country": "SA",
+      "coords": {"lat": 24.0, "lon": 45.0},
+      "status": "draft"
+    },
+    {
+      "id": "yemen",
+      "name": {"fr": "Yémen", "en": "Yemen", "de": "Jemen", "draft": ["en", "de"]},
+      "kind": "country",
+      "country": "YE",
+      "coords": {"lat": 15.5, "lon": 47.5},
+      "status": "draft"
+    },
+    {
+      "id": "bahrain",
+      "name": {"fr": "Bahreïn", "en": "Bahrain", "de": "Bahrain", "draft": ["en", "de"]},
+      "kind": "country",
+      "country": "BH",
+      "coords": {"lat": 26.05, "lon": 50.55},
+      "status": "draft"
+    },
+    {
+      "id": "najaf",
+      "name": {"fr": "Nadjaf", "en": "Najaf", "de": "Nadschaf", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "IQ",
+      "coords": {"lat": 32.03, "lon": 44.33},
+      "status": "draft"
+    },
+    {
+      "id": "galilee",
+      "name": {"fr": "Galilée", "en": "Galilee", "de": "Galiläa", "draft": ["en", "de"]},
+      "kind": "region",
+      "country": "IL",
+      "coords": {"lat": 32.9, "lon": 35.4},
+      "status": "draft"
+    },
+    {
+      "id": "hebron",
+      "name": {
+        "orig": "ar",
+        "ar": "الخليل",
+        "fr": "Hébron",
+        "en": "Hebron",
+        "de": "Hebron",
+        "draft": ["en", "de"]
+      },
+      "kind": "city",
+      "country": "PS",
+      "coords": {"lat": 31.53, "lon": 35.1},
+      "status": "draft"
+    },
+    {
+      "id": "jenin",
+      "name": {"fr": "Jénine", "en": "Jenin", "de": "Dschenin", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "PS",
+      "coords": {"lat": 32.46, "lon": 35.3},
+      "status": "draft"
+    },
+    {
+      "id": "ramallah",
+      "name": {"fr": "Ramallah", "en": "Ramallah", "de": "Ramallah", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "PS",
+      "coords": {"lat": 31.9, "lon": 35.2},
+      "status": "draft"
     }
   ]
 }

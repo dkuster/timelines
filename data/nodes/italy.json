@@ -2987,7 +2987,8 @@
       "parents": [
         {"id": "italy-colonial-empire"},
         {"id": "1900-giolittian-era"},
-        {"id": "africa-imperialism", "deep": true}
+        {"id": "africa-imperialism", "deep": true},
+        {"id": "middle-east-states-and-wars"}
       ],
       "persons": ["giovanni-giolitti"],
       "places": ["tripoli"],
@@ -6925,7 +6926,11 @@
         "de": "Basisgewerkschaften und dann die CGIL rufen zu zwei Generalstreiks gegen die Komplizenschaft mit Israel und für die Sumud-Flottille auf; Hafenarbeiter in Genua und Livorno blockieren Waffenladungen. Hunderttausende Streikende.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "2011-austerity-populism-and-far-right"}, {"id": "2023-gaza-war"}],
+      "parents": [
+        {"id": "2011-austerity-populism-and-far-right"},
+        {"id": "2023-gaza-war"},
+        {"id": "middle-east-palestine"}
+      ],
       "persons": ["maurizio-landini", "giorgia-meloni"],
       "places": ["genoa", "livorno", "rome", "milan"],
       "organizations": ["usb", "cgil"],

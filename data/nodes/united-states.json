@@ -5293,7 +5293,11 @@
         "de": "Die CIA und der britische Geheimdienst stürzen Premierminister Mossadegh, der das Öl verstaatlicht hatte, und stellen die Macht des Schahs wieder her.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "united-states-empire"}, {"id": "1945-cold-war-mccarthyism-and-civil-rights"}],
+      "parents": [
+        {"id": "united-states-empire"},
+        {"id": "1945-cold-war-mccarthyism-and-civil-rights"},
+        {"id": "middle-east-imperialism"}
+      ],
       "persons": ["mohammad-mosaddegh"],
       "places": ["iran"],
       "organizations": ["cia"],
@@ -6749,7 +6753,8 @@
       "parents": [
         {"id": "united-states-empire"},
         {"id": "1981-reaganism-and-neoliberalism"},
-        {"id": "world-wars"}
+        {"id": "world-wars"},
+        {"id": "middle-east-imperialism"}
       ],
       "persons": ["george-h-w-bush"],
       "places": ["iraq", "kuwait", "baghdad"],
@@ -7270,7 +7275,7 @@
         "de": "Von der Columbia University ausgehend, erfasst die Bewegung der Protestcamps gegen den Gazakrieg und die US-Unterstützung Israels fast 140 Hochschulen; über 3.100 Studierende und Lehrende werden verhaftet.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "2008-crisis-polarisation-and-new-struggles"}],
+      "parents": [{"id": "2008-crisis-polarisation-and-new-struggles"}, {"id": "middle-east-palestine"}],
       "places": ["new-york"],
       "sources": [{"ref": "wp-en-gaza-war-protests-at-universities"}],
       "status": "draft"
@@ -7615,7 +7620,9 @@
       "parents": [
         {"id": "united-states-empire"},
         {"id": "2008-crisis-polarisation-and-new-struggles"},
-        {"id": "world-wars"}
+        {"id": "world-wars"},
+        {"id": "middle-east-imperialism"},
+        {"id": "middle-east-states-and-wars"}
       ],
       "persons": ["donald-trump", "ali-khamenei"],
       "places": ["iran", "strait-of-hormuz"],
@@ -7643,7 +7650,11 @@
         "de": "Die Schließung von Hormus treibt den Ölpreis auf fast 120 Dollar je Barrel und Benzin auf 4,50 Dollar je Gallone; die Inflation erreicht im Mai 4,2 %, Fluggesellschaften gehen pleite, und das Verbrauchervertrauen fällt auf ein Rekordtief.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "2008-crisis-polarisation-and-new-struggles"}, {"id": "world-economy"}],
+      "parents": [
+        {"id": "2008-crisis-polarisation-and-new-struggles"},
+        {"id": "world-economy"},
+        {"id": "middle-east-economy-and-disasters"}
+      ],
       "sources": [{"ref": "wp-en-timeline-trump-2026-q1"}, {"ref": "wp-en-timeline-trump-2026-q2"}],
       "status": "draft"
     },

@@ -3407,6 +3407,250 @@
         }
       ],
       "status": "draft"
+    },
+    {
+      "id": "zionism",
+      "name": {"fr": "Sionisme", "en": "Zionism", "de": "Zionismus", "draft": ["en", "de"]},
+      "type": "current",
+      "tradition": "other",
+      "summary": {
+        "fr": "Nationalisme juif qui vise à rassembler les Juifs dans un État en Palestine, réalisé par la colonisation et la création d'Israël en 1948.",
+        "en": "Jewish nationalism aiming to gather Jews in a state in Palestine, achieved through colonisation and the creation of Israel in 1948.",
+        "de": "Jüdischer Nationalismus, der die Sammlung der Juden in einem Staat in Palästina anstrebt, verwirklicht durch Kolonisierung und die Gründung Israels 1948.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Le sionisme naît en Europe centrale et orientale à la fin du XIXe siècle comme réponse nationaliste à l'antisémitisme et aux pogroms. Theodor Herzl lui donne un programme politique en 1896 et l'Organisation sioniste, fondée à Bâle en 1897, cherche le patronage d'une grande puissance, qu'elle obtient du Royaume-Uni avec la déclaration Balfour. Sous le mandat britannique, le Fonds national juif rachète des terres et la Histadrout organise une économie juive séparée fondée sur le « travail hébreu ». Le courant travailliste dirige le Yichouv et l'État d'Israël proclamé en 1948 ; le courant révisionniste, plus militariste, prend le pouvoir avec le Likoud en 1977. Après 1967, la colonisation des territoires occupés devient le centre du projet sioniste."
+      },
+      "appraisal": {
+        "fr": "Le marxisme révolutionnaire a combattu le sionisme dès l'origine comme une impasse pour les travailleurs juifs : il détourne la lutte contre l'antisémitisme vers un projet colonial qui ne peut se réaliser qu'en dépossédant un autre peuple et en s'alliant aux puissances impérialistes. L'État d'Israël en est issu comme bastion de l'impérialisme dans la région. La solution passe par l'unité des travailleurs arabes et juifs contre leurs classes dirigeantes, dans une fédération socialiste du Moyen-Orient garantissant l'égalité et les droits nationaux de tous."
+      },
+      "milestones": [
+        {"stage": "emergence", "node": "1882-first-aliyah"},
+        {"stage": "formulation", "work": "der-judenstaat", "persons": ["theodor-herzl"]},
+        {
+          "stage": "adoption",
+          "node": "1897-first-zionist-congress",
+          "persons": ["theodor-herzl"],
+          "organizations": ["zionist-organization"]
+        },
+        {
+          "stage": "development",
+          "node": "1917-balfour-declaration",
+          "persons": ["arthur-balfour"],
+          "note": {
+            "fr": "Le Royaume-Uni fait du foyer national juif un instrument de sa domination en Palestine."
+          }
+        },
+        {
+          "stage": "development",
+          "node": "1920-founding-of-the-histadrut",
+          "organizations": ["histadrut"]
+        },
+        {
+          "stage": "test",
+          "node": "1948-israel-and-nakba",
+          "note": {
+            "fr": "La création de l'État s'accompagne de l'expulsion de la majorité des Palestiniens."
+          }
+        },
+        {"stage": "critique", "node": "1962-founding-of-matzpen", "organizations": ["matzpen"]},
+        {
+          "stage": "development",
+          "node": "1967-six-day-war",
+          "note": {
+            "fr": "La conquête de 1967 ouvre la colonisation de la Cisjordanie, de Gaza et du Golan."
+          }
+        },
+        {
+          "stage": "development",
+          "node": "2018-nation-state-law",
+          "note": {
+            "fr": "La loi fait du caractère juif de l'État et de la colonisation des principes constitutionnels."
+          }
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "arab-nationalism",
+      "name": {
+        "fr": "Nationalisme arabe",
+        "en": "Arab nationalism",
+        "de": "Arabischer Nationalismus",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Panarabisme", "Nassérisme"],
+      "type": "current",
+      "tradition": "other",
+      "summary": {
+        "fr": "Courant qui affirme l'existence d'une nation arabe unique et vise son unification et son indépendance ; ses formes principales sont le nassérisme et le baasisme.",
+        "en": "Current asserting the existence of a single Arab nation and seeking its unification and independence; its main forms are Nasserism and Baathism.",
+        "de": "Strömung, die die Existenz einer einzigen arabischen Nation behauptet und ihre Einigung und Unabhängigkeit anstrebt; ihre Hauptformen sind Nasserismus und Baathismus.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Né dans les cercles lettrés de la fin de l'Empire ottoman, le nationalisme arabe s'affirme avec la révolte arabe de 1916 puis contre le partage franco-britannique et les mandats. Après 1945, il devient une force de masse portée par les officiers et les classes moyennes : le parti Baas, fondé à Damas en 1947, prône « unité, liberté, socialisme », et Nasser, au pouvoir en Égypte à partir de 1952, en devient le symbole avec la nationalisation du canal de Suez. L'union égypto-syrienne de 1958-1961 échoue, et la défaite de 1967 discrédite les régimes nationalistes. Le Baas se divise en deux dictatures rivales en Syrie et en Irak, et l'Égypte de Sadate rompt avec le panarabisme à Camp David."
+      },
+      "appraisal": {
+        "fr": "Le nationalisme arabe a exprimé l'aspiration réelle des masses à l'indépendance et à l'unité contre les frontières tracées par l'impérialisme. Mais ses directions petites-bourgeoises et militaires ont substitué l'appareil d'État à l'action des masses, écrasé les communistes et les syndicats et nationalisé l'économie sans exproprier la bourgeoisie ni donner le pouvoir aux travailleurs : des régimes bonapartistes qui ont fini par s'entendre avec l'impérialisme. L'unité arabe ne peut être réalisée que par la classe ouvrière, dans une fédération socialiste."
+      },
+      "milestones": [
+        {"stage": "emergence", "node": "1916-arab-revolt", "persons": ["hussein-bin-ali"]},
+        {
+          "stage": "formulation",
+          "node": "1947-founding-of-the-baath-party",
+          "persons": ["michel-aflaq", "salah-al-din-al-bitar"],
+          "organizations": ["baath-party"]
+        },
+        {"stage": "adoption", "node": "1952-egyptian-revolution", "persons": ["gamal-abdel-nasser"]},
+        {"stage": "test", "node": "1956-suez-crisis", "persons": ["gamal-abdel-nasser"]},
+        {"stage": "development", "node": "1958-united-arab-republic"},
+        {
+          "stage": "test",
+          "node": "1967-six-day-war",
+          "note": {
+            "fr": "La défaite des armées égyptienne et syrienne discrédite les régimes nationalistes."
+          }
+        },
+        {"stage": "abandonment", "node": "1978-camp-david-accords", "persons": ["anwar-sadat"]}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "islamism",
+      "name": {"fr": "Islamisme", "en": "Islamism", "de": "Islamismus", "draft": ["en", "de"]},
+      "aliases": ["Islam politique"],
+      "type": "current",
+      "tradition": "religious",
+      "summary": {
+        "fr": "Courant politique qui veut fonder l'État et la société sur la loi islamique, des Frères musulmans à la République islamique d'Iran et aux groupes djihadistes.",
+        "en": "Political current seeking to base state and society on Islamic law, from the Muslim Brotherhood to the Islamic Republic of Iran and jihadist groups.",
+        "de": "Politische Strömung, die Staat und Gesellschaft auf das islamische Recht gründen will, von der Muslimbruderschaft über die Islamische Republik Iran bis zu dschihadistischen Gruppen.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "L'islamisme moderne prolonge le réformisme d'Afghani et d'Abduh, qui voulaient régénérer l'islam face à l'Europe, mais en fait un programme de pouvoir. Les Frères musulmans, fondés en 1928, deviennent le premier mouvement de masse islamiste. Sayyid Qutb radicalise la doctrine en déclarant impies les régimes musulmans, et Khomeyni théorise le gouvernement du juriste-théologien, appliqué en Iran à partir de 1979. Le courant se divise entre partis conservateurs qui participent aux élections, mouvements de résistance nationale comme le Hamas ou le Hezbollah, et groupes djihadistes comme al-Qaïda et l'État islamique. Les monarchies du Golfe ont financé une partie de ces courants contre la gauche et le nationalisme arabe."
+      },
+      "appraisal": {
+        "fr": "L'islamisme a prospéré sur l'échec et la répression de la gauche et du nationalisme arabe, en captant la révolte des pauvres des villes contre l'impérialisme et la corruption. Il ne remet pourtant pas en cause la propriété capitaliste : il défend le bazar, le clergé et une partie de la bourgeoisie, opprime les femmes, les minorités et le mouvement ouvrier, comme l'a montré l'écrasement des conseils et de la gauche iranienne après 1979. La lutte contre l'impérialisme exige une direction ouvrière indépendante et laïque, sans alliance avec ces courants."
+      },
+      "milestones": [
+        {
+          "stage": "precursor",
+          "work": "al-urwa-al-wuthqa",
+          "persons": ["jamal-al-din-al-afghani", "muhammad-abduh"]
+        },
+        {
+          "stage": "emergence",
+          "node": "1928-founding-of-the-muslim-brotherhood",
+          "persons": ["hassan-al-banna"],
+          "organizations": ["muslim-brotherhood"]
+        },
+        {
+          "stage": "formulation",
+          "node": "1964-publication-of-milestones",
+          "persons": ["sayyid-qutb"]
+        },
+        {
+          "stage": "formulation",
+          "node": "1970-islamic-government-lectures",
+          "persons": ["ruhollah-khomeini"]
+        },
+        {
+          "stage": "adoption",
+          "node": "1979-proclamation-of-the-islamic-republic",
+          "persons": ["ruhollah-khomeini"]
+        },
+        {"stage": "development", "node": "1987-founding-of-hamas", "organizations": ["hamas"]},
+        {"stage": "test", "node": "2014-islamic-state", "organizations": ["islamic-state"]}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "kemalism",
+      "name": {"fr": "Kémalisme", "en": "Kemalism", "de": "Kemalismus", "draft": ["en", "de"]},
+      "type": "current",
+      "tradition": "other",
+      "summary": {
+        "fr": "Idéologie fondatrice de la République turque : nationalisme, laïcité autoritaire, étatisme et modernisation par en haut.",
+        "en": "Founding ideology of the Turkish Republic: nationalism, authoritarian secularism, statism and modernisation from above.",
+        "de": "Gründungsideologie der Türkischen Republik: Nationalismus, autoritärer Laizismus, Etatismus und Modernisierung von oben.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Le kémalisme naît de la guerre d'indépendance menée par Mustafa Kemal contre le partage de l'Anatolie. La République proclamée en 1923 abolit le califat, adopte le Code civil suisse, l'alphabet latin et le vote des femmes. Ses « six flèches », inscrites dans la constitution en 1937, sont le républicanisme, le nationalisme, le populisme, l'étatisme, la laïcité et le réformisme. Le régime de parti unique nie l'existence des Kurdes, interdit partis et syndicats indépendants et écrase les révoltes kurdes. Après 1945, l'armée se pose en gardienne de l'héritage kémaliste par des coups d'État successifs."
+      },
+      "appraisal": {
+        "fr": "Le kémalisme est l'exemple d'une bourgeoisie nationale arrivée au pouvoir par une guerre de libération, appuyée par la Russie soviétique, qui s'est retournée aussitôt contre les communistes et les ouvriers. Ses réformes laïques et modernisatrices, réelles, ont été imposées par en haut sans révolution agraire et au prix de la négation des peuples non turcs. Il illustre la thèse de la révolution permanente : sans direction ouvrière, l'émancipation nationale aboutit à un régime bonapartiste allié tôt ou tard à l'impérialisme."
+      },
+      "milestones": [
+        {
+          "stage": "emergence",
+          "node": "1919-turkish-war-of-independence",
+          "persons": ["mustafa-kemal-ataturk"]
+        },
+        {
+          "stage": "test",
+          "node": "1921-murder-of-mustafa-suphi",
+          "note": {"fr": "Allié de Moscou, le pouvoir kémaliste liquide les dirigeants communistes turcs."}
+        },
+        {
+          "stage": "adoption",
+          "node": "1923-republic-of-turkey",
+          "persons": ["mustafa-kemal-ataturk"]
+        },
+        {"stage": "development", "node": "1924-abolition-of-the-caliphate"},
+        {"stage": "test", "node": "1925-sheikh-said-rebellion"},
+        {"stage": "test", "node": "1937-dersim-massacre"}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "right-of-return",
+      "name": {
+        "fr": "Droit au retour des réfugiés palestiniens",
+        "en": "Palestinian right of return",
+        "de": "Rückkehrrecht der palästinensischen Flüchtlinge",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Droit au retour"],
+      "type": "concept",
+      "tradition": "other",
+      "summary": {
+        "fr": "Revendication du droit des réfugiés palestiniens de 1948 et de leurs descendants à rentrer sur leurs terres et dans leurs maisons.",
+        "en": "Claim to the right of the 1948 Palestinian refugees and their descendants to return to their land and homes.",
+        "de": "Anspruch der palästinensischen Flüchtlinge von 1948 und ihrer Nachkommen auf Rückkehr auf ihr Land und in ihre Häuser.",
+        "draft": ["en", "de"]
+      },
+      "definition": {
+        "fr": "Le droit au retour désigne la revendication des quelque 700 000 Palestiniens expulsés ou enfuis en 1947-1949, et de leurs descendants, plusieurs millions aujourd'hui, à rentrer chez eux. Il s'appuie sur la résolution 194 de l'ONU (1948) et sur le droit international, mais Israël l'a toujours refusé au nom du caractère juif de l'État. L'UNRWA, créée en 1949, maintient le statut de réfugié de génération en génération. La Charte de l'OLP en fait un principe ; les accords d'Oslo le renvoient à des négociations finales qui n'ont jamais eu lieu. La Grande Marche du retour de 2018 en a fait le mot d'ordre d'un mouvement de masse à Gaza."
+      },
+      "appraisal": {
+        "fr": "Pour le marxisme révolutionnaire, le droit au retour est une revendication démocratique élémentaire, inséparable de la lutte contre un État fondé sur l'expulsion d'un peuple. Il ne peut être réalisé ni par la diplomatie des grandes puissances ni par un mini-État palestinien sous tutelle : il suppose le renversement du régime colonial et une solution socialiste garantissant l'égalité des droits aux Arabes et aux Juifs dans une fédération socialiste du Moyen-Orient."
+      },
+      "milestones": [
+        {"stage": "emergence", "node": "1948-israel-and-nakba"},
+        {
+          "stage": "formulation",
+          "node": "1948-un-resolution-194",
+          "organizations": ["united-nations"]
+        },
+        {"stage": "development", "node": "1949-founding-of-unrwa", "organizations": ["unrwa"]},
+        {
+          "stage": "adoption",
+          "node": "1964-founding-of-the-plo",
+          "organizations": ["plo"],
+          "note": {"fr": "La Charte nationale palestinienne fait du retour un principe fondateur."}
+        },
+        {
+          "stage": "revision",
+          "node": "1993-oslo-accords",
+          "note": {"fr": "Oslo renvoie la question des réfugiés aux négociations sur le statut final."}
+        },
+        {"stage": "revival", "node": "2018-great-march-of-return"}
+      ],
+      "status": "draft"
     }
   ]
 }

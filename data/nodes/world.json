@@ -284,7 +284,11 @@
         "de": "Der Kanal verbindet das Mittelmeer mit dem Roten Meer und verkürzt den Seeweg zwischen Europa und Asien; er wird zu einem zentralen Faktor britischer Kolonialherrschaft.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-economy"}, {"id": "africa-economy-and-disasters"}],
+      "parents": [
+        {"id": "world-economy"},
+        {"id": "africa-economy-and-disasters"},
+        {"id": "middle-east-economy-and-disasters"}
+      ],
       "status": "draft"
     },
     {
@@ -630,7 +634,11 @@
         "de": "Irak, Iran, Kuwait, Saudi-Arabien und Venezuela schließen sich gegen die großen westlichen Ölkonzerne zusammen.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-economy"}, {"id": "latin-america-economy-and-disasters"}],
+      "parents": [
+        {"id": "world-economy"},
+        {"id": "latin-america-economy-and-disasters"},
+        {"id": "middle-east-economy-and-disasters"}
+      ],
       "places": ["baghdad"],
       "organizations": ["opec"],
       "status": "draft"
@@ -681,7 +689,8 @@
         {"id": "1958-fifth-republic-until-1981"},
         {"id": "1970-labour-upsurge-of-the-1970s"},
         {"id": "1968-revolts-vietnam-defeat-and-crisis-of-hegemony"},
-        {"id": "world-ecology"}
+        {"id": "world-ecology"},
+        {"id": "middle-east-economy-and-disasters"}
       ],
       "organizations": ["opec"],
       "status": "draft"
@@ -703,7 +712,7 @@
         "de": "Die Iranische Revolution und dann der Iran-Irak-Krieg lassen den Ölpreis erneut stark steigen.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-economy"}],
+      "parents": [{"id": "world-economy"}, {"id": "middle-east-economy-and-disasters"}],
       "status": "draft"
     },
     {
@@ -1007,7 +1016,8 @@
         {"id": "world-wars"},
         {"id": "1848-victorian-boom-and-labour-aristocracy"},
         {"id": "1825-reign-of-nicholas-i"},
-        {"id": "1851-second-empire"}
+        {"id": "1851-second-empire"},
+        {"id": "middle-east-states-and-wars"}
       ],
       "status": "draft"
     },
@@ -1194,7 +1204,7 @@
         "de": "Die jungtürkische Regierung organisiert Deportationen und Massaker an den Armeniern des Osmanischen Reichs; etwa eine Million oder mehr Tote.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-wars"}],
+      "parents": [{"id": "world-wars"}, {"id": "1914-ottoman-empire-in-the-first-world-war"}],
       "status": "draft"
     },
     {
@@ -1472,7 +1482,7 @@
         "de": "Israel besiegt Ägypten, Jordanien und Syrien und besetzt Gaza, das Westjordanland, Ostjerusalem, den Sinai und die Golanhöhen.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-wars"}],
+      "parents": [{"id": "world-wars"}, {"id": "middle-east-states-and-wars"}, {"id": "middle-east-palestine"}],
       "status": "draft"
     },
     {
@@ -1493,7 +1503,7 @@
         "de": "Ägypten und Syrien greifen Israel an, um die 1967 verlorenen Gebiete zurückzugewinnen; der Krieg löst das arabische Ölembargo aus.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-wars"}],
+      "parents": [{"id": "world-wars"}, {"id": "middle-east-states-and-wars"}],
       "status": "draft"
     },
     {
@@ -1534,7 +1544,7 @@
         "de": "Saddam Husseins Irak überfällt den revolutionären Iran; acht Jahre Stellungskrieg und Chemiewaffen, mehrere Hunderttausend Tote.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-wars"}],
+      "parents": [{"id": "world-wars"}, {"id": "middle-east-states-and-wars"}],
       "status": "draft"
     },
     {
@@ -1649,7 +1659,12 @@
         "de": "Die USA und ihre Verbündeten marschieren unter dem Vorwand nicht vorhandener Massenvernichtungswaffen in den Irak ein; Besatzung, Bürgerkrieg und Hunderttausende Tote.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-wars"}, {"id": "1997-new-labour"}, {"id": "united-states-empire"}],
+      "parents": [
+        {"id": "world-wars"},
+        {"id": "1997-new-labour"},
+        {"id": "united-states-empire"},
+        {"id": "middle-east-imperialism"}
+      ],
       "status": "draft"
     },
     {
@@ -1689,7 +1704,12 @@
         "de": "Nach dem Hamas-Angriff vom 7. Oktober verwüstet Israel Gaza; Zehntausende Tote. Eine UN-Kommission und viele NGOs sprechen von Völkermord, was Israel zurückweist. Die Waffenruhe vom 10. Oktober 2025 bleibt brüchig.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-wars"}],
+      "parents": [
+        {"id": "world-wars"},
+        {"id": "middle-east-states-and-wars"},
+        {"id": "middle-east-imperialism"},
+        {"id": "middle-east-palestine"}
+      ],
       "sources": [{"ref": "wp-en-october-2025-gaza-war-ceasefire"}, {"ref": "un-coi-gaza-genocide-2025"}],
       "status": "draft"
     },
@@ -2003,7 +2023,7 @@
         "de": "Nach dem Vertrag von Lausanne und der Abschaffung des Sultanats ruft Mustafa Kemal auf den Trümmern des Osmanischen Reichs die Republik aus.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-states"}],
+      "parents": [{"id": "world-states"}, {"id": "middle-east-states-and-wars"}],
       "status": "draft"
     },
     {
@@ -2106,7 +2126,12 @@
         "de": "Israel ruft seine Unabhängigkeit aus; der folgende Krieg führt zur Vertreibung oder Flucht von etwa 700 000 Palästinensern, von diesen Nakba („Katastrophe“) genannt.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-states"}],
+      "parents": [
+        {"id": "world-states"},
+        {"id": "middle-east-states-and-wars"},
+        {"id": "middle-east-imperialism"},
+        {"id": "middle-east-palestine"}
+      ],
       "status": "draft"
     },
     {
@@ -2174,7 +2199,8 @@
         {"id": "world-states"},
         {"id": "china-imperialism-and-world-power"},
         {"id": "africa-pan-africanism-and-ideas"},
-        {"id": "asia-communism-and-ideas"}
+        {"id": "asia-communism-and-ideas"},
+        {"id": "middle-east-communism-and-ideas"}
       ],
       "places": ["bandung"],
       "status": "draft"
@@ -5028,7 +5054,7 @@
         "de": "Der anonyme Künstler malt neun Bilder auf die israelische Sperranlage und macht Street-Art zu einem Protestmittel mit weltweiter Wirkung.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "world-culture"}],
+      "parents": [{"id": "world-culture"}, {"id": "middle-east-palestine"}],
       "persons": ["banksy"],
       "places": ["west-bank"],
       "tags": ["arts visuels"],

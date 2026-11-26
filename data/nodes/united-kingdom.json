@@ -1674,7 +1674,12 @@
         "de": "Nach der Beschießung Alexandrias zerschlagen die Briten bei Tel el-Kebir die nationalistische Bewegung Urabis und besetzen Ägypten, das sie erst 1954–1956 verlassen.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "united-kingdom-empire"}, {"id": "africa-imperialism"}, {"id": "1879-urabi-revolt"}],
+      "parents": [
+        {"id": "united-kingdom-empire"},
+        {"id": "africa-imperialism"},
+        {"id": "1879-urabi-revolt"},
+        {"id": "middle-east-imperialism"}
+      ],
       "persons": ["ahmed-urabi"],
       "places": ["alexandria"],
       "sources": [{"ref": "wp-en-anglo-egyptian-war"}],
@@ -3001,7 +3006,11 @@
         "de": "Eröffnet mit einem sechsmonatigen Generalstreik gegen das britische Mandat und die zionistische Besiedlung, wird der Aufstand durch Zerstörung von Stadtvierteln, Hinrichtungen und Lager niedergeschlagen: rund 5.000 arabische Tote laut Walid Khalidi.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "united-kingdom-empire"}],
+      "parents": [
+        {"id": "united-kingdom-empire"},
+        {"id": "middle-east-resistance-and-liberation"},
+        {"id": "middle-east-palestine"}
+      ],
       "sources": [{"ref": "wp-en-arab-revolt-palestine-1936"}],
       "status": "draft"
     },
@@ -3265,7 +3274,8 @@
       "parents": [
         {"id": "united-kingdom-empire"},
         {"id": "1945-welfare-state-and-decolonisation"},
-        {"id": "africa-imperialism"}
+        {"id": "africa-imperialism"},
+        {"id": "middle-east-imperialism"}
       ],
       "persons": ["anthony-eden", "gamal-abdel-nasser"],
       "places": ["port-said", "london"],
@@ -4786,7 +4796,7 @@
         "de": "Rund 300.000 Menschen laut Polizei demonstrieren in London für einen Waffenstillstand in Gaza, einer der größten einer Reihe von Märschen; Innenministerin Braverman wirft der Polizei Parteilichkeit vor.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "2010-austerity-and-brexit"}],
+      "parents": [{"id": "2010-austerity-and-brexit"}, {"id": "middle-east-palestine"}],
       "places": ["london"],
       "sources": [{"ref": "khaleejtimes-london-palestine-rally-2023-11-11"}],
       "status": "draft"
@@ -4897,7 +4907,7 @@
         "de": "Die Gruppe für direkte Aktionen wird als Terrororganisation verboten; binnen Monaten werden über 2.000 Menschen wegen Unterstützungsschildern festgenommen. Vom High Court im Februar 2026 für rechtswidrig erklärt, wird das Verbot im Juni bestätigt.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "2010-austerity-and-brexit"}],
+      "parents": [{"id": "2010-austerity-and-brexit"}, {"id": "middle-east-palestine"}],
       "persons": ["huda-ammori"],
       "places": ["london"],
       "organizations": ["palestine-action", "defend-our-juries"],

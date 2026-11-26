@@ -8623,6 +8623,373 @@
       "type": "party",
       "founded": {"date": "1988-09-27"},
       "status": "draft"
+    },
+    {
+      "id": "committee-of-union-and-progress",
+      "name": {
+        "fr": "Comité Union et Progrès",
+        "en": "Committee of Union and Progress",
+        "de": "Komitee für Einheit und Fortschritt",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["CUP", "Jeunes-Turcs", "İttihat ve Terakki"],
+      "type": "party",
+      "status": "draft"
+    },
+    {
+      "id": "muslim-brotherhood",
+      "name": {
+        "fr": "Frères musulmans",
+        "en": "Muslim Brotherhood",
+        "de": "Muslimbruderschaft",
+        "draft": ["en", "de"]
+      },
+      "type": "party",
+      "founded": {"date": "1928-03"},
+      "status": "draft"
+    },
+    {
+      "id": "baath-party",
+      "name": {"fr": "Parti Baas", "en": "Ba'ath Party", "de": "Baath-Partei", "draft": ["en", "de"]},
+      "type": "party",
+      "founded": {"date": "1947-04-07"},
+      "status": "draft"
+    },
+    {
+      "id": "iraqi-communist-party",
+      "name": {
+        "fr": "Parti communiste irakien",
+        "en": "Iraqi Communist Party",
+        "de": "Irakische Kommunistische Partei",
+        "draft": ["en", "de"]
+      },
+      "type": "party",
+      "founded": {"date": "1934-03-31"},
+      "status": "draft"
+    },
+    {
+      "id": "tudeh-party",
+      "name": {
+        "fr": "Parti Toudeh",
+        "en": "Tudeh Party of Iran",
+        "de": "Tudeh-Partei",
+        "draft": ["en", "de"]
+      },
+      "type": "party",
+      "status": "draft"
+    },
+    {
+      "id": "communist-party-of-iran",
+      "name": {
+        "fr": "Parti communiste d'Iran (1920)",
+        "en": "Communist Party of Iran (1920)",
+        "de": "Kommunistische Partei Irans (1920)",
+        "draft": ["en", "de"]
+      },
+      "type": "party",
+      "founded": {"date": "1920-06"},
+      "status": "draft"
+    },
+    {
+      "id": "communist-party-of-turkey",
+      "name": {
+        "fr": "Parti communiste de Turquie",
+        "en": "Communist Party of Turkey",
+        "de": "Kommunistische Partei der Türkei",
+        "draft": ["en", "de"]
+      },
+      "type": "party",
+      "founded": {"date": "1920-09-10"},
+      "status": "draft"
+    },
+    {
+      "id": "palestine-communist-party",
+      "name": {
+        "fr": "Parti communiste palestinien",
+        "en": "Palestine Communist Party",
+        "de": "Palästinensische Kommunistische Partei",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["PKP"],
+      "type": "party",
+      "status": "draft"
+    },
+    {
+      "id": "lebanese-communist-party",
+      "name": {
+        "fr": "Parti communiste libanais",
+        "en": "Lebanese Communist Party",
+        "de": "Libanesische Kommunistische Partei",
+        "draft": ["en", "de"]
+      },
+      "type": "party",
+      "status": "draft"
+    },
+    {
+      "id": "plo",
+      "name": {
+        "fr": "Organisation de libération de la Palestine",
+        "en": "Palestine Liberation Organization",
+        "de": "Palästinensische Befreiungsorganisation",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["OLP", "PLO"],
+      "type": "other",
+      "founded": {"date": "1964-05-28"},
+      "status": "draft"
+    },
+    {
+      "id": "fatah",
+      "name": {"fr": "Fatah", "en": "Fatah", "de": "Fatah", "draft": ["en", "de"]},
+      "type": "party",
+      "status": "draft"
+    },
+    {
+      "id": "pflp",
+      "name": {
+        "fr": "Front populaire de libération de la Palestine",
+        "en": "Popular Front for the Liberation of Palestine",
+        "de": "Volksfront zur Befreiung Palästinas",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["FPLP", "PFLP"],
+      "type": "party",
+      "founded": {"date": "1967-12-11"},
+      "status": "draft"
+    },
+    {
+      "id": "hamas",
+      "name": {"fr": "Hamas", "en": "Hamas", "de": "Hamas", "draft": ["en", "de"]},
+      "type": "party",
+      "founded": {"date": "1987-12-14"},
+      "status": "draft"
+    },
+    {
+      "id": "hezbollah",
+      "name": {"fr": "Hezbollah", "en": "Hezbollah", "de": "Hisbollah", "draft": ["en", "de"]},
+      "type": "party",
+      "status": "draft"
+    },
+    {
+      "id": "pkk",
+      "name": {
+        "fr": "Parti des travailleurs du Kurdistan",
+        "en": "Kurdistan Workers' Party",
+        "de": "Arbeiterpartei Kurdistans",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["PKK"],
+      "type": "party",
+      "founded": {"date": "1978-11-27"},
+      "status": "draft"
+    },
+    {
+      "id": "islamic-state",
+      "name": {
+        "fr": "État islamique",
+        "en": "Islamic State",
+        "de": "Islamischer Staat",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Daech", "ISIS", "EI"],
+      "type": "army",
+      "status": "draft"
+    },
+    {
+      "id": "histadrut",
+      "name": {"fr": "Histadrout", "en": "Histadrut", "de": "Histadrut", "draft": ["en", "de"]},
+      "aliases": ["Fédération générale des travailleurs d'Israël"],
+      "type": "union",
+      "status": "draft"
+    },
+    {
+      "id": "zionist-organization",
+      "name": {
+        "fr": "Organisation sioniste mondiale",
+        "en": "World Zionist Organization",
+        "de": "Zionistische Weltorganisation",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Organisation sioniste"],
+      "type": "other",
+      "founded": {"date": "1897-08"},
+      "status": "draft"
+    },
+    {
+      "id": "aramco",
+      "name": {"fr": "Aramco", "en": "Aramco", "de": "Aramco", "draft": ["en", "de"]},
+      "aliases": ["Arabian American Oil Company", "Saudi Aramco"],
+      "type": "other",
+      "status": "draft"
+    },
+    {
+      "id": "anglo-persian-oil-company",
+      "name": {
+        "fr": "Anglo-Persian Oil Company",
+        "en": "Anglo-Persian Oil Company",
+        "de": "Anglo-Persian Oil Company",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["APOC", "AIOC", "BP"],
+      "type": "other",
+      "founded": {"date": "1909-04-14"},
+      "status": "draft"
+    },
+    {
+      "id": "iraq-petroleum-company",
+      "name": {
+        "fr": "Iraq Petroleum Company",
+        "en": "Iraq Petroleum Company",
+        "de": "Iraq Petroleum Company",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["IPC", "Turkish Petroleum Company"],
+      "type": "other",
+      "status": "draft"
+    },
+    {
+      "id": "fedai-guerrillas",
+      "name": {
+        "fr": "Organisation des guérilleros fedayin du peuple iranien",
+        "en": "Organization of Iranian People's Fedai Guerrillas",
+        "de": "Organisation der Volksfedajin-Guerilla Irans",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Fedayin-e Khalq", "OIPFG"],
+      "type": "party",
+      "status": "draft"
+    },
+    {
+      "id": "matzpen",
+      "name": {"fr": "Matzpen", "en": "Matzpen", "de": "Matzpen", "draft": ["en", "de"]},
+      "aliases": ["Organisation socialiste israélienne"],
+      "type": "party",
+      "founded": {"date": "1962"},
+      "status": "draft"
+    },
+    {
+      "id": "syrian-democratic-forces",
+      "name": {
+        "fr": "Forces démocratiques syriennes",
+        "en": "Syrian Democratic Forces",
+        "de": "Demokratische Kräfte Syriens",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["FDS", "SDF"],
+      "type": "army",
+      "founded": {"date": "2015-10"},
+      "status": "draft"
+    },
+    {
+      "id": "houthis",
+      "name": {
+        "fr": "Houthis (Ansar Allah)",
+        "en": "Houthis (Ansar Allah)",
+        "de": "Huthi (Ansar Allah)",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Ansar Allah"],
+      "type": "army",
+      "status": "draft"
+    },
+    {
+      "id": "socialist-workers-federation-salonica",
+      "name": {
+        "fr": "Fédération socialiste ouvrière de Salonique",
+        "en": "Socialist Workers' Federation of Salonica",
+        "de": "Sozialistische Arbeiterföderation Saloniki",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Federación"],
+      "type": "union",
+      "founded": {"date": "1909"},
+      "status": "draft"
+    },
+    {
+      "id": "pfloag",
+      "name": {
+        "fr": "Front populaire pour la libération du Golfe arabe occupé",
+        "en": "Popular Front for the Liberation of the Occupied Arabian Gulf",
+        "de": "Volksfront zur Befreiung des besetzten Arabischen Golfs",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["PFLOAG", "Front de libération du Dhofar"],
+      "type": "party",
+      "status": "draft"
+    },
+    {
+      "id": "national-liberation-front-yemen",
+      "name": {
+        "fr": "Front de libération nationale (Yémen du Sud)",
+        "en": "National Liberation Front (South Yemen)",
+        "de": "Nationale Befreiungsfront (Südjemen)",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["FLN yéménite", "NLF"],
+      "type": "party",
+      "status": "draft"
+    },
+    {
+      "id": "unrwa",
+      "name": {
+        "fr": "Office de secours et de travaux des Nations unies pour les réfugiés de Palestine",
+        "en": "United Nations Relief and Works Agency for Palestine Refugees",
+        "de": "Hilfswerk der Vereinten Nationen für Palästina-Flüchtlinge",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["UNRWA"],
+      "type": "other",
+      "founded": {"date": "1949-12-08"},
+      "status": "draft"
+    },
+    {
+      "id": "international-court-of-justice",
+      "name": {
+        "fr": "Cour internationale de justice",
+        "en": "International Court of Justice",
+        "de": "Internationaler Gerichtshof",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["CIJ", "ICJ"],
+      "type": "other",
+      "status": "draft"
+    },
+    {
+      "id": "international-criminal-court",
+      "name": {
+        "fr": "Cour pénale internationale",
+        "en": "International Criminal Court",
+        "de": "Internationaler Strafgerichtshof",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["CPI", "ICC"],
+      "type": "other",
+      "status": "draft"
+    },
+    {
+      "id": "palestinian-authority",
+      "name": {
+        "fr": "Autorité palestinienne",
+        "en": "Palestinian Authority",
+        "de": "Palästinensische Autonomiebehörde",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Autorité nationale palestinienne"],
+      "type": "government",
+      "status": "draft"
+    },
+    {
+      "id": "haganah",
+      "name": {"fr": "Haganah", "en": "Haganah", "de": "Hagana", "draft": ["en", "de"]},
+      "type": "army",
+      "status": "draft"
+    },
+    {
+      "id": "arab-league",
+      "name": {"fr": "Ligue arabe", "en": "Arab League", "de": "Arabische Liga", "draft": ["en", "de"]},
+      "type": "international",
+      "founded": {"date": "1945-03-22"},
+      "status": "draft"
     }
   ]
 }

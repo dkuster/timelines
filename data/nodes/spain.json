@@ -6783,7 +6783,7 @@
         "de": "CCOO und UGT rufen zu Arbeitsniederlegungen, die CGT zu einem 24-Stunden-Streik gegen die internationale Mittäterschaft am israelischen Krieg in Gaza auf; rund 200 Demonstrationen im ganzen Land.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "2011-15m-austerity-and-regime-crisis"}],
+      "parents": [{"id": "2011-15m-austerity-and-regime-crisis"}, {"id": "middle-east-palestine"}],
       "places": ["madrid", "barcelona"],
       "organizations": ["ccoo", "ugt"],
       "sources": [{"ref": "euroweeklynews-gaza-strike-2025"}],

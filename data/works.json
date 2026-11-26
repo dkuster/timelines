@@ -3492,6 +3492,67 @@
       "date": {"date": "1955"},
       "language": "bn",
       "status": "draft"
+    },
+    {
+      "id": "der-judenstaat",
+      "title": {
+        "orig": "de",
+        "de": "Der Judenstaat",
+        "fr": "L'État des Juifs",
+        "en": "The Jewish State",
+        "draft": ["en", "de"]
+      },
+      "type": "pamphlet",
+      "authors": ["theodor-herzl"],
+      "date": {"date": "1896-02-14"},
+      "status": "draft"
+    },
+    {
+      "id": "milestones",
+      "title": {"fr": "Jalons sur la route", "en": "Milestones", "de": "Wegzeichen", "draft": ["en", "de"]},
+      "type": "book",
+      "authors": ["sayyid-qutb"],
+      "date": {"date": "1964"},
+      "status": "draft"
+    },
+    {
+      "id": "islamic-government",
+      "title": {
+        "fr": "Le Gouvernement islamique",
+        "en": "Islamic Government",
+        "de": "Der islamische Staat",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["ruhollah-khomeini"],
+      "date": {"date": "1970"},
+      "status": "draft"
+    },
+    {
+      "id": "al-urwa-al-wuthqa",
+      "title": {
+        "fr": "Le Lien indissoluble (al-Urwa al-Wuthqa)",
+        "en": "The Firmest Bond (al-Urwa al-Wuthqa)",
+        "de": "Das festeste Band (al-Urwa al-Wuthqa)",
+        "draft": ["en", "de"]
+      },
+      "type": "newspaper",
+      "authors": ["jamal-al-din-al-afghani", "muhammad-abduh"],
+      "date": {"date": "1884-03"},
+      "status": "draft"
+    },
+    {
+      "id": "men-in-the-sun",
+      "title": {
+        "fr": "Des hommes dans le soleil",
+        "en": "Men in the Sun",
+        "de": "Männer in der Sonne",
+        "draft": ["en", "de"]
+      },
+      "type": "book",
+      "authors": ["ghassan-kanafani"],
+      "date": {"date": "1963"},
+      "status": "draft"
     }
   ]
 }

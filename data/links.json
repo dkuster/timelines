@@ -4128,6 +4128,321 @@
       "status": "draft",
       "provenance": {"by": "claude", "date": "2026-11-26"},
       "justification": "La victoire de la révolution chinoise encourage les mouvements de libération d'Asie et pèse sur la naissance du non-alignement."
+    },
+    {
+      "id": "1916-sykes-picot-agreement-leads-to-1920-san-remo-conference",
+      "from": "node:1916-sykes-picot-agreement",
+      "to": "node:1920-san-remo-conference",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La conférence de San Remo met en œuvre le partage négocié en secret en 1916."
+    },
+    {
+      "id": "1917-balfour-declaration-leads-to-1936-arab-revolt-in-palestine",
+      "from": "node:1917-balfour-declaration",
+      "to": "node:1936-arab-revolt-in-palestine",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La politique du foyer national inscrite dans le mandat, immigration et achats de terres, nourrit la révolte arabe de 1936."
+    },
+    {
+      "id": "1897-first-zionist-congress-influences-1917-balfour-declaration",
+      "from": "node:1897-first-zionist-congress",
+      "to": "node:1917-balfour-declaration",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "L'Organisation sioniste née à Bâle obtient du gouvernement britannique la déclaration de 1917."
+    },
+    {
+      "id": "1951-iranian-oil-nationalisation-leads-to-1953-iranian-coup",
+      "from": "node:1951-iranian-oil-nationalisation",
+      "to": "node:1953-iranian-coup",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Le coup d'État est organisé pour défaire la nationalisation du pétrole."
+    },
+    {
+      "id": "1953-iranian-coup-influences-1978-iranian-revolution",
+      "from": "node:1953-iranian-coup",
+      "to": "node:1978-iranian-revolution",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Le coup de 1953 rétablit l'autocratie du chah que la révolution renverse vingt-cinq ans plus tard."
+    },
+    {
+      "id": "1979-iran-hostage-crisis-reaction-to-1953-iranian-coup",
+      "from": "node:1979-iran-hostage-crisis",
+      "to": "node:1953-iranian-coup",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Les preneurs d'otages invoquent la crainte d'un nouveau coup américain comme en 1953."
+    },
+    {
+      "id": "1905-russian-revolution-influences-1905-persian-constitutional-revolution",
+      "from": "node:1905-russian-revolution",
+      "to": "node:1905-persian-constitutional-revolution",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La révolution russe, connue des travailleurs iraniens émigrés à Bakou, inspire grèves et conseils en Perse."
+    },
+    {
+      "id": "1908-inflammable-material-in-world-politics-references-1908-young-turk-revolution",
+      "from": "node:1908-inflammable-material-in-world-politics",
+      "to": "node:1908-young-turk-revolution",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Lénine range la révolution jeune-turque parmi les signes de l'éveil révolutionnaire de l'Asie."
+    },
+    {
+      "id": "1908-inflammable-material-in-world-politics-references-1905-persian-constitutional-revolution",
+      "from": "node:1908-inflammable-material-in-world-politics",
+      "to": "node:1905-persian-constitutional-revolution",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Lénine y salue la révolution persane et dénonce l'intervention tsariste contre elle."
+    },
+    {
+      "id": "1920-baku-congress-of-the-peoples-of-the-east-leads-to-1920-founding-of-the-communist-party-of-turkey",
+      "from": "node:1920-baku-congress-of-the-peoples-of-the-east",
+      "to": "node:1920-founding-of-the-communist-party-of-turkey",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Le Parti communiste de Turquie est fondé à Bakou quelques jours après le congrès."
+    },
+    {
+      "id": "1956-suez-crisis-influences-1958-iraqi-revolution",
+      "from": "node:1956-suez-crisis",
+      "to": "node:1958-iraqi-revolution",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La victoire politique de Nasser à Suez radicalise le nationalisme arabe qui renverse la monarchie irakienne."
+    },
+    {
+      "id": "1967-six-day-war-leads-to-1967-founding-of-the-pflp",
+      "from": "node:1967-six-day-war",
+      "to": "node:1967-founding-of-the-pflp",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La défaite des armées arabes pousse la gauche nationaliste à fonder une organisation palestinienne autonome."
+    },
+    {
+      "id": "1980-iran-iraq-war-reaction-to-1978-iranian-revolution",
+      "from": "node:1980-iran-iraq-war",
+      "to": "node:1978-iranian-revolution",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Saddam Hussein attaque l'Iran pour profiter de la désorganisation révolutionnaire et contenir sa contagion."
+    },
+    {
+      "id": "1978-iranian-revolution-causes-1979-oil-crisis",
+      "from": "node:1978-iranian-revolution",
+      "to": "node:1979-oil-crisis",
+      "type": "causes",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La grève du pétrole et la chute du chah font s'effondrer la production iranienne et déclenchent le second choc pétrolier."
+    },
+    {
+      "id": "1990-iraqi-invasion-of-kuwait-leads-to-1991-gulf-war",
+      "from": "node:1990-iraqi-invasion-of-kuwait",
+      "to": "node:1991-gulf-war",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "L'invasion du Koweït sert de motif à l'intervention de la coalition menée par les États-Unis."
+    },
+    {
+      "id": "2003-iraq-war-leads-to-2014-islamic-state",
+      "from": "node:2003-iraq-war",
+      "to": "node:2014-islamic-state",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "L'occupation, la dissolution de l'armée irakienne et la guerre confessionnelle créent le terreau de l'État islamique."
+    },
+    {
+      "id": "2025-twelve-day-war-leads-to-2026-iran-war",
+      "from": "node:2025-twelve-day-war",
+      "to": "node:2026-iran-war",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La guerre de 2026 reprend, à plus grande échelle, l'offensive israélo-américaine de juin 2025."
+    },
+    {
+      "id": "1938-oil-discovery-in-saudi-arabia-leads-to-1945-quincy-agreement",
+      "from": "node:1938-oil-discovery-in-saudi-arabia",
+      "to": "node:1945-quincy-agreement",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Le pétrole saoudien fait du royaume un allié stratégique que Roosevelt vient sceller en 1945."
+    },
+    {
+      "id": "2005-banksy-west-bank-wall-references-2002-west-bank-barrier",
+      "from": "node:2005-banksy-west-bank-wall",
+      "to": "node:2002-west-bank-barrier",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Les fresques de Banksy sont peintes sur le mur de séparation."
+    },
+    {
+      "id": "2000-persepolis-references-1978-iranian-revolution",
+      "from": "node:2000-persepolis",
+      "to": "node:1978-iranian-revolution",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La bande dessinée raconte la révolution et ses suites vues par une enfant de Téhéran."
+    },
+    {
+      "id": "1987-first-intifada-leads-to-1993-oslo-accords",
+      "from": "node:1987-first-intifada",
+      "to": "node:1993-oslo-accords",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "L'Intifada pousse Israël et l'OLP à la négociation qui aboutit à Oslo."
+    },
+    {
+      "id": "1881-ottoman-public-debt-administration-comparable-to-1876-caisse-de-la-dette",
+      "from": "node:1881-ottoman-public-debt-administration",
+      "to": "node:1876-caisse-de-la-dette",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Dans l'empire comme en Égypte, une administration de créanciers européens prend le contrôle des finances publiques."
+    },
+    {
+      "id": "1938-mexican-oil-expropriation-comparable-to-1951-iranian-oil-nationalisation",
+      "from": "node:1938-mexican-oil-expropriation",
+      "to": "node:1951-iranian-oil-nationalisation",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Deux nationalisations pétrolières contre les compagnies anglo-saxonnes, suivies de boycotts."
+    },
+    {
+      "id": "1945-azerbaijan-peoples-government-comparable-to-1946-republic-of-mahabad",
+      "from": "node:1945-azerbaijan-peoples-government",
+      "to": "node:1946-republic-of-mahabad",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Deux gouvernements autonomes nés sous protection soviétique et écrasés après le retrait de l'Armée rouge."
+    },
+    {
+      "id": "1941-anglo-iraqi-war-leads-to-1941-farhud",
+      "from": "node:1941-anglo-iraqi-war",
+      "to": "node:1941-farhud",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Le pogrom éclate dans le vide du pouvoir qui suit la défaite de Rachid Ali."
+    },
+    {
+      "id": "1939-white-paper-reaction-to-1936-arab-revolt-in-palestine",
+      "from": "node:1939-white-paper",
+      "to": "node:1936-arab-revolt-in-palestine",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Londres concède des limites à l'immigration après avoir écrasé la révolte."
+    },
+    {
+      "id": "1988-palestinian-declaration-of-independence-reaction-to-1987-first-intifada",
+      "from": "node:1988-palestinian-declaration-of-independence",
+      "to": "node:1987-first-intifada",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "L'OLP traduit politiquement le soulèvement des territoires occupés."
+    },
+    {
+      "id": "1995-assassination-of-yitzhak-rabin-reaction-to-1993-oslo-accords",
+      "from": "node:1995-assassination-of-yitzhak-rabin",
+      "to": "node:1993-oslo-accords",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "L'assassin veut empêcher tout retrait issu d'Oslo."
+    },
+    {
+      "id": "2006-palestinian-legislative-election-leads-to-2007-fatah-hamas-split",
+      "from": "node:2006-palestinian-legislative-election",
+      "to": "node:2007-fatah-hamas-split",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Le refus de reconnaître le gouvernement Hamas débouche sur l'affrontement armé de 2007."
+    },
+    {
+      "id": "2007-fatah-hamas-split-leads-to-2007-blockade-of-gaza",
+      "from": "node:2007-fatah-hamas-split",
+      "to": "node:2007-blockade-of-gaza",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Israël impose le blocus après la prise de Gaza par le Hamas."
+    },
+    {
+      "id": "2005-israeli-disengagement-from-gaza-leads-to-2007-blockade-of-gaza",
+      "from": "node:2005-israeli-disengagement-from-gaza",
+      "to": "node:2007-blockade-of-gaza",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Après le retrait, Israël contrôle Gaza de l'extérieur, ce qui rend possible le blocus."
+    },
+    {
+      "id": "2021-unity-intifada-comparable-to-1976-land-day",
+      "from": "node:2021-unity-intifada",
+      "to": "node:1976-land-day",
+      "type": "comparable_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Deux grèves générales unissant les Palestiniens d'Israël à ceux des territoires."
+    },
+    {
+      "id": "2025-recognitions-of-the-state-of-palestine-reaction-to-2023-gaza-war",
+      "from": "node:2025-recognitions-of-the-state-of-palestine",
+      "to": "node:2023-gaza-war",
+      "type": "reaction_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Les reconnaissances répondent à la pression de l'opinion face à la guerre de Gaza."
+    },
+    {
+      "id": "1969-first-handala-references-1948-israel-and-nakba",
+      "from": "node:1969-first-handala",
+      "to": "node:1948-israel-and-nakba",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Handala a dix ans, l'âge de Naji al-Ali quand il a dû quitter la Palestine en 1948."
+    },
+    {
+      "id": "1963-men-in-the-sun-references-1948-israel-and-nakba",
+      "from": "node:1963-men-in-the-sun",
+      "to": "node:1948-israel-and-nakba",
+      "type": "references",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "Le roman montre les réfugiés de la Nakba réduits à l'exil clandestin."
     }
   ]
 }

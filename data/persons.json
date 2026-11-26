@@ -3545,6 +3545,29 @@
         "de": "Gamal Abdel Nasser",
         "draft": ["en", "de"]
       },
+      "aliases": ["Nasser"],
+      "occupation": {
+        "fr": "officier, président de l'Égypte (1954-1970), figure du nationalisme arabe",
+        "en": "army officer, president of Egypt (1954-1970), figure of Arab nationalism",
+        "de": "Offizier, Präsident Ägyptens (1954-1970), Symbolfigur des arabischen Nationalismus",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1918-01-15"},
+      "died": {"date": "1970-09-28"},
+      "birth_place": "alexandria",
+      "death_place": "cairo",
+      "summary": {
+        "fr": "Chef des Officiers libres qui renversent la monarchie en 1952, il nationalise le canal de Suez, devient le héros du nationalisme arabe et instaure un régime militaire qui réprime communistes et syndicats.",
+        "en": "Leader of the Free Officers who overthrew the monarchy in 1952, he nationalised the Suez Canal, became the hero of Arab nationalism and set up a military regime that repressed communists and unions.",
+        "de": "Anführer der Freien Offiziere, die 1952 die Monarchie stürzten, verstaatlichte er den Suezkanal, wurde zum Helden des arabischen Nationalismus und errichtete ein Militärregime, das Kommunisten und Gewerkschaften unterdrückte.",
+        "draft": ["en", "de"]
+      },
+      "bio": {
+        "fr": "Fils d'un employé des postes né à Alexandrie, il entre à l'Académie militaire et combat en Palestine en 1948, où la défaite le convainc de renverser le régime. Avec les Officiers libres, il fait abdiquer le roi Farouk en juillet 1952, écarte le général Neguib et devient président. Il fait pendre les grévistes de Kafr el-Dawwar, interdit les partis, emprisonne communistes et Frères musulmans. La nationalisation du canal de Suez en 1956 et l'échec de l'expédition franco-britannique et israélienne font de lui le chef reconnu du monde arabe. Il proclame l'union avec la Syrie (1958-1961), lance la réforme agraire, le barrage d'Assouan avec l'aide soviétique et les nationalisations du « socialisme arabe », intervient au Yémen et participe au mouvement des non-alignés. La défaite de 1967 ébranle son prestige ; il meurt au Caire en 1970 après avoir négocié la fin de Septembre noir.",
+        "en": "The son of a postal clerk, born in Alexandria, he entered the Military Academy and fought in Palestine in 1948, where defeat convinced him to overthrow the regime. With the Free Officers he forced King Farouk to abdicate in July 1952, sidelined General Naguib and became president. He had the Kafr el-Dawwar strikers hanged, banned the parties and jailed communists and Muslim Brothers. The nationalisation of the Suez Canal in 1956 and the failure of the Anglo-French and Israeli expedition made him the recognised leader of the Arab world. He proclaimed union with Syria (1958-1961), launched land reform, the Aswan Dam with Soviet aid and the nationalisations of Arab socialism, intervened in Yemen and took part in the Non-Aligned Movement. The 1967 defeat shook his prestige; he died in Cairo in 1970 after negotiating the end of Black September.",
+        "de": "Als Sohn eines Postangestellten in Alexandria geboren, trat er in die Militärakademie ein und kämpfte 1948 in Palästina, wo ihn die Niederlage vom Sturz des Regimes überzeugte. Mit den Freien Offizieren zwang er König Faruk im Juli 1952 zur Abdankung, drängte General Nagib beiseite und wurde Präsident. Er ließ die Streikenden von Kafr el-Dawwar hängen, verbot die Parteien und sperrte Kommunisten und Muslimbrüder ein. Die Verstaatlichung des Suezkanals 1956 und das Scheitern der britisch-französischen und israelischen Expedition machten ihn zum anerkannten Führer der arabischen Welt. Er rief die Union mit Syrien aus (1958-1961), leitete die Agrarreform, den Assuan-Staudamm mit sowjetischer Hilfe und die Verstaatlichungen des arabischen Sozialismus ein, intervenierte im Jemen und gehörte zur Bewegung der Blockfreien. Die Niederlage von 1967 erschütterte sein Ansehen; er starb 1970 in Kairo, nachdem er das Ende des Schwarzen Septembers ausgehandelt hatte.",
+        "draft": ["en", "de"]
+      },
       "status": "draft"
     },
     {
@@ -9233,6 +9256,29 @@
         "fr": "Mohammad Mosaddegh",
         "de": "Mohammad Mosaddegh"
       },
+      "aliases": ["Mossadegh", "Mossadeq"],
+      "occupation": {
+        "fr": "homme politique nationaliste, Premier ministre de l'Iran (1951-1953)",
+        "en": "nationalist politician, Prime Minister of Iran (1951-1953)",
+        "de": "nationalistischer Politiker, Premierminister Irans (1951-1953)",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1882-06-16"},
+      "died": {"date": "1967-03-05"},
+      "birth_place": "tehran",
+      "death_place": "tehran",
+      "summary": {
+        "fr": "Chef du Front national, il fait nationaliser le pétrole iranien en 1951 ; Premier ministre, il est renversé en 1953 par un coup d'État organisé par la CIA et les services britanniques.",
+        "en": "Leader of the National Front, he had Iranian oil nationalised in 1951; as prime minister he was overthrown in 1953 by a coup organised by the CIA and British intelligence.",
+        "de": "Als Führer der Nationalen Front ließ er 1951 das iranische Erdöl verstaatlichen; als Premierminister wurde er 1953 durch einen von CIA und britischem Geheimdienst organisierten Putsch gestürzt.",
+        "draft": ["en", "de"]
+      },
+      "bio": {
+        "fr": "Issu de l'aristocratie qadjare, il étudie le droit en France et en Suisse, où il obtient un doctorat à Neuchâtel. Député, ministre puis gouverneur, il s'oppose à l'ascension de Reza Khan et est écarté de la vie politique sous son règne. Revenu au parlement après 1941, il fonde le Front national et mène la campagne contre l'Anglo-Iranian Oil Company. Après le vote de la nationalisation en mars 1951, il devient Premier ministre et affronte l'embargo britannique. Appuyé par des manifestations de masse lors du soulèvement de juillet 1952, il gouverne sans s'appuyer sur la classe ouvrière, que le Toudeh, aligné sur Moscou, ne mobilise pas pour le pouvoir. Renversé en août 1953 par le coup d'État de la CIA et du MI6, il est condamné et passe le reste de sa vie en résidence surveillée à Ahmadabad, où il meurt en 1967.",
+        "en": "From the Qajar aristocracy, he studied law in France and Switzerland, earning a doctorate in Neuchâtel. A deputy, minister and then governor, he opposed Reza Khan's rise and was pushed out of political life during his reign. Returning to parliament after 1941, he founded the National Front and led the campaign against the Anglo-Iranian Oil Company. After the nationalisation vote in March 1951 he became prime minister and faced the British embargo. Backed by mass demonstrations in the July 1952 uprising, he governed without relying on the working class, which the Moscow-aligned Tudeh did not mobilise for power. Overthrown in August 1953 by the CIA and MI6 coup, he was convicted and spent the rest of his life under house arrest in Ahmadabad, where he died in 1967.",
+        "de": "Aus der Kadscharen-Aristokratie stammend, studierte er Jura in Frankreich und der Schweiz und promovierte in Neuenburg. Als Abgeordneter, Minister und Gouverneur widersetzte er sich dem Aufstieg Reza Chans und wurde unter dessen Herrschaft aus der Politik gedrängt. Nach 1941 ins Parlament zurückgekehrt, gründete er die Nationale Front und führte die Kampagne gegen die Anglo-Iranian Oil Company. Nach dem Verstaatlichungsbeschluss vom März 1951 wurde er Premierminister und sah sich dem britischen Embargo gegenüber. Von Massendemonstrationen beim Aufstand im Juli 1952 getragen, regierte er, ohne sich auf die Arbeiterklasse zu stützen, die die moskautreue Tudeh nicht für die Machtfrage mobilisierte. Im August 1953 durch den Putsch von CIA und MI6 gestürzt, wurde er verurteilt und verbrachte den Rest seines Lebens unter Hausarrest in Ahmadabad, wo er 1967 starb.",
+        "draft": ["en", "de"]
+      },
       "status": "draft"
     },
     {
@@ -14351,6 +14397,891 @@
       },
       "born": {"date": "1924"},
       "died": {"date": "1988-08-17"},
+      "status": "draft"
+    },
+    {
+      "id": "selim-iii",
+      "name": {"fr": "Sélim III", "en": "Selim III", "de": "Selim III.", "draft": ["en", "de"]},
+      "status": "draft"
+    },
+    {
+      "id": "mahmud-ii",
+      "name": {"fr": "Mahmoud II", "en": "Mahmud II", "de": "Mahmud II.", "draft": ["en", "de"]},
+      "status": "draft"
+    },
+    {
+      "id": "abdulhamid-ii",
+      "name": {"fr": "Abdülhamid II", "en": "Abdul Hamid II", "de": "Abdülhamid II.", "draft": ["en", "de"]},
+      "status": "draft"
+    },
+    {
+      "id": "mustafa-kemal-ataturk",
+      "name": {
+        "fr": "Mustafa Kemal Atatürk",
+        "en": "Mustafa Kemal Atatürk",
+        "de": "Mustafa Kemal Atatürk",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Mustafa Kemal", "Gazi"],
+      "occupation": {
+        "fr": "officier, chef de la guerre d'indépendance turque, fondateur et premier président de la République de Turquie",
+        "en": "army officer, leader of the Turkish War of Independence, founder and first president of the Republic of Turkey",
+        "de": "Offizier, Führer des Türkischen Befreiungskriegs, Gründer und erster Präsident der Republik Türkei",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1881"},
+      "died": {"date": "1938-11-10"},
+      "birth_place": "thessaloniki",
+      "death_place": "istanbul",
+      "summary": {
+        "fr": "Vainqueur des Dardanelles puis de la guerre d'indépendance, il fonde la République turque en 1923 et la transforme par des réformes laïques autoritaires sous un régime de parti unique.",
+        "en": "Victor at Gallipoli and then in the War of Independence, he founded the Turkish Republic in 1923 and transformed it through authoritarian secular reforms under a one-party regime.",
+        "de": "Sieger von Gallipoli und des Befreiungskriegs, gründete er 1923 die Türkische Republik und formte sie durch autoritäre laizistische Reformen unter einem Einparteienregime um.",
+        "draft": ["en", "de"]
+      },
+      "bio": {
+        "fr": "Né à Salonique dans une famille de petits fonctionnaires, il fait carrière dans l'armée ottomane et adhère au mouvement jeune-turc sans en être un dirigeant. Commandant de division aux Dardanelles en 1915, il en sort avec un grand prestige. En mai 1919, il débarque à Samsun et organise depuis l'Anatolie la résistance contre l'occupation alliée et l'invasion grecque, appuyé par les armes et l'or soviétiques, tout en faisant éliminer les communistes de Mustafa Suphi. La victoire de 1922 aboutit au traité de Lausanne et à la proclamation de la République en octobre 1923, dont il est président jusqu'à sa mort. Il abolit le califat, impose le Code civil, l'alphabet latin, le vote des femmes et le nom d'Atatürk, tout en écrasant les révoltes kurdes, de Cheikh Saïd à Dersim, et en interdisant partis d'opposition et syndicats indépendants. Il meurt à Istanbul en 1938.",
+        "en": "Born in Salonica into a family of minor officials, he made his career in the Ottoman army and joined the Young Turk movement without becoming one of its leaders. A divisional commander at Gallipoli in 1915, he emerged with great prestige. In May 1919 he landed at Samsun and organised resistance from Anatolia against Allied occupation and the Greek invasion, backed by Soviet arms and gold, while having Mustafa Suphi's communists eliminated. Victory in 1922 led to the Treaty of Lausanne and the proclamation of the Republic in October 1923, of which he was president until his death. He abolished the caliphate and imposed the Civil Code, the Latin alphabet, women's suffrage and the name Atatürk, while crushing the Kurdish revolts from Sheikh Said to Dersim and banning opposition parties and independent unions. He died in Istanbul in 1938.",
+        "de": "In Saloniki in eine Familie kleiner Beamter geboren, machte er Karriere in der osmanischen Armee und schloss sich der jungtürkischen Bewegung an, ohne zu ihren Führern zu gehören. Als Divisionskommandeur bei Gallipoli 1915 gewann er großes Ansehen. Im Mai 1919 landete er in Samsun und organisierte von Anatolien aus den Widerstand gegen die alliierte Besatzung und die griechische Invasion, gestützt auf sowjetische Waffen und sowjetisches Gold, während er die Kommunisten Mustafa Suphis ausschalten ließ. Der Sieg von 1922 führte zum Vertrag von Lausanne und zur Ausrufung der Republik im Oktober 1923, deren Präsident er bis zu seinem Tod blieb. Er schaffte das Kalifat ab, führte Zivilgesetzbuch, lateinisches Alphabet, Frauenwahlrecht und den Namen Atatürk ein, schlug zugleich die kurdischen Aufstände von Scheich Said bis Dersim nieder und verbot Oppositionsparteien und unabhängige Gewerkschaften. Er starb 1938 in Istanbul.",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "enver-pasha",
+      "name": {"fr": "Enver Pacha", "en": "Enver Pasha", "de": "Enver Pascha", "draft": ["en", "de"]},
+      "status": "draft"
+    },
+    {
+      "id": "talat-pasha",
+      "name": {"fr": "Talaat Pacha", "en": "Talaat Pasha", "de": "Talât Pascha", "draft": ["en", "de"]},
+      "status": "draft"
+    },
+    {
+      "id": "hussein-bin-ali",
+      "name": {
+        "fr": "Hussein ben Ali",
+        "en": "Hussein bin Ali",
+        "de": "Hussein ibn Ali",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "faisal-i-of-iraq",
+      "name": {"fr": "Fayçal Ier", "en": "Faisal I", "de": "Faisal I.", "draft": ["en", "de"]},
+      "status": "draft"
+    },
+    {
+      "id": "sultan-al-atrash",
+      "name": {
+        "fr": "Sultan al-Atrache",
+        "en": "Sultan al-Atrash",
+        "de": "Sultan al-Atrasch",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "sheikh-said",
+      "name": {"fr": "Cheikh Saïd", "en": "Sheikh Said", "de": "Scheich Said", "draft": ["en", "de"]},
+      "status": "draft"
+    },
+    {
+      "id": "seyid-riza",
+      "name": {"fr": "Seyid Rıza", "en": "Seyid Rıza", "de": "Seyid Rıza", "draft": ["en", "de"]},
+      "status": "draft"
+    },
+    {
+      "id": "sattar-khan",
+      "name": {"fr": "Sattar Khan", "en": "Sattar Khan", "de": "Sattar Chan", "draft": ["en", "de"]},
+      "status": "draft"
+    },
+    {
+      "id": "mirza-kuchik-khan",
+      "name": {
+        "fr": "Mirza Koutchak Khan",
+        "en": "Mirza Kuchik Khan",
+        "de": "Mirza Kutschak Chan",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "reza-shah",
+      "name": {"fr": "Reza Shah", "en": "Reza Shah", "de": "Reza Schah", "draft": ["en", "de"]},
+      "status": "draft"
+    },
+    {
+      "id": "mohammad-reza-pahlavi",
+      "name": {
+        "fr": "Mohammad Reza Pahlavi",
+        "en": "Mohammad Reza Pahlavi",
+        "de": "Mohammad Reza Pahlavi",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["le chah"],
+      "occupation": {
+        "fr": "dernier chah d'Iran (1941-1979)",
+        "en": "last Shah of Iran (1941-1979)",
+        "de": "letzter Schah des Iran (1941-1979)",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1919-10-26"},
+      "died": {"date": "1980-07-27"},
+      "birth_place": "tehran",
+      "death_place": "cairo",
+      "summary": {
+        "fr": "Mis sur le trône par les Alliés en 1941 et rétabli par le coup de 1953, il gouverne en allié des États-Unis avec la police politique SAVAK, jusqu'à la révolution de 1979.",
+        "en": "Put on the throne by the Allies in 1941 and restored by the 1953 coup, he ruled as a US ally with the SAVAK political police until the 1979 revolution.",
+        "de": "1941 von den Alliierten auf den Thron gesetzt und durch den Putsch von 1953 wieder eingesetzt, regierte er als Verbündeter der USA mit der Geheimpolizei SAVAK bis zur Revolution von 1979.",
+        "draft": ["en", "de"]
+      },
+      "bio": {
+        "fr": "Fils aîné de Reza Shah, il étudie en Suisse, à l'institut Le Rosey, et succède à son père lorsque Britanniques et Soviétiques le forcent à abdiquer en 1941. Affaibli face à Mossadegh, il quitte le pays en août 1953 et revient grâce au coup d'État de la CIA. Il bâtit dès lors un pouvoir personnel appuyé sur l'armée, la SAVAK créée en 1957 et l'alliance avec Washington et Israël. La Révolution blanche de 1963 modernise le pays par en haut et l'afflux des revenus pétroliers après 1973 nourrit une industrialisation rapide, les dépenses militaires et les inégalités. Les manifestations et les grèves de 1978, dont celle du pétrole, le contraignent à fuir le 16 janvier 1979. Atteint d'un cancer, il erre d'exil en exil et meurt au Caire en 1980.",
+        "en": "The eldest son of Reza Shah, he studied in Switzerland at Le Rosey and succeeded his father when the British and Soviets forced him to abdicate in 1941. Weakened in the face of Mosaddegh, he left the country in August 1953 and returned thanks to the CIA coup. From then on he built personal power resting on the army, the SAVAK created in 1957 and the alliance with Washington and Israel. The 1963 White Revolution modernised the country from above, and the flood of oil revenue after 1973 fed rapid industrialisation, military spending and inequality. The demonstrations and strikes of 1978, including the oil strike, forced him to flee on 16 January 1979. Suffering from cancer, he wandered from exile to exile and died in Cairo in 1980.",
+        "de": "Als ältester Sohn Reza Schahs studierte er in der Schweiz am Institut Le Rosey und folgte seinem Vater, als Briten und Sowjets diesen 1941 zur Abdankung zwangen. Gegenüber Mossadegh geschwächt, verließ er im August 1953 das Land und kehrte dank des CIA-Putsches zurück. Danach baute er eine persönliche Herrschaft auf, gestützt auf die Armee, die 1957 gegründete SAVAK und das Bündnis mit Washington und Israel. Die Weiße Revolution von 1963 modernisierte das Land von oben, und der Zustrom von Öleinnahmen nach 1973 nährte eine rasche Industrialisierung, Rüstungsausgaben und Ungleichheit. Die Demonstrationen und Streiks von 1978, darunter der Ölstreik, zwangen ihn am 16. Januar 1979 zur Flucht. An Krebs erkrankt, irrte er von Exil zu Exil und starb 1980 in Kairo.",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "ruhollah-khomeini",
+      "name": {
+        "fr": "Rouhollah Khomeyni",
+        "en": "Ruhollah Khomeini",
+        "de": "Ruhollah Chomeini",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Ayatollah Khomeyni", "Khomeiny"],
+      "occupation": {
+        "fr": "ayatollah, guide de la révolution islamique et premier guide suprême de l'Iran",
+        "en": "ayatollah, leader of the Islamic revolution and first Supreme Leader of Iran",
+        "de": "Ajatollah, Führer der islamischen Revolution und erster Oberster Führer Irans",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1902"},
+      "died": {"date": "1989-06-03"},
+      "death_place": "tehran",
+      "summary": {
+        "fr": "Opposant au chah exilé en 1964, il prend la tête de la révolution de 1979, fonde la République islamique sur le gouvernement du juriste-théologien et écrase la gauche et les conseils ouvriers.",
+        "en": "An opponent of the shah exiled in 1964, he took the lead of the 1979 revolution, founded the Islamic Republic on the guardianship of the jurist and crushed the left and the workers' councils.",
+        "de": "Als 1964 verbannter Gegner des Schahs übernahm er die Führung der Revolution von 1979, gründete die Islamische Republik auf der Statthalterschaft des Rechtsgelehrten und zerschlug die Linke und die Arbeiterräte.",
+        "draft": ["en", "de"]
+      },
+      "bio": {
+        "fr": "Né à Khomeyn dans une famille de clercs, il étudie la théologie à Arak puis à Qom, où il enseigne. En 1963, ses sermons contre la Révolution blanche et les privilèges américains provoquent son arrestation et le soulèvement du 15 Khordad ; il est exilé en 1964, en Turquie puis à Nadjaf. Il y élabore la doctrine du velayat-e faqih, le gouvernement du juriste-théologien. Installé près de Paris en 1978, il devient le symbole de la révolution et rentre à Téhéran le 1er février 1979. Guide suprême, il s'appuie sur le clergé, le bazar, les comités et les Gardiens de la révolution pour éliminer libéraux, gauche et conseils ouvriers, utilise la prise d'otages de l'ambassade américaine et la guerre contre l'Irak pour consolider le régime, et ordonne en 1988 l'exécution de milliers de prisonniers politiques. Il meurt à Téhéran en 1989.",
+        "en": "Born in Khomeyn into a clerical family, he studied theology in Arak and then in Qom, where he taught. In 1963 his sermons against the White Revolution and US privileges led to his arrest and the 15 Khordad uprising; he was exiled in 1964, to Turkey and then to Najaf. There he developed the doctrine of velayat-e faqih, the guardianship of the jurist. Settling near Paris in 1978, he became the symbol of the revolution and returned to Tehran on 1 February 1979. As Supreme Leader he relied on the clergy, the bazaar, the committees and the Revolutionary Guards to eliminate the liberals, the left and the workers' councils, used the US embassy hostage crisis and the war with Iraq to consolidate the regime, and in 1988 ordered the execution of thousands of political prisoners. He died in Tehran in 1989.",
+        "de": "In Chomein in eine Klerikerfamilie geboren, studierte er Theologie in Arak und dann in Ghom, wo er lehrte. 1963 führten seine Predigten gegen die Weiße Revolution und die US-Privilegien zu seiner Verhaftung und zum Aufstand vom 15. Chordad; 1964 wurde er verbannt, zuerst in die Türkei, dann nach Nadschaf. Dort entwickelte er die Lehre von der Welayat-e Faqih, der Statthalterschaft des Rechtsgelehrten. 1978 ließ er sich bei Paris nieder, wurde zum Symbol der Revolution und kehrte am 1. Februar 1979 nach Teheran zurück. Als Oberster Führer stützte er sich auf Klerus, Basar, Komitees und Revolutionsgarden, um Liberale, Linke und Arbeiterräte auszuschalten, nutzte die Geiselnahme in der US-Botschaft und den Krieg gegen den Irak zur Festigung des Regimes und ordnete 1988 die Hinrichtung Tausender politischer Gefangener an. Er starb 1989 in Teheran.",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "qazi-muhammad",
+      "name": {"fr": "Qazi Mohammad", "en": "Qazi Muhammad", "de": "Qazi Muhammad", "draft": ["en", "de"]},
+      "status": "draft"
+    },
+    {
+      "id": "jafar-pishevari",
+      "name": {
+        "fr": "Djafar Pichevari",
+        "en": "Ja'far Pishevari",
+        "de": "Dschafar Pischewari",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "mustafa-suphi",
+      "name": {"fr": "Mustafa Suphi", "en": "Mustafa Suphi", "de": "Mustafa Suphi", "draft": ["en", "de"]},
+      "occupation": {
+        "fr": "journaliste, fondateur du Parti communiste de Turquie",
+        "en": "journalist, founder of the Communist Party of Turkey",
+        "de": "Journalist, Gründer der Kommunistischen Partei der Türkei",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1883"},
+      "died": {"date": "1921-01-28"},
+      "summary": {
+        "fr": "Opposant aux Jeunes-Turcs devenu bolchevik en Russie, il fonde à Bakou en 1920 le Parti communiste de Turquie et est assassiné avec ses camarades au large de Trabzon en 1921.",
+        "en": "An opponent of the Young Turks who became a Bolshevik in Russia, he founded the Communist Party of Turkey in Baku in 1920 and was murdered with his comrades off Trabzon in 1921.",
+        "de": "Ein Gegner der Jungtürken, der in Russland zum Bolschewik wurde, gründete er 1920 in Baku die Kommunistische Partei der Türkei und wurde 1921 mit seinen Genossen vor Trabzon ermordet.",
+        "draft": ["en", "de"]
+      },
+      "bio": {
+        "fr": "Né à Giresun, sur la mer Noire, il étudie à Istanbul puis à Paris et devient journaliste et enseignant. Opposant au Comité Union et Progrès, il est exilé à Sinop en 1913, s'évade en 1914 vers la Russie, où il est interné comme ressortissant ennemi. Gagné au bolchevisme par la révolution, il organise les prisonniers de guerre et les ouvriers turcs de Russie, publie des journaux communistes en turc et forme des unités pour l'Armée rouge. Il préside le congrès qui fonde le Parti communiste de Turquie à Bakou, en septembre 1920, juste après le congrès des peuples de l'Orient. Rentré en Anatolie pour rejoindre la lutte nationale, il est refoulé vers la côte, embarqué à Trabzon et noyé avec quatorze camarades dans la nuit du 28 au 29 janvier 1921 ; le crime n'a jamais été élucidé officiellement.",
+        "en": "Born in Giresun on the Black Sea, he studied in Istanbul and then Paris and became a journalist and teacher. An opponent of the Committee of Union and Progress, he was exiled to Sinop in 1913 and escaped to Russia in 1914, where he was interned as an enemy national. Won over to Bolshevism by the revolution, he organised Turkish prisoners of war and workers in Russia, published communist newspapers in Turkish and formed units for the Red Army. He chaired the congress that founded the Communist Party of Turkey in Baku in September 1920, just after the Congress of the Peoples of the East. Returning to Anatolia to join the national struggle, he was turned back towards the coast, put on a boat at Trabzon and drowned with fourteen comrades on the night of 28-29 January 1921; the crime has never been officially solved.",
+        "de": "In Giresun am Schwarzen Meer geboren, studierte er in Istanbul und Paris und wurde Journalist und Lehrer. Als Gegner des Komitees für Einheit und Fortschritt wurde er 1913 nach Sinop verbannt und floh 1914 nach Russland, wo er als feindlicher Ausländer interniert wurde. Von der Revolution für den Bolschewismus gewonnen, organisierte er türkische Kriegsgefangene und Arbeiter in Russland, gab kommunistische Zeitungen auf Türkisch heraus und stellte Einheiten für die Rote Armee auf. Er leitete im September 1920 in Baku, unmittelbar nach dem Kongress der Völker des Ostens, den Gründungskongress der Kommunistischen Partei der Türkei. Nach Anatolien zurückgekehrt, um sich dem nationalen Kampf anzuschließen, wurde er an die Küste zurückgedrängt, in Trabzon auf ein Boot gebracht und in der Nacht vom 28. auf den 29. Januar 1921 mit vierzehn Genossen ertränkt; das Verbrechen wurde nie offiziell aufgeklärt.",
+        "draft": ["en", "de"]
+      },
+      "memberships": [
+        {
+          "org": "communist-party-of-turkey",
+          "from": {"date": "1920-09-10"},
+          "to": {"date": "1921-01-28"},
+          "role": {"fr": "président", "en": "chairman", "de": "Vorsitzender", "draft": ["en", "de"]}
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "fahd-yusuf-salman-yusuf",
+      "name": {
+        "fr": "Fahd (Youssef Salman Youssef)",
+        "en": "Fahd (Yusuf Salman Yusuf)",
+        "de": "Fahd (Yusuf Salman Yusuf)",
+        "draft": ["en", "de"]
+      },
+      "full_name": {
+        "fr": "Youssef Salman Youssef",
+        "en": "Yusuf Salman Yusuf",
+        "de": "Yusuf Salman Yusuf",
+        "draft": ["en", "de"]
+      },
+      "occupation": {
+        "fr": "dirigeant communiste, secrétaire général du Parti communiste irakien (1941-1949)",
+        "en": "communist leader, general secretary of the Iraqi Communist Party (1941-1949)",
+        "de": "kommunistischer Führer, Generalsekretär der Irakischen Kommunistischen Partei (1941-1949)",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1901"},
+      "died": {"date": "1949-02-14"},
+      "death_place": "baghdad",
+      "summary": {
+        "fr": "Bâtisseur du Parti communiste irakien, qu'il implante parmi les cheminots, les ouvriers du pétrole et des ports, il est pendu en public à Bagdad en 1949.",
+        "en": "Builder of the Iraqi Communist Party, which he rooted among railway, oil and port workers, he was publicly hanged in Baghdad in 1949.",
+        "de": "Als Aufbauer der Irakischen Kommunistischen Partei, die er unter Eisenbahnern, Öl- und Hafenarbeitern verankerte, wurde er 1949 in Bagdad öffentlich gehängt.",
+        "draft": ["en", "de"]
+      },
+      "bio": {
+        "fr": "Né à Bagdad dans une famille chrétienne de langue syriaque qui s'installe dans le Sud, il travaille dès l'adolescence et découvre le marxisme dans les années 1920 à Nassiriya et à Bassorah. Il fonde des cercles communistes dans le Sud, puis étudie à l'Université communiste des travailleurs d'Orient à Moscou au milieu des années 1930. Secrétaire général du parti à partir de 1941, il lui donne sous le pseudonyme de Fahd une organisation centralisée et l'implante parmi les cheminots, les ouvriers du pétrole de Kirkouk et les dockers de Bassorah. Arrêté en 1947 et condamné à mort, peine d'abord commuée, il continue de diriger le parti depuis la prison. Après le soulèvement d'al-Wathba et la guerre de Palestine, le pouvoir le fait rejuger ; il est pendu en public à Bagdad le 14 février 1949 avec d'autres dirigeants.",
+        "en": "Born in Baghdad into a Syriac-speaking Christian family that moved to the south, he worked from adolescence and discovered Marxism in the 1920s in Nasiriyah and Basra. He founded communist circles in the south, then studied at the Communist University of the Toilers of the East in Moscow in the mid-1930s. General secretary of the party from 1941, under the pseudonym Fahd he gave it a centralised organisation and rooted it among railway workers, the oil workers of Kirkuk and the dockers of Basra. Arrested in 1947 and sentenced to death, a sentence first commuted, he continued to lead the party from prison. After the al-Wathbah uprising and the Palestine war, the regime had him retried; he was publicly hanged in Baghdad on 14 February 1949 with other leaders.",
+        "de": "In Bagdad in eine syrischsprachige christliche Familie geboren, die in den Süden zog, arbeitete er seit seiner Jugend und lernte in den 1920er Jahren in Nasiriya und Basra den Marxismus kennen. Er gründete kommunistische Zirkel im Süden und studierte Mitte der 1930er Jahre an der Kommunistischen Universität der Werktätigen des Ostens in Moskau. Ab 1941 Generalsekretär der Partei, gab er ihr unter dem Decknamen Fahd eine zentralisierte Organisation und verankerte sie unter Eisenbahnern, den Ölarbeitern von Kirkuk und den Hafenarbeitern von Basra. 1947 verhaftet und zum Tode verurteilt, zunächst begnadigt, führte er die Partei aus dem Gefängnis weiter. Nach dem al-Wathba-Aufstand und dem Palästinakrieg ließ ihn das Regime erneut vor Gericht stellen; am 14. Februar 1949 wurde er mit anderen Führern in Bagdad öffentlich gehängt.",
+        "draft": ["en", "de"]
+      },
+      "memberships": [
+        {
+          "org": "iraqi-communist-party",
+          "from": {"date": "1941"},
+          "to": {"date": "1949-02-14"},
+          "role": {
+            "fr": "secrétaire général",
+            "en": "general secretary",
+            "de": "Generalsekretär",
+            "draft": ["en", "de"]
+          }
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "abd-al-karim-qasim",
+      "name": {
+        "fr": "Abdel Karim Kassem",
+        "en": "Abd al-Karim Qasim",
+        "de": "Abd al-Karim Qasim",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "hassan-al-banna",
+      "name": {
+        "fr": "Hassan el-Banna",
+        "en": "Hassan al-Banna",
+        "de": "Hassan al-Banna",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "sayyid-qutb",
+      "name": {"fr": "Sayyid Qutb", "en": "Sayyid Qutb", "de": "Sayyid Qutb", "draft": ["en", "de"]},
+      "status": "draft"
+    },
+    {
+      "id": "michel-aflaq",
+      "name": {"fr": "Michel Aflak", "en": "Michel Aflaq", "de": "Michel Aflaq", "draft": ["en", "de"]},
+      "status": "draft"
+    },
+    {
+      "id": "salah-al-din-al-bitar",
+      "name": {
+        "fr": "Salah Eddine Bitar",
+        "en": "Salah al-Din al-Bitar",
+        "de": "Salah ad-Din al-Bitar",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "yasser-arafat",
+      "name": {"fr": "Yasser Arafat", "en": "Yasser Arafat", "de": "Jassir Arafat", "draft": ["en", "de"]},
+      "aliases": ["Abou Ammar"],
+      "occupation": {
+        "fr": "dirigeant du Fatah et président de l'OLP (1969-2004), président de l'Autorité palestinienne",
+        "en": "leader of Fatah and chairman of the PLO (1969-2004), president of the Palestinian Authority",
+        "de": "Führer der Fatah und Vorsitzender der PLO (1969-2004), Präsident der Palästinensischen Autonomiebehörde",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1929-08-24"},
+      "died": {"date": "2004-11-11"},
+      "birth_place": "cairo",
+      "summary": {
+        "fr": "Cofondateur du Fatah, il dirige l'OLP de 1969 à sa mort, des fedayin de Karameh et de Beyrouth aux accords d'Oslo, puis préside l'Autorité palestinienne.",
+        "en": "Co-founder of Fatah, he led the PLO from 1969 until his death, from the fedayeen of Karameh and Beirut to the Oslo Accords, then presided over the Palestinian Authority.",
+        "de": "Mitgründer der Fatah, führte er die PLO von 1969 bis zu seinem Tod, von den Fedajin von Karama und Beirut bis zu den Oslo-Abkommen, und stand dann der Palästinensischen Autonomiebehörde vor.",
+        "draft": ["en", "de"]
+      },
+      "bio": {
+        "fr": "Né au Caire dans une famille de commerçants palestiniens, il étudie le génie civil et dirige l'Union des étudiants palestiniens. Ingénieur au Koweït, il fonde le Fatah à la fin des années 1950 avec d'autres exilés, sur la ligne d'une lutte armée indépendante des régimes arabes. Après Karameh, le Fatah prend le contrôle de l'OLP, dont il devient président en 1969. Chassé de Jordanie après Septembre noir, puis de Beyrouth en 1982, il installe la direction à Tunis. Il parle à l'ONU en 1974, proclame l'État de Palestine en 1988 et signe les accords d'Oslo en 1993, qui lui valent le prix Nobel de la paix. Président de l'Autorité palestinienne à partir de 1996, il est assiégé par l'armée israélienne dans son quartier général de Ramallah à partir de 2002. Il meurt près de Paris en 2004.",
+        "en": "Born in Cairo into a family of Palestinian merchants, he studied civil engineering and led the Union of Palestinian Students. An engineer in Kuwait, he founded Fatah in the late 1950s with other exiles, on the line of an armed struggle independent of the Arab regimes. After Karameh, Fatah took control of the PLO, of which he became chairman in 1969. Driven out of Jordan after Black September and then from Beirut in 1982, he moved the leadership to Tunis. He addressed the UN in 1974, proclaimed the State of Palestine in 1988 and signed the Oslo Accords in 1993, which earned him the Nobel Peace Prize. President of the Palestinian Authority from 1996, he was besieged by the Israeli army in his Ramallah headquarters from 2002. He died near Paris in 2004.",
+        "de": "In Kairo in eine palästinensische Kaufmannsfamilie geboren, studierte er Bauingenieurwesen und leitete den Verband Palästinensischer Studenten. Als Ingenieur in Kuwait gründete er Ende der 1950er Jahre mit anderen Exilanten die Fatah, die einen von den arabischen Regimen unabhängigen bewaffneten Kampf vertrat. Nach Karama übernahm die Fatah die Kontrolle über die PLO, deren Vorsitzender er 1969 wurde. Nach dem Schwarzen September aus Jordanien und 1982 aus Beirut vertrieben, verlegte er die Führung nach Tunis. 1974 sprach er vor der UNO, 1988 rief er den Staat Palästina aus und 1993 unterzeichnete er die Oslo-Abkommen, die ihm den Friedensnobelpreis einbrachten. Ab 1996 Präsident der Autonomiebehörde, wurde er ab 2002 in seinem Hauptquartier in Ramallah von der israelischen Armee belagert. Er starb 2004 bei Paris.",
+        "draft": ["en", "de"]
+      },
+      "memberships": [
+        {
+          "org": "fatah",
+          "role": {
+            "fr": "cofondateur et dirigeant",
+            "en": "co-founder and leader",
+            "de": "Mitgründer und Führer",
+            "draft": ["en", "de"]
+          }
+        },
+        {
+          "org": "plo",
+          "from": {"date": "1969-02"},
+          "to": {"date": "2004-11-11"},
+          "role": {
+            "fr": "président du comité exécutif",
+            "en": "chairman of the executive committee",
+            "de": "Vorsitzender des Exekutivkomitees",
+            "draft": ["en", "de"]
+          }
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "george-habash",
+      "name": {
+        "fr": "Georges Habache",
+        "en": "George Habash",
+        "de": "George Habasch",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["al-Hakim"],
+      "occupation": {
+        "fr": "médecin, fondateur du Mouvement des nationalistes arabes et du FPLP",
+        "en": "physician, founder of the Arab Nationalist Movement and the PFLP",
+        "de": "Arzt, Gründer der Bewegung Arabischer Nationalisten und der PFLP",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1926-08-02"},
+      "died": {"date": "2008-01-26"},
+      "death_place": "amman",
+      "summary": {
+        "fr": "Chassé de Lydda en 1948, il fonde le Mouvement des nationalistes arabes puis le FPLP, qu'il dirige jusqu'en 2000 sur une ligne marxiste-léniniste opposée aux compromis de l'OLP.",
+        "en": "Driven out of Lydda in 1948, he founded the Arab Nationalist Movement and then the PFLP, which he led until 2000 on a Marxist-Leninist line opposed to the PLO's compromises.",
+        "de": "1948 aus Lydda vertrieben, gründete er die Bewegung Arabischer Nationalisten und dann die PFLP, die er bis 2000 auf einer marxistisch-leninistischen Linie gegen die Kompromisse der PLO führte.",
+        "draft": ["en", "de"]
+      },
+      "bio": {
+        "fr": "Né à Lydda dans une famille chrétienne orthodoxe, il étudie la médecine à l'Université américaine de Beyrouth. En 1948, sa famille est expulsée lors de la prise de Lydda par l'armée israélienne. Médecin à Amman, il fonde au début des années 1950 le Mouvement des nationalistes arabes, panarabe et proche de Nasser, qui essaime au Yémen du Sud, à Oman et au Liban. Après la défaite de 1967, il crée le FPLP, qui se proclame marxiste-léniniste et devient la deuxième force de l'OLP ; les détournements d'avions de 1970 servent de prétexte à Septembre noir. En 1974, il prend la tête du Front du refus contre le programme par étapes du Fatah, puis s'oppose aux accords d'Oslo. Il quitte le secrétariat général en 2000 et meurt à Amman en 2008.",
+        "en": "Born in Lydda into a Greek Orthodox family, he studied medicine at the American University of Beirut. In 1948 his family was expelled when the Israeli army took Lydda. As a doctor in Amman, he founded the Arab Nationalist Movement in the early 1950s, pan-Arab and close to Nasser, which spread to South Yemen, Oman and Lebanon. After the 1967 defeat he created the PFLP, which proclaimed itself Marxist-Leninist and became the second force in the PLO; the 1970 hijackings served as a pretext for Black September. In 1974 he headed the Rejection Front against Fatah's phased programme, then opposed the Oslo Accords. He stepped down as general secretary in 2000 and died in Amman in 2008.",
+        "de": "In Lydda in eine griechisch-orthodoxe Familie geboren, studierte er Medizin an der Amerikanischen Universität Beirut. 1948 wurde seine Familie bei der Einnahme Lyddas durch die israelische Armee vertrieben. Als Arzt in Amman gründete er Anfang der 1950er Jahre die panarabische, Nasser nahestehende Bewegung Arabischer Nationalisten, die im Südjemen, in Oman und im Libanon Ableger bildete. Nach der Niederlage von 1967 schuf er die PFLP, die sich für marxistisch-leninistisch erklärte und zur zweitstärksten Kraft der PLO wurde; die Flugzeugentführungen von 1970 dienten als Vorwand für den Schwarzen September. 1974 führte er die Ablehnungsfront gegen das Etappenprogramm der Fatah an und lehnte später die Oslo-Abkommen ab. 2000 trat er als Generalsekretär zurück und starb 2008 in Amman.",
+        "draft": ["en", "de"]
+      },
+      "memberships": [
+        {
+          "org": "pflp",
+          "from": {"date": "1967-12-11"},
+          "to": {"date": "2000"},
+          "role": {
+            "fr": "secrétaire général",
+            "en": "general secretary",
+            "de": "Generalsekretär",
+            "draft": ["en", "de"]
+          }
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "hafez-al-assad",
+      "name": {
+        "fr": "Hafez el-Assad",
+        "en": "Hafez al-Assad",
+        "de": "Hafiz al-Assad",
+        "draft": ["en", "de"]
+      },
+      "occupation": {
+        "fr": "officier baasiste, président de la Syrie (1971-2000)",
+        "en": "Ba'athist officer, president of Syria (1971-2000)",
+        "de": "Baath-Offizier, Präsident Syriens (1971-2000)",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1930-10-06"},
+      "died": {"date": "2000-06-10"},
+      "death_place": "damascus",
+      "summary": {
+        "fr": "Officier de l'aviation issu d'une famille alaouite, il prend le pouvoir en 1970 et fonde une dynastie qui règne sur la Syrie jusqu'en 2024, au prix de massacres comme celui de Hama.",
+        "en": "An air force officer from an Alawite family, he seized power in 1970 and founded a dynasty that ruled Syria until 2024, at the cost of massacres such as Hama.",
+        "de": "Als Luftwaffenoffizier aus einer alawitischen Familie ergriff er 1970 die Macht und begründete eine Dynastie, die Syrien bis 2024 beherrschte, um den Preis von Massakern wie in Hama.",
+        "draft": ["en", "de"]
+      },
+      "bio": {
+        "fr": "Né à Qardaha dans une famille paysanne alaouite, il adhère jeune au Baas et entre dans l'armée de l'air. Membre du comité militaire baasiste qui prépare le coup de 1963, il devient ministre de la Défense en 1966 et porte la responsabilité militaire de la perte du Golan en 1967. En novembre 1970, il écarte l'aile gauche du parti et prend le pouvoir, puis se fait élire président en 1971. Il lance avec l'Égypte la guerre d'octobre 1973 et intervient au Liban en 1976 contre la gauche libanaise et les Palestiniens, avant de s'y installer pour trente ans. Il écrase dans le sang l'insurrection des Frères musulmans à Hama en 1982, soutient l'Iran contre l'Irak et rejoint la coalition américaine contre Saddam Hussein en 1991. Il meurt à Damas en 2000 ; son fils Bachar lui succède.",
+        "en": "Born in Qardaha into an Alawite peasant family, he joined the Ba'ath young and entered the air force. A member of the Ba'athist military committee that prepared the 1963 coup, he became defence minister in 1966 and bore military responsibility for the loss of the Golan in 1967. In November 1970 he pushed aside the party's left wing and seized power, then had himself elected president in 1971. With Egypt he launched the October 1973 war and intervened in Lebanon in 1976 against the Lebanese left and the Palestinians, before staying there for thirty years. He drowned the Muslim Brotherhood insurrection in Hama in blood in 1982, backed Iran against Iraq and joined the US coalition against Saddam Hussein in 1991. He died in Damascus in 2000; his son Bashar succeeded him.",
+        "de": "In Qardaha in eine alawitische Bauernfamilie geboren, trat er jung der Baath bei und ging zur Luftwaffe. Als Mitglied des baathistischen Militärkomitees, das den Putsch von 1963 vorbereitete, wurde er 1966 Verteidigungsminister und trug die militärische Verantwortung für den Verlust des Golan 1967. Im November 1970 drängte er den linken Parteiflügel beiseite, ergriff die Macht und ließ sich 1971 zum Präsidenten wählen. Mit Ägypten begann er den Oktoberkrieg 1973 und intervenierte 1976 im Libanon gegen die libanesische Linke und die Palästinenser, wo er dreißig Jahre blieb. 1982 schlug er den Aufstand der Muslimbrüder in Hama blutig nieder, unterstützte den Iran gegen den Irak und trat 1991 der US-Koalition gegen Saddam Hussein bei. Er starb 2000 in Damaskus; sein Sohn Baschar folgte ihm nach.",
+        "draft": ["en", "de"]
+      },
+      "memberships": [
+        {
+          "org": "baath-party",
+          "role": {"fr": "dirigeant", "en": "leader", "de": "Führer", "draft": ["en", "de"]}
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "bashar-al-assad",
+      "name": {
+        "fr": "Bachar el-Assad",
+        "en": "Bashar al-Assad",
+        "de": "Baschar al-Assad",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "saddam-hussein",
+      "name": {
+        "fr": "Saddam Hussein",
+        "en": "Saddam Hussein",
+        "de": "Saddam Hussein",
+        "draft": ["en", "de"]
+      },
+      "occupation": {
+        "fr": "dirigeant baasiste, président de l'Irak (1979-2003)",
+        "en": "Ba'athist leader, president of Iraq (1979-2003)",
+        "de": "Baath-Führer, Präsident des Irak (1979-2003)",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1937-04-28"},
+      "died": {"date": "2006-12-30"},
+      "death_place": "baghdad",
+      "summary": {
+        "fr": "Homme fort du Baas irakien après 1968, puis président, il mène la guerre contre l'Iran, gaze les Kurdes, envahit le Koweït ; renversé par l'invasion américaine de 2003, il est pendu en 2006.",
+        "en": "Strongman of the Iraqi Ba'ath after 1968 and then president, he waged war on Iran, gassed the Kurds and invaded Kuwait; overthrown by the 2003 US invasion, he was hanged in 2006.",
+        "de": "Nach 1968 starker Mann der irakischen Baath und dann Präsident, führte er Krieg gegen den Iran, vergaste die Kurden und überfiel Kuwait; durch die US-Invasion von 2003 gestürzt, wurde er 2006 gehängt.",
+        "draft": ["en", "de"]
+      },
+      "bio": {
+        "fr": "Né près de Tikrit dans une famille paysanne pauvre, il adhère au Baas en 1957 et participe en 1959 à une tentative d'assassinat de Kassem, qui le contraint à l'exil en Égypte. Revenu après le coup de 1963 et l'extermination des communistes, il devient après le coup de 1968 vice-président et chef de l'appareil de sécurité. Il conduit la nationalisation du pétrole de 1972 et, porté par la rente, bâtit un État policier qui intègre puis écrase le Parti communiste. Président en juillet 1979, il purge la direction du parti et attaque l'Iran en 1980, avec le soutien des monarchies du Golfe et des puissances occidentales. La campagne d'Anfal et Halabja suivent en 1988. L'invasion du Koweït en 1990 provoque la guerre du Golfe ; il écrase les soulèvements de 1991 et survit à douze ans d'embargo. Renversé par l'invasion de 2003 et capturé en décembre, il est condamné à mort par un tribunal irakien et pendu à Bagdad en 2006.",
+        "en": "Born near Tikrit into a poor peasant family, he joined the Ba'ath in 1957 and took part in 1959 in an attempt to assassinate Qasim, which forced him into exile in Egypt. Returning after the 1963 coup and the extermination of the communists, he became vice-president and head of the security apparatus after the 1968 coup. He led the 1972 oil nationalisation and, carried by oil rent, built a police state that first co-opted and then crushed the Communist Party. President in July 1979, he purged the party leadership and attacked Iran in 1980 with the backing of the Gulf monarchies and the Western powers. The Anfal campaign and Halabja followed in 1988. The invasion of Kuwait in 1990 provoked the Gulf War; he crushed the 1991 uprisings and survived twelve years of embargo. Overthrown by the 2003 invasion and captured in December, he was sentenced to death by an Iraqi court and hanged in Baghdad in 2006.",
+        "de": "Bei Tikrit in eine arme Bauernfamilie geboren, trat er 1957 der Baath bei und beteiligte sich 1959 an einem Attentatsversuch auf Qasim, der ihn ins ägyptische Exil zwang. Nach dem Putsch von 1963 und der Vernichtung der Kommunisten zurückgekehrt, wurde er nach dem Putsch von 1968 Vizepräsident und Chef des Sicherheitsapparats. Er leitete die Ölverstaatlichung von 1972 und baute, getragen von der Ölrente, einen Polizeistaat auf, der die Kommunistische Partei erst einband und dann zerschlug. Im Juli 1979 Präsident, säuberte er die Parteiführung und griff 1980 mit Unterstützung der Golfmonarchien und der westlichen Mächte den Iran an. 1988 folgten die Anfal-Operation und Halabdscha. Der Überfall auf Kuwait 1990 löste den Golfkrieg aus; er schlug die Aufstände von 1991 nieder und überstand zwölf Jahre Embargo. Durch die Invasion von 2003 gestürzt und im Dezember gefasst, wurde er von einem irakischen Gericht zum Tode verurteilt und 2006 in Bagdad gehängt.",
+        "draft": ["en", "de"]
+      },
+      "memberships": [
+        {
+          "org": "baath-party",
+          "from": {"date": "1957"},
+          "role": {"fr": "dirigeant", "en": "leader", "de": "Führer", "draft": ["en", "de"]}
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "ibn-saud",
+      "name": {"fr": "Ibn Saoud", "en": "Ibn Saud", "de": "Ibn Saud", "draft": ["en", "de"]},
+      "status": "draft"
+    },
+    {
+      "id": "theodor-herzl",
+      "name": {"fr": "Theodor Herzl", "en": "Theodor Herzl", "de": "Theodor Herzl", "draft": ["en", "de"]},
+      "occupation": {
+        "fr": "journaliste et écrivain, fondateur du sionisme politique",
+        "en": "journalist and writer, founder of political Zionism",
+        "de": "Journalist und Schriftsteller, Begründer des politischen Zionismus",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1860-05-02"},
+      "died": {"date": "1904-07-03"},
+      "birth_place": "budapest",
+      "summary": {
+        "fr": "Journaliste viennois, il publie L'État des Juifs en 1896 et fonde l'année suivante à Bâle l'Organisation sioniste, qui cherche l'appui d'une grande puissance pour un État juif.",
+        "en": "A Viennese journalist, he published The Jewish State in 1896 and the following year founded the Zionist Organization in Basel, seeking a great power's backing for a Jewish state.",
+        "de": "Als Wiener Journalist veröffentlichte er 1896 Der Judenstaat und gründete im Jahr darauf in Basel die Zionistische Organisation, die die Unterstützung einer Großmacht für einen jüdischen Staat suchte.",
+        "draft": ["en", "de"]
+      },
+      "bio": {
+        "fr": "Né à Pest dans une famille juive assimilée de langue allemande, il étudie le droit à Vienne et devient écrivain et correspondant à Paris de la Neue Freie Presse. Marqué par l'antisémitisme européen, il publie en 1896 L'État des Juifs, qui fait de la question juive une question nationale à régler par un État. En 1897, il réunit à Bâle le premier congrès sioniste et préside l'Organisation sioniste. Il multiplie les démarches auprès du sultan ottoman, de l'empereur allemand et du gouvernement britannique, auxquels il présente le futur État comme un rempart de l'Europe en Asie. La proposition britannique d'un territoire en Ouganda divise le mouvement en 1903. Il meurt d'une maladie cardiaque à Edlach, en Autriche, en 1904.",
+        "en": "Born in Pest into an assimilated German-speaking Jewish family, he studied law in Vienna and became a writer and the Paris correspondent of the Neue Freie Presse. Marked by European antisemitism, he published The Jewish State in 1896, turning the Jewish question into a national question to be solved by a state. In 1897 he convened the first Zionist congress in Basel and presided over the Zionist Organization. He lobbied the Ottoman sultan, the German emperor and the British government, presenting the future state to them as a rampart of Europe in Asia. The British offer of a territory in Uganda split the movement in 1903. He died of heart disease at Edlach in Austria in 1904.",
+        "de": "In Pest in eine assimilierte deutschsprachige jüdische Familie geboren, studierte er in Wien Jura und wurde Schriftsteller und Pariser Korrespondent der Neuen Freien Presse. Vom europäischen Antisemitismus geprägt, veröffentlichte er 1896 Der Judenstaat, der die Judenfrage zu einer durch einen Staat zu lösenden nationalen Frage machte. 1897 berief er in Basel den ersten Zionistenkongress ein und stand der Zionistischen Organisation vor. Er warb beim osmanischen Sultan, beim deutschen Kaiser und bei der britischen Regierung, denen er den künftigen Staat als Bollwerk Europas in Asien darstellte. Das britische Angebot eines Gebiets in Uganda spaltete die Bewegung 1903. Er starb 1904 in Edlach in Österreich an einem Herzleiden.",
+        "draft": ["en", "de"]
+      },
+      "memberships": [
+        {
+          "org": "zionist-organization",
+          "from": {"date": "1897-08"},
+          "to": {"date": "1904-07-03"},
+          "role": {"fr": "président", "en": "president", "de": "Präsident", "draft": ["en", "de"]}
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "arthur-balfour",
+      "name": {
+        "fr": "Arthur Balfour",
+        "en": "Arthur Balfour",
+        "de": "Arthur Balfour",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "mark-sykes",
+      "name": {"fr": "Mark Sykes", "en": "Mark Sykes", "de": "Mark Sykes", "draft": ["en", "de"]},
+      "status": "draft"
+    },
+    {
+      "id": "francois-georges-picot",
+      "name": {
+        "fr": "François Georges-Picot",
+        "en": "François Georges-Picot",
+        "de": "François Georges-Picot",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "jamal-al-din-al-afghani",
+      "name": {
+        "fr": "Djamal al-Din al-Afghani",
+        "en": "Jamal al-Din al-Afghani",
+        "de": "Dschamal ad-Din al-Afghani",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "muhammad-abduh",
+      "name": {
+        "fr": "Mohammed Abduh",
+        "en": "Muhammad Abduh",
+        "de": "Muhammad Abduh",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "abdullah-ocalan",
+      "name": {
+        "fr": "Abdullah Öcalan",
+        "en": "Abdullah Öcalan",
+        "de": "Abdullah Öcalan",
+        "draft": ["en", "de"]
+      },
+      "aliases": ["Apo"],
+      "occupation": {
+        "fr": "fondateur et dirigeant du PKK",
+        "en": "founder and leader of the PKK",
+        "de": "Gründer und Führer der PKK",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1949"},
+      "summary": {
+        "fr": "Fondateur du PKK en 1978, il dirige la guerre contre l'État turc depuis la Syrie, puis, emprisonné depuis 1999, théorise le « confédéralisme démocratique » et appelle en 2025 à la dissolution du parti.",
+        "en": "Founder of the PKK in 1978, he led the war against the Turkish state from Syria; imprisoned since 1999, he theorised democratic confederalism and in 2025 called for the party's dissolution.",
+        "de": "Gründer der PKK 1978, führte er von Syrien aus den Krieg gegen den türkischen Staat; seit 1999 inhaftiert, entwickelte er den demokratischen Konföderalismus und rief 2025 zur Auflösung der Partei auf.",
+        "draft": ["en", "de"]
+      },
+      "bio": {
+        "fr": "Né dans un village kurde de la province d'Urfa, il étudie les sciences politiques à Ankara, où il fréquente la gauche révolutionnaire turque. En 1978, il fonde avec un petit groupe le PKK, marxiste-léniniste, qui vise un Kurdistan indépendant et socialiste et élimine ses rivaux kurdes. Réfugié en Syrie et au Liban avant le coup d'État de 1980, il lance la lutte armée en 1984. Expulsé de Syrie en 1998 sous la pression turque, il est arrêté à Nairobi en février 1999 et condamné à mort, peine commuée en réclusion à perpétuité à l'île-prison d'İmralı. En prison, il abandonne l'objectif d'un État kurde au profit d'un « confédéralisme démocratique » inspiré de Murray Bookchin, appliqué au Rojava. En février 2025, il appelle le PKK à déposer les armes et à se dissoudre, ce que le parti annonce en mai.",
+        "en": "Born in a Kurdish village in Urfa province, he studied political science in Ankara, where he moved in Turkish revolutionary left circles. In 1978 he founded the Marxist-Leninist PKK with a small group, aiming for an independent socialist Kurdistan and eliminating its Kurdish rivals. Having taken refuge in Syria and Lebanon before the 1980 coup, he launched the armed struggle in 1984. Expelled from Syria in 1998 under Turkish pressure, he was arrested in Nairobi in February 1999 and sentenced to death, commuted to life imprisonment on the prison island of İmralı. In prison he abandoned the goal of a Kurdish state in favour of a democratic confederalism inspired by Murray Bookchin, applied in Rojava. In February 2025 he called on the PKK to lay down its arms and dissolve, which the party announced in May.",
+        "de": "In einem kurdischen Dorf der Provinz Urfa geboren, studierte er in Ankara Politikwissenschaft und verkehrte in der türkischen revolutionären Linken. 1978 gründete er mit einer kleinen Gruppe die marxistisch-leninistische PKK, die ein unabhängiges sozialistisches Kurdistan anstrebte und ihre kurdischen Rivalen ausschaltete. Vor dem Putsch von 1980 nach Syrien und in den Libanon geflohen, begann er 1984 den bewaffneten Kampf. 1998 auf türkischen Druck aus Syrien ausgewiesen, wurde er im Februar 1999 in Nairobi festgenommen und zum Tode verurteilt, umgewandelt in lebenslange Haft auf der Gefängnisinsel İmralı. In der Haft gab er das Ziel eines kurdischen Staates zugunsten eines von Murray Bookchin inspirierten demokratischen Konföderalismus auf, der in Rojava angewandt wurde. Im Februar 2025 rief er die PKK auf, die Waffen niederzulegen und sich aufzulösen, was die Partei im Mai verkündete.",
+        "draft": ["en", "de"]
+      },
+      "memberships": [
+        {
+          "org": "pkk",
+          "from": {"date": "1978-11-27"},
+          "role": {
+            "fr": "fondateur et président",
+            "en": "founder and chairman",
+            "de": "Gründer und Vorsitzender",
+            "draft": ["en", "de"]
+          }
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "mahsa-amini",
+      "name": {"fr": "Mahsa Amini", "en": "Mahsa Amini", "de": "Jina Mahsa Amini", "draft": ["en", "de"]},
+      "status": "draft"
+    },
+    {
+      "id": "recep-tayyip-erdogan",
+      "name": {
+        "fr": "Recep Tayyip Erdoğan",
+        "en": "Recep Tayyip Erdoğan",
+        "de": "Recep Tayyip Erdoğan",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "ekrem-imamoglu",
+      "name": {
+        "fr": "Ekrem İmamoğlu",
+        "en": "Ekrem İmamoğlu",
+        "de": "Ekrem İmamoğlu",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "benjamin-netanyahu",
+      "name": {
+        "fr": "Benyamin Netanyahou",
+        "en": "Benjamin Netanyahu",
+        "de": "Benjamin Netanjahu",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "gadi-eisenkot",
+      "name": {"fr": "Gadi Eisenkot", "en": "Gadi Eisenkot", "de": "Gadi Eisenkot", "draft": ["en", "de"]},
+      "status": "draft"
+    },
+    {
+      "id": "menachem-begin",
+      "name": {"fr": "Menahem Begin", "en": "Menachem Begin", "de": "Menachem Begin", "draft": ["en", "de"]},
+      "status": "draft"
+    },
+    {
+      "id": "anwar-sadat",
+      "name": {"fr": "Anouar el-Sadate", "en": "Anwar Sadat", "de": "Anwar as-Sadat", "draft": ["en", "de"]},
+      "status": "draft"
+    },
+    {
+      "id": "jimmy-carter",
+      "name": {"fr": "Jimmy Carter", "en": "Jimmy Carter", "de": "Jimmy Carter", "draft": ["en", "de"]},
+      "status": "draft"
+    },
+    {
+      "id": "dwight-d-eisenhower",
+      "name": {
+        "fr": "Dwight D. Eisenhower",
+        "en": "Dwight D. Eisenhower",
+        "de": "Dwight D. Eisenhower",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "william-knox-darcy",
+      "name": {
+        "fr": "William Knox D'Arcy",
+        "en": "William Knox D'Arcy",
+        "de": "William Knox D'Arcy",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "julius-reuter",
+      "name": {
+        "fr": "Paul Julius Reuter",
+        "en": "Paul Julius Reuter",
+        "de": "Paul Julius Reuter",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "abraham-benaroya",
+      "name": {
+        "fr": "Abraham Benaroya",
+        "en": "Abraham Benaroya",
+        "de": "Abraham Benaroya",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "benjamin-disraeli",
+      "name": {
+        "fr": "Benjamin Disraeli",
+        "en": "Benjamin Disraeli",
+        "de": "Benjamin Disraeli",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "muhammad-ibn-abd-al-wahhab",
+      "name": {
+        "fr": "Mohammed ben Abdelwahhab",
+        "en": "Muhammad ibn Abd al-Wahhab",
+        "de": "Muhammad ibn Abd al-Wahhab",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "rashid-ali-al-gaylani",
+      "name": {
+        "fr": "Rachid Ali al-Gillani",
+        "en": "Rashid Ali al-Gaylani",
+        "de": "Raschid Ali al-Gailani",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "ahmed-al-sharaa",
+      "name": {
+        "fr": "Ahmed al-Charaa",
+        "en": "Ahmed al-Sharaa",
+        "de": "Ahmed al-Scharaa",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "ariel-sharon",
+      "name": {"fr": "Ariel Sharon", "en": "Ariel Sharon", "de": "Ariel Sharon", "draft": ["en", "de"]},
+      "status": "draft"
+    },
+    {
+      "id": "kenan-evren",
+      "name": {"fr": "Kenan Evren", "en": "Kenan Evren", "de": "Kenan Evren", "draft": ["en", "de"]},
+      "status": "draft"
+    },
+    {
+      "id": "izz-ad-din-al-qassam",
+      "name": {
+        "fr": "Izz al-Din al-Qassam",
+        "en": "Izz ad-Din al-Qassam",
+        "de": "Izz ad-Din al-Qassam",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "ghassan-kanafani",
+      "name": {
+        "fr": "Ghassan Kanafani",
+        "en": "Ghassan Kanafani",
+        "de": "Ghassan Kanafani",
+        "draft": ["en", "de"]
+      },
+      "occupation": {
+        "fr": "écrivain, journaliste et porte-parole du FPLP",
+        "en": "writer, journalist and PFLP spokesman",
+        "de": "Schriftsteller, Journalist und Sprecher der PFLP",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1936-04"},
+      "died": {"date": "1972-07-08"},
+      "death_place": "beirut",
+      "summary": {
+        "fr": "Romancier de l'exil palestinien et théoricien de la « littérature de résistance », porte-parole du FPLP, il est assassiné par le Mossad à Beyrouth en 1972.",
+        "en": "Novelist of the Palestinian exile and theorist of resistance literature, PFLP spokesman, he was assassinated by the Mossad in Beirut in 1972.",
+        "de": "Romancier des palästinensischen Exils und Theoretiker der Widerstandsliteratur, PFLP-Sprecher, wurde er 1972 in Beirut vom Mossad ermordet.",
+        "draft": ["en", "de"]
+      },
+      "bio": {
+        "fr": "Né à Acre, il fuit avec sa famille en 1948 vers le Liban puis la Syrie et grandit réfugié à Damas. Enseignant dans les écoles de l'UNRWA puis au Koweït, il rejoint le Mouvement des nationalistes arabes de Georges Habache et devient journaliste à Beyrouth. Ses romans et nouvelles, dont Des hommes dans le soleil (1963) et Retour à Haïfa (1969), font de l'expérience des réfugiés le cœur de la littérature palestinienne, qu'il théorise comme « littérature de résistance ». Membre du bureau politique du FPLP, il fonde et dirige son hebdomadaire al-Hadaf et en est le porte-parole. Il est tué avec sa nièce de dix-sept ans par une voiture piégée à Beyrouth le 8 juillet 1972.",
+        "en": "Born in Acre, he fled with his family in 1948 to Lebanon and then Syria and grew up a refugee in Damascus. A teacher in UNRWA schools and then in Kuwait, he joined George Habash's Arab Nationalist Movement and became a journalist in Beirut. His novels and short stories, including Men in the Sun (1963) and Returning to Haifa (1969), put the refugee experience at the heart of Palestinian literature, which he theorised as resistance literature. A member of the PFLP political bureau, he founded and edited its weekly al-Hadaf and was its spokesman. He was killed with his seventeen-year-old niece by a car bomb in Beirut on 8 July 1972.",
+        "de": "In Akkon geboren, floh er 1948 mit seiner Familie in den Libanon und dann nach Syrien und wuchs als Flüchtling in Damaskus auf. Als Lehrer an UNRWA-Schulen und dann in Kuwait schloss er sich George Habaschs Bewegung Arabischer Nationalisten an und wurde Journalist in Beirut. Seine Romane und Erzählungen, darunter Männer in der Sonne (1963) und Rückkehr nach Haifa (1969), stellten die Erfahrung der Flüchtlinge ins Zentrum der palästinensischen Literatur, die er als Widerstandsliteratur theoretisierte. Als Mitglied des Politbüros der PFLP gründete und leitete er deren Wochenzeitung al-Hadaf und war ihr Sprecher. Er wurde am 8. Juli 1972 in Beirut mit seiner siebzehnjährigen Nichte durch eine Autobombe getötet.",
+        "draft": ["en", "de"]
+      },
+      "memberships": [
+        {
+          "org": "pflp",
+          "from": {"date": "1967-12-11"},
+          "to": {"date": "1972-07-08"},
+          "role": {
+            "fr": "membre du bureau politique, porte-parole",
+            "en": "political bureau member, spokesman",
+            "de": "Mitglied des Politbüros, Sprecher",
+            "draft": ["en", "de"]
+          }
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "naji-al-ali",
+      "name": {"fr": "Naji al-Ali", "en": "Naji al-Ali", "de": "Nadschi al-Ali", "draft": ["en", "de"]},
+      "status": "draft"
+    },
+    {
+      "id": "mahmoud-darwish",
+      "name": {
+        "fr": "Mahmoud Darwich",
+        "en": "Mahmoud Darwish",
+        "de": "Mahmud Darwisch",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "yitzhak-rabin",
+      "name": {"fr": "Yitzhak Rabin", "en": "Yitzhak Rabin", "de": "Jitzchak Rabin", "draft": ["en", "de"]},
+      "status": "draft"
+    },
+    {
+      "id": "baruch-goldstein",
+      "name": {
+        "fr": "Baruch Goldstein",
+        "en": "Baruch Goldstein",
+        "de": "Baruch Goldstein",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "mahmoud-abbas",
+      "name": {"fr": "Mahmoud Abbas", "en": "Mahmoud Abbas", "de": "Mahmud Abbas", "draft": ["en", "de"]},
+      "status": "draft"
+    },
+    {
+      "id": "ismail-haniyeh",
+      "name": {"fr": "Ismaïl Haniyeh", "en": "Ismail Haniyeh", "de": "Ismail Hanija", "draft": ["en", "de"]},
+      "status": "draft"
+    },
+    {
+      "id": "yoav-gallant",
+      "name": {"fr": "Yoav Gallant", "en": "Yoav Gallant", "de": "Joav Gallant", "draft": ["en", "de"]},
+      "status": "draft"
+    },
+    {
+      "id": "marwan-barghouti",
+      "name": {
+        "fr": "Marwan Barghouti",
+        "en": "Marwan Barghouti",
+        "de": "Marwan Barghuti",
+        "draft": ["en", "de"]
+      },
+      "status": "draft"
+    },
+    {
+      "id": "amin-al-husseini",
+      "name": {
+        "fr": "Amin al-Husseini",
+        "en": "Amin al-Husseini",
+        "de": "Amin al-Husseini",
+        "draft": ["en", "de"]
+      },
       "status": "draft"
     }
   ]

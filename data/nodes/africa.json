@@ -241,7 +241,7 @@
         "de": "Bonaparte landet in Alexandria, schlägt die Mamluken und besetzt Ägypten, um Großbritannien den Weg nach Indien abzuschneiden; die französische Armee kapituliert 1801. Die Expedition eröffnet die Zeit europäischer Einmischung in Ägypten.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "africa-imperialism"}, {"id": "1795-directory"}],
+      "parents": [{"id": "africa-imperialism"}, {"id": "1795-directory"}, {"id": "middle-east-imperialism"}],
       "persons": ["napoleon"],
       "places": ["alexandria", "cairo"],
       "status": "draft"
@@ -285,7 +285,7 @@
         "de": "Der albanische Offizier der osmanischen Armee Muhammad Ali wird Statthalter Ägyptens; er schaltet die Mamluken aus, errichtet ein Staatsmonopol auf Baumwolle und versucht eine Industrialisierung von oben, die die europäischen Mächte zerschlagen.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "africa-states-and-wars"}],
+      "parents": [{"id": "africa-states-and-wars"}, {"id": "middle-east-states-and-wars"}],
       "persons": ["muhammad-ali-of-egypt"],
       "places": ["cairo"],
       "status": "draft"
@@ -477,7 +477,11 @@
         "de": "Von seinen Anleihen ruiniert, muss Khedive Ismail eine von europäischen Gläubigern geführte Kasse hinnehmen, die die Staatseinnahmen einzieht; die Schulden ebnen den Weg für den französisch-britischen Zugriff auf Ägypten.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "africa-economy-and-disasters"}, {"id": "africa-imperialism"}],
+      "parents": [
+        {"id": "africa-economy-and-disasters"},
+        {"id": "africa-imperialism"},
+        {"id": "middle-east-economy-and-disasters"}
+      ],
       "places": ["cairo"],
       "sources": [{"ref": "wp-en-caisse-de-la-dette"}],
       "status": "draft"
@@ -494,7 +498,11 @@
         "de": "Ägyptische Offiziere, Notabeln und Bauern hinter Oberst Ahmed Urabi fordern eine Verfassung und lehnen die Vormundschaft der europäischen Gläubiger ab; die Bewegung wird durch die britische Invasion von 1882 zerschlagen.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "africa-resistance-and-liberation"}, {"id": "united-kingdom-empire"}],
+      "parents": [
+        {"id": "africa-resistance-and-liberation"},
+        {"id": "united-kingdom-empire"},
+        {"id": "middle-east-resistance-and-liberation"}
+      ],
       "persons": ["ahmed-urabi"],
       "places": ["cairo"],
       "status": "draft"
@@ -870,7 +878,11 @@
         "de": "Die Deportation Saad Zaghluls und der Wafd-Führer löst in ganz Ägypten Streiks, Demonstrationen und Bauernaufstände gegen die britische Besatzung aus, die 1922 zur formalen Unabhängigkeit führen.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "africa-resistance-and-liberation"}, {"id": "united-kingdom-empire"}],
+      "parents": [
+        {"id": "africa-resistance-and-liberation"},
+        {"id": "united-kingdom-empire"},
+        {"id": "middle-east-resistance-and-liberation"}
+      ],
       "persons": ["saad-zaghloul"],
       "places": ["cairo"],
       "status": "draft"
@@ -1001,7 +1013,11 @@
         "de": "Großbritannien erklärt einseitig die Unabhängigkeit Ägyptens, behält aber Verteidigung, Suezkanal und Sudan; die britische Militärbesatzung dauert an.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "africa-states-and-wars"}, {"id": "united-kingdom-empire"}],
+      "parents": [
+        {"id": "africa-states-and-wars"},
+        {"id": "united-kingdom-empire"},
+        {"id": "middle-east-states-and-wars"}
+      ],
       "places": ["cairo"],
       "status": "draft"
     },
@@ -1330,7 +1346,7 @@
         "de": "Die Freien Offiziere stürzen König Faruq; unter Nasser setzt das Regime Bodenreform, Verstaatlichungen und arabischen Nationalismus durch und unterdrückt zugleich Kommunisten und Arbeiterstreiks.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "africa-states-and-wars"}],
+      "parents": [{"id": "africa-states-and-wars"}, {"id": "middle-east-states-and-wars"}],
       "persons": ["gamal-abdel-nasser"],
       "places": ["cairo"],
       "organizations": ["free-officers-movement"],
@@ -2078,7 +2094,10 @@
         "de": "Die Ankündigung vom IWF geforderter Kürzungen der Subventionen für Grundnahrungsmittel löst in allen Städten einen Aufstand aus; Sadat schickt die Armee und stellt dann die Subventionen wieder her.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "africa-labour-and-social-struggles"}],
+      "parents": [
+        {"id": "africa-labour-and-social-struggles"},
+        {"id": "middle-east-labour-and-social-struggles"}
+      ],
       "places": ["cairo"],
       "organizations": ["imf"],
       "status": "draft"
@@ -2576,7 +2595,7 @@
         "de": "Die Selbstverbrennung des Straßenhändlers Mohamed Bouazizi in Sidi Bouzid löst einen Aufstand aus; getragen von den Regionalverbänden der UGTT, verjagen Generalstreiks Ben Ali und eröffnen die Welle der arabischen Revolutionen.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "africa-labour-and-social-struggles"}],
+      "parents": [{"id": "africa-labour-and-social-struggles"}, {"id": "2010-arab-revolutions"}],
       "persons": ["mohamed-bouazizi"],
       "places": ["sidi-bouzid", "tunis"],
       "organizations": ["ugtt"],
@@ -2603,7 +2622,7 @@
         "de": "Achtzehn Tage Besetzung des Tahrir-Platzes und eine Streikwelle in Industrie und Dienstleistungen zwingen Mubarak zum Rücktritt; die Armee reißt die Macht an sich und stellt 2013 die Diktatur wieder her.",
         "draft": ["en", "de"]
       },
-      "parents": [{"id": "africa-labour-and-social-struggles"}],
+      "parents": [{"id": "africa-labour-and-social-struggles"}, {"id": "2010-arab-revolutions"}],
       "places": ["cairo"],
       "status": "draft"
     },
