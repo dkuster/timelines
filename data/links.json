@@ -4110,6 +4110,24 @@
       "status": "draft",
       "provenance": {"by": "claude", "date": "2026-11-26"},
       "justification": "Deux pogroms contre une minorité religieuse couverts par le parti au pouvoir."
+    },
+    {
+      "id": "1945-civil-war-and-communist-victory-leads-to-1949-proclamation-of-the-peoples-republic-of-china",
+      "from": "node:1945-civil-war-and-communist-victory",
+      "to": "node:1949-proclamation-of-the-peoples-republic-of-china",
+      "type": "leads_to",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La victoire militaire du PCC dans la guerre civile aboutit à la proclamation du nouvel État."
+    },
+    {
+      "id": "1949-proclamation-of-the-peoples-republic-of-china-influences-1955-bandung-conference",
+      "from": "node:1949-proclamation-of-the-peoples-republic-of-china",
+      "to": "node:1955-bandung-conference",
+      "type": "influences",
+      "status": "draft",
+      "provenance": {"by": "claude", "date": "2026-11-26"},
+      "justification": "La victoire de la révolution chinoise encourage les mouvements de libération d'Asie et pèse sur la naissance du non-alignement."
     }
   ]
 }

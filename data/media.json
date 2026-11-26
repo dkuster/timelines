@@ -741,6 +741,258 @@
       "origin": "https://commons.wikimedia.org/wiki/File:Alanwoodsconhugochavez.jpg",
       "about": [{"ref": "person:alan-woods", "role": "photo"}],
       "status": "draft"
+    },
+    {
+      "id": "mao-1913-changsha",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Mao_Zedong_1913.jpg",
+      "title": {
+        "fr": "Mao Zedong en 1913",
+        "en": "Mao Zedong in 1913",
+        "de": "Mao Zedong im Jahr 1913",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Changsha, printemps 1913 : la plus ancienne photographie connue de Mao, alors élève à l'École normale du Hunan.",
+        "en": "Changsha, spring 1913: the earliest known photograph of Mao, then a student at the Hunan normal school.",
+        "de": "Changsha, Frühjahr 1913: die älteste bekannte Fotografie Maos, damals Schüler der Lehrerbildungsanstalt von Hunan.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1913"},
+      "credit": "Photographe inconnu",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Mao_Zedong_1913.jpg",
+      "about": [{"ref": "person:mao-zedong", "role": "portrait"}],
+      "status": "draft"
+    },
+    {
+      "id": "mao-1919-changsha-family",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Mao_Zedong_with_family_1919.jpg",
+      "title": {
+        "fr": "Mao Zedong et sa famille en 1919",
+        "en": "Mao Zedong with his family in 1919",
+        "de": "Mao Zedong mit seiner Familie 1919",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Changsha, 13 novembre 1919 : Mao porte un brassard de deuil après la mort de sa mère, avec son père, son oncle et son frère Mao Zetan.",
+        "en": "Changsha, 13 November 1919: Mao wears a mourning armband after his mother's death, with his father, his uncle and his brother Mao Zetan.",
+        "de": "Changsha, 13. November 1919: Mao trägt nach dem Tod seiner Mutter eine Trauerbinde, mit seinem Vater, seinem Onkel und seinem Bruder Mao Zetan.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1919-11-13"},
+      "credit": "Photographe inconnu",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Mao_Zedong_with_family_1919.jpg",
+      "about": [{"ref": "person:mao-zedong", "role": "photo"}],
+      "status": "draft"
+    },
+    {
+      "id": "mao-1927-wuhan",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Mao_Zedong_in_1927.jpg",
+      "title": {
+        "fr": "Mao Zedong à Wuhan en 1927",
+        "en": "Mao Zedong in Wuhan, 1927",
+        "de": "Mao Zedong in Wuhan 1927",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Wuhan, 1927, au moment du gouvernement nationaliste de gauche et du rapport sur le mouvement paysan du Hunan.",
+        "en": "Wuhan, 1927, at the time of the left-wing Nationalist government and the report on the Hunan peasant movement.",
+        "de": "Wuhan, 1927, zur Zeit der linken Nationalregierung und des Berichts über die Bauernbewegung in Hunan.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1927"},
+      "credit": "Photographe inconnu",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Mao_Zedong_in_1927.jpg",
+      "about": [{"ref": "person:mao-zedong", "role": "portrait"}],
+      "status": "draft"
+    },
+    {
+      "id": "mao-1936-shaanbei",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Mao_Zedong_%281936%29.jpg",
+      "title": {
+        "fr": "Mao Zedong dans le Shaanxi du Nord en 1936",
+        "en": "Mao Zedong in northern Shaanxi, 1936",
+        "de": "Mao Zedong im Norden Shaanxis 1936",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Portrait à la casquette pris dans la base rouge du Shaanxi du Nord après la Longue Marche, généralement attribué au journaliste Edgar Snow.",
+        "en": "Portrait in a cap taken at the northern Shaanxi red base after the Long March, generally attributed to the journalist Edgar Snow.",
+        "de": "Porträt mit Mütze im roten Stützpunkt im Norden Shaanxis nach dem Langen Marsch, meist dem Journalisten Edgar Snow zugeschrieben.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1936"},
+      "credit": "Photographe inconnu (attribué à Edgar Snow)",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Mao_Zedong_%281936%29.jpg",
+      "about": [
+        {"ref": "person:mao-zedong", "role": "portrait"},
+        {"ref": "node:1934-long-march", "role": "photo"}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "mao-1944-yanan-speech",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Mao_Tse-Tung%2C_leader_of_China%27s_Communists%2C_addresses_some_of_his_followers._-_NARA_-_196235.jpg",
+      "title": {
+        "fr": "Mao Zedong parle à Yan'an en 1944",
+        "en": "Mao Zedong speaking in Yan'an, 1944",
+        "de": "Mao Zedong spricht in Yan'an 1944",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Mao s'adresse à des militants à Yan'an ; image tirée des archives américaines de l'époque de la mission Dixie.",
+        "en": "Mao addresses activists in Yan'an; image from the American archives of the Dixie Mission period.",
+        "de": "Mao spricht in Yan'an zu Aktivisten; Bild aus den amerikanischen Archiven aus der Zeit der Dixie-Mission.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1944"},
+      "credit": "U.S. National Archives and Records Administration",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Mao_Tse-Tung%2C_leader_of_China%27s_Communists%2C_addresses_some_of_his_followers._-_NARA_-_196235.jpg",
+      "about": [{"ref": "person:mao-zedong", "role": "photo"}, {"ref": "place:yanan", "role": "photo"}],
+      "status": "draft"
+    },
+    {
+      "id": "mao-1949-proclamation",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Mao_Proclaiming_New_China.JPG",
+      "title": {
+        "fr": "Mao proclame la République populaire de Chine",
+        "en": "Mao proclaims the People's Republic of China",
+        "de": "Mao ruft die Volksrepublik China aus",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Porte Tian'anmen, Pékin, 1er octobre 1949 : Mao lit la proclamation du gouvernement populaire central (version restaurée de la photographie d'origine).",
+        "en": "Tiananmen Gate, Beijing, 1 October 1949: Mao reads the proclamation of the Central People's Government (restored version of the original photograph).",
+        "de": "Tor des Himmlischen Friedens, Peking, 1. Oktober 1949: Mao verliest die Proklamation der Zentralen Volksregierung (restaurierte Fassung des Originalfotos).",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1949-10-01"},
+      "credit": "Photographe inconnu ; restauration Orihara1 (Wikimedia Commons)",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Mao_Proclaiming_New_China.JPG",
+      "about": [
+        {
+          "ref": "node:1949-proclamation-of-the-peoples-republic-of-china",
+          "role": "photo",
+          "primary": true
+        },
+        {"ref": "person:mao-zedong", "role": "photo"}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "mao-1949-moscow-stalin",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/1949_Mao_and_Stalin.jpg",
+      "title": {
+        "fr": "Mao et Staline à Moscou en 1949",
+        "en": "Mao and Stalin in Moscow, 1949",
+        "de": "Mao und Stalin in Moskau 1949",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Moscou, 21 décembre 1949 : Mao aux côtés de Staline lors des cérémonies de son 70e anniversaire, avec Boulganine, Ulbricht et Tsedenbal.",
+        "en": "Moscow, 21 December 1949: Mao beside Stalin at the ceremonies for his 70th birthday, with Bulganin, Ulbricht and Tsedenbal.",
+        "de": "Moskau, 21. Dezember 1949: Mao an Stalins Seite bei den Feiern zu dessen 70. Geburtstag, mit Bulganin, Ulbricht und Tsedenbal.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1949-12-21"},
+      "credit": "Photographe inconnu",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:1949_Mao_and_Stalin.jpg",
+      "about": [
+        {"ref": "person:mao-zedong", "role": "photo"},
+        {"ref": "person:stalin", "role": "photo"},
+        {"ref": "place:moscow", "role": "photo"}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "mao-1950-official-portrait",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Mao_Tse_Tung.jpg",
+      "title": {
+        "fr": "Portrait officiel de Mao Zedong (1950)",
+        "en": "Official portrait of Mao Zedong (1950)",
+        "de": "Offizielles Porträt Mao Zedongs (1950)",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Pékin, 10 novembre 1950 : portrait officiel qui sert de modèle à l'effigie de la porte Tian'anmen.",
+        "en": "Beijing, 10 November 1950: official portrait used as the model for the effigy on Tiananmen Gate.",
+        "de": "Peking, 10. November 1950: offizielles Porträt, Vorlage für das Bildnis am Tor des Himmlischen Friedens.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1950-11-10"},
+      "credit": "Chen Zhengqing",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:Mao_Tse_Tung.jpg",
+      "about": [{"ref": "person:mao-zedong", "role": "portrait", "primary": true}],
+      "status": "draft"
+    },
+    {
+      "id": "mao-1966-red-guards",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/1966-11_1966%E5%B9%B4%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%9E%97%E5%BD%AA%E4%B8%8E%E7%BA%A2%E5%8D%AB%E5%85%B5.jpg",
+      "title": {
+        "fr": "Mao et Lin Biao parmi les gardes rouges",
+        "en": "Mao and Lin Biao among the Red Guards",
+        "de": "Mao und Lin Biao unter den Roten Garden",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Pékin, automne 1966 : Mao et Lin Biao passent en revue les gardes rouges ; photographie publiée par le Renmin Huabao (La Chine en images).",
+        "en": "Beijing, autumn 1966: Mao and Lin Biao review the Red Guards; photograph published by Renmin Huabao (China Pictorial).",
+        "de": "Peking, Herbst 1966: Mao und Lin Biao nehmen eine Parade der Roten Garden ab; Foto aus der Renmin Huabao (China im Bild).",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1966"},
+      "credit": "Renmin Huabao",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:1966-11_1966%E5%B9%B4%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%9E%97%E5%BD%AA%E4%B8%8E%E7%BA%A2%E5%8D%AB%E5%85%B5.jpg",
+      "about": [
+        {"ref": "person:mao-zedong", "role": "photo"},
+        {"ref": "person:lin-biao", "role": "photo"},
+        {"ref": "node:1966-red-guards-and-red-august", "role": "photo"}
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "mao-1972-nixon",
+      "kind": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/President_Richard_Nixon_and_Mao_Zedong.jpg",
+      "title": {
+        "fr": "Mao reçoit Richard Nixon",
+        "en": "Mao receives Richard Nixon",
+        "de": "Mao empfängt Richard Nixon",
+        "draft": ["en", "de"]
+      },
+      "caption": {
+        "fr": "Pékin, 21 février 1972 : poignée de main entre Mao et le président américain, au premier jour de sa visite en Chine.",
+        "en": "Beijing, 21 February 1972: Mao shakes hands with the US president on the first day of his visit to China.",
+        "de": "Peking, 21. Februar 1972: Mao schüttelt dem US-Präsidenten am ersten Tag seines China-Besuchs die Hand.",
+        "draft": ["en", "de"]
+      },
+      "date": {"date": "1972-02-21"},
+      "credit": "White House Photo Office (U.S. National Archives)",
+      "license": "Public domain",
+      "origin": "https://commons.wikimedia.org/wiki/File:President_Richard_Nixon_and_Mao_Zedong.jpg",
+      "about": [
+        {"ref": "person:mao-zedong", "role": "photo"},
+        {"ref": "person:richard-nixon", "role": "photo"},
+        {"ref": "node:1972-nixon-visit-to-china", "role": "photo"}
+      ],
+      "status": "draft"
     }
   ]
 }

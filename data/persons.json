@@ -9661,6 +9661,60 @@
         "draft": ["en", "de"]
       },
       "aliases": ["Mao Tsé-toung", "Mao Tse-tung"],
+      "occupation": {
+        "fr": "révolutionnaire communiste, président du Parti communiste chinois et fondateur de la République populaire de Chine",
+        "en": "communist revolutionary, Chairman of the Chinese Communist Party and founder of the People's Republic of China",
+        "de": "kommunistischer Revolutionär, Vorsitzender der Kommunistischen Partei Chinas und Gründer der Volksrepublik China",
+        "draft": ["en", "de"]
+      },
+      "born": {"date": "1893-12-26"},
+      "died": {"date": "1976-09-09"},
+      "birth_place": "shaoshan",
+      "death_place": "beijing",
+      "summary": {
+        "fr": "Dirigeant du Parti communiste chinois à partir de 1935, il conduit la révolution paysanne et la guerre populaire qui portent le parti au pouvoir en 1949, puis gouverne la République populaire jusqu'à sa mort en 1976.",
+        "en": "Leader of the Chinese Communist Party from 1935, he led the peasant revolution and people's war that brought the party to power in 1949, then ruled the People's Republic until his death in 1976.",
+        "de": "Ab 1935 Führer der Kommunistischen Partei Chinas, leitete er die Bauernrevolution und den Volkskrieg, die die Partei 1949 an die Macht brachten, und regierte die Volksrepublik bis zu seinem Tod 1976.",
+        "draft": ["en", "de"]
+      },
+      "bio": {
+        "fr": "Fils d'un paysan aisé de Shaoshan, dans le Hunan, il étudie à Changsha, découvre le marxisme comme employé de la bibliothèque de l'université de Pékin et participe au mouvement du 4 Mai. Membre fondateur du Parti communiste chinois en 1921, il milite aussi au Guomindang pendant le premier front uni et se consacre au mouvement paysan. Après l'échec de la révolte de la Moisson d'automne (1927), il bâtit avec Zhu De l'Armée rouge et les bases rurales du Jiangxi, puis prend la tête du parti pendant la Longue Marche, à la conférence de Zunyi (1935). Depuis Yan'an, il dirige la guerre contre le Japon puis la guerre civile, et proclame la République populaire le 1er octobre 1949. Au pouvoir, il conduit la réforme agraire, l'intervention en Corée et la collectivisation, lance le Grand Bond en avant, suivi d'une famine qui fait des dizaines de millions de morts, et rompt avec l'URSS. En 1966, il déclenche la Révolution culturelle contre une partie de l'appareil, se rapproche des États-Unis en recevant Nixon en 1972 et meurt à Pékin en 1976.",
+        "en": "The son of a well-off peasant from Shaoshan in Hunan, he studied in Changsha, discovered Marxism as an assistant at the Peking University library and took part in the May Fourth Movement. A founding member of the Chinese Communist Party in 1921, he also worked within the Kuomintang during the First United Front and devoted himself to the peasant movement. After the failure of the Autumn Harvest Uprising (1927), he built the Red Army with Zhu De and the rural bases of Jiangxi, then took the lead of the party during the Long March, at the Zunyi Conference (1935). From Yan'an he led the war against Japan and then the civil war, and proclaimed the People's Republic on 1 October 1949. In power, he led land reform, the intervention in Korea and collectivisation, launched the Great Leap Forward, followed by a famine that killed tens of millions, and broke with the USSR. In 1966 he unleashed the Cultural Revolution against part of the apparatus, moved closer to the United States by receiving Nixon in 1972 and died in Beijing in 1976.",
+        "de": "Als Sohn eines wohlhabenden Bauern aus Shaoshan in Hunan studierte er in Changsha, lernte als Mitarbeiter der Bibliothek der Universität Peking den Marxismus kennen und nahm an der Bewegung des 4. Mai teil. 1921 Gründungsmitglied der Kommunistischen Partei Chinas, war er während der ersten Einheitsfront auch in der Kuomintang aktiv und widmete sich der Bauernbewegung. Nach dem Scheitern des Herbsternteaufstands (1927) baute er mit Zhu De die Rote Armee und die ländlichen Stützpunkte in Jiangxi auf und übernahm während des Langen Marsches auf der Konferenz von Zunyi (1935) die Führung der Partei. Von Yan'an aus leitete er den Krieg gegen Japan und dann den Bürgerkrieg und rief am 1. Oktober 1949 die Volksrepublik aus. An der Macht führte er die Bodenreform, die Intervention in Korea und die Kollektivierung durch, begann den Großen Sprung nach vorn, dem eine Hungersnot mit zig Millionen Toten folgte, und brach mit der UdSSR. 1966 entfesselte er die Kulturrevolution gegen einen Teil des Apparats, näherte sich 1972 mit dem Empfang Nixons den USA an und starb 1976 in Peking.",
+        "draft": ["en", "de"]
+      },
+      "memberships": [
+        {
+          "org": "chinese-communist-party",
+          "from": {"date": "1921-07"},
+          "to": {"date": "1976-09-09"},
+          "role": {
+            "fr": "membre fondateur, président du Comité central à partir de 1943",
+            "en": "founding member, Chairman of the Central Committee from 1943",
+            "de": "Gründungsmitglied, ab 1943 Vorsitzender des Zentralkomitees",
+            "draft": ["en", "de"]
+          }
+        },
+        {
+          "org": "kuomintang",
+          "from": {"date": "1923", "qualifier": "circa"},
+          "to": {"date": "1927"},
+          "note": "Double appartenance pendant le premier front uni."
+        },
+        {
+          "org": "chinese-soviet-republic",
+          "from": {"date": "1931-11"},
+          "to": {"date": "1934-10"},
+          "role": {
+            "fr": "président du Conseil des commissaires du peuple",
+            "en": "Chairman of the Council of People's Commissars",
+            "de": "Vorsitzender des Rates der Volkskommissare",
+            "draft": ["en", "de"]
+          }
+        }
+      ],
+      "wikidata": "Q5816",
+      "sources": [{"ref": "wp-en-mao-zedong"}, {"ref": "wikidata-q5816"}],
       "status": "draft"
     },
     {

@@ -9026,6 +9026,14 @@
       "country": "MM",
       "coords": {"lat": 19.75, "lon": 96.12},
       "status": "draft"
+    },
+    {
+      "id": "shaoshan",
+      "name": {"fr": "Shaoshan", "en": "Shaoshan", "de": "Shaoshan", "draft": ["en", "de"]},
+      "kind": "city",
+      "country": "CN",
+      "coords": {"lat": 27.91, "lon": 112.48},
+      "status": "draft"
     }
   ]
 }

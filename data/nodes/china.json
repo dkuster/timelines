@@ -7539,6 +7539,36 @@
       "organizations": ["peoples-liberation-army"],
       "sources": [{"ref": "usni-justice-mission-2025"}],
       "status": "draft"
+    },
+    {
+      "id": "1949-proclamation-of-the-peoples-republic-of-china",
+      "title": {
+        "orig": "zh",
+        "zh": "中华人民共和国开国大典",
+        "zh-Latn": "Zhōnghuá Rénmín Gònghéguó kāiguó dàdiǎn",
+        "fr": "Proclamation de la République populaire de Chine",
+        "en": "Proclamation of the People's Republic of China",
+        "de": "Ausrufung der Volksrepublik China",
+        "draft": ["en", "de"]
+      },
+      "type": "founding",
+      "start": {"date": "1949-10-01"},
+      "summary": {
+        "fr": "Du haut de la porte Tian'anmen, Mao Zedong proclame la République populaire de Chine : la victoire de l'Armée populaire de libération met fin à un siècle de domination étrangère et de guerre civile.",
+        "en": "From the top of the Tiananmen Gate, Mao Zedong proclaims the People's Republic of China: the victory of the People's Liberation Army ends a century of foreign domination and civil war.",
+        "de": "Vom Tor des Himmlischen Friedens ruft Mao Zedong die Volksrepublik China aus: Der Sieg der Volksbefreiungsarmee beendet ein Jahrhundert ausländischer Herrschaft und des Bürgerkriegs.",
+        "draft": ["en", "de"]
+      },
+      "parents": [
+        {"id": "1949-new-democracy-and-socialist-transformation"},
+        {"id": "china-communist-movement"},
+        {"id": "asia-states-and-wars"},
+        {"id": "world-states"}
+      ],
+      "persons": ["mao-zedong"],
+      "places": ["tiananmen-square", "beijing"],
+      "organizations": ["chinese-communist-party"],
+      "status": "draft"
     }
   ]
 }

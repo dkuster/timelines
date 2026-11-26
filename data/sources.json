@@ -12210,6 +12210,24 @@
       "language": "en",
       "url": "https://www.idea.int/democracytracker/report/nepal/september-2025",
       "status": "draft"
+    },
+    {
+      "id": "wp-en-mao-zedong",
+      "type": "website",
+      "title": "Mao Zedong",
+      "publisher": "Wikipedia (en)",
+      "language": "en",
+      "url": "https://en.wikipedia.org/wiki/Mao_Zedong",
+      "status": "draft"
+    },
+    {
+      "id": "wikidata-q5816",
+      "type": "website",
+      "title": "Mao Zedong (Q5816)",
+      "publisher": "Wikidata",
+      "language": "en",
+      "url": "https://www.wikidata.org/wiki/Q5816",
+      "status": "draft"
     }
   ]
 }
